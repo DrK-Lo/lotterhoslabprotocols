@@ -23,7 +23,6 @@ description: A page outlining protocols used in the Lotterhos Lab!
 
 # List of links in the navigation bar
 navbar-links:
-  Home: ""
   General Protocols:
     - Solution Recipes: "solutionrecipes"
     - Autoclave (OGL): "autoclave"
