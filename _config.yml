@@ -37,11 +37,11 @@ navbar-links:
     - SPLAT Library Prep: "splatlibraryprep"
     - Illumina Library Prep: "illuminalibraryprep"
     - RNAseq Library Prep: "rnaseqlibraryprep"
-    - Gel Electrophoresis:
+    - Gel Electrophoresis: "gelelectrophoresis"
     - BioAnalyzer Library Check: "bioanalyzerlibrarycheck"
     - TapeStation Library Check: "tapestationlibrarycheck"
     - Take3 DNA Quantification: "take3dnaquantification"
-  Field and Sampling Protocols: "fieldprotocols"
+  Field and Sampling Protocols:
     - Collecting Samples for DNA: "collectsampdna"
     - Collecting Samples for RNA: "collectsamprna"
   Coding Protocols: "codingprotocols"
