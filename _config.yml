@@ -24,12 +24,35 @@ description: A page outlining protocols used in the Lotterhos Lab!
 # List of links in the navigation bar
 navbar-links:
   Home: ""
-  Molecular Protocols: "molecular protocols"
+  General Protocols:
+    - Solution Recipes: "solutionrecipes"
+    - Autoclave (OGL): "autoclave"
+  Molecular Protocols:
+    - DNA Extraction (Qiagen): "dnaextractionqiagen"
+    - DNA Extraction (Omega): "dnaextractionomega"
+    - DNA Extraction (Spartina): "dnaextractionspartina"
+    - RNA Extraction: "rnaextraction"
+    - Magnetic Bead Wash: "magbeadwash"
+    - ddRAD Library Prep: "ddradlibprep"
+    - bs RAD Library Prep: "bsddradlibprep"
+    - SPLAT Library Prep: "splatlibraryprep"
+    - Illumina Library Prep: "illuminalibraryprep"
+    - RNAseq Library Prep: "rnaseqlibraryprep"
+    - Gel Electrophoresis:
+    - BioAnalyzer Library Check: "bioanalyzerlibrarycheck"
+    - TapeStation Library Check: "tapestationlibrarycheck"
+    - Take3 DNA Quantification: "take3dnaquantification"
+  Field and Sampling Protocols: "fieldprotocols"
+    - Collecting Samples for DNA: "collectsampdna"
+    - Collecting Samples for RNA: "collectsamprna"
+  Coding Protocols: "codingprotocols"
+    - Version Control with GitHub: "versioncontrol"
+    - General Directory Organization: "directoryorganization"
+    - Useful Coding Lines: "usefulcodinglines"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
-  About me: "http://bmford11.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
