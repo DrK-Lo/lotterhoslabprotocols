@@ -46,6 +46,7 @@ navbar-links:
   Field and Sampling Protocols:
     - Collecting Samples for DNA: "collectsampdna"
     - Collecting Samples for RNA: "collectsamprna"
+    - Water Sampling: "watersampling"
   Coding Protocols:
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
