@@ -4,7 +4,9 @@ title: Solution Recipes
 subtitle: Recipes for solutions and reagents needed for lab protocols
 ---
 
-## 7.5M ammonium acetate
+
+
+###  7.5M ammonium acetate
 
 | Ingredient | Amount |
 |------------|--------|
@@ -15,7 +17,8 @@ subtitle: Recipes for solutions and reagents needed for lab protocols
 * final pH will be 5.5
 
 
-## Bleach 10%
+
+### Bleach 10%
 
 | Ingredient | Amount |
 |------------|--------|
@@ -25,7 +28,8 @@ subtitle: Recipes for solutions and reagents needed for lab protocols
 * solution is good for up to 7 days
 
 
-## 0.5M EDTA (pH - 8)
+
+### 0.5M EDTA (pH - 8)
 
 | Ingredient | Amount |
 |------------|--------|
@@ -36,6 +40,7 @@ subtitle: Recipes for solutions and reagents needed for lab protocols
 * Stir vigorously on a magnetic stirrer. 
 * Adjust the pH to 8.0. 
 * Sterilize by autoclaving. (Be sure not to screw on the lid or bottle will explode)
+
 
 
 ### 1mM EDTA (pH - 8) for storing extracted RNA 
@@ -49,6 +54,7 @@ EDTA should help stabilize and protect the RNA, but be sure to check with downst
 |NaOH (Fisher #BP359-212) |0.036 g|
 
 * Stir vigorously on a magnetic stirrer. Adjust the pH to 8.0. Sterilize by autoclaving
+
 
 
 ### Ethidium Bromide (10mg/ml)
@@ -65,6 +71,7 @@ CAUTION: Ethidium bromide is a mutagen and is toxic. Wear gloves when working wi
 * store at 4C
 
 
+
 ### CTAB
 | Ingredient | Amount |
 |------------|--------|
@@ -76,7 +83,8 @@ CAUTION: Ethidium bromide is a mutagen and is toxic. Wear gloves when working wi
 * Mix ingredients together in a clean beaker. Stir on hot plate with stir bar. Heat gently until CTAB is dissolved. Pour into graduated cylinder and bring volume up to 100ml using nanopure H2O. Pour into a bottle with a cap. Autoclave before using. Store at room temperature. Discard after 1 year.
 
 
-## dNTPs (10mM)
+
+### dNTPs (10mM)
 
 To make 48 aliquots of 25ul each of 10mM dNTPs
 
@@ -90,7 +98,8 @@ All of the items below come in a Fisher package #FERR01811
 |ddH20 | 720 ul | 60 ul|
 
 
-## 5M NaCl 500ml
+
+### 5M NaCl 500ml
 | Ingredient | Amount |
 |------------|--------|
 |NaCl (Fisher #S271-1) | 146.1 g|
@@ -99,7 +108,7 @@ All of the items below come in a Fisher package #FERR01811
 *Dissolve, then bring up to volume with H2O *Sterilize by autoclaving (15 minutes)
 
 
-## NaOH 10N
+### NaOH 10N
 | Ingredient | Amount |
 |------------|--------|
 | NaOH (Fisher #BP359-212)| 40g|
@@ -108,14 +117,16 @@ All of the items below come in a Fisher package #FERR01811
 *continue adding water to 100ml
 
 
-## 10% Tween-20
+
+### 10% Tween-20
 | Ingredient | Amount |
 |------------|--------|
 | 100% Tween-20 (Fisher #97062-332) | 1ml |
 Add distilled H2O to make final volume of 10ml
 
 
-## TBE 10X (stock solution)
+
+### TBE 10X (stock solution)
 | Ingredient | Amount |
 |------------|--------|
 | Tris base (Fisher #BP15210) | 108g |
@@ -127,7 +138,8 @@ Add distilled H2O to make final volume of 10ml
 * might be too concentrated for long term storage, ok if you are planning to do a lot of work
 
 
-## TBE 5X (stock solution)
+
+### TBE 5X (stock solution)
 | Ingredient | Amount |
 |------------|--------|
 | Tris base (Fisher #BP15210) | 54 g |
@@ -139,7 +151,8 @@ Add distilled H2O to make final volume of 10ml
 * (1X TBE = 200ml of 5X TBE + 800ml)
 
 
-## TE 
+
+### TE 
 
 A low TE buffer that is 0.1mM EDTA is better for DNA that is destined for next-generation sequencing, because the EDTA interferes with enzymatic reactions.
 
@@ -165,7 +178,8 @@ A low TE buffer that is 0.1mM EDTA is better for DNA that is destined for next-g
 * Bring to a final volume of 100ml with nanopure H20
 
 
-## 1M Tris
+
+### 1M Tris
 | Ingredient | Amount |
 |------------|--------|
 |Tris-base (Fisher #BP15210) | 121.1g |
@@ -173,7 +187,8 @@ A low TE buffer that is 0.1mM EDTA is better for DNA that is destined for next-g
 * Bring volume up to 1 liter with ddH20
 
 
-## 1M Tris-HCL
+
+### 1M Tris-HCL
 | Ingredient | Amount |
 |------------|--------|
 | Tris base (Fisher #BP15210) | 60.56g |
