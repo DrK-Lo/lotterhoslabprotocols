@@ -5,7 +5,7 @@ subtitle: The protocol for quantifying DNA/RNA samples using the Take3
 bigimg: /img/take3.JPG
 ---
 
-#Take3 Run
+# Take3 Run
 1. Select File -> New Task
 2. When prompted by Task Manager, select Read Now in left pane.
 3. Select Nucleic Acid Quantification (or Protein A280 if measuring proteins) under Take3 Application at the bottom of prompt
