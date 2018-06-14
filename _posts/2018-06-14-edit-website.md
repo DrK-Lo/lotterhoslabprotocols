@@ -13,7 +13,7 @@ The /lotterhoslabprotocols project was created under Brett's personal webpage bm
 View the Test markdown post to help you understand how to create pages
 
 The steps to creating a project under a personal GitHub page were a bit confusing, but this is what I did:
-1. Created my personal page following the [instructions](https://github.com/daattali/beautiful-jekyll#readme)
+1. Created my personal page following the [instructions](https://github.com/daattali/beautiful-jekyll#readme).
 This includes forking original repository, and renaming repository under settings
 2. Create a new repository for project with title of project (e.g., lotterhoslabprotocols)
 3. Now you need to duplicate the beautiful-jekyll respository to this project repository, but GitHub won't let you fork it again
