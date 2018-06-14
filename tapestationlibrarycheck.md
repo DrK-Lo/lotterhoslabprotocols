@@ -2,6 +2,7 @@
 layout: page
 title: TapeStation Library Check
 subtitle: The protocol for checking libraries on the TapeStation
+bigimg: /img/tapestation.JPG
 ---
 
 ## Background
