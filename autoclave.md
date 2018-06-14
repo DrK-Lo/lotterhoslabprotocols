@@ -11,6 +11,10 @@ An autoclave chamber is used to sterilize laboratory equipment, including liquid
 * Biohazard waste containers
 * Pipette tip boxes
 
+# Tips before starting
+* Review or take the autoclave training on the Northeastern Environmental Health and Safety [website](https://www.northeastern.edu/ehs/training/online-training/#5). 
+* Always unscrew jars or vials as the high pressure may cause them to explode if tightened.
+
 # Protocol
 1. Fill out autoclave sign up in binder
 2. Make sure all knobs are at zero 
@@ -31,7 +35,3 @@ An autoclave chamber is used to sterilize laboratory equipment, including liquid
 14. Run for 20-30 min on dry
 15. Set knobs back to zero and turn off autoclave
 16. Make sure the red arm is back to 0
-
-# Tips before starting
-* Review or take the autoclave training on the Northeastern Environmental Health and Safety [website](https://www.northeastern.edu/ehs/training/online-training/#5). 
-* Always unscrew jars or vials as the high pressure may cause them to explode if tightened.
