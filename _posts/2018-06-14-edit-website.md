@@ -18,16 +18,23 @@ This includes forking original repository, and renaming repository under setting
 2. Create a new repository for project with title of project (e.g., lotterhoslabprotocols)
 3. Now you need to duplicate the beautiful-jekyll respository to this project repository, but GitHub won't let you fork it again
 4. So I git cloned the bare repository to my local computer
+
 `git clone --bare https://github.com/bmford11/bmford11.github.io.git`
+
 5. I then cd into that directory
 'cd bmford11.github.io.git'
 6. I then git pushed a mirror of the new directory to the project directory I created
+
 `git push --mirror https://github.com/bmford11/lotterhoslabprotocols.git`
+
 **THIS IS IMPORTANT**:
+
 7. You then have to create all pages from the gh-pages branch
 8. I edited the \_config.yml file quite a bit, using the original file to see how to create links in the navigation bar
 (Basically, under navbar-links in \_config.yml, hit tab and type title of link you want in bar with a colon
 You can then add sublinks which you do by typing two tabs, a dash, a space, the title of the sublink,  a colon, then the markdown (without extension) for the page in quotes
+
 **Make sure the markdown is in your repository and is named as specified in your config file**
+
 9. Pages are created by creating new markdown files, adding them to your repository, and adding them to the config file
 
