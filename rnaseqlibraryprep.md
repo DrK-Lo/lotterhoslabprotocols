@@ -346,7 +346,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 * Thoroughly resuspend the beads in 25 μl of 10 mM Tris-HCl (pH 8.0).
 * Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads
 
-###Safe Stopping Point
+### Safe Stopping Point
 The solution with resuspended beads can be stored at 4 °C for up to 24 hours. Do not freeze the beads, as this can result in dramatic loss of DNA. When ready, proceed to **2nd Post-Ligation Cleanup**.
 
 ### 2nd Post-Ligation Cleanup
@@ -376,10 +376,10 @@ The solution with resuspended beads can be stored at 4 °C for up to 24 hours. D
 * Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.
 * Transfer 20 μl of the clear supernatant to a new plate/tube and proceed to *Library Amplication*.
 
-###SAFE STOPPING POINT
+### SAFE STOPPING POINT
 The purified, adapter-ligated library DNA may be stored at 4 °C for up to 1 week, or frozen at -20 °C for up to 1 month. When ready, proceed to **Library Amplification**.
 
-###Library Amplificiation
+### Library Amplificiation
 
 * Assemble each library ampli cation reaction as follows:
 
@@ -402,14 +402,14 @@ The purified, adapter-ligated library DNA may be stored at 4 °C for up to 1 wee
 |Hold|10 °C | ∞|1|
 
 
-##NEEDS TO BE TESTED
+## NEEDS TO BE TESTED
 *Annealing temperature may need to be optimized*
 
 I think that 8 cycles should be enough.  It's half the maximum recommended number for the kit, and given the that we have another PCR step after DSN, I don't think we need to maximize here
 
 * Place the plate/tube on ice and proceed to **Library Amplification Cleanup**
 
-###Library Amplification Cleanup
+### Library Amplification Cleanup
 
 * Perform a 1X SPRI® cleanup by combining the following
 
