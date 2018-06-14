@@ -187,7 +187,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 * Carefully remove 10 μl of the supernatant containing the eluted, fragmented, and primed RNA into a separate plate or tube.
 * Proceed immediately to **1st Strand Synthesis**.
 
-###1st Strand Synthesis
+### 1st Strand Synthesis
 * On ice, assemble the 1st Strand Synthesis reaction as follows:
 
 |Component|Volume|
@@ -208,7 +208,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 * Place the plate/tube on ice and proceed immediately to **2nd Strand Synthesis and Marking**.
 
-###2nd Strand Synthesis
+### 2nd Strand Synthesis
 * Assemble the 2nd Strand Synthesis and Marking reaction as follows:
 
 |Component|Volume|
