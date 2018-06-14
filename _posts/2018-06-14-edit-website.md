@@ -10,6 +10,8 @@ tags: [test]
 This website was created from the [daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll#readme) Github repository
 Some basics:
 The /lotterhoslabprotocols project was created under Brett's personal webpage bmford11.github.io, but now may reside under Katie's personal GitHub site.
+View the Test markdown post to help you understand how to create pages
+
 The steps to creating a project under a personal GitHub page were a bit confusing, but this is what I did:
 1. Created my personal page following the [instructions](https://github.com/daattali/beautiful-jekyll#readme)
 This includes forking original repository, and renaming repository under settings
