@@ -19,7 +19,7 @@ Each user has their own remote repository that is private
 Log onto cluster by opening Terminal and typing: `ssh username@defiance.neu.edu` (e.g. `ssh br.ford@defiance.neu.edu`)
 You'll then log onto a computing node. The basic outline of computing nodes is below:
 
-`comp` (Lotterhos)
+`comp5` (Lotterhos)
 `comp6`
 `comp7` (Bowen)
 `comp8`
@@ -35,4 +35,4 @@ First, go to folder on computer with file in it. Then transfer file(s) into pers
 Or to download to personal computer from defiance, go to folder on your computer where you want the file, then:
 `my_laptop\$ scp br.ford@defiance.neu.edu:/home/br.ford/br.ford_remote/my_folder/my_file .`
 
-`/shared_lab` can not be accessed with scp, so you'll need to move (`mv`) things to your remote repository before downloading to personal computer
+`/shared_lab` can not be accessed with `scp`, so you'll need to move (`mv`) things to your remote repository before downloading to personal computer
