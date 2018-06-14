@@ -16,23 +16,23 @@ Each user has their own remote repository that is private
 
 ### Accessing Cluster
 **After Gaining Access from Stefan**
-Log onto cluster by opening Terminal and typing: ssh username@defiance.neu.edu (e.g. br.ford@defiance.neu.edu)
+Log onto cluster by opening Terminal and typing: `ssh username@defiance.neu.edu` (e.g. `ssh br.ford@defiance.neu.edu`)
 You'll then log onto a computing node. The basic outline of computing nodes is below:
 
-comp5 (Lotterhos)
-comp6
-comp7 (Bowen)
-comp8
+`comp` (Lotterhos)
+`comp6`
+`comp7` (Bowen)
+`comp8`
 
-Log onto comp5 by typing: ssh comp5
+Log onto comp5 by typing: `ssh comp5`
 
-**You can only access the /shared_lab directory by logging on to one of the computing nodes (comp5)**
+**You can only access the `/shared_lab` directory by logging on to one of the computing nodes (comp5)**
 
 T transfer files from my computer to defiance remote directory:
 First, go to folder on computer with file in it. Then transfer file(s) into personal folder
-my_laptop\$ scp ./my_file br.ford@defiance.neu.edu:/home/br.ford/br.ford_remote/my_folder
+`my_laptop\$ scp ./my_file br.ford@defiance.neu.edu:/home/br.ford/br.ford_remote/my_folder`
 
 Or to download to personal computer from defiance, go to folder on your computer where you want the file, then:
-my_laptop\$ scp br.ford@defiance.neu.edu:/home/br.ford/br.ford_remote/my_folder/my_file .
+`my_laptop\$ scp br.ford@defiance.neu.edu:/home/br.ford/br.ford_remote/my_folder/my_file .`
 
-shared_lab can not be accessed with scp, so you'll need to move (mv) things to your remote repository before downloading to personal computer
+`/shared_lab` can not be accessed with scp, so you'll need to move (`mv`) things to your remote repository before downloading to personal computer
