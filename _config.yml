@@ -26,6 +26,7 @@ navbar-links:
   Home: ""
   General Protocols:
     - Solution Recipes: "solutionrecipes"
+    - Determining Barcodes & Indexes: "barcodesnindexes"
     - Autoclave (OGL): "autoclave"
   Molecular Protocols:
     - DNA Extraction (Qiagen): "dnaextractionqiagen"
