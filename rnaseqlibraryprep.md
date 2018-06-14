@@ -32,9 +32,9 @@ Annealing buffer stock (10X):
 | NaCl|500 mM|
 | EDTA| 10 mM|
 
-###Equipment 
+### Equipment 
 
-###Custom Oligos needed to make adapters:
+### Custom Oligos needed to make adapters:
 
 Jon can you add a figure here on the adapters... Illumina calls P1 P5 and P2 P7... just to avoid confusion for the eventual user of this protocol.
 
@@ -124,7 +124,7 @@ Single-stranded oligos need to be annealed with their appropriate partner before
 |Balance of water (if required)|5 μl|
 |**Total Reaction Volume**| **30 μl**|
 
-###mRNA Capture
+### mRNA Capture
 * Combine the following for each RNA sample to be captured:
 
 |Component|Volume|
@@ -158,7 +158,7 @@ Single-stranded oligos need to be annealed with their appropriate partner before
 * Place the plate/tube on the magnet and incubate at room temperature until the solution is clear. Remove and discard the supernatant.
 * Remove the beads from the magnet and resuspend in 100 μl of KAPA mRNA Bead Wash Buffer by pipetting up and down several times.
 * Place the plate/tube on the magnet and incubate at room temperature until the solution is clear. Remove and discard the entire volume of supernatant.
-####mRNA Elution, Fragmentation and Priming
+#### mRNA Elution, Fragmentation and Priming
 * Prepare the required volume of 1X Fragment, Prime and Elute Buffer as follows:
 
 |Component|Volume per sample|
@@ -169,7 +169,7 @@ Single-stranded oligos need to be annealed with their appropriate partner before
 
 * Thoroughly resuspend the KAPA mRNA Capture Beads with captured mRNA prepared in Step 2.13 above in 11 μl of 1X Fragment, Prime and Elute Buffer.
 
-###Safe Stopping Point
+### Safe Stopping Point
 Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. Do not freeze the samples as this will damage the beads. When ready, proceed to step below.
 
 * Place the plate/tubes in a thermal cycler and carry out the fragmentation and priming program as follows:
@@ -227,7 +227,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 * Place the plate/tube on ice and proceed immediately to **2nd Strand Synthesis and Marking Cleanup**.
 
-###Cleanup
+### Cleanup
 
 * Perform a 1.8X SPRI® cleanup by combining the following:
 
@@ -251,13 +251,13 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
   * **Caution: over-drying the beads may result in dramatic yield loss.**
 * Proceed immediately to **A-Tailing** immediately, or follow the Safe Stopping Point instructions below.
 
-###SAFE STOPPING POINT
+### SAFE STOPPING POINT
 * Resuspend the beads in 15 μl 1X A-Tailing Buffer (Table 5B), cover the reaction and store at 4 oC for up to 24 hours. Do not freeze the samples as this will damage the AMPure® XP® beads. When ready, proceed to **A-Tailing after Safe Stopping Point**.
 
-###A-Tailing
+### A-Tailing
 * A-Tailing is performed either directly after the 2nd Strand Synthesis and Marking Cleanup, or after the Safe Stopping Point, where beads were resuspended in 1X A-Tailing Buffer and stored at 4 °C for up to 24 hours. 
 
-###A-Tailing immediately
+### A-Tailing immediately
 * Assemble the A-Tailing reaction as follows:
 
 |Component|Volume|
@@ -277,7 +277,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 * Proceed immediately to **Adapter Ligation**.
 
-###A-Tailing after safe stopping point
+### A-Tailing after safe stopping point
 * To resume library preparation, combine the following reagents to perform A-Tailing:
 
 |Component|Volume|
@@ -297,7 +297,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 
 * Proceed immediately to **Adapter Ligation**.
 
-###Adapter Ligation
+### Adapter Ligation
 * Set up the adapter ligation reactions as follows:
 
 |Component|Volume|
@@ -307,7 +307,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 |**Adapters***| 2.5 μl|
 |**Total Volume**| **35 μl**|
 
-####Adapter concentration will vary depending on overall RNA yield, see table below:
+#### Adapter concentration will vary depending on overall RNA yield, see table below:
 |Quantity of starting material|Adapter stock concentration|Adapter concentration in ligation reaction|
 |----|----|-----|
 |100 – 250 ng|140 nM| 10 nM|
@@ -315,13 +315,13 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 |501 – 2000 ng|700 nM|50 nM|
 |2001 – 4000 ng|1400 nM|100 nM|
 
-####This will be where we insert the custom adapters that are barcoded with RE sites
+#### This will be where we insert the custom adapters that are barcoded with RE sites
 
 * Mix thoroughly by pipetting up and down several times to resuspend the beads.
 * Incubate the plate/tube at 20 °C for 15 min.
 * Proceed immediately to **1st Post-Ligation Cleanup**.
 
-###Post-Ligation Cleanup
+### Post-Ligation Cleanup
 
 * Perform a 1X SPRI® cleanup by combining the following:
 
@@ -349,7 +349,7 @@ Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. D
 ###Safe Stopping Point
 The solution with resuspended beads can be stored at 4 °C for up to 24 hours. Do not freeze the beads, as this can result in dramatic loss of DNA. When ready, proceed to **2nd Post-Ligation Cleanup**.
 
-###2nd Post-Ligation Cleanup
+### 2nd Post-Ligation Cleanup
 
 * Perform a 1X SPRI® cleanup by combining the following:
 
