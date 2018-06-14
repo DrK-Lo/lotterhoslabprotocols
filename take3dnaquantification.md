@@ -2,6 +2,7 @@
 layout: page
 title: Take3 DNA Quantification
 subtitle: The protocol for quantifying DNA/RNA samples using the Take3
+bigimg: /img/take3.JPG
 ---
 
 #Take3 Run
