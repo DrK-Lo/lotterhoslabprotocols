@@ -6,7 +6,7 @@ subtitle: The protocol for doing a library prep using Illumina kit
 
 ## Background
 
-Before you start this, you should [determine the barcodes and index scheme for your library.](https://github.com/DrK-Lo/lab-wiki/wiki/6-Illumina-Library-Prep-with-Kapa-(Sara-Katie-Jon))
+Before you start this, you should [determine the barcodes and index scheme for your library.](https://bmford11.github.io/lotterhoslabprotocols/barcodesnindexes/)
 
 Then, you should draw an outline of what is happening at each step in this protocol:
 
