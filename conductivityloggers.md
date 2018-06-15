@@ -35,14 +35,13 @@ This gives basic information about the logger such as the device name, serial nu
 ## Deploying loggers
 
 #### Materials you'll need before deploying:
-1. Cinderblock
-2. Metal tubing straps to attach PVC fixed loggers to
-3. Zipties
-4. PVC pipe large and long enough to fit logger, \"swiss-cheesed\' with holes
+* Cinderblock
+* Metal tubing straps to attach PVC fixed loggers to
+* Zipties
+* PVC pipe large and long enough to fit logger, \"swiss-cheesed\' with holes
 **There must be enough holes for regular flow of water through the PVC pipe. The PVC pipe prevents large rocks and debris from damaging loggers**
-5. Rope and buoy
-6. Glass bottles and 50 mL Falcon tubes. See [this page](https://bmford11.github.io/lotterhoslabprotocols/watersampling/) for water sampling protocol
-7. 
+* Rope and buoy
+* Glass bottles and 50 mL Falcon tubes. See [this page](https://bmford11.github.io/lotterhoslabprotocols/watersampling/) for water sampling protocol 
 
 #### Before leaving for the field
 1. Attach metal straps to cinder block
@@ -67,11 +66,11 @@ Sensors should be deployed at low tide, so that we know they'll be constantly ex
 Data from loggers should be off-loaded about every two weeks
 
 #### Materials you'll need before going into the field for off-loading data
-1. Glass bottle and 50mL Falcon tube fore water samples
-2. HOBO Waterproof shuttle and correct coupler
-3. Kimwipes
-4. Wire cutters (to clip zipties)
-5. Zipties- to reattached sensor
+* Glass bottle and 50mL Falcon tube fore water samples
+* HOBO Waterproof shuttle and correct coupler
+* Kimwipes
+* Wire cutters (to clip zipties)
+* Zipties- to reattached sensor
 
 ### Transferring Data to the Shuttle
 1. Retrieve logger and **record the time you collected logger**

@@ -5,7 +5,7 @@ subtitle: The protocol for extracting DNA with the Qiagen Tissue Kit
 bigimg: /img/qiagen.JPG
 ---
 
-This protocols has proven successful for rockfish (Sebastes), cod (Gadus morhua), and oysters (Crassostrea).
+This protocol has proven successful for rockfish (Sebastes), cod (Gadus morhua), and oysters (Crassostrea).
 
 # Materials and Equipment
 

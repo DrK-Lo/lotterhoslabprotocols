@@ -73,6 +73,7 @@ CAUTION: Ethidium bromide is a mutagen and is toxic. Wear gloves when working wi
 
 
 ### CTAB
+
 | Ingredient | Amount |
 |------------|--------|
 | 4M NaCl (Fisher #S271-1)| 35 mL|
@@ -89,6 +90,7 @@ CAUTION: Ethidium bromide is a mutagen and is toxic. Wear gloves when working wi
 To make 48 aliquots of 25ul each of 10mM dNTPs
 
 All of the items below come in a Fisher package #FERR01811
+
 | Ingredient | Amount for 12X| Amount for 1X |
 |------------|--------|-------|
 |dTTP (100mM) | 120 ul | 10 ul|
@@ -100,6 +102,7 @@ All of the items below come in a Fisher package #FERR01811
 
 
 ### 5M NaCl 500ml
+
 | Ingredient | Amount |
 |------------|--------|
 |NaCl (Fisher #S271-1) | 146.1 g|
@@ -109,6 +112,7 @@ All of the items below come in a Fisher package #FERR01811
 
 
 ### NaOH 10N
+
 | Ingredient | Amount |
 |------------|--------|
 | NaOH (Fisher #BP359-212)| 40g|
@@ -119,6 +123,7 @@ All of the items below come in a Fisher package #FERR01811
 
 
 ### 10% Tween-20
+
 | Ingredient | Amount |
 |------------|--------|
 | 100% Tween-20 (Fisher #97062-332) | 1ml |
@@ -127,6 +132,7 @@ Add distilled H2O to make final volume of 10ml
 
 
 ### TBE 10X (stock solution)
+
 | Ingredient | Amount |
 |------------|--------|
 | Tris base (Fisher #BP15210) | 108g |
@@ -140,6 +146,7 @@ Add distilled H2O to make final volume of 10ml
 
 
 ### TBE 5X (stock solution)
+
 | Ingredient | Amount |
 |------------|--------|
 | Tris base (Fisher #BP15210) | 54 g |
@@ -180,6 +187,7 @@ A low TE buffer that is 0.1mM EDTA is better for DNA that is destined for next-g
 
 
 ### 1M Tris
+
 | Ingredient | Amount |
 |------------|--------|
 |Tris-base (Fisher #BP15210) | 121.1g |
@@ -189,6 +197,7 @@ A low TE buffer that is 0.1mM EDTA is better for DNA that is destined for next-g
 
 
 ### 1M Tris-HCL
+
 | Ingredient | Amount |
 |------------|--------|
 | Tris base (Fisher #BP15210) | 60.56g |

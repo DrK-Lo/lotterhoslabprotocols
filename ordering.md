@@ -8,9 +8,9 @@ subtitle: The protocol for ordering supplies and equipment for the lab
 Most supplies for the lab are ordered through companies that Northeastern has accounts with, such as Fisher, Sigma Aldrich or VWR
 To order from these companies:
 
-1. Log in to myNortheastern
+1. Log on to myNortheastern
 2. Go to Services & Links -> myMarketplace (Under \'Finance Services for Faculty\\Staff\')
-3. Log into myMarketplace
+3. Log on to myMarketplace
 4. Scroll down and select the company you want to order from (e.g., Fisher Scientific)
 5. Search for your desired item
 6. Choose price and quantity

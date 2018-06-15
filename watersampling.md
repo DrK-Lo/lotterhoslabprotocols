@@ -9,11 +9,11 @@ The protocol below is based on sampling from **three sites**, sampled approximat
 
 
 ## MATERIALS
-1. 3 50 mL Falcon Tubes
-2. 3 glass bottles from the Ries Lab 
-3. A styrofoam cooler with ice
-4. Digital thermometers or PreSens
-5. Field notebook
+* 3 50 mL Falcon Tubes
+* 3 glass bottles from the Ries Lab 
+* A styrofoam cooler with ice
+* Digital thermometers or PreSens
+* Field notebook
 
 ## PREP
 1. Grab three glass bottles from the Ries Lab. You'll need card access for this. Grab the large bottles unless there aren't any clean
