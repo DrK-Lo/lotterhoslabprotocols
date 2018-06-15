@@ -69,26 +69,35 @@ Data from loggers should be off-loaded about every two weeks
 #### Materials you'll need before going into the field for off-loading data
 1. Glass bottle and 50mL Falcon tube fore water samples
 2. HOBO Waterproof shuttle and correct coupler
-3. Laptop with HOBOWare and USB cord (unless logger was deployed with a launched shuttle and HOBOWare Pro)
-4. Kimwipes
+3. Kimwipes
+4. Wire cutters (to clip zipties)
+5. Zipties- to reattached sensor
 
-### Off-loading Data
-1. Retrieve logger
-2. Make sure logger is completely dry before hooking up to shuttle and coupler 
+### Transferring Data to the Shuttle
+1. Retrieve logger and **record the time you collected logger**
+2. Detach logger from the cinderblock and make sure it's is completely dry before hooking up to shuttle and coupler
 3. Remove rubber cap
 4. Connect logger to shuttle with coupler
-5. Plug into computer
-6. Open HOBOWare
-7. Go to \'Device\' in menu bar and choose \'Readout\'
-8. You should then be prompted with the message: 
+**Make sure the shuttle cap to the USB port is tightly sealed when in the field to prevent any water damage**
+5. Press coupler level, the yellow \'Transfer\' light should start blinking (if it doesn't, you probably didn't press the lever hard enough)
+6. Once the transfer has completed the \'OK\' light will start blinking, which means it is ready for relaunch
+7. The green light will blink for 15 minutes before relaunching. **If you want to relaunch immediately, press the coupler lever**
+8. The green \'OK\' light should turn off, and the logger has been succesfully relaunched
+9. Place the rubber cap back on the logger and reattach to the PVC pipe
+10. Deploy
+11. Record time of deployment
+12. Take water samples **THIS IS IMPORTANT, as this data will be used to correct deviations for salinity data**
 
-\"The logger is currently logging. Do you wish to stop before reading out the logger?\"
+**You do not do a calibration step before relaunching the salinity loggers like you do for the pH loggers**
 
-9. Choose yes. 
-10. Save readout to computer, choosing the appropriate settings
-11. Disconnect logger and replace rubber cap
-12. Relaunch (see \'Deploying\' above)
-13. Record time of deployment
-14. Take water samples
-**When the shuttle is not connected to the computer, make sure the waterproof cap is properly sealed to prevent water from damaging the USB port**
-. 
+### Offloading the Data
+**You need the HoboWare Pro software to properly offload data from the shuttle. You can download the base version then get the license number from the Helmuth Lab (Francis) which you enter by selecting \'Manage License Key\' under Help
+1. Connect shuttle to computer with miniUSB cord. You **DO NOT** need to press coupler lever for offloading data from shuttle
+2. Go to Device-> Manage Shuttle
+3. A pane will come up with the device details for the shuttle. Any data that has not been offloaded will blink red. Select the data you want to offload by clicking the checkmark next to the file and click \'Offload Checked\'
+4. Save by choosing a folder, **change filename** (especially if offloading from the same logger as it defaults to logger name), and click \'Save Checked\'
+5. Once saved, the pane will return to the Files on Shuttle list
+6. Click close and disconnect shuttle from computer
+
+#### NOTES
+To save space on the shuttle you can click \'Delete Checked\'. The shuttle has 63 banks, but I'm not sure the size of these banks, so banks should be deleted after they have been saved and backed-up so the memory does not max out when you go to transfer data again

@@ -50,8 +50,8 @@ navbar-links:
     - Collecting Samples for DNA: "collectsampdna"
     - Collecting Samples for RNA: "collectsamprna"
     - Water Sampling: "watersampling"
-    - Connectivity Loggers: "conductivityloggers"
-    - pH Sensors: "phsensors"
+    - Conductivity Loggers: "conductivityloggers"
+    - pH Loggers: "phloggers"
   Coding Protocols:
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
