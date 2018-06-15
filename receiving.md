@@ -20,7 +20,7 @@ There are extra steps required when receiving chemicals
 1. When you receive the package, unbox the chemical, and make sure you have the packing slip
 2. **LABEL WITH \'LOTTERHOS\'**
 3. Add pre-printed barcode to chemical container
-image: lotterhoslabprotocols/img/chemicallabels.JPG
+image: /lotterhoslabprotocols/img/chemicallabels.JPG
 4. Log into myNortheastern
 5. Go to Services & Links -> EH&S Assistant (under \'Environmental Health and Safety\')
 6. Login (If you don't have a username and password, e-mail Ryan Hill)
