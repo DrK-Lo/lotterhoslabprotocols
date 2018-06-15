@@ -26,3 +26,5 @@ Most major projects in the lab will have their own git repository. If you are st
 
 10. Then in the upper right corner, on the black navigation bar, it should give you the option to push these commits to the main repository on GitHub. Do so by clicking on the box.
 11. If changes have been made on the online GitHub repository, you will need to \'pull\' these before pushing your commits (essentially, making sure you have the most up-to-date versions of files before making changes). You do this by choosing \'pull\' in the upper right hand box, and then you can \'push\' your changes.
+
+<img src="../img/githubdesktop.gif" style="width:100%;" alt="GitHub Desktop" />
