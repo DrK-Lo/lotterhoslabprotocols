@@ -7,7 +7,7 @@ subtitle: The protocol for calibrating/initializing, deploying, and offloading D
 ## Initializing Loggers
 We use the [HOBO Salt Water Conductivity/Salinity Data Logger](http://www.onsetcomp.com/products/data-loggers/u24-002-c) to measure local changes in salinity, conductivity, and temperature where we sample oysters.
 
-To initialize the sensor:
+To initialize the logger:
 1. First, make sure you have the [Hobo Waterproof Shuttle](http://www.onsetcomp.com/products/communications/u-dtw-1) and appropriate coupler (Blue COUPLER2-C for U22/U24/U26/U20L) 
 2. Make sure you have HOBOWare downloaded to your computer
 3. Attach conductivity logger to the shuttle with the coupler. Align the arrows between the logger and shuttle coupler for proper connection
@@ -46,12 +46,12 @@ This gives basic information about the logger such as the device name, serial nu
 #### Before leaving for the field
 1. Attach metal straps to cinder block
 2. Attach PVC pipe to the metal rings that are fastened to the cinderblock
-3. Label cinderblock, PVC pipe, buoy, and sensors with contact information (Katie's)
-4. Make sure you've contacted local shellfish constable to make sure they can keep an eye on the sensor
+3. Label cinderblock, PVC pipe, buoy, and loggers with contact information (Katie's)
+4. Make sure you've contacted local shellfish constable to make sure they can keep an eye on the loggers
 
 ### Deploying
-Sensors should be deployed at low tide, so that we know they'll be constantly exposed to water while logging
-1. Before deploying, attach sensor(s) to PVC using many zipties
+Loggers should be deployed at low tide, so that we know they'll be constantly exposed to water while logging
+1. Before deploying, attach logger(s) to PVC using many zipties
 2. Wade to waist-deep water at site of deployment
 3. Deploy logger
 4. Record time of deployment. If loggers start logging before they are deployed they give strange readings. It is good to know when the logger was actually deployed, so we know when logging was actually initiated
@@ -70,7 +70,7 @@ Data from loggers should be off-loaded about every two weeks
 * HOBO Waterproof shuttle and correct coupler
 * Kimwipes
 * Wire cutters (to clip zipties)
-* Zipties- to reattached sensor
+* Zipties- to reattached logger
 
 ### Transferring Data to the Shuttle
 1. Retrieve logger and **record the time you collected logger**

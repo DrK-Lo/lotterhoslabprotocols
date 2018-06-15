@@ -35,5 +35,6 @@ To order from external companies:
 
 1. Login with lab login
 2. Place order, making sure no tax is applied (it\'s hard to get reimbursed)
-3. If using your e-mail, and you receive receipt, rename PDF with same convention as above and add to Dropbox
-4. Typically lab login will be through Katie's e-mail; confirm with Katie that she has received the receipt
+3. Pay with American Express card
+4. If using your e-mail, and you receive receipt, rename PDF with same convention as above and add to Dropbox
+5. Typically lab login will be through Katie's e-mail; confirm with Katie that she has received the receipt
