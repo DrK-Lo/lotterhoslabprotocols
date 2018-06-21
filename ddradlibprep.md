@@ -87,7 +87,7 @@ second modication was the adapters. Both the p5 and p7 adapters were designed t
 oset by a 0-2 bp insertion. For both reads, this will oset the sequencer at the restriction
 site so that it is not blinded by the laser. The p7 adapter (right) was designed to also
 contain a 4-bp degenerate base sequence that we can use to identify PCR duplicates. This
-sequence was accompanied by another 4-bp that were designed to making sure the
+sequence was accompanied by another 4-bp that were designed to make sure the
 adapters anneal together well.
 FOR DDRAD, YOU SHOULD CHOOSE ENZYMES THAT ARE NOT SENSITIVE
 TO DNA METHYLATION.
@@ -115,7 +115,7 @@ endonuclease digestion. Using the proper amounts of DNA, enzyme and buffer compo
 correct reaction volume will allow you to achieve optimal digestion. By definition, 1 unit of
 restriction enzyme will completely digest 1 ug of substrate DNA in a 50 ul reaction in 60 minutes.
 This enzyme : DNA : reaction volume ratio can be used as a guide when designing reactions.
-However, most researchers follow the "typical" reaction conditions listed, where a 5{10 fold
+However, most researchers follow the "typical" reaction conditions listed, where a 5:10 fold
 overdigestion is recommended to overcome variability in DNA source, quantity and purity. NEB
 offers the following tips to help you to achieve maximal success in your restriction endonuclease
 reactions. NEB recommends 10 units restriction enzyme, 1g DNA, 1X NEB Buer (5L), and 1
