@@ -44,7 +44,7 @@ bigimg: /img/omega.JPG
 2. If working with many samples (>10) get a styrofoam container with ice to keep tissue samples cool while prepping for extraction.
 3. Remove tissues from freezer and let thaw (do not let them sit any longer than necessary). Once thawed they can be placed on ice (this generally won't cause them to re-freeze).
 4. Tare piece of weighing paper on scale.
-5. Carefully remove tissue from 2mL tube. Using a sterile razor blade to cut piece of tissue roughly 20mg in weight. Using 100% EtoH, gently rinse tissue and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+5. Carefully remove tissue from 2mL tube. Using a sterile razor blade to cut a piece of tissue roughly 20mg in weight. Using 100% EtoH, gently rinse tissue and pat dry with clean kim wipe, so that the tissue appears nearly dry.
 6. Place tissue on weigh paper and measure the weight, if the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue.
 
   **Note:** Between samples razors & forceps should be sterilized by spraying with EtoH and using a flame to burn off any residual EtoH and tissue.
