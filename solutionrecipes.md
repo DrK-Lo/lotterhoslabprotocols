@@ -45,7 +45,7 @@ subtitle: Recipes for solutions and reagents needed for lab protocols
 
 ### 1mM EDTA (pH - 8) for storing extracted RNA 
 
-EDTA should help stabilize and protect the RNA, but be sure to check with downstream library prep first. Use sterile 25mL pipettes to measure RNA free water and put into a 100mL glassware (autoclaved, wiped clean with RNAaseZap or RNAase Away, and rinsed with RNAase-free water). Clean magnetic spinbar with RNAaseZap. Calibrate pH meter an wipe outside with RNAase zap. Use pasteur pipette to add HCl for pH adjustment, but wipe outside with RNAase-Zap.
+EDTA should help stabilize and protect the RNA, but be sure to check with downstream library prep first. Use sterile 25mL pipettes to measure RNA free water and put into a 100mL glassware (autoclaved, wiped clean with RNAaseZap or RNAase Away, and rinsed with RNAase-free water). Clean magnetic spinbar with RNAaseZap. Calibrate pH meter and wipe outside with RNAase zap. Use pasteur pipette to add HCl for pH adjustment, but wipe outside with RNAase-Zap.
 
 | Ingredient | Amount |
 |------------|--------|
@@ -127,7 +127,7 @@ All of the items below come in a Fisher package #FERR01811
 | Ingredient | Amount |
 |------------|--------|
 | 100% Tween-20 (Fisher #97062-332) | 1ml |
-Add distilled H2O to make final volume of 10ml
+| Distilled H20 | 9 ml |
 
 
 
