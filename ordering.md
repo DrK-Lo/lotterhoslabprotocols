@@ -22,7 +22,7 @@ To order from these companies:
 12. From here, choose the index (the budget code, depending on the project), the account code (typically Scientific Supplies), and how much to cover with this budget code (typically 100%)
 13. Click \'Send to Approval\'
 **DO NOT FORGET STEPS BELOW**
-14. Once you receive a confirmation e-mail with the receipt of the purchase forward it to the Business and Operations Manager (currently Heather Sears) and David Dawson. CC Katie on the e-mail
+14. Once you receive a confirmation e-mail with the receipt of the purchase forward it to the Business and Operations Manager (currently Liz Magee) and David Dawson. CC Katie on the e-mail
 15. **In the body of the e-mail put the index number it was charged to**
 16. Download PDF of the receipt, rename to date\_company\_item (e.g. 20180505\_Fisher\_Gloves) and add it to the Dropbox Folder : LotterhosLab/orders and receipts 
 **Katie will need these receipts to do budgets at the end of the month**
