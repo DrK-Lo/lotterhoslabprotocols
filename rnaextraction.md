@@ -45,25 +45,25 @@ Adapted from official protocol.  Download [here](http://depts.washington.edu/kel
 		* Freeze rapidly in liquid nitrogen (tissue pieces must be small enough to freeze in a few seconds)
 		* Submerge in a tissue storage buffer RNAlater® 
 	* Handling frozen tissue: Weigh frozen tissue, break into pieces smaller than ~50 mg (keeping tissue completely frozen), and homogenize directly in TRI Reagent solution. Larger pieces of tissue, very hard or fibrous tissues, and tissues with a high RNase content must typically be ground to a powder in liquid nitrogen for maximum RNA yield.
-	* Homogenizing tissue: Homogenize samples in 10–20 volumes TRI Reagent solution (e.g., 1 mL TRI Reagent solution per 50–100mg tissue), using standard homogenization proce- dures.
+	* Homogenizing tissue: Homogenize samples in 10–20 volumes TRI Reagent solution (e.g., 1 mL TRI Reagent solution per 50–100mg tissue), using standard homogenization procedures.
 		* The sample volume should not exceed 10% of the volume of TRI Reagent solution used for homogenization.
 2. Incubate the homogenate for 5 min at room temp.
 	* This 5 min room temperature incubation allows nucleoprotein complexes to completely dissociate.
 	* Homogenized samples can be stored at –70°C for at least one month.
 3. (Optional) Centrifuge at 12,000 xg for 10 min at 4°C and transfer the supernatant to a fresh tube.
-	* This optional centrifugation is only required to remove insolu- able material from homogenates that contain high amounts of protein, fat, polysaccharide, or extracellular material, such as muscle, fat tissue, and tuberous parts of plants. Centrifugation pellets extracellular membranes, polysaccharides, and high molecular weight DNA, leaving the RNA in the supernatant. High molecular weight DNA can be recovered from the pellet by following the wash and solubilization steps of the DNA isolation protocol, available [here](www.ambion.com/techlib/append/supp.)
+	* This optional centrifugation is only required to remove insoluable material from homogenates that contain high amounts of protein, fat, polysaccharide, or extracellular material, such as muscle, fat tissue, and tuberous parts of plants. Centrifugation pellets, extracellular membranes, polysaccharides, and high molecular weight DNA, leaving the RNA in the supernatant. High molecular weight DNA can be recovered from the pellet by following the wash and solubilization steps of the DNA isolation protocol, available [here](www.ambion.com/techlib/append/supp.)
 4. Add 100 μL BCP per 1 mL of TRI Reagent solution, mix well, and incubate at room temp for 5–15 min.
 	* Add 100 μL BCP per 1 mL of TRI Reagent solution used for homogenization. Alternatively, 200 μL of chloroform (without isoamyl alcohol) can be used in place of BCP.
-	* Capthetubestightlyandshakevigorouslyfor15sec.
+	* Cap the tubes tightly and shake vigorously for 15sec.
 	* Incubate the mixture at room temperature for 5–15 min.
 5. Centrifuge at 12,000 x g for 10–15 min at 4°C, then transfer the aqueous phase to a fresh tube.
 	* **Centrifuge at 12,000 x g for 10–15 min at 4°C.**
 	* Transfer the aqueous phase (colorless top layer) to a fresh tube.
 	* RNA remains exclusively in the aqueous phase whereas DNA and protein are in the interphase and organic phase. 
-	* The interphase and lower, red, organic phase can be stored at 4°C for subsequent isolation of DNA and protein. A protocol is posted at [here](www.ambion.com/techlib/append/supp)
+	* The interphase and lower, red, organic phase can be stored at 4°C for subsequent isolation of DNA and protein. A protocol is posted [here](www.ambion.com/techlib/append/supp)
 6. Add 500 μL of isopropanol per 1 mL of TRI Reagent solution, vortex for 5–10 sec, and incubate at room temp for 5–10 min.
 	* Add 500 μL of isopropanol per 1 mL of TRI Reagent solution used for sample homogenization.
-	* Vortexatmoderatespeedfor5–10sec.
+	* Vortex at moderate speed for 5–10 sec.
 	* Incubate the samples at room temp for 5–10 min.
 	* **Note** For oysters, we use a modified protocol:
 		* Transfer the aqueous phase from step 5 to a fresh tube. For each 1 mL of TRI Reagent solution used for the homogenization, add 250 μL of isopropanol and 250 μL of a high salt precipitation solution (e.g. 0.8 M sodium citrate and 1.2 M NaCl).
