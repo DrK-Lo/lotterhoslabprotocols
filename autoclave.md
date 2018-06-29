@@ -31,7 +31,7 @@ An autoclave chamber is used to sterilize laboratory equipment, including liquid
 10. Set timer (NOTE: Setting timer starts the run)
 11. Come back 52 minutes later (32 in autoclave + 20 to depressurize) - If the red gauge reads lower than your desired temperature, it didn’t get hot enough (due to too much water or too much glassware). Run it again, if needed, for slightly longer (~40 mins) and make sure it reaches the appropriate temperature (indicated by red arm)
 12. Crack open door to boil off water
-13. Set bottom knob to dry
+13. OPTIONAL: Set bottom knob to extra dry (if there is still a lot of moisture
 14. Run for 20-30 min on dry
-15. Set knobs back to zero and turn off autoclave
+15. Otherwise, set knobs back to zero and turn off autoclave
 16. Make sure the red arm is back to 0
