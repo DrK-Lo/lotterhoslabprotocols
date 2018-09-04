@@ -39,6 +39,10 @@ To download the file to a different directory than the one you are currently in,
 
 `/shared_lab` cannot be accessed with `scp`, so you'll need to move (`mv`) things to your remote repository before downloading to your personal computer
 
+### Installed packages
+Stefan has pre-installed a large variety of useful packages on compliance (formerly comp5). It can be useful to know which version of a package you are using and it is not always intuitive to check the package version from the command line. [Click here](/installedpackages.md) for a list of packages, including version numbers.  
+
+
 ### Checking and managing resource usage on defiance
 
 Defiance is a shared resource, so it is important to monitor the resources being used in order to avoid overloading the server. Before beginning any resource-intensive analysis, you should log into comp5 and enter the command `htop` to bring up the following interface:
@@ -47,7 +51,7 @@ Defiance is a shared resource, so it is important to monitor the resources being
 <img src="../img/htop_screenshot.png" alt="htop example" />
 
 
-One way to immediately get a sense of whether too many resources are being used is to look at the load average, circled in red in this image. These 3 numbers represent the CPU load over the past minute, 5 minutes, and 15 minutes (from left to right). The higher the load average and the longer it has been high, the more concerned you should be. A spike in the load average for the past minute may be ok, but a sustained high load for the past 15 minutes means some processes need to be killed before the server crashes. How high is too high? A common rule of thumb is 0.70 x total number of CPUs. Since we have 72 CPUs on comp5, if you see the load above or approaching 50.0 you should wait for other jobs to finish before starting any new ones.
+One way to immediately get a sense of whether too many resources are being used is to look at the load average, circled in red in this image. These 3 numbers represent the CPU load over the past minute, 5 minutes, and 15 minutes (from left to right). The higher the load average and the longer it has been high, the more concerned you should be. A spike in the load average for the past minute may be ok, but a sustained high load for the past 15 minutes means some processes need to be killed before the server crashes. How high is too high? A common rule of thumb is 0.70 x total number of CPUs. Since we have 72 CPUs on comp5, if you see the <b>load above or approaching 50.0 you should wait for other jobs to finish</b> before starting any new ones.
 
 There is also a lot more information htop gives you that you can take into account. The top portion of the screen shows a real-time representation of how much load is on each of the 72 CPUs. In this image you can see that 2.0% of the total capacity of CPU number 38 is being used and none of the others are in use. Directly below the CPU grid is a bar showing the memory usage. 2.92 of 252 GB of memory is being used in this image. The bottom half of the htop display shows a list of processes currently running, the user they belong to, and information about the resources they are using. 
 
