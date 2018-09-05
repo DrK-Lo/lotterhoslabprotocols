@@ -8,7 +8,7 @@ To use the defiance cluster you need to contact Stefan (graduate student in Voll
 You'll need to send Stefan your public key. Public keys can be created following the steps here: <https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html>
 Ask Stefan to give you access to `/shared_lab` directory
 
-Stefan has pre-installed a lot of packages on compliance. [Click here](/installedpackages.md) for a complet list, including version numbers.  
+Stefan has pre-installed a lot of packages on compliance. [Click here](/installedpackages.md) for a complete list, including version numbers.  
 
 
 If you require additional programs while using cluster, you'll need to ask Stefan to install it. E-mail him the software and version, and he should have it installed within 24 hours.
