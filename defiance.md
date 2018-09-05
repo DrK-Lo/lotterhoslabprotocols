@@ -7,6 +7,10 @@ subtitle: Notes on how to access and use the defiance cluster
 To use the defiance cluster you need to contact Stefan (graduate student in Vollmer lab; S.Kaluziak@northeastern.edu) and request access
 You'll need to send Stefan your public key. Public keys can be created following the steps here: <https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html>
 Ask Stefan to give you access to `/shared_lab` directory
+
+Stefan has pre-installed a lot of packages on compliance. [Click here](/installedpackages.md) for a complet list, including version numbers.  
+
+
 If you require additional programs while using cluster, you'll need to ask Stefan to install it. E-mail him the software and version, and he should have it installed within 24 hours.
 
 ### Description of defiance
@@ -38,9 +42,6 @@ Or to download to your personal computer from defiance, go to the folder on your
 To download the file to a different directory than the one you are currently in, simply replace the '.' at the end of the command with the path to that directory.
 
 `/shared_lab` cannot be accessed with `scp`, so you'll need to move (`mv`) things to your remote repository before downloading to your personal computer
-
-### Installed packages
-Stefan has pre-installed a large variety of useful packages on compliance (formerly comp5). It can be useful to know which version of a package you are using and it is not always intuitive to check the package version from the command line. [Click here](/installedpackages.md) for a list of packages, including version numbers.  
 
 
 ### Checking and managing resource usage on defiance
