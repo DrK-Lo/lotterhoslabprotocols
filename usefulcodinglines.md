@@ -32,5 +32,15 @@ The -i argument says to use in-place editing (edit and return file without makin
 
 <img src="../img/changepermissions.gif" style="width:100%;" alt="Change Permissions" />
 
+### Need to know how many lines or columns you have in a file?
 
+Count the lines:
+
+`wc -l myfile.txt`
+
+Count the columns:
+
+`awk -F'\t' '{print NF; exit}' myfile.txt`
+
+-F'\t' tells awk that your columns are tab delimited, you can switch this for another character depending on your dataset. For example, if the data is comma separated just use -F',' instead. To print the column count for every line instead of just the first one, leave out 'exit'.
 
