@@ -44,3 +44,42 @@ Count the columns:
 
 -F'\t' tells awk that your columns are tab delimited, you can switch this for another character depending on your dataset. For example, if the data is comma separated just use -F',' instead. To print the column count for every line instead of just the first one, leave out 'exit'.
 
+### Want to rename lots of files at once?
+
+Say you have a directory with the following images:
+
+pic1.png
+
+pic2.png
+
+pic3.png
+
+...
+
+pic27.png
+
+You decide that they should have a more descriptive name, so you want to change them to 'oyster_pic1.png', 'oyster_pic2.png', 'oyster_pic3.png'....
+
+
+You don't have to move them individually, just use the bash command 'rename' with a regular expression!
+
+
+`$ rename 's/pic/oyster_pic/g' *`
+
+
+- 's' at the begining tells the command to **s**ubstitute a string with another string
+
+- /pic/ is the string you want to replace
+
+- /oyster_pic/ is the string to replace it with
+
+- 'g' is the **g**lobal flag -- this means replace every instance of the 1st string with the 2nd. Ex, pic1pic.png would become oyster1oyster.png. This may or may not be desirable depending on what you want to do.
+
+- \* after the regex just tells rename what to rename - in this case everything in the directory
+
+
+The rename command uses perl regular expressions - you can do a lot with these, google perl regex if you want to learn more.
+
+**On MacOS you may have to install rename before you can do this: `$ brew install rename`** 
+
+
