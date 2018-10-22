@@ -51,6 +51,7 @@ navbar-links:
     - Water Sampling: "watersampling"
     - Conductivity Loggers: "conductivityloggers"
     - pH Loggers: "phloggers"
+    - Seatables: "Seatables"
   Coding Protocols:
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
