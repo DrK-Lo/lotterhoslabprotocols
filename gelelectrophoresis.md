@@ -5,6 +5,10 @@ subtitle: The protocol for running a gel
 ---
 
 # Materials and Equipment
+1. Agarose
+2. 1X TBE
+3. GelRed® 10,000X stock reagent (left-top drawer in the room with gel docks).
+4. Erlenmeyer flask (should be in the room with gel docks).
 ## Protocol
 1. Tare a weigh boat on the scale.
 2. Add 1.4 g of agarose to the weigh boat.
@@ -14,4 +18,5 @@ subtitle: The protocol for running a gel
 6. Add more TBE buffer, but leave 10-20 mL in the graduated cylinder.
 7. Microwave solution again until it begins to boil. Repeat until agarose is completely dissolved.
 8. Add remaining TBE buffer (to cool solution).
-9. Carefully add 2 uL of ethidium bromide and swirl to diffuse.
+9. Dilute the GelRed® 10,000X stock reagent into the molten agarose gel solution at 1:10,000 and mix thoroughly.
+    - (e.g., 5 µL of the GelRed 10,000X stock reagent added to 50 mL of the gel solution)
