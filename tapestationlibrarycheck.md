@@ -73,6 +73,7 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 [fig3]: https://docs.google.com/drawings/d/1joVrT3Hetfx3kbLPvPmTcUZlsE-SD004qC5AmqHDxq8/pub?w=239&h=283
 
 [tab1]:
+
 | Kit                    | Sample Buffer (uL) | Sample or Ladder (uL) | 
 |------------------------|--------------------|-----------------------| 
 | D1000                  | 3                  | 1                     | 
