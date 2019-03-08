@@ -88,7 +88,7 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 * Vortex and spin down reagents that you will be using for run
 * Add the appropriate amount of buffer and sample to each tube (Table 1) with one tube designated for the ladder 
   * Only one well needs to be used for the ladder and it doesn’t matter which well you use just make sure to label properly in the spreadsheet
-* If you have an odd number of samples + 1 ladder you need to add an additional well with the appropriate amount of buffer (e.g. D1000 4 uL of buffer). The machine only runs samples in twos. 
+* If the number of samples + 1 ladder is an odd number, you need to add an additional well with just buffer in the appropriate amount for the kit (e.g. D1000 4 uL of buffer). The machine only runs samples in twos. 
 * Spin for 1 min on fancy vortexer with caps on
 * Remove caps
 * Place in machine in the orientation that you filled the spreadsheet out as
