@@ -72,7 +72,7 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 
 [fig3]: https://docs.google.com/drawings/d/1joVrT3Hetfx3kbLPvPmTcUZlsE-SD004qC5AmqHDxq8/pub?w=239&h=283
 
-**Table 1**
+**Table 1** : Each kit with the appropriate amount of sample buffer with either sample or ladder that should be mixed in each well
 
 | Kit                       | Sample Buffer (uL) | Sample or Ladder (uL) | 
 |---------------------------|--------------------|-----------------------| 
