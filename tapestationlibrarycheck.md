@@ -74,15 +74,15 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 
 **Table 1**
 
-| Kit                    | Sample Buffer (uL) | Sample or Ladder (uL) | 
-|------------------------|--------------------|-----------------------| 
-| D1000                  | 3                  | 1                     | 
-| High Sensitivity D1000 | 2                  | 2                     | 
-| D5000                  | 10                 | 1                     | 
-| High Sensitivity D5000 | 2                  | 2                     | 
-| Genomic DNA            | 10                 | 1                     | 
-| RNA                    | 5                  | 1                     | 
-| High Sensitivity RNA   | 1                  | 2                     | 
+| Kit                       | Sample Buffer (uL) | Sample or Ladder (uL) | 
+|---------------------------|--------------------|-----------------------| 
+| **D1000**                 | 3                  | 1                     | 
+| **High Sensitivity D1000**| 2                  | 2                     | 
+| **D5000**                 | 10                 | 1                     | 
+| **High Sensitivity D5000**| 2                  | 2                     | 
+| **Genomic DNA**           | 10                 | 1                     | 
+| **RNA**                   | 5                  | 1                     | 
+| **High Sensitivity RNA**  | 1                  | 2                     | 
 
 
 * Vortex and spin down reagents that you will be using for run
