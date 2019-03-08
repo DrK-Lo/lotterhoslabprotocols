@@ -85,6 +85,7 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 | **High Sensitivity RNA**  | 1                  | 2                     | 
 
 
+
 * Vortex and spin down reagents that you will be using for run
 * Add the appropriate amount of buffer and sample to each tube (Table 1) with one tube designated for the ladder 
   * Only one well needs to be used for the ladder and it doesn’t matter which well you use just make sure to label properly in the spreadsheet
