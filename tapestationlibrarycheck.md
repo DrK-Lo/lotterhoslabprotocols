@@ -12,7 +12,7 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 * 2200 TapeStation (Agilent Cat # G2965AA) 
 * Loading Tips (1pk = 384 tips, Agilent Cat # 5067-5153) ** must use their tips    
 * Optical Tube Strips (Agilent Cat # 401428) ** can use other tubes with exact same dimensions     
-* Strip capes (Agilent Cat # 401425) ** can use other caps not needed for actual machine run     
+* Strip caps (Agilent Cat # 401425) ** can use other caps not needed for actual machine run     
 * Kits:    
 1. **D1000**                                            
    * ScreenTape (Agilent Cat # 5067-5582)                
@@ -46,14 +46,14 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 
 ## Things to do before starting
 
-* Set XXX reagent on counter for 30 minutes to bring to room temperature 
+* Set reagents including tapes, buffer, and ladder on counter for 30 minutes to bring to room temperature 
 * Label strip tubes or plate for your samples
-* Login to machine using the sticker log in information on the computer
+* Login to machine using the sticker log in information on the computer next to tapestation
 
 ## Protocol
 
-* Load tips into machine with multi-channel pipette
-  * If you are doing a plate, you will need to refill tips after each set of 16 samples completes. The program will alert you when it is time to refill them.
+* Load tips into machine with multi-channel pipette; fill tips completely because tapestation does not use tips in order. Can remove unused tips and put back in storage box for later use.
+  * If you are doing a plate, you will need to refill tips after each set of 16 samples completes. The program will alert you when it is time to refill them. 
 * After tape has come to room temperature, flick out any air bubbles from the lanes
   * Usually only happens if the tape has had some lanes used before
 * Insert tape in the appropriate slot
@@ -72,10 +72,22 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 
 [fig3]: https://docs.google.com/drawings/d/1joVrT3Hetfx3kbLPvPmTcUZlsE-SD004qC5AmqHDxq8/pub?w=239&h=283
 
+[tab1]:
+| Kit                    | Sample Buffer (uL) | Sample or Ladder (uL) | 
+|------------------------|--------------------|-----------------------| 
+| D1000                  | 3                  | 1                     | 
+| High Sensitivity D1000 | 2                  | 2                     | 
+| D5000                  | 10                 | 1                     | 
+| High Sensitivity D5000 | 2                  | 2                     | 
+| Genomic DNA            | 10                 | 1                     | 
+| RNA                    | 5                  | 1                     | 
+| High Sensitivity RNA   | 1                  | 2                     | 
+
 
 * Vortex and spin down reagents that you will be using for run
-* Add 3 uL of buffer and 1 uL of ladder or sample to each well that you will be using
+* Add the appropriate amount of buffer and sample to each tube (Table 1) with one tube designated for the ladder 
   * Only one well needs to be used for the ladder and it doesn’t matter which well you use just make sure to label properly in the spreadsheet
+* If you have an odd number of samples + 1 ladder you need to add an additional well with the appropriate amount of buffer (e.g. D1000 4 uL of buffer). The machine only runs samples in twos. 
 * Spin for 1 min on fancy vortexer with caps on
 * Remove caps
 * Place in machine in the orientation that you filled the spreadsheet out as
