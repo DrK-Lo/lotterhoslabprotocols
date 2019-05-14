@@ -26,7 +26,7 @@ Test the float valve again as described in "Daily checklist: Effluent float valv
 * Effluent - inspect sump pump hose for cracks, especially around where the hose clamps are. Make sure the hose clamps are tight.
 
 # Monthly Checklist
-[Link to Weekly Monthly Table](https://docs.google.com/spreadsheets/d/1oQnhrPk-GJYOvP48skjc4ehimgx4G3M1Ne0vrJx371c/edit#gid=626032260)
+[Link to Monthly Table](https://docs.google.com/spreadsheets/d/1oQnhrPk-GJYOvP48skjc4ehimgx4G3M1Ne0vrJx371c/edit#gid=626032260)
 * Use the shop vac to clean out the debris at the bottom of the sump. 
 * Check for leaks along the main lines to the sea tables.
 * Check for leaks along the the freshwater line.
