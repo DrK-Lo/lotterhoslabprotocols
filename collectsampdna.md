@@ -16,6 +16,8 @@ Some tips:
 
 * Use sterilized blades or sterilize the blade between samples. A blade can be cleaned with 70% EtOH and sterilized with a flame to burn off the access EtOH. Be sure to get all bits of tissue off the blade. Otherwise, use sterile blades and switch the blade between samples.
 
+TO DO: add photo
+
 ### Tips for flash freezing in liquid N2
 
 We use Fisher cryovials (#10-500-26), although note that they are really not designed to put into liquid N2. They work well for storage in liquid N2 and then transfer to the -80C.
