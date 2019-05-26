@@ -19,13 +19,14 @@ A good resource is the [RNA-seqlopedia](http://rnaseq.uoregon.edu/) and our RNA-
 * All centrifuge tubes used to store tissues should be sterilized and prepared before going out. In general, it is best practice to have tubes organized in a box, with at least 2 labels on each tube (in case one falls off). We have a special barcode label printer (with freezer-proof labels) that can be used. 
 
 Materials
-• Scalpels with replaceable, sterile blades
-• Autoclaved glass pyrex dish for cutting sample on and a flame to torch it; alternatively can
+
+* Scalpels with replaceable, sterile blades
+* Autoclaved glass pyrex dish for cutting sample on and a flame to torch it; alternatively can
 use weigh boats that are RNAase/DNAase free
-• Autoclaved tweezers, probes, etc. Ideally use tweezers without the ridges, between which tissue gets stuck.
-• Ethanol in an autoclaved beaker for rinsing dissecting tools
-• A small flame for sterilizing dissecting tools between samples
-• Prepared, Autoclaved and labeled (with EtOH-proof pen) microcentrifuge tube(s), filled with 95% or higher EtOH. When filling tubes do so in a sterile manner (i.e. use a squirt bottle that has been autoclaved or a pipette with autoclaved tips)
+* Autoclaved tweezers, probes, etc. Ideally use tweezers without the ridges, between which tissue gets stuck.
+* Ethanol in an autoclaved beaker for rinsing dissecting tools
+* A small flame for sterilizing dissecting tools between samples
+* Prepared, Autoclaved and labeled (with EtOH-proof pen) microcentrifuge tube(s), filled with 95% or higher EtOH. When filling tubes do so in a sterile manner (i.e. use a squirt bottle that has been autoclaved or a pipette with autoclaved tips)
 
 ### Tips for flash freezing in liquid N2
 
