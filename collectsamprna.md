@@ -16,7 +16,7 @@ A good resource is the [RNA-seqlopedia](http://rnaseq.uoregon.edu/) and our RNA-
 
 * Use sterile blades and switch the blade between samples.
 
-* Use sterile tubes for placing tissue into.
+* All centrifuge tubes used to store tissues should be sterilized and prepared before going out. In general, it is best practice to have tubes organized in a box, with at least 2 labels on each tube (in case one falls off). We have a special barcode label printer (with freezer-proof labels) that can be used. 
 
 Materials
 • Scalpels with replaceable, sterile blades
