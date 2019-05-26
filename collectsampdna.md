@@ -10,6 +10,8 @@ With next generation sequencing, it is important to consider all sources of poss
 
 Some tips:
 
+* All centrifuge tubes used to store tissues should be sterilized and prepared before going out. In general, it is best practice to have tubes organized in a box, with at least 2 labels on each tube (in case one falls off). We have a special barcode label printer (with freezer-proof labels) that can be used. 
+
 * Use a sterilized surface if possible. Sterilize surface with 10% bleach, UV light, or use sterile plastic weigh boats.
 
 * Use sterilized blades or sterilize the blade between samples. A blade can be cleaned with 70% EtOH and sterilized with a flame to burn off the access EtOH. Be sure to get all bits of tissue off the blade. Otherwise, use sterile blades and switch the blade between samples.
@@ -21,7 +23,3 @@ We use Fisher cryovials (#10-500-26), although note that they are really not des
 ### Tips for EtOH
 
 Regular grade 95% ethanol works well for DNA preservation. Make sure the EtOH can permeate the tissues.
-
-### Tips for RNAlater
-
-We have flash frozen samples in RNAlater and successfully extracted high quality DNA using the [Qiagen kit](https://github.com/DrK-Lo/lab-wiki/wiki/3-DNA-extraction-Qiagen)
