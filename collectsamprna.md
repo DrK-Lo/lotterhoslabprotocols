@@ -26,11 +26,13 @@ use weigh boats that are RNAase/DNAase free
 * Autoclaved tweezers, probes, etc. Ideally use tweezers without the ridges, between which tissue gets stuck.
 * Ethanol in an autoclaved beaker for rinsing dissecting tools
 * A small flame for sterilizing dissecting tools between samples
-* Prepared, Autoclaved and labeled (with EtOH-proof pen) microcentrifuge tube(s), filled with 95% or higher EtOH. When filling tubes do so in a sterile manner (i.e. use a squirt bottle that has been autoclaved or a pipette with autoclaved tips)
+* Prepared, Autoclaved and labeled (with EtOH-proof pen) microcentrifuge tube(s)
+* RNA-ase away to wipe off surfaces and blades between samples
+* Nitex gloves
 
 ### Tips for flash freezing in liquid N2
 
-We use Fisher cryovials (#10-500-26), although note that they are really not designed to put into liquid N2. They work well for storage in liquid N2 and then transfer to the -80C.
+We use Fisher cryovials (#10-500-26), although note that they are really not designed to put into liquid N2. They work well for short-term storage in liquid N2 and then transfer to the -80C.
 
 ### Tips for RNAlater
 
@@ -41,9 +43,9 @@ If the tissue cannot be flash frozen in RNAlater, than it is important to:
 (1) Get the tissue:RNAlater ratio correct following manufacturer's directions:
 Trim the tissue to be less than 0.5 cm in at least one dimension and simply submerge it in 5 volumes of RNAlater solution (e.g., a 0.5 g sample requires about 2.5 mL of RNAlater solution). 
 
-(2) Keep the tissue at the correct temperature following the manufacturer's direction for the specified amount of time before transferring to -80C. This allows the RNAlater to permeate the tissues. Do not freeze samples in RNAlater® Solution immediately; store at 4°C overnight (to allow the solution to thoroughly penetrate the tissue), remove supernatant, then move to –20°C or –80°C for long-term storage. 
+(2) Keep the tissue at the correct temperature following the manufacturer's direction for the specified amount of time before transferring to -80C. This allows the RNAlater to permeate the tissues. Do not freeze samples in RNAlater® Solution immediately; ![READ THE INSTRUCTIONS](https://www.thermofisher.com/content/dam/LifeTech/migration/en/filelibrary/nucleic-acid-purification-analysis/pdfs.par.18819.file.dat/bp-7020.pdf). Typically we store at 4°C overnight (to allow the solution to thoroughly penetrate the tissue), remove supernatant, then move to –20°C or –80°C for long-term storage. Although, we have had good luck flash-freezing tissues in RNAlater.
 
-Samples can be stored at 4°C for one month, at 25°C for one week, or at –20°C indefinitely. Archive tissues treated with RNAlater solution at –20°C.
+Samples can be stored in RNAlater at 4°C for one month, at 25°C for one week, or at –20°C indefinitely. Archive tissues treated with RNAlater solution at –20°C.
 
 * If any precipitation of RNAlater® Solution is seen, heat it to
 37°C and agitate to redissolve it.
