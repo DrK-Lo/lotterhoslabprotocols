@@ -28,7 +28,8 @@
     * Lots of You Tube videos
     * We discussed whether this would actually reduce cognitive load because it takes so much time
   
-*[Hacker Noon](https://hackernoon.com/minimizing-the-cognitive-load-in-your-life-bc14f4309fb2)  
+*[Hacker Noon](https://hackernoon.com/minimizing-the-cognitive-load-in-your-life-bc14f4309fb2) 
+
     * If something is incomplete, it's in your mind 
     * Slight positive things have a small mental positive effect, while slight negative things have a large negative effect
     * Read books over articles, avoid newspapers, facebook, etc.
@@ -99,6 +100,3 @@
     * Don't make recipient scroll - keep it short
     * Use active voice
 
-
-
-*
