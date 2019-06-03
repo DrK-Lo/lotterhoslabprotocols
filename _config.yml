@@ -30,6 +30,7 @@ navbar-links:
     - Ordering Supplies and Equipment: "ordering"
     - Receiving Supplies and Equipment: "receiving"
     - Reimbursement: "reimbursement"
+    - Reducing Cognitive Load: "ReducingCognitiveLoad"
   Molecular Protocols:
     - DNA Extraction (Qiagen): "dnaextractionqiagen"
     - DNA Extraction (Omega): "dnaextractionomega"
