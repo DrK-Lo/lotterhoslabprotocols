@@ -64,4 +64,4 @@ Test the float valve again as described in "Daily checklist: Effluent float valv
 
 # Changing the UV lights
 
-![Image Name](img/UVpicts1.JPG)
+![Image Name](img/UVpicts1.JPG | width=100)
