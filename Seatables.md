@@ -32,6 +32,11 @@ Test the float valve again as described in "Daily checklist: Effluent float valv
 * Check for leaks along the the freshwater line.
 * Check for leaks along the bottom pipe that runs below the sea tables to the sump pump
 * Check for leaks when the sump pump is running between the sump and the drainage pipe.
+* All motors (fans, pumps, etc), solenoids, and relays are inductive in nature.
+Do not plug these into power strips, plug them directly into the red receptacles. Check monthly.
+* Check the plugs for corrosion.  Scrub with green abrasive pad.
+    * ![Image Name](img/UVpicts1.JPG)
+    
 
 ## Unfiltered Seawater
 * Unfiltered seawater has a central connection to a PVC pipe that runs across all the tables.
@@ -63,5 +68,61 @@ Test the float valve again as described in "Daily checklist: Effluent float valv
 * Make sure the UV lights are unplugged.
 
 # Changing the UV lights
+Read the instructions!
 
-![Image Name](img/UVpicts1.JPG | width=100)
+![](img/UVpicts2.JPG)
+![](img/UVpicts3.JPG)
+
+### Signs there is a problem
+
+If you see water in the quartz sleeve, this means it was not put together correctly and it leaked.
+
+![](img/UVpicts4.JPG)
+
+Also look for signs that the bulb is burning out by the black residue inside the quartz tube:
+
+![](img/UVpicts10.JPG)
+
+If the light is blue does that mean the UV light is working? Read the instructions to find the answer to this question. The answer will surprise you.
+
+### Changing the Bulb
+
+Make sure when you change the bulb, to follow the instructions and use silicone grease. It can be found in a plastic box with a white top labeled "hot glue, silicone grease, etc."
+
+![](img/UVpicts6.JPG)
+
+On the gasket (which should be changed once a year), make sure to put some silicone grease on the inside and smoosh it around with your finger:
+
+![](img/UVpicts8.JPG)
+
+Make sure to follow these instructions as you put it back together:
+
+![](img/UVpicts9.JPG)
+
+This is wrong:
+
+![](img/UVpicts14.JPG)
+
+Make sure when you put it back together, screw in the coupling tight before attaching it to the housing:
+
+![](img/UVpicts15.JPG)
+
+It's hard to see, but check that the gasket is securely in place:
+
+![](img/UVpicts16.JPG)
+
+When you put the wires in, make sure not to let them get twisted by carefully stuffing them inside, 
+
+![](img/UVpicts17.JPG)
+
+then holding the top wire while you screw the top on:
+
+![](img/UVpicts18.JPG)
+
+
+### Annual maintenance for UV lights
+
+* Replace bulbs. If the light is blue does that mean the UV light is working? Read the instructions to find the answer to this question. The answer will surprise you.
+* Replace gasket. (#5 in instructions)
+* Replace O-ring. (#8 in instructions)
+
