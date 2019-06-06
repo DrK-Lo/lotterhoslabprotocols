@@ -57,9 +57,11 @@ Test the float valve again as described in "Daily checklist: Effluent float valv
   Set all the valves correctly, plug everything back in and turn everything back on. 
   Check to make sure float valve is working, check for leaks in pipes and around filter housing.
   
-* Changing the UV lights (TO DO).
-  
 ## Untreated effluent
 
 * Make sure that the valve to the filters is closed and the other valve is open. 
 * Make sure the UV lights are unplugged.
+
+# Changing the UV lights
+
+![Image Name](img/UVpicts1.JPG)
