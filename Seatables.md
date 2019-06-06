@@ -115,7 +115,7 @@ When you put the wires in, make sure not to let them get twisted by carefully st
 
 ![](img/UVpicts17.JPG)
 
-then holding the top wire while you screw the top on:
+then holding the top wire taught (don't let it twist) while you screw the top on:
 
 ![](img/UVpicts18.JPG)
 
