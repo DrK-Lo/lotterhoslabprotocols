@@ -125,4 +125,5 @@ then holding the top wire taught (don't let it twist) while you screw the top on
 * Replace bulbs. If the light is blue does that mean the UV light is working? Read the instructions to find the answer to this question. The answer will surprise you.
 * Replace gasket. (#5 in instructions)
 * Replace O-ring. (#8 in instructions)
+* Clean the glass tubing per instructions
 
