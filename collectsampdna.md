@@ -16,7 +16,7 @@ Some tips:
 
 * Use sterilized blades or sterilize the blade between samples. A blade can be cleaned with 70% EtOH and sterilized with a flame to burn off the access EtOH. Be sure to get all bits of tissue off the blade. Otherwise, use sterile blades and switch the blade between samples.
 
-TO DO: add photo
+TO DO: add photo. ad text
 
 ### Tips for flash freezing in liquid N2
 
