@@ -25,11 +25,11 @@ Then, create an md5sum of the transferred files:
 Compare sorted files FILE1 and FILE2 line by line:
 `comm -3 md5sum.txt md5sum_new.txt`
 
-# With  no  options,  produce  three-column  output.  Column one contains 
+With  no  options,  produce  three-column  output.  Column one contains 
 lines unique to FILE1, column two contains lines unique to  FILE2,  and  column three contains lines common to both files.
-#  -1     suppress lines unique to FILE1
-#  -2     suppress lines unique to FILE2
-#  -3     suppress lines that appear in both files
+  -1     suppress lines unique to FILE1
+  -2     suppress lines unique to FILE2
+  -3     suppress lines that appear in both files
 
 If the last command produces no output, the two files are identical.
 
