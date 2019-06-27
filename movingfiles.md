@@ -23,6 +23,7 @@ Then, create an md5sum of the transferred files:
 ### Step 3: Compare md5sum from before the transfer to md5sum after the transfer
 
 Compare sorted files FILE1 and FILE2 line by line:
+
 `comm -3 md5sum.txt md5sum_new.txt`
 
 With  no  options,  produce  three-column  output.  Column one contains 
