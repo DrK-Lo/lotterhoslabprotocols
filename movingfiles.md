@@ -2,7 +2,7 @@
 
 (TO DO)
 
-## How to ensure the files you are transferring
+## How to ensure the files you are transferring are transferred successfully
 
 ### Step 1: Make a list of md5sums of your files
 
