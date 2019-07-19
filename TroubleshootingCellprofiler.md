@@ -1,4 +1,8 @@
-# 2019-07-01 - KBW - Troubleshooting CellProfiler Installation
+---
+layout: page
+title: Troubleshooting CellProfiler Installation
+subtitle: Steps to take if errors occur during installation
+---
 
 When initially trying to use CellProfiler, I had some issues during the installation process. This was primarily due to the fact that CellProfiler only uses Python 2.7 (They are developing a new version that will be built on Python 3) and is fairly sensitive to versions of libraries it needs. Also, I was having some issues with permissions as well. I will walk through these issues here.
 
