@@ -149,8 +149,6 @@ The final stages prior to submission can take about a month or more.
 
 * Check the author guidelines for the journal you are submitting to and make sure all sections of the manuscript fit those guidelines.
 
-* Edit all references in the Bibliography. Paperpile often has errors, especially with capitalization. You do not want to have a reviewer find their name was spelled wrong in your reference list, so check also for special characters. Species italics is another thing that often needs to be edited.
-
 * In the "Data Accessibility" section I often put "All datasets and scripts used to create results will be archived on Dryad upon final acceptance of the manuscript. Scripts can currently be seen at the github site XXXX." (Beware if double blind review, you may not want to put the github site)
 
 * Do not count on co-authors to find mistakes and grammatical errors. I have read over manuscripts 10+ times and there are still errors. 
@@ -173,7 +171,7 @@ The final stages prior to submission can take about a month or more.
 
 * Be sure to have page and line numbers. There is an "Line Numbers for Google Docs Add On" 
 
-
+* Edit all references in the Bibliography (this is the very last thing you do). Paperpile often has errors, especially with capitalization. You do not want to have a reviewer find their name was spelled wrong in your reference list, so check also for special characters. Species italics is another thing that often needs to be edited.
 
 
 # Submitting the manuscript
