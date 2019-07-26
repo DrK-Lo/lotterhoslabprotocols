@@ -40,7 +40,7 @@ Writing has two facets: building good writing habits and actually putting words 
 
 # Inform all authors of the authorship policy
 
-* I use the [ICMJE Vancouver Protocol] (http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html). It is important to run this by all authors at the beginning of a collaboration, and again at publication.
+* I use the [ICMJE Vancouver Protocol](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html). It is important to run this by all authors at the beginning of a collaboration, and again at publication.
 
 
 
