@@ -31,6 +31,7 @@ navbar-links:
     - Receiving Supplies and Equipment: "receiving"
     - Reimbursement: "reimbursement"
     - Reducing Cognitive Load: "ReducingCognitiveLoad"
+    - How to publish a paper: "How-to-publish-a-paper"
   Molecular Protocols:
     - DNA Extraction (Qiagen): "dnaextractionqiagen"
     - DNA Extraction (Omega): "dnaextractionomega"
