@@ -1,0 +1,227 @@
+
+The average time it takes to publish a paper after you first submit it for review is 6-9 months. Each round of review takes 1-4 months, each round of revisions take 1-2 months, and then it can take a month or more to get the proofs and approve the final version for publication. Plan accordingly. If I want a paper published in a particular calendar year, I try to get it submitted by March.
+
+# Books that helped me learn how to write
+
+Writing has two facets: building good writing habits and actually putting words together in a way that makes sense to other people. Knowing the difference between _e.g._ and _i.e._ saves your co-authors time explaining it to you. Grammatical errors frustrate reviewers and panelists, and make them skeptical of attention to detail and the quality of the work.
+
+#### Building good writing habits
+
+* Writing Your Dissertation in 15min/day
+
+* How to Write Alot
+
+#### Putting words together
+
+* Style: the elements of clarity and grace
+
+* Funk and White
+
+# Using Google Docs
+
+* Google docs offers a platform for collaboration that does not involve emailing each other many versions, which is inefficient. All changes are available immediately to everyone. It also has a good version control system (Click on "All changes saved in Drive"). I use this system to name specific drafts that I may want to go back to.
+
+# Create a template 
+
+* title page (include authors, affiliations, addresses, corresponding author, OrcIDs, keywords, and running title)
+
+* Introduction, Methods, Results, Discussion, Acknowledgements, Data Accessibility, References, Tables, Figure Legends
+
+	* Make sure to use text to create tables, because typesetters will not be happy if you create images or LaTeX tables
+
+* I like to have a shared folder with pdfs of all the references
+
+* Use "Outlines". Labeling different sections with headers and sub-headers will automatically create an outline. "View ---> Show Document Outline" can make it fast to navigate.
+
+* Having a log at the end of the manuscript can be helpful, especially for posting old versions of the figures or trial versions of figures.
+
+* Also having links to relevant documents at the top of the manuscript can be helpful, including a link to the editor letter, response to reviewers, notes and unused text, etc.
+
+
+# Inform all authors of the authorship policy
+
+* I use the [ICMJE Vancouver Protocol] (http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html). It is important to run this by all authors at the beginning of a collaboration, and again at publication.
+
+
+
+# Using Paperpile with Google Docs
+
+* Addons --> Get add ons --> search for Paperpile
+
+* It works best when you search for the webpage or the title of the paper. 
+
+* This system is more efficient than keeping EndNote on your computer, where you have to download the citation and then add it to EndNote to cite it in a word processor.
+
+* At the bottom of the app is an "Open Paperpile" link, which provides some extra functionality
+
+* To add all your citations in a document to Paperpile, you can click on a reference in the Bibliography, click "Open", then click on "View all references from this Document", then in the upper right hand corner click on the icon and "Add all references to my library"
+
+
+
+
+
+# Write as you go
+
+* Set aside 15 minutes first thing every morning to engage with the manuscript. 
+
+* Create an outline (through discussions with all authors) and _stick to it_
+
+* Start with methods, and be sure to update them every time you do the actual method. It is important to be as specific as possible (e.g. kit manufacturer, name of the piece of equipment you used) to ensure the results are reproducible.
+
+* A well-framed research question should allow you to write the introduction before the results are known. In the Introduction you should lay out the rationale for the study, including the questions or hypotheses to be addressed. 
+
+* I find it helpful to draw text from the papers I am citing or reading if I get stuck in a writing block, and then going back to edit it later.
+
+* As you start to work on a section, the most important thing is to maintain communication and discussions with all authors, especially if what you write strays from the outline. You may be wasting effort and taking the manuscript in a direction that is different from what others envision.
+
+* Adding comments to sections that you are working on and how you plan to improve them, or questions you have on how to improve them, can help co-authors understand where your thought process is.
+
+
+
+# Make figures perfect
+
+* Every detail matters. Be prepared to spend 4-8 hours or more refining a figure, even after you get a general figure that everyone agrees on.
+
+Common mistakes:
+
+* All axes labels are centered. There are no redundant axis labels in multi-panel plots.
+
+* y-axis tick labels are not sideways
+
+* The color pattern works in B&W and for color blind. There are color-blind palettes in R, and there are websites online where you can see how your figure works for a color blind person.
+
+* No 3-D plots. 
+
+* y-axis scale does not accentuate differences in the effect size (in other words not zoomed in)
+
+* Base R plotting options: 
+	* `bty = "l"` box type is "L" shaped and not a square outline
+	* `las = 1` y-axis tick labels are upright
+
+
+
+
+
+
+
+# Make figures high resolution for submission
+
+* A good way to frustrate reviewers is to submit high resolution figures in an online system that appends them to the end of your manuscript with no Figure ID or legend. 
+
+* To make my reviewer's life easier, I use LaTeX to create on figures document with figure legends on the same page as the figures. When the final (final) document is accepted for publication, then I just upload the high resolution figures. [Template](https://drive.google.com/drive/folders/1mbvkizpPnM4CjkTTj2ARENtEqDwhXYDU?usp=sharing)
+
+* It will be important to double check that the Figure Legends in the Manuscript match the Figure Legends in the LaTeX document
+
+
+
+
+
+
+
+
+# Make high quality Supplemental Materials
+
+* I use the same LaTex template to produce high-quality Supplementary Materials. [Template](https://drive.google.com/drive/folders/1mbvkizpPnM4CjkTTj2ARENtEqDwhXYDU?usp=sharing)
+
+
+
+
+
+
+
+
+# After you get a semi-complete draft
+
+* Share the google doc with co-authors and colleagues for feedback. It can take a couple weeks to get it back from them, and don't be afraid to follow up if they are taking too long. After that it can take a few or several weeks to make edits and changes. While you are waiting on them, you can work on some of the points below.
+
+
+
+
+
+
+# Getting to the final draft
+
+The final stages prior to submission can take about a month or more.
+
+* I like to go through all the references in my folder and skim them over again. As I read them over, I double check that they are cited correctly, and often I find other places to cite them, which helps to weave common threads throughout. Especially if I am first author, I want to be familiar with the papers that others cited but I haven't read before. This process takes me a couple weeks of 4-5 hours per day.
+
+* Write your letter to the editor. [Template](https://docs.google.com/document/d/1ye4hs0gYP4l4m27o9V_nPZqXD-EPNBrm9UWj-vBv_Zw/edit)
+
+* Check the author guidelines for the journal you are submitting to and make sure all sections of the manuscript fit those guidelines.
+
+* Edit all references in the Bibliography. Paperpile often has errors, especially with capitalization. You do not want to have a reviewer find their name was spelled wrong in your reference list, so check also for special characters. Species italics is another thing that often needs to be edited.
+
+* In the "Data Accessibility" section I often put "All datasets and scripts used to create results will be archived on Dryad upon final acceptance of the manuscript. Scripts can currently be seen at the github site XXXX." (Beware if double blind review, you may not want to put the github site)
+
+* Do not count on co-authors to find mistakes and grammatical errors. I have read over manuscripts 10+ times and there are still errors. 
+
+* Edit for unneccessary words or long sentences.
+
+* Attention to detail is paramount. Every error that a reviewer finds is a mental check that other important details may have been overlooked in the research.
+
+* **Writing Author Contributions.** Communication here is paramount. It can help to send this list to each author and let them tell you where they think they should have their initials by. Who:       
+    * conceptualized and administered the project, 
+    * obtained funding
+    * developed methods
+    * collected data
+    * did the formal analysis
+    * visualized the data 
+    * wrote the software
+    * performed data curation
+    * wrote the original draft of the manuscript
+    * All authors reviewed and edited the manuscript.
+
+* Be sure to have page and line numbers. There is an "Line Numbers for Google Docs Add On" 
+
+
+
+
+# Submitting the manuscript
+
+* Prior to submission, get final approval (in writing) from all authors and agreement that all authors are accountable for mistakes or errors per ICJMES policy.
+
+* When I first started submitting manuscripts, I had to go through multiple attempts because I kept making edits or changes to the manuscript. Just wait until everything is perfect and do it once.
+
+* After you submit, name your draft in google drive. (Click on "All changes saved in Drive"). Save the draft as a Word Document, which will be used below if a "track changes" document is needed in the response to reviews.
+
+
+
+# Responding to reviews
+
+* Your baseline expectation should be a rejection with extensive comments from reviewers. 
+
+* Involve all authors in responding to reviews, communication is important here. Take every review seriously, even if they are being ridiculous. A good editor will emphasize the good reviews and de-emphasize the ridiculous ones.
+
+* Be respectful when responding to reviews, and be sure to note which comments were helpful. Also be sure to note where there is disagreement among reviewers when responding to comments.
+
+* Be sure to acknowledge the Editor and anonymous reviewers in your "Acknowledgments" section
+
+* It is good to submit a "track changes" document. Microsoft word has a great system for comparing 2 documents.  After all authors approve the final revisions with all changes accepted, export the manuscript to .docx. In Word, go to "Tools --> Track Changes --> Compare Documents". Upload the draft that was submitted the first time around. Word will produce a document showing all changes between the two documents, which you can submit with your review.
+
+
+
+
+# The final acceptance
+
+* **Archiving data and scripts on Dryad.** Ensure that the scripts are still reproducible by running them on your computer and someone else's. Once you upload to Dryad, that's it - you can't go back and edit or change something. 
+
+	* Dryad has specific instructions for compressing and transferring large files, so initiate communication with them before you start this process.  Make sure everything is perfect, then compress the folder with all data and scripts per Dryad instructions. 
+
+	* The process of getting a DOI can take about a week. After you get the DOI, add the data citation to your Bibliography per Dryad instructions.
+
+
+
+
+# Proofs
+
+* When you receive the proofs, you typically have 48 hours to make corrections and send them back. It is good to share with co-authors if they have the time, but typically it is up to the first author to make corrections. 
+
+* Read through the entire proofs, and don't just focus on the questions from the typesetters. There will still be mistakes and grammatical errors to be found. 
+
+
+
+
+
+# Publication
+
+* Celebrate!
