@@ -1,6 +1,8 @@
 
 The average time it takes to publish a paper after you first submit it for review is 6-9 months. Each round of review takes 1-4 months, each round of revisions take 1-2 months, and then it can take a month or more to get the proofs and approve the final version for publication. Plan accordingly. If I want a paper published in a particular calendar year, I try to get it submitted by March.
 
+[Read this great ariticle with tips from a famous fiction author on how to write a great paper](https://www.nature.com/articles/d41586-019-02918-5)
+
 # Books that helped me learn how to write
 
 Writing has two facets: building good writing habits and actually putting words together in a way that makes sense to other people. Knowing the difference between _e.g._ and _i.e._ saves your co-authors time explaining it to you. Grammatical errors frustrate reviewers and panelists, and make them skeptical of attention to detail and the quality of the work.
