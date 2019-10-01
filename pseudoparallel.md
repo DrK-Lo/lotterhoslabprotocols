@@ -18,7 +18,7 @@ Within the R code, another loop would be necessary to conduct the test for each 
 
 Save this script as `runRscripts.sh`
 
-```console
+```sh
 #!/bin/bash
 set -e
 set -u
@@ -74,7 +74,7 @@ done
 MyScript.R should be located in the `src/MyScript.R` working directory. If it is located in a different place,
 than that needs to be specified in the bash script above.
 
-```
+```r
 # install libraries
 
 args = commandArgs(trailingOnly=TRUE)
@@ -93,7 +93,7 @@ print(c("start_row", "end_row"))
 Once you have these two scripts set up and working on a subset of data, 
 you can just run the bash script like this
 
-````
+```sh
 chmod +x runRscripts.sh
 ./runRscripts.sh
-```` 
+```
