@@ -1,4 +1,4 @@
-## Pseudo-replicate on the cluster
+## Pseudo-parallelize your code on the cluster
 
 Defiance has 72 (check) cores per comp node. Generally we like to leave a few available, so can 
 parallelize code across up to 68 cores at once.
