@@ -62,6 +62,7 @@ navbar-links:
     - Accessing and Using Defiance Cluster: "defiance"
     - Moving files around: "movingfiles"
     - Troubleshooting CellProfiler Installation: "TroubleshootingCellprofiler"
+    - Pseudoparallel on cluster: "pseudoparallel"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
