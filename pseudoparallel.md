@@ -88,6 +88,7 @@ start_row = args[1]
 end_row = args[2]
 
 print(c("start_row", "end_row"))
+# Here you would call a loop or apply() function through these indexes of your data and output the results
 ```
 
 Once you have these two scripts set up and working on a subset of data, 
