@@ -18,7 +18,7 @@ Within the R code, another loop would be necessary to conduct the test for each 
 
 Save this script as `runRscripts.sh`
 
-```
+```console
 #!/bin/bash
 set -e
 set -u
