@@ -7,6 +7,8 @@ gh-badge: [star, fork, follow]
 tags: [test]
 ---
 
+[Github page for editing](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages)
+
 This website was created from the [daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll#readme) Github repository
 Some basics:
 The /lotterhoslabprotocols project was created under Brett's personal webpage bmford11.github.io, but now may reside under Katie's personal GitHub site.
