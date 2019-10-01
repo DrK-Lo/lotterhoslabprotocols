@@ -10,7 +10,9 @@ in parallel).
 
 To accomplish this, you will need a bash script and an R script. Examples are below.
 
+The bash script takes in the total number of tests you want to do (number of loci or number of rows in a data frame, for instance), and then calculates how many should be run in serial on each core. It then runs through a loop. In each iteration of the loop (the total number of iterations should be equal to the number of cores), the bash script calls the R code and sends information about which rows in the dataframe are to be run in the R code. Each iteration of the loop calls R in the background on a different core.
 
+Within the R code, another loop would be necessary to conduct the test for each row in the dataframe (not shown).
 
 ### Bash script runScripts.sh
 
@@ -34,7 +36,7 @@ cd $mypath
 
 nrows=280000 # number of loci or rows to be tested. Improve this code by
 			# actually calculating it from the relevant dataframe with `wc`
-nlocipercore=$((nrows/68))
+nlocipercore=$((nrows/67)) # the 67 comes from the fact we want to pseudoparallel over 68 cores
 echo nlocipercore $nlocipercore
 start=$(seq 1 $nlocipercore $nrows)
 echo $start
