@@ -34,6 +34,7 @@ navbar-links:
     - How to publish a paper: "How-to-publish-a-paper"
     - Getting started in the lab: "getting-page"
     - Install and config MVI scope camera: "MVI-scope-camera"
+    - Create barcoded labels: "creating-barcoded-labels"
   Molecular Protocols:
     - DNA Extraction (Qiagen): "dnaextractionqiagen"
     - DNA Extraction (Omega): "dnaextractionomega"
