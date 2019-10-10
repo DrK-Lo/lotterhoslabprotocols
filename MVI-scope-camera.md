@@ -1,4 +1,4 @@
-# Scope camera – MVI Nikon SMZ 1000
+# Scope Camera MVI Nikon SMZ 1000
 
 ## Install
 Download software from Google Drive folder (Lotterhos Lab > equipment > MVI Nikon).
