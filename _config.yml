@@ -57,6 +57,7 @@ navbar-links:
     - Conductivity Loggers: "conductivityloggers"
     - pH Loggers: "phloggers"
     - Seatables: "Seatables"
+    - Kayak: "kayak"
   Coding Protocols:
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
