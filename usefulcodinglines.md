@@ -4,6 +4,81 @@ title: Useful Coding Lines
 subtitle: A resources for useful lines when coding
 ---
 
+## Table of Contents
+ * [Basic Unix Commands](#unix)  
+      * [`cd` - Changing Directories](#cd)  
+      * [`find` - Finding files](#find)  
+      * [`ls` - Listing files](#ls)  
+      * [`sed` - Replacing texts in a file name](#sed)  
+  
+## Basic Unix Commands <a name="unix"></a>
+
+List of basic unix commands for basic navigation and file manipulation on the command line. 
+
+### Change directory - `cd` <a name="cd"></a>
+
+**Description** - Command allows you to change your directory.
+
+Simple directory change:
+```
+cd /path/to/desired/directory
+```
+
+Additional ways to change your current directory:
+```
+# One level up in the path
+cd ..
+# Can be done more than one to move mutiple levels
+cd ../../..
+# Provided with no path information it will change directory to the base directory
+cd
+```
+
+**Changing directory with click and drag method**
+
+<img src="../img/quickdirectory.gif" style="width:100%;" alt="Quick Directory Access" />
+
+
+### Find target files - `find` <a name="find"></a>
+
+**Description** - The `find` command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions. By using the `- exec` other UNIX commands can be executed on files or folders found. (from https://shapeshed.com/unix-find/)
+
+* [Additional Information
+     * [Extended Tutorial](https://shapeshed.com/unix-find/)  
+     * [`find` manual](https://linux.die.net/man/1/find)  
+
+**Simple Find**
+```
+find ./directory/path/ -name FileExample.txt
+```
+This will with find file `./directory/path/FileExample.txt`
+
+**Remove files created before a certain date with find**
+```
+find /home/br.ford/br.ford_remote/slim/results/ -ctime +14 -print -exec rm {} \;
+```
+
+This finds all files in the `.../results/` directory that are older than 14 days and removes them
+
+You can also be more specific. For example, if you want to remove only txt files older than two days:
+
+`find /home/br.ford/br.ford_remote/slim/results/*.txt -ctime +2 -print -exec mv {} finished_results \;`
+
+
+### Listing files and directories - `ls` <a name="ls"></a>
+
+**List just subdirectories in the current directory**
+
+```
+ls -d */
+```
+
+#### Replacing characters in a txt file -`sed` <a name="sed"></a>
+
+`sed -i '' 's/["]//g' test.txt`
+
+The -i argument says to use in-place editing (edit and return file without making another copy), the empty quotes identifies extension of backup file (none, unless you want a backup file), the statement in the quotes specifies: to substitute (s/) quotations ([“]) with nothing (//) globally (g’) in test.txt
+
 ### Want to change to a directory without having to type the entire directory path? Use the click and drag method:
 
 <img src="../img/quickdirectory.gif" style="width:100%;" alt="Quick Directory Access" />
