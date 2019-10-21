@@ -34,7 +34,7 @@ data - What sort of data?
 ```
 
 Once you've set up your project folder, it should look something like this:
-![image]()
+![image](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/img/eg_structure.png)
 
 
 
