@@ -3,21 +3,21 @@ layout: page
 title: Useful Coding Lines
 subtitle: A resources for useful lines when coding
 ---
-
-### Table of Contents
+  
+## Table of Contents
  * [Basic Unix Commands](#unix)  
       * [`cd` - Changing Directories](#cd)  
       * [`find` - Finding files](#find)  
       * [`ls` - Listing files](#ls)  
       * [`sed` - Replacing texts in a file name](#sed)  
   
-### Basic Unix Commands <a name="unix"></a>
+## Basic Unix Commands <a name="unix"></a>
 
-List of basic unix commands for basic navigation and manipulation on the command line. 
+List of basic unix commands for basic navigation and file manipulation on the command line. 
 
-#### Change directory - `cd` <a name="cd"></a>
+### Change directory - `cd` <a name="cd"></a>
 
-**Description**: Command allows you to change your directory.
+**Description** - Command allows you to change your directory.
 
 Simple directory change:
 ```
@@ -39,12 +39,21 @@ cd
 <img src="../img/quickdirectory.gif" style="width:100%;" alt="Quick Directory Access" />
 
 
-#### Find target files - `find` <a name="find"></a>
+### Find target files - `find` <a name="find"></a>
 
+**Description** - The `find` command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions. By using the `- exec` other UNIX commands can be executed on files or folders found. (from https://shapeshed.com/unix-find/)
 
+* [Additional Information
+     * [Extended Tutorial](https://shapeshed.com/unix-find/)  
+     * [`find` manual](https://linux.die.net/man/1/find)  
+
+**Simple Find**
+```
+find ./directory/path/ -name FileExample.txt
+```
+This will with find file `./directory/path/FileExample.txt`
 
 **Remove files created before a certain date with find**
-
 ```
 find /home/br.ford/br.ford_remote/slim/results/ -ctime +14 -print -exec rm {} \;
 ```
@@ -56,7 +65,7 @@ You can also be more specific. For example, if you want to remove only txt files
 `find /home/br.ford/br.ford_remote/slim/results/*.txt -ctime +2 -print -exec mv {} finished_results \;`
 
 
-#### Listing files and directories - `ls` <a name="ls"></a>
+### Listing files and directories - `ls` <a name="ls"></a>
 
 **List just subdirectories in the current directory**
 
