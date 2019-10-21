@@ -18,9 +18,9 @@ Two good startig folders to have are a `src` folder and a `results` folder. An `
 
 Depending on the project, you'll want to have a `data` folder to keep the raw data sets that you yourself did not generate with the scripts in `src`.
 
-Finally, you'll want to create a README file that explicitly states what subdirectories you have in your project folder, and what they should contain. Ideally you should have a README file in each directory that states what files it contains. 
+Finally, you'll want to create a simple text README file that explicitly states what subdirectories you have in your project folder, and what they should contain. Ideally you should have a README file in each directory that states what files it contains. 
 
-A README file could look like this: 
+A README file written in [markdown](https://www.markdownguide.org/cheat-sheet) could look like this: 
 ```
 Files for New Project by Student McGee and PI ForFree, Year Month(s)
 
