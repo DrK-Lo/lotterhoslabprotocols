@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://bmford11.github.io"
-baseurl: ""
+url: "http://DrK-Lo.github.io/lotterhoslabprotocols"
+baseurl: "/lotterhoslabprotocols"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,29 +14,65 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Brett M Ford
+title: "Lotterhos Lab Protocols"
 
 # Short description of your site
-description: My personal webpage!
+description: A site for protocols used in the Lotterhos Lab!
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+  General Protocols:
+    - Solution Recipes: "solutionrecipes"
+    - Determining Barcodes & Indexes: "barcodesnindexes"
+    - Autoclave (OGL): "autoclave"
+    - Ordering Supplies and Equipment: "ordering"
+    - Receiving Supplies and Equipment: "receiving"
+    - Reimbursement: "reimbursement"
+    - Reducing Cognitive Load: "ReducingCognitiveLoad"
+    - How to publish a paper: "How-to-publish-a-paper"
+    - Getting started in the lab: "getting-page"
+    - Install and config MVI scope camera: "MVI-scope-camera"
+    - Create barcoded labels: "creating-barcoded-labels"
+  Molecular Protocols:
+    - DNA Extraction (Qiagen): "dnaextractionqiagen"
+    - DNA Extraction (Omega): "dnaextractionomega"
+    - DNA Extraction (Spartina): "dnaextractionspartina"
+    - RNA Extraction: "rnaextraction"
+    - Magnetic Bead Wash: "magbeadwash"
+    - ddRAD Library Prep: "ddradlibprep"
+    - bs RAD Library Prep: "bsddradlibprep"
+    - SPLAT Library Prep: "splatlibraryprep"
+    - Illumina Library Prep: "illuminalibraryprep"
+    - RNAseq Library Prep: "rnaseqlibraryprep"
+    - Gel Electrophoresis: "gelelectrophoresis"
+    - BioAnalyzer Library Check: "bioanalyzerlibrarycheck"
+    - TapeStation Library Check: "tapestationlibrarycheck"
+    - Take3 DNA Quantification: "take3dnaquantification"
+  Field and Sampling Protocols:
+    - Collecting Samples for DNA: "collectsampdna"
+    - Collecting Samples for RNA: "collectsamprna"
+    - Water Sampling: "watersampling"
+    - Conductivity Loggers: "conductivityloggers"
+    - pH Loggers: "phloggers"
+    - Seatables: "Seatables"
+    - Kayak: "kayak"
+  Coding Protocols:
+    - Version Control with GitHub: "versioncontrol"
+    - General Directory Organization: "directoryorganization"
+    - Useful Coding Lines: "usefulcodinglines"
+    - Accessing and Using Defiance Cluster: "defiance"
+    - Moving files around: "movingfiles"
+    - Troubleshooting CellProfiler Installation: "TroubleshootingCellprofiler"
+    - Pseudoparallel on cluster: "pseudoparallel"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+# title-img: /img/nautilus_sm.png
 
 # --- Background colour/image options --- #
 
@@ -64,18 +100,18 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Lotterhos Lab
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
-social-network-links:
-  rss: true
-  email: "someone@example.com"
-  facebook: daattali
-  github: daattali
-  twitter: daattali
+#social-network-links:
+#  rss: true
+#  email: "someone@example.com"
+#  facebook: daattali
+#  github: daattali
+#  twitter: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -92,14 +128,14 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+#url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 

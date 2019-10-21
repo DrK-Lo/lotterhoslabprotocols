@@ -1,0 +1,46 @@
+# Scope Camera MVI Nikon SMZ 1000
+
+## Install
+Download software from Google Drive folder (Lotterhos Lab > equipment > MVI Nikon).
+
+Run as Administrator (PC) to install.
+
+*note - a message might pop up saying the key is missing; ignore and continue installing without the key*
+
+Under NIS-Elements Package, select ‘Local Option’ 
+
+Under Cameras, select Nikon Fi3
+
+Under Modules, select EDF, Local options > Language Pack
+
+Under Devices, select Manual Microscope and Nikon SMZ manual
+
+## Calibration settings
+
+Plug dongle and camera to laptop.
+
+At start up: first power up camera, second run application software (reverse to shut down).
+
+Acquire > Select driver > Nikon DS Fi3
+
+Acquire Camera light path > relay lens = 0.70 x > ok
+
+View > Acquisition controls > SMZ Pad > Nosepiece > Plan Apo1x 
+
+*note - for zoom calibration, double check the the value on the software matches what you’re using on the scope (knob on the right side of the ocular) and update the software each time you use a different zoom before taking a photo (zoom cal can not be corrected after an image has been captured).*
+
+## Some recommended settings
+
+**Continuous exposure (AE)**: will automatically adjust to optimal exposure as you move the sample around.
+
+**Auto-white**: place a white sheet of paper under the scope or select a known-white spot on the image and hit auto-white to define it as white (helps with calibrating color).
+
+**Auto Calibrated grid (this is shown by default but can also be found in View > Layers)**: will add a calibrated grid, several ‘shapes’ available (round, squared, etc). Lines and legend in this grid can be edited for size, color, etc.
+
+**Show Scale**: displays a calibrated (remember to double-check the zoom) scale that can be edited (font, color, etc).
+
+**Annotations and Measurements (View > Analysis Controls)**: this is a good window to have open and docked on the right-side panel. Many resources to measure the image/sample, all calibrated (remember to check zoom). A table with measurements is automatically created and can be exported as an excel file. 
+
+**Capture and store**: if you need to take multiple pictures and want them automatically assigned a given file name. Choose file name under ‘Prefix’ and photos will be saved sequentially 001, 002, etc.
+
+**Manual large image (Acquire > Manual large image)**: will compose an image of an object larger than the field of view. Turn off auto-shading ('on' is the default). Move the object around in any direction and snap a photo as you place different parts of the object in focus. The software will stich the frames together and create a photo of the larger object.
