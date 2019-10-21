@@ -19,7 +19,7 @@
 
  ### Kayak predeparture checks:
 
-* Read the instructions ![](img/kayak_Aquaglide_Manual_2017.pdf). You should be able to answer these questions. Which parts of the kayak do you inflate first? What position should the Boston valves be in when you inflate them? How do you deflate?
+* Read the instructions [Instructions](img/kayak_Aquaglide_Manual_2017.pdf). You should be able to answer these questions. Which parts of the kayak do you inflate first? What position should the Boston valves be in when you inflate them? How do you deflate?
 
 * Make sure all the zippers are completely closed, with the zipper tucked under the fabric.
 
