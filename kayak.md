@@ -2,26 +2,43 @@
 
 ### Kayak checkout list:
 
-* Inflatable kayak in backpack
-* Keel with pin
+* Inflatable Columbia Kayak in backpack/bag
+* Quick-Release Fin with pin
+* 2 Footrest
+* 2 Splash-Guard inserts
+* Repair kit NEEDS TO BE CHECKED
+* 4 PVC Rod Holder Sleeves
+* 4 Backstraps
+* 1 throw rope
+* Emergency chemical sticks
 * 2 life jackets
 * 2 kayak paddles
 * emergency whistles
 * 2 seats
 * pump with hose (I THINK THIS IS CURRENTLY BROKEN)
-* NEED TO ADD
 
  ### Kayak predeparture checks:
 
-* The 
+* Read the instructions [](img/kayak_Aquaglide_Manual_2017.pdf). You should be able to answer these questions. Which parts of the kayak do you inflate first? What position should the Boston valves be in when you inflate them? How do you deflate?
 
 * Make sure all the zippers are completely closed, with the zipper tucked under the fabric.
-[](img/kayak_zipper2.JPG)
+![](img/kayak_zipper2.JPG)
 
 * Make sure the drain in the bow is closed tight!
-[](img/kayak_drain_close2.JPG)
+![](img/kayak_drain_close2.JPG)
 
+* The kayak may be muddy or sandy when you are done. Do your best to keep it clean, but be very careful NOT to get sand inside the zippers or inside the valves. After you open the valves to deflate the kayak, *be sure to close them before you fold the kayak into the bag.* This will help keep sand out of the inside of the kayak.
 
-Kayak care:
+### Kayak care and cleaning:
 
-The kayak may be muddy or sandy
+* Inflate
+
+* Open the drain in the bow:
+![](kayak_drain_close.JPG)
+
+* Prop up the kayak for rinsing with the drain at the bottom: 
+![](kayak_drain.JPG)
+
+* NEVER open the zippers!
+
+* Make sure kayak is completely dry before putting it up.
