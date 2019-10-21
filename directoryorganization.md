@@ -22,14 +22,14 @@ Finally, you'll want to create a simple text README file that explicitly states 
 
 A README file written in [markdown](https://www.markdownguide.org/cheat-sheet) could look like this: 
 ```
-Files for New Project by Student McGee and PI ForFree, Year Month(s)
+# Files for New Project by Student McGee and PI ForFree, Year Month(s)
 
 Short description of New Project
 
-Description of each folder or file and the data contained within:
-src - What scripts are here?
-results - What kind of result files are here?
-data - What sort of data?
+## Description of each folder or file and the data contained within:
+  src - What scripts are here?
+  results - What kind of result files are here?
+  data - What sort of data?
 
 ```
 
