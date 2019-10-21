@@ -5,12 +5,12 @@ subtitle: A resources for useful lines when coding
 ---
 
 ### Table of Contents
-   * [Basic Unix Commands](#unix)
-        *[`cd` - Changing Directories](#cd)
-        *[`find` - Finding files](#find)
-        *[`ls` - Listing files](#ls)
-        *[`sed` - Replacing texts in a file name](#sed)
-
+ * [Basic Unix Commands](#unix)  
+      * [`cd` - Changing Directories](#cd)  
+      * [`find` - Finding files](#find)  
+      * [`ls` - Listing files](#ls)  
+      * [`sed` - Replacing texts in a file name](#sed)  
+  
 ### Basic Unix Commands <a name="unix"></a>
 
 List of basic unix commands for basic navigation and manipulation on the command line. 
