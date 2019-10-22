@@ -34,8 +34,7 @@ Short description of New Project
 ```
 
 Once you've set up your project folder, it should look something like this:
-![image](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/img/eg_structure.png)
-
+<img src="../img/eg_structure.png" alt="folder example" />
 
 
 Quick notes:
