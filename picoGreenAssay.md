@@ -43,6 +43,7 @@ The most commonly used technique for measuring nucleic acid concentration is the
 | D2          | 0.2                   | D1          | 1               | 9              | 
 
 * TABLE 2 *
+
 | Standards | Concentration (ng/mL) | Ladder Type | Ladder Vol (uL) | 1X TE Vol (uL) | Diluted PicoGreen Vol (uL) | 
 |-----------|-----------------------|-------------|-----------------|----------------|----------------------------| 
 | 1         | 500                   | D1          | 25              | 25             | 50                         | 
