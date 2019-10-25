@@ -29,20 +29,20 @@ The most commonly used technique for measuring nucleic acid concentration is the
 * Add 1 uL of sample to each of the sample wells and the appropriate amount of each ladder to the standard wells. 
 * At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2. Each well will get 50 uL of 200 times diluted PicoGreen. 
 
-* Equation 1 * 
+### Equation 1 
 (1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = vol of Stock PicoGreen 
 
-* Equation 2 *
+### Equation 2 
 199 * vol of Stock PicoGreen = vol of 1x TE 
 
-* TABLE 1 *
+### TABLE 1 
 
 | Ladder Type | Concentration (ug/mL) | Ladder Type | Ladder Vol (uL) | 1X TE Vol (uL) | 
 |-------------|-----------------------|-------------|-----------------|----------------| 
 | D1          | 2                     | Stock       | 1               | 49             | 
 | D2          | 0.2                   | D1          | 1               | 9              | 
 
-* TABLE 2 *
+### TABLE 2 
 
 | Standards | Concentration (ng/mL) | Ladder Type | Ladder Vol (uL) | 1X TE Vol (uL) | Diluted PicoGreen Vol (uL) | 
 |-----------|-----------------------|-------------|-----------------|----------------|----------------------------| 
