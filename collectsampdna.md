@@ -21,9 +21,12 @@ TO DO: add photo. ad text
 ### 'OGLFix' fixative buffer
 
 Contact the OGL technicians to request an aliquot of 'OGLFix' fixative buffer with 2 days of notice. You will need 1 mL per sample, so calculate the volume needed accordingly, and provide OGL with an autoclaved glass jar of appropriate volume. This buffer can be kept at room temperature.
+
 Use autoclaved sample containers, i.e., 2-mL microcentrifuge tubes (autoclave tubes and caps separately).
-Label the autoclaved tubes and pipette 1 mL of OGLFix into each tube.
-Place a piece of tissue inside the tube - the volume of OGLFix should be at least 5 times the volume of solid tissue.
+
+Label the autoclaved tubes and pipette 1 mL of 'OGLFix' into each tube.
+
+Place a piece of tissue inside the tube - the volume of 'OGLFix' should be at least 5 times the volume of solid tissue.
 
 ### Tips for flash freezing in liquid N2
 
