@@ -18,7 +18,7 @@ Some tips:
 
 TO DO: add photo. ad text
 
-### OGLFix fixative buffer
+### 'OGLFix' fixative buffer
 
 Contact the OGL technicians to request an aliquot of 'OGLFix' fixative buffer with 2 days of notice. You will need 1 mL per sample, so calculate the volume needed accordingly, and provide OGL with an autoclaved glass jar of appropriate volume. This buffer can be kept at room temperature.
 Use autoclaved sample containers, i.e., 2-mL microcentrifuge tubes (autoclave tubes and caps separately).
