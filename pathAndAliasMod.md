@@ -1,4 +1,4 @@
-## Tutorial on the basics of altering the `~/.bashrc` or `~/.bash_profile` file
+## Basics of altering the `~/.bashrc` or `~/.bash_profile` file
 
 ### Reason
 Often times you may need to run a command from a downloaded piece of software, but would like to avoid the inconvience of including the entire path as part of the command. This can be avoided by updating you `~/.bashrc` or `~/.bash_profile` with either an alias for a particular pathway/file or by amending you $PATH variable to include the specific folder in which your command is located. The later may be particularly useful if the software contains multiple commands you need to call.
