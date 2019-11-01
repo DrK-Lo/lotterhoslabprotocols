@@ -61,7 +61,7 @@ navbar-links:
   Coding Protocols:
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
-    - Useful Coding Lines: "usefulcodinglines"
+    - Basic Unix Commands: "unixcommands"
     - Accessing and Using Defiance Cluster: "defiance"
     - Moving files around: "movingfiles"
     - Troubleshooting CellProfiler Installation: "TroubleshootingCellprofiler"
