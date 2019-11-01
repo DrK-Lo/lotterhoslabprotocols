@@ -1,21 +1,19 @@
 ---
 layout: page
-title: Useful Coding Lines
+title: Basic Unix Commands 
 subtitle: A resources for useful lines when coding
 ---
 
 ## Table of Contents
- * [Basic Unix Commands](#unix)  
-      * [`cd` - Changing Directories](#cd)  
-      * [`find` - Finding files](#find)  
-      * [`ls` - Listing files](#ls)  
-      * [`sed` - Replacing texts in a file name](#sed)  
+1) [`cd` - Changing Directories](#cd)  
+2) [`find` - Finding files](#find)  
+3) [`ls` - Listing files](#ls)  
+4) [`sed` - Replacing texts in a file name](#sed)
+5) [`chmod`- Changing file or folder permissions](#chmod)
+6) [`wc` - Count words,lines, or columns of a file](#wc)
   
-## Basic Unix Commands <a name="unix"></a>
 
-List of basic unix commands for basic navigation and file manipulation on the command line. 
-
-### Change directory - `cd` <a name="cd"></a>
+## Change directory - `cd` <a name="cd"></a>
 
 **Description** - Command allows you to change your directory.
 
@@ -39,11 +37,11 @@ cd
 <img src="../img/quickdirectory.gif" style="width:100%;" alt="Quick Directory Access" />
 
 
-### Find target files - `find` <a name="find"></a>
+## Find target files - `find` <a name="find"></a>
 
 **Description** - The `find` command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions. By using the `- exec` other UNIX commands can be executed on files or folders found. (from https://shapeshed.com/unix-find/)
 
-* [Additional Information
+* Additional Information
      * [Extended Tutorial](https://shapeshed.com/unix-find/)  
      * [`find` manual](https://linux.die.net/man/1/find)  
 
@@ -61,65 +59,50 @@ find /home/br.ford/br.ford_remote/slim/results/ -ctime +14 -print -exec rm {} \;
 This finds all files in the `.../results/` directory that are older than 14 days and removes them
 
 You can also be more specific. For example, if you want to remove only txt files older than two days:
+```
+find /home/br.ford/br.ford_remote/slim/results/*.txt -ctime +2 -print -exec mv {} finished_results \;
+```
 
-`find /home/br.ford/br.ford_remote/slim/results/*.txt -ctime +2 -print -exec mv {} finished_results \;`
 
-
-### Listing files and directories - `ls` <a name="ls"></a>
+## Listing files and directories - `ls` <a name="ls"></a>
 
 **List just subdirectories in the current directory**
-
 ```
 ls -d */
 ```
 
-#### Replacing characters in a txt file -`sed` <a name="sed"></a>
-
-`sed -i '' 's/["]//g' test.txt`
-
-The -i argument says to use in-place editing (edit and return file without making another copy), the empty quotes identifies extension of backup file (none, unless you want a backup file), the statement in the quotes specifies: to substitute (s/) quotations ([“]) with nothing (//) globally (g’) in test.txt
-
-### Want to change to a directory without having to type the entire directory path? Use the click and drag method:
-
-<img src="../img/quickdirectory.gif" style="width:100%;" alt="Quick Directory Access" />
-
-### Want to remove files created before a certain date? Here's an example:
-
-`find /home/br.ford/br.ford_remote/slim/results/ -ctime +14 -print -exec rm {} \;`
-
-This finds all files in the `.../results/` directory that are older than 14 days and removes them
-
-You can also be more specific. For example, if you want to remove only txt files older than two days:
-
-`find /home/br.ford/br.ford_remote/slim/results/*.txt -ctime +2 -print -exec mv {} finished_results \;`
-
-### Want to list just subdirectories in the current directory?
-
-`ls -d */`
-
-### Want to replace a character in a txt file? Use sed:
-
-`sed -i '' 's/["]//g' test.txt`
+## Replacing characters in a txt file -`sed` <a name="sed"></a>
+```
+sed -i '' 's/["]//g' test.txt
+```
 
 The -i argument says to use in-place editing (edit and return file without making another copy), the empty quotes identifies extension of backup file (none, unless you want a backup file), the statement in the quotes specifies: to substitute (s/) quotations ([“]) with nothing (//) globally (g’) in test.txt
 
-### Want to change permissions to a directory and all subdirectories, but are not sure which `chmod` arguments to use to do so recursively? Use mac GUI:
+## Changing Permission - `chmod` <a name="chmod"></a>
 
+
+**Want to change permissions to a directory and all subdirectories, but are not sure which `chmod` arguments to use to do so recursively?**
+
+Use mac GUI:
 <img src="../img/changepermissions.gif" style="width:100%;" alt="Change Permissions" />
 
-### Need to know how many lines or columns you have in a file?
+## Counting words, lines, or columns - `wc` <a name="wc"></a>
 
 Count the lines:
-
-`wc -l myfile.txt`
+```
+wc -l myfile.txt
+```
 
 Count the columns:
-
-`awk -F'\t' '{print NF; exit}' myfile.txt`
+```
+awk -F'\t' '{print NF; exit}' myfile.txt
+```
 
 -F'\t' tells awk that your columns are tab delimited, you can switch this for another character depending on your dataset. For example, if the data is comma separated just use -F',' instead. To print the column count for every line instead of just the first one, leave out 'exit'.
 
-### Want to rename lots of files at once?
+#### Still editting below this point (possibly moving to new file since this is not a basic unix command)
+
+**Want to rename lots of files at once?**
 
 Say you have a directory with the following images:
 
@@ -138,8 +121,9 @@ You decide that they should have a more descriptive name, so you want to change 
 
 You don't have to move them individually, just use the bash command 'rename' with a regular expression!
 
-
-`$ rename 's/pic/oyster_pic/g' *`
+```
+$ rename 's/pic/oyster_pic/g' *
+```
 
 
 - 's' at the begining tells the command to **s**ubstitute a string with another string
