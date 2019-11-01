@@ -8,9 +8,9 @@ subtitle: A resources for useful lines when coding
 1) [`cd` - Changing Directories](#cd)  
 2) [`find` - Finding files](#find)  
 3) [`ls` - Listing files](#ls)  
-4) [`sed` - Replacing texts in a file name](#sed)
-5) [`chmod`- Changing file or folder permissions](#chmod)
-6) [`wc` - Count words,lines, or columns of a file](#wc)
+4) [`sed` - Replacing texts in a file name](#sed)  
+5) [`chmod`- Changing file or folder permissions](#chmod)  
+6) [`wc` - Count words,lines, or columns of a file](#wc)  
   
 
 ## Change directory - `cd` <a name="cd"></a>
