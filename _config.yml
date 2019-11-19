@@ -59,6 +59,7 @@ navbar-links:
     - Seatables: "Seatables"
     - Kayak: "kayak"
   Coding Protocols:
+    - Accessing Discovery: "Discovery"
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
     - Useful Coding Lines: "usefulcodinglines"
