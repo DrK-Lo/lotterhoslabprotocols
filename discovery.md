@@ -66,20 +66,23 @@ make sure only relevant files are being archived.
   * A __Globus endpoint__ is a folder on a computer that you want to transfer files to or from
   * A __Globus Collection__ is a folder on a computer that contains a collection of files. You may create several endpoints within a collection to share with specific people.
   
-* **Getting started with Globus on Discovery**
+#### Getting started with Globus on Discovery
+
   * Go to [globus.org](globus.org)
   * Click on "Login", from the dropdown list choose "Northeastern University", login with your NU credentials
   * Click on "File Manager" and the Search Icon. In the Search Box type "Northeastern". Choose "northeastern#discovery". This is your home directory on Discovery. Click on the Bookmark Icon to add this to your bookmarks.
   * Dr. Lotterhos will share through Globus the specific folders that you will have access to on the Discovery Lab Storage
   
- * **Getting started with Globus on your laptop**
+#### Getting started with Globus on your laptop
+
   * Download [Globus Connect Personal](https://www.globus.org/globus-connect-personal) for your laptop and follow the instructions to setup and configure your laptop as an endpoint
   
-* **Transferring files in Globus**
+#### Transferring files in Globus
  * Click on "File Manager"
  * In the upper right, click on the Double-Panel Icon. This will open two panels - choose the collections that you would like to transfer files between, and drag and drop!
   
- * **Sharing endpoints**
+#### Sharing endpoints
+
   * A __Globus endpoint__ is a folder on a computer that you want to transfer files to or from. In Globus, click on the folder ("Collection") that you would like to allow file transfer to or from.
   * To let someone download files in that folder, give them access to "read" the files
   * To let someone upload files to that folder, give them access to "read and write" to the folder
