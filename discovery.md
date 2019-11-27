@@ -31,7 +31,7 @@ A container allows you to create the same environment that you were using when y
   
 * Although OOD allows file transfer, this is not recommended because there are no automatic checks for file corruption. Use Globus instead.
   
-## Lotterhos Lab Storage on Discovery
+## Lotterhos Lab vs. Personal Storage on Discovery
 
 * We have **active** storage (10 TB) that should be used for 'active' projects, and **archival** storage for storing 
 raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr. Lotterhos to 
@@ -41,15 +41,19 @@ make sure only relevant files are being archived.
 
 * **Active Lotterho Lab storage** (10 TB for lab).  
   * Path: `/research/lotterhos/`
+  * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
 
 * **Archival Lotterho Lab storage** (25 TB for lab). Northeastern NESE collection. 
   * Path: `/lotterhosarchive/`
+  * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
 
 * **Your home directory on Discovery**.  NEED TO CHECK
   * Path: `/~/`
+  * Note that only you have access to these files.
   
 * **Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up. NEED TO CHECK
   * Path: `/scratch/username`
+   * Note that only you have access to these files.
 
 ## Globus File Transfer
 
@@ -59,8 +63,35 @@ make sure only relevant files are being archived.
   * It automatically checks that your files were not corrupted during the transfer
   * Globus is already integrated with Discovery and our lab files.
   * It makes transferring files among your laptop, your collaborator(s), and Discovery easy.
+  * A __Globus endpoint__ is a folder on a computer that you want to transfer files to or from
+  * A __Globus Collection__ is a folder on a computer that contains a collection of files. You may create several endpoints within a collection to share with specific people.
   
-* **Getting started with Globus**
-  * 
+* **Getting started with Globus on Discovery**
+  * Go to [globus.org](globus.org)
+  * Click on "Login", from the dropdown list choose "Northeastern University", login with your NU credentials
+  * Click on "File Manager" and the Search Icon. In the Search Box type "Northeastern". Choose "northeastern#discovery". This is your home directory on Discovery. Click on the Bookmark Icon to add this to your bookmarks.
+  * Dr. Lotterhos will share through Globus the specific folders that you will have access to on the Discovery Lab Storage
+  
+ * **Getting started with Globus on your laptop**
+  * Download [Globus Connect Personal](https://www.globus.org/globus-connect-personal) for your laptop and follow the instructions to setup and configure your laptop as an endpoint
+  
+* **Transferring files in Globus**
+ * Click on "File Manager"
+ * In the upper right, click on the Double-Panel Icon. This will open two panels - choose the collections that you would like to transfer files between, and drag and drop!
+  
+ * **Sharing endpoints**
+  * A __Globus endpoint__ is a folder on a computer that you want to transfer files to or from. In Globus, click on the folder ("Collection") that you would like to allow file transfer to or from.
+  * To let someone download files in that folder, give them access to "read" the files
+  * To let someone upload files to that folder, give them access to "read and write" to the folder
+    * Note that if you allow the person you are sharing with to write to the folder, this gives the person you are sharing with the opportunity to delete or replace any files within that folder, so proceed with caution. I recommend creating a specific "sharedwith_X" folder for having someone transfer files to you.
+  * Steps
+    * In Globus, click on the folder ("Collection") that you would like to allow file transfer to or from.
+    * Click on "Share", "Add a Shared Endpoint"
+    * To view your shared endpoints, click on "endpoints", “shareable by you”
+      * click on the endpoint and the "sharing" tab
+      * click on "Add Permissions - share with" and enter the email associated with the globus account you want to share with
+  
+  
+ Question for research computing - can we link Globus with Google drive? https://docs.globus.org/how-to/access-google-drive/
 
 
