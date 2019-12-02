@@ -20,7 +20,7 @@ A container allows you to create the same environment that you were using when y
 
 ## Open OnDemand
 
-* Check on the Open On Demand - R studio and Jupyter notebooks! Open OnDemand (ood.discovery.neu.edu)
+* Check on the Open On Demand - R studio and Jupyter notebooks! Open OnDemand [ood.discovery.neu.edu](ood.discovery.neu.edu)
   * You also open a JupyterHub interface (jupyterhub.discovery.neu.edu)
   
 * To view your home directory on Discovery with OOD, you have to log in to Discovery at the command line / Terminal first
@@ -39,11 +39,12 @@ make sure only relevant files are being archived.
 
 * In addition each user has a home directory and a scratch directory.
 
-* **Active Lotterho Lab storage** (10 TB for lab).  
+* **Active Lotterhos Lab storage** (10 TB for lab).  
+  * ssh lotterhos@xfer-00.discovery.neu.edu
   * Path: `/research/lotterhos/`
   * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
 
-* **Archival Lotterho Lab storage** (25 TB for lab). Northeastern NESE collection. 
+* **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
   * Path: `/lotterhosarchive/`
   * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
 
@@ -76,10 +77,16 @@ make sure only relevant files are being archived.
 #### Getting started with Globus on your laptop
 
   * Download [Globus Connect Personal](https://www.globus.org/globus-connect-personal) for your laptop and follow the instructions to setup and configure your laptop as an endpoint
+  * Make sure to save your setup key, you'll need it again to open the Globus App on your computer
+  * If you get error messages, try restarting your Terminal
   
 #### Transferring files in Globus
  * Click on "File Manager"
  * In the upper right, click on the Double-Panel Icon. This will open two panels - choose the collections that you would like to transfer files between, and drag and drop!
+ 
+ - can view other's scratch directories and copy files, but not edit
+ - other users can view /research/lotterhos and edit/delete files
+ - 
   
 #### Sharing endpoints
 
