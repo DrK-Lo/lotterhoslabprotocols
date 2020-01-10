@@ -31,7 +31,17 @@ The most commonly used technique for measuring nucleic acid concentration is the
 * At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2. 
 * Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
 * Use a plate cover and briefly spin down the plate to get all liquid to the bottom of the well.
-* Run plate on a Plate Reader using the software
+* Run plate on a Plate Reader using the Gen5 software. First turn on the machine to warm up (takes ~2-3 minutes)
+* Open Gen5 software and on the opening window make sure you are on the "Run Now" option on the left side column and click on the PicoGreen Assay full plate file. 
+* This will open another window with a full plate already loaded just click "cancel"
+* Click "Plate Layout" on the top bar which will open a new window to edit with your standard curve and sample wells
+* Clear plate by highlighting "EMPTY" on the left panel and click and drag across whole plate
+* Then right click on the "STD" and click "edit" to change your standard curve values to what you set up for your plate when you are done editing click okay
+* Highlight the first standard curve value in the left panel and click on the appropriate well where that value is located. You can click and drag down the column if they are all in a row.
+* Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled. ** You do not need to put water in empty wells can just leave empty **
+* When this is done click okay and the machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click "okay". 
+* The run should take ~2-3 minutes, then click on the "Statistics" tab and output that spreadsheet to an excel file by copy and pasting. 
+* Finally use XXX spreadsheet to convert absorbance values to associated concentrations. 
 
 ### Equation 1 
 (1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = vol of Stock PicoGreen 
@@ -56,3 +66,11 @@ The most commonly used technique for measuring nucleic acid concentration is the
 | 4         | 10                    | D2          | 5               | 45             | 50                         | 
 | 5         | 4                     | D2          | 2               | 48             | 50                         | 
 | blank     | 0                     | -           | -               | 50             | 50                         | 
+
+### TABLE 3
+
+| Reagent | Volume (uL) |
+|---------|-------------|
+| 1X TE   | 49          |
+| sample  | 1           |
+| dil PG  | 50          |
