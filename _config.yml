@@ -49,7 +49,7 @@ navbar-links:
     - Gel Electrophoresis: "gelelectrophoresis"
     - BioAnalyzer Library Check: "bioanalyzerlibrarycheck"
     - TapeStation Library Check: "tapestationlibrarycheck"
-    - Take3 DNA Quantification: "take3dnaquantification"
+    - Take3 DNA Quantification: "picoGreenAssay"
   Field and Sampling Protocols:
     - Collecting Samples for DNA: "collectsampdna"
     - Collecting Samples for RNA: "collectsamprna"
