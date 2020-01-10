@@ -11,7 +11,7 @@ The most commonly used technique for measuring nucleic acid concentration is the
 ## Equipment & Reagents
 * flat bottom black Costar 96-well plate (Fisher Cat #: 07-200-627) (FIND OUT IF AUTOCLAVE SAFE)
 * two - 15 mL Falcon tubes
-* two 0.2 mL snap cap tubes for ladder dilutions
+* two - 0.2 mL snap cap tubes for ladder dilutions
 * samples diluted to appropriate concentration to be read on the plate reader
 * 20X TE Buffer (comes with PicoGreen Kit)
 * PicoGreen Dye (comes with PicoGreen Kit)
@@ -19,7 +19,7 @@ The most commonly used technique for measuring nucleic acid concentration is the
 
 ## Important Notes 
 * Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL.
-* Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL (or .01 to .2). Therefore, you should do a 
+* Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay.
 * PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.
 * The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90.
 
