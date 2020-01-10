@@ -31,7 +31,8 @@ The most commonly used technique for measuring nucleic acid concentration is the
 * At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2. 
 * Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
 * Use a plate cover and briefly spin down the plate to get all liquid to the bottom of the well.
-* Run plate on a 
+* Run plate on a Plate Reader using the software
+
 ### Equation 1 
 (1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = vol of Stock PicoGreen 
 
