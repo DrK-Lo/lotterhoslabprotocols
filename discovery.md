@@ -8,6 +8,8 @@
 
 * [NU Discovery research computing docs](https://rc-docs.northeastern.edu/en/latest/)
 
+* Need help? Create a ticket automatically by emailing rchelp@northeastern.edu
+
 
 ## Software on Discovery for Lotterhos Lab
 
