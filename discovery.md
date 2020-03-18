@@ -93,7 +93,23 @@ make sure only relevant files are being archived.
 
 * In addition each user has a home directory and a scratch directory.
 
-* **Active Lotterhos Lab storage** (? TB for lab).  
+* **Active Lotterhos Lab storage** 
+ * Ask Katie to share a Globus endpoint with you. The endpoint with include the words "smb Volumes/lotterhos"
+ * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
+
+* **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
+  * Path: `/lotterhosarchive/`
+  * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
+
+* **Your home directory on Discovery**.  
+  * Path: `/~/`
+  * Note that only you have access to these files.
+  
+* **Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up. 
+  * Path: `/scratch/username`
+   * Note that only you have access to these files.
+
+* **Active Lotterhos Lab storage: more information ** (? TB for lab).  
   * smb://nunet.neu.edu/rc-shares/lotterhos/
   * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
   * Because accessing this server is done through a computer, it makes transferring files specific to the computer that the server is mapped to. Typically, you will ask Katie to share the Globus endpoint for this server that is set up through the lab iMac. As long as the server is mapped to the computer (typically lab iMac) and that connection is not interrupted, you should have no problems. 
@@ -108,16 +124,5 @@ make sure only relevant files are being archived.
    * Step 2: In the Globus Web App, go to the endpoint for the computer. Then type `Volumes/lotterhos/` in the path. Save it as a bookmark.
    * Step 3: Before you can conduct file transfers from a personal endpoint, you need to have a "Globus Plus Account". Email James Macalino at NU research computing to get added. You will then receive an email.
   
-* **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
-  * Path: `/lotterhosarchive/`
-  * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
-
-* **Your home directory on Discovery**.  
-  * Path: `/~/`
-  * Note that only you have access to these files.
-  
-* **Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up. 
-  * Path: `/scratch/username`
-   * Note that only you have access to these files.
 
 
