@@ -6,6 +6,8 @@
 
 * [NU's Getting started on Discovery](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/1/43/files/2019/08/GettingStartedGuide-1.pdf)
 
+* [NU Discovery research computing docs](https://rc-docs.northeastern.edu/en/latest/)
+
 
 ## Software on Discovery for Lotterhos Lab
 
@@ -30,31 +32,7 @@ A container allows you to create the same environment that you were using when y
   * You can then view it via Open OnDemand
   
 * Although OOD allows file transfer, this is not recommended because there are no automatic checks for file corruption. Use Globus instead.
-  
-## Lotterhos Lab vs. Personal Storage on Discovery
 
-* We have **active** storage (10 TB) that should be used for 'active' projects, and **archival** storage for storing 
-raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr. Lotterhos to 
-make sure only relevant files are being archived.
-
-* In addition each user has a home directory and a scratch directory.
-
-* **Active Lotterhos Lab storage** (10 TB for lab).  
-  * ssh lotterhos@xfer-00.discovery.neu.edu
-  * Path: `/research/lotterhos/`
-  * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
-
-* **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
-  * Path: `/lotterhosarchive/`
-  * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
-
-* **Your home directory on Discovery**.  NEED TO CHECK
-  * Path: `/~/`
-  * Note that only you have access to these files.
-  
-* **Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up. NEED TO CHECK
-  * Path: `/scratch/username`
-   * Note that only you have access to these files.
 
 ## Globus File Transfer
 
@@ -103,5 +81,39 @@ make sure only relevant files are being archived.
   
   
  Question for research computing - can we link Globus with Google drive? https://docs.globus.org/how-to/access-google-drive/
+
+  
+## Lotterhos Lab vs. Personal Storage on Discovery
+
+* We have **active** storage (10 TB) that should be used for 'active' projects, and **archival** storage for storing 
+raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr. Lotterhos to 
+make sure only relevant files are being archived.
+
+* In addition each user has a home directory and a scratch directory.
+
+* **Active Lotterhos Lab storage** (? TB for lab).  
+  * smb://nunet.neu.edu/rc-shares/lotterhos/
+  * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
+  * Because accessing this server is done through a computer, it makes transferring files specific to the computer that the server is mapped to. Typically, you will ask Katie to share the Globus endpoint for this server that is set up through the lab iMac. As long as the server is mapped to the computer (typically lab iMac) and that connection is not interrupted, you should have no problems. 
+   * From a laptop or over wifi, transfers of large files are very slow. This is why we map to the server through the iMac. The point of all the steps we outline below is so we can use Globus to transfer files from the smb drive to Discovery.
+  * To connect to the smb server, follow these directions to map to the server on a computer [this document](link) (typically Katie only)
+  * Setting up a Globus endpoint for the folder to share (typically Katie only)
+   * _Intitial step if Globus personal endpoint for the computer is not set up_: Download and install the Globus Connect Personal App. In Globus web app, click on "Add a personal endpoint" and enter the key in the Desktop app.
+   * _Intial setup if working from a home laptop_: Use GlobalProtect to establish a VPN connection (vpn.northeastern.edu) (if you are having trouble establishing the VPN connection on a Mac, check your Security and Permissions settings and give the app permissions). Then you should be able to map to the server. 
+   * Step 1: In the Globus Desktop App, then go to Preferences-> Access and click the "+" sign. On a Mac, at the top center click on the bar, click on the name of the computer, and you should see the mapped server there as a volume `Volumes/lotterhos`. Click on it and add it to the list.
+   * Step 2: In the Globus Web App, go to the endpoint for the computer. Then type `Volumes/lotterhos/` in the path. Save it as a bookmark.
+   * Step 3: Before you can conduct file transfers from a personal endpoint, you need to have a "Globus Plus Account". Email James Macalino at NU research computing to get the account.
+  
+* **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
+  * Path: `/lotterhosarchive/`
+  * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
+
+* **Your home directory on Discovery**.  
+  * Path: `/~/`
+  * Note that only you have access to these files.
+  
+* **Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up. 
+  * Path: `/scratch/username`
+   * Note that only you have access to these files.
 
 
