@@ -94,8 +94,8 @@ make sure only relevant files are being archived.
 * In addition each user has a home directory and a scratch directory.
 
 * **Active Lotterhos Lab storage** 
- * Ask Katie to share a Globus endpoint with you. The endpoint with include the words "smb Volumes/lotterhos"
- * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
+  * Ask Katie to share a Globus endpoint with you. The endpoint with include the words "smb Volumes/lotterhos"
+  * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
 
 * **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
   * Path: `/lotterhosarchive/`
@@ -109,7 +109,7 @@ make sure only relevant files are being archived.
   * Path: `/scratch/username`
    * Note that only you have access to these files.
 
-* **Active Lotterhos Lab storage: more information ** (? TB for lab).  
+* **Active Lotterhos Lab storage: more information** (? TB for lab).  
   * smb://nunet.neu.edu/rc-shares/lotterhos/
   * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
   * Because accessing this server is done through a computer, it makes transferring files specific to the computer that the server is mapped to. Typically, you will ask Katie to share the Globus endpoint for this server that is set up through the lab iMac. As long as the server is mapped to the computer (typically lab iMac) and that connection is not interrupted, you should have no problems. 
