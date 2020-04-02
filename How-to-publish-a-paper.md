@@ -7,7 +7,7 @@ The average time it takes to publish a paper after you first submit it for revie
 
 Writing has two facets: building good writing habits and actually putting words together in a way that makes sense to other people. Knowing the difference between _e.g._ and _i.e._ saves your co-authors time explaining it to you. Grammatical errors frustrate reviewers and panelists, and make them skeptical of attention to detail and the quality of the work.
 
-* Check out this Nature article ["Kick-Start Writing"](https://www.nature.com/articles/d41586-020-00917-5?WT.ec_id=NATURE-20200402&utm_source=nature_etoc&utm_medium=email&utm_campaign=20200402&sap-outbound-id=69E44DD0207B01E0A60108CFF0428F738A5F26BB&mkt-key=42010A0550671EEA9BA03924AF8F504C)
+* Check out this Nature article ["Kick-Start Writing"](https://www.nature.com/articles/d41586-020-00917-5)
 
 #### Building good writing habits
 
