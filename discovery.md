@@ -2,7 +2,7 @@
 
 * Discovery account. Apply by opening a Service-Now ticket with an access request (https://rc.northeastern.edu/support/contact/).
 
-* Login by typing `ssh lotterhos@login.discovery.neu.edu`
+* Login by typing e.g. `ssh lotterhos@login.discovery.neu.edu`
 
 * Read [NU's Getting started on Discovery](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/1/43/files/2019/08/GettingStartedGuide-1.pdf)
 
