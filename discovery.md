@@ -4,9 +4,9 @@
 
 * Login by typing `ssh lotterhos@login.discovery.neu.edu`
 
-* [NU's Getting started on Discovery](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/1/43/files/2019/08/GettingStartedGuide-1.pdf)
+* Read [NU's Getting started on Discovery](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/1/43/files/2019/08/GettingStartedGuide-1.pdf)
 
-* [NU Discovery research computing docs](https://rc-docs.northeastern.edu/en/latest/)
+* Check out [NU Discovery research computing docs](https://rc-docs.northeastern.edu/en/latest/)
 
 * Need help? Create a ticket automatically by emailing rchelp@northeastern.edu
 
