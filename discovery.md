@@ -15,12 +15,20 @@
 
 * We have a software module on Discovery for the lab's research
 ```
-module show lotterhos/2019-11-15
-module load lotterhos/2019-11-15
+module show lotterhos/2020-03-18
+module load lotterhos/2020-03-18
+source activate lotterhos-py38
 ```
+
+Old module: module show lotterhos/2019-11-15, module load lotterhos/2019-11-15
 
 * In the future we hope to work on Docker containers for loading R packages and developing containers for specific projects.
 A container allows you to create the same environment that you were using when you analyzed the data.
+
+## Using Lotterhos nodes on Discovery
+
+There is a lotterhos unix group, which you need to request Dr. L to add you to. It takes a day for the change to propagate so you should be able to see you are part of the ‘lotterhos’ group when typing `groups $USER` in the terminal.
+Once you confirm you are part of the unix group and have access to the nodes, you can submit regular jobs using the `--partition lotterhos`
 
 ## Open OnDemand
 
