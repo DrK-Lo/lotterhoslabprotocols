@@ -24,15 +24,18 @@ Writing has two facets: building good writing habits and actually putting words 
 # Thinking backwards from a deadline
 
 This timeline assumes you have a full rough draft 3 months before a deadline.
+Prior to this time, make sure you have a target journal and stay within the word limit as you write.
 
-* Week -1: Fine editing, grammar, figure references, bibliography edits. Leave 2-3 hours for submission.
-* Week -2 to -3: Two weeks for final comments from all co-authors.
-* Week - 4: Make sure final draft is formatted for submission (e.g. word counts, figure number, etc.)
-* Week -5:  Incorporate comments from co-authors. Plan another meeting with co-authors if needed.
-* Week - 6 to 7: Two weeks for comments from co-authors. Continue to improve manuscript while waiting for comments. 
-* Week -8: Full draft ready, with high quality figures. Make sure this draft is formatted for submission (e.g. word counts, figure number, etc.).
+* Week -12: Rough draft ready. A rough draft should not be missing many citations, and should have near-final versions of all the figures and tables. 
 * Week -9 to -10: Meeting with co-authors to go over current draft of manuscript, approve methods, decide what figures to include, etc. Keep in mind this meeting could take a couple of weeks to get on the books (so should be planned in week -11).
-* Week -12: Rough draft ready. A rough draft should not be missing many citations, and should have near-final versions of all the figures and tables.
+* Week -8: Full draft ready, with high quality figures. Make sure this draft is formatted for submission (e.g. word counts, figure number, etc.).
+* Week - 6 to 7: Two weeks for comments from co-authors. Continue to improve manuscript while waiting for comments. 
+* Week -5:  Incorporate comments from co-authors. Plan another meeting with co-authors if needed.
+* Week - 4: Make sure final draft is formatted for submission (e.g. word counts, figure number, etc.)
+* Week -2 to -3: Two weeks for final comments from all co-authors.
+* Week -1: Fine editing, grammar, figure references, bibliography edits. Leave 2-3 hours for submission.
+
+
 
 # Using Google Docs
 
@@ -54,6 +57,7 @@ This timeline assumes you have a full rough draft 3 months before a deadline.
 
 * Also having links to relevant documents at the top of the manuscript can be helpful, including a link to the editor letter, response to reviewers, notes and unused text, etc.
 
+* Have a target journal and stay within the word limit as you write.
 
 # Inform all authors of the authorship policy
 
