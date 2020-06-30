@@ -10,7 +10,7 @@ With next generation sequencing, it is important to consider all possible source
 
 ### Tips
 
-* **Prepare ahead of time:** All sample vials used to store tissue for DNA extraction should be sterilized by autoclaving ahead of time. Screw-cap cryovials are preferred (Fisher, cat #10-500-26). Be sure to get trained (online course and in-person training by OGL personel) before using the autoclave. Make a list of all other materials needed to collect samples and autoclave what is autoclavable ahead of time. Remember to gather boxes, gloves and other PPE.
+* **Prepare ahead of time:** All sample vials used to store tissue for DNA extraction should be sterilized by autoclaving ahead of time. Screw-cap cryovials are preferred (Fisher, cat #10-500-26). Be sure to get trained (online course and in-person training by OGL personnel) before using the autoclave. Make a list of all other materials needed to collect samples and autoclave what is autoclavable ahead of time. Remember to gather boxes, gloves and other PPE.
 
 * **Smart label and metadata**: In general, it is best practice to have tubes organized in a box, with at least 2 labels on each tube (in case one falls off). We have a barcode label printer (with freezer-proof labels) that can be used. Label the vials with species name or initials, and sample ID. **Make sure to have unique sample IDs for each sample for your entire project**. Label boxes with species name, project name, your initials, sampling date and location ahead of time. Make a spreadsheet listing the sample IDs and columns to record all other info and data about the study site, individuals and samples (lat/long, size and weight of animals, experimental treatment, etc).
 
@@ -22,7 +22,7 @@ With next generation sequencing, it is important to consider all possible source
 
 ### Flash freezing in liquid N2
 
-Be sure to get trained by OGL personnel beforehand if using the liquid N2 dispenser at NUMSC. Place tissue into labelled cryovials. Make sure to use liquid N2 and -80oC freezer proof labels so they do not fall off. Use protective equipment to handle liquid N2: cryogenic gloves, closed-toe shoes, lab coat and goggles. Dispense liquid N2 into the dewar flask. Carefully transfer liquid N2 from the dewar into a secondary wide-mouth dewar. Place a sample vials on a long-handle strainer and slowly submerse the strainer into liquid N2 in the wide-mouth dewar, releasing the cryovials into the liquid. If flash-freezing samples in the lab, wait 1-2 min and retreive the vials using the strainer. Make sure to retreive all vials from the dewar. Place cryovials in a storage box and transfer the box to the -80oC freezer. These cryovials are used for flash-freezing and temporary storage-only in liquid N2. If flash-freezing away from the lab, make sure to transfer vials to storage boxes and into the -80oC freezer as soon as possible. Carefully return left over liquid N2 to the primary dewar and close the lid.
+Be sure to get trained by OGL personnel beforehand if using the liquid N2 dispenser at NUMSC. Place tissue into labelled cryovials. Make sure to use liquid N2 and -80oC freezer proof labels so they do not fall off. Use protective equipment to handle liquid N2: cryogenic gloves, closed-toe shoes, lab coat and goggles. Dispense liquid N2 into the dewar flask. Place a sample vials on a long-handle strainer and slowly submerse the strainer into liquid N2 in the dewar, releasing the cryovials into the liquid. If flash-freezing samples in the lab, wait 1-2 min and retreive the vials using the strainer. Make sure to retreive all vials from the dewar. Place cryovials in a storage box and transfer the box to the -80oC freezer. These cryovials are used for flash-freezing and temporary storage-only in liquid N2. If flash-freezing away from the lab, make sure to transfer vials to storage boxes and into the -80oC freezer as soon as possible.
 
 ### Ethanol
 
@@ -30,7 +30,7 @@ Use regular grade 95% ethanol. Calculate how much ethanol will be needed for all
 
 ### OGLFix
 
-OGLFix can be used instead of ethanol to preserve tissue for DNA. Follow the same instructions described above for ethanol (no dilution needed). OGLFix can be shipped without hazardous designation. As for ethanol preservation, **it is critical the the entire tissue is submersed in fixative.** Refer to the OGLFix sampling protocol for detailed instructions.
+OGLFix can be used instead of ethanol to preserve tissue for DNA extraction. Follow the same instructions described above for ethanol (no dilution needed). OGLFix can be shipped without hazardous designation. As for ethanol preservation, **it is critical the the entire tissue is submersed in fixative.** Refer to the OGLFix sampling protocol for detailed instructions.
 
 
 ![Sampling protocol immerse](../img/Samplingprotocolimmerse.png)
