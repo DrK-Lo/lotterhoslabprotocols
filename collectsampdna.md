@@ -33,7 +33,7 @@ Use regular grade 95% ethanol. Calculate how much ethanol will be needed for all
 OGLFix can be used instead of ethanol to preserve tissue for DNA. Follow the same instructions described above for ethanol (no dilution needed). OGLFix can be shipped without hazardous designation. As for ethanol preservation, **it is critical the the entire tissue is submersed in fixative.** Refer to the OGLFix sampling protocol for detailed instructions.
 
 
-![Sampling protocol immerse] (../img/Samplingprotocolimmerse.png)
+![Sampling protocol immerse](../img/Samplingprotocolimmerse.png)
 
 
-![Samplingprotocolsize] (../img/Samplingprotocolsize.png)
+![Samplingprotocolsize](../img/Samplingprotocolsize.png)
