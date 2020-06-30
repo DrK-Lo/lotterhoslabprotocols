@@ -6,7 +6,7 @@ subtitle: Protocols and tips for collecting samples for DNA extraction
 
 ## Overview
 
-With next generation sequencing, it is important to consider all possible sources of contamination when collecting tissue samples. It is also important to consider the study question. For example, best results for DNA extraction will come from flash-frozen DNA. For DNA methylation and bisulfite sequencing, flash-frozen DNA is also the standard collection method, but DNA stored in ethanol or OGLFix can also be used, as long as samples are not stored for a long time. 
+With next generation sequencing, it is important to consider all possible sources of contamination when collecting samples. It is also important to consider downstream analysis that may be affected by the method of preservation for collected samples. For example, best results for DNA extraction will come from flash-frozen DNA. For whole genome sequencing, DNA methylation and bisulfite sequencing, flash-frozen DNA is also the preferred collection method, but DNA stored in ethanol or OGLFix can also be used, as long as samples are not stored for a long time. It is very important that we all make the upmost effort to ensure that the samples are collected using sterile materials and appropriate technique, and that samples are well preserved, with the method of preservation well documented. Care and attention in sample collection for DNA extraction will ensure that time and resources are spent on good quality samples and are the first steps to obtaining a robust and reliable dataset. 
 
 ### Tips
 
@@ -34,5 +34,6 @@ OGLFix can be used instead of ethanol to preserve tissue for DNA. Follow the sam
 
 
 ![Sampling protocol immerse] (../img/Samplingprotocolimmerse.png)
+
 
 ![Samplingprotocolsize] (../img/Samplingprotocolsize.png)
