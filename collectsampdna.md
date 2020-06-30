@@ -18,6 +18,8 @@ With next generation sequencing, it is important to consider all possible source
 
 * **Amount of tissue sample:** Collect an appropriate amount of tissue, so there will be enough sample to repeat or troubleshoot extraction if needed, and to archive the remaining tissue for future studies, to use as positive controls, etc. **Typically, that means 1 to 1.5 inch piece of tissue.** Use your best judgment to make sure that the entire tissue sample is submersed in fixative liquid (if that is your method of preservation). A sample that is too small may not yield enough DNA to proceed with sequencing and a sample that is too big for the vial may not be preserved well as the amount of preservative liquid in the vial may not permeate the whole tissue (see photo below). 
 
+* **Storage:** Samples can be stored temporarily in liquid N2 but should be stored short term in the -20oC freezer and long term in the -80oC freezer. Minimize the amount of time that you keep the -80oC freezer door open and do not let the temperature rise above -70oC (this will set off the freezer alarms). **Be mindful of the location you select to store your boxes in the -80oC freezer - we have an inventory that needs to be checked ahead of time and filled out to keep track of where samples are**. Using the inventory helps minimizing the time that de freezer door is open when storing or retrieving boxes.
+
 ### Flash freezing in liquid N2
 
 Be sure to get trained by OGL personnel beforehand if using the liquid N2 dispenser at NUMSC. Place tissue into labelled cryovials. Make sure to use liquid N2 and -80oC freezer proof labels so they do not fall off. Use protective equipment to handle liquid N2: cryogenic gloves, closed-toe shoes, lab coat and goggles. Dispense liquid N2 into the dewar flask. Carefully transfer liquid N2 from the dewar into a secondary wide-mouth dewar. Place a sample vials on a long-handle strainer and slowly submerse the strainer into liquid N2 in the wide-mouth dewar, releasing the cryovials into the liquid. If flash-freezing samples in the lab, wait 1-2 min and retreive the vials using the strainer. Make sure to retreive all vials from the dewar. Place cryovials in a storage box and transfer the box to the -80oC freezer. These cryovials are used for flash-freezing and temporary storage-only in liquid N2. If flash-freezing away from the lab, make sure to transfer vials to storage boxes and into the -80oC freezer as soon as possible. Carefully return left over liquid N2 to the primary dewar and close the lid.
@@ -31,6 +33,6 @@ Use regular grade 95% ethanol. Calculate how much ethanol will be needed for all
 OGLFix can be used instead of ethanol to preserve tissue for DNA. Follow the same instructions described above for ethanol (no dilution needed). OGLFix can be shipped without hazardous designation. As for ethanol preservation, **it is critical the the entire tissue is submersed in fixative.** Refer to the OGLFix sampling protocol for detailed instructions.
 
 
-![Smaplingprotocolimmerse]
+![Sampling protocol immerse] (../img/Samplingprotocolimmerse.png)
 
-![Samplingprotocolsize]
+![Samplingprotocolsize] (../img/Samplingprotocolsize.png)
