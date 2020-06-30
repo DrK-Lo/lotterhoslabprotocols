@@ -1,27 +1,36 @@
 ---
 layout: page
 title: Collecting Samples for DNA
-subtitle: The protocol for collecting samples for DNA extraction
+subtitle: Protocols and tips for collecting samples for DNA extraction
 ---
 
-## General tips
+## Overview
 
-With next generation sequencing, it is important to consider all sources of possible contamination when collecting samples. It is also important to consider the study question. For example, best results for DNA extraction will come from flash-frozen DNA. For DNA methylation and bisulfite sequencing, flash-frozen DNA is also the standard but DNA stored in EtOH can also be used, as long as it hasn't been for a long time.
+With next generation sequencing, it is important to consider all possible sources of contamination when collecting tissue samples. It is also important to consider the study question. For example, best results for DNA extraction will come from flash-frozen DNA. For DNA methylation and bisulfite sequencing, flash-frozen DNA is also the standard collection method, but DNA stored in ethanol or OGLFix can also be used, as long as samples are not stored for a long time. 
 
-Some tips:
+### Tips
 
-* All centrifuge tubes used to store tissues should be sterilized and prepared before going out. In general, it is best practice to have tubes organized in a box, with at least 2 labels on each tube (in case one falls off). We have a special barcode label printer (with freezer-proof labels) that can be used. 
+* **Prepare ahead of time:** All sample vials used to store tissue for DNA extraction should be sterilized by autoclaving ahead of time. Screw-cap cryovials are preferred (Fisher, cat #10-500-26). Be sure to get trained (online course and in-person training by OGL personel) before using the autoclave. Make a list of all other materials needed to collect samples and autoclave what is autoclavable ahead of time. Remember to gather boxes, gloves and other PPE.
 
-* Use a sterilized surface if possible. Sterilize surface with 10% bleach, UV light, or use sterile plastic weigh boats.
+* **Smart label and metadata**: In general, it is best practice to have tubes organized in a box, with at least 2 labels on each tube (in case one falls off). We have a barcode label printer (with freezer-proof labels) that can be used. Label the vials with species name or initials, and sample ID. **Make sure to have unique sample IDs for each sample for your entire project**. Label boxes with species name, project name, your initials, sampling date and location ahead of time. Make a spreadsheet listing the sample IDs and columns to record all other info and data about the study site, individuals and samples (lat/long, size and weight of animals, experimental treatment, etc).
 
-* Use sterilized blades or sterilize the blade between samples. A blade can be cleaned with 70% EtOH and sterilized with a flame to burn off the access EtOH. Be sure to get all bits of tissue off the blade. Otherwise, use sterile blades and switch the blade between samples.
+* **Avoid cross-contamination**: If possible, use a sterilized surface to handle or collect tissue or samples. Sterilize surface with 10% bleach, UV light and/or 70% ethanol, or use sterile plastic weigh boats. Always wear gloves. For anything that comes in contact with the animals and samples, use sterile disposable materials, one per individual, whenever possible. If using blades, use sterile blades or wipe each blade with ethanol and all other materials (forceps, spatulas, etc) with 70% ethanol **between individuals** to avoid cross-contamination. If available, flame the blades to burn off the excess ethanol and further sterilize them. Be sure to get all bits of tissue off the blade and into the sample vial. Remember to disposed of sharps in a sharps container.
 
-TO DO: add photo. ad text
+* **Amount of tissue sample:** Collect an appropriate amount of tissue, so there will be enough sample to repeat or troubleshoot extraction if needed, and to archive the remaining tissue for future studies, to use as positive controls, etc. **Typically, that means 1 to 1.5 inch piece of tissue.** Use your best judgment to make sure that the entire tissue sample is submersed in fixative liquid (if that is your method of preservation). A sample that is too small may not yield enough DNA to proceed with sequencing and a sample that is too big for the vial may not be preserved well as the amount of preservative liquid in the vial may not permeate the whole tissue (see photo below). 
 
-### Tips for flash freezing in liquid N2
+### Flash freezing in liquid N2
 
-We use Fisher cryovials (#10-500-26), although note that they are really not designed to put into liquid N2. They work well for storage in liquid N2 and then transfer to the -80C.
+Be sure to get trained by OGL personnel beforehand if using the liquid N2 dispenser at NUMSC. Place tissue into labelled cryovials. Make sure to use liquid N2 and -80oC freezer proof labels so they do not fall off. Use protective equipment to handle liquid N2: cryogenic gloves, closed-toe shoes, lab coat and goggles. Dispense liquid N2 into the dewar flask. Carefully transfer liquid N2 from the dewar into a secondary wide-mouth dewar. Place a sample vials on a long-handle strainer and slowly submerse the strainer into liquid N2 in the wide-mouth dewar, releasing the cryovials into the liquid. If flash-freezing samples in the lab, wait 1-2 min and retreive the vials using the strainer. Make sure to retreive all vials from the dewar. Place cryovials in a storage box and transfer the box to the -80oC freezer. These cryovials are used for flash-freezing and temporary storage-only in liquid N2. If flash-freezing away from the lab, make sure to transfer vials to storage boxes and into the -80oC freezer as soon as possible. Carefully return left over liquid N2 to the primary dewar and close the lid.
 
-### Tips for EtOH
+### Ethanol
 
-Regular grade 95% ethanol works well for DNA preservation. Make sure the EtOH can permeate the tissues.
+Use regular grade 95% ethanol. Calculate how much ethanol will be needed for all samples you are collecting and pour that volume plus little extra from the stock ethanol container (stored into the flammables cabinet) into a beaker or another container of appropriate volume. You may need to adjust the concentration of ethanol, e.g., from 100% to 95% - use ultrapure water (MiliQ) or molecular grade water to do this dilution. Pre-fill screw-cap vials with 1.5-2mL of 95% ethanol using a pipette. **Make sure to sumberse the whole tissue into ethanol so the liquid can permeate the whole tissue** (see photo below). If samples preserved in ethanol are being shipped via FedEx, UPS, etc, you might need a Special or Hazardous Shipping form, label and to follow specific packaging instructions. Contact lab manager before shipping containers with ethanol.
+
+### OGLFix
+
+OGLFix can be used instead of ethanol to preserve tissue for DNA. Follow the same instructions described above for ethanol (no dilution needed). OGLFix can be shipped without hazardous designation. As for ethanol preservation, **it is critical the the entire tissue is submersed in fixative.** Refer to the OGLFix sampling protocol for detailed instructions.
+
+
+![Smaplingprotocolimmerse]
+
+![Samplingprotocolsize]
