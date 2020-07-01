@@ -5,20 +5,21 @@ subtitle: The protocol for extracting DNA with the Omega Tissue DNA Kit
 bigimg: /img/omega.JPG
 ---
 
-*Read the entire protocol ahead of time; DNA extraction with this kit takes two consecutive days in the lab but some preparations and arrangements need to be done before day 1 and might take more than a day to be completed, e.g., autoclave materials, order supplies, arrenge to use the large centrifuge, etc.* 
+*Read the entire protocol ahead of time; DNA extraction with this kit takes two consecutive days in the lab but some preparations and arrangements need to be done before day 1 and might take more than a day to be completed, e.g., autoclave materials, order supplies, arrange to use the large centrifuge, etc.* 
 
 # Materials and Equipment
 
 ## Kits
 
-### Omega E.Z.N.A. Tissue DNA Kit - individual spin columns: good for extracting fewer than 8-16 samples or low yield samples. Cheaper per sample (~$1.4 per sample).
+### Omega E.Z.N.A. Tissue DNA Kit - individual spin columns: good for extracting fewer than 8-16 samples or low yield samples. Cheaper per sample (~$1.4-$3.2 per sample).
  * 200 reactions - cat #: D3396-02
  * 50 reactions - cat #: D3396-01
  * 5 reactions - cat #: D3396-00
 
-### Omega E.Z. 96 Tissue DNA Kit - 96-well plate columns: good for extracting a large number of samples (saves time by using the multi-channel pipette and in number of centrifugation rounds). More expensive per sample (~2.1 per sample).
- * 1 plate, 96 samples - cat #: D1196-00
+### Omega E.Z. 96 Tissue DNA Kit - 96-well plate columns: good for extracting a large number of samples (saves time by using the multi-channel pipette and in number of centrifugation rounds). More expensive per sample (~$2.1-$2.6 per sample).
  * 4 plates, 384 samples - cat #: D1196-01
+ * 1 plate, 96 samples - cat #: D1196-00
+
 
 ## Reagents and Consumables
  * Gloves - wear gloves to handle **all** extraction materials.
