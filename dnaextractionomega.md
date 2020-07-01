@@ -102,7 +102,7 @@ D-16. Place samples on thermomixer. **Before restarting the mixer:** Make sure a
 
 ### Day 2 of extraction - DNA purification.
 
-D2-1. Sterilize bench top - wipe with with 10 % bleach first, then DI H2O, then 70-90% EtOH.
+D2-1. Sterilize bench top - wipe with with 10% bleach first, then DI H2O, then 70-90% EtOH.
 
 D2-2. Heat up heating block (or check oven temperature in Hughes lab) to 70oC and place the volume needed of elution buffer (or molecular grade water) in it.
 
