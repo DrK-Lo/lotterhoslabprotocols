@@ -17,8 +17,8 @@ bigimg: /img/omega.JPG
  * 5 reactions - cat #: D3396-00
 
 ### Omega E.Z. 96 Tissue DNA Kit - 96-well plate columns: good for extracting a large number of samples (saves time by using the multi-channel pipette and in number of centrifugation rounds). More expensive per sample (~$2.1-$2.6 per sample).
- * 4 plates, 384 samples - cat #: D1196-01
- * 1 plate, 96 samples - cat #: D1196-00
+ * 4 plates, 384 reactions - cat #: D1196-01
+ * 1 plate, 96 reactions - cat #: D1196-00
 
 
 ## Reagents and Consumables
