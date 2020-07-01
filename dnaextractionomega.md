@@ -5,7 +5,7 @@ subtitle: The protocol for extracting DNA with the Omega Tissue DNA Kit
 bigimg: /img/omega.JPG
 ---
 
-READ THE ENTIRE PROTOCOL AHEAD OF TIME; THE WHOLE EXTRACTION PROTOCOL IS DONE IN TWO CONSECUTIVE DAYS BUT SOME PREPARATIONS AND ARRANGEMENTS NEED TO BE DONE BEFORE DAY 1 AND MIGHT TAKE MORE THAN A DAY TO GET READY, e.g., AUTOCLAVING MATERIALS, ORDERING SUPPLIES, ARRANGING TO USE THE LARGE CENTRIFUGE, ETC. 
+*Read the entire protocol ahead of time; DNA extraction with this kit takes two consecutive days in the lab but some preparations and arrangements need to be done before day 1 and might take more than a day to be completed, e.g., autoclave materials, order supplies, arrenge to use the large centrifuge, etc.* 
 
 # Materials and Equipment
 
