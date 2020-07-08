@@ -35,6 +35,7 @@ navbar-links:
     - Getting started in the lab: "GettingStarted"
     - Install and config MVI scope camera: "MVI-scope-camera"
     - Create barcoded labels: "creating-barcoded-labels"
+    - Shipping Hazardous Materials: "ShippingHazMat"
   Molecular Protocols:
     - DNA Extraction (Qiagen): "dnaextractionqiagen"
     - DNA Extraction (Omega): "dnaextractionomega"
