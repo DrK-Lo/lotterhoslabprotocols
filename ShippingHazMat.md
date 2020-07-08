@@ -24,7 +24,7 @@ c)	A letter informing the (1) package contents, (2) name and location of the per
 
 > •	I incorporated b) into c) for brevity. 
 
-**Then make a pdf file of these documents combined and email to: biosafety@northeastern.edu and to lab manager: t.bittar@northeastern.edu**
+**Then make a pdf file of these documents combined and email to EHS: biosafety@northeastern.edu and to lab manager: t.bittar@northeastern.edu**
 
 Example of the combined letter/statement:
 
@@ -43,13 +43,13 @@ Example of the combined letter/statement:
 
 ### 3)	Packing the shipping box:
 
-*Do not use FedEx boxes, envelopes, sleeves or other non-rigid mailers for liquids; you will need a sturdy container, such as a cardboard box, that is at least 100x100 mm or 4x4 in.*
+*Do not use FedEx boxes, envelopes, sleeves or other non-rigid mailers for liquids; you will need a sturdy container, such as a cardboard box, that is at least 100 x 100 mm or 4 x 4 in.*
 
 #### What goes inside the box:
 
 a)	Your packed vials;
 
-b)	Ethanol MSDS;
+b)	MSDS, if applicable (for ethanol, in this example);
 
 c)	A copy of the letter/statement listed items 2 b) and 2 c).
 
@@ -61,4 +61,4 @@ a)	The "Dangerous Goods in Excepted Quantity" label
   * must conform with shape, color, format and text of the official label (see lab manager),
   * must be filled out with DOT hazmat class and your full name (see lab manager).
 
-b)	The shipping label (from FedEx, UPS, etc) (see Sophia) – you do not need to inform the carrier that you are shipping hazmats as long as the package is labeled correctly.
+b)	The shipping label (from FedEx, UPS, etc) – you do not need to inform the carrier that you are shipping hazmats as long as the package is labeled correctly (see front desk associate to create shipping label and schedule pickup).
