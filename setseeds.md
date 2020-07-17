@@ -13,7 +13,8 @@ Here is an example for a simulation with three replicates of two different sets 
 |98238 | 2 | 0.9 | 1.5|
 |98239 | 3 | 0.9 | 1.5|
 
-There are bad and good ways to take the seed from this table and incorporate it into your simulations.
+As you loop through this table, you can use the Seed as the `mySeed` for your simulations. However, 
+there are bad and good ways to take the seed from this table and incorporate it into your simulations.
 
 ### Bad Practice:
 
