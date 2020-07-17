@@ -5,13 +5,13 @@ A good practice is to think about what parameters you are going to model and mak
 Here is an example for a simulation with three replicates of two different sets of parameters:
 
 |Seed | Rep | Param 1 | Param 2 |
----------------------------------
-98234 | 1 | 0.5 | 1.2
-98235 | 2 | 0.5 | 1.2
-98236 | 3 | 0.5 | 1.2
-98237 | 1 | 0.9 | 1.5
-98238 | 2 | 0.9 | 1.5
-98239 | 3 | 0.9 | 1.5
+|-----|------|---------|-------------|
+|98234 | 1 | 0.5 | 1.2|
+|98235 | 2 | 0.5 | 1.2|
+|98236 | 3 | 0.5 | 1.2|
+|98237 | 1 | 0.9 | 1.5|
+|98238 | 2 | 0.9 | 1.5|
+|98239 | 3 | 0.9 | 1.5|
 
 There are bad and good ways to take the seed from this table and incorporate it into your simulations.
 
