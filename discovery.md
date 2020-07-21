@@ -15,12 +15,15 @@
 
 * We have a software module on Discovery for the lab's research
 ```
-module show lotterhos/2020-03-18
-module load lotterhos/2020-03-18
+module show lotterhos/2020-07-21
+module load lotterhos/2020-07-21
 source activate lotterhos-py38
 ```
 
-Old module: module show lotterhos/2019-11-15, module load lotterhos/2019-11-15
+sratoolkit/2.10.8 was added as a seperate module that was then added to your module, while ddocent-2.7.8 was added to the conda environment "lotterhos-py38" within the anaconda3/L2020-03 module
+
+Old module: lotterhos/2019-11-15, lotterhos/2020-03-18
+
 
 * In the future we hope to work on Docker containers for loading R packages and developing containers for specific projects.
 A container allows you to create the same environment that you were using when you analyzed the data.
