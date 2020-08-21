@@ -18,6 +18,7 @@
 module show lotterhos/2020-07-21
 module load lotterhos/2020-07-21
 source activate lotterhos-py38
+conda list
 ```
 Use the `module avail` command to show a list of the most currently available software on Discovery.
 
