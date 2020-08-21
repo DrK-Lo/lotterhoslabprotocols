@@ -21,6 +21,8 @@ source activate lotterhos-py38
 ```
 Use the `module avail` command to show a list of the most currently available software on Discovery.
 
+[Create PackRat environments for R](https://rc-docs.northeastern.edu/en/latest/software/software.html)
+
 sratoolkit/2.10.8 was added as a seperate module that was then added to your module, while ddocent-2.7.8 was added to the conda environment "lotterhos-py38" within the anaconda3/L2020-03 module
 
 Old module: lotterhos/2019-11-15, lotterhos/2020-03-18
