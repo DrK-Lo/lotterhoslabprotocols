@@ -4,7 +4,7 @@
 
 * Login by typing e.g. `ssh lotterhos@login.discovery.neu.edu`, but use your own username
 
-* Read [NU's Getting started on Discovery](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/1/43/files/2019/08/GettingStartedGuide-1.pdf)
+* Read [NU's Getting started on Discovery](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/1/43/files/2019/08/GettingStartedGuide-1.pdf) (this link is outdated, need to find new location)
 
 * Check out [NU Discovery research computing docs](https://rc-docs.northeastern.edu/en/latest/)
 
@@ -19,6 +19,7 @@ module show lotterhos/2020-07-21
 module load lotterhos/2020-07-21
 source activate lotterhos-py38
 ```
+Use the `module avail` command to show a list of the most currently available software on Discovery.
 
 sratoolkit/2.10.8 was added as a seperate module that was then added to your module, while ddocent-2.7.8 was added to the conda environment "lotterhos-py38" within the anaconda3/L2020-03 module
 
