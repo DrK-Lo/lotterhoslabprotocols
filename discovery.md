@@ -14,19 +14,25 @@
 ## Software on Discovery for Lotterhos Lab
 
 * We have a software module on Discovery for the lab's research
+* There are some programs loaded in modules, and others loaded in conda environments. If you are working
+in a conda environment, it won't detect programs loaded in the module outside that environment
+* One conda environment is `lotterhos-py38`, which is running python 3.8. Note that many bioinformatics programs are not updated for this environment. Slim 3.3.2 is in this environment.
+* Another conda environment is `ddocent2`, which is running python 3.7 and all of the ddocent dependencies
 ```
-module show lotterhos/2020-07-21
-module load lotterhos/2020-07-21
-source activate lotterhos-py38
+module show lotterhos/2020-08-24
+module load lotterhos/2020-08-24
+source activate ddocent2
 conda list
 ```
 Use the `module avail` command to show a list of the most currently available software on Discovery.
+
+Use `conda deactivate` to change conda environments
 
 [Create PackRat environments for R](https://rc-docs.northeastern.edu/en/latest/software/software.html)
 
 sratoolkit/2.10.8 was added as a seperate module that was then added to your module, while ddocent-2.7.8 was added to the conda environment "lotterhos-py38" within the anaconda3/L2020-03 module
 
-Old module: lotterhos/2019-11-15, lotterhos/2020-03-18
+Old module: lotterhos/2019-11-15, lotterhos/2020-03-18, lotterhos/2020-07-21
 
 
 * In the future we hope to work on Docker containers for loading R packages and developing containers for specific projects.
@@ -36,6 +42,28 @@ A container allows you to create the same environment that you were using when y
 
 There is a lotterhos unix group, which you need to request Dr. L to add you to. It takes a day for the change to propagate so you should be able to see you are part of the ‘lotterhos’ group when typing `groups $USER` in the terminal.
 Once you confirm you are part of the unix group and have access to the nodes, you can submit regular jobs using the `--partition lotterhos`
+
+There are 2 nodes each with 36 cores, so we can run parallel programs with up to 36 cores, and serial on up to 72 cores
+
+To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, and `lscpu #####` to get info on the CPUs for that node
+
+`scontrol show partition lotterhos` shows what we can do. There are no limits on job submissions, the default time is 7 days with a max of 30 days.
+
+## Troubleshooting and trying code
+To develop code and troubleshoot, there is a `debug` partition. You can also use the `lotterhos` partition.
+Use the `srun` command with the `--pty` option will output the results of your code on the screen
+
+`srun -p lotterhos -N 1 --pty /bin/bash`
+OR
+`srun -p debug -N 1 --pty /bin/bash`
+
+## Example submission scripts
+TO DO - put together a folder
+
+## Optimizing
+To view your recent jobs, use `sacct -S 2020-08-01 -u lotterhos` will list all jobs since that date for user lotterhos
+
+To learn about how much memory a job used, type `seff jobID` - will give memory for the job that was requested and how much was used
 
 ## Open OnDemand
 
