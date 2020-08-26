@@ -35,29 +35,42 @@ Prior to this time, make sure you have a target journal and stay within the word
 * Week -2 to -3: Two weeks for final comments from all co-authors.
 * Week -1: Fine editing, grammar, figure references, bibliography edits. Leave 2-3 hours for submission.
 
+# Manuscript, Figures, and Supplement
 
+Every manuscript typically has 3 parts that I submit, the text of the manuscript (written collaboratively in google docs), the figures with legends (in latex), and the supplement (in latex).
+I use LaTex for figures and supplements because it makes them high quality, and is easier to control the size of the figures as they are displayed on the page.
 
-# Using Google Docs
+## Use this template to kick-start your manuscript in google docs
+
+[Here is a link to a template, with important things to remember about writing](https://docs.google.com/document/d/15FYgxaSEQ6krNOlOq0qHmz0mD2No_tcRdVpG-xG8EXw/edit)
+ 	* Having links to relevant documents at the top of the manuscript can be helpful, including a link to the editor letter, response to reviewers, notes and unused text, etc.
 
 * Google docs offers a platform for collaboration that does not involve emailing each other many versions, which is inefficient. All changes are available immediately to everyone. It also has a good version control system (Click on "All changes saved in Drive"). I use this system to name specific drafts that I may want to go back to.
+	* Use "Outlines". Labeling different sections with headers and sub-headers will automatically create an outline. "View ---> Show Document Outline" can make it fast to navigate.
 
-# Create a template 
+* Have a separate document for notes, logs, deleted text, and posting old versions of the figures or trial versions of figures.
 
-* title page (include authors, affiliations, addresses, corresponding author, OrcIDs, keywords, and running title)
-
-* Introduction, Methods, Results, Discussion, Acknowledgements, Data Accessibility, References, Tables, Figure Legends
-
-	* Make sure to use text to create tables, because typesetters will not be happy if you create images or LaTeX tables
+* Make sure to use text to create tables, because typesetters will not be happy if you create images or LaTeX tables
 
 * I like to have a shared folder with pdfs of all the references
 
-* Use "Outlines". Labeling different sections with headers and sub-headers will automatically create an outline. "View ---> Show Document Outline" can make it fast to navigate.
-
-* Having a log at the end of the manuscript can be helpful, especially for posting old versions of the figures or trial versions of figures.
-
-* Also having links to relevant documents at the top of the manuscript can be helpful, including a link to the editor letter, response to reviewers, notes and unused text, etc.
-
 * Have a target journal and stay within the word limit as you write.
+
+## Make figures high resolution for submission with Latex
+
+* A good way to frustrate reviewers is to submit high resolution figures in an online system that appends them to the end of your manuscript with no Figure ID or legend. 
+
+* To make my reviewer's life easier, I use LaTeX to create on figures document with figure legends on the same page as the figures. When the final (final) document is accepted for publication, then I just upload the high resolution figures. [Template](https://drive.google.com/drive/folders/1mbvkizpPnM4CjkTTj2ARENtEqDwhXYDU?usp=sharing)
+
+* It will be important to double check that the Figure Legends in the Manuscript match the Figure Legends in the LaTeX document
+
+
+## Make high quality Supplemental Materials with Latex
+
+* I use the same LaTex template to produce high-quality Supplementary Materials. [Template](https://drive.google.com/drive/folders/1mbvkizpPnM4CjkTTj2ARENtEqDwhXYDU?usp=sharing)
+
+
+
 
 # Inform all authors of the authorship policy
 
@@ -123,26 +136,6 @@ Common mistakes:
 
 
 
-
-
-# Make figures high resolution for submission
-
-* A good way to frustrate reviewers is to submit high resolution figures in an online system that appends them to the end of your manuscript with no Figure ID or legend. 
-
-* To make my reviewer's life easier, I use LaTeX to create on figures document with figure legends on the same page as the figures. When the final (final) document is accepted for publication, then I just upload the high resolution figures. [Template](https://drive.google.com/drive/folders/1mbvkizpPnM4CjkTTj2ARENtEqDwhXYDU?usp=sharing)
-
-* It will be important to double check that the Figure Legends in the Manuscript match the Figure Legends in the LaTeX document
-
-
-
-
-
-
-
-
-# Make high quality Supplemental Materials
-
-* I use the same LaTex template to produce high-quality Supplementary Materials. [Template](https://drive.google.com/drive/folders/1mbvkizpPnM4CjkTTj2ARENtEqDwhXYDU?usp=sharing)
 
 
 
