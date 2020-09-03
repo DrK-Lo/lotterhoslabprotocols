@@ -53,9 +53,15 @@ To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, an
 To develop code and troubleshoot, there is a `debug` partition. You can also use the `lotterhos` partition.
 Use the `srun` command with the `--pty` option will output the results of your code on the screen
 
+To run on the lotterhos partition:
+
 `srun -p lotterhos -N 1 --pty /bin/bash`
-OR
+
+OR For 20 minutes on the debug partition:
+
 `srun -p debug -N 1 --pty /bin/bash`
+
+[See this page for information about default times on different partitions](https://rc-docs.northeastern.edu/en/latest/hardware/partitions.html#introduction)
 
 ## Example submission scripts
 TO DO - put together a folder
