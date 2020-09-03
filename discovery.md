@@ -43,9 +43,11 @@ A container allows you to create the same environment that you were using when y
 There is a lotterhos unix group, which you need to request Dr. L to add you to. It takes a day for the change to propagate so you should be able to see you are part of the ‘lotterhos’ group when typing `groups $USER` in the terminal.
 Once you confirm you are part of the unix group and have access to the nodes, you can submit regular jobs using the `--partition lotterhos`
 
-There are 2 nodes each with 36 cores, so we can run parallel programs with up to 36 cores, and serial on up to 72 cores
+There are 2 nodes each with 36 cores, so we can run parallel programs with up to 36 cores, and serial on up to 72 cores. 
+Our nodes are d3037 and d3038. Please communicate with Dr. L about your project and the best way to use resources, so that everyone in the lab has access if they need it.
 
-To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, and `lscpu #####` to get info on the CPUs for that node
+To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, and `lscpu #####` to get info on the CPUs for that node.
+
 
 `scontrol show partition lotterhos` shows what we can do. There are no limits on job submissions, the default time is 7 days with a max of 30 days.
 
