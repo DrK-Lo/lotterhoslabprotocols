@@ -49,6 +49,8 @@ To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, an
 
 `scontrol show partition lotterhos` shows what we can do. There are no limits on job submissions, the default time is 7 days with a max of 30 days.
 
+`squeue -p lotterhos` shows what is current running. You definitely want to check this before you try to `srun` (see below) or submit jobs!
+
 ## Troubleshooting and trying code
 To develop code and troubleshoot, there is a `debug` partition. You can also use the `lotterhos` partition.
 Use the `srun` command with the `--pty` option will output the results of your code on the screen
