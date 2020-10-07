@@ -7,7 +7,8 @@
 * Discrimination is wrong. NU has guidelines for [reporting discrimination](https://www.northeastern.edu/ouec/reporting-options/discrimination/)
 * See the related page for [Title IX offenses](https://www.northeastern.edu/ouec/reporting-options/titleix-prohibited-offenses/)
 
-## Anxiety and depression
+## Anxiety
+We all suffer from anxiety sometimes.
 * NU resources for confidential support and guidance for students can be found through:
   * [University Health and Counseling Services](https://www.northeastern.edu/uhcs/)
   * [The Northeastern Center for Spirituality, Dialogue, and Service](https://www.northeastern.edu/spirituallife/)
