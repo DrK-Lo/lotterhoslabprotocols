@@ -250,6 +250,7 @@ make sure only relevant files are being archived.
 * **Active Lotterhos Lab storage** 
   * Ask Katie to share a Globus endpoint with you. The endpoint with include the words "smb Volumes/lotterhos"
   * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
+  * For this endpoint to work, it has to be mapped through Katie's laptop or the iMac in the lab. _Katie's laptop from home: sign into NU VPN, make sure Globus Connect Personal App is running, plug in ethernet cord_
 
 * **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
   * Path: `/lotterhosarchive/`
@@ -266,6 +267,7 @@ make sure only relevant files are being archived.
 * **Active Lotterhos Lab storage: more information** (? TB for lab).  
   * smb://nunet.neu.edu/rc-shares/lotterhos/
   * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
+   * For this endpoint to work, it has to be mapped through Katie's laptop or the iMac in the lab. _Katie's laptop from home: sign into NU VPN, make sure Globus Connect Personal App is running, plug in ethernet cord_
   * Because accessing this server is done through a computer, it makes transferring files specific to the computer that the server is mapped to. Typically, you will ask Katie to share the Globus endpoint for this server that is set up through the lab iMac. As long as the server is mapped to the computer (typically lab iMac) and that connection is not interrupted, you should have no problems. 
    * From a laptop or over wifi, transfers of large files are very slow. This is why we map to the server through the iMac. The point of all the steps we outline below is so we can use Globus to transfer files from the smb drive to Discovery.
   * To connect to the smb server, follow these directions to map to the server on a computer [this document](accessing_shared_storage_2020.pdf) (typically Katie only)
