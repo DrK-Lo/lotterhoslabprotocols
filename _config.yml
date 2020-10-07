@@ -30,12 +30,14 @@ navbar-links:
     - Ordering Supplies and Equipment: "ordering"
     - Receiving Supplies and Equipment: "receiving"
     - Reimbursement: "reimbursement"
-    - Reducing Cognitive Load: "ReducingCognitiveLoad"
-    - How to publish a paper: "How-to-publish-a-paper"
     - Getting started in the lab: "GettingStarted"
     - Install and config MVI scope camera: "MVI-scope-camera"
     - Create barcoded labels: "creating-barcoded-labels"
     - Shipping Hazardous Materials: "ShippingHazMat"
+  Professional Development:
+    - Reducing Cognitive Load: "ReducingCognitiveLoad"
+    - How to publish a paper: "How-to-publish-a-paper"
+    - General resources: "profdev"
   Molecular Protocols:
     - DNA Extraction (Qiagen): "dnaextractionqiagen"
     - DNA Extraction (Omega): "dnaextractionomega"
