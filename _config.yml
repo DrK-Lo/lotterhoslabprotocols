@@ -23,14 +23,13 @@ description: A site for protocols used in the Lotterhos Lab!
 
 # List of links in the navigation bar
 navbar-links:
-  General Protocols:
-    - Solution Recipes: "solutionrecipes"
-    - Determining Barcodes & Indexes: "barcodesnindexes"
+  General:
+    - Getting started in the lab: "GettingStarted"
+    - Freezer: "freezer"
     - Autoclave (OGL): "autoclave"
     - Ordering Supplies and Equipment: "ordering"
     - Receiving Supplies and Equipment: "receiving"
     - Reimbursement: "reimbursement"
-    - Getting started in the lab: "GettingStarted"
     - Install and config MVI scope camera: "MVI-scope-camera"
     - Create barcoded labels: "creating-barcoded-labels"
     - Shipping Hazardous Materials: "ShippingHazMat"
@@ -39,6 +38,8 @@ navbar-links:
     - How to publish a paper: "How-to-publish-a-paper"
     - General resources: "profdev"
   Molecular Protocols:
+    - Solution Recipes: "solutionrecipes"
+    - Determining Barcodes & Indexes: "barcodesnindexes"
     - DNA Extraction (Qiagen): "dnaextractionqiagen"
     - DNA Extraction (Omega): "dnaextractionomega"
     - DNA Extraction (Spartina): "dnaextractionspartina"
