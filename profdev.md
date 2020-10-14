@@ -23,8 +23,19 @@ We all suffer from anxiety sometimes.
 * _Anxiety relief for kids_ has techniques designed for kids, but I found really helpful in my own life
 * This webpage has a good overview of [cognitive distortions](https://positivepsychology.com/cognitive-distortions/) that we all suffer from
 
+### Nutrition and anxiety
+One time I had severe fatigue. My doctor did a vitamin panel and it turned out to be a vitamin D deficiency.
+* [Understanding nutrition, depression and mental illnesses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738337/)
+* [Could a vitamin or mineral deficiency be behind your fatigue?](https://www.health.harvard.edu/mind-and-mood/could-a-vitamin-or-mineral-deficiency-be-behind-your-fatigue)
+* [A review of vitamins and minerals for energy, fatigue, and cognition](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7019700/)
+* [Effect of vitamin D3 on self-perceived fatigue](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5207540/)
+* [Types of nutritional deficiencies you can be tested for by your doctor](https://www.myonemedicalsource.com/2020/06/18/nutritional-testing/)
+
 ## Reviewing manuscripts and writing rejections
 * [Lab discussion 2020](https://docs.google.com/document/d/1BGYn66Q0mkXOwL5S_woHOLh7__dTHQzQDxRc5EnKLNw/edit#)
+
+## Grant writing
+* [2020 phrasebank and advice](https://docs.google.com/document/d/10TXWztCiID1-wNTGZ37rvYoIVHbf2kWmQMHoqN6pHQk/edit?pli=1)
 
 ## How to start a collaboration and keep it going
 * 
