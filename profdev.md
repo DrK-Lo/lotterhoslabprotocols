@@ -38,7 +38,7 @@ One time I had severe fatigue. My doctor did a vitamin panel and it turned out t
 * [2020 phrasebank and advice](https://docs.google.com/document/d/10TXWztCiID1-wNTGZ37rvYoIVHbf2kWmQMHoqN6pHQk/edit?pli=1)
 
 ## How to start a collaboration and keep it going
-* 
+* [2020 lab discussion](https://docs.google.com/document/d/1mgWle41KPHnlCevE5IB9S1AaWQcYDFm_7riQU7WTfOM/edit)
 
 ## Errors and mistakes
 * Publishing a correction because of a mistake: [On finding errors in one's published papers](https://dynamicecology.wordpress.com/2016/12/02/on-finding-errors-in-ones-published-analyses/)
