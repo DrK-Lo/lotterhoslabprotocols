@@ -12,9 +12,9 @@ Your logins are first initial, last name/names. All lowercase with no spaces or 
 
 Your pin codes to acknowledge alarms received on your phone is described below.
 
-When you log in, our freezers are labeled 120 (the -80C in Edwards) and 121 (the -20C in Edwards)
+When you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)
 
-### The alarm will go off when the freezer falls below -70C
+### The alarm will go off when the freezer rises above -70C
 
 ## If you plan on loading samples in the freezer
 
