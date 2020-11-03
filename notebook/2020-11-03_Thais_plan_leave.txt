@@ -1,0 +1,11 @@
+#20201103
+
+In October Alan tried testing some of our Y-adapters with the XXX kit and the PCR reaction failed.
+
+It may have been user error, a problem with the kit, or a problem with the adapters.
+
+1. Adapters were generated from XXXXX and XXXX 100uM stock solution and diluted to 10uM. Be specific about source location of box and label in freezer. Are the stock solutions stored in the -80c?
+
+2. Adapters were used with XXXX kit (any kind of label/date on the kit Alan? Be specific)
+
+3. Any more specifics about what happened
