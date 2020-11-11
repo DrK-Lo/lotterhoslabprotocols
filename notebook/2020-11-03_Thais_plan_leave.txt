@@ -8,7 +8,15 @@ Plan for Thais's leave
 
     - https://github.com/thais-neu/RCNblogpost-notepad/blob/master/RCNSocialMedia.md
     
-- 
+- dDocent on Discovery
+
+    - https://github.com/thais-neu/BlackSeaBass_project/blob/master/code_notebook/practice_data_analysis.md
+    
+- Oyster Seascape Data
+
+- Black Sea Bass genomics
+
+
 
 (List other responsibilities here, or next steps for different analyses. Also links to the github repos you've been working on will be helpful)
 
