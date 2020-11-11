@@ -6,6 +6,10 @@ Plan for Thais's leave
 
 - Molly will take over RCN social media
 
+    - https://github.com/thais-neu/RCNblogpost-notepad/blob/master/RCNSocialMedia.md
+    
+- 
+
 (List other responsibilities here, or next steps for different analyses. Also links to the github repos you've been working on will be helpful)
 
 
