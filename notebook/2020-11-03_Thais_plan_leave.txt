@@ -35,6 +35,13 @@ Plan for Thais's leave
     (612) 624-3177
     GBS@umn.edu
 
+      - I forwarded all emails re library prep and sequencing between myself and Evan to KEL and Alan on 16-Nov-2020.
+      
+      - The quotes they gave us last year have been added to the github repository on 16-Nov-2020.
+      
+      - I am adding info on DNA extracts from my repository notebooks to the project's spreadsheet (Biological Sampling Black Sea Bass) on 16-Nov_2020.
+      
+      - freezer inventory, where the leftover tissue and DNA extracts are: https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?ts=5db7258c#gid=0
     
 
 (List other responsibilities here, or next steps for different analyses. Also links to the github repos you've been working on will be helpful)
@@ -49,7 +56,7 @@ Plan for Thais's leave
 
 - Keep track of lab training requiremenst in BioRaft - all updated as of 
 
-- Kapa/Roche call about latest purchase why are we not charged yet?
+- Kapa/Roche call about latest purchase why are we not charged yet? 
 
   
 
