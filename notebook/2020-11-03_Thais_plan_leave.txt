@@ -23,6 +23,8 @@ Plan for Thais's leave
 
     - https://github.com/thais-neu/BlackSeaBass_project
     
+    - Sample locations are in the -80oC freezer inventory
+    
     - Sequencing facility contact info: 
     
     Evan Forsberg
