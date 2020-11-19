@@ -4,34 +4,38 @@ Plan for Thais's leave
 
 ## Katie will take over purchasing
 
-    - for Kapa/Roche and a couple other vendors, the lab login & pw I got from Bodie were not working so I created new accounts using my email - 
+- for Kapa/Roche and a couple other vendors, the lab login & pw I got from Bodie were not working so I created new accounts using my email - 
     Katie put updated list in "orders and receipts"
 
 ## Molly will take over RCN social media
 
-    - https://github.com/thais-neu/RCNblogpost-notepad/blob/master/RCNSocialMedia.md
+- https://github.com/thais-neu/RCNblogpost-notepad/blob/master/RCNSocialMedia.md
     
 ## dDocent on Discovery
 
-    - https://github.com/thais-neu/BlackSeaBass_project/blob/master/code_notebook/practice_data_analysis.md
+- https://github.com/thais-neu/BlackSeaBass_project/blob/master/code_notebook/practice_data_analysis.md
     
 ## Oyster Seascape Data
 
-    - https://github.com/DrK-Lo/EasternOysterEnvData/
+- https://github.com/DrK-Lo/EasternOysterEnvData/
+
+- organize github repo
+
+- Thais should finish entering data, Katie should check all map links still work
 
 ## Black Sea Bass genomics: 
 
-    - Thais will double check the boxID for the extracted DNA.
+- Thais will double check the boxID for the extracted DNA.
 
-    - We have 62 extracts ready to be sent to library prep and sequencing. The Grabowski lab has tissue samples from MA and RI, and we are waiting on more samples from ME - those were collected in Summer/Fall 2020. From this 2020 batch, select samples for DNA exctraction (based on size of fish) - the goal is to have ~20 good quality DNA extracts from each of the batches/locations collected in 2020 (ME, RI and MA), if possible. What has been done so far:
+- We have 62 extracts ready to be sent to library prep and sequencing. The Grabowski lab has tissue samples from MA and RI, and we are waiting on more samples from ME - those were collected in Summer/Fall 2020. From this 2020 batch, select samples for DNA exctraction (based on size of fish) - the goal is to have ~20 good quality DNA extracts from each of the batches/locations collected in 2020 (ME, RI and MA), if possible. What has been done so far:
 
-    - https://github.com/thais-neu/BlackSeaBass_project
+- https://github.com/thais-neu/BlackSeaBass_project
     
-    - **most relevant data from the repo above is being added to the project's spreadsheet (Biological Sampling Black Sea Bass) on 16-Nov_2020.**
+- **most relevant data from the repo above is being added to the project's spreadsheet (Biological Sampling Black Sea Bass) on 16-Nov_2020.**
     
-    - Sample locations are in the -80oC freezer inventory
+- Sample locations are in the -80oC freezer inventory
     
-    - Sequencing facility contact info: 
+- Sequencing facility contact info: 
     
     Evan Forsberg
     GBS Service Manager
@@ -41,11 +45,11 @@ Plan for Thais's leave
     (612) 624-3177
     GBS@umn.edu
 
-      - I forwarded all emails re library prep and sequencing between myself and Evan to KEL and Alan on 16-Nov-2020.
-      
-      - The quotes they gave us last year have been added to the github repository on 16-Nov-2020.
+- I forwarded all emails re library prep and sequencing between myself and Evan to KEL and Alan on 16-Nov-2020.
+
+- The quotes they gave us last year have been added to the github repository on 16-Nov-2020.
          
-      - freezer inventory, where the leftover tissue and DNA extracts are: https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?ts=5db7258c#gid=0
+- freezer inventory, where the leftover tissue and DNA extracts are: https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?ts=5db7258c#gid=0
     
 
 ## List other responsibilities here, or next steps for different analyses. 
