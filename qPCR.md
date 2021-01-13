@@ -74,6 +74,6 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 * Take final reaction strip tubes to the Bowen lab for use on the qPCR machine.
 * Turn on the power button in the bottom left hand corner. This will take a few minutes because the machine runs self diagnostics when booting up.
 * On the home screen, click "Quantitative PCR Fluoresence Probe" 
-* The first screen that will pop up is your plate set up. Here click the top left corner of the plate to select all wells and in the bottom right corner change the dye from "FAM" to "SYBR". This updates all wells to have the correct dye information for your run. ![](img/qPCRmachine_step1.jpg =20x15)
+* The first screen that will pop up is your plate set up. Here click the top left corner of the plate to select all wells and in the bottom right corner change the dye from "FAM" to "SYBR". This updates all wells to have the correct dye information for your run. <img src="img/qPCRmachine_step1.jpg" width="200"/>
 
 ## Step 4: Analyzing output data
