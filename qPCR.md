@@ -14,6 +14,7 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 * Libraries need to be diluted to be read on the QPCR machine. All dilutions should be done in 10 mM Tris-HCl + 0.05% Tween-20. First dilute sample to a 1:1000 concentration in a 1.5mL microcentrifuge tube (Table 1). 
 
 ### Table 1:
+|---------------|---------------------------|
 | 10 mM Tris-HCl + 0.05% Tween-20 | 999 uL  |
 | Library DNA                     | 1 uL    |
 | Total                           | 1000 uL |
