@@ -14,7 +14,7 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 ## Step 1: Make library dilutions
 * Libraries need to be diluted to be read on the QPCR machine. All dilutions should be done in 10 mM Tris-HCl + 0.05% Tween-20. First dilute sample to a 1:1000 concentration in a 1.5mL microcentrifuge tube (Table 1). 
 
-### Table 1:
+#### Table 1:
 | Reagent                         | Amount  |
 |---------------------------------|---------|
 | 10 mM Tris-HCl + 0.05% Tween-20 | 999 uL  |
@@ -23,7 +23,7 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 
 * Next dilute your sample libraries to ensure they fall within the range of the standards provided by the KAPA kit (Table 2). Typically for a library in the range of 1-200 ng/uL you need a 1:18000 dilution to be read on the QPCR machine. However, you can use the calculation below to determine what you need to dilute your undiluted library down to:
 
-### Calculation 1 - determining library concentration in pM: 
+#### Calculation 1 - determining library concentration in pM: 
 
 * Calc 1: (Undiluted Library Conc. (ng/uL)/ (617.9 g/mol * fragment size of library)) * 10^6 = undiluted library in nM
  
@@ -31,7 +31,7 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 
 * Calc 3: dilute final library to be in the range of the standards in Table 2
 
-### Table 2:
+#### Table 2:
 | Standard Name | dsDNA concentration (pM) |
 |---------------|--------------------------|
 | Standard 1    | 20                       |
@@ -47,7 +47,7 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 * Note: you can not label the individual tubes. Make sure you pay attention to your strip tube orientation and order. Tip: Always put the "A" side of strip tude on top and label each strip tube tap with the numbers 1 - # of strip tubes. Have a key in your notebook to what each of those strips contain. When you are doing a lot of these it is easy to mix up what was in what tube.
 * Note: mix contents of each reaction *very* well by pipetting up and down ~20 times. 
 
-### Table 3: qPCR reaction setup
+#### Table 3: qPCR reaction setup
 | Reagent                                           | Amount |
 |---------------------------------------------------|--------|
 | KAPA SYBR FAST qPCR Master Mix containing Primers | 12 uL  |
@@ -55,7 +55,7 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 | Diluted dsDNA library dsDNA Standard (1-6)        | 4 uL   |
 | Total                                             | 20 uL  |
 
-### Table 4: Example set up for 6 samples in triplicate
+#### Table 4: Example set up for 6 samples in triplicate
 |   | 1    | 2    | 3    | 4     | 5     | 6     |
 |---|------|------|------|-------|-------|-------|
 | A | Std1 | Std1 | Std1 | Samp1 | Samp1 | Samp1 |
