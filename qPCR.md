@@ -92,6 +92,6 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 
 The denature and annealing steps are both run together for 35 cycles. Markdown tables are frustrating and you can't merge cells of a table. See the following image for clarification.
 
- <img src="img/qPCRmachine_step3.jpg" width="300"/>
+ <img src="img/qPCRmachine_step4.jpg" width="300"/>
 
 ## Step 4: Analyzing output data
