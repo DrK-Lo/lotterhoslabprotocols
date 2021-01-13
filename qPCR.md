@@ -82,7 +82,10 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 * Next for each well make sure to label as either a "Standard" well, "NTC" (no template control) well, or "Unknown" well. For example, to do this for standards, highlight all cells that are locations of standards and move to the top right corner dropdown menu called "Well Types" and set it to standard. You can click and drag to highlight multiple locations in a row or just click on all the cells individually. You can always deselect by clicking that cell again or deselect everything using the top left corner square.
  <img src="img/qPCRmachine_step3.jpg" width="300"/>
 
-* Next click on the left tab that says "Thermal Profile" and set the specifications for your run (Table 5).
+* Next click on the left tab that says "Thermal Profile" and set the specifications for your run (Table 5). You do this by clicking any value (e.g., time or temperature) and manually editing the values as shown in the image below.
+
+<img src="img/qPCRmachine_step4.jpg" width="300"/>
+
 
 | Step                                 | Temperature | Time   | Cycles |
 |--------------------------------------|-------------|--------|--------|
@@ -90,8 +93,8 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 | Denaturation                         | 95C         | 30 sec | 35     |
 | Annealing/extension/data acquisition | 60C         | 45 sec |  *     |
 
-The denature and annealing steps are both run together for 35 cycles. Markdown tables are frustrating and you can't merge cells of a table. See the following image for clarification.
+The denature and annealing steps are both run together for 35 cycles. Markdown tables are frustrating and you can't merge cells of a table. See the following image for clarification. Once the specifications are set properly, click "Run Experiment".
 
- <img src="img/qPCRmachine_step4.jpg" width="300"/>
+ <img src="img/qPCRmachine_step5.jpg" width="300"/>
 
 ## Step 4: Analyzing output data
