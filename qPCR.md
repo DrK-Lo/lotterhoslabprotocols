@@ -95,21 +95,21 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 
 The denature and annealing steps are both run together for 35 cycles. Markdown tables are frustrating and you can't merge cells of a table. See the image at the bottom of this section for clarification. Once the specifications are set properly, place the tubes in the qPCR machine and click "Run Experiment".
  
- <img src="img/qPCRmachine_step6.jpg" width="300"/>
+ <img src="img/qPCRmachine_step6.jpg" width="300" class ="center"/>
  
- <img src="img/qPCRmachine_step5.jpg" width="300"/>
+ <img src="img/qPCRmachine_step5.jpg" width="300" class ="center"/>
 
 ## Step 4: Analyzing output data
 * To analyze the output you have to use the AriaMx program located on the Bowen laptop that is typically plugged into the tapestation in the Shared Molecular Space. 
 * First use the red flash drive (pictured below) to get your data off of the qPCR machine. Only this flash drive works (not sure why?). 
 
-<img src="img/qPCRmachine_step7.jpg" width="300"/>
+<img src="img/qPCRmachine_step7.jpg" width="300" class ="center"/>
 
 * Then shut down the qPCR machine and take the flash drive to the tapestation computer. Here you should open the Agilent Aria program to see your data. 
 
- <img src="img/qPCRmachine_step8.jpg" width="300"/>
+ <img src="img/qPCRmachine_step8.jpg" width="300" class ="center"/>
  
 * Once the program opens a similar table to what you saw on the qPCR machine will open. Standard cells will be a redish pink color, sample cells blue and no template control green. For the standard cells you need to manually enter each value into the program. This is done by highlighting one cell and moving to the properties tab on the right side panel. Then in the standard quantities section place the value of that standard in the "Amount" field and change the Units field to picograms. These values will correspond to the order you put your ladder in and are the values in Table 2. Double check all inputs once you complete all your standard wells then you are ready to view your results. 
  
- <img src="img/qPCRmachine_step9.jpg" width="300"/>
+ <img src="img/qPCRmachine_step9.jpg" width="300" class ="center"/>
 
