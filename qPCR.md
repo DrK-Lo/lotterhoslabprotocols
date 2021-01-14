@@ -124,3 +124,15 @@ The denature and annealing steps are both run together for 35 cycles. Markdown t
  <img src="img/qPCRmachine_step9.jpg" width="300"/>
  <p/>
 
+* Highlight all cells then move to the "Graphical Displays" to inspect your amplification plots and where your samples fall on your standard curve. You can do a visual inspection here to ensure your samples fall within your standards, but you need to export your Cq values to determine actually concentrations of your samples. 
+ <p align="center">
+ <img src="img/qPCRmachine_step10.jpg" width="300"/>
+ <p/>
+ 
+* To export your Cq values make sure all samples are highlighted in the right hand column. Right click and select "export to excel". Save your excel file to a hard drive and take it to your personal computer. 
+ <p align="center">
+ <img src="img/qPCRmachine_step11.jpg" width="300"/>
+ <p/>
+ 
+
+
