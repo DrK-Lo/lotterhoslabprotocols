@@ -74,17 +74,24 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 * Take final reaction strip tubes to the Bowen lab for use on the qPCR machine.
 * Turn on the power button in the bottom left hand corner. This will take a few minutes because the machine runs self diagnostics when booting up.
 * On the home screen, click "Quantitative PCR Fluoresence Probe" 
+ <p align="center">
  <img src="img/qPCRmachine_step1.jpg" width="300"/>
-
+ <p/>
+ 
 * The first screen that will pop up is your plate set up. Here click the top left corner of the plate to select all wells and in the bottom right corner change the dye from "FAM" to "SYBR". This updates all wells to have the correct dye information for your run. 
+ <p align="center">
  <img src="img/qPCRmachine_step1.jpg" width="300"/>
-
+ <p/>
+ 
 * Next for each well make sure to label as either a "Standard" well, "NTC" (no template control) well, or "Unknown" well. For example, to do this for standards, highlight all cells that are locations of standards and move to the top right corner dropdown menu called "Well Types" and set it to standard. You can click and drag to highlight multiple locations in a row or just click on all the cells individually. You can always deselect by clicking that cell again or deselect everything using the top left corner square.
+ <p align="center">
  <img src="img/qPCRmachine_step3.jpg" width="300"/>
-
+ <p/>
+ 
 * Next click on the left tab that says "Thermal Profile" and set the specifications for your run (Table 5). You do this by clicking any value (e.g., time or temperature) and manually editing the values as shown in the image below.
-
+<p align="center">
 <img src="img/qPCRmachine_step4.jpg" width="300"/>
+<p/>
 
 #### Table 5:
 | Step                                 | Temperature | Time   | Cycles |
@@ -94,20 +101,23 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 | Annealing/extension/data acquisition | 60C         | 45 sec |  *     |
 
 The denature and annealing steps are both run together for 35 cycles. Markdown tables are frustrating and you can't merge cells of a table. See the image at the bottom of this section for clarification. Once the specifications are set properly, place the tubes in the qPCR machine and click "Run Experiment".
- 
+ <p align="center">
  <img src="img/qPCRmachine_step6.jpg" width="300"/>
  
  <img src="img/qPCRmachine_step5.jpg" width="300"/>
-
+ <p/>
+ 
 ## Step 4: Analyzing output data
 * To analyze the output you have to use the AriaMx program located on the Bowen laptop that is typically plugged into the tapestation in the Shared Molecular Space. 
 * First use the red flash drive (pictured below) to get your data off of the qPCR machine. Only this flash drive works (not sure why?). 
-
-<img src="img/qPCRmachine_step7.jpg" width="300"/>
-
+ <p align="center">
+ <img src="img/qPCRmachine_step7.jpg" width="300"/>
+ <p/>
+ 
 * Then shut down the qPCR machine and take the flash drive to the tapestation computer. Here you should open the Agilent Aria program to see your data. 
-
+ <p align="center">
  <img src="img/qPCRmachine_step8.jpg" width="300"/>
+ <p/>
  
 * Once the program opens a similar table to what you saw on the qPCR machine will open. Standard cells will be a redish pink color, sample cells blue and no template control green. For the standard cells you need to manually enter each value into the program. This is done by highlighting one cell and moving to the properties tab on the right side panel. Then in the standard quantities section place the value of that standard in the "Amount" field and change the Units field to picograms. These values will correspond to the order you put your ladder in and are the values in Table 2. Double check all inputs once you complete all your standard wells then you are ready to view your results. 
  <p align="center">
