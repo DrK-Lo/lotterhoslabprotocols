@@ -123,3 +123,4 @@ The denature and annealing steps are both run together for 35 cycles. Markdown t
  <p align="center">
  <img src="img/qPCRmachine_step9.jpg" width="300"/>
  <p/>
+
