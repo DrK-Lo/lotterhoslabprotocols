@@ -34,6 +34,9 @@ One time I had severe fatigue. My doctor did a vitamin panel and it turned out t
 ## Reviewing manuscripts and writing rejections
 * [Lab discussion 2020](https://docs.google.com/document/d/1BGYn66Q0mkXOwL5S_woHOLh7__dTHQzQDxRc5EnKLNw/edit#)
 
+## Statistics
+* [2020 Lab discussion how to mix model]{https://docs.google.com/document/d/1jQZkbZbZuWnElYmLUntg5qgh1NG2-yAbsT3zzvmbkZ0/edit#heading=h.btb80w3ha1pf}
+
 ## Grant writing
 * [2020 phrasebank and advice](https://docs.google.com/document/d/10TXWztCiID1-wNTGZ37rvYoIVHbf2kWmQMHoqN6pHQk/edit?pli=1)
 
