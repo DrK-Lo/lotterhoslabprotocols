@@ -45,3 +45,6 @@ One time I had severe fatigue. My doctor did a vitamin panel and it turned out t
 * Publishing a retraction because of a mistake: [Wrong alot?](http://ecoevoevoeco.blogspot.com/2016/12/wrong-lot.html%20http://ecoevoevoeco.blogspot.com/2016/12/wrong-lot.html)
 * Publishing a retraction because of what appears to be fraud: [#PruittGate](https://laskowskilab.faculty.ucdavis.edu/2020/01/29/retractions/)
 * Katie's overview of her career mistakes (need to add link to presentation)
+
+## Interviewing
+* [Interview questions for a graduate or postdoc application](https://docs.google.com/document/d/1SM3PiIfo4f_Pd_NZxC4Br1g5E0mnqCUlwilrleatNWA/edit)
