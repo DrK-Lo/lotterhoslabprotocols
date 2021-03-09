@@ -51,3 +51,8 @@ One time I had severe fatigue. My doctor did a vitamin panel and it turned out t
 
 ## Interviewing
 * [Interview questions for a graduate or postdoc application](https://docs.google.com/document/d/1SM3PiIfo4f_Pd_NZxC4Br1g5E0mnqCUlwilrleatNWA/edit)
+* [Interview for a faculty position](https://docs.google.com/document/d/1OvvB6yl_5l05dUn3frL5GEJeksc5xjy8a_keq8sp0fc/edit)
+
+## Skimming a paper
+* [How to skim a paper](https://docs.google.com/document/d/17wIUVwRGpfRMG-riBjCj9EyCnPMb-K8RX7ww5C0kzf8/edit)
+
