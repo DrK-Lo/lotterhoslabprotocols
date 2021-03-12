@@ -7,6 +7,9 @@
 * Discrimination is wrong. NU has guidelines for [reporting discrimination](https://www.northeastern.edu/ouec/reporting-options/discrimination/)
 * See the related page for [Title IX offenses](https://www.northeastern.edu/ouec/reporting-options/titleix-prohibited-offenses/)
 
+## Microaggresion
+* [Recognizing and addressing microaggression](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/Recognizing%20and%20Addressing%20Microaggressions%20Takewaways%202021.pdf)
+
 ## Anxiety
 We all suffer from anxiety sometimes.
 * NU resources for confidential support and guidance for students can be found through:
