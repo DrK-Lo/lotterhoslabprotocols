@@ -12,5 +12,7 @@
 ## Protocols page
 - go through the protocols and update anything
 
-## Discovery
+## Data
 - Go through LotterhosLab permissions and folders and make sure there is restricted access
+- Go through Google Drive
+- alan and Sara should think about data accessibility after graduation
