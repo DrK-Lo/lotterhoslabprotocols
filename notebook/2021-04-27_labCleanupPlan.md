@@ -8,7 +8,8 @@
 ## Freezers and Fridge
 - Make sure all boxes in -80C freezer are organized and labeled and in freezer database. 
   - make a freezer map (we need a posterboard)
-  - Is there still Hughes Lab stuff in the freezer?  
+  - Is there still Hughes Lab stuff in the freezer?
+  - check that the grate on the bottom is clean and dust-free  
 - -20C and fridge needs to be cleaned up
 
 ## Protocols page
