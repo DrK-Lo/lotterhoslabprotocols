@@ -7,6 +7,7 @@
 
 ## Freezers and Fridge
 - Make sure all boxes in -80C freezer are organized and labeled and in freezer database. 
+  - make a freezer map   
 - -20C and fridge needs to be cleaned up
 
 ## Protocols page
