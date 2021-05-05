@@ -6,7 +6,7 @@
 2. You can use NU's [Open On Demand](ood.discovery.neu.edu) for R Studio, command line, and python, and more!
 
 	* To use OOD, you have to have an NU email, and have Discovery access (NU's HPC cluster). 
-		* [Instructions to get Discovery access for non-NU people] 
+		* [Instructions to get Discovery access for non-NU people](discovery_nonNEUpersonnel.md)
 		
 	* Once you have Discovery Access, you can follow [these intructions](https://docs.google.com/document/d/1sJAnQXE8-r_4ssr5VfVv0oZKFrrrRFxspdxx2kNdaLI/edit#heading=h.61692qeq0wnf), but instead of the `course`
 	dropdown menu, use the `Interactive Apps` dropdown to find the program you need
