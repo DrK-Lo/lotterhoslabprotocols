@@ -64,6 +64,7 @@ navbar-links:
     - Seatables: "Seatables"
     - Kayak: "kayak"
   Coding Protocols:
+    - Learning to code: "LearningToCode"
     - Lotterhos Lab on Discovery: "discovery"
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
