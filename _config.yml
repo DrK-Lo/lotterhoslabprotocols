@@ -65,6 +65,7 @@ navbar-links:
     - Kayak: "kayak"
   Coding Protocols:
     - Learning to code: "LearningToCode"
+    - Non-NU on Discovery: "discovery_nonNEUpersonnel"
     - Lotterhos Lab on Discovery: "discovery"
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
