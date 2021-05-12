@@ -63,3 +63,7 @@ might vary a bit among platforms.
 # Learning Machine Learning
 
 https://www.fast.ai/
+
+# Learning SLiM
+
+http://benhaller.com/workshops/workshops.html
