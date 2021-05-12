@@ -62,4 +62,4 @@ might vary a bit among platforms.
 
 # Learning Machine Learning
 
-TO DO.
+https://www.fast.ai/
