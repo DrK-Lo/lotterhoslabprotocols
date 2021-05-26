@@ -19,5 +19,8 @@
 - Go through LotterhosLab permissions and folders and make sure there is restricted access
 - Go through Google Drive
 - alan and Sara should think about data accessibility after graduation
+- Lotterhos lab on Discovery - permissions and folders
+- Database FMP backups
 
 ## Plan for defrost
+- 
