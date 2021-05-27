@@ -55,3 +55,6 @@
 
 ### Compute
 - [ ] regEx resources page
+- [ ] Better explanation for yml files https://github.com/neu-rc-admin/lotterhos_group/tree/main/env_yml_files
+- [ ] example scripts for running simulations on Discovery cluster
+- [ ] example scripts for running samples on Discovery cluster
