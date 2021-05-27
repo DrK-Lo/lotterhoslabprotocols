@@ -21,6 +21,30 @@
 - alan and Sara should think about data accessibility after graduation
 - Lotterhos lab on Discovery - permissions and folders
 - Database FMP backups
+ 
 
-## Plan for defrost
-- 
+# To do
+
+### Fridge
+- [ ] Alan will take care of water samples in the door of the fridge
+- [ ] formalin disposal - top shelf - Thais
+- [ ] mag beads disposal - top shelf - Thais
+- [ ] mag beads give away - top shelf
+
+### -20C
+- [ ] Antibiotics in -20C. We have to contact EHS and ask how to dispose. Penicillian Streptomycin Sigma P4458, 100mL, 20 vials expired 2019
+- [ ] 
+
+### -80C
+- [ ] Plan for defrost
+
+### Around the lab
+- [ ] clean glassware by sink
+- [ ] Alan will check out working solutions at back of lab by tips
+- [ ] Alan will check on seawater solutions by the windows
+
+### Protocols
+- [ ] Take3 / Pico Green
+- [ ] Illumina Library Prep - Sara is working on
+- [ ] Shared Lab Space - broken links
+
