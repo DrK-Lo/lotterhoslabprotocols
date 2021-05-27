@@ -32,8 +32,7 @@
 - [ ] mag beads give away - top shelf
 
 ### -20C
-- [ ] Antibiotics in -20C. We have to contact EHS and ask how to dispose. Penicillian Streptomycin Sigma P4458, 100mL, 20 vials expired 2019
-- [ ] 
+- [ ] Antibiotics in -20C. We have to contact EHS and ask how to dispose. Penicillian Streptomycin Sigma P4458, 100mL, 20 vials expired 2019. - Thais
 
 ### -80C
 - [ ] Plan for defrost
@@ -51,3 +50,8 @@
 - [ ] Illumina Library Prep - Sara is working on
 - [ ] Shared Lab Space - broken links
 
+### Field lockers
+- [ ] haven't looked at
+
+### Compute
+- [ ] regEx resources page
