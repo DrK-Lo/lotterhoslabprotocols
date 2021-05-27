@@ -1,6 +1,7 @@
 # Tranferring files 
 
-(TO DO)
+We recommend using GLOBUS (add link) to tranfer files.
+However, if you use another file tranfer mechanism, use md5sums to make sure your files are 
 
 ## How to ensure the files you are transferring are transferred successfully
 
