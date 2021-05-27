@@ -46,7 +46,7 @@
 - [ ] Get a charger for the Uniden MHS75 marine radio
 
 ### Protocols
-- [ ] Take3 / Pico Green better explanation
+- [ ] Take3 / Pico Green / plate reader better explanation
 - [ ] Illumina Library Prep - Sara is working on
 - [ ] Shared Lab Space - broken links
 
