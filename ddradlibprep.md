@@ -4,6 +4,8 @@ title: ddRDA Library Prep
 subtitle: The protocol for doing a library prep for ddRAD
 ---
 
+*Note: This protocol is outdated*
+
 # Background 
 
 **D**ouble **d**igest **R**estriction-site **A**ssociated **D**NA **seq**uencing (ddRADseq; Peterson et al. 2012) is a popular approach which uses two restriction enzymes in combination with next generation sequencing to produce inexpensive genome-wide datasets. It does this by; first, using two separate restriction enyzmes that cleave DNA at designated Restriction sites located haphazardly along the genome (F.1A). Second, using a series of steps, labels are attached only to DNA fragments that were specifically cut with each enzyme (F.1B). Lastly, the remaining labeled fragments can be pooled (combined with other similarly treated DNA samples) then be sent away for sequencing (F.1C). Pooling is possible through the use of unique barcodes, which can be used to differentiate sequenced fragments by sample using downstream bioinformatics tools.
