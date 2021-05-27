@@ -24,7 +24,7 @@ description: A site for protocols used in the Lotterhos Lab!
 # List of links in the navigation bar
 navbar-links:
   General:
-    - Getting started in the lab: "GettingStarted"
+    - Getting started in the lab: "p_general/GettingStarted"
     - Freezer: "freezer"
     - Autoclave (OGL): "autoclave"
     - Ordering Supplies and Equipment: "ordering"
