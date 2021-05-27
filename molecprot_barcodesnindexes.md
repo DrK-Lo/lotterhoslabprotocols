@@ -23,4 +23,5 @@ For genomic DNA library prep, we are now working with inline barcodes on the P5 
 Also, note that the indexes will also demultiplex with Illumina's software at the sequencing facility. But after you receive them, the reads will need to be further demultiplexed using the inline barcodes with a program such as STACKS.
 
 [Lotterhos adapter and primer database](https://docs.google.com/spreadsheets/d/1bro9DbuJB9zH8KtIUH3H7FHrlVO2gZYbIsUbx7yax70/edit#gid=0)
+
 [Lotterhos y-adapters with inline barcodes and dual indexes](https://docs.google.com/spreadsheets/d/1Ok9EEkloK6RCCpKsc4tjklF4UygO8SnATWK8HGLgpvY/edit#gid=0)
