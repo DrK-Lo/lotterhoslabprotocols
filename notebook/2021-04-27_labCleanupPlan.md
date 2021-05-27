@@ -38,6 +38,7 @@
 ### -80C
 - [ ] Plan for defrost
 - [ ] Plan for service
+- [ ] J. Puritz has 3 boxes of CASE stuff
 
 ### Around the lab
 - [ ] clean glassware by sink
