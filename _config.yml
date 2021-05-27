@@ -62,8 +62,8 @@ navbar-links:
     - Seatables: "field_Seatables"
     - Kayak: "field_kayak"
   Coding Protocols:
-    - Learning to code: "LearningToCode"
-    - Non-NU on Discovery: "discovery_nonNEUpersonnel"
+    - Learning to code: "code_LearningToCode"
+    - Non-NU on Discovery: "code_discovery_nonNEUpersonnel"
     - Lotterhos Lab on Discovery: "discovery"
     - Version Control with GitHub: "versioncontrol"
     - General Directory Organization: "directoryorganization"
