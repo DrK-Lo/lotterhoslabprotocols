@@ -4,6 +4,8 @@ title: Gel Electrophoresis
 subtitle: The protocol for running a gel
 ---
 
+We are Ethidium-Bromide Free!
+
 # Materials and Equipment
 1. Agarose
 2. 1X TBE
