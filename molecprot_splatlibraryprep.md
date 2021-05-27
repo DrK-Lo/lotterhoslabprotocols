@@ -4,6 +4,8 @@ title: SPLAT Library Prep
 subtitle: The protocol for doing a library prep using SPLAT
 ---
 
+*Note: this protocol is outdated. Not sure if it works*
+
 # Background
 
 # Materials and Equipment
