@@ -4,6 +4,8 @@ title: bs RAD Library Prep
 subtitle: The protocol for doing a library prep for bs ddRAD
 ---
 
+*Note: this protocol is outdated. Not sure if it works*
+
 # Background
 
 # Materials and Equipment
