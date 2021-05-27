@@ -4,6 +4,8 @@ title: Accessing and Using Defiance Cluster
 subtitle: Notes on how to access and use the defiance cluster
 ---
 
+# Note we no longer use this resource.
+
 To use the defiance cluster you need to contact Stefan (graduate student in Vollmer lab; S.Kaluziak@northeastern.edu) and request access
 
 You'll need to send Stefan your public key. Public keys can be created following the steps here: <https://confluence.atlassian.com/bitbucketserver/creating-ssh-keys-776639788.html>
