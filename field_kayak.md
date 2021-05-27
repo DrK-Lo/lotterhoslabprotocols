@@ -6,7 +6,7 @@
 * Quick-Release Fin with pin
 * 2 Footrest
 * 2 Splash-Guard inserts
-* Repair kit NEEDS TO BE CHECKED
+* Repair kit - THIS IS IN THE LAB ON THE SHELF IN THE BROWN ACCORDION FOLDER WITH THE KAYAK MANUAL
 * 4 PVC Rod Holder Sleeves
 * 4 Backstraps
 * 1 throw rope
