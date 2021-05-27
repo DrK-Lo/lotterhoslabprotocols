@@ -4,6 +4,8 @@ title: Illumina Library Prep
 subtitle: The protocol for doing a library prep using Illumina kit
 ---
 
+*Note: This protocol is unfinished*
+
 ## Background
 
 Before you start this, you should [determine the barcodes and index scheme for your library.](https://bmford11.github.io/lotterhoslabprotocols/barcodesnindexes/)
