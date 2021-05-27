@@ -25,6 +25,7 @@ description: A site for protocols used in the Lotterhos Lab!
 navbar-links:
   General:
     - Expectations: "general_expectations"
+    - Welcome: "general_welcome"
     - Getting started in the lab: "general_GettingStarted"
     - Freezer: "general_freezer"
     - Autoclave (OGL): "general_autoclave"

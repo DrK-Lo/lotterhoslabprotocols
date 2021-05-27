@@ -17,14 +17,18 @@ Then, you should draw an outline of what is happening at each step in this proto
 ## Kits used
 KAPA Hyper Prep Kit
 
+
 ## Materials needed
-sheared DNA to the size appropriate for your library
-KAPA beads (or other beads)
-strip tubes or individual tubes depending on how many libraries you are prepping
+* Sheared DNA to the size appropriate for your library
+* Primers at 15 uM (aliquots of i5 and i7 custom primers if using)
+* Adapters at 15 uM (aliquots of annealed custom adapters if using)
+* KAPA beads (or other beads)
+* Strip tubes or individual tubes depending on how many libraries you are prepping
 
 ## Equipment needed
 Thermo Mixer set at 20C and 400 rpm (this can be done in the thermocycler as well if you don't have a thermo Mixer)
 Thermo cycler 
+Magnetic Bead Rack  
 
 ## Tips
 filtered 10 uL 
