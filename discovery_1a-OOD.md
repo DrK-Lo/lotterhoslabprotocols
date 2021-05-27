@@ -1,0 +1,36 @@
+#  Open OnDemand
+
+
+* Check on the Open On Demand - R studio and Jupyter notebooks! Open OnDemand [ood.discovery.neu.edu](ood.discovery.neu.edu)
+  * You also open a JupyterHub interface (jupyterhub.discovery.neu.edu)
+  * Integrated Genome Viewer!
+  
+* To view your home directory on Discovery with OOD, you have to log in to Discovery at the command line / Terminal first
+
+* Previous workshop materials are available at `/shared/rc/training`. For example, the latest one research computing did focused on introduction to Slurm and Discovery as well as how to set up python environments. 
+  * You can copy it to your home directory by typing the following command (at the command line): `cp -r /shared/rc/training/training_111219 ~`
+  * You can then view it via Open OnDemand
+  
+* Although OOD allows file transfer, this is not recommended because there are no automatic checks for file corruption. Use Globus instead.
+
+## Using our environments in Jupyter Lab Notebooks
+
+* we do have a way to load a custom conda env on your jupyter notebook when opening jupyterlab through OOD. The only additional step needed for this is to install jupyterlab onto the env you wish to load using:
+```
+conda activate <env-name-to-load-on-jupyter>
+
+conda install jupyterlab
+```
+
+
+and then go to
+
+
+OOD > Interactive apps > JupyterLab Notebook [Custom Anaconda Environment]
+
+[fill in all the fields and provide the env name where you installed jupyterlab under the field “Custom Anaconda Environment (provide name only)”]
+
+
+[You can find some instructions on this here as well in RC Docs](https://rc-docs.northeastern.edu/en/latest/using-ood/interactiveapps.html#working-with-jupyter-notebook-custom-anaconda-environment)
+
+
