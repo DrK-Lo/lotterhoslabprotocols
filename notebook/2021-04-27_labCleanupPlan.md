@@ -2,25 +2,25 @@
 # List of lab cleanup
 
 ## Bench / Hood
-- thorough cleanup of lab benches and wash of plastics
+- [ ] thorough cleanup of lab benches and wash of plastics
 - [x] label with red tape expired kits and old solutions (> 5 years old)
 
 ## Freezers and Fridge
-- Make sure all boxes in -80C freezer are organized and labeled and in freezer database. 
+- [ ] Make sure all boxes in -80C freezer are organized and labeled and in freezer database. 
   - make a freezer map 
   - Is there still Hughes Lab stuff in the freezer?
   - [x] check that the grate on the bottom is clean and dust-free  
 - [x] -20C and fridge needs to be cleaned up and defrosted
 
 ## Protocols page
-- go through the protocols and update anything
+- [ ] go through the protocols and update anything
 
 ## Data
-- Go through LotterhosLab permissions and folders and make sure there is restricted access
-- Go through Google Drive
-- alan and Sara should think about data accessibility after graduation
-- Lotterhos lab on Discovery - permissions and folders
-- Database FMP backups
+- [ ] Go through LotterhosLab permissions and folders and make sure there is restricted access
+- [ ] Go through Google Drive
+- [ ] alan and Sara should think about data accessibility after graduation
+- [ ] Lotterhos lab on Discovery - permissions and folders
+- [ ] Database FMP backups
  
 
 # To do
@@ -46,7 +46,7 @@
 - [ ] Get a charger for the Uniden MHS75 marine radio
 
 ### Protocols
-- [ ] Take3 / Pico Green
+- [ ] Take3 / Pico Green better explanation
 - [ ] Illumina Library Prep - Sara is working on
 - [ ] Shared Lab Space - broken links
 
