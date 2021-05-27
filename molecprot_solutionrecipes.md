@@ -4,7 +4,11 @@ title: Solution Recipes
 subtitle: Recipes for solutions and reagents needed for lab protocols
 ---
 
-
+# Label your solutions
+* Please make sure solutions are labeled with your name/initials, the date that you made them
+* Please do not use stock solutions for molecular work - pour out solutions into aliquots in falcon tubes or glass jars
+* Please make sure your aliquots are labeled with the stock solution, the date they were made, who made them, and your name on the aliquot
+* Do not share aliquots with other people in the lab
 
 ###  7.5M ammonium acetate
 
