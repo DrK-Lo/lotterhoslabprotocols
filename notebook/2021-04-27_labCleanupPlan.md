@@ -3,14 +3,14 @@
 
 ## Bench / Hood
 - thorough cleanup of lab benches and wash of plastics
-- label with red tape expired kits and old solutions (> 5 years old)
+- [x] label with red tape expired kits and old solutions (> 5 years old)
 
 ## Freezers and Fridge
 - Make sure all boxes in -80C freezer are organized and labeled and in freezer database. 
-  - make a freezer map (we need a posterboard)
+  - make a freezer map 
   - Is there still Hughes Lab stuff in the freezer?
-  - check that the grate on the bottom is clean and dust-free  
-- -20C and fridge needs to be cleaned up
+  - [x] check that the grate on the bottom is clean and dust-free  
+- [x] -20C and fridge needs to be cleaned up and defrosted
 
 ## Protocols page
 - go through the protocols and update anything
@@ -37,11 +37,13 @@
 
 ### -80C
 - [ ] Plan for defrost
+- [ ] Plan for service
 
 ### Around the lab
 - [ ] clean glassware by sink
 - [ ] Alan will check out working solutions at back of lab by tips
 - [ ] Alan will check on seawater solutions by the windows
+- [ ] Get a charger for the Uniden MHS75 marine radio
 
 ### Protocols
 - [ ] Take3 / Pico Green
