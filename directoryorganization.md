@@ -34,7 +34,7 @@ Short description of New Project
 ```
 
 Once you've set up your project folder, it should look something like this:
-<img src="../img/eg_structure.png" alt="folder example" />
+<img src="/img/eg_structure.png" alt="folder example" />
 
 
 Quick notes:
