@@ -38,6 +38,7 @@ navbar-links:
     - How to publish a paper: "profdev_How-to-publish-a-paper"
     - General resources: "profdev"
   Molecular Protocols:
+    - Shared equipment: "https://numsc-corefacility.github.io/sharedLabSpace/"
     - Solution Recipes: "molecprot_solutionrecipes"
     - Determining Barcodes & Indexes: "molecprot_barcodesnindexes"
     - DNA Extraction (Qiagen): "molecprot_dnaextractionqiagen"
