@@ -34,8 +34,8 @@ navbar-links:
     - Create barcoded labels: "general_creating-barcoded-labels"
     - Shipping Hazardous Materials: "general_ShippingHazMat"
   Professional Development:
-    - Reducing Cognitive Load: "ReducingCognitiveLoad"
-    - How to publish a paper: "How-to-publish-a-paper"
+    - Reducing Cognitive Load: "profdev_ReducingCognitiveLoad"
+    - How to publish a paper: "profdev_How-to-publish-a-paper"
     - General resources: "profdev"
   Molecular Protocols:
     - Solution Recipes: "molecprot_solutionrecipes"
