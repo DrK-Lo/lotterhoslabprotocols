@@ -35,7 +35,7 @@ cd
 
 **Changing directory with click and drag method**
 
-<img src="../img/quickdirectory.gif" style="width:100%;" alt="Quick Directory Access" />
+<img src="/img/quickdirectory.gif" style="width:100%;" alt="Quick Directory Access" />
 
 
 ## Find target files - `find` <a name="find"></a>
@@ -85,7 +85,7 @@ The -i argument says to use in-place editing (edit and return file without makin
 **Want to change permissions to a directory and all subdirectories, but are not sure which `chmod` arguments to use to do so recursively?**
 
 Use mac GUI:
-<img src="../img/changepermissions.gif" style="width:100%;" alt="Change Permissions" />
+<img src="/img/changepermissions.gif" style="width:100%;" alt="Change Permissions" />
 
 ## Counting words or lines - `wc` <a name="wc"></a>
 
