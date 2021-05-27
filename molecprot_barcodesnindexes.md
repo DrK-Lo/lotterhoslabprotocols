@@ -16,6 +16,11 @@ Next, and especially if you are doing library prep for the first time, I suggest
 
 [Example Genomic Library Prep with p5 inline barcode and index in p7 PCR Primer](https://docs.google.com/spreadsheets/d/1VSqr03MbtS0hFzgnOu3-oHL2fzf4qL5jfEEyDE76bv4/edit#gid=0)
 
+[Example Library prep with inline barcodes and dual indexes](https://docs.google.com/document/d/1xr99sMucP-x2rK6K61vtGHKNahl9UYFwh_oEb0AtHX8/edit)
+
 For genomic DNA library prep, we are now working with inline barcodes on the P5 (left) adapter and indexes on the P7 (right) adapter. See above figure for details (note: KEL thinks there is issues with this system and this may change). These can give up to 12*12 = 144 unique barcodes. But, keep in mind that every sample can't have the same barcode (e.g., can't have 12 samples with 1 barcode and 12 indexes), and every sample can't have the same index (e.g., can't have 12 samples with 12 barcodes and 1 index) because of the low-diversity problem.
 
 Also, note that the indexes will also demultiplex with Illumina's software at the sequencing facility. But after you receive them, the reads will need to be further demultiplexed using the inline barcodes with a program such as STACKS.
+
+[Lotterhos adapter and primer database](https://docs.google.com/spreadsheets/d/1bro9DbuJB9zH8KtIUH3H7FHrlVO2gZYbIsUbx7yax70/edit#gid=0)
+[Lotterhos y-adapters with inline barcodes and dual indexes](https://docs.google.com/spreadsheets/d/1Ok9EEkloK6RCCpKsc4tjklF4UygO8SnATWK8HGLgpvY/edit#gid=0)
