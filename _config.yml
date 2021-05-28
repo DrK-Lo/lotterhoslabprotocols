@@ -78,12 +78,12 @@ navbar-links:
     - Pseudoparallel on cluster: "code_pseudoparallel"
   Discovery:
     - Getting Started on Discovery: "discovery_1-gettingstarted"
-    - Open On Demand: "discovery_1a-OOD.md"
-    - Globus: "discovery_2-globus.md"
-    - Storage: "discovery_3-storage.md"
-    - Parallelization: "discovery_5-parallelization.md"
-    - Optimization: "discovery_6-optimization.md"
-    - Example scripts: "discovery_4-examples.md"
+    - Open On Demand: "discovery_1a-OOD"
+    - Globus: "discovery_2-globus"
+    - Storage: "discovery_3-storage"
+    - Parallelization: "discovery_5-parallelization"
+    - Optimization: "discovery_6-optimization"
+    - Example scripts: "discovery_4-examples"
     - Non-NU on Discovery: "discovery_nonNEUpersonnel"
 
 
