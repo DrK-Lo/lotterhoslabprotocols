@@ -55,6 +55,7 @@ Other samples: - THAIS and KATIE
 - [ ] Take3 / Pico Green / plate reader better explanation - Sara
 - [ ] Illumina Library Prep - Sara is working on
 - [ ] Shared Lab Space - broken links - KATIE
+- [ ] Covaris - Sara will check
 
 ### Field lockers
 - [ ] haven't looked at - KATIE
@@ -63,7 +64,7 @@ Other samples: - THAIS and KATIE
 - [ ] tips need to be disposed and replaced with new jars - THAIS
 
 ### Compute
-- [ ] regEx resources page
+- [ ] regEx resources page - Katie
 - [ ] /work/lotterhos/ MEET WITH RC TO TALK ABOUT STORAGE
 - [ ] Better explanation for yml files https://github.com/neu-rc-admin/lotterhos_group/tree/main/env_yml_files - ALAN
 - [ ] example scripts for running simulations on Discovery cluster - ALAN
