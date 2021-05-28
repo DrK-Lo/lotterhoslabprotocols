@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Open OnDemand
+
 ---
+
 
 * Check on the Open On Demand - R studio and Jupyter notebooks! Open OnDemand [ood.discovery.neu.edu](ood.discovery.neu.edu)
   * You also open a JupyterHub interface (jupyterhub.discovery.neu.edu)
