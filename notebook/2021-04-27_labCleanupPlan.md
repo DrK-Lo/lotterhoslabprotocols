@@ -53,6 +53,9 @@
 ### Field lockers
 - [ ] haven't looked at
 
+### Core facility
+- [ ] tips need to be disposed and replaced with new jars
+
 ### Compute
 - [ ] regEx resources page
 - [ ] Better explanation for yml files https://github.com/neu-rc-admin/lotterhos_group/tree/main/env_yml_files
