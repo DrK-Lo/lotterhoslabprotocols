@@ -66,6 +66,7 @@ Other samples: - THAIS and KATIE
 ### Compute
 - [ ] regEx resources page - Katie
 - [ ] /work/lotterhos/ MEET WITH RC TO TALK ABOUT STORAGE
+  - [ ] ask about files on SMB//Lotterhos - that's where Sara's Cod backup is
 - [ ] Better explanation for yml files https://github.com/neu-rc-admin/lotterhos_group/tree/main/env_yml_files - ALAN
 - [ ] example scripts for running simulations on Discovery cluster - ALAN
 - [ ] example scripts for running samples on Discovery cluster - ALAN
