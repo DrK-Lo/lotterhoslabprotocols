@@ -5,6 +5,10 @@ subtitle: The protocol for quantifying DNA/RNA samples using the Take3
 bigimg: /img/take3.JPG
 ---
 
+# What is the Take3?
+The Take3 is like a nanodrop for DNA quantification using spectrophotometry on the plate reader.
+For more accurate quantification similar to Qubit, considering using the PicoGreen assay.
+
 # Take3 Run
 1. Select File -> New Task
 2. When prompted by Task Manager, select Read Now in left pane.
