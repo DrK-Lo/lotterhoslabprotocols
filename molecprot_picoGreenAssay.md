@@ -17,6 +17,8 @@ The most commonly used technique for measuring nucleic acid concentration is the
 * PicoGreen Dye (comes with PicoGreen Kit)
 * DNA Ladder 100 ug/mL (comes with PicoGreen Kit)
 
+* Synergy HTX plate reader in shared molecular space
+
 ## Important Notes 
 * Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL.
 * Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay.
