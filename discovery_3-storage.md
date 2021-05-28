@@ -7,25 +7,30 @@ make sure only relevant files are being archived.
 
 * In addition each user has a home directory and a scratch directory.
 
-* **Active Lotterhos Lab storage** 
-* Ask Katie to share a Globus endpoint with you. The endpoint with include the words "smb Volumes/lotterhos"
-* Within this storage space we have a shared folder for each project, that only the people on that project have access to.
-* For this endpoint to work, it has to be mapped through Katie's laptop or the iMac in the lab. _Katie's laptop from home: sign into NU VPN, make sure Globus Connect Personal App is running, plug in ethernet cord_
-
-* **Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
-* Path: `/lotterhosarchive/`
-* Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
-
-* **Your home directory on Discovery**.  
-* Path: `/~/`
+### Your home directory on Discovery**.  
+* Path: `/~/` or `/home/username`
 * Note that only you have access to these files.
 
-* **Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up. 
+### Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up. 
 * Path: `/scratch/username`
  * Note that only you have access to these files.
 
-* **Active Lotterhos Lab storage: more information** (? TB for lab).  
+### Working together on shared files on Discovery
+* TO DO. 
+* Set up a consultation with RC to talk about how to set permissions for users who will share the files
+* Practice using git for version control in the shared folder
+* 
+
+### GitHub Enterprise
+* To do: Set up a time to talk to Raphael
+
+### Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
+* Path: `/lotterhosarchive/`
+* Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
+
+### Active Lotterhos Lab storage: more information** (? TB for lab).  
 * smb://nunet.neu.edu/rc-shares/lotterhos/
+* Ask Katie to share a Globus endpoint with you. The endpoint with include the words "smb Volumes/lotterhos"
 * Within this storage space we have a shared folder for each project, that only the people on that project have access to.
  * For this endpoint to work, it has to be mapped through Katie's laptop or the iMac in the lab. _Katie's laptop from home: sign into NU VPN, make sure Globus Connect Personal App is running, plug in ethernet cord_
 * Because accessing this server is done through a computer, it makes transferring files specific to the computer that the server is mapped to. Typically, you will ask Katie to share the Globus endpoint for this server that is set up through the lab iMac. As long as the server is mapped to the computer (typically lab iMac) and that connection is not interrupted, you should have no problems. 
