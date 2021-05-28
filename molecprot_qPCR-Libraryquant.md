@@ -77,9 +77,8 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
  ![](img/qPCRmachine_step1.jpg)
  
 * The first screen that will pop up is your plate set up. Here click the top left corner of the plate to select all wells and in the bottom right corner change the dye from "FAM" to "SYBR". This updates all wells to have the correct dye information for your run. 
- <p align="center">
  <img src="img/qPCRmachine_step1.jpg" width="300"/>
- <p/>
+
  
 * Next for each well make sure to label as either a "Standard" well, "NTC" (no template control) well, or "Unknown" well. For example, to do this for standards, highlight all cells that are locations of standards and move to the top right corner dropdown menu called "Well Types" and set it to standard. You can click and drag to highlight multiple locations in a row or just click on all the cells individually. You can always deselect by clicking that cell again or deselect everything using the top left corner square.
  <p align="center">
