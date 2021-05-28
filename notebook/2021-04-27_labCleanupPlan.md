@@ -22,11 +22,14 @@
 
 # To do
 
+### Givaway
+- [ ] mag beads give away - top shelf of fridge
+- [ ] stuff on countertop - make a list and Katie will send out to MSC and local biotech programs
+
 ### Fridge
 - [ ] Alan will take care of water samples in the door of the fridge
 - [ ] formalin disposal - top shelf - Thais
 - [ ] mag beads disposal - top shelf - Thais
-- [ ] mag beads give away - top shelf
 
 ### -20C
 - [ ] Antibiotics in -20C. We have to contact EHS and ask how to dispose. Penicillian Streptomycin Sigma P4458, 100mL, 20 vials expired 2019. - Thais
@@ -34,13 +37,20 @@
 ### -80C
 - [ ] Plan for defrost
 - [ ] Plan for service
-- [ ] J. Puritz has 3 boxes of CASE stuff
+- [ ] Black sea bass samples need to be organized - THAIS
+
+Other samples:
+- [ ] 3 big bags of oysters - Torrie's
+- [ ] J. Puritz has 3 boxes of CASE stuff - he will come pick up
+- [ ] Helmuth lab - 13 big boxes - Aqarius
+- [ ] Elise's boring sponge experiment - bags with vials
+- [ ] Seastar wasting disease samples
 
 ### Around the lab
-- [ ] clean glassware by sink
+- [ ] clean glassware by sink - THAIS
 - [ ] Alan will check out working solutions at back of lab by tips
 - [ ] Alan will check on seawater solutions by the windows
-- [ ] Get a charger for the Uniden MHS75 marine radio
+- [ ] Get a charger for the Uniden MHS75 marine radio - THAIS
 
 ### Protocols
 - [ ] Take3 / Pico Green / plate reader better explanation
