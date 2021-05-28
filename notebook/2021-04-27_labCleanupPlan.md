@@ -12,15 +12,12 @@
   - [x] check that the grate on the bottom is clean and dust-free  
 - [x] -20C and fridge needs to be cleaned up and defrosted
 
-## Protocols page
-- [ ] go through the protocols and update anything
-
 ## Data
-- [ ] Go through LotterhosLab permissions and folders and make sure there is restricted access
-- [ ] Go through Google Drive
+- [ ] Go through LotterhosLab permissions and folders and make sure there is restricted access - KATIE
+- [ ] Go through Google Drive - KATIE
 - [ ] alan and Sara should think about data accessibility after graduation
-- [ ] Lotterhos lab on Discovery - permissions and folders
-- [ ] Database FMP backups
+- [ ] Lotterhos lab on Discovery - permissions and folders - KATIE
+- [ ] Database FMP backups - EVERYONE
  
 
 # To do
