@@ -24,6 +24,11 @@ make sure only relevant files are being archived.
 ### GitHub Enterprise
 * To do: Set up a time to talk to Raphael
 
+### Active Lotterhos Lab storage on Discovery
+* /work/lotterhos/
+* TO DO: DETERMINE ACCESS AND SUBACCESS TO FOLDERS HERE
+* TO DO: FIGURE OUT WHAT TO DO ABOUT SARA's COD BACKUPS ON SMB/LOTTERHOS - ASK JAMES
+
 ### Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
 * Path: `/lotterhosarchive/`
 * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
