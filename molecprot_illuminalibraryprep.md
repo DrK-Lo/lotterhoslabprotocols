@@ -37,8 +37,9 @@ This protocol is based on the KAPA Hyper Prep Kit [protocol](https://rochesequen
 
 ## Protocol
 
+
 ### End Repair & A-tailing
-* Assemble each end repair and A-tailing reaction in a tube or well of a PCR plate as follows:   
+1.1 Assemble each end repair and A-tailing reaction in a tube or well of a PCR plate as follows:   
 
 | Component                      | Volume |
 |--------------------------------|--------|
@@ -47,10 +48,10 @@ This protocol is based on the KAPA Hyper Prep Kit [protocol](https://rochesequen
 | End Repair & A-tailing Enzyme  | 1.5 uL |
 | Total Volume                   | 30 uL  |
 
-Depending on how many libraries you are prepping, you can make a master mix of the buffer and enzyme to add to each sample well. If you do this, be sure to add about 10% volume of each component due to pipetting error. 
+Depending on how many libraries you are prepping, you can make a master mix of the buffer and enzyme to add to each sample well. If you do this, be sure to add about 10% volume of each component due to pipetting error.  
 
-* Vortex gently and spin down briefly. Return the plate/tube(s) to ice. Proceed immediately to the next step.
-* Incubate libraries in thermocycler set to the following protocol: 
+1.2 Vortex gently and spin down briefly. Return the plate/tube(s) to ice. Proceed immediately to the next step.
+1.3 Incubate libraries in thermocycler set to the following protocol:  
 
 | Step                    | Temp | Time   |
 |-------------------------|------|--------|
@@ -59,10 +60,10 @@ Depending on how many libraries you are prepping, you can make a master mix of t
 | HOLD                    | 4 C  | *      |
 
 
-* Proceed immediately to Adapter Ligation
+1.4 Proceed immediately to Adapter Ligation  
 
 ### Adapter Ligation
-* In the same plate/tube(s) in which end repair and A-tailing was performed, assemble each adapter ligation reaction as follows:  
+2.1 In the same plate/tube(s) in which end repair and A-tailing was performed, assemble each adapter ligation reaction as follows:  
 
 | Component                                 | Volume |
 |-------------------------------------------|--------|
@@ -75,12 +76,21 @@ Depending on how many libraries you are prepping, you can make a master mix of t
 
 Again, at this step you can make a master mix of the buffer, Ligase enzyme and water. If you do this, be sure to add about 10% volume of each component due to pipetting error. 
 
-* Mix thoroughly by pipetting up and down 15 times and centrifuge briefly. 
-* Incubate at 20C for 60 minutes on the ThermoMixer with the rotations set at 400 rpm. 
-* After incubation, proceed immediately to the next step
+2.2 Mix thoroughly by pipetting up and down 15 times and centrifuge briefly. 
+2.3 Incubate at 20C for 60 minutes on the ThermoMixer with the rotations set at 400 rpm. 
+2.4 After incubation, proceed immediately to the next step  
 
 ### Post-Ligation Cleanup
+3.1 In the same plate/tube(s), perform a 0.8X bead based cleanup by combining the following:   
 
+| Component                         | Volume | 
+|-----------------------------------|--------|
+| Adapter ligation reaction product | 55 uL  |
+| KAPA Pure Beads                   | 44 uL  |
+| Total Volume                      | 99 uL  |
+
+3.2 Mix thoroughly by pipetting up and down 15 times.
+3.3 Incubate the plate/tube(s) at room temperature for 10 min to bind DNA to the beads.
 ### PCR
 
 ### Post-PCR Cleanup
