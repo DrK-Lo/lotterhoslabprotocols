@@ -37,19 +37,23 @@
 ### -80C
 - [ ] Plan for service and defrost - need to coordinate with OGL for a freezer to put samples in - THAIS
 - [ ] Black sea bass samples need to be organized - THAIS
+- [ ] Thais will order vinyl tape and make labels for the boxes
 
 Other samples: - THAIS and KATIE
-- [ ] 3 big bags of oysters - Torrie's
+- [ ] 3 big bags of oysters - Torrie's - THAIS WILL CONTACT
 - [ ] J. Puritz has 3 boxes of CASE stuff - he will come pick up
-- [ ] Helmuth lab - 13 big boxes - Aqarius
-- [ ] Elise's boring sponge experiment - bags with vials
-- [ ] Seastar wasting disease samples
+- [ ] Helmuth lab - 13 big boxes - Aqarius - Francis Choi dropped off - THAIS WILL CONTACT
+- [ ] Elise's boring sponge experiment - bags with vials - THAIS WILL CONTACT
+- [ ] Isaac Westfield foil samples - Ries Lab - THAIS WILL CONTACT
+- [ ] Seastar wasting disease samples - Aki collected these, but we decided to keep them
+
 
 ### Around the lab
 - [ ] clean glassware by sink - THAIS
 - [ ] Alan will check out working solutions at back of lab by tips
 - [ ] Alan will check on seawater solutions by the windows
 - [ ] Get a charger for the Uniden MHS75 marine radio - THAIS
+- [ ] order some more lab notebooks - Thais - make sure numbered pages
 
 ### Protocols
 - [ ] Take3 / Pico Green / plate reader better explanation - Sara
@@ -62,6 +66,9 @@ Other samples: - THAIS and KATIE
 
 ### Core facility
 - [ ] tips need to be disposed and replaced with new jars - THAIS
+
+### Gel room
+- [ ] Thais will clean up
 
 ### Compute
 - [ ] regEx resources page - Katie
