@@ -64,6 +64,8 @@ might vary a bit among platforms.
 
 https://www.fast.ai/
 
+https://course.fast.ai/start_colab
+
 # Learning SLiM
 
 http://benhaller.com/workshops/workshops.html
