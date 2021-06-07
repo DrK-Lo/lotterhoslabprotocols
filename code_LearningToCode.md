@@ -69,3 +69,9 @@ https://course.fast.ai/start_colab
 # Learning SLiM
 
 http://benhaller.com/workshops/workshops.html
+
+# Advanced concepts
+
+[Gaussian processes and mutlivariate normal distributions](https://distill.pub/2019/visual-exploration-gaussian-processes/)
+
+[Interactive vignettes for machine learning and stats](https://distill.pub/)
