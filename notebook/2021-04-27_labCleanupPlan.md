@@ -23,8 +23,8 @@
 # To do
 
 ### Giveaway
-- [ ] mag beads give away - top shelf of fridge
-- [ ] stuff on countertop - make a list and Katie will send out to MSC and local biotech programs
+- [x] mag beads give away - top shelf of fridge
+- [x] stuff on countertop - make a list and Katie will send out to MSC and local biotech programs
 
 ### Fridge
 - [ ] Alan will take care of water samples in the door of the fridge
@@ -32,7 +32,7 @@
 - [ ] mag beads disposal - top shelf - Thais
 
 ### -20C
-- [ ] Antibiotics in -20C. We have to contact EHS and ask how to dispose. Penicillian Streptomycin Sigma P4458, 100mL, 20 vials expired 2019. - Thais
+- [x] Antibiotics in -20C. We have to contact EHS and ask how to dispose. Penicillian Streptomycin Sigma P4458, 100mL, 20 vials expired 2019. - We decided to add this to the give away list. Thais
 
 ### -80C
 - [ ] Plan for service and defrost - need to coordinate with OGL for a freezer to put samples in - THAIS
