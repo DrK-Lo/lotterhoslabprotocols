@@ -86,6 +86,7 @@ navbar-links:
     - Optimization: "discovery_6-optimization"
     - Example scripts: "discovery_4-examples"
     - Non-NU on Discovery: "discovery_nonNEUpersonnel"
+    - Using Arrays for parallelization: "discovery_slurmArrays"
 
 
 # Image to show in the navigation bar - image must be a square (width = height)
