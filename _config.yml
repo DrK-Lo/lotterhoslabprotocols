@@ -76,6 +76,7 @@ navbar-links:
     - Troubleshooting CellProfiler Installation: "code_TroubleshootingCellprofiler"
     - Accessing and Using Defiance Cluster: "code_defiance"
     - Pseudoparallel on cluster: "code_pseudoparallel"
+    - Adding table of contents and equations to github markdown: "coding_githhubMarkdown"
   Discovery:
     - Getting Started on Discovery: "discovery_1-gettingstarted"
     - Open On Demand: "discovery_1a-OOD"
