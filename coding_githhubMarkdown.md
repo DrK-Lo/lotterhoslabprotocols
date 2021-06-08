@@ -1,4 +1,4 @@
-#Integrating table of contents and equations
+# Integrating table of contents and equations
 
 Here we discuss adding a table of contents and integrated equation into your `github_document` markdown. These can be nice features when trying to make an organized markdown file for a github repository. **Note**, I believe the table of contents syntax will work for an `html_document`, but the equations solution is specific to the `github_document` file markdown type.
 
