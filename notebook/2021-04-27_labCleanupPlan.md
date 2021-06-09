@@ -27,7 +27,7 @@
 - [x] stuff on countertop - make a list and Katie will send out to MSC and local biotech programs
 
 ### Fridge
-- [ ] Alan will take care of water samples in the door of the fridge
+- [x] Alan will take care of water samples in the door of the fridge
 - [ ] formalin disposal - top shelf - Thais
 - [ ] mag beads disposal - top shelf - Thais
 
