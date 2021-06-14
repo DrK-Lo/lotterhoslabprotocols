@@ -65,10 +65,10 @@ Other samples: - THAIS and KATIE
 - [ ] haven't looked at - KATIE
 
 ### Core facility
-- [ ] tips need to be disposed and replaced with new jars - THAIS
+- [x] tips need to be disposed and replaced with new jars - THAIS
 
 ### Gel room
-- [ ] Thais will clean up
+- [x] Thais will clean up
 
 ### Compute
 - [ ] regEx resources page - Katie
