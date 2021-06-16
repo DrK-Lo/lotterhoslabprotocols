@@ -62,6 +62,8 @@ might vary a bit among platforms.
 
 # Learning Machine Learning
 
+https://christophm.github.io/interpretable-ml-book/
+
 https://www.fast.ai/
 
 https://course.fast.ai/start_colab
