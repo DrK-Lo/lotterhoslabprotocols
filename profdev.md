@@ -62,3 +62,5 @@ One time I had severe fatigue. My doctor did a vitamin panel and it turned out t
 ## Skimming a paper
 * [How to skim a paper](https://docs.google.com/document/d/17wIUVwRGpfRMG-riBjCj9EyCnPMb-K8RX7ww5C0kzf8/edit)
 
+## Lotterhos Lab notebook discussion
+* [Lotterhos Lab notebook discussion](https://drive.google.com/file/d/1HIVVvMbaF8XW0Jxyh708EYBTegkneJ_C/view?usp=sharing)
