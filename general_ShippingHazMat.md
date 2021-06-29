@@ -59,6 +59,6 @@ a)	The "Dangerous Goods in Excepted Quantity" label
   
   * must be at least 100 x 100 mm or 4 x 4  in, 
   * must conform with shape, color, format and text of the official label (see lab manager),
-  * must be filled out with DOT hazmat class and your full name (see lab manager).
+  * must be filled out with DOT hazmat class and your full name (class 3 for DOT for flammable ignitable liquids in this example; see lab manager).
 
 b)	The shipping label (from FedEx, UPS, etc) – you do not need to inform the carrier that you are shipping hazmats as long as the package is labeled correctly (see front desk associate to create shipping label and schedule pickup).
