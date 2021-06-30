@@ -44,6 +44,6 @@
   
       *a.	At the bottom of the screen, you should see the number of labels you’re creating – should match the rows on the excel file. Use the arrows to scroll through the labels and make sure they all fit within the margins of the labels. Adjust accordingly, if needed.*
 
-13.	Hit Print on top of the page or File > Print. It’s recommended to print the first ~5 labels first to see how the come out. To do that, select “Selected” under “Queried Records” and type 1-5 in “Selected Records”. If looks ok, print the rest. If you want to print all at once, select “All” under “Queried Records”.
+13.	Hit Print on top of the page or File > Print. It’s recommended to print the first ~5 labels first to see how the come out. To do that, select “Selected” under “Queried Records” and type 1-5 in “Selected Records”. Hit Print. If looks ok, print the rest. If you want to print all at once, select “All” under “Queried Records”.
 
 14.	Cut off your labels from the printer, close document, close software.
