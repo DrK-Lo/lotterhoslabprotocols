@@ -37,7 +37,7 @@
 ### -80C
 - [ ] Plan for service and defrost - need to coordinate with OGL for a freezer to put samples in - THAIS
 - [ ] Black sea bass samples need to be organized - THAIS
-- [ ] Thais will order vinyl tape and make labels for the boxes
+- [x] Thais will order vinyl tape and make labels for the boxes
 
 Other samples: - THAIS and KATIE
 - [x] 3 big bags of oysters - Torrie's - THAIS WILL CONTACT
