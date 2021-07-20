@@ -41,11 +41,11 @@
 
 Other samples: - THAIS and KATIE
 - [x] 3 big bags of oysters - Torrie's - THAIS WILL CONTACT
-- [ ] J. Puritz has 3 boxes of CASE stuff - he will come pick up
+- [x] J. Puritz has 3 boxes of CASE stuff - he will come pick up
 - [x] Helmuth lab - 13 big boxes - Aqarius - Francis Choi dropped off - THAIS WILL CONTACT
 - [x] Elise's boring sponge experiment - bags with vials - THAIS WILL CONTACT
-- [x] Isaac Westfield foil samples - Ries Lab - THAIS WILL CONTACT
-- [ ] Seastar wasting disease samples - Aki collected these, but we decided to keep them
+- [ ] Isaac Westfield foil samples - Ries Lab - THAIS WILL CONTACT
+- [x] Seastar wasting disease samples - Aki collected these, but we decided to keep them
 
 
 ### Around the lab
