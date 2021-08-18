@@ -7,6 +7,34 @@ make sure only relevant files are being archived.
 
 * In addition each user has a home directory and a scratch directory.
 
+### Working with github:
+It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo's Bioinformatics book to work with git on linux.
+
+In addition, you may want to collaborate on Discovery through your git repo.
+
+example: When person A started working on his git branch in Discovery, he cloned that branch to Discovery (e.g in the folder and repo /work/lotterhos/MVP-NonClinalAF). To give person B access,
+```
+1. Person-B Go to the terminal and copy your public key file content.
+cat ~/.ssh/id_rsa.pub
+(If you don't have a key pair generated already, generate a new one using command "ssh-keygen" )
+2. Go to the github website and login with Person-B credentials.
+3. In the upper-right corner of the github page, click Person-B profile photo, then click Settings.
+4. Click New SSH key or Add SSH key.
+5. Paste your key into the "Key" field.
+6. Click Add SSH key.
+7. Test the connection by running the following command in the terminal on person B Discovery:
+ssh -T git@github.com 
+```
+
+Get message:
+"Hi ModelValidationProgram/MVP-NonClinalAF! You've successfully authenticated, but GitHub does not provide shell access."
+
+Then, Person-B navigated to the folder on Discovery
+```
+cd /work/lotterhos/MVP-NonClinalAF
+```
+This seemed to work
+
 ### Your home directory on Discovery**.  
 * Path: `/~/` or `/home/username`
 * Note that only you have access to these files.
@@ -30,7 +58,6 @@ chmod 775                           # give group permissions to the directory
  * `lotterhos` - all Lotterhos Lab members
  * `lotterhos-BSB` - access to Black Sea Bass project
 
-Working with github:
 
 ### GitHub Enterprise
 * To do: Set up a time to talk to Raphael
