@@ -77,3 +77,7 @@ http://benhaller.com/workshops/workshops.html
 [Gaussian processes and mutlivariate normal distributions](https://distill.pub/2019/visual-exploration-gaussian-processes/)
 
 [Interactive vignettes for machine learning and stats](https://distill.pub/)
+
+# Other
+
+https://github.com/thais-neu/Thais-learning-code
