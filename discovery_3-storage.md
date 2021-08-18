@@ -15,22 +15,29 @@ make sure only relevant files are being archived.
 * Path: `/scratch/username`
  * Note that only you have access to these files.
 
-### Working together on shared files on Discovery
-* TO DO. 
-* Set up a consultation with RC to talk about how to set permissions for users who will share the files
-* Practice using git for version control in the shared folder
-* 
+### Lotterhos shared storage on Discovery
+* /work/lotterhos/
+* Katie will create a folder for each lab project in this directory. For each folder, Katie will submit a ticket to research computing to ask them to create a group for the project with members who will have access to that folder.
+
+Example:
+```
+mkdir BlackSeaBass                  # make the folder
+chgrp lotterhos-BSB BlackSeaBass    # change the group on the directory
+chmod 775                           # give group permissions to the directory
+```
+
+* Groups
+ * `lotterhos` - all Lotterhos Lab members
+ * `lotterhos-BSB` - access to Black Sea Bass project
+
+Working with github:
 
 ### GitHub Enterprise
 * To do: Set up a time to talk to Raphael
 
-### Active Lotterhos Lab storage on Discovery
-* /work/lotterhos/
-* TO DO: DETERMINE ACCESS AND SUBACCESS TO FOLDERS HERE
-* TO DO: FIGURE OUT WHAT TO DO ABOUT SARA's COD BACKUPS ON SMB/LOTTERHOS - ASK JAMES
-
 ### Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection. 
 * Path: `/lotterhosarchive/`
+* TO DO: FIGURE OUT WHAT TO DO ABOUT SARA's COD BACKUPS ON SMB/LOTTERHOS - ASK JAMES
 * Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
 
 ### Active Lotterhos Lab storage: more information** (? TB for lab).  
