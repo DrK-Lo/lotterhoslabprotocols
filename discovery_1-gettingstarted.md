@@ -12,6 +12,9 @@ https://rc.northeastern.edu/support/training/
 * Check out [NU Discovery research computing docs](https://rc-docs.northeastern.edu/en/latest/)
 
 * Need help? Create a ticket automatically by emailing rchelp@northeastern.edu
+    * RC bookings
+https://outlook.office365.com/owa/calendar/ResearchComputing2@northeastern.onmicrosoft.com/bookings/
+
 
 
 ## Software on Discovery for Lotterhos Lab
