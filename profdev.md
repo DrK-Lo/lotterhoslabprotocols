@@ -1,5 +1,10 @@
 # Professional Development resources
 
+## Collecting data and metadata
+* [How to organize data in spreadsheets](https://datacarpentry.org/spreadsheet-ecology-lesson/02-common-mistakes/index.html)
+* [Data organization in spreadsheets](https://www.tandfonline.com/doi/full/10.1080/00031305.2017.1375989) 
+* [Guide to writing a README file](https://data.research.cornell.edu/content/readme)
+
 ## Time Management
 * [Time Management, Productivity, and Organization](https://docs.google.com/document/d/13xiuKlbF0ao1CSZoeDg5RmtGibtNRclVZeQpAYcLIFo/edit)
 
