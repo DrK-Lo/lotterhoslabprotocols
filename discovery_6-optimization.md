@@ -97,7 +97,11 @@ Memory Efficiency: 19.21% of 3.91 GB
 
 This report is for the specified array task.
 
-This array task required 1 GB memory.
+This array task required 0.1921 x 3.91 ~ 0.75 GB memory.
+
+This task used 2 cores (1 from each node), but the actual programs being used didn't commuicate between the nodes. So it was not a well formatted array.
+
+It only used half of the CPU, but the array will run each task on an individual CPU. So there is not much we can do about that.
 
 
 
