@@ -36,3 +36,68 @@ Here, you can see that the CPU efficiency was very high at 99%, but you ended up
 For example, the `lotterhos` partition runs a lot faster than the `short` partition
 
 If you optimize on the  `lotterhos` partition, then your jobs will run out of time on the `short` partition
+
+# Optimization and arrays
+
+Here is an example header for an array script:
+```
+#SBATCH --job-name=SlimRun
+#SBATCH --mail-user=k.lotterhos@northeastern.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --partition=lotterhos
+#SBATCH --mem=170G
+#SBATCH --nodes=1
+#SBATCH --CPUs-per-task=2
+#SBATCH --array=50-151%70
+#SBATCH --output=/work/lotterhos/MVP-NonClinalAF/slurm_log/SlimRun20210826_%j.out
+#SBATCH --error=/work/lotterhos/MVP-NonClinalAF/slurm_log/SlimRun20210826_%j.err
+
+source ~/miniconda3/bin/activate MVP_env
+```
+
+The Lotterhos partition has 72 Cores, divided across two nodes. First, you need to know more about the how the programs that your script will call work. Can thay utilize multiple cores (threads)? Or do they only use one core?
+
+This is an example header from a submission script for an array that reads in rows 50-150 from a file that has the parameters that I want to run.
+
+And explanation of the following terms:
+
+`#SBATCH --array=50-151%70`
+
+* This will run 101 array tasks, for parameters 50-151 in the filename, and submit 70 jobs at a time.
+* If each task in array requires 1 CPU, you could also run up to 72 jobs at at time with `50-151%72`, to maximize the resources in the lotterhos partition. But, it is good to leave a couple of cores open for `srun` tasks.
+* If each task requires 2 CPUS, set `--CPUs-per-task=2` (look it up) and set `--array=50-151%36` to maximize the resources in the lotterhos partition.
+* IF programs can use multiple threads, do benchmarking to determine CPU per task, 1-2 jobs at a time, and do `seff` on those tasks that completed (see below). Test 1, 2, 4, 8, 16 CPUs. Then set that in the line.
+
+`#SBATCH --nodes=1`
+
+* Set this to 1 unless we know the program can communicate between the nodes.
+* If you set this to 1 and you set `50-151%72`, it will use both nodes on lotterhos, but only one CPU per node. If you set `#SBATCH --nodes=2` and `--array=50-151%72`, it will only submit up to 36 jobs at a time because it will set aside 1 CPU from each node, and only one CPU will be used while the other one will remain idle if the program does not communicate between the nodes.
+
+`#SBATCH --mem=170GB`
+
+* If I set `#SBATCH --array=50-151%70`, and each task needs 1GB memory (see below), I could specificy total mem = 70 x 1GB = 70GB. But, it's best to add a add buffer and set it to mem=170GB in case one task requires more memory.
+* If your submission script doesn't specify anthing, it will use the default amount which I would have to look up. For some array tasks, the default might work well, but it might not work well every time. The default memory is limited, so it's always recommended to set it higher so you don't run out.
+
+### `seff` for an array
+```
+seff 20714872
+Job ID: 20714872
+Array Job ID: 20714872_151
+Cluster: discovery
+User/Group: lotterhos/users
+State: COMPLETED (exit code 0)
+Nodes: 2
+Cores per node: 1
+CPU Utilized: 00:13:00
+CPU Efficiency: 48.51% of 00:26:48 core-walltime
+Job Wall-clock time: 00:13:24
+Memory Utilized: 768.23 MB
+Memory Efficiency: 19.21% of 3.91 GB
+```
+
+This report is for the specified array task.
+
+This array task required 1 GB memory.
+
+
+
