@@ -45,7 +45,7 @@ Here is an example header for an array script:
 #SBATCH --mail-user=k.lotterhos@northeastern.edu
 #SBATCH --mail-type=FAIL
 #SBATCH --partition=lotterhos
-#SBATCH --mem=170G
+#SBATCH --mem=4G
 #SBATCH --nodes=1
 #SBATCH --CPUs-per-task=2
 #SBATCH --array=50-151%70
@@ -73,12 +73,13 @@ And explanation of the following terms:
 * Set this to 1 unless we know the program can communicate between the nodes.
 * If you set this to 1 and you set `50-151%72`, it will use both nodes on lotterhos, but only one CPU per node. If you set `#SBATCH --nodes=2` and `--array=50-151%72`, it will only submit up to 36 jobs at a time because it will set aside 1 CPU from each node, and only one CPU will be used while the other one will remain idle if the program does not communicate between the nodes.
 
-`#SBATCH --mem=170GB`
+`#SBATCH --mem=4GB`
 
-* If I set `#SBATCH --array=50-151%70`, and each task needs 1GB memory (see below), I could specificy total mem = 70 x 1GB = 70GB. But, it's best to add a add buffer and set it to mem=170GB in case one task requires more memory.
+* This is the amount of memory needed for each task.
+* If I set `#SBATCH --array=50-151%70`, and each task needs 3GB memory (see below), it's best to add a add buffer in case one task requires more memory.
 * If your submission script doesn't specify anthing, it will use the default amount which I would have to look up. For some array tasks, the default might work well, but it might not work well every time. The default memory is limited, so it's always recommended to set it higher so you don't run out.
 
-### `seff` for an array
+### `seff 20714872_151` for an array
 ```
 seff 20714872
 Job ID: 20714872
@@ -95,7 +96,7 @@ Memory Utilized: 768.23 MB
 Memory Efficiency: 19.21% of 3.91 GB
 ```
 
-This report is for the specified array task.
+This report is for the specified array task (in this case index 151 in the array)
 
 This array task required 0.1921 x 3.91 ~ 0.75 GB memory.
 
