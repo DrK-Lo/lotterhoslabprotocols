@@ -6,4 +6,6 @@ make sure to [follow the instructions here](https://service.northeastern.edu/ogs
 
 [Aug 31 2021 Data Viz discussion from the NU specialist](https://northeastern.zoom.us/rec/share/L4GY5DKi6XCi1nf8_RxkzyGyu6NAojZd4nsNsL1WpxiEfNp5qe_PHd5An9ngPANS.49r97rNHCjo5PNSH) (ask Katie for password)
 
+* [NU library page on data visualization resources](https://subjectguides.lib.neu.edu/dataviz/tutorials)
+
 [A Keynote color/font template for presentations and posters](https://github.com/DrK-Lo/lotterhoslabprotocols/raw/gh-pages/ClassicPresentationTheme.key)
