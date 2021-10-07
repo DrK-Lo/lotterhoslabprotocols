@@ -47,7 +47,7 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
 ## The day of transfer/defrost:
 
-4) before you begin, double-check that the backup freezer(s)' alarm was disabled; request that our alarm is disabled remotely for 24h by emailing Dennis Todd, and gather: 
+4) before you begin, double-check that the backup freezer(s)' alarm was disabled; request that our alarm is disabled remotely for 24h by emailing Dennis Todd @ northeastern, and gather: 
     - freezer mittens
     - lab cart
     - a mop or large towel
@@ -84,7 +84,7 @@ October 2021 defrost (Thais, Sara and Alan):
 ----------------------------------------
 ----------------------------------------
 
-# Freezer maintenance: 
+# Freezer maintenance
 
 maintenance has been done with https://alertscientific.com/
 
