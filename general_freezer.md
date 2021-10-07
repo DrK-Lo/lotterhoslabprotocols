@@ -50,13 +50,13 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 ## The day of transfer/defrost:
 
 4) before you begin, double-check that the backup freezer(s)' alarm was disabled; request that our alarm is disabled remotely for 24h by emailing Dennis Todd @ northeastern, and gather:
-    - freezer mittens
-    - lab cart
-    - a mop or large towel
-    - 'wet floor' sign
-    - a cooler or large styrofoam box for lose boxes/bags
-    - a bucket to collect water 
-    - clean cloths to wipe the freezer 
+  - freezer mittens
+  - lab cart
+  - a mop or large towel
+  - 'wet floor' sign
+  - a cooler or large styrofoam box for lose boxes/bags
+  - a bucket to collect water 
+  - clean cloths to wipe the freezer 
 
 5) **WEARING FREEZER MITTENS**, transfer whole racks to the backup freezer: place all 5 racks from one shelf on our lab cart; roll the cart to the backup freezer and place them on **the equivalent shelf and in the same order as they were on our freezer**. Do this one shelf at the time until the freezer is empty.
 > transfer racks in and out of freezers carefully but quickly to minimize temp rising - note that the drawers slide open, so keep the racks horizontal; monitor both freezer's temp as you transfer - shouldn't rise above -65oC.
