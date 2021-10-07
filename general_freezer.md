@@ -43,6 +43,8 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
 2) find help - defrosting can be done by one person, but having a second pair of hands is very helpful and strongly recommended.
 
+3) familiarize yourself with the protocol to disable freezer alarms (see above), with the materials that need to be on hand to defrost the freezer and the overall protocol/timeline described below.
+
 ## The day of transfer/defrost:
 
 3) before you begin, double-check that the backup freezer(s)' alarm was disabled; request that our alarm is disabled remotely for 24h by emailing Dennis Todd, and gather: 
