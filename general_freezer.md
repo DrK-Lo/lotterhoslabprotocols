@@ -37,6 +37,8 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
 # Defrosting the -80C freezer
 
+[CryoCube-F570 operating manual](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7305953/Freezers_Operating-manual_CryoCube-F570n-h-hw.pdf)
+
 ## To do ahead of time:
 
 1) find a backup freezer for the samples and confirm that there's enough space for all contents of our freezer; check the dimensions of the available shelves in the backup freezer to see if it is the same as ours (ideally, transfer whole racks to the equivalent shelf & rack position on the backup freezer to save time and avoid messing up the inventory).
