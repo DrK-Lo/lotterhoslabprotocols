@@ -69,7 +69,7 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
 7) once defrosted: wipe the whole interior of the freezer, the inner and outer doors and the seal using clean microfiber cloths (under the lab sink) until completely dry. 
 
-8) switch everything back on: close all doors, plug freezer back up, switch on main switch/battery switch and lock up the locking plate, switch on alarm box up on top of the freezer. Monitor temperature to ensure that it is appropriately decreasing all the way to -80oC.
+8) reverse: close all doors, plug freezer back up, switch on main switch/battery switch and lock up the locking plate, switch on alarm box up on top of the freezer. Monitor temperature to ensure that it is appropriately decreasing all the way to -80oC.
   > during this stage, the freezer alarm may go off (not the alarms associated with the remote system), just mute it using the door pannel keys. 
 
 ## Example timeline:
