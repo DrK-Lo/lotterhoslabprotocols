@@ -47,7 +47,7 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
 ## The day of transfer/defrost:
 
-3) before you begin, double-check that the backup freezer(s)' alarm was disabled; request that our alarm is disabled remotely for 24h by emailing Dennis Todd, and gather: 
+4) before you begin, double-check that the backup freezer(s)' alarm was disabled; request that our alarm is disabled remotely for 24h by emailing Dennis Todd, and gather: 
     - freezer mittens
     - lab cart
     - a mop or large towel
@@ -56,10 +56,10 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
     - a bucket to collect water 
     - clean cloths to wipe the freezer 
 
-4) **WEARING FREEZER MITTENS**, transfer whole racks to the backup freezer: place all 5 racks from one shelf on our lab cart; roll the cart to the backup freezer and place them on **the equivalent shelf and in the same order as they were on our freezer**. Do this one shelf at the time until the freezer is empty.
+5) **WEARING FREEZER MITTENS**, transfer whole racks to the backup freezer: place all 5 racks from one shelf on our lab cart; roll the cart to the backup freezer and place them on **the equivalent shelf and in the same order as they were on our freezer**. Do this one shelf at the time until the freezer is empty.
 > transfer racks in and out of freezers carefully but quickly to minimize temp rising - note that the drawers slide open, so keep the racks horizontal; monitor both freezer's temp as you transfer - shouldn't rise above -65oC.
 
-5) once empty: 
+6) once empty: 
   - put up a "wet floor" sign, 
   - close the CO2 cylinder valve,
   - switch off the local alarm box located on top of the freezer,
@@ -67,12 +67,12 @@ we need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
   - unplug the freezer from the wall,
   - open all doors and let the freezer defrost, use a bucket to catch water dripping from the doors, use a mop to dry up the puddles.
 
-6) once defrosted: wipe the whole interior of the freezer, the inner and outer doors and the seal using clean microfiber cloths (under the lab sink) until completely dry. 
+7) once defrosted: wipe the whole interior of the freezer, the inner and outer doors and the seal using clean microfiber cloths (under the lab sink) until completely dry. 
 
-7) switch everything back on: close all doors, plug freezer back up, switch on main switch/battery switch and lock up the locking plate, switch on alarm box up on top of the freezer. Monitor temperature to ensure that it is appropriately decreasing all the way to -80oC.
+8) switch everything back on: close all doors, plug freezer back up, switch on main switch/battery switch and lock up the locking plate, switch on alarm box up on top of the freezer. Monitor temperature to ensure that it is appropriately decreasing all the way to -80oC.
   > during this stage, the freezer alarm may go off (not the alarms associated with the remote system), just mute it using the door pannel keys. 
 
-## Timeline:
+## Example timeline:
 
 October 2021 defrost (Thais, Sara and Alan): 
   - OGL was able to hold our samples (**MUST** coordinate with OGL personnel ahead of time); OGL's freezers was completely empty, and shelves have the same dimensions as ours (plus an extra shelf). 
