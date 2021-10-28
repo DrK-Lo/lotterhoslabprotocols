@@ -82,11 +82,13 @@ http://benhaller.com/workshops/workshops.html
 
 # Making Maps in R
 
-[Data Carpentry Geospatial Materials](https://datacarpentry.org/organization-geospatial/)
+[Data Carpentry Geospatial Materials](https://datacarpentry.org/organization-geospatial/) Introduction to raster and vector data
 
-[GG ocean maps](https://mikkovihtakari.github.io/ggOceanMaps/articles/ggOceanMaps.html)
+[GG ocean maps](https://mikkovihtakari.github.io/ggOceanMaps/articles/ggOceanMaps.html#advanced-use-1) beautiful ocean maps
 
-[GG plot maps](https://www.molecularecologist.com/2016/07/01/making-maps-in-r-volume-2-ggplots/)
+[Basic intro to maps in R](https://rpubs.com/kvistj/mapping)
+
+[GG plot maps - molecular ecologist](https://www.molecularecologist.com/2016/07/01/making-maps-in-r-volume-2-ggplots/)
 
 
 
