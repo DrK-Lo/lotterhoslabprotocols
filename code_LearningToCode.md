@@ -84,7 +84,8 @@ http://benhaller.com/workshops/workshops.html
 
 [Data Carpentry Geospatial Materials](https://datacarpentry.org/organization-geospatial/) Introduction to raster and vector data
 
-[GG ocean maps](https://mikkovihtakari.github.io/ggOceanMaps/articles/ggOceanMaps.html#advanced-use-1) beautiful ocean maps
+[GG ocean maps](https://mikkovihtakari.github.io/ggOceanMaps/articles/ggOceanMaps.html#advanced-use-1) beautiful ocean maps. 
+* For shallow bathymetries, the default is not great. Scroll down to the advanced data and see "bathymetries" and how to set the depths you want. You save the raster file, then you have to do the same thing for your land data.
 
 [Basic intro to maps in R](https://rpubs.com/kvistj/mapping)
 
