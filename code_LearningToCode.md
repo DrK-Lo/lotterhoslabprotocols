@@ -82,7 +82,7 @@ http://benhaller.com/workshops/workshops.html
 
 [Data Carpentry Geospatial Materials](https://datacarpentry.org/organization-geospatial/)
 
-[GG ocean maps](https://datacarpentry.org/organization-geospatial/)
+[GG ocean maps](https://mikkovihtakari.github.io/ggOceanMaps/articles/ggOceanMaps.html)
 
 [GG plot maps](https://www.molecularecologist.com/2016/07/01/making-maps-in-r-volume-2-ggplots/)
 
