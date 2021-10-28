@@ -78,6 +78,16 @@ http://benhaller.com/workshops/workshops.html
 
 [Interactive vignettes for machine learning and stats](https://distill.pub/)
 
+# Making Maps in R
+
+[Data Carpentry Geospatial Materials](https://datacarpentry.org/organization-geospatial/)
+
+[GG ocean maps](https://datacarpentry.org/organization-geospatial/)
+
+[GG plot maps](https://www.molecularecologist.com/2016/07/01/making-maps-in-r-volume-2-ggplots/)
+
+
+
 # Other
 
 https://github.com/thais-neu/Thais-learning-code
