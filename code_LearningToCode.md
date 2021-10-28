@@ -78,6 +78,8 @@ http://benhaller.com/workshops/workshops.html
 
 [Interactive vignettes for machine learning and stats](https://distill.pub/)
 
+[Making beautiful networks](https://gephi.org/)
+
 # Making Maps in R
 
 [Data Carpentry Geospatial Materials](https://datacarpentry.org/organization-geospatial/)
