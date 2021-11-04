@@ -11,4 +11,4 @@ Lab Equipment Maintenance Log (starting in 2019)
 |Covaris                   |Maintenance      | Sept 2021   | Report                                                     |
 |Lab plastic and glassware |Super clean up   | Oct 2021    | [Protocol](https://drk-lo.github.io/lotterhoslabprotocols/)|
 |-80oC freezer             | Defrost         | Oct 2021    | [Protocol](https://drk-lo.github.io/lotterhoslabprotocols/)|
-|-80oC freezer             | Maintenance     | Oct 2021    |                                                            |                      |
+|-80oC freezer             | Maintenance     | Oct 2021    | Report                                                     |
