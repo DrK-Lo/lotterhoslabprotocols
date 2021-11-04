@@ -12,3 +12,6 @@ Lab Equipment Maintenance Log (starting in 2019)
 |Lab plastic and glassware |Super clean up   | Oct 2021    | [Protocol](https://drk-lo.github.io/lotterhoslabprotocols/)|
 |-80oC freezer             | Defrost         | Oct 2021    | [Protocol](https://drk-lo.github.io/lotterhoslabprotocols/)|
 |-80oC freezer             | Maintenance     | Nov 2021    | Report                                                     |
+
+
+https://docs.google.com/spreadsheets/d/15ccPOYk4Ar9Vk12o_mYLKAgQrKXnasfPqhcB4wna9Ek/edit#gid=0
