@@ -1,5 +1,7 @@
 Thais, Sara, and Alan are all leaving the lab in December.
 
+# RCR training
+- [ ] Madeline and Remy need to take this
 
 # BSB transition
 - [ ] Show Remy where the samples are in the freezer
