@@ -27,7 +27,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # Purchasing
 - [ ] Thais and Katie will train Remy in Purchasing
-- [ ] 
+- [ ] Thais will write FedEx protocol
 
 # Data
 - [ ]  alan and Sara should think about data accessibility after graduation
