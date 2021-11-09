@@ -11,15 +11,16 @@ Thais, Sara, and Alan are all leaving the lab in December.
 # Health and Safety
 - [ ] Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
-- [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals
-- [ ] Waste clearing - Thais will train Madeline
+- [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
+- [ ] Waste clearing - Thais will train Madeline, and write protocol
 - [ ] Take Thais off the Group Complaince Liason - contact Emma Gubler
 
 
 # Equipment
 - [ ] Sara - train Remy and Madeline on Core Equipment
 - [ ] Alan - train Remy and Madeline on Core Equipment
-- [ ] Shared lab space - there is no one responsible for tip waste - no one responsible for waste
+- [ ] Shared lab space - there is no one responsible for tip waste - people should bring their own containers
+- [ ] Shared lab space - electrophoresis room - people need to bring their own waste containers - used pipette tips cannot be in an open container - needs to be in a mayo jar with lid and label
 
 # Freezer
 - [ ] Sara and Alan and Thais - train Remy and Madeline on Core Equipment
