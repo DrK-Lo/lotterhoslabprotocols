@@ -19,6 +19,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 # Equipment
 - [ ] Sara - train Remy and Madeline on Core Equipment
 - [ ] Alan - train Remy and Madeline on Core Equipment
+- [ ] Shared lab space - there is no one responsible for tip waste - no one responsible for waste
 
 # Freezer
 - [ ] Sara and Alan and Thais - train Remy and Madeline on Core Equipment
