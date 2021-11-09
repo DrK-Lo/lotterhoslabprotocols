@@ -12,7 +12,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
 - [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
-- [ ] Waste clearing - Thais will train Madeline, and write protocol
+- [ ] Waste clearing - Thais will train Madeline and Remy, and write protocol
 - [ ] Take Thais off the Group Complaince Liason - contact Emma Gubler
 
 
