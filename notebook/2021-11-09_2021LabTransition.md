@@ -13,6 +13,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
 - [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals
 - [ ] Waste clearing - Thais will train Madeline
+- [ ] Take Thais off the Group Complaince Liason - contact Emma Gubler
 
 
 # Equipment
