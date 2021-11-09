@@ -35,6 +35,7 @@ navbar-links:
     - Install and config MVI scope camera: "general_MVI-scope-camera"
     - Create barcoded labels: "general_creating-barcoded-labels"
     - Shipping Hazardous Materials: "general_ShippingHazMat"
+    - Equipment Service: "general_equipment"
   Professional Development:
     - Reducing Cognitive Load: "profdev_ReducingCognitiveLoad"
     - How to publish a paper: "profdev_How-to-publish-a-paper"
