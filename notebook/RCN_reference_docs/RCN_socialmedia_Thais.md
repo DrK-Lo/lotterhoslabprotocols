@@ -1,28 +1,32 @@
-# RCN Social Media (Thais)
+# Research Coordinated Network Evolution in Changing Seas - Social Media (Thais)
 
 ## Links and files you will need:
 
-Guidelines file: SocialMediaEthics_2020update.pdf
+[Guidelines file](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/RCN_reference_docs/SocialMediaEthics_2020update.pdf)
 
-Link to calendar: https://docs.google.com/spreadsheets/d/1UzXrg-bLqkQja8dZQwb1R76C9ps9KIOc3PzjDLz097o/edit#gid=0
+[Link to calendar](https://docs.google.com/spreadsheets/d/1UzXrg-bLqkQja8dZQwb1R76C9ps9KIOc3PzjDLz097o/edit#gid=0)
 
 Twitter handle: @EvolvingSeas
 
-Blog posts on RCN-ECS website: https://rcn-ecs.github.io/blog/
+Blog posts on RCN-ECS [website](https://rcn-ecs.github.io/blog/)
 
-Github to edit website (publish blog posts): https://github.com/RCN-ECS/rcn-ecs.github.io
+[Github to edit website](https://github.com/RCN-ECS/rcn-ecs.github.io) where blog posts are published.
 
-Link to pre-survey to send to participants: https://docs.google.com/forms/d/e/1FAIpQLScvm_unJDLSSkjoEnHF5Vahf0J62lrcbMSD47BHLD1QaUfRmg/viewform
+[Link to pre-survey](https://docs.google.com/forms/d/e/1FAIpQLScvm_unJDLSSkjoEnHF5Vahf0J62lrcbMSD47BHLD1QaUfRmg/viewform) to send to participants.
 
-Link to post-survey to send to participants: https://docs.google.com/forms/d/1lUqkUNBmkVKLtVSfZ_jPCf3Yhzx9TJ_SH8rjdiFVBsw/viewform?edit_requested=true
+[Link to post-survey](https://docs.google.com/forms/d/1lUqkUNBmkVKLtVSfZ_jPCf3Yhzx9TJ_SH8rjdiFVBsw/viewform?edit_requested=true) to send to participants.
 
-Link to pre-survey results: https://docs.google.com/spreadsheets/d/1PZuqwC0mr6qEk-nFM9tRIda-bunPt17ML_8QQ4gFVDo/edit#gid=1699161948
+[Link to pre-survey results](https://docs.google.com/spreadsheets/d/1PZuqwC0mr6qEk-nFM9tRIda-bunPt17ML_8QQ4gFVDo/edit#gid=1699161948)
 
-Link to post-survey results: https://docs.google.com/spreadsheets/d/1ypKqouZn3zTvqQz6O9aabYVzfL4t2tp4HFqm3nxzswY/edit?usp=sharing
+[Link to post-survey results](https://docs.google.com/spreadsheets/d/1ypKqouZn3zTvqQz6O9aabYVzfL4t2tp4HFqm3nxzswY/edit?usp=sharing)
 
-EvolvingSeas Twitter profile picture: [Twitter_profile_pic](https://github.com/thais-neu/RCNblogpost-notepad/blob/master/referencedocs/RCN_winner.png)
+[EvolvingSeas logo & Twitter default profile picture](https://user-images.githubusercontent.com/52291277/141841177-63c8fa9b-70e4-4232-985b-f1082d6d0e62.png)
 
-Other files: [original_guidelines](https://github.com/thais-neu/RCNblogpost-notepad/blob/master/referencedocs/SocialMediaEthics.pdf), [RCN_report_demographics](https://github.com/thais-neu/RCNblogpost-notepad/blob/master/referencedocs/2019-20-RCNSocialMedia-Report.xlsx), [RCN_report_followers](https://github.com/thais-neu/RCNblogpost-notepad/blob/master/referencedocs/2019-20-RCNSocialMedia-Report02.xlsx)
+
+Other files:  
+[OriginalSocialMediaEthics.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541162/SocialMediaEthics.pdf)
+[2019-20-RCNSocialMedia-Report.xlsx](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541169/2019-20-RCNSocialMedia-Report.xlsx)
+[2019-20-RCNSocialMedia-Report2.xlsx](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541170/2019-20-RCNSocialMedia-Report2.xlsx)
 
 ## Spread the word:
 
