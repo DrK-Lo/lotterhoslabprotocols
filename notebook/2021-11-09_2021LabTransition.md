@@ -34,10 +34,12 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # Freezer
 - [ ] Sara and Alan and Thais - train Remy and Madeline on Core Equipment
+    -- [reference lab protocol](https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/)
 
 # Purchasing
-- [ ] Thais and Katie will train Remy in Purchasing
-- [x] Thais will write FedEx protocol 
+- [ ] Thais and Katie will train Remy in Purchasing  
+    -- [purchasing protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/purchasing.md)
+- [x] Thais will write FedEx protocol   
     -- [FedEx protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/fedex_ship.md)
 
 # Data
