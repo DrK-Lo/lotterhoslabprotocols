@@ -33,7 +33,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] Shared lab space - electrophoresis room - people need to bring their own waste containers - used pipette tips cannot be in an open container - needs to be in a mayo jar with lid and label
 
 # Freezer
-- [ ] Sara and Alan and Thais - train Remy and Madeline on Core Equipment
+- [ ] Sara and Alan and Thais - train Remy and Madeline on Core Equipment  
     -- [reference lab protocol](https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/)
 
 # Purchasing
