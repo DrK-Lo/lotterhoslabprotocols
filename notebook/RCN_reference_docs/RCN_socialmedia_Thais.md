@@ -24,8 +24,8 @@ Blog posts on RCN-ECS [website](https://rcn-ecs.github.io/blog/)
 
 
 Other files:  
-[OriginalSocialMediaEthics.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541162/SocialMediaEthics.pdf)
-[2019-20-RCNSocialMedia-Report.xlsx](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541169/2019-20-RCNSocialMedia-Report.xlsx)
+[OriginalSocialMediaEthics.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541162/SocialMediaEthics.pdf)  
+[2019-20-RCNSocialMedia-Report.xlsx](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541169/2019-20-RCNSocialMedia-Report.xlsx)  
 [2019-20-RCNSocialMedia-Report2.xlsx](https://github.com/DrK-Lo/lotterhoslabprotocols/files/7541170/2019-20-RCNSocialMedia-Report2.xlsx)
 
 ## Spread the word:
