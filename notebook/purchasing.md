@@ -17,8 +17,7 @@ To be ahead of the process, make sure you have at least 3 quotes from different 
       - Index to charge from (Ask Katie if not sure), 
       - Account code: 'Scientific Supplies',
       - Click "Send to Approval",
-      - Print that page to a pdf and save it to Orders and Receipts using the format below for file name.
-
+      - Print that page (or the order confirmation you should receive by email) to a pdf and save it to Orders and Receipts using the format below for file name.
 
 **Save orders/invoces to a pdf file and into the folder 'Orders and Receipts' using the following file name:**
 
