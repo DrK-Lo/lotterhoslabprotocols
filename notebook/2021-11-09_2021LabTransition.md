@@ -4,18 +4,25 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] Madeline and Remy need to take this
 
 # BSB transition
-- [ ] Show Remy where the samples are in the freezer
-- [ ] Transition the RADseq pipeline to her
+- [ ] Show Remy where the samples are in the freezer  
+  -- look for samples under "Project - BlackSeabass" in the lab's [freezer database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=0)  
+  -- more [BSB leftover tissue and extracts storage info](https://github.com/thais-neu/BlackSeaBass_project/blob/master/lab_notebook/20201120_DNAextracts_freezerlocation.md)
+- [ ] Transition the RADseq pipeline to her  
+  -- [RADseq data storage and pipeline info](https://github.com/thais-neu/BlackSeaBass_project/tree/master/BSB_ddRAD)  
+  -- Thais' [BSB repo](https://github.com/thais-neu/BlackSeaBass_project)  
+  -- this specific entry has a [list of supplies](https://github.com/thais-neu/BlackSeaBass_project/blob/master/genome_notebook/20210804_fishingtrip.md) purchased in 2021 for the project.
+
 
 # Oyster environment data transition
-- [ ] Thais and Katie will train Madeline in oyster environment data https://github.com/DrK-Lo/EasternOysterEnvData/
+- [ ] Thais and Katie will train Madeline in oyster [environment data](https://github.com/DrK-Lo/EasternOysterEnvData/)  
+  -- additionally, here is the link to the [preliminary RDA analysis we ran using SNP (oyster_reseq) & env data](https://github.com/ModelValidationProgram/OysterAFClinesFullGenome)
 
 # Health and Safety
 - [ ] Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
 - [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
 - [ ] Waste clearing - Thais will train Madeline and Remy, and write protocol
-- [ ] Take Thais off the Group Complaince Liason - contact Emma Gubler
+- [ ] Take Thais off the Group Complaince Liason - contact Emma Gubler (e.gubler@northeastern.edu)
 
 
 # Equipment
