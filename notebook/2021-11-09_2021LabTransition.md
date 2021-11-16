@@ -3,6 +3,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 # RCR training
 - [ ] Madeline and Remy need to take this  
 - [Link to main page](https://research.northeastern.edu/nu-res/compliance/responsible-conduct-of-research/)
+- [Link to instructions](https://research.northeastern.edu/nu-res/training/) 
 
 # RCN stuff
   -- [Thais' notes on RCN social media stuff](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages/notebook/RCN_reference_docs)
@@ -16,6 +17,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
   -- [RADseq data storage and pipeline info](https://github.com/thais-neu/BlackSeaBass_project/tree/master/BSB_ddRAD)  
   -- Thais' [BSB repo](https://github.com/thais-neu/BlackSeaBass_project)  
   -- this specific entry has a [list of supplies](https://github.com/thais-neu/BlackSeaBass_project/blob/master/genome_notebook/20210804_fishingtrip.md) purchased in 2021 for the project.
+  - [ ] KEL add Remy to our list of users on Discovery and give access
 
 
 # Oyster environment data transition
