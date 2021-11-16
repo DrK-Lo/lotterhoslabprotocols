@@ -1,0 +1,33 @@
+## Managing chemical inventory.
+
+Chemicals (including kits) purchased by any lab member, for any purpose, and stored in one of our labs (Edwards bldg and bunker lab) **MUST** be barcoded and added to our chemical inventory which is hosted in the BioRAFT platform. 
+  - this is done at the container/individual kit level (i.e., not at the chemical substance or class level) - for example, if we have 3 bottles of ethanol in the inventory and buy a new one, that individual new bottle must be assigned its own barcode and added to the inventory.
+
+### 1. As soon as a new chemical/kit is delivered to our lab, assign it a barcoded label. You MUST use the barcoded labels provided by Northeastern's EHS. They start with "NU000" followed by a unique ID number.
+
+Always place the label where it is easier to see (i.e., not on the bottom of the container, where you'd have to lift the bottle to find it). I typically place it right above the main label.
+  
+### 2. Add chemical/kit to the lab's chemical inventory.
+  - Go to the lab's BioRAFT page: Lotterhos Lab > Lab Profile
+  - Click on the ChemTracker tab > Add inventory
+  - Search chemical/kit by name, name or CAS number[^1]
+  - Fill out all required fields 
+  - **Unique container ID** is where you enter the unique barcode ID
+  - Click Submit
+
+### 3. Remove items from the inventory when chemicals/kits are used up, expired or disposed of for any reason.
+  - Remove the barcode label and discard it in the trash (i.e., don't stick it to any other surface and **don't reuse it** for another chemical).
+  - Go to the lab's BioRAFT page: Lotterhos Lab > Lab Profile
+  - Click on the ChemTracker tab > Chem Tracker 
+  - At the bottom of the page, scroll right until you find the "Container ID" and the "Remove" columns
+  - Click "Remove" and confirm "Remove" to exclude the entry from the inventory.
+  - Rinse and deface the bottle, then discard or reuse to store chemical waste. 
+      - Discard a defaced bottle: label the bottle using an "empty container" label.
+      - Reuse a defaced bottle: label the bottle with a "empty container" label until you start using it for waste and replace it with a "Chemical Waste Label" once you star using it for waste.
+
+_________________________________
+Go to Chem Tracker (Lotterhos Lab > Lab Profile > ChemTracker tab > ChemTracker) to **View** and/or **Edit** the inventory; you can also export the inventory to an excel spreadsheet if you need to sort or print the full list - this is useful when doing self-inspections and inventory checks.
+
+
+_______________
+[^1]:CAS registry numbers are unique, unmistakable identifiers for chemical substances. A CAS Registry Number itself has no inherent chemical significance but provides an unambiguous way to identify a chemical substance or molecular structure when there are many possible systematic, generic, proprietary or trivial names. CAS Registry Numbers are used in many other public and private databases as well as chemical inventory listings and, of course, are included in all CAS-produced databases.
