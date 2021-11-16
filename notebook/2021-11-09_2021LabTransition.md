@@ -28,6 +28,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # Health and Safety
 - [ ] KEL Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
+  - [ ] Figure out what's going with Remy - training is missing?
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
 - [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
     - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/chemical_inventory.md)
