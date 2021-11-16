@@ -27,6 +27,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
     - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/chemical_inventory.md)
 - [ ] Waste clearing - Thais will train Madeline and Remy, and write protocol
+    - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/waste_clearing.md) 
 - [ ] KEL Take Thais off the Group Complaince Liason - contact Emma Gubler (e.gubler@northeastern.edu)
 
 
