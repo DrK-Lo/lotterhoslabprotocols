@@ -44,6 +44,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
     -- [purchasing protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/purchasing.md)
 - [x] Thais will write FedEx protocol   
     -- [FedEx protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/fedex_ship.md)
+- [ ] TB will update the account with KEL's info
 
 # Data
 - [ ]  alan and Sara should think about data accessibility after graduation
