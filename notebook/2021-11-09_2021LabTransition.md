@@ -2,6 +2,8 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # RCR training
 - [ ] Madeline and Remy need to take this  
+
+# RCN stuff
   -- [Thais' notes on RCN social media stuff](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages/notebook/RCN_reference_docs)
 
 # BSB transition
