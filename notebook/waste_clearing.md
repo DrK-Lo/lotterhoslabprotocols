@@ -3,7 +3,7 @@
 ## Solid waste  
 
 Most solid waste in our lab consists of pipette tips, small tubes (microcentrifuge tubes, cryovials, tube strips) and, less frequently, a larger tube or a plate used with samples/chemical solutions.  
-These used materials are discarded inside waste mayo jars.  
+These used materials are discarded inside waste containers called 'mayo jars'.  
 If your work will be resulting on any solid waste, a mayo jar **BEFORE you start** using the standard [Hazardous Waste Label](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/Haz%20Waste%20labels.pdf) before you start.  
 **NEVER dispose of solid waste inside a unlabelled mayo jar.**
 
