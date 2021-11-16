@@ -5,6 +5,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # RCN stuff
   -- [Thais' notes on RCN social media stuff](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages/notebook/RCN_reference_docs)
+  - [ ] KEL move this to RCN github site (?)
 
 # BSB transition
 - [ ] Show Remy where the samples are in the freezer  
@@ -21,11 +22,11 @@ Thais, Sara, and Alan are all leaving the lab in December.
   -- additionally, here is the link to the [preliminary RDA analysis we ran using SNP (oyster_reseq) & env data](https://github.com/ModelValidationProgram/OysterAFClinesFullGenome)
 
 # Health and Safety
-- [ ] Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
+- [ ] KEL Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
 - [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
 - [ ] Waste clearing - Thais will train Madeline and Remy, and write protocol
-- [ ] Take Thais off the Group Complaince Liason - contact Emma Gubler (e.gubler@northeastern.edu)
+- [ ] KEL Take Thais off the Group Complaince Liason - contact Emma Gubler (e.gubler@northeastern.edu)
 
 
 # Equipment
