@@ -4,6 +4,8 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] Madeline and Remy need to take this  
 - [Link to main page](https://research.northeastern.edu/nu-res/compliance/responsible-conduct-of-research/)
 - [Link to instructions](https://research.northeastern.edu/nu-res/training/) Take the Biomedical RCR 103094
+- [ ] RG put training certificate in [Lotterhos Lab folder](https://drive.google.com/drive/folders/1N9LvYxImWE2LLymTPidXoM3yNlDYbo5T)
+- [ ] ME put training certificate in [Lotterhos Lab folder](https://drive.google.com/drive/folders/1N9LvYxImWE2LLymTPidXoM3yNlDYbo5T)
 
 # RCN stuff
   -- [Thais' notes on RCN social media stuff](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages/notebook/RCN_reference_docs)
