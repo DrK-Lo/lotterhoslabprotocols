@@ -25,6 +25,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] KEL Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
 - [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
+    - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/chemical_inventory.md)
 - [ ] Waste clearing - Thais will train Madeline and Remy, and write protocol
 - [ ] KEL Take Thais off the Group Complaince Liason - contact Emma Gubler (e.gubler@northeastern.edu)
 
@@ -42,8 +43,10 @@ Thais, Sara, and Alan are all leaving the lab in December.
 # Purchasing
 - [ ] Thais and Katie will train Remy in Purchasing  
     -- [purchasing protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/purchasing.md)
+    - [ ] KEL move to protocols
 - [x] Thais will write FedEx protocol   
     -- [FedEx protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/fedex_ship.md)
+    - [ ] KEL move to protocols
 - [ ] TB will update the account with KEL's info
 
 # Data
