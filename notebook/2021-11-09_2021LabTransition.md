@@ -3,7 +3,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 # RCR training
 - [ ] Madeline and Remy need to take this  
 - [Link to main page](https://research.northeastern.edu/nu-res/compliance/responsible-conduct-of-research/)
-- [Link to instructions](https://research.northeastern.edu/nu-res/training/) 
+- [Link to instructions](https://research.northeastern.edu/nu-res/training/) Take the Biomedical RCR 103094
 
 # RCN stuff
   -- [Thais' notes on RCN social media stuff](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages/notebook/RCN_reference_docs)
