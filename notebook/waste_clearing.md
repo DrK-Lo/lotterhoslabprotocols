@@ -4,7 +4,7 @@
 
 Most solid waste in our lab consists of pipette tips, small tubes (microcentrifuge tubes, cryovials, tube strips) and, less frequently, a larger tube or a plate used with samples/chemical solutions.  
 These used materials are discarded inside waste containers called 'mayo jars'.  
-If your work will be resulting on any solid waste, a mayo jar **BEFORE you start** using the standard [Hazardous Waste Label](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/Haz%20Waste%20labels.pdf) before you start.  
+If you are going to generate any solid waste, **label a mayo jar BEFORE you start** using the standard [Hazardous Waste Label](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/Haz%20Waste%20labels.pdf).  
 **NEVER dispose of solid waste inside a unlabelled mayo jar.**
 
 **Sharps**: we also use disposable razor blades frequently when dicing up animal tissue for extractions; all used razor blades MUST be disposed of inside the RED sharps containters in our lab; close the containers' lid when done for the day. Sharps containers are typically not labelled with the Haz Waste Label.
