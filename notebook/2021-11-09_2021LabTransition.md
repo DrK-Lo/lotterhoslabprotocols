@@ -48,7 +48,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 # Freezer
 - [ ] Sara and Alan and Thais - train Remy and Madeline on Core Equipment  
     -- [reference lab protocol](https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/)
-    -- [freezer map](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages)
+    
 
 # Purchasing
 - [ ] Thais and Katie will train Remy in Purchasing  
