@@ -41,12 +41,17 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # Equipment
 - [ ] Sara - train Remy and Madeline on Core Equipment
+  - [ ] Sonicator
+  - [ ] qPCR in Bowen Lab
+  - [ ] Tapestation
 - [ ] Alan - train Remy and Madeline on Core Equipment
+  - [ ] Plate reader
+- [ ] Thais will give Remy and Madeline a tour of the gel doc
 - [ ] Shared lab space - there is no one responsible for tip waste - people should bring their own containers
 - [ ] Shared lab space - electrophoresis room - people need to bring their own waste containers - used pipette tips cannot be in an open container - needs to be in a mayo jar with lid and label
 
 # Freezer
-- [ ] Sara and Alan and Thais - train Remy and Madeline on Core Equipment  
+- [x]  Thais - train Remy and Madeline on freezer
     -- [reference lab protocol](https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/)  
     -- [freezer map](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/minus80_scheme.png)
     
@@ -62,11 +67,12 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # Data
 - [ ]  alan and Sara should think about data accessibility after graduation
+- [ ]  back up on hard drives
 - [ ]  Lotterhos lab on Discovery - permissions and folders - KATIE
 
 # Protocols
 - [ ] Take3 / Pico Green / plate reader better explanation - Sara
-- [ ] Illumina Library Prep - Sara is working on
+- [x] Illumina Library Prep - Sara is working on
 - [ ] Shared Lab Space - broken links - KATIE
 - [ ] Covaris - Sara will check 
 
