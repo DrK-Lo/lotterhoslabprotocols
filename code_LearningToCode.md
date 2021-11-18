@@ -52,11 +52,13 @@ might vary a bit among platforms.
 
 1. On a mac, I recommend downloading [Anaconda](https://www.anaconda.com/). I don't know about running python on a PC.
 
-2. This is a great resource for learning python, but the courses are not free: (https://pythonforbiologists.com/)[https://pythonforbiologists.com/]
+2. This free python textbook is the best https://python-textbok.readthedocs.io/en/1.0/Python_Basics.html
+
+3. This is a great resource for learning python, but the courses are not free: (https://pythonforbiologists.com/)[https://pythonforbiologists.com/]
 	* In the menu, under training courses, there is a lot of options
 	* I bought the book "Introduction to Python for Biologists" and went through it myself
 	
-3. I don't know of a great free resource for learning python. Here are some [resources I have yet to vet](https://wiki.python.org/moin/BeginnersGuide/Programmers)
+4.  Here are some [resources I have yet to vet](https://wiki.python.org/moin/BeginnersGuide/Programmers)
 	
 # Learning Bioinformatics
 
