@@ -73,7 +73,6 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # 2021-11-18 Thais & Madeline Lab Transition Meeting
 
-## 2021-11-18 Thais & Madeline Lab Transition Meeting:  
 
 - [x] [Oyster Environmental Data](https://github.com/ModelValidationProgram/EasternOysterEnvData/tree/master/final_site_env)  
 
