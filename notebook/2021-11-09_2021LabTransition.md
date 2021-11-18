@@ -12,10 +12,10 @@ Thais, Sara, and Alan are all leaving the lab in December.
   - [ ] KEL move this to RCN github site (?)
 
 # BSB transition
-- [ ] Show Remy where the samples are in the freezer  
+- [x] Show Remy where the samples are in the freezer  
   -- look for samples under "Project - BlackSeabass" in the lab's [freezer database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=0)  
   -- more [BSB leftover tissue and extracts storage info](https://github.com/thais-neu/BlackSeaBass_project/blob/master/lab_notebook/20201120_DNAextracts_freezerlocation.md)
-- [ ] Transition the RADseq pipeline to her  
+- [x] Transition the RADseq pipeline to her  
   -- [RADseq data storage and pipeline info](https://github.com/thais-neu/BlackSeaBass_project/tree/master/BSB_ddRAD)  
   -- Thais' [BSB repo](https://github.com/thais-neu/BlackSeaBass_project)  
   -- this specific entry has a [list of supplies](https://github.com/thais-neu/BlackSeaBass_project/blob/master/genome_notebook/20210804_fishingtrip.md) purchased in 2021 for the project.
