@@ -139,6 +139,8 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # 2021-11-18 Thais & Remy Lab Transition Meeting
 
+- [x] Black SeaBass RADseq data
+
 - [x] Freezer  
 * show Remy where BSB samples are in the freezer.
 * [freezer database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=1360256868)
@@ -162,6 +164,18 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 [purchase[(https://github.com/thais-neu/Thais_lab_protocols/blob/master/lab_purchasing.md)
 [fedex](https://github.com/thais-neu/Thais_lab_protocols/blob/master/fedex_ship.md)
+
+
+
+# 2021-11-24 - Haz Waste question marks
+
+
+![samples_bywindow](https://user-images.githubusercontent.com/52291277/143311311-f4b4d2d0-948e-422b-b83f-6dbf3dfab04c.jpg)
+![tissue_cassette](https://user-images.githubusercontent.com/52291277/143311312-087f270e-1137-48e3-8ee1-c8e211f0e2ff.jpg)
+![unlabelled_mayo](https://user-images.githubusercontent.com/52291277/143311325-ee68e79a-f3bc-445b-8db2-ebb6fdf52649.jpg)
+![beaker](https://user-images.githubusercontent.com/52291277/143311340-12d0eeff-a403-4926-b06b-7c10362d60f8.jpg)
+![mayo_waste](https://user-images.githubusercontent.com/52291277/143311354-103033fd-8a80-4601-9f11-68c0f362f31c.jpg)
+![samples_bysink](https://user-images.githubusercontent.com/52291277/143311362-a6cdb500-9ed5-4d33-86b8-8a3e9cb9e909.jpg)
 
 
 
