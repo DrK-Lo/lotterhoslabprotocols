@@ -24,6 +24,8 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # Oyster environment data transition
 - [ ] Thais and Katie will train Madeline in oyster [environment data](https://github.com/DrK-Lo/EasternOysterEnvData/)  
+  - [x] Thais & Madeline went over the data
+  - [ ] Thais, Madeline & Katie want to go over one more time?  
   -- additionally, here is the link to the [preliminary RDA analysis we ran using SNP (oyster_reseq) & env data](https://github.com/ModelValidationProgram/OysterAFClinesFullGenome)
 
 # Health and Safety
