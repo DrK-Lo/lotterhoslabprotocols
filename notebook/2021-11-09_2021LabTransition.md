@@ -137,7 +137,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 [Manage Lab Haz Waste](https://github.com/thais-neu/Thais_lab_protocols/blob/master/waste_clearing.md)
 
-
+- [x] Purchasing
 
 
 # 2021-11-18 Thais & Remy Lab Transition Meeting
