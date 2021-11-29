@@ -30,10 +30,11 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [ ] KEL Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
   - [ ] Remy has training to complete
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
-- [ ] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
+  - [x] lab door sign (bioraft) updated - has Katie, Remy & Ryan Hill
+- [x] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
     - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/chemical_inventory.md)
     - [ ] Madeline in Charge
-- [ ] Waste clearing - Thais will train Madeline and Remy, and write protocol
+- [x] Waste clearing - Thais will train Madeline and Remy, and write protocol
     - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/waste_clearing.md) 
     - [ ] Remy in Charge
 - [ ] KEL Take Thais off the Group Complaince Liason - contact Emma Gubler (e.gubler@northeastern.edu)
@@ -57,13 +58,13 @@ Thais, Sara, and Alan are all leaving the lab in December.
     
 
 # Purchasing
-- [ ] Thais and Katie will train Remy in Purchasing  
+- [x] Thais and Katie will train Remy in Purchasing  
     -- [purchasing protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/purchasing.md)
     - [ ] KEL move to protocols
 - [x] Thais will write FedEx protocol   
     -- [FedEx protocol](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/fedex_ship.md)
     - [ ] KEL move to protocols
-- [ ] TB will update the account with KEL's info
+- [x] TB will update the account with KEL's info
 
 # Data
 - [ ]  alan and Sara should think about data accessibility after graduation
@@ -126,11 +127,11 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 * alarm & maintenance [reference lab protocol](https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/) 
 
-- [ ] Training Chemicals
+- [x] Training Chemicals
 
 [Manage Chemical Inventory](https://github.com/thais-neu/Thais_lab_protocols/blob/master/incoming_chemicals.md)
 
-- [ ] Training Waste
+- [x] Training Waste
 
 [Manage Lab Haz Waste](https://github.com/thais-neu/Thais_lab_protocols/blob/master/waste_clearing.md)
 
