@@ -49,9 +49,9 @@ Thais, Sara, and Alan are all leaving the lab in December.
   - [ ] Tapestation
 - [ ] Alan - train Remy and Madeline on Core Equipment
   - [ ] Plate reader
-- [ ] Thais will give Remy and Madeline a tour of the gel doc
+- [x] Thais will give Remy and Madeline a tour of the gel doc
   - [x] Madeline
-  - [ ] Remy
+  - [x] Remy
 - [ ] Shared lab space - there is no one responsible for tip waste - people should bring their own containers
 - [ ] Shared lab space - electrophoresis room - people need to bring their own waste containers - used pipette tips cannot be in an open container - needs to be in a mayo jar with lid and label
 
