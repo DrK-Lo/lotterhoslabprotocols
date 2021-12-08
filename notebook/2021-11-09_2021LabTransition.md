@@ -167,7 +167,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 - [x] Purchasing, Shipping
 
-[purchase[(https://github.com/thais-neu/Thais_lab_protocols/blob/master/lab_purchasing.md)
+[purchase](https://github.com/thais-neu/Thais_lab_protocols/blob/master/lab_purchasing.md)  
 [fedex](https://github.com/thais-neu/Thais_lab_protocols/blob/master/fedex_ship.md)
 
 
