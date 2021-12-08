@@ -19,7 +19,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
   -- [RADseq data storage and pipeline info](https://github.com/thais-neu/BlackSeaBass_project/tree/master/BSB_ddRAD)  
   -- Thais' [BSB repo](https://github.com/thais-neu/BlackSeaBass_project)  
   -- this specific entry has a [list of supplies](https://github.com/thais-neu/BlackSeaBass_project/blob/master/genome_notebook/20210804_fishingtrip.md) purchased in 2021 for the project.
-  - [ ] KEL add Remy to our list of users on Discovery and give access
+  - [x] KEL add Remy to our list of users on Discovery and give access
 
 
 # Oyster environment data transition
@@ -29,7 +29,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
 
 # Health and Safety
 - [ ] KEL Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
-  - [ ] Remy has training to complete
+  - [x] Remy has training to complete
 - [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
   - [x] lab door sign (bioraft) updated - has Katie, Remy & Ryan Hill
 - [x] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
@@ -51,8 +51,8 @@ Thais, Sara, and Alan are all leaving the lab in December.
 - [x] Thais will give Remy and Madeline a tour of the gel doc
   - [x] Madeline
   - [x] Remy
-- [ ] Shared lab space - there is no one responsible for tip waste - people should bring their own containers
-- [ ] Shared lab space - electrophoresis room - people need to bring their own waste containers - used pipette tips cannot be in an open container - needs to be in a mayo jar with lid and label
+- [x] Shared lab space - there is no one responsible for tip waste - people should bring their own containers
+- [x] Shared lab space - electrophoresis room - people need to bring their own waste containers - used pipette tips cannot be in an open container - needs to be in a mayo jar with lid and label
 
 # Freezer
 - [x]  Thais - train Remy and Madeline on freezer
