@@ -33,7 +33,7 @@ Thais, Sara, and Alan are all leaving the lab in December.
   - [x] Sara taken out of Bioraft (Thais)
 - [x] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
   - [x] lab door sign (bioraft) updated - has Katie, Remy & Ryan Hill
-  - [ ] Remy & Madeline added to freezer call tree
+  - [x] Remy & Madeline added to freezer call tree
 - [x] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
     - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/chemical_inventory.md)
     - [ ] Madeline in Charge
