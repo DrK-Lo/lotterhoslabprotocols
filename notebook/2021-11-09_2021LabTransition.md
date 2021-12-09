@@ -28,10 +28,12 @@ Thais, Sara, and Alan are all leaving the lab in December.
   -- additionally, here is the link to the [preliminary RDA analysis we ran using SNP (oyster_reseq) & env data](https://github.com/ModelValidationProgram/OysterAFClinesFullGenome)
 
 # Health and Safety
-- [ ] KEL Take Thais off the lab's EHS site - Bioraft profile - Katie to Do
+- [ ] KEL Take Thais (and Alan) off the lab's EHS site - Bioraft profile - Katie to Do
   - [x] Remy has training to complete
-- [ ] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
+  - [x] Sara taken out of Bioraft (Thais)
+- [x] Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring
   - [x] lab door sign (bioraft) updated - has Katie, Remy & Ryan Hill
+  - [ ] Remy & Madeline added to freezer call tree
 - [x] Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol
     - [ ] KEL move to protocols [link](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/chemical_inventory.md)
     - [ ] Madeline in Charge
