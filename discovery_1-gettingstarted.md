@@ -89,8 +89,7 @@ To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, an
 
 There is 5GB of memory on each core, with 36 cores/node and 72 cores total across both. So it should be possible to submit an array with 140 jobs at a time, each with 2.5 GB memory, but I haven't tried it yet.
 
-
-
+If you are on campus, or offcampus using NU's VPN, you can use this webpage to view resources: https://xdmod.rc.northeastern.edu/
 
 ## Troubleshooting and trying code
 To develop code and troubleshoot, there is a `debug` partition. You can also use the `lotterhos` partition.
