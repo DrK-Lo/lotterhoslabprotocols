@@ -184,5 +184,5 @@ Thais, Sara, and Alan are all leaving the lab in December.
 ![samples_bysink](https://user-images.githubusercontent.com/52291277/143311362-a6cdb500-9ed5-4d33-86b8-8a3e9cb9e909.jpg)
 
 
-
+Alan - update protocol for pico meth kit with custom primers https://github.com/epigeneticstoocean/2018OAExp_larvae/blob/master/protocols/libraryPrep.md
 
