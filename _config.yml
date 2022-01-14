@@ -41,6 +41,7 @@ navbar-links:
     - How to publish a paper: "profdev_How-to-publish-a-paper"
     - General resources: "profdev"
     - Design: "profdev_design"
+    - Courses: "profdev_courses"
   Molecular Protocols: 
     - Shared equipment: "https://numsc-corefacility.github.io/sharedLabSpace/"
     - Solution Recipes: "molecprot_solutionrecipes"
