@@ -10,7 +10,9 @@ Your logins are first initial, last name/names. All lowercase with no spaces or 
 
 [phone alarm handling instructions](img/PhoneAlarmHandlingInstructionsCentronNUcontactDennisTodd.pdf)
 
-Your pin codes to acknowledge alarms received on your phone is described below.
+Your pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers
+
+Add the alarm phone to your list of contacts: the phone number that would be calling is Node 2 Phone 16176081423
 
 When you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)
 
