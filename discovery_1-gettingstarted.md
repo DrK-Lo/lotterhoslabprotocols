@@ -83,10 +83,14 @@ Our nodes are d3037 and d3038. Please communicate with Dr. L about your project 
 
 To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, and `lscpu #####` to get info on the CPUs for that node.
 
-
-`scontrol show partition lotterhos` shows what we can do. There are no limits on job submissions, the default time is 7 days with a max of 30 days.
+`scontrol show partition lotterhos` shows what we can do. There are no limits on job submissions, the default time is 7 days with a max of 30 days. When you type the code, you can see MaxTime=30-00:00:00
 
 `squeue -p lotterhos` shows what is current running. You definitely want to check this before you try to `srun` (see below) or submit jobs!
+
+There is 5GB of memory on each core, with 36 cores/node and 72 cores total across both. So it should be possible to submit an array with 140 jobs at a time, each with 2.5 GB memory, but I haven't tried it yet.
+
+
+
 
 ## Troubleshooting and trying code
 To develop code and troubleshoot, there is a `debug` partition. You can also use the `lotterhos` partition.
