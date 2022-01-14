@@ -50,13 +50,24 @@ This seemed to work
 Example:
 ```
 mkdir BlackSeaBass                  # make the folder
-chgrp lotterhos-BSB BlackSeaBass    # change the group on the directory
-chmod 775                           # give group permissions to the directory
+chgrp -R lotterhos-bsb 2020_NOAA_BlackSeaBass_ddRADb    # change the group on the directory. I forget what the -R does
+chmod -R 775 2020_NOAA_BlackSeaBass_ddRADb            # give group permissions to the directory
+ls -la 2020_NOAA_BlackSeaBass_ddRADb # check permissions
 ```
 
 * Groups
  * `lotterhos` - all Lotterhos Lab members
- * `lotterhos-BSB` - access to Black Sea Bass project
+ * `lotterhos-bsb` - access to Black Sea Bass project
+ * `lotterhos-cod`
+ * Groups are created by research computing
+
+Find the groups of a user: `groups tbittar` will give the groups for user tbittar
+
+Find the users in a group: `users lotterhos-bsb lotterhos` will give the users for group `lotterhos-bsb` and group `lotterhos`
+
+`usermod -a -G groupname username` I forget what this does
+
+Sometimes I have still had trouble making the code work on existing directories, but it can work if you copy the directory to a new one
 
 
 ### GitHub Enterprise
