@@ -13,3 +13,9 @@ make sure to [follow the instructions here](https://service.northeastern.edu/ogs
 **Templates**
 
 [A Keynote color/font template for presentations and posters](https://github.com/DrK-Lo/lotterhoslabprotocols/raw/gh-pages/ClassicPresentationTheme.key)
+
+**A ggtheme for graphs with white backgrounds and dark grey lines**
+
+```
+ggtheme <- theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), panel.background = element_blank(), panel.border=element_blank(), axis.line = element_line(colour=“grey30”), axis.title = element_text(colour=“grey20”), axis.text = (element_text(colour=“grey30”)), legend.title = element_text(colour=“grey20”), legend.text = element_text(colour=“grey30”))
+```
