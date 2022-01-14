@@ -41,6 +41,11 @@ program input-$SLURM_ARRAY_TASK_ID output-$SLURM_ARRAY_TASK_ID
 ```
 This setup will run the program on a specific input file based on the $SLURM_ARRAY_TASK_ID  value (input-1,input-2,…,input-10) and will output the results to output file named based on the value of $SLURM_ARRAY_TASK_ID  (output-1,output-2,…,output-10).
 
+There is a hard limit of an array size of 1000 that research computing cannot increase.
+
+In addition, this kind of code will not work: `#SBATCH —array=1001-1951%68`  because the array index goes over 1000 (Even though the number of jobs in the array is less than 1000). So if you have more than 1000 simulations, I don't recommend the array approach. 
+
+
 # Parallelizing your R script
 
 *c. Parallelizing your R script:* You can also leverage the entire 36 cores on each on the lotterhos nodes in a single job by using a threading parallelization scheme. Specifically, you can use the parallel processing R libraries such as “foreach” to increase the efficiency of your loops. You can then parallelize specific chunks of your code (mainly, loops) by importing the parallel libraries. For example, if your r code is this:
