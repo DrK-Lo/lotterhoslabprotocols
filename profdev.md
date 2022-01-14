@@ -46,6 +46,8 @@
 ## Lotterhos Lab notebook discussion
 * [Lotterhos Lab notebook discussion](https://drive.google.com/file/d/1HIVVvMbaF8XW0Jxyh708EYBTegkneJ_C/view?usp=sharing)
 
+## How to write about mixed models
+* [How to write about mixed models](https://docs.google.com/document/d/1jQZkbZbZuWnElYmLUntg5qgh1NG2-yAbsT3zzvmbkZ0/edit#heading=h.btb80w3ha1pf)
 
 ## Anxiety
 We all suffer from anxiety sometimes.
