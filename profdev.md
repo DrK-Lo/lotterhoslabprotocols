@@ -15,30 +15,6 @@
 ## Microaggresion
 * [Recognizing and addressing microaggression](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/Recognizing%20and%20Addressing%20Microaggressions%20Takewaways%202021.pdf)
 
-## Anxiety
-We all suffer from anxiety sometimes.
-* NU resources for confidential support and guidance for students can be found through:
-  * [University Health and Counseling Services](https://www.northeastern.edu/uhcs/)
-  * [The Northeastern Center for Spirituality, Dialogue, and Service](https://www.northeastern.edu/spirituallife/)
-  * [the Office of Prevention and Education at Northeastern (OPEN)](https://studentlife.northeastern.edu/open/)
-  * [Office of Institutional Diversity and Inclusion](https://provost.northeastern.edu/oidi/)
-  * Northeastern has added Find@Northeastern, which is a 24/7 mental health consulting line and can be reached at 1-877-223-9477
-  * In addition, there are graduate student support groups
-  
-* NU resources for staff
-  * To do, but also good benefits here and free services
-
-* _Anxiety relief for kids_ has techniques designed for kids, but I found really helpful in my own life
-* This webpage has a good overview of [cognitive distortions](https://positivepsychology.com/cognitive-distortions/) that we all suffer from
-
-### Nutrition and anxiety
-One time I had severe fatigue. My doctor did a vitamin panel and it turned out to be a vitamin D deficiency.
-* [Understanding nutrition, depression and mental illnesses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738337/)
-* [Could a vitamin or mineral deficiency be behind your fatigue?](https://www.health.harvard.edu/mind-and-mood/could-a-vitamin-or-mineral-deficiency-be-behind-your-fatigue)
-* [A review of vitamins and minerals for energy, fatigue, and cognition](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7019700/)
-* [Effect of vitamin D3 on self-perceived fatigue](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5207540/)
-* [Types of nutritional deficiencies you can be tested for by your doctor](https://www.myonemedicalsource.com/2020/06/18/nutritional-testing/)
-
 ## Reviewing manuscripts and writing rejections
 * [Lab discussion 2020](https://docs.google.com/document/d/1BGYn66Q0mkXOwL5S_woHOLh7__dTHQzQDxRc5EnKLNw/edit#)
 
@@ -69,6 +45,42 @@ One time I had severe fatigue. My doctor did a vitamin panel and it turned out t
 
 ## Lotterhos Lab notebook discussion
 * [Lotterhos Lab notebook discussion](https://drive.google.com/file/d/1HIVVvMbaF8XW0Jxyh708EYBTegkneJ_C/view?usp=sharing)
+
+
+## Anxiety
+We all suffer from anxiety sometimes.
+* NU resources for confidential support and guidance for students can be found through:
+  * [University Health and Counseling Services](https://www.northeastern.edu/uhcs/)
+  * [The Northeastern Center for Spirituality, Dialogue, and Service](https://www.northeastern.edu/spirituallife/)
+  * [the Office of Prevention and Education at Northeastern (OPEN)](https://studentlife.northeastern.edu/open/)
+  * [Office of Institutional Diversity and Inclusion](https://provost.northeastern.edu/oidi/)
+  * Northeastern has added Find@Northeastern, which is a 24/7 mental health consulting line and can be reached at 1-877-223-9477
+  * In addition, there are graduate student support groups
+  
+* NU resources for staff
+  * To do, but also good benefits here and free services
+
+* _Anxiety relief for kids_ has techniques designed for kids, but I found really helpful in my own life
+* This webpage has a good overview of [cognitive distortions](https://positivepsychology.com/cognitive-distortions/) that we all suffer from
+
+### Nutrition and anxiety
+One time I had severe fatigue. My doctor did a vitamin panel and it turned out to be a vitamin D deficiency.
+* [Understanding nutrition, depression and mental illnesses](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738337/)
+* [Could a vitamin or mineral deficiency be behind your fatigue?](https://www.health.harvard.edu/mind-and-mood/could-a-vitamin-or-mineral-deficiency-be-behind-your-fatigue)
+* [A review of vitamins and minerals for energy, fatigue, and cognition](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7019700/)
+* [Effect of vitamin D3 on self-perceived fatigue](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5207540/)
+* [Types of nutritional deficiencies you can be tested for by your doctor](https://www.myonemedicalsource.com/2020/06/18/nutritional-testing/)
+
+### Climate grief and Earth optimism
+* https://www.climateandmind.org/
+* https://earthoptimism.si.edu/resources/educational-resources/
+* Here’s a faculty resource from American Sociological Association on dealing emotional reactions to climate grief: https://cpb-us-e1.wpmucdn.com/sites.ucsc.edu/dist/1/1169/files/2021/06/When-students-have-powerful-reactions.pdf
+
+## Conflicts of interest
+* [Flawed MPA science retracted](https://sustainablefisheries-uw.org/flawed-mpa-science-retracted/)
+
+## Antiracism
+* [Anti-racist interventions to transform ecology, evolution and conservation biology departments](https://www.nature.com/articles/s41559-021-01522-z)
 
 ## Lab meeting recordings
 
