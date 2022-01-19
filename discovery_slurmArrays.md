@@ -62,9 +62,9 @@ Here is an example of an array that runs 72 jobs at a time, each job runs on one
 #SBATCH --mem=5GB
 #SBATCH --nodes=1
 #SBATCH --cpus-per-task=1
-#SBATCH --array=2-1000%72
+#SBATCH --array=2-1000%70
 ```
-1000 is the upper limit that can be requested by the "array" command.
+1000 is the upper limit that can be requested by the "array" command. It's also good to keep the total number of jobs submitted at a time capped at 70, so that a couple of cores are left open for `srun`
 
 
 Below is an example of a job that calls a program that can use multiple cpus. If 32 cpus are requested, then 32 cpus * 5GB/cpu = 160GB can be also requested for memory. Unless the program is able to cross-talk among nodes (most do not have the architecture to do that), then nodes should always be set to 1. y
