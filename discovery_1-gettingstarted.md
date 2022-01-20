@@ -1,9 +1,11 @@
 # Connecting to the Discovery cluster
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/discovery_1-gettingstarted.md)
+
 Intro to Discovery (how to set up and run SLURM jobs ) tutorial video:
 https://rc.northeastern.edu/support/training/
 
-* Discovery account. Apply by opening a Service-Now ticket with an access request (https://rc.northeastern.edu/support/contact/).
+* Discovery account. Apply by opening a Service-Now ticket with an access request at https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket
 
 * Login by typing e.g. `ssh lotterhos@login.discovery.neu.edu`, but use your own username
 
