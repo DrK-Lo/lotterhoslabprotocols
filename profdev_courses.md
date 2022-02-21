@@ -46,6 +46,6 @@ Offers an overview of traditional and modern statistical methods used to analyze
 
 ## Evolution
 #### BIOL5585: Advanced Evolution
-* Syllabus: 
+* Syllabus: <img width="619" alt="Screen Shot 2022-02-21 at 1 05 51 AM" src="https://user-images.githubusercontent.com/90652097/154898463-499bc650-eee4-4d5d-8007-b00c4b6c9b4d.png">
 
 Discusses history of evolutionary theory and lines of evidence. Emphasis is on mechanisms of speciation. Introduces and discusses current evolutionary topics.
