@@ -38,7 +38,7 @@ Machine learning is a fast-pacing and exciting field achieving human-level perfo
 
 ## Biostatistics 
 #### ENVR6500: Biostatistics
-* Syllabus: 
+<img width="741" alt="Screen Shot 2022-02-21 at 1 15 30 AM" src="https://user-images.githubusercontent.com/90652097/154899480-d6e17a72-8f9e-4b3f-9021-acd63b098de5.png">
 
 Offers an overview of traditional and modern statistical methods used to analyze biological data using the free and open-source R programming environment. Lectures describe core statistical approaches and discuss their suitability for understanding patterns that arise at different levels of biological organization, from cellular processes to whole ecosystems. Supervised lab sessions offer students an opportunity to develop the R programming skills required to analyze the complex datasets that often emerge when addressing cutting-edge questions in biology. Topics include basic probability and sampling theory, experimental design, null hypothesis significance testing, t-tests and ANOVA, correlation and regression, likelihood, model selection, and information theory.
  
