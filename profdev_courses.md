@@ -5,7 +5,7 @@ I think taking 6308 + 6200 would be the best for new students, and if you had to
 has much more comp sci theory/programming in it, and for someone who has never seen a fastq or bam file.. it might be a steeper learning curve. 
 
 #### BINF6200: Bioinformatics Programming
-* Syllabus: 
+<img width="848" alt="Screen Shot 2022-02-21 at 1 19 30 AM" src="https://user-images.githubusercontent.com/90652097/154899888-1b33bd9c-eb73-4c15-9597-c6ce8ce5b238.png">
 
 Focuses on the fundamental programming skills required in the bioinformatics industry. Focuses on Python and R as the main programming language used. Topics include string operations, file manipulation, regular expressions, object-oriented programming, data structures, testing, program design, and implementation. Includes substantial out-of-classroom assignments.
 
