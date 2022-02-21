@@ -11,7 +11,7 @@ Focuses on the fundamental programming skills required in the bioinformatics ind
 
 
 #### BINF6308: Bioinformatics Computational Methods I
-* Syllabus:
+<img width="842" alt="Screen Shot 2022-02-21 at 1 13 52 AM" src="https://user-images.githubusercontent.com/90652097/154899281-621d969b-bc95-4d7a-80dc-5339be17a4ad.png">
 
 Offers the first semester of a two-semester sequence on the use of computers in bioinformatics research. Offers students an opportunity to work with current methods and computational algorithms used in contemporary sequence analysis. Teaches practical skills necessary to manage and mine the vast biological information being generated and housed in public databases. Emphasizes the use of Python as the primary computer language and requires students to learn and understand basic computer logic and syntax, including an introduction to scalars, arrays, hashes, decision statements, loops, subroutines, references, and regular expressions. A focus on fundamental skills, including the command line interface found in the Linux operating system, is designed to prepare students for second-semester applications.
 
