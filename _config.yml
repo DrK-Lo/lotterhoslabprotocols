@@ -88,6 +88,7 @@ navbar-links:
     - Parallelization: "discovery_5-parallelization"
     - Optimization: "discovery_6-optimization"
     - Example scripts: "discovery_4-examples"
+    - VS Code and PyCharm: "discovery_integrated-development-environment"
     - Non-NU on Discovery: "discovery_nonNEUpersonnel"
     - Using Arrays for parallelization: "discovery_slurmArrays"
 
