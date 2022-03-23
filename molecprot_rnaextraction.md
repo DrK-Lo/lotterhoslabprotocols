@@ -24,6 +24,21 @@ subtitle: The protocol for extracting RNA from tissue samples
 * More general RNA tips can be found [here](https://www.thermofisher.com/us/en/home/references/ambion-tech-support/nuclease-enzymes/general-articles/working-with-rna.html) and [here](https://www.thermofisher.com/us/en/home/references/ambion-tech-support/rna-isolation/general-articles/the-basics-rna-isolation.html)
 * **Extractions need to be performed in the chemical hood**
 
+### Homogenize tissue sample with TissueRuptor
+
+The Tissue Ruptor uses disposable probes that can be sterilized and re-used.
+
+To sterilize probes in the Autoclave:
+	- place probes in a large beaker and cover with aluminum and autoclave tape
+	- autoclave at 120°C for 30 min (20 min to reach temperature + 15 min at 120°C)
+**Note** TissueRuptor Probes may be cleaned /sterilized up to 5 times (15 min at 120°C) or until visible signs of wear are seen
+
+Steps to homogenize:
+1. Clean 
+2. Get each tissue out of the freezer and keep on ice. We will do one tissue at a time.
+3. 
+
+
 
 ## Protocol for TRI Reagent RNA Isolation
 
