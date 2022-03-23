@@ -12,7 +12,8 @@ An autoclave chamber is used to sterilize laboratory equipment, including liquid
 * Pipette tip boxes
 
 # Tips before starting
-* Review or take the autoclave training on the Northeastern Environmental Health and Safety [website](https://www.northeastern.edu/ehs/training/online-training/#5). 
+* Review or take the autoclave training on the Northeastern Environmental Health and Safety [website](https://northeastern.bioraft.com/node/1895187). 
+* It is mandatory to scheudle a 20 minute in-person training with Rosie Falco Poulin (r.falco@northeastern.edu) at the MSC to follow up on the online course. 
 * Always unscrew jars or vials as the high pressure may cause them to explode if tightened.
 
 # Protocol
