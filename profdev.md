@@ -93,4 +93,10 @@ Please ask Katie for the password to view
 * [Aug 24 2021 Discussion of Price Equation (first half of Chap 6 of Rices' Evolutionary Theory](https://northeastern.zoom.us/rec/share/9JS5ZfB-eySzp6VqK24pHh4bNft2uPhd8wLx3b7J2ycq1IQd4hxxt8bvcXs8WfJs.3dgAcoKa9fQZArZR)
 * [Aug 31 2021 Data Viz discussion from the NU specialist](https://northeastern.zoom.us/rec/share/L4GY5DKi6XCi1nf8_RxkzyGyu6NAojZd4nsNsL1WpxiEfNp5qe_PHd5An9ngPANS.49r97rNHCjo5PNSH)
 
-
+## Northeastern Travel and Conference Funding for PhDs
+* [MSC Department-Level Funding Application](https://drive.google.com/file/d/1Lb_1kdAgfSQqCOqkyCWnVshKLY8Y7MHT/view?usp=sharing)
+The MSC grants up to $300 once per academic year. Intended to supplement advisor funding. Apply at least 30 days before conference.
+* [College of Science Funding Application](https://forms.office.com/pages/responsepage.aspx?id=gcLuqKOqrk2sm5o5i5IV5yDZoNSxGVNDmDTVJk5ayVFURVRETTY1MUZUUDIzNzRHVFRGQkpaWTBZTi4u)
+The College of Science grants up to $350 for domestic travel/conference, or $500 for international travel/conference. It is expected that there is a matching source (PhD Network, department, or advisor). Preference is given for first-time awardees for whom it would be their first national conference. Apply at least 1 month before conference.
+* [PhD Network Funding Application](https://phd.northeastern.edu/network/resources/travelfunding/)
+The PhD Network grants up to $500 once per academic year. It is expected that there is a matching source (COS, department, or advisor). Apply at least 2 months before conference. 
