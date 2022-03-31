@@ -22,29 +22,28 @@ bigimg: /img/omega.JPG
 
 
 ## Reagents and Consumables
- * Gloves - wear gloves to handle **all** extraction materials.
- * Squirt bottle 10% bleach (for sterilizing the bench top)
- * Squirt bottle 70-90% EtOH (for sterilizing the bench top)
- * Razor blades (for cutting up tissue)
- * Forceps (for handling the tissue)
- * 90% EtOH in a beaker (for sterilizing blades and forceps)
- * Lighter (for sterilizing blades and forceps)
- * Weigh paper
- * Kimwipes
- * Calibrated pipettes
- * Autoclaved or sterile/filtered pipette tips (10uL, 100 or 200uL, 1000uL) - sterile/filtered tips are preferred but check with lab manager before you use them.
- * Autoclaved 1.5 eppendorf tubes
- * Tube racks (if using the individual spin columns)
- * Sharps container
- * Trash bin
- * 100% EtOH molecular grade (for purification if using individual spin columns)
- 
-## Equipment 
- * Micro-scale (need to be able to measure between 1 and 20 mg)
- * Thermomixer (it has both single tube and plate attachments)
- * Vortexer
- * Microcentrifuge (large centrifuge in Hughes lab needed for plate extractions)
- * Pipettes (10uL,20uL,200uL,1000uL)
+Locate/confirm equipment: 
+- [x] Gloves - wear gloves to handle **all** extraction materials.
+- [x] 10% bleach squirt bottle (for sterilizing the bench top)
+- [x] 70-90 % EtOH squirt bottle (for sterilizing the bench top)
+- [x] Razor blades (for cutting tissue)
+- [x] Forceps (for handling the tissue)
+- [x] Lighter (for sterilizing blades and forceps)
+- [x] Weigh paper 
+- [x] Kimwipes
+- [x] Calibrated pipettes
+- [x] Autoclaved or sterile/filtered (preferred) pipette tips - sterile/filtered tips are preferred but check with lab manager before you use them.
+- [x] Autoclaved 1.5 eppendorf tubes
+- [x] Tube racks (if using the individual spin columns)
+- [x] Sharps container
+- [x] Trash bin
+- [x] 90% molecular grade EtOH(for sterilizing blades and forceps)
+- [x] 100% molecular grade EtOH in a beaker (for purification if using individual spin columns)
+- [x] Micro-scale (need to be able to measure between 1 and 20 mg)
+- [x] Thermomixer - for the Omega kit, you will use setting #7: "TB Buffer DNA Digest". It has both single tube and plate attachments, stored in the drawer underneath the counter. 
+- [x] Vortexer
+- [x] Microcentrifuge 
+- [x] Pipettes (10 uL, 20 uL, 200 uL, 1000uL)
 
 ## Protocol
 
@@ -53,7 +52,7 @@ bigimg: /img/omega.JPG
 * Calculate how many samples you have in total (including neg and/or pos controls, if any), consider time and cost, and decide whether to use plates or individual tubes.
 * If too many samples to extract in a single round, decide how many samples per extraction batch, remember to leave room for controls if needed.
 * Calculate supplies and volumes needed, and check if you have enough or need to order new.
-* Autoclave materials not provided in the kit (eppendorf tubes and tips (if not using sterile/filtered) and forceps).
+* Autoclave materials not provided in the kit (eppendorf tubes and tips (if not using sterile/filtered) and forceps). See autoclave training information if this is your first lab work at the MSC!
 * When using plates, it can be more difficult to keep track of which samples go in which wells, since you can not label wells directly. It is advised to draw the layout of the plate and plan sample allocation on to the wells ahead of time, and keep that layout near by for reference during tissue digestion prep. Also, make sure to keep plates in the same orientation (top left corner A-1) at all times.
 
 ### Prepping for day 2 of extraction - check list:
@@ -91,7 +90,7 @@ D1-12. Discard the used blade into the sharps container. Discard all used kimwip
 
 D1-13. Repeat steps 5-12 until all samples are in buffer.
 
-D-14. Add 25uL of OB Protease Solution to each sample tube or well plate. You can reuse the tip if you are sure that the tip did not touch the liquid or the sides of the tubes or wells. If the tip does touch any surfaces in the lysis plate or tubes, replace with a sterile tip.
+D-14. Add 25uL of *OB Protease Solution* (OB Protease and Proteinase K, provided with the kit, serve the same purpose as digestive buffers) to each sample tube or well plate. You can reuse the tip if you are sure that the tip did not touch the liquid or the sides of the tubes or wells. If the tip does touch any surfaces in the lysis plate or tubes, replace with a sterile tip.
 
 D-15. Close tubes or seal plate with a silicone mat, confirm all tubes or plate wells are labelled correctly and vortex the tubes/plate for 15 seconds.
 
