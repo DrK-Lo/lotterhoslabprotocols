@@ -92,6 +92,7 @@ Please ask Katie for the password to view
 * [Aug 17, 2021 Discussion of organizing data in spreadsheets](https://northeastern.zoom.us/rec/share/8Z6w6mkq-XTPgyDJU_zcLIp0M5U9tTh5rGo5bhlXdIfKR7vbV4bZsA2Nm3rxvbfv.d3krLgGquGjjO5CP)
 * [Aug 24 2021 Discussion of Price Equation (first half of Chap 6 of Rices' Evolutionary Theory](https://northeastern.zoom.us/rec/share/9JS5ZfB-eySzp6VqK24pHh4bNft2uPhd8wLx3b7J2ycq1IQd4hxxt8bvcXs8WfJs.3dgAcoKa9fQZArZR)
 * [Aug 31 2021 Data Viz discussion from the NU specialist](https://northeastern.zoom.us/rec/share/L4GY5DKi6XCi1nf8_RxkzyGyu6NAojZd4nsNsL1WpxiEfNp5qe_PHd5An9ngPANS.49r97rNHCjo5PNSH)
+* [April 4, 2022 Genomics Pipeline Discussion](https://drive.google.com/file/d/1PGqdpTqKoK9ShX6yj6hNiqI7VVO43gOv/view?usp=sharing)
 
 ## Northeastern Travel and Conference Funding for PhDs
 * [MSC Department-Level Funding Application](https://drive.google.com/file/d/1Lb_1kdAgfSQqCOqkyCWnVshKLY8Y7MHT/view?usp=sharing)
