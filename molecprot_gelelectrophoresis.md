@@ -22,3 +22,6 @@ We are Ethidium-Bromide Free!
 8. Add remaining TBE buffer (to cool solution).
 9. Dilute the GelRed® 10,000X stock reagent into the molten agarose gel solution at 1:10,000 and mix thoroughly.
     - (e.g., 5 µL of the GelRed 10,000X stock reagent added to 50 mL of the gel solution)
+
+## Running the Gel
+- This source detailes a full protocol for running a gel: https://www.addgene.org/protocols/gel-electrophoresis/
