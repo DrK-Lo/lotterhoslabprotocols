@@ -25,5 +25,5 @@ We are Ethidium-Bromide Free!
 
 ## Running the Gel
 - This source detailes a full protocol for running a gel: https://www.addgene.org/protocols/gel-electrophoresis/
-- Source from Remy for Gel protocol (note that this is for an Ethidium Bromide system, and we are Ethidium-Bromide free at the MSC: [Gel Electrophoresis protocol_lab interns.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/files/8584679/Gel.Electrophoresis.protocol_lab.interns.pdf)
+- Source from Remy for Gel protocol (note that this is for an Ethidium Bromide system, and we are Ethidium-Bromide free at the MSC): [Gel Electrophoresis protocol_lab interns.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/files/8584679/Gel.Electrophoresis.protocol_lab.interns.pdf)
 
