@@ -14,9 +14,7 @@ subtitle:
 - [ ] Will you be travelling to another state?
 - [ ] Do you anticipate having phone signal
 - [ ] What are the local emergency numbers
-- [ ] 
 - [ ] Is anyone on the team first aid/ CPR certified?
-- [ ] 
 
 ### Identify appropriate equipment, gear and first aid supplies
 
