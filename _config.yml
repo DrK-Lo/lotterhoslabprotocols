@@ -68,6 +68,7 @@ navbar-links:
     - Seatables: "field_Seatables"
     - Kayak: "field_kayak"
     - Oyster Sampling: "field_oystersampling"
+    - Field Safety Protocol: "field_fieldsafety_protocol"
   Coding Protocols:
     - Learning to code: "code_LearningToCode"
     - Bioinformatics resources: "code_bioinformatics"
