@@ -57,6 +57,7 @@ navbar-links:
     - Illumina Library Prep: "molecprot_illuminalibraryprep"
     - TapeStation Library Check: "molecprot_tapestationlibrarycheck"
     - Library quantification for Illumina with qPCR: "molecprot_qPCR-Libraryquant"
+    - qPCR on BioRAD: "molecprot_qPCRandBioRAD.md"
     - Outdated protocols: "molecprot_outdated"
   Field and Sampling Protocols:
     - Collecting Samples for DNA: "field_collectsampdna"
@@ -66,6 +67,7 @@ navbar-links:
     - pH Loggers: "field_phloggers"
     - Seatables: "field_Seatables"
     - Kayak: "field_kayak"
+    - Oyster Sampling: "field_oystersampling.md"
   Coding Protocols:
     - Learning to code: "code_LearningToCode"
     - Bioinformatics resources: "code_bioinformatics"
