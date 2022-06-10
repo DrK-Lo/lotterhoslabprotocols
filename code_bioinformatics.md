@@ -8,5 +8,44 @@ https://github.com/dereneaton/ipyrad/blob/master/newdocs/assembly_guidelines.rst
 
 http://www.popgen.dk/software/index.php/PCAngsd handle genotype likelihoods
 
+## VCF files and population structure
+
+What is a VCF? https://samtools.github.io/hts-specs/VCFv4.2.pdf
+
+### Filter VCF table and produce a PCA plot
+
+When getting started, it's best to filter for relatedness and linkage disequilibrium, so that you have a quasi-independent set of individuals and SNPs. 
+
+Check related individuals with vcf using vcftools (--relatedness)
+
+To use the bigsnpr R package, you will have to change your tdat from the VCF format to a genotype matrix with 0/1/2 counts of the alternate allele.
+[Transform from vcf to (plink to) raw](https://github.com/laurabenestan/RDA_outlier). See the first steps in this tutorial. 
+
+The presence of LD can bias principal components. This [paper](https://academic.oup.com/bioinformatics/article/36/16/4449/5838185?login=true) explains the problem.  Read about [filtering for LD with pruning and clumping](https://privefl.github.io/bigsnpr/articles/pruning-vs-clumping.html)
+
+[Filter the raw data using snp_autoSVD (it’s at the end of the tutorial)](https://privefl.github.io/bigsnpr/articles/how-to-PCA.html)
+This tutorial also teaches you how to do a PCA.
+
+VCF tools: http://vcftools.sourceforge.net/
+
+### Run an RDA
+
+Before you run an RDA and do some of the things in these tutorials, talk to Dr. L about your plan. Outlier SNP analysis with RDA have a lot of false positives, but the individual scores are very useful.
+
+https://popgen.nescent.org/2018-03-27_RDA_GEA.html
+
+https://github.com/laurabenestan/RDA_outlier
+
+Katie also has some RDA code on simulations and oyster data.
+
+### Run a GWAS or GEA
+
+Genotype-phenotype association: LFMM2. [Read the paper lfmm2](https://academic.oup.com/mbe/article/36/4/852/5290100) and [LEA3](https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.13366)
+
+[LFMM2 functions](https://rdrr.io/bioc/LEA/man/lfmm2.html)
+
+[LEA installation](http://www.bioconductor.org/packages/3.3/bioc/html/LEA.html) Check with Katie this is correct before running
+
+
 
 
