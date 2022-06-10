@@ -1,5 +1,9 @@
 #  Bioinformatics resources
 
+## Data Skills
+
+Vince Buffalo's _Bioinformatic Data Skills_ is a great book to build skills. Katie has a set of great readings for learning, contact her for more info.
+
 ## RAD seq
 
 https://radcamp.github.io/NYC2019/RADCamp-PartII-Day1-AM.html
