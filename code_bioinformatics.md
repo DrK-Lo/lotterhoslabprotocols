@@ -12,13 +12,22 @@ http://www.popgen.dk/software/index.php/PCAngsd handle genotype likelihoods
 
 What is a VCF? https://samtools.github.io/hts-specs/VCFv4.2.pdf
 
+Katie also has some lectures on VCF files.
+
 ### Filter VCF table and produce a PCA plot
 
 When getting started, it's best to filter for relatedness and linkage disequilibrium, so that you have a quasi-independent set of individuals and SNPs. 
 
 Check related individuals with vcf using vcftools (--relatedness)
 
-To use the bigsnpr R package, you will have to change your tdat from the VCF format to a genotype matrix with 0/1/2 counts of the alternate allele.
+Filter the VCF file. Use VCF tools to do this: http://vcftools.sourceforge.net/
+- for minor alleles < 0.05 (if you have a lot of SNPs, or 0.01 if you don't have a lot of SNPs)
+- for missing data at SNPs (keep SNPs in at least X% of individuals in all dataset)
+- for missing data at population level (keeps SNPs with calls in X% or higher of individuals per population)
+- for individuals with low SNP count (keep individuals with higher than X% of SNPs called)
+- Depending on the context, X% might be 80% or might be 100%
+
+To use the bigsnpr R package, you will have to change your data from the VCF format to a genotype matrix with 0/1/2 counts of the alternate allele.
 [Transform from vcf to (plink to) raw](https://github.com/laurabenestan/RDA_outlier). See the first steps in this tutorial. 
 
 The presence of LD can bias principal components. This [paper](https://academic.oup.com/bioinformatics/article/36/16/4449/5838185?login=true) explains the problem.  Read about [filtering for LD with pruning and clumping](https://privefl.github.io/bigsnpr/articles/pruning-vs-clumping.html)
@@ -26,7 +35,6 @@ The presence of LD can bias principal components. This [paper](https://academic.
 [Filter the raw data using snp_autoSVD (it’s at the end of the tutorial)](https://privefl.github.io/bigsnpr/articles/how-to-PCA.html)
 This tutorial also teaches you how to do a PCA.
 
-VCF tools: http://vcftools.sourceforge.net/
 
 ### Run an RDA
 
@@ -46,6 +54,9 @@ Genotype-phenotype association: LFMM2. [Read the paper lfmm2](https://academic.o
 
 [LEA installation](http://www.bioconductor.org/packages/3.3/bioc/html/LEA.html) Check with Katie this is correct before running
 
+### Other resources
+
+[Marine Omics working group](https://marineomics.github.io/index.html)
 
 
 
