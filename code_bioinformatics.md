@@ -1,5 +1,7 @@
 #  Bioinformatics resources
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/code_bioinformatics.md)
+
 ## Data Skills
 
 Vince Buffalo's _Bioinformatic Data Skills_ is a great book to build skills. Katie has a set of great readings for learning, contact her for more info.
@@ -39,6 +41,9 @@ The presence of LD can bias principal components. This [paper](https://academic.
 [Filter the raw data using snp_autoSVD (it’s at the end of the tutorial)](https://privefl.github.io/bigsnpr/articles/how-to-PCA.html)
 This tutorial also teaches you how to do a PCA.
 
+### Structure plot
+
+For Structure use LEA program sNMF package vcf input in R. (http://membres-timc.imag.fr/Olivier.Francois/LEA/tutorial.htm)
 
 ### Run an RDA
 
