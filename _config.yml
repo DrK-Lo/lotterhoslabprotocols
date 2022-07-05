@@ -43,7 +43,7 @@ navbar-links:
     - Design: "profdev_design"
     - Courses: "profdev_courses"
   Molecular Protocols: 
-    - Shared equipment: "https://numsc-corefacility.github.io/sharedLabSpace/"
+    - Types of Ethanol: "molecular_etoh"
     - Solution Recipes: "molecprot_solutionrecipes"
     - Determining Barcodes & Indexes: "molecprot_barcodesnindexes"
     - DNA Extraction (Qiagen): "molecprot_dnaextractionqiagen"
@@ -51,12 +51,14 @@ navbar-links:
     - DNA Extraction (Spartina): "molecprot_dnaextractionspartina"
     - RNA Extraction: "molecprot_rnaextraction"
     - Gel Electrophoresis: "molecprot_gelelectrophoresis"
+    - Illumina Library Prep: "molecprot_illuminalibraryprep"
+    - Library quantification for Illumina with qPCR: "molecprot_qPCR-Libraryquant"
+  Molecular Equipment: 
+    - Shared equipment: "https://numsc-corefacility.github.io/sharedLabSpace/"
     - Take3 DNA Quantification: "molecprot_take3dnaquantification"
     - Picogreen Assay: "molecprot_picoGreenAssay"
     - Magnetic Bead Wash: "molecprot_magbeadwash"
-    - Illumina Library Prep: "molecprot_illuminalibraryprep"
     - TapeStation Library Check: "molecprot_tapestationlibrarycheck"
-    - Library quantification for Illumina with qPCR: "molecprot_qPCR-Libraryquant"
     - qPCR on BioRAD: "molecprot_qPCRandBioRAD"
     - Outdated protocols: "molecprot_outdated"
   Field and Sampling Protocols:
