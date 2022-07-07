@@ -9,4 +9,4 @@ Denatured ethanol is a form of ethanol containing a high amount of additives and
 Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is undenatured. 
 
 
-{Source}(https://www.differencebetween.com/difference-between-denatured-and-vs-undenatured-ethanol/#Undenatured%20Ethanol)
+[Source](https://www.differencebetween.com/difference-between-denatured-and-vs-undenatured-ethanol/#Undenatured%20Ethanol)
