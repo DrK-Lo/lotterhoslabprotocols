@@ -29,7 +29,6 @@ Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is no
 
 [Information from this article explains the use of ethanol for cleaning](https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/). The main points are summarized here:
 
-* Something about the process of making ethanol makes it hard to get from 95% to 100%. Sometimes this contains additives to get it up to 100%, but they are not denaturing agents. 
 * Although it may seem counter-intuitive, 70% ethanol seems to be the most effective concentration, as 90% ethanol coagulates the protein, and the protein layer that is created effectively renders the cell dormant. At a 70% concentration, however, the ethanol takes longer to evaporate and this longer contact time means that it is able to penetrate cells more effectively. The water in a 70% grade is also important in denaturing proteins. And 70% ethanol also tends to be cheaper and is less flammable.
 
 ## There are a couple of things to watch out for when diluting ethanol:
@@ -39,6 +38,7 @@ Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is no
 
 
 ## Use 100% (200 Proof, absolute ethanol, molecular grade) non-denatured Ethanol for Molecular Biology work
+* Something about the process of making ethanol makes it hard to get from 95% to 100%. Sometimes this contains additives to get it up to 100%, but they are not denaturing agents. 
 * Some procedures that are sensitive to the presence of water require absolute ethanol. 
 * A common method to produce ethanol with a higher concentration than 95% is to use additives that disrupt the azeotrope composition and allow further distillation. For this reason, absolute ethanol sometimes contains trace amounts of these additives (such as benzene). [source](https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/)
 
