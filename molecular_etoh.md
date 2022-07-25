@@ -23,6 +23,7 @@ Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is no
 * The ethanol-tissue ratio should exceed 5:1, although some authors recommend much higher ratios (e.g. Martin 1977). 
 * When ordering, look for "pure ethanol" and check the SDS to make sure it does not contain additives
 * 95.6% ethanol is an azeotrope, which means the vapor state has the same ethanol-to-water ratio as the liquid state. This means as it evaporates the remaining liquid will still be at 95.6%
+* When adding wet tissues to 95% ethanol, it can decrease the concentration of ethanol. It can be helpful to change the ethanol after the first few months.
 * More information on other ways to preserve tissues are found [in this article](https://spnhc.biowikifarm.net/wiki/Tissue_Sample_Collection)
 
 ## Use 70% Denatured Ethanol for Cleaning
