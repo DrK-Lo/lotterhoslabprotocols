@@ -38,7 +38,8 @@ Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is no
       * Why? When you mix water and ethanol, the ethanol molecules occupy the space between the water molecules. A helpful way to visualize this is to think about sand and rocks – if you were to mix 1 liter of each, the final volume would be less than 2 liters because the sand would fall between the rocks.  
 
 
-## Use 100% (200 Proof, absolute ethanol) non-denatured Ethanol for Molecular Biology work
-* Some procedures that are sensitive to the presence of water require absolute ethanol. A common method to produce ethanol with a higher concentration than 95% is to use additives that disrupt the azeotrope composition and allow further distillation. For this reason, absolute ethanol sometimes contains trace amounts of these additives (such as benzene). [source](https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/)
+## Use 100% (200 Proof, absolute ethanol, molecular grade) non-denatured Ethanol for Molecular Biology work
+* Some procedures that are sensitive to the presence of water require absolute ethanol. 
+* A common method to produce ethanol with a higher concentration than 95% is to use additives that disrupt the azeotrope composition and allow further distillation. For this reason, absolute ethanol sometimes contains trace amounts of these additives (such as benzene). [source](https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/)
 
 
