@@ -114,6 +114,8 @@ D2-3. Follow the kit manual for plates or individual tubes for DNA purification 
    * we prefer to use molecular grade water as the elution buffer instead of the kit buffer.
    * elution volume may vary depending on starting material and extraction yield. Minimum volume is 30 uL, to ensure that the entire memembrane is soaked with elution buffer. 
    * the second elution can be eluted into a separate tube, if there are concerns about DNA concentration in the first elution. 
+   *  Align the tubes in the centrifuge in this manner: <img width="666" alt="image" src="https://user-images.githubusercontent.com/98117631/183438550-75c4d11b-8d6a-4b37-8579-f74a95a913f5.png">
+
 
 D2-4. You will likely need to spot-check the concentration of your extracted DNA, either by Qubit or Picogreen assay. Both are destructive assays, meaning you will need to use some aliquote (typically 1-2 uL) of your eluted DNA to measure concentration. Make note of how much you used from which samples, to keep track of how much is available for downstream library prep and sequencing.  
 
