@@ -6,6 +6,10 @@ subtitle: How to get reimbursed (with example for mileage)
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_reimbursement.md)
 
+## Missing a receipt?
+
+You will need to fill out a [missing receipt affidavit](https://drive.google.com/open?id=15O6iVj2p2Qf_em6hiHeyg3co1UQEIbzU&authuser=k.lotterhos%40gmail.com&usp=drive_fs)
+
 ## Reimbursement form for grads/undergrads
 
 TO DO
