@@ -1,5 +1,7 @@
 ## Freezer alarm system
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_freezer.md)
+
 NU contact: Dennis Todd
 
 Here is the link for the Rees system.
