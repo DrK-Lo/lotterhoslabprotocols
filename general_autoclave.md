@@ -4,6 +4,8 @@ title: Autoclave (OGL)
 subtitle: The protocol for using the autoclave in OGL
 ---
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_autoclave.md)
+
 # Overview
 An autoclave chamber is used to sterilize laboratory equipment, including liquids, by subjecting them to steam created at a high temperature and pressure. Autoclaving should be performed on the following items:
 * Containers used while working with microorganisms
