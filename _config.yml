@@ -31,6 +31,7 @@ navbar-links:
     - Autoclave (OGL): "general_autoclave"
     - Ordering Supplies and Equipment: "general_ordering"
     - Receiving Supplies and Equipment: "general_receiving"
+    - Purchasing: "general_purchasing"
     - Reimbursement: "general_reimbursement"
     - Install and config MVI scope camera: "general_MVI-scope-camera"
     - Create barcoded labels: "general_creating-barcoded-labels"
