@@ -4,6 +4,8 @@ title: Getting Started in the Lab
 subtitle: General Rules and Set up for Starting Out in the Lotterhos Lab
 ---
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_GettingStarted.md)
+
 ## Required Trainings to Work In Molecular Lab
 * Laboratory Safety Program Orientation - See Ryan Hill (Facilities Manager) for setting this up
 * Fundamentals of Laboratory Safety - See Ryan Hill (Facilities Manager) for setting this up
