@@ -4,6 +4,8 @@ title: Ordering Supplies and Equipment
 subtitle: The protocol for ordering supplies and equipment for the lab
 ---
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_ordering.md)
+
 ## Placing Orders on myMarketplace
 Most supplies for the lab are ordered through companies that Northeastern has accounts with, such as Fisher, Sigma Aldrich or VWR
 To order from these companies:
