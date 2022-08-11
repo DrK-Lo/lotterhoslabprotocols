@@ -6,6 +6,8 @@ subtitle: An introduction to the lab for those that are new. This will help you 
 
 ---
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_welcome.md)
+
 # Welcome to the Lotterhos Lab!
 
 This page will be a good start to getting yourself settled in the lab. If you
