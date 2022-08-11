@@ -12,7 +12,8 @@ You will need to fill out a [missing receipt affidavit](https://drive.google.com
 
 ## Reimbursement form for grads/undergrads
 
-TO DO
+![image](https://user-images.githubusercontent.com/6870125/184234551-393ff3b2-7bf7-42df-b7d8-9ff7ca0fb58c.png)
+
 
 ## Getting Reimbursed Through Concur (postdocs, staff)
 There may be times when you have to get reimbursed for something you purchased with your own funds. Below is an outline of how to get reimbursed, with an example for auto mileage.
