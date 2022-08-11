@@ -1,5 +1,7 @@
 # Creating barcoded labels
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_creating-barcoded-labels.md)
+
 *note - TSC printer is in the shared equipment lab, hooked up to the Plate Reader laptop.*
 
 1.	Create an excel spreadsheet with the sample IDs for your labels. Type “ID” on cell A1 and list your label IDs on the following rows (you can use more than one column).
