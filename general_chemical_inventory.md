@@ -1,5 +1,7 @@
 ## Managing chemical inventory.
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_chemical_inventory.md)
+
 Chemicals (including kits) purchased by any lab member, for any purpose, and stored in one of our labs (Edwards bldg and bunker lab) **MUST** be barcoded and added to our chemical inventory which is hosted in the BioRAFT platform. 
   - this is done at the container/individual kit level (i.e., not at the chemical substance or class level) - for example, if we have 3 bottles of ethanol in the inventory and buy a new one, that individual new bottle must be assigned its own barcode and added to the inventory.
 
