@@ -4,7 +4,13 @@ title: Reimbursement
 subtitle: How to get reimbursed (with example for mileage)
 ---
 
-## Getting Reimbursed Through Concur
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_reimbursement.md)
+
+## Reimbursement form for grads/undergrads
+
+TO DO
+
+## Getting Reimbursed Through Concur (postdocs, staff)
 There may be times when you have to get reimbursed for something you purchased with your own funds. Below is an outline of how to get reimbursed, with an example for auto mileage.
 
 1. Login to myNortheastern
