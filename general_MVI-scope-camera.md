@@ -1,5 +1,7 @@
 # Scope Camera MVI Nikon SMZ 1000
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_MVI-scope-camera.md)
+
 ## Install
 Download software from Google Drive folder (Lotterhos Lab > equipment > MVI Nikon).
 
