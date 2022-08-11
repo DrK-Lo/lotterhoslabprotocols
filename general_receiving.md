@@ -4,6 +4,8 @@ title: Receiving Supplies and Equipment
 subtitle: The protocol for what to do when orders come in
 ---
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_receiving.md)
+
 ## Receiving Orders
 Typically, Sonya will e-mail you when you or the lab has received a package. Try to pick them up as soon as possible, **especially if it needs to be refrigerated**
 
