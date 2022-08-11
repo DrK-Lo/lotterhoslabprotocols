@@ -1,5 +1,7 @@
 # Shipping of Hazardous Materials
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_ShippingHazMat.md)
+
 ## Hazardous Goods in Excepted Quantities
 
 **This is applicable in cases when hazardous materials are shipped in 'small quantity'. Double-check with NU's Environmental and Health Safety (EHS) what volume is considered 'small quantity' before deciding that your shipment qualifies as excepted quantities.**
