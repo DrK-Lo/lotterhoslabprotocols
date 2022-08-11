@@ -36,6 +36,7 @@ navbar-links:
     - Create barcoded labels: "general_creating-barcoded-labels"
     - Shipping Hazardous Materials: "general_ShippingHazMat"
     - FedEx Shipping: "general_fedex_ship"
+    - Clearing Hazardous Waste: "general_waste_clearing"
     - Equipment Service: "general_equipment"
   Professional Development:
     - Reducing Cognitive Load: "profdev_ReducingCognitiveLoad"
