@@ -1,3 +1,5 @@
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/general_equipment.md)
+
 Lab Equipment Maintenance Log (starting in 2019)
 
 |    Equipment             |   Service       | Date mm_yyy |Available Documentation                                     |
