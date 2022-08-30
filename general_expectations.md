@@ -11,7 +11,8 @@ These are expectations for everyone in the lab.
 - practice inclusive communication
 - commit to documenting research progress and meeting notes in notebooks on a regular basis
 - commit to and communiates about file management organization
+- commit to eliminating distractions during work hours 9am-5pm on weekdays. Distractions include personal texts, push notifications, and personal social media. Ways to eliminate them include turning off notifications and leaving your phone in another location.
 - commit to keeping a task management system, and communicating your priorities and milestones to your advisor(s)
 - commit to keeping a calendar for meetings and plans
-- finishes what we start (within reason)
+- finish what we start (within reason)
 - We all support each other when sh\*t happens.
