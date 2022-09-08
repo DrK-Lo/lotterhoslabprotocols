@@ -6,18 +6,14 @@ subtitle: The protocol for extracting RNA from tissue samples
 
 - [General tips for RNA extraction](#general-tips-for-rna-extraction)
 - [Homogenize tissue sample with TissueRuptor](#homogenize-tissue-sample-with-tissueruptor)
-- **RNA Kits we use:**
-	- [TRI Reagent RNA Isolation](#protocol-for-tri-reagent-rna-isolation)
-	- [Qiagen RNAeasy Kit](#protocol-with-qiagen-rnaeasy-kit)
-	- [ZYMO Quick DNA/RNA Miniprep](#protocol-for-zymo-quick-dna-rna-miniprep-and-tissueruptor-homogenization)
-
 
 ### Kits that we use
+- [TRI Reagent RNA Isolation](#protocol-for-tri-reagent-rna-isolation)
+	* (Trizol based)
+	* Works well with *Crassostrea virginica*	
+- [Qiagen RNAeasy Kit](#protocol-with-qiagen-rnaeasy-kit)
+- [ZYMO Quick DNA/RNA Miniprep](#protocol-for-zymo-quick-dna-rna-miniprep-and-tissueruptor-homogenization)
 
-* TRI Reagent (Trizol based)
-	* Works well with *Crassostrea virginica*
-
-* Qiagen RNAeasy Kit
 
 ### General tips for RNA extraction
 
