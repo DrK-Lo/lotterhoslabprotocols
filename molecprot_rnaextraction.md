@@ -4,6 +4,14 @@ title: RNA Extraction
 subtitle: The protocol for extracting RNA from tissue samples
 ---
 
+- [General tips for RNA extraction](#general-tips-for-rna-extraction)
+- [Homogenize tissue sample with TissueRuptor](#homogenize-tissue-sample-with-tissueruptor)
+- **RNA Kits we use:**
+	- [TRI Reagent RNA Isolation](#protocol-for-tri-reagent-rna-isolation)
+	- [Qiagen RNAeasy Kit](#protocol-with-qiagen-rnaeasy-kit)
+	- [ZYMO Quick DNA/RNA Miniprep](#protocol-for-zymo-quick-dna-rna-miniprep-and-tissueruptor-homogenization)
+
+
 ### Kits that we use
 
 * TRI Reagent (Trizol based)
@@ -26,18 +34,26 @@ subtitle: The protocol for extracting RNA from tissue samples
 
 ### Homogenize tissue sample with TissueRuptor
 
-The Tissue Ruptor uses disposable probes that can be sterilized and re-used.
+The Tissue Ruptor uses disposable probes that can be sterilized and re-used.  
 
-To sterilize probes in the Autoclave:
-	- place probes in a large beaker and cover with aluminum and autoclave tape
-	- autoclave at 120°C for 30 min (20 min to reach temperature + 15 min at 120°C)
-**Note** TissueRuptor Probes may be cleaned /sterilized up to 5 times (15 min at 120°C) or until visible signs of wear are seen
+**To sterilize probes in the Autoclave:**
+* place probes in a large beaker and cover with aluminum and autoclave tape
+* autoclave at 120°C for 30 min (20 min to reach temperature + 15 min at 120°C)
+* **Note** TissueRuptor Probes may be cleaned /sterilized up to 5 times (15 min at 120°C) or until visible signs of wear are seen
 
-Steps to homogenize:
-1. Clean 
-2. Get each tissue out of the freezer and keep on ice. We will do one tissue at a time.
-3. 
-
+**Steps to homogenize:**
+* Get each tissue out of the freezer and keep on ice
+	* do one tissue at a time
+* prepare 2 mL vials (with somewhat flat bottoms) each with 600 µl **DNA/RNA Lysis Buffer**
+* cut ~25 mg of tissue and put in prepared lysis vials
+* keep vials on ice
+* run TissueRuptor at level 3 for 7 seconds (or until tissue is completely lysed)
+* return to ice
+* clean probe with 3 washes of DI water 
+	* you should have 3 separate falcon tubes with DI water
+	* run TissueRuptor through each DI wash for 5 seconds
+	* remove probe and set aside to be autoclaved prior to re-use
+	* secure a new sterilized probe to the TissueRuptor
 
 
 ## Protocol for TRI Reagent RNA Isolation
@@ -126,3 +142,73 @@ Adapted from official protocol.  Download [here](http://depts.washington.edu/kel
 7. **Optional:** Place the RNeasy spin column in a new 2 ml collection tube (supplied). Centrifuge at full speed for 1 min to dry the membrane.
 8. Place the RNeasy spin column in a new 1.5 ml collection tube (supplied). Add 30–50 μl RNase-free water directly to the spin column membrane. Close the lid, and centrifuge for 1 min at ≥8000 x g to elute the RNA.
 9. If the expected RNA yield is >30 μg, repeat step 7 using another 30–50 μl of RNase-free water, or using the eluate from step 7 (if high RNA concentration is required). Reuse the collection tube from step 7.
+
+
+## Protocol for ZYMO Quick DNA RNA Miniprep and TissueRuptor homogenization
+[Protocol](https://files.zymoresearch.com/protocols/_d7001_quick-dna-rna_miniprep_kit.pdf)
+
+### Materials
+- [ ] ZYMO Quick-DNA/RNA Miniprep
+- [ ] TissueRuptor
+- [ ] TissueRuptor Disposable Probes
+- [ ] Ethanol (99%)
+
+### Equipment
+- Centrifuge for 1.5 mL spin columns
+
+## Prep
+- Sterilize TissueRuptor probes in the Autoclave: 
+    - place probes in a large beaker and cover with aluminum and autoclave tape 
+    - autoclave at 120°C for 35 min (20 min to reach temperature + 15 min at 120°C). 
+    - **Note** *TissueRuptor Probes may be cleaned /sterilized up to 5 times (15 min at 120°C) or until visible signs of wear are seen*
+- Wipe of bench with 10% Bleach and RNAse Away
+- Leave UV hood on for 1 hour to sterilize the working area
+
+
+### Procedure
+1. Homogenize- TissueRuptor
+    - Get each tissue out of the freezer and keep on ice
+        - do one tissue at a time
+    - prepare 2 mL vials (with somewhat flat bottoms) each with 600 µl **DNA/RNA Lysis Buffer**
+    - cut ~25 mg of tissue and put in prepared lysis vials
+    - keep vials on ice
+    - run TissueRuptor at level 3 for 7 seconds (or until tissue is completely lysed)
+    - return to ice
+    - clean probe with 3 washes of DI water 
+        - you should have 3 separate falcon tubes with DI water
+        - run TissueRuptor through each DI wash for 5 seconds
+        - remove probe and set aside to be autoclaved prior to re-use
+        - secure a new sterilized probe to the TissueRuptor
+    - repeat steps with the next tissue 
+    - centrifuge samples at 14`,000 rfc x 30 seconds (may want to increase this)
+3. Transfer the sample lysed in DNA/RNA Lysis Buffer into a **SpinAway™ Filter (yellow)** in a Collection Tube
+    - centrifuge 16,000 rfc x 30 sec
+    - Save the flow-through for RNA purification and the filter for DNA purification!
+4. DNA/RNA Purification 
+    - ***3a: DNA Purification*** (DNA is in the filter)
+      - Transfer the Spin-Away Filter (yellow) into a new Collection Tube
+    - ***3b: RNA Purification***(RNA is in the flow-through)
+      - Add 600 μL volume ethanol (95-100%) to the flow-through (1:1 vol) and mix well.
+      - Transfer the sample into a Zymo-Spin™ IICR Column in a Collection Tube
+        - max 600 μL at a time
+      - centrifuge 16,000 rfc x 30 sec
+      - Discard the flow-through
+5. Add 400 µl **DNA/RNA Prep Buffer** to the column
+    - centrifuge 16,000 rfc x 30 sec
+    - discard the flow-through
+6. Add 700 µl **DNA/RNA Wash Buffer** to the column
+    - centrifuge 16,000 rfc x 30 sec
+    - Discard the flow-through.
+7. Add 400 µl **DNA/RNA Wash Buffer**
+    - centrifuge 16,000 rfc x 2 min to ensure complete removal of the wash buffer
+    - Then carefully, transfer the column into a nuclease-free tube (not provided).
+8. Elute DNA/RNA
+    - ***7a: DNA***
+      - add 50 µl DNase/RNase-Free Water 
+        - or 100 µl if you need it less concentrated 
+      - let stand 2-5 min
+      - centrifuge 16,000 rfc x 30 sec
+    - ***7b: RNA***
+      - add 30 µl DNase/RNase-Free Water 
+        -  or 50 µl if you need it less concentrated 
+      - centrifuge 16,000 rfc x 30 sec
