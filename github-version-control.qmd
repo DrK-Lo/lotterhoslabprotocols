@@ -1,0 +1,39 @@
+# Version Control with GitHub
+
+The protocol for keeping track of different versions using GitHub
+
+------------------------------------------------------------------------
+
+## **What is version control?** {.unnumbered}
+
+In running bioinformatics pipelines and analyzing data, a user often makes hundreds of changes to his/her code and ends up with multiple versions of the same file with slight differences. Using version control allows you to keep track of different versions as you progress through your work. [GitHub](https://github.com/) is a great platform to track the changes in your work, share with collaborators, and have a backup online.
+
+**Read more about using git in the terminal in Vince Buffalo's textbook**
+
+## **How it is used in the lab...** {.unnumbered}
+
+Most major projects in the lab will have their own git repository. If you are starting a project that will have a lot of coding involved, you should discuss with Katie about starting a new repository and how you will manage data, code, and directories. The easiest way to utilize GitHub is to do the following:
+
+1.  Make sure you have GitHub Desktop downloaded (you can use the Terminal, but this is much more user-friendly, especially for beginners)
+
+2.  Log in to your GitHub account (or create one if you don't have one)
+
+3.  Find the repository on GitHub that was created by Katie
+
+4.  On the main repository page you should see a green button towards the right of the screen that says 'Clone or download'. Click this button
+
+5.  You can either copy the https and use `git clone https...` in the directory that you want the git repository, or you can choose 'Open in Desktop' which opens up the GitHub Desktop app, and allows you to choose which directory it will be cloned to.
+
+6.  You can then make changes on your local directory
+
+7.  After you have made sufficient changes that you want to save and share, you need to commit these changes
+
+8.  GitHub Desktop will keep track of these changes, which will appear in the left column of the app (make sure you've specified the right directory in the top navigation bar)
+
+9.  To commit these changes, select the changes you want to commit, then type a message in the summary box and click 'Commit to \<repository\>'
+
+**It's good practice to commit groups of changes separately depending on what you changed. For example, if you edited three text documents and added an image to the directory, you could commit the text documents with the summary 'edited text documents' then separately commit the image with the summary 'added image'. This makes it so mass changes aren't all assigned the same summary message**
+
+1.  Then in the upper right corner, on the black navigation bar, it should give you the option to push these commits to the main repository on GitHub. Do so by clicking on the box.
+
+2.  If changes have been made on the online GitHub repository, you will need to 'pull' these before pushing your commits (essentially, making sure you have the most up-to-date versions of files before making changes). You do this by choosing 'pull' in the upper right hand box, and then you can 'push' your changes.

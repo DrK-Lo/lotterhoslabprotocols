@@ -2,8 +2,10 @@
 _site
 .sass-cache
 .vagrant
+/.quarto/
 
 # general
 .DS_Store
 Thumbs.db
 ehthumbs.db
+.Rproj.user
