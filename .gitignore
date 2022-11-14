@@ -2,6 +2,7 @@
 _site
 .sass-cache
 .vagrant
+/.quarto/
 
 # general
 .DS_Store
