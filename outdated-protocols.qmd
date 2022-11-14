@@ -1,0 +1,13 @@
+# Outdated Molecular Protocols
+
+------------------------------------------------------------------------
+
+Outdated molecular protocols
+
+-   [ddRAD Library Prep](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_ddradlibprep/)
+
+-   [bs RAD Library Prep](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_bsddradlibprep/)
+
+-   [SPLAT Library Prep](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_splatlibraryprep/)
+
+-   [RNA seq](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaseqlibraryprep/)\
