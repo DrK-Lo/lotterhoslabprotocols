@@ -34,18 +34,11 @@ website:
           - general_autoclave.qmd
       - section: "Professional Development"
         contents: 
-          - code_bioinformatics.qmd
-          - code_checksums.qmd
-          - code_defiance.qmd
-          - code_directoryorganization.qmd
-          - code_githhubMarkdown.qmd
-          - code_LearningToCode.qmd
-          - code_pathAndAliasMod.qmd
-          - code_pseudoparallel.qmd
-          - code_setseeds.qmd
-          - code_TroubleshootingCellprofiler.qmd
-          - code_unixcommands.qmd
-          - code_versioncontrol.qmd
+          - profdev.qmd
+          - profdev_ReducingCognitiveLoad.qmd
+          - profdev_How-to-publish-a-paper.qmd
+          - profdev_design.qmd
+          - profdev_courses.qmd
       - section: "Molecular Protocols"
         contents:
          - molecprot_barcodesnindexes.qmd
@@ -66,6 +59,17 @@ website:
       - section: "Coding Protocols"
         contents: 
           - code_bioinformatics.qmd
+          - code_checksums.qmd
+          - code_defiance.qmd
+          - code_directoryorganization.qmd
+          - code_githhubMarkdown.qmd
+          - code_LearningToCode.qmd
+          - code_pathAndAliasMod.qmd
+          - code_pseudoparallel.qmd
+          - code_setseeds.qmd
+          - code_TroubleshootingCellprofiler.qmd
+          - code_unixcommands.qmd
+          - code_versioncontrol.qmd
       
 format:
   html:

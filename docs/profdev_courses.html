@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LotterhosLabProtocols – general_creating_barcoded_labels</title>
+<title>LotterhosLabProtocols – profdev_courses</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -190,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link active">Creating Barcoded Labels</a>
+  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link">Creating Barcoded Labels</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -235,7 +235,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./profdev_courses.html" class="sidebar-item-text sidebar-link">Graduate Courses</a>
+  <a href="./profdev_courses.html" class="sidebar-item-text sidebar-link active">Graduate Courses</a>
   </div>
 </li>
       </ul>
@@ -404,7 +404,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#creating-barcoded-labels" id="toc-creating-barcoded-labels" class="nav-link active" data-scroll-target="#creating-barcoded-labels">Creating Barcoded Labels</a></li>
+  <li><a href="#graduate-courses" id="toc-graduate-courses" class="nav-link active" data-scroll-target="#graduate-courses">Graduate Courses</a>
+  <ul class="collapse">
+  <li><a href="#bioinformatics" id="toc-bioinformatics" class="nav-link" data-scroll-target="#bioinformatics"><strong>Bioinformatics</strong></a></li>
+  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning"><strong>Machine Learning</strong></a></li>
+  <li><a href="#biostatistics" id="toc-biostatistics" class="nav-link" data-scroll-target="#biostatistics"><strong>Biostatistics</strong></a></li>
+  <li><a href="#evolution" id="toc-evolution" class="nav-link" data-scroll-target="#evolution"><strong>Evolution</strong></a></li>
+  <li><a href="#gis" id="toc-gis" class="nav-link" data-scroll-target="#gis"><strong>GIS</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -413,37 +420,104 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="creating-barcoded-labels" class="level1">
-<h1>Creating Barcoded Labels</h1>
+<section id="graduate-courses" class="level1">
+<h1>Graduate Courses</h1>
 <hr>
-<p><em>note - TSC printer is in the shared equipment lab, hooked up to the Plate Reader laptop.</em></p>
-<ol type="1">
-<li><p>Create an excel spreadsheet with the sample IDs for your labels. Type “ID” on cell A1 and list your label IDs on the following rows (you can use more than one column).</p></li>
-<li><p>Launch the software BarTender Designer (a shortcut should be pinned to the taskbar).</p></li>
-<li><p>In the welcome screen, ‘Open a recently used BarTender document’ or ‘Open an existing BarTender document’.</p>
-<p><em>a. If you accidentally close the welcome screen, go to File &gt; New &gt; New Document Wizard &gt; Existing BarTender Document &gt; Select &gt; Select a template document &gt; Open &gt; Finish (not Next).</em></p>
-<p><em>b. This will define the printer model (we only have one) and the type of stock label (we only have one) so you don’t need to enter these paramenters manually (saves time).</em></p></li>
-<li><p>File &gt; Save as &gt; ‘yourfilename’.</p></li>
-<li><p>On the document you just created (‘yourfilename’), click on the barcode on the screen and delete it, so you have a blank label.</p></li>
-<li><p>Create &gt; Barcode &gt; code 93 &gt; then click anywhere on the label to place the barcode.</p>
-<p><em>a. This will place a barcode on the label on the screen. Roughly adjust the size of the barcode to fit the label.</em></p></li>
-<li><p>On the left side panel, right-click on Database Fields &gt; Database Connection Setup &gt; Configure Connection &gt; Browse and select the Excel file with your sample IDs &gt; Finish (not Next) &gt; Ok.</p>
-<p><em>a. This will add your sample ID next to the barcode on the label.</em></p>
-<p><em>b. If the window “The format of the database in ‘yourexcelfile’ does not match the old database” pops up, click yes. Then click to highlight Sheet$1 and hit Finish.</em></p></li>
-<li><p>On the left side panel, click on ‘Barcode’ to highlight it. Then go to Edit &gt; Properties.</p></li>
-<li><p>Under Human Readability &gt; Placement, select “Right” (this is recommended because of the shape of labels we currently have; if using another label, edit barcode placement and sample ID placement accordingly). Horizontal offset: “0.03” is recommended, but will depend on the length of the barcode and sample ID.</p>
-<p><em>a. Symbology and Size: the type, size and placement of the barcode on the label can be edited here, if needed.</em></p>
-<p><em>b. Font, Text Format, Border and Position can be edited here, if needed.</em></p></li>
-<li><p>Under Datasource, right-click the embedded data (should appear as 12345678), and delete.</p></li>
-<li><p>Right-click on Datasource &gt; New &gt; Database field &gt; Next &gt; Select field name (“ID”, or whatever else is in the first row of you excel file) and delete whatever is in ‘Sample Field Data’ &gt; Finish.</p>
-<p><em>a. This should show the first sample ID next to the barcode on the label. You might need to edit font size to fit the label. (Don’t exit barcode properties). In Font, select the appropriate size under Point Size &gt; Close.</em></p></li>
-<li><p>Re-size the barcode and sample ID within the margins of the label if necessary, by adjusting the barcode window on the label and/or editing barcode properties until your label looks the way you want (keep in mind the labels are small so try to maximize font size to fill out most of the label.</p>
-<p><em>a. At the bottom of the screen, you should see the number of labels you’re creating – should match the rows on the excel file. Use the arrows to scroll through the labels and make sure they all fit within the margins of the labels. Adjust accordingly, if needed.</em></p></li>
-<li><p>Hit Print on top of the page or File &gt; Print. It’s recommended to print the first ~5 labels first to see how the come out. To do that, select “Selected” under “Queried Records” and type 1-5 in “Selected Records”. Hit Print. If looks ok, print the rest. If you want to print all at once, select “All” under “Queried Records”.</p></li>
-<li><p>Cut off your labels from the printer, close document, close software.</p></li>
-</ol>
+<section id="bioinformatics" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bioinformatics"><strong>Bioinformatics</strong></h3>
+<p>I think taking 6308 + 6200 would be the best for new students, and if you had to pick one, 6308 is probably easier and will give students more bioinfo exposure. 6200 is much harder, has much more comp sci theory/programming in it, and for someone who has never seen a fastq or bam file.. it might be a steeper learning curve.</p>
+<section id="binf6200-bioinformatics-programming" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="binf6200-bioinformatics-programming"><strong>BINF6200: Bioinformatics Programming</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/90652097/154899888-1b33bd9c-eb73-4c15-9597-c6ce8ce5b238.png" class="img-fluid figure-img" alt="Screen Shot 2022-02-21 at 1 19 30 AM"></p>
+<p></p><figcaption class="figure-caption">Screen Shot 2022-02-21 at 1 19 30 AM</figcaption><p></p>
+</figure>
+</div>
+<p>Focuses on the fundamental programming skills required in the bioinformatics industry. Focuses on Python and R as the main programming language used. Topics include string operations, file manipulation, regular expressions, object-oriented programming, data structures, testing, program design, and implementation. Includes substantial out-of-classroom assignments.</p>
+</section>
+<section id="binf6308-bioinformatics-computational-methods-i" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="binf6308-bioinformatics-computational-methods-i"><strong>BINF6308: Bioinformatics Computational Methods I</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/90652097/154899281-621d969b-bc95-4d7a-80dc-5339be17a4ad.png" class="img-fluid figure-img" alt="Screen Shot 2022-02-21 at 1 13 52 AM"></p>
+<p></p><figcaption class="figure-caption">Screen Shot 2022-02-21 at 1 13 52 AM</figcaption><p></p>
+</figure>
+</div>
+<p>Offers the first semester of a two-semester sequence on the use of computers in bioinformatics research. Offers students an opportunity to work with current methods and computational algorithms used in contemporary sequence analysis. Teaches practical skills necessary to manage and mine the vast biological information being generated and housed in public databases. Emphasizes the use of Python as the primary computer language and requires students to learn and understand basic computer logic and syntax, including an introduction to scalars, arrays, hashes, decision statements, loops, subroutines, references, and regular expressions. A focus on fundamental skills, including the command line interface found in the Linux operating system, is designed to prepare students for second-semester applications.</p>
+</section>
+<section id="binf6309-bioinformatics-computational-methods-ii" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="binf6309-bioinformatics-computational-methods-ii"><strong>BINF6309: Bioinformatics Computational Methods II</strong></h4>
+<ul>
+<li>Syllabus:</li>
+</ul>
+<p>Designed to build upon the core topics covered in BINF 6308, i.e., use of the computer as a tool for bioinformatics research. Builds upon the Python language fundamentals covered during the first semester but requires students to apply these fundamentals to a semester-long project. The project includes protein family analysis, multiple sequence analysis, phylogeny, and protein structure analysis. Additionally, students have an opportunity to learn to build, load, connect, and query custom MySQL databases, and parse command line flags.</p>
+</section>
+<section id="binf6400-genomics-in-bioinformatics" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="binf6400-genomics-in-bioinformatics"><strong>BINF6400: Genomics in Bioinformatics</strong></h4>
+<ul>
+<li>Syllabus:</li>
+</ul>
+<p>Introduces the field of genomics. With the completion of the Human Genome Project several years ago, there has been an explosion of genetic data collected. Focuses on the bioinformatics tools necessary to analyze large-scale genomic data. Covers topics such as phylogenetic trees, molecular evolution, gene expression profiling, heterogeneous genomic data, as well as next-generation sequencing (NGS) data.</p>
+</section>
+</section>
+<section id="machine-learning" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="machine-learning"><strong>Machine Learning</strong></h2>
+<section id="ds4400-machine-learning-and-data-mining-i" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="ds4400-machine-learning-and-data-mining-i"><strong>DS4400: Machine Learning and Data Mining I</strong></h4>
+<ul>
+<li>Syllabus: https://www.ccs.neu.edu/home/alina/classes/Spring2021/</li>
+</ul>
+<p>Machine learning is a fast-pacing and exciting field achieving human-level performance in tasks such as image classification, speech recognition. machine translation, precision medicine, and self-driving cars. Machine learning has already impacted greatly our daily lives and has the potential to transform the world even more in the near future. This course will provide a broad introduction to machine learning and cover the fundamental algorithms for supervised and unsupervised learning. We will cover topics related to regression, classification, deep learning, dimensionality reduction, and clustering. The class will also provide an introduction into adversarial machine learning, an emerging area that studies the fundamental security issues of machine learning</p>
+</section>
+</section>
+<section id="biostatistics" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="biostatistics"><strong>Biostatistics</strong></h2>
+<section id="envr6500-biostatistics" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="envr6500-biostatistics"><strong>ENVR6500: Biostatistics</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/90652097/154899480-d6e17a72-8f9e-4b3f-9021-acd63b098de5.png" class="img-fluid figure-img" alt="Screen Shot 2022-02-21 at 1 15 30 AM"></p>
+<p></p><figcaption class="figure-caption">Screen Shot 2022-02-21 at 1 15 30 AM</figcaption><p></p>
+</figure>
+</div>
+<p>Offers an overview of traditional and modern statistical methods used to analyze biological data using the free and open-source R programming environment. Lectures describe core statistical approaches and discuss their suitability for understanding patterns that arise at different levels of biological organization, from cellular processes to whole ecosystems. Supervised lab sessions offer students an opportunity to develop the R programming skills required to analyze the complex datasets that often emerge when addressing cutting-edge questions in biology. Topics include basic probability and sampling theory, experimental design, null hypothesis significance testing, t-tests and ANOVA, correlation and regression, likelihood, model selection, and information theory.</p>
+</section>
+</section>
+<section id="evolution" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="evolution"><strong>Evolution</strong></h2>
+<section id="biol5585-advanced-evolution" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="biol5585-advanced-evolution"><strong>BIOL5585: Advanced Evolution</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/90652097/154898463-499bc650-eee4-4d5d-8007-b00c4b6c9b4d.png" class="img-fluid figure-img" alt="Screen Shot 2022-02-21 at 1 05 51 AM"></p>
+<p></p><figcaption class="figure-caption">Screen Shot 2022-02-21 at 1 05 51 AM</figcaption><p></p>
+</figure>
+</div>
+<p>Discusses history of evolutionary theory and lines of evidence. Emphasis is on mechanisms of speciation. Introduces and discusses current evolutionary topics.</p>
+</section>
+</section>
+<section id="gis" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="gis"><strong>GIS</strong></h2>
+<section id="envr5260-geographical-information-systems" class="level4 unnumbered">
+<h4 class="unnumbered anchored" data-anchor-id="envr5260-geographical-information-systems"><strong>ENVR5260: Geographical Information Systems</strong></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/90652097/154898851-003915ee-c15b-4337-86c0-88d13357d739.png" class="img-fluid figure-img" alt="Screen Shot 2022-02-21 at 1 08 48 AM"></p>
+<p></p><figcaption class="figure-caption">Screen Shot 2022-02-21 at 1 08 48 AM</figcaption><p></p>
+</figure>
+</div>
+<p>This course explores the practical application of GIS to support geographic inquiry and decision making. It focuses on the technical knowledge of the common tasks that a GIS analyst faces in applying GIS to a variety of spatial problems. Students will gain hands-on experience with a leading commercial GIS software package.Students will have the opportunity to gain a good understanding of the concepts, principles, approaches, and techniques of spatial analysis using Geographic Information Systems.</p>
+<ul>
+<li><p>Students will have the opportunity to become familiar with the everyday challenges facing GIS professionals as they apply GIS principles to a variety of spatial problems.</p></li>
+<li><p>Students will have the opportunity to gain an understanding of real-world GIS applications and how to approach them.</p></li>
+<li><p>Students will have the opportunity to explore geographic data, to learn how it is stored and managed, and to see how it differs from other types of data.</p></li>
+<li><p>Students will have the opportunity to become familiar with the basic functionality and operation of the ESRI ArcGIS software.</p></li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

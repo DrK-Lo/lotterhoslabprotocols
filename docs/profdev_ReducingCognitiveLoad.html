@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LotterhosLabProtocols – general_creating_barcoded_labels</title>
+<title>LotterhosLabProtocols – profdev_reducingcognitiveload</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -190,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link active">Creating Barcoded Labels</a>
+  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link">Creating Barcoded Labels</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -220,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./profdev_ReducingCognitiveLoad.html" class="sidebar-item-text sidebar-link">Reducing Cognitive Load</a>
+  <a href="./profdev_ReducingCognitiveLoad.html" class="sidebar-item-text sidebar-link active">Reducing Cognitive Load</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -404,7 +404,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#creating-barcoded-labels" id="toc-creating-barcoded-labels" class="nav-link active" data-scroll-target="#creating-barcoded-labels">Creating Barcoded Labels</a></li>
+  <li><a href="#reducing-cognitive-load" id="toc-reducing-cognitive-load" class="nav-link active" data-scroll-target="#reducing-cognitive-load">Reducing Cognitive Load</a>
+  <ul class="collapse">
+  <li><a href="#reducing-load-on-ourselves" id="toc-reducing-load-on-ourselves" class="nav-link" data-scroll-target="#reducing-load-on-ourselves"><strong>Reducing load on ourselves</strong></a></li>
+  <li><a href="#unsuscribe-glei" id="toc-unsuscribe-glei" class="nav-link" data-scroll-target="#unsuscribe-glei"><strong>Unsuscribe (Glei)</strong></a></li>
+  <li><a href="#reducing-the-load-we-impose-on-others" id="toc-reducing-the-load-we-impose-on-others" class="nav-link" data-scroll-target="#reducing-the-load-we-impose-on-others"><strong>Reducing the load we impose on others</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -413,37 +418,136 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="creating-barcoded-labels" class="level1">
-<h1>Creating Barcoded Labels</h1>
+<section id="reducing-cognitive-load" class="level1">
+<h1>Reducing Cognitive Load</h1>
 <hr>
-<p><em>note - TSC printer is in the shared equipment lab, hooked up to the Plate Reader laptop.</em></p>
-<ol type="1">
-<li><p>Create an excel spreadsheet with the sample IDs for your labels. Type “ID” on cell A1 and list your label IDs on the following rows (you can use more than one column).</p></li>
-<li><p>Launch the software BarTender Designer (a shortcut should be pinned to the taskbar).</p></li>
-<li><p>In the welcome screen, ‘Open a recently used BarTender document’ or ‘Open an existing BarTender document’.</p>
-<p><em>a. If you accidentally close the welcome screen, go to File &gt; New &gt; New Document Wizard &gt; Existing BarTender Document &gt; Select &gt; Select a template document &gt; Open &gt; Finish (not Next).</em></p>
-<p><em>b. This will define the printer model (we only have one) and the type of stock label (we only have one) so you don’t need to enter these paramenters manually (saves time).</em></p></li>
-<li><p>File &gt; Save as &gt; ‘yourfilename’.</p></li>
-<li><p>On the document you just created (‘yourfilename’), click on the barcode on the screen and delete it, so you have a blank label.</p></li>
-<li><p>Create &gt; Barcode &gt; code 93 &gt; then click anywhere on the label to place the barcode.</p>
-<p><em>a. This will place a barcode on the label on the screen. Roughly adjust the size of the barcode to fit the label.</em></p></li>
-<li><p>On the left side panel, right-click on Database Fields &gt; Database Connection Setup &gt; Configure Connection &gt; Browse and select the Excel file with your sample IDs &gt; Finish (not Next) &gt; Ok.</p>
-<p><em>a. This will add your sample ID next to the barcode on the label.</em></p>
-<p><em>b. If the window “The format of the database in ‘yourexcelfile’ does not match the old database” pops up, click yes. Then click to highlight Sheet$1 and hit Finish.</em></p></li>
-<li><p>On the left side panel, click on ‘Barcode’ to highlight it. Then go to Edit &gt; Properties.</p></li>
-<li><p>Under Human Readability &gt; Placement, select “Right” (this is recommended because of the shape of labels we currently have; if using another label, edit barcode placement and sample ID placement accordingly). Horizontal offset: “0.03” is recommended, but will depend on the length of the barcode and sample ID.</p>
-<p><em>a. Symbology and Size: the type, size and placement of the barcode on the label can be edited here, if needed.</em></p>
-<p><em>b. Font, Text Format, Border and Position can be edited here, if needed.</em></p></li>
-<li><p>Under Datasource, right-click the embedded data (should appear as 12345678), and delete.</p></li>
-<li><p>Right-click on Datasource &gt; New &gt; Database field &gt; Next &gt; Select field name (“ID”, or whatever else is in the first row of you excel file) and delete whatever is in ‘Sample Field Data’ &gt; Finish.</p>
-<p><em>a. This should show the first sample ID next to the barcode on the label. You might need to edit font size to fit the label. (Don’t exit barcode properties). In Font, select the appropriate size under Point Size &gt; Close.</em></p></li>
-<li><p>Re-size the barcode and sample ID within the margins of the label if necessary, by adjusting the barcode window on the label and/or editing barcode properties until your label looks the way you want (keep in mind the labels are small so try to maximize font size to fill out most of the label.</p>
-<p><em>a. At the bottom of the screen, you should see the number of labels you’re creating – should match the rows on the excel file. Use the arrows to scroll through the labels and make sure they all fit within the margins of the labels. Adjust accordingly, if needed.</em></p></li>
-<li><p>Hit Print on top of the page or File &gt; Print. It’s recommended to print the first ~5 labels first to see how the come out. To do that, select “Selected” under “Queried Records” and type 1-5 in “Selected Records”. Hit Print. If looks ok, print the rest. If you want to print all at once, select “All” under “Queried Records”.</p></li>
-<li><p>Cut off your labels from the printer, close document, close software.</p></li>
-</ol>
+<section id="reducing-load-on-ourselves" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reducing-load-on-ourselves"><strong>Reducing load on ourselves</strong></h2>
+<ul>
+<li><p><a href="https://hamberg.no/gtd/">GTD Getting Things Done</a></p>
+<ul>
+<li>How to organize your lists - see website for details</li>
+</ul></li>
+<li><p>Organize tasks into short term critical, short term not critical, long term less critical, not critical</p></li>
+<li><p><a href="https://www.fastcompany.com/40507663/the-7-step-guide-to-achieving-inbox-zero-and-staying-there-in-2018">Declutter your inbox</a></p>
+<ul>
+<li><p>archive immediately no action items</p></li>
+<li><p>do it if one minute or less</p></li>
+<li><p>if need more time, set a “snooze” to get it later</p></li>
+<li><p>keep emails 5 sentences or less</p></li>
+<li><p>make templates</p></li>
+<li><p>unsubscribe from all lists or bundle promos</p></li>
+<li><p>stop organizing your email</p></li>
+<li><p>turn off notifications and create custom notifications for specific people</p>
+<ul>
+<li>only check a few times a day</li>
+</ul></li>
+</ul></li>
+<li><p><a href="https://productivityist.com/efficient-thinking/">Art of efficient thinking</a></p>
+<ul>
+<li><p>Download your mind</p>
+<ul>
+<li><p>Dictation service, voice recording, copytalk</p></li>
+<li><p>Idea journal - storage space for ideas - not time sensitive</p></li>
+<li><p>Google keep - writing things down</p></li>
+<li><p>Avoid straining your brain by reducing decisions made each day (prepare lunch/clothes day before). Reduce amount of unimportant information.</p></li>
+</ul></li>
+</ul></li>
+<li><p>[Bullet Journals]</p>
+<ul>
+<li><p>Lots of You Tube videos</p></li>
+<li><p>We discussed whether this would actually reduce cognitive load because it takes so much time</p></li>
+</ul></li>
+<li><p><a href="https://hackernoon.com/minimizing-the-cognitive-load-in-your-life-bc14f4309fb2">Hacker Noon</a></p>
+<ul>
+<li><p>If something is incomplete, it’s in your mind</p></li>
+<li><p>Slight positive things have a small mental positive effect, while slight negative things have a large negative effect</p></li>
+<li><p>Read books over articles, avoid newspapers, facebook, etc.</p></li>
+<li><p>Writing alot reduces cognitive load</p></li>
+<li><p>“decision exhaustion” has not held up in replicated studies</p></li>
+<li><p><code>deep work</code> and <code>flow states</code> - as you do something more often, you need a shorter buildup to the point to become super productive</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="unsuscribe-glei" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="unsuscribe-glei"><strong>Unsuscribe (Glei)</strong></h2>
+<ul>
+<li><p><em>Negativity bias</em> (Goleman research)</p>
+<ul>
+<li><p>If we perceive our email as positive, the receiver perceives it as neutral</p></li>
+<li><p>If we perceive our email as neutral, the receiver perceives it as negative</p></li>
+<li><p>This happens because of absence of normal social cues</p></li>
+<li><p>Play close attention to phrasing</p></li>
+</ul></li>
+<li><p><em>Busy bias</em></p>
+<ul>
+<li><p>every email is colored by how busy we are and if we feel we have time for it</p></li>
+<li><p>10 years ago we spent 0 time on social media because it didn’t exist. Now we spend 1.72 hours a day.</p></li>
+<li><p>corrosive choice anxiety</p></li>
+</ul></li>
+<li><p>Map work onto your calendar</p>
+<ul>
+<li><p>Start your day with meaningful work</p></li>
+<li><p>Daily routine - check email once at noon and once at end of day</p>
+<ul>
+<li><em>Switching cost</em> - creative work requires at least 25 minutes to get into the task after an interruption</li>
+</ul></li>
+<li><p>Outline your goals</p></li>
+<li><p>Signal to noise - thinking on the decade span instead of the day span “Days are long but the decades are short”</p></li>
+</ul></li>
+<li><p><em>Close the loop</em> - if you are asking a question, propose an answer</p></li>
+<li><p>Attention to detail -</p>
+<ul>
+<li><p>Compose first, add address later</p></li>
+<li><p>Any grammatical errors show lack of attention to detail</p></li>
+<li><p>To remove someone from a chain, bcc them and make sure to mention it in the email</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="reducing-the-load-we-impose-on-others" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="reducing-the-load-we-impose-on-others"><strong>Reducing the load we impose on others</strong></h2>
+<ul>
+<li><p><a href="http://theelearningcoach.com/learning/reduce-cognitive-load/">Six strategies</a></p>
+<ul>
+<li><p>maintain signal to noise ratio - get rid of all the noise</p></li>
+<li><p>promote generative strategies - get learner to interact and generate their own ideas</p></li>
+<li><p>write concisely - .</p></li>
+<li><p>supplantive strategies - small steps to bigger problem/tasks</p></li>
+<li><p>collaborative learning - divide cognitive process across several individuals</p></li>
+<li><p>provide cognitive aids - lists, tools, strategies to offload task complexity</p>
+<ul>
+<li>mindmap on kumu.com</li>
+</ul></li>
+</ul></li>
+<li><p><a href="https://blog.bananatag.com/internal-comms/cognitive-load-impact-on-internal-emails">Use F-pattern emails</a></p>
+<ul>
+<li><p>5-second test - can someone else understand it in 5 sec?</p></li>
+<li><p>Predictability - email templates</p></li>
+<li><p>Visible flow - heading organization and white space</p></li>
+<li><p>Ease of skimming/scanning -</p>
+<ul>
+<li><p>people skim emails in an F pattern - use pointed headings to convey message and short paragraphs</p></li>
+<li><p>most important information at the top</p></li>
+</ul></li>
+</ul></li>
+<li><p><a href="https://hbr.org/2016/11/how-to-write-email-with-military-precision">Write an email with military precision</a></p>
+<ul>
+<li><p>informative subject line with keywords</p>
+<ul>
+<li>what do I want by emailing this person and distill it to one word</li>
+</ul></li>
+<li><p>bottom line up front (BLUF)</p>
+<ul>
+<li>most important information at the top</li>
+</ul></li>
+<li><p>Don’t make recipient scroll - keep it short</p></li>
+<li><p>Use active voice<br>
+</p></li>
+</ul></li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

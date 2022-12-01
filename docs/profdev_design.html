@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LotterhosLabProtocols – general_creating_barcoded_labels</title>
+<title>LotterhosLabProtocols – profdev_design</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -190,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link active">Creating Barcoded Labels</a>
+  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link">Creating Barcoded Labels</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -230,7 +230,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./profdev_design.html" class="sidebar-item-text sidebar-link">Design</a>
+  <a href="./profdev_design.html" class="sidebar-item-text sidebar-link active">Design</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -404,7 +404,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#creating-barcoded-labels" id="toc-creating-barcoded-labels" class="nav-link active" data-scroll-target="#creating-barcoded-labels">Creating Barcoded Labels</a></li>
+  <li><a href="#design" id="toc-design" class="nav-link active" data-scroll-target="#design">Design</a>
+  <ul class="collapse">
+  <li><a href="#access-nu-creative-cloud" id="toc-access-nu-creative-cloud" class="nav-link" data-scroll-target="#access-nu-creative-cloud"><strong>Access NU Creative Cloud</strong></a></li>
+  <li><a href="#guidance-and-resources" id="toc-guidance-and-resources" class="nav-link" data-scroll-target="#guidance-and-resources"><strong>Guidance and resources</strong></a></li>
+  <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates"><strong>Templates</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -413,37 +418,31 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="creating-barcoded-labels" class="level1">
-<h1>Creating Barcoded Labels</h1>
+<section id="design" class="level1">
+<h1>Design</h1>
 <hr>
-<p><em>note - TSC printer is in the shared equipment lab, hooked up to the Plate Reader laptop.</em></p>
-<ol type="1">
-<li><p>Create an excel spreadsheet with the sample IDs for your labels. Type “ID” on cell A1 and list your label IDs on the following rows (you can use more than one column).</p></li>
-<li><p>Launch the software BarTender Designer (a shortcut should be pinned to the taskbar).</p></li>
-<li><p>In the welcome screen, ‘Open a recently used BarTender document’ or ‘Open an existing BarTender document’.</p>
-<p><em>a. If you accidentally close the welcome screen, go to File &gt; New &gt; New Document Wizard &gt; Existing BarTender Document &gt; Select &gt; Select a template document &gt; Open &gt; Finish (not Next).</em></p>
-<p><em>b. This will define the printer model (we only have one) and the type of stock label (we only have one) so you don’t need to enter these paramenters manually (saves time).</em></p></li>
-<li><p>File &gt; Save as &gt; ‘yourfilename’.</p></li>
-<li><p>On the document you just created (‘yourfilename’), click on the barcode on the screen and delete it, so you have a blank label.</p></li>
-<li><p>Create &gt; Barcode &gt; code 93 &gt; then click anywhere on the label to place the barcode.</p>
-<p><em>a. This will place a barcode on the label on the screen. Roughly adjust the size of the barcode to fit the label.</em></p></li>
-<li><p>On the left side panel, right-click on Database Fields &gt; Database Connection Setup &gt; Configure Connection &gt; Browse and select the Excel file with your sample IDs &gt; Finish (not Next) &gt; Ok.</p>
-<p><em>a. This will add your sample ID next to the barcode on the label.</em></p>
-<p><em>b. If the window “The format of the database in ‘yourexcelfile’ does not match the old database” pops up, click yes. Then click to highlight Sheet$1 and hit Finish.</em></p></li>
-<li><p>On the left side panel, click on ‘Barcode’ to highlight it. Then go to Edit &gt; Properties.</p></li>
-<li><p>Under Human Readability &gt; Placement, select “Right” (this is recommended because of the shape of labels we currently have; if using another label, edit barcode placement and sample ID placement accordingly). Horizontal offset: “0.03” is recommended, but will depend on the length of the barcode and sample ID.</p>
-<p><em>a. Symbology and Size: the type, size and placement of the barcode on the label can be edited here, if needed.</em></p>
-<p><em>b. Font, Text Format, Border and Position can be edited here, if needed.</em></p></li>
-<li><p>Under Datasource, right-click the embedded data (should appear as 12345678), and delete.</p></li>
-<li><p>Right-click on Datasource &gt; New &gt; Database field &gt; Next &gt; Select field name (“ID”, or whatever else is in the first row of you excel file) and delete whatever is in ‘Sample Field Data’ &gt; Finish.</p>
-<p><em>a. This should show the first sample ID next to the barcode on the label. You might need to edit font size to fit the label. (Don’t exit barcode properties). In Font, select the appropriate size under Point Size &gt; Close.</em></p></li>
-<li><p>Re-size the barcode and sample ID within the margins of the label if necessary, by adjusting the barcode window on the label and/or editing barcode properties until your label looks the way you want (keep in mind the labels are small so try to maximize font size to fill out most of the label.</p>
-<p><em>a. At the bottom of the screen, you should see the number of labels you’re creating – should match the rows on the excel file. Use the arrows to scroll through the labels and make sure they all fit within the margins of the labels. Adjust accordingly, if needed.</em></p></li>
-<li><p>Hit Print on top of the page or File &gt; Print. It’s recommended to print the first ~5 labels first to see how the come out. To do that, select “Selected” under “Queried Records” and type 1-5 in “Selected Records”. Hit Print. If looks ok, print the rest. If you want to print all at once, select “All” under “Queried Records”.</p></li>
-<li><p>Cut off your labels from the printer, close document, close software.</p></li>
-</ol>
+<section id="access-nu-creative-cloud" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="access-nu-creative-cloud"><strong>Access NU Creative Cloud</strong></h2>
+<p>We have access to In Design, Illustrator, Photoshop, and Adobe Pro (for editing pdfs). Here is how to access the <a href="https://adobe.northeastern.edu/">Adobe Creative Cloud</a> and make sure to <a href="https://service.northeastern.edu/ogs?id=kb_article&amp;sys_id=4128ecdb1b42745069590dc1604bcbb2">follow the instructions here</a> (choose “active directory”)</p>
+</section>
+<section id="guidance-and-resources" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="guidance-and-resources"><strong>Guidance and resources</strong></h2>
+<p><a href="https://northeastern.zoom.us/rec/share/L4GY5DKi6XCi1nf8_RxkzyGyu6NAojZd4nsNsL1WpxiEfNp5qe_PHd5An9ngPANS.49r97rNHCjo5PNSH">Aug 31 2021 Lab meeting recording - Data Viz discussion from the NU specialist</a> (ask Katie for password)</p>
+<ul>
+<li><a href="https://subjectguides.lib.neu.edu/dataviz/tutorials">NU library page on data visualization resources</a></li>
+</ul>
+</section>
+<section id="templates" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="templates"><strong>Templates</strong></h2>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/raw/gh-pages/ClassicPresentationTheme.key">A Keynote color/font template for presentations and posters</a></p>
+<p><strong>A ggtheme for graphs with white backgrounds and dark grey lines</strong></p>
+<pre><code>ggtheme &lt;- theme_bw() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+panel.background = element_blank(), panel.border=element_blank(), axis.line = element_line(colour=“grey30”), 
+axis.title = element_text(colour=“grey20”), axis.text = (element_text(colour=“grey30”)), 
+legend.title = element_text(colour=“grey20”), legend.text = element_text(colour=“grey30”))</code></pre>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
