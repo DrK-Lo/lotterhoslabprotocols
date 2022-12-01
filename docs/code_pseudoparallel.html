@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>LotterhosLabProtocols – code_pseudoparallel</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">LotterhosLabProtocols</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">General</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_welcome.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_waste_clearing.html" class="sidebar-item-text sidebar-link">Clearing Lab Waste</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_summary.html" class="sidebar-item-text sidebar-link">Summary</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_ShippingHazMat.html" class="sidebar-item-text sidebar-link">Shipping of Hazardous Materials</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_shared_equipment.html" class="sidebar-item-text sidebar-link">NUMSC - Shared Lab Space</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_reimbursement.html" class="sidebar-item-text sidebar-link">Reimbursement</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_receiving.html" class="sidebar-item-text sidebar-link">Receiving Supplies and Equipment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_purchasing.html" class="sidebar-item-text sidebar-link">Purchasing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_ordering.html" class="sidebar-item-text sidebar-link">Ordering Supplies and Equipment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_MVI-scope-camera.html" class="sidebar-item-text sidebar-link">Scope Camera MVI Nikon SMZ 1000</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_GettingStarted.html" class="sidebar-item-text sidebar-link">Getting Started in the Lab</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_freezer.html" class="sidebar-item-text sidebar-link">Freezer Alarm System</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_fedex_ship.html" class="sidebar-item-text sidebar-link">FedEx Account</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_expectations.html" class="sidebar-item-text sidebar-link">Expectations</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link">Creating Barcoded Labels</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_chemical_inventory.html" class="sidebar-item-text sidebar-link">Managing Chemical Inventory</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_autoclave.html" class="sidebar-item-text sidebar-link">Autoclave (OGL)</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Professional Development</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_bioinformatics.html" class="sidebar-item-text sidebar-link">Bioinformatics Resources</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_checksums.html" class="sidebar-item-text sidebar-link">Transferring Files md5</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_defiance.html" class="sidebar-item-text sidebar-link">Accessing and Using Defiance Cluster</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_directoryorganization.html" class="sidebar-item-text sidebar-link">General Directory Organization</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_githhubMarkdown.html" class="sidebar-item-text sidebar-link">GitHub Figures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_LearningToCode.html" class="sidebar-item-text sidebar-link">Learning to Code</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_pathAndAliasMod.html" class="sidebar-item-text sidebar-link">Setting Alias or PATH variable</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_pseudoparallel.html" class="sidebar-item-text sidebar-link active">Pseudo-Parallelize Your Code on the Cluster</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_setseeds.html" class="sidebar-item-text sidebar-link">Setting Seeds for Reproducibility</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_TroubleshootingCellprofiler.html" class="sidebar-item-text sidebar-link">Troubleshooting CellProfiler Installation</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_unixcommands.html" class="sidebar-item-text sidebar-link">Basic Unix Commands</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_versioncontrol.html" class="sidebar-item-text sidebar-link">Version Control with GitHub</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Molecular Protocols</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_barcodesnindexes.html" class="sidebar-item-text sidebar-link">Determining Barcodes and Indexes for Illumina Sequencing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_dnaextractionomega.html" class="sidebar-item-text sidebar-link">DNA Extraction (Omega)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_dnaextractionqiagen.html" class="sidebar-item-text sidebar-link">DNA Extraction (Qiagen)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_dnaextractionspartina.html" class="sidebar-item-text sidebar-link">DNA Extraction (Spartina)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_gelelectrophoresis.html" class="sidebar-item-text sidebar-link">Gel Electrophoresis</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_illuminalibraryprep.html" class="sidebar-item-text sidebar-link">Illumina Library Prep</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_magbeadwash.html" class="sidebar-item-text sidebar-link">Magnetic Bead Wash</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_outdated.html" class="sidebar-item-text sidebar-link">Outdated Molecular Protocols</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_picoGreenAssay.html" class="sidebar-item-text sidebar-link">PicoGreen Assay</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_qPCR-Libraryquant.html" class="sidebar-item-text sidebar-link">Library Quantification</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_qPCRandBioRAD.html" class="sidebar-item-text sidebar-link">Molecular Protocols for Using the BioRAD qPCR Machine</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_rnaextraction.html" class="sidebar-item-text sidebar-link">RNA Extraction</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_solutionrecipes.html" class="sidebar-item-text sidebar-link">Solution Recipes</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_take3dnaquantification.html" class="sidebar-item-text sidebar-link">Take3 DNA Quantification</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_tapestationlibrarycheck.html" class="sidebar-item-text sidebar-link">TapeStation Library Check</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Coding Protocols</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_bioinformatics.html" class="sidebar-item-text sidebar-link">Bioinformatics Resources</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#pseudo-parallelize-your-code-on-the-cluster" id="toc-pseudo-parallelize-your-code-on-the-cluster" class="nav-link active" data-scroll-target="#pseudo-parallelize-your-code-on-the-cluster">Pseudo-Parallelize Your Code on the Cluster</a>
+  <ul class="collapse">
+  <li><a href="#bash-script-runscripts.sh" id="toc-bash-script-runscripts.sh" class="nav-link" data-scroll-target="#bash-script-runscripts.sh"><strong>Bash script runScripts.sh</strong></a></li>
+  <li><a href="#corresponding-myscript.r" id="toc-corresponding-myscript.r" class="nav-link" data-scroll-target="#corresponding-myscript.r"><strong>Corresponding MyScript.R</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="pseudo-parallelize-your-code-on-the-cluster" class="level1">
+<h1>Pseudo-Parallelize Your Code on the Cluster</h1>
+<hr>
+<p>Defiance has 72 (check) cores per comp node. Generally we like to leave a few available, so can parallelize code across up to 68 cores at once.</p>
+<p>For genomics, we’re often doing tests for many loci. Depending on the test, it may be faster to run each locus in serial on a core, and spread out different parts of the data across several cores (as opposed to running each locus in serial across all cores in parallel).</p>
+<p>To accomplish this, you will need a bash script and an R script. Examples are below.</p>
+<p>The bash script takes in the total number of tests you want to do (number of loci or number of rows in a data frame, for instance), and then calculates how many should be run in serial on each core. It then runs through a loop. In each iteration of the loop (the total number of iterations should be equal to the number of cores), the bash script calls the R code and sends information about which rows in the dataframe are to be run in the R code. Each iteration of the loop calls R in the background on a different core.</p>
+<p>Within the R code, another loop would be necessary to conduct the test for each row in the dataframe (not shown).</p>
+<section id="bash-script-runscripts.sh" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="bash-script-runscripts.sh"><strong>Bash script runScripts.sh</strong></h2>
+<p>Save this script as <code>runRscripts.sh</code></p>
+<pre><code>#!/bin/bash
+set -e
+set -u
+set -o pipefail
+
+
+## Use these two lines of code if you have a conda environmnent you'd like to activate
+## and list what's in that environment
+# source activate msprime-env
+# conda list
+
+mypath="/XXX" # set your path
+
+cd $mypath
+
+nrows=280000 # number of loci or rows to be tested. Improve this code by
+            # actually calculating it from the relevant dataframe with `wc`
+nlocipercore=$((nrows/67)) # the 67 comes from the fact we want to pseudoparallel over 68 cores
+echo nlocipercore $nlocipercore
+start=$(seq 1 $nlocipercore $nrows)
+echo $start
+
+for i in $start
+do
+    echo -e "\n\n"
+    end=$((i+nlocipercore-1))
+    
+    if [ $end -gt $nrows ]
+    then
+        end=$nrows
+    fi
+    
+    ## Use this code if you need to name an outfile here
+    ## You may also name it inside your R script
+    #outfile=${i}"_Invers_out.txt"
+    #outpath=${mypath}"/results/"
+    #outpathfile=${outpath}${outfile}
+    
+    ### Call R script
+    echo "Running R scripts for lines" echo 'start row' $i 'end row' $end
+    
+    Rscript --vanilla ../src/MyScript.R ${i} $end &gt; ${i}"_R.out" 2&gt; ${i}"_R.error" &amp; echo $!
+    
+    # the above line, using the $! at the end, will run the script in the background on a single core
+    # in the next iteration, it will run the script in the background on another core for a different set of rows
+    # do not wait until the last background process is finished
+    
+done</code></pre>
+</section>
+<section id="corresponding-myscript.r" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="corresponding-myscript.r"><strong>Corresponding MyScript.R</strong></h2>
+<p>MyScript.R should be located in the <code>src/MyScript.R</code> working directory. If it is located in a different place, than that needs to be specified in the bash script above.</p>
+<pre><code># install libraries
+
+args = commandArgs(trailingOnly=TRUE)
+
+# test if there is at least one argument: if not, return an error
+if (length(args)==0) {
+  stop("At least one argument must be supplied (input file).n", call.=FALSE)
+} 
+
+start_row = args[1]
+end_row = args[2]
+
+print(c("start_row", "end_row"))
+# Here you would call a loop or apply() function through these indexes of your data and output the results</code></pre>
+<p>Once you have these two scripts set up and working on a subset of data, you can just run the bash script like this</p>
+<pre><code>chmod +x runRscripts.sh
+./runRscripts.sh</code></pre>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
