@@ -9,7 +9,14 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Coding Protocols"
+        contents: 
+          - code_bioinformatics.qmd
+      
 format:
   html:
     theme: cosmo
@@ -17,4 +24,3 @@ format:
     toc: true
 
 editor: visual
-
