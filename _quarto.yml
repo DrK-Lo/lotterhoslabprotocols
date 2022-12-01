@@ -58,6 +58,17 @@ website:
           - molecprot_tapestationlibrarycheck.qmd
           - molecprot_qPCRandBioRAD.qmd
           - molecprot_outdated.qmd
+      - section: "Field and Sampling Protocols"
+        contents:
+          - field_collectsampdna.qmd
+          - field_collectsamprna.qmd
+          - field_conductivityloggers.qmd
+          - field_fieldsafety_protocol.qmd
+          - field_kayak.qmd
+          - field_oystersampling.qmd
+          - field_phloggers.qmd
+          - field_Seatables.qmd
+          - field_watersampling.qmd
       - section: "Coding Protocols"
         contents: 
           - code_bioinformatics.qmd

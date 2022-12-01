@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LotterhosLabProtocols – molecprot_illuminalibraryprep</title>
+<title>LotterhosLabProtocols – field_collectsampdna</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -276,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./molecprot_illuminalibraryprep.html" class="sidebar-item-text sidebar-link active">Illumina Library Prep</a>
+  <a href="./molecprot_illuminalibraryprep.html" class="sidebar-item-text sidebar-link">Illumina Library Prep</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -346,7 +346,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./field_collectsampdna.html" class="sidebar-item-text sidebar-link">Collecting Samples for DNA</a>
+  <a href="./field_collectsampdna.html" class="sidebar-item-text sidebar-link active">Collecting Samples for DNA</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -470,22 +470,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#illumina-library-prep" id="toc-illumina-library-prep" class="nav-link active" data-scroll-target="#illumina-library-prep">Illumina Library Prep</a>
+  <li><a href="#collecting-samples-for-dna" id="toc-collecting-samples-for-dna" class="nav-link active" data-scroll-target="#collecting-samples-for-dna">Collecting Samples for DNA</a>
   <ul class="collapse">
-  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><strong>Background</strong></a></li>
-  <li><a href="#kits-used" id="toc-kits-used" class="nav-link" data-scroll-target="#kits-used"><strong>Kits used</strong></a></li>
-  <li><a href="#materials-needed" id="toc-materials-needed" class="nav-link" data-scroll-target="#materials-needed"><strong>Materials needed</strong></a></li>
-  <li><a href="#equipment-needed" id="toc-equipment-needed" class="nav-link" data-scroll-target="#equipment-needed"><strong>Equipment needed</strong></a></li>
-  <li><a href="#tips-exposables" id="toc-tips-exposables" class="nav-link" data-scroll-target="#tips-exposables"><strong>Tips &amp; Exposables</strong></a></li>
-  <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><strong>Protocol</strong></a>
-  <ul class="collapse">
-  <li><a href="#end-repair-a-tailing" id="toc-end-repair-a-tailing" class="nav-link" data-scroll-target="#end-repair-a-tailing"><strong>End Repair &amp; A-tailing</strong></a></li>
-  <li><a href="#adapter-ligation" id="toc-adapter-ligation" class="nav-link" data-scroll-target="#adapter-ligation"><strong>Adapter Ligation</strong></a></li>
-  <li><a href="#post-ligation-cleanup" id="toc-post-ligation-cleanup" class="nav-link" data-scroll-target="#post-ligation-cleanup"><strong>Post-Ligation Cleanup</strong></a></li>
-  <li><a href="#pcr" id="toc-pcr" class="nav-link" data-scroll-target="#pcr"><strong>PCR</strong></a></li>
-  <li><a href="#post-pcr-cleanup" id="toc-post-pcr-cleanup" class="nav-link" data-scroll-target="#post-pcr-cleanup"><strong>Post-PCR Cleanup</strong></a></li>
-  <li><a href="#spot-check-libraries-on-a-tapestation-before-qpcr" id="toc-spot-check-libraries-on-a-tapestation-before-qpcr" class="nav-link" data-scroll-target="#spot-check-libraries-on-a-tapestation-before-qpcr"><strong>Spot check libraries on a tapestation before qPCR</strong></a></li>
-  </ul></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview"><strong>Overview</strong></a></li>
+  <li><a href="#tips" id="toc-tips" class="nav-link" data-scroll-target="#tips"><strong>Tips</strong></a></li>
+  <li><a href="#flash-freezing-in-liquid-n2" id="toc-flash-freezing-in-liquid-n2" class="nav-link" data-scroll-target="#flash-freezing-in-liquid-n2"><strong>Flash freezing in liquid N2</strong></a></li>
+  <li><a href="#ethanol" id="toc-ethanol" class="nav-link" data-scroll-target="#ethanol"><strong>Ethanol</strong></a></li>
+  <li><a href="#oglfix" id="toc-oglfix" class="nav-link" data-scroll-target="#oglfix"><strong>OGLFix</strong></a></li>
   </ul></li>
   </ul>
 </nav>
@@ -495,188 +486,49 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="illumina-library-prep" class="level1">
-<h1>Illumina Library Prep</h1>
-<p>The protocol for doing a library prep using Illumina kit</p>
+<section id="collecting-samples-for-dna" class="level1">
+<h1>Collecting Samples for DNA</h1>
+<p>Protocols and tips for collecting samples for DNA extraction</p>
 <hr>
-<p><em>Note: This protocol is unfinished</em></p>
-<section id="background" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="background"><strong>Background</strong></h2>
-<p>Before you start this, you should <a href="https://bmford11.github.io/lotterhoslabprotocols/barcodesnindexes/">determine the barcodes and index scheme for your library.</a></p>
-<p>Then, you should draw an outline of what is happening at each step in this protocol:</p>
-<p><a href="https://docs.google.com/document/d/1xr99sMucP-x2rK6K61vtGHKNahl9UYFwh_oEb0AtHX8/edit">Example Genomic Library Prep with inline barcodes and dual indexes</a></p>
-<p>This protocol is based on the KAPA Hyper Prep Kit <a href="https://rochesequencingstore.com/wp-content/uploads/2017/10/KAPA-HyperPrep-Kit_KR0961-%E2%80%93-v7.19.pdf">protocol</a> with added notes from both Jon Puritz and Sara Schaal. We performed the protocol using half reactions of everything compared to the original protocol.</p>
+<section id="overview" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="overview"><strong>Overview</strong></h2>
+<p>With next generation sequencing, it is important to consider all possible sources of contamination when collecting samples. It is also important to consider downstream analysis that may be affected by the method of preservation for collected samples. For example, best results for DNA extraction will come from flash-frozen DNA. For whole genome sequencing, DNA methylation and bisulfite sequencing, flash-frozen DNA is also the preferred collection method, but DNA stored in ethanol or OGLFix can also be used, as long as samples are not stored for a long time. It is very important that we all make the upmost effort to ensure that the samples are collected using sterile materials and appropriate technique, and that samples are well preserved, with the method of preservation well documented. Care and attention in sample collection for DNA extraction will ensure that time and resources are spent on good quality samples and are the first steps to obtaining a robust and reliable dataset.</p>
 </section>
-<section id="kits-used" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="kits-used"><strong>Kits used</strong></h2>
+<section id="tips" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="tips"><strong>Tips</strong></h2>
 <ul>
-<li>KAPA Hyper Prep Kit (Kit Code: KK8505)</li>
+<li><p><strong>Prepare ahead of time:</strong> All sample vials used to store tissue for DNA extraction should be sterilized by autoclaving ahead of time. Screw-cap cryovials are preferred (Fisher, cat #10-500-26). Be sure to get trained (online course and in-person training by OGL personnel) before using the autoclave. Make a list of all other materials needed to collect samples and autoclave what is autoclavable ahead of time. Remember to gather boxes, gloves and other PPE.</p></li>
+<li><p><strong>Smart label and metadata</strong>: In general, it is best practice to have tubes organized in a box, with at least 2 labels on each tube (in case one falls off). We have a barcode label printer (with freezer-proof labels) that can be used. Label the vials with species name or initials, and sample ID. <strong>Make sure to have unique sample IDs for each sample for your entire project</strong>. Label boxes with species name, project name, your initials, sampling date and location ahead of time. Make a spreadsheet listing the sample IDs and columns to record all other info and data about the study site, individuals and samples (lat/long, size and weight of animals, experimental treatment, etc).</p></li>
+<li><p><strong>Avoid cross-contamination</strong>: If possible, use a sterilized surface to handle or collect tissue or samples. Sterilize surface with 10% bleach, UV light and/or 70% ethanol, or use sterile plastic weigh boats. Always wear gloves. For anything that comes in contact with the animals and samples, use sterile disposable materials, one per individual, whenever possible. If using blades, use sterile blades or wipe each blade and all other materials (forceps, spatulas, etc) with 70% ethanol <strong>between individuals</strong> to avoid cross-contamination. If available, flame the blades to burn off the excess ethanol and further sterilize them. Be sure to get all bits of tissue off the blade and into the sample vial. Remember to dispose of sharps in a sharps container.</p></li>
+<li><p><strong>Amount of tissue sample:</strong> Collect an appropriate amount of tissue, so there will be enough sample to repeat or troubleshoot extraction if needed, and to archive the remaining tissue for future studies, to use as positive controls, etc. <strong>Typically, that means 1 to 1.5 inch piece of tissue.</strong> Use your best judgment to make sure that the entire tissue sample is submersed in fixative liquid (if that is your method of preservation). A sample that is too small may not yield enough DNA to proceed with sequencing and a sample that is too big for the vial may not be preserved well as the amount of preservative liquid in the vial may not permeate the whole tissue (see photo below).</p></li>
+<li><p><strong>Storage:</strong> Samples can be stored temporarily in liquid N2 but should be stored short term in the -20oC freezer and long term in the -80oC freezer. Minimize the amount of time that you keep the -80oC freezer door open and do not let the temperature rise above -70oC (this will set off the freezer alarms). <strong>Be mindful of the location you select to store your boxes in the -80oC freezer - we have an inventory that needs to be checked ahead of time and filled out to keep track of where samples are</strong>. Using the inventory helps minimizing the time that de freezer door is open when storing or retrieving boxes.</p></li>
 </ul>
 </section>
-<section id="materials-needed" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="materials-needed"><strong>Materials needed</strong></h2>
-<ul>
-<li><p>500 ng of DNA in 25 uL of RNAse free water that is sheared to the size appropriate for your library</p></li>
-<li><p>Primers at 15 uM (aliquots of i5 and i7 custom primers if using)</p></li>
-<li><p>Adapters at 15 uM (aliquots of annealed custom adapters if using)</p></li>
-<li><p>KAPA beads (or other beads)</p></li>
-</ul>
+<section id="flash-freezing-in-liquid-n2" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="flash-freezing-in-liquid-n2"><strong>Flash freezing in liquid N2</strong></h2>
+<p>Be sure to get trained by OGL personnel beforehand if using the liquid N2 dispenser at NUMSC. Place tissue into labelled cryovials. Make sure to use liquid N2 and -80oC freezer proof labels so they do not fall off. Use protective equipment to handle liquid N2: cryogenic gloves, closed-toe shoes, lab coat and goggles. Dispense liquid N2 into the dewar flask. Place a sample vials on a long-handle strainer and slowly submerse the strainer into liquid N2 in the dewar, releasing the cryovials into the liquid. If flash-freezing samples in the lab, wait 1-2 min and retreive the vials using the strainer. Make sure to retreive all vials from the dewar. Place cryovials in a storage box and transfer the box to the -80oC freezer. These cryovials are used for flash-freezing and temporary storage-only in liquid N2. If flash-freezing away from the lab, make sure to transfer vials to storage boxes and into the -80oC freezer as soon as possible.</p>
 </section>
-<section id="equipment-needed" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="equipment-needed"><strong>Equipment needed</strong></h2>
-<ul>
-<li><p>Thermo Mixer set at 20C and 400 rpm (this can be done in the thermocycler as well if you don’t have a thermo Mixer)</p></li>
-<li><p>Thermocycler - preprogrammed to have all thermocycler steps already set up: End Repair and A-Tailing and PCR.</p></li>
-<li><p>Magnetic Bead Rack</p></li>
-</ul>
+<section id="ethanol" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="ethanol"><strong>Ethanol</strong></h2>
+<p>Use regular grade 95% ethanol. Calculate how much ethanol will be needed for all samples you are collecting and pour that volume plus little extra from the stock ethanol container (stored into the flammables cabinet) into a beaker or another container of appropriate volume. You may need to adjust the concentration of ethanol, e.g., from 100% to 95% - use ultrapure water (MiliQ) or molecular grade water to do this dilution. Pre-fill screw-cap vials with 1.5-2mL of 95% ethanol using a pipette. <strong>Make sure to sumberse the whole tissue into ethanol so the liquid can permeate the whole tissue</strong> (see photo below). If samples preserved in ethanol are being shipped via FedEx, UPS, etc, you might need a Special or Hazardous Shipping form, label and to follow specific packaging instructions. Contact lab manager before shipping containers with ethanol.</p>
 </section>
-<section id="tips-exposables" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="tips-exposables"><strong>Tips &amp; Exposables</strong></h2>
-<ul>
-<li><p>filtered 10 uL</p></li>
-<li><p>filtered 20-200 uL</p></li>
-<li><p>Strip tubes or individual tubes depending on how many libraries you are prepping</p></li>
-</ul>
-</section>
-<section id="protocol" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="protocol"><strong>Protocol</strong></h2>
-<section id="end-repair-a-tailing" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="end-repair-a-tailing"><strong>End Repair &amp; A-tailing</strong></h3>
-<p>1.1 Assemble each end repair and A-tailing reaction in a tube or well of a PCR plate as follows:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Component</strong></th>
-<th style="text-align: left;"><strong>Volume</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Fragmented Double Stranded DNA</td>
-<td style="text-align: left;">25 uL</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">End Repair &amp; A-tailing Buffer</td>
-<td style="text-align: left;">3.5 uL</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">End Repair &amp; A-tailing Enzyme</td>
-<td style="text-align: left;">1.5 uL</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Total Volume</td>
-<td style="text-align: left;">30 uL</td>
-</tr>
-</tbody>
-</table>
-<p>Depending on how many libraries you are prepping, you can make a master mix of the buffer and enzyme to add to each sample well. If you do this, be sure to add about 10% volume of each component due to pipetting error.</p>
-<p>1.2 Vortex gently and spin down briefly. Return the plate/tube(s) to ice. Proceed immediately to the next step. 1.3 Incubate libraries in thermocycler set to the following protocol:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Step</strong></th>
-<th style="text-align: left;"><strong>Temp</strong></th>
-<th style="text-align: left;"><strong>Time</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">End Repair &amp; A-Tailing</td>
-<td style="text-align: left;">20 C</td>
-<td style="text-align: left;">30 min</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">’’</td>
-<td style="text-align: left;">65 C</td>
-<td style="text-align: left;">30 min</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">HOLD</td>
-<td style="text-align: left;">4 C</td>
-<td style="text-align: left;">*</td>
-</tr>
-</tbody>
-</table>
-<p>1.4 Proceed immediately to Adapter Ligation</p>
-</section>
-<section id="adapter-ligation" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="adapter-ligation"><strong>Adapter Ligation</strong></h3>
-<p>2.1 In the same plate/tube(s) in which end repair and A-tailing was performed, assemble each adapter ligation reaction as follows:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Component</strong></th>
-<th style="text-align: left;"><strong>Volume</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">End Repair &amp; A-Tailing Reaction Product</td>
-<td style="text-align: left;">30 uL</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Adapter stock (concentration as required)</td>
-<td style="text-align: left;">2.5 uL</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">PCR-grade water</td>
-<td style="text-align: left;">2.5 uL</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Ligation Buffer</td>
-<td style="text-align: left;">15 uL</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">DNA Ligase</td>
-<td style="text-align: left;">5 uL</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Total Volume</td>
-<td style="text-align: left;">55 uL</td>
-</tr>
-</tbody>
-</table>
-<p>Again, at this step you can make a master mix of the buffer, Ligase enzyme and water. If you do this, be sure to add about 10% volume of each component due to pipetting error.</p>
-<p>2.2 Mix thoroughly by pipetting up and down 15 times and centrifuge briefly. 2.3 Incubate at 20C for 60 minutes on the ThermoMixer with the rotations set at 400 rpm. 2.4 After incubation, proceed immediately to the next step</p>
-</section>
-<section id="post-ligation-cleanup" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="post-ligation-cleanup"><strong>Post-Ligation Cleanup</strong></h3>
-<p>3.1 In the same plate/tube(s), perform a 0.8X bead based cleanup by combining the following:</p>
-<table class="table">
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Component</strong></th>
-<th style="text-align: left;"><strong>Volume</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Adapter ligation reaction product</td>
-<td style="text-align: left;">55 uL</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">KAPA Pure Beads</td>
-<td style="text-align: left;">44 uL</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Total Volume</td>
-<td style="text-align: left;">99 uL</td>
-</tr>
-</tbody>
-</table>
-<p>3.2 Mix thoroughly by pipetting up and down 15 times. 3.3 Incubate the plate/tube(s) at room temperature for 10 min to bind DNA to the beads.</p>
-</section>
-<section id="pcr" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="pcr"><strong>PCR</strong></h3>
-</section>
-<section id="post-pcr-cleanup" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="post-pcr-cleanup"><strong>Post-PCR Cleanup</strong></h3>
-</section>
-<section id="spot-check-libraries-on-a-tapestation-before-qpcr" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="spot-check-libraries-on-a-tapestation-before-qpcr"><strong>Spot check libraries on a tapestation before qPCR</strong></h3>
+<section id="oglfix" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="oglfix"><strong>OGLFix</strong></h2>
+<p>OGLFix can be used instead of ethanol to preserve tissue for DNA extraction. Follow the same instructions described above for ethanol (no dilution needed). OGLFix can be shipped without hazardous designation. As for ethanol preservation, <strong>it is critical the the entire tissue is submersed in fixative.</strong> Refer to the OGLFix sampling protocol for detailed instructions.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://drk-lo.github.io/lotterhoslabprotocols/img/Samplingprotocolimmerse.png" class="img-fluid figure-img" alt="Sampling protocol immerse"></p>
+<p></p><figcaption class="figure-caption">Sampling protocol immerse</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://drk-lo.github.io/lotterhoslabprotocols/img/Samplingprotocolsize.png" class="img-fluid figure-img" alt="Samplingprotocolsize"></p>
+<p></p><figcaption class="figure-caption">Samplingprotocolsize</figcaption><p></p>
+</figure>
+</div>
 
 
-</section>
 </section>
 </section>
 
