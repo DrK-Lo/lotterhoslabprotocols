@@ -83,7 +83,19 @@ website:
           - code_TroubleshootingCellprofiler.qmd
           - code_unixcommands.qmd
           - code_versioncontrol.qmd
-      
+      - section: "Discovery"
+        contents:
+          - discovery_slurmArrays.qmd
+          - discovery_nonNEUpersonnel.qmd
+          - discovery_integrated-development-environment.qmd
+          - discovery_6-optimization.qmd
+          - discovery_5-parallelization.qmd
+          - discovery_4-examples.qmd
+          - discovery_3-storage.qmd
+          - discovery_2-globus.qmd
+          - discovery_1a-OOD.qmd
+          - discovery_1-gettingstarted.qmd
+          
 format:
   html:
     theme: cosmo
