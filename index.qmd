@@ -9,3 +9,5 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 ```{r}
 1 + 1
 ```
+
+![Girls workshop](img/2018%20girls%20workshop%20genomics.JPG){fig-alt="Girls workshop"}
