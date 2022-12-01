@@ -41,21 +41,23 @@ website:
           - profdev_courses.qmd
       - section: "Molecular Protocols"
         contents:
-         - molecprot_barcodesnindexes.qmd
-         - molecprot_dnaextractionomega.qmd
-         - molecprot_dnaextractionqiagen.qmd
-         - molecprot_dnaextractionspartina.qmd
-         - molecprot_gelelectrophoresis.qmd
-         - molecprot_illuminalibraryprep.qmd
-         - molecprot_magbeadwash.qmd
-         - molecprot_outdated.qmd
-         - molecprot_picoGreenAssay.qmd
-         - molecprot_qPCR-Libraryquant.qmd
-         - molecprot_qPCRandBioRAD.qmd
-         - molecprot_rnaextraction.qmd
-         - molecprot_solutionrecipes.qmd
-         - molecprot_take3dnaquantification.qmd
-         - molecprot_tapestationlibrarycheck.qmd
+          - molecprot_barcodesnindexes.qmd
+          - molecprot_dnaextractionomega.qmd
+          - molecprot_dnaextractionqiagen.qmd
+          - molecprot_dnaextractionspartina.qmd
+          - molecprot_gelelectrophoresis.qmd
+          - molecprot_illuminalibraryprep.qmd
+          - molecprot_qPCR-Libraryquant.qmd
+          - molecprot_rnaextraction.qmd
+          - molecprot_solutionrecipes.qmd
+      - section: "Molecular Equipment"
+        contents:
+          - molecprot_take3dnaquantification.qmd
+          - molecprot_picoGreenAssay.qmd
+          - molecprot_magbeadwash.qmd
+          - molecprot_tapestationlibrarycheck.qmd
+          - molecprot_qPCRandBioRAD.qmd
+          - molecprot_outdated.qmd
       - section: "Coding Protocols"
         contents: 
           - code_bioinformatics.qmd
