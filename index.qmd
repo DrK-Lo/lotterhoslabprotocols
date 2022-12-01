@@ -1,5 +1,5 @@
 ---
-title: "LotterhosLabProtocols"
+title: "Lotterhos Lab Protocols"
 ---
 
 This is a Quarto website.

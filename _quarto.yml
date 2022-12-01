@@ -13,6 +13,25 @@ website:
     style: "docked"
     search: true
     contents:
+      - section: "General"
+        contents:
+          - general_welcome.qmd 
+          - general_waste_clearing.qmd
+          - general_summary.qmd
+          - general_ShippingHazMat.qmd
+          - general_shared_equipment.qmd
+          - general_reimbursement.qmd
+          - general_receiving.qmd
+          - general_purchasing.qmd
+          - general_ordering.qmd
+          - general_MVI-scope-camera.qmd
+          - general_GettingStarted.qmd
+          - general_freezer.qmd
+          - general_fedex_ship.qmd
+          - general_expectations.qmd
+          - general_creating_barcoded_labels.qmd
+          - general_chemical_inventory.qmd
+          - general_autoclave.qmd
       - section: "Coding Protocols"
         contents: 
           - code_bioinformatics.qmd
