@@ -3,15 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "LotterhosLabProtocols"
+  title: "Lotterhos Lab Protocols"
+  page-navigation: true
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
   sidebar:
-    style: "docked"
+    style: "floating"
     search: true
+    collapse-level: 1
     contents:
       - section: "General"
         contents:
