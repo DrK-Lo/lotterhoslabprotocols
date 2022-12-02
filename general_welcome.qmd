@@ -14,7 +14,9 @@ This will help you know where certain items are in the lab that will help keep y
 
 -   **Safety Data Sheets and Hazardous Waste**:
 
-    -   All safety data sheets, chemical inventory and hazardous waste labels are in this binder... ![Alt text](https://drk-lo.github.io/lotterhoslabprotocols/img/labSafetyBinder.jpg){alt="Alt text"}
+    -   All safety data sheets, chemical inventory and hazardous waste labels are in this binder...
+
+        ![Alt text](img/labSafetyBinder.jpg){alt="Alt text"}
 
 -   **Hazardous Waste**:
 
@@ -48,4 +50,4 @@ This will help you know where certain items are in the lab that will help keep y
 
 ### **Computing** {.unnumbered}
 
--   Our lab and some other labs at the MSC have access to a computing cluster (defiance) so we can run scripts and simulations that may take days to run. Refer to [this page](https://drk-lo.github.io/lotterhoslabprotocols/defiance/) in order to gain access and learn how to use defiance.
+-   Our lab and some other labs at the MSC have access to a computing cluster (defiance) so we can run scripts and simulations that may take days to run. Refer to [this page](https://drk-lo.github.io/lotterhoslabprotocols/code_defiance.html) in order to gain access and learn how to use defiance.

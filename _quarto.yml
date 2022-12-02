@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-
+    
 website:
   title: "Lotterhos Lab Protocols"
   page-navigation: true
