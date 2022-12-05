@@ -8,13 +8,13 @@ I think taking 6308 + 6200 would be the best for new students, and if you had to
 
 #### **BINF6200: Bioinformatics Programming** {.unnumbered}
 
-![Screen Shot 2022-02-21 at 1 19 30 AM](https://user-images.githubusercontent.com/90652097/154899888-1b33bd9c-eb73-4c15-9597-c6ce8ce5b238.png){alt="Screen Shot 2022-02-21 at 1 19 30 AM"}
+![](https://user-images.githubusercontent.com/90652097/154899888-1b33bd9c-eb73-4c15-9597-c6ce8ce5b238.png){alt="Screen Shot 2022-02-21 at 1 19 30 AM"}
 
 Focuses on the fundamental programming skills required in the bioinformatics industry. Focuses on Python and R as the main programming language used. Topics include string operations, file manipulation, regular expressions, object-oriented programming, data structures, testing, program design, and implementation. Includes substantial out-of-classroom assignments.
 
 #### **BINF6308: Bioinformatics Computational Methods I** {.unnumbered}
 
-![Screen Shot 2022-02-21 at 1 13 52 AM](https://user-images.githubusercontent.com/90652097/154899281-621d969b-bc95-4d7a-80dc-5339be17a4ad.png){alt="Screen Shot 2022-02-21 at 1 13 52 AM"}
+![](https://user-images.githubusercontent.com/90652097/154899281-621d969b-bc95-4d7a-80dc-5339be17a4ad.png){alt="Screen Shot 2022-02-21 at 1 13 52 AM"}
 
 Offers the first semester of a two-semester sequence on the use of computers in bioinformatics research. Offers students an opportunity to work with current methods and computational algorithms used in contemporary sequence analysis. Teaches practical skills necessary to manage and mine the vast biological information being generated and housed in public databases. Emphasizes the use of Python as the primary computer language and requires students to learn and understand basic computer logic and syntax, including an introduction to scalars, arrays, hashes, decision statements, loops, subroutines, references, and regular expressions. A focus on fundamental skills, including the command line interface found in the Linux operating system, is designed to prepare students for second-semester applications.
 
@@ -42,7 +42,7 @@ Machine learning is a fast-pacing and exciting field achieving human-level perfo
 
 #### **ENVR6500: Biostatistics** {.unnumbered}
 
-![Screen Shot 2022-02-21 at 1 15 30 AM](https://user-images.githubusercontent.com/90652097/154899480-d6e17a72-8f9e-4b3f-9021-acd63b098de5.png){alt="Screen Shot 2022-02-21 at 1 15 30 AM"}
+![](https://user-images.githubusercontent.com/90652097/154899480-d6e17a72-8f9e-4b3f-9021-acd63b098de5.png){alt="Screen Shot 2022-02-21 at 1 15 30 AM"}
 
 Offers an overview of traditional and modern statistical methods used to analyze biological data using the free and open-source R programming environment. Lectures describe core statistical approaches and discuss their suitability for understanding patterns that arise at different levels of biological organization, from cellular processes to whole ecosystems. Supervised lab sessions offer students an opportunity to develop the R programming skills required to analyze the complex datasets that often emerge when addressing cutting-edge questions in biology. Topics include basic probability and sampling theory, experimental design, null hypothesis significance testing, t-tests and ANOVA, correlation and regression, likelihood, model selection, and information theory.
 
@@ -50,7 +50,7 @@ Offers an overview of traditional and modern statistical methods used to analyze
 
 #### **BIOL5585: Advanced Evolution** {.unnumbered}
 
-![Screen Shot 2022-02-21 at 1 05 51 AM](https://user-images.githubusercontent.com/90652097/154898463-499bc650-eee4-4d5d-8007-b00c4b6c9b4d.png){alt="Screen Shot 2022-02-21 at 1 05 51 AM"}
+![](https://user-images.githubusercontent.com/90652097/154898463-499bc650-eee4-4d5d-8007-b00c4b6c9b4d.png){alt="Screen Shot 2022-02-21 at 1 05 51 AM"}
 
 Discusses history of evolutionary theory and lines of evidence. Emphasis is on mechanisms of speciation. Introduces and discusses current evolutionary topics.
 
@@ -58,7 +58,7 @@ Discusses history of evolutionary theory and lines of evidence. Emphasis is on m
 
 #### **ENVR5260: Geographical Information Systems** {.unnumbered}
 
-![Screen Shot 2022-02-21 at 1 08 48 AM](https://user-images.githubusercontent.com/90652097/154898851-003915ee-c15b-4337-86c0-88d13357d739.png){alt="Screen Shot 2022-02-21 at 1 08 48 AM"}
+![](https://user-images.githubusercontent.com/90652097/154898851-003915ee-c15b-4337-86c0-88d13357d739.png){alt="Screen Shot 2022-02-21 at 1 08 48 AM"}
 
 This course explores the practical application of GIS to support geographic inquiry and decision making. It focuses on the technical knowledge of the common tasks that a GIS analyst faces in applying GIS to a variety of spatial problems. Students will gain hands-on experience with a leading commercial GIS software package.Students will have the opportunity to gain a good understanding of the concepts, principles, approaches, and techniques of spatial analysis using Geographic Information Systems.
 

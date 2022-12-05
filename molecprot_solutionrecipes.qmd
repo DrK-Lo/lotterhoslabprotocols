@@ -78,7 +78,7 @@ Note that we are transitioning to a EtBr-free facility. CAUTION: Ethidium bromid
 ### **CTAB** {.unnumbered}
 
 | **Ingredient**                                               | **Amount** |
-|:-----------------------------------------------------|:-----------------|
+|:-------------------------------------------------------------|:-----------|
 | 4M NaCl (Fisher #S271-1)                                     | 35 mL      |
 | 0.5M EDTA pH 8.0 (Fisher #BP120500)                          | 4 mL       |
 | 1M Tris-HCl pH 8.0                                           | 10 mL      |

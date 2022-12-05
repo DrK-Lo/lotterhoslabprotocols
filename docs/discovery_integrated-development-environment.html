@@ -37,10 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -562,25 +562,44 @@ ul.task-list li input[type="checkbox"] {
 <section id="vs-code" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="vs-code"><strong>VS Code</strong></h2>
 <ul>
-<li><p>Install the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">Remote Development Extensionpack</a> <img src="https://user-images.githubusercontent.com/8821725/159176412-c43f26ad-855a-46d8-918a-31bf41156bea.png" class="img-fluid"></p></li>
-<li><p>Once the Remote Development Extension is installed, open the Command Palette (⇧⌘P) and type “<strong>Remote-SSH: Connect to Host…</strong>” and you should see something like this <img src="https://user-images.githubusercontent.com/8821725/159713469-dcb1aebc-915e-495f-89b1-d3ca29ff7fd0.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 39 21 AM"></p></li>
-<li><p>After a moment, VS Code will connect to the SSH server and set itself up. VS Code will keep you up-to-date using a progress notification. After you are connected, you’ll be in an empty window. You can always refer to the Status bar to see which host you are connected to.<br>
-<img src="https://user-images.githubusercontent.com/8821725/159713970-a6471acf-e7db-4b43-a87f-316ee8feb9a5.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 45 28 AM"></p></li>
-<li><p>You should now be able to choose the folder you wish to open<br>
-<img src="https://user-images.githubusercontent.com/8821725/159714594-fa30ac5e-3666-492a-abb9-52de33fa2879.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 48 16 AM"></p></li>
-<li><p>After opening the folder destination you can begin to create new files or open that already exist <img src="https://user-images.githubusercontent.com/8821725/159715126-e0cc754b-ddb3-43ea-98a1-a1fa6a665f16.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 50 56 AM"></p></li>
+<li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">Remote Development Extensionpack</a></li>
 </ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159176412-c43f26ad-855a-46d8-918a-31bf41156bea.png" class="img-fluid"></p>
+<ul>
+<li>Once the Remote Development Extension is installed, open the Command Palette (⇧⌘P) and type “<strong>Remote-SSH: Connect to Host…</strong>” and you should see something like this</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159713469-dcb1aebc-915e-495f-89b1-d3ca29ff7fd0.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 39 21 AM"></p>
+<ul>
+<li>After a moment, VS Code will connect to the SSH server and set itself up. VS Code will keep you up-to-date using a progress notification. After you are connected, you’ll be in an empty window. You can always refer to the Status bar to see which host you are connected to.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159713970-a6471acf-e7db-4b43-a87f-316ee8feb9a5.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 45 28 AM"></p>
+<ul>
+<li>You should now be able to choose the folder you wish to open</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159714594-fa30ac5e-3666-492a-abb9-52de33fa2879.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 48 16 AM"></p>
+<ul>
+<li>After opening the folder destination you can begin to create new files or open that already exist</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159715126-e0cc754b-ddb3-43ea-98a1-a1fa6a665f16.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 50 56 AM"></p>
 </section>
 <section id="pycharm" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="pycharm"><strong>PyCharm</strong></h2>
 <ul>
-<li><p>After setting up a project first add the Remote Host tool window to the sidebar<img src="https://user-images.githubusercontent.com/8821725/159718453-3750eb37-6127-4c53-9e00-ffec62ba4a22.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 07 10 AM"></p></li>
-<li><p>If PyCharm opens the Remote Host tool window like a browser tab, you can drag it to the sidebar. Afterwards, click on it. Then click on the <code>...</code> next to the drop down menu. In the Deployment window, click the <code>+</code> button to add a new SFTP connection. This will then prompt you to give a server name, let’s use “discovery”.<br>
-<img src="https://user-images.githubusercontent.com/8821725/159719312-ca86411a-1d7d-4131-95a3-fa894d6eee94.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 11 28 AM"></p></li>
-<li><p>Next we need to set up the SSH Configuration - click the <code>...</code> next to the SSH Configuration drop-down menu. Fill in your credentials. I have passwordless ssh already configured (how-to link above) so I have selected to authenticate using my RSA key. Make sure to test the connection.<br>
-<img src="https://user-images.githubusercontent.com/8821725/159720760-74429eab-6aa7-4a5e-bbb9-eb3672879f72.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 19 02 AM"></p></li>
-<li><p>Close the SSH Configuration window to return to the Deployment window. Test the connection in the Deployment window. After a successful connection, close the Deployment window and select ‘discovery’ from the Remote Host drop-down menu. You should now be able to browse files on the remote server.<img src="https://user-images.githubusercontent.com/8821725/159721461-d1106690-d6f9-452d-983e-02913f4b625c.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 22 20 AM"></p></li>
+<li>After setting up a project first add the Remote Host tool window to the sidebar</li>
 </ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159718453-3750eb37-6127-4c53-9e00-ffec62ba4a22.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 07 10 AM"></p>
+<ul>
+<li>If PyCharm opens the Remote Host tool window like a browser tab, you can drag it to the sidebar. Afterwards, click on it. Then click on the <code>...</code> next to the drop down menu. In the Deployment window, click the <code>+</code> button to add a new SFTP connection. This will then prompt you to give a server name, let’s use “discovery”.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159719312-ca86411a-1d7d-4131-95a3-fa894d6eee94.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 11 28 AM"></p>
+<ul>
+<li>Next we need to set up the SSH Configuration - click the <code>...</code> next to the SSH Configuration drop-down menu. Fill in your credentials. I have passwordless ssh already configured (how-to link above) so I have selected to authenticate using my RSA key. Make sure to test the connection.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159720760-74429eab-6aa7-4a5e-bbb9-eb3672879f72.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 19 02 AM"></p>
+<ul>
+<li>Close the SSH Configuration window to return to the Deployment window. Test the connection in the Deployment window. After a successful connection, close the Deployment window and select ‘discovery’ from the Remote Host drop-down menu. You should now be able to browse files on the remote server.</li>
+</ul>
+<p><img src="https://user-images.githubusercontent.com/8821725/159721461-d1106690-d6f9-452d-983e-02913f4b625c.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 22 20 AM"></p>
 <p><br>
 </p>
 

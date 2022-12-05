@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lotterhos Lab Protocols – labtransition</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Lotterhos Lab Protocols</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">General</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_welcome.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_waste_clearing.html" class="sidebar-item-text sidebar-link">Clearing Lab Waste</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_summary.html" class="sidebar-item-text sidebar-link">Summary</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_ShippingHazMat.html" class="sidebar-item-text sidebar-link">Shipping of Hazardous Materials</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_shared_equipment.html" class="sidebar-item-text sidebar-link">NUMSC - Shared Lab Space</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_reimbursement.html" class="sidebar-item-text sidebar-link">Reimbursement</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_receiving.html" class="sidebar-item-text sidebar-link">Receiving Supplies and Equipment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_purchasing.html" class="sidebar-item-text sidebar-link">Purchasing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_ordering.html" class="sidebar-item-text sidebar-link">Ordering Supplies and Equipment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_MVI-scope-camera.html" class="sidebar-item-text sidebar-link">Scope Camera MVI Nikon SMZ 1000</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_GettingStarted.html" class="sidebar-item-text sidebar-link">Getting Started in the Lab</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_freezer.html" class="sidebar-item-text sidebar-link">Freezer Alarm System</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_fedex_ship.html" class="sidebar-item-text sidebar-link">FedEx Account</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_expectations.html" class="sidebar-item-text sidebar-link">Expectations</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link">Creating Barcoded Labels</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_chemical_inventory.html" class="sidebar-item-text sidebar-link">Managing Chemical Inventory</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../general_autoclave.html" class="sidebar-item-text sidebar-link">Autoclave (OGL)</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Professional Development</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../profdev.html" class="sidebar-item-text sidebar-link">Professional Development Resources</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../profdev_ReducingCognitiveLoad.html" class="sidebar-item-text sidebar-link">Reducing Cognitive Load</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../profdev_How-to-publish-a-paper.html" class="sidebar-item-text sidebar-link">How to Publish a Paper</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../profdev_design.html" class="sidebar-item-text sidebar-link">Design</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../profdev_courses.html" class="sidebar-item-text sidebar-link">Graduate Courses</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Molecular Protocols</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_barcodesnindexes.html" class="sidebar-item-text sidebar-link">Determining Barcodes and Indexes for Illumina Sequencing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_dnaextractionomega.html" class="sidebar-item-text sidebar-link">DNA Extraction (Omega)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_dnaextractionqiagen.html" class="sidebar-item-text sidebar-link">DNA Extraction (Qiagen)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_dnaextractionspartina.html" class="sidebar-item-text sidebar-link">DNA Extraction (Spartina)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_gelelectrophoresis.html" class="sidebar-item-text sidebar-link">Gel Electrophoresis</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_illuminalibraryprep.html" class="sidebar-item-text sidebar-link">Illumina Library Prep</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_qPCR-Libraryquant.html" class="sidebar-item-text sidebar-link">Library Quantification</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_rnaextraction.html" class="sidebar-item-text sidebar-link">RNA Extraction</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_solutionrecipes.html" class="sidebar-item-text sidebar-link">Solution Recipes</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Molecular Equipment</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_take3dnaquantification.html" class="sidebar-item-text sidebar-link">Take3 DNA Quantification</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_picoGreenAssay.html" class="sidebar-item-text sidebar-link">PicoGreen Assay</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_magbeadwash.html" class="sidebar-item-text sidebar-link">Magnetic Bead Wash</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_tapestationlibrarycheck.html" class="sidebar-item-text sidebar-link">TapeStation Library Check</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_qPCRandBioRAD.html" class="sidebar-item-text sidebar-link">Molecular Protocols for Using the BioRAD qPCR Machine</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molecprot_outdated.html" class="sidebar-item-text sidebar-link">Outdated Molecular Protocols</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">Field and Sampling Protocols</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_collectsampdna.html" class="sidebar-item-text sidebar-link">Collecting Samples for DNA</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_collectsamprna.html" class="sidebar-item-text sidebar-link">Collecting Samples for RNA</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_conductivityloggers.html" class="sidebar-item-text sidebar-link">Conductivity Loggers</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_fieldsafety_protocol.html" class="sidebar-item-text sidebar-link">Field Safety Protocol</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_kayak.html" class="sidebar-item-text sidebar-link">Lab Kayak Care</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_oystersampling.html" class="sidebar-item-text sidebar-link">Oyster Sampling</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_phloggers.html" class="sidebar-item-text sidebar-link">pH Loggers</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_Seatables.html" class="sidebar-item-text sidebar-link">Managing Seatables</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../field_watersampling.html" class="sidebar-item-text sidebar-link">Water Sampling</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">Coding Protocols</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_bioinformatics.html" class="sidebar-item-text sidebar-link">Bioinformatics Resources</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_checksums.html" class="sidebar-item-text sidebar-link">Transferring Files md5</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_defiance.html" class="sidebar-item-text sidebar-link">Accessing and Using Defiance Cluster</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_directoryorganization.html" class="sidebar-item-text sidebar-link">General Directory Organization</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_githhubMarkdown.html" class="sidebar-item-text sidebar-link">GitHub Figures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_LearningToCode.html" class="sidebar-item-text sidebar-link">Learning to Code</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_pathAndAliasMod.html" class="sidebar-item-text sidebar-link">Setting Alias or PATH variable</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_pseudoparallel.html" class="sidebar-item-text sidebar-link">Pseudo-Parallelize Your Code on the Cluster</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_setseeds.html" class="sidebar-item-text sidebar-link">Setting Seeds for Reproducibility</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_TroubleshootingCellprofiler.html" class="sidebar-item-text sidebar-link">Troubleshooting CellProfiler Installation</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_unixcommands.html" class="sidebar-item-text sidebar-link">Basic Unix Commands</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../code_versioncontrol.html" class="sidebar-item-text sidebar-link">Version Control with GitHub</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">Discovery</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_slurmArrays.html" class="sidebar-item-text sidebar-link">Parallelization with Array</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_nonNEUpersonnel.html" class="sidebar-item-text sidebar-link">Instructions for Discovery for Non-Northeastern Personnel</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_integrated-development-environment.html" class="sidebar-item-text sidebar-link">What are VS Code and PyCharm?</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_6-optimization.html" class="sidebar-item-text sidebar-link">Optimizing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_5-parallelization.html" class="sidebar-item-text sidebar-link">Workflow Parallelization Approaches</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_4-examples.html" class="sidebar-item-text sidebar-link">Example Scripts</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_3-storage.html" class="sidebar-item-text sidebar-link">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_2-globus.html" class="sidebar-item-text sidebar-link">Globus File Transfer</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_1a-OOD.html" class="sidebar-item-text sidebar-link">Open OnDemand</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../discovery_1-gettingstarted.html" class="sidebar-item-text sidebar-link">Connecting to the Discovery Cluster</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#rcr-training" id="toc-rcr-training" class="nav-link active" data-scroll-target="#rcr-training">RCR training</a></li>
+  <li><a href="#rcn-stuff" id="toc-rcn-stuff" class="nav-link" data-scroll-target="#rcn-stuff">RCN stuff</a></li>
+  <li><a href="#bsb-transition" id="toc-bsb-transition" class="nav-link" data-scroll-target="#bsb-transition">BSB transition</a></li>
+  <li><a href="#oyster-environment-data-transition" id="toc-oyster-environment-data-transition" class="nav-link" data-scroll-target="#oyster-environment-data-transition">Oyster environment data transition</a></li>
+  <li><a href="#health-and-safety" id="toc-health-and-safety" class="nav-link" data-scroll-target="#health-and-safety">Health and Safety</a></li>
+  <li><a href="#equipment" id="toc-equipment" class="nav-link" data-scroll-target="#equipment">Equipment</a></li>
+  <li><a href="#freezer" id="toc-freezer" class="nav-link" data-scroll-target="#freezer">Freezer</a></li>
+  <li><a href="#purchasing" id="toc-purchasing" class="nav-link" data-scroll-target="#purchasing">Purchasing</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#protocols" id="toc-protocols" class="nav-link" data-scroll-target="#protocols">Protocols</a></li>
+  <li><a href="#thais-madeline-lab-transition-meeting" id="toc-thais-madeline-lab-transition-meeting" class="nav-link" data-scroll-target="#thais-madeline-lab-transition-meeting">2021-11-18 Thais &amp; Madeline Lab Transition Meeting</a></li>
+  <li><a href="#thais-remy-lab-transition-meeting" id="toc-thais-remy-lab-transition-meeting" class="nav-link" data-scroll-target="#thais-remy-lab-transition-meeting">2021-11-18 Thais &amp; Remy Lab Transition Meeting</a></li>
+  <li><a href="#haz-waste-question-marks" id="toc-haz-waste-question-marks" class="nav-link" data-scroll-target="#haz-waste-question-marks">2021-11-24 - Haz Waste question marks</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<p>Thais, Sara, and Alan are all leaving the lab in December.</p>
+<section id="rcr-training" class="level1">
+<h1>RCR training</h1>
+<ul>
+<li><input type="checkbox" disabled="">Madeline and Remy need to take this<br>
+</li>
+<li><a href="https://research.northeastern.edu/nu-res/compliance/responsible-conduct-of-research/">Link to main page</a></li>
+<li><a href="https://research.northeastern.edu/nu-res/training/">Link to instructions</a> Take the Biomedical RCR 103094</li>
+<li><input type="checkbox" disabled="">RG put training certificate in <a href="https://drive.google.com/drive/folders/1N9LvYxImWE2LLymTPidXoM3yNlDYbo5T">Lotterhos Lab folder</a></li>
+<li><input type="checkbox" disabled="">ME put training certificate in <a href="https://drive.google.com/drive/folders/1N9LvYxImWE2LLymTPidXoM3yNlDYbo5T">Lotterhos Lab folder</a></li>
+</ul>
+</section>
+<section id="rcn-stuff" class="level1">
+<h1>RCN stuff</h1>
+<p>– <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages/notebook/RCN_reference_docs">Thais’ notes on RCN social media stuff</a> - [ ] KEL move this to RCN github site (?)</p>
+</section>
+<section id="bsb-transition" class="level1">
+<h1>BSB transition</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Show Remy where the samples are in the freezer<br>
+– look for samples under “Project - BlackSeabass” in the lab’s <a href="https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=0">freezer database</a><br>
+– more <a href="https://github.com/thais-neu/BlackSeaBass_project/blob/master/lab_notebook/20201120_DNAextracts_freezerlocation.md">BSB leftover tissue and extracts storage info</a></li>
+<li><input type="checkbox" disabled="" checked="">Transition the RADseq pipeline to her<br>
+– <a href="https://github.com/thais-neu/BlackSeaBass_project/tree/master/BSB_ddRAD">RADseq data storage and pipeline info</a><br>
+– Thais’ <a href="https://github.com/thais-neu/BlackSeaBass_project">BSB repo</a><br>
+– this specific entry has a <a href="https://github.com/thais-neu/BlackSeaBass_project/blob/master/genome_notebook/20210804_fishingtrip.md">list of supplies</a> purchased in 2021 for the project.<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">KEL add Remy to our list of users on Discovery and give access</li>
+</ul></li>
+</ul>
+</section>
+<section id="oyster-environment-data-transition" class="level1">
+<h1>Oyster environment data transition</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Thais and Katie will train Madeline in oyster <a href="https://github.com/DrK-Lo/EasternOysterEnvData/">environment data</a><ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Thais &amp; Madeline went over the data – additionally, here is the link to the <a href="https://github.com/ModelValidationProgram/OysterAFClinesFullGenome">preliminary RDA analysis we ran using SNP (oyster_reseq) &amp; env data</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="health-and-safety" class="level1">
+<h1>Health and Safety</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">KEL Take Thais (and Alan) off the lab’s EHS site - Bioraft profile - Katie to Do<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Remy has training to complete</li>
+<li><input type="checkbox" disabled="" checked="">Sara taken out of Bioraft (Thais)</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="">Take Thais, Alan, and Sara off Door sign and Freezer contact list and Freezer monitoring<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">lab door sign (bioraft) updated - has Katie, Remy &amp; Ryan Hill</li>
+<li><input type="checkbox" disabled="" checked="">Remy &amp; Madeline added to freezer call tree</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="">Chemicals - Thais will train Madeline and Remy incoming chemicals, and write protocol<ul class="task-list">
+<li><input type="checkbox" disabled="">KEL move to protocols <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/chemical_inventory.md">link</a></li>
+<li><input type="checkbox" disabled="">Madeline in Charge</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="">Waste clearing - Thais will train Madeline and Remy, and write protocol<ul class="task-list">
+<li><input type="checkbox" disabled="">KEL move to protocols <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/waste_clearing.md">link</a></li>
+<li><input type="checkbox" disabled="">Remy in Charge</li>
+</ul></li>
+<li><input type="checkbox" disabled="">KEL Take Thais off the Group Complaince Liason - contact Emma Gubler (e.gubler@northeastern.edu)</li>
+</ul>
+</section>
+<section id="equipment" class="level1">
+<h1>Equipment</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">Sara - train Remy and Madeline on Core Equipment<ul class="task-list">
+<li><input type="checkbox" disabled="">Sonicator</li>
+<li><input type="checkbox" disabled="">qPCR in Bowen Lab</li>
+<li><input type="checkbox" disabled="">Tapestation</li>
+</ul></li>
+<li><input type="checkbox" disabled="">Alan - train Remy and Madeline on Core Equipment<ul class="task-list">
+<li><input type="checkbox" disabled="">Plate reader</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="">Thais will give Remy and Madeline a tour of the gel doc<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Madeline</li>
+<li><input type="checkbox" disabled="" checked="">Remy</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="">Shared lab space - there is no one responsible for tip waste - people should bring their own containers</li>
+<li><input type="checkbox" disabled="" checked="">Shared lab space - electrophoresis room - people need to bring their own waste containers - used pipette tips cannot be in an open container - needs to be in a mayo jar with lid and label</li>
+</ul>
+</section>
+<section id="freezer" class="level1">
+<h1>Freezer</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Thais - train Remy and Madeline on freezer – <a href="https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/">reference lab protocol</a><br>
+– <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/minus80_scheme.png">freezer map</a></li>
+</ul>
+</section>
+<section id="purchasing" class="level1">
+<h1>Purchasing</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Thais and Katie will train Remy in Purchasing<br>
+– <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/purchasing.md">purchasing protocol</a><ul class="task-list">
+<li><input type="checkbox" disabled="">KEL move to protocols</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="">Thais will write FedEx protocol<br>
+– <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/fedex_ship.md">FedEx protocol</a><ul class="task-list">
+<li><input type="checkbox" disabled="">KEL move to protocols</li>
+</ul></li>
+<li><input type="checkbox" disabled="" checked="">TB will update the account with KEL’s info</li>
+</ul>
+</section>
+<section id="data" class="level1">
+<h1>Data</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">alan and Sara should think about data accessibility after graduation</li>
+<li><input type="checkbox" disabled="">back up on hard drives</li>
+<li><input type="checkbox" disabled="">Lotterhos lab on Discovery - permissions and folders - KATIE</li>
+</ul>
+</section>
+<section id="protocols" class="level1">
+<h1>Protocols</h1>
+<ul class="task-list">
+<li><input type="checkbox" disabled="">Take3 / Pico Green / plate reader better explanation - Sara</li>
+<li><input type="checkbox" disabled="" checked="">Illumina Library Prep - Sara is working on</li>
+<li><input type="checkbox" disabled="">Shared Lab Space - broken links - KATIE</li>
+<li><input type="checkbox" disabled="">Covaris - Sara will check</li>
+</ul>
+</section>
+<section id="thais-madeline-lab-transition-meeting" class="level1">
+<h1>2021-11-18 Thais &amp; Madeline Lab Transition Meeting</h1>
+<ul>
+<li><p><input type="checkbox" disabled="" checked=""><a href="https://github.com/ModelValidationProgram/EasternOysterEnvData/tree/master/final_site_env">Oyster Environmental Data</a></p></li>
+<li><p><a href="https://www.google.com/maps/d/edit?mid=1lgMGFGFNZIHxBEfI2eZBPsmDu_zM06nI&amp;ll=29.095470191097615%2C-85.05581390625001&amp;z=5">map</a> sites:</p>
+<ul>
+<li>P = Wild Populations for which whole genome sequencing is available - we tried to find env data for each pop, <a href="https://github.com/ModelValidationProgram/EasternOysterEnvData/tree/master/final_site_env">have several different data sources, including USGS &amp; NERR, but also others</a>; <strong>these env datasets have been QCed by Thais.</strong></li>
+<li>C = new locations to consider collecting new samples. All have sal and temp data; <strong>these env datasets have not been QCed by Thais.</strong></li>
+</ul></li>
+<li><p>env data sources so far are mainly:</p>
+<ol type="1">
+<li>USGS <a href="https://waterdata.usgs.gov/nwis/inventory?agency_code=USGS&amp;site_no=02327031">example</a><br>
+- <a href="https://dashboard.waterdata.usgs.gov/app/nwd/?region=lower48&amp;aoi=default">map</a> &gt; select station &gt; Data &gt; Select Parameters &gt; Output format data-separated &gt; Select data range</li>
+<li>NERR <a href="http://cdmo.baruch.sc.edu/aqs/">example</a>
+<ul>
+<li>Home &gt; View/download data (map) &gt; Data Graphing and Export System &gt; select site &gt; click on monitoring station from list or map &gt; click to select &gt; Download Data &gt; Select Date Range &amp; Data type (all inclusive) &gt; Proceed to Download &gt; Fill out form &gt; Submit Request to CDMO (you’ll get the data file via email within a few minutes, mabye a couple hours).<br>
+</li>
+<li>note there are other ways of batch-requesting data from multiple monitoring stations; we were selecing sites based on proximity to oyster sites, so I did it one by one, as described above.</li>
+</ul></li>
+</ol></li>
+<li><p>data downloads - show how to download from USGS &amp; NERR</p></li>
+<li><p>USGS data QC</p>
+<ul>
+<li>example: <a href="https://github.com/ModelValidationProgram/EasternOysterEnvData/tree/master/final_site_env">LA_CL_SL_Low_W_Temp</a></li>
+<li>‘all data’ tab (raw) has unfiltered data.</li>
+<li>flags are ‘A’ (approved) and ‘P’ (provisional-not vetted, usually a time lag of a few months)</li>
+<li>flag-filtered tab: only includes A datapoints.</li>
+</ul></li>
+<li><p>NERR data QC</p>
+<ul>
+<li>example: <a href="https://github.com/ModelValidationProgram/EasternOysterEnvData/tree/master/final_site_env">TX_PM_LM_High_W_Temp</a></li>
+<li>‘all data’ tab (raw) has unfiltered data.</li>
+<li>multiple flags (historical, provisional, Flag code).</li>
+<li>flag-filtered tab: flags are more complex in NERR data; we filtered based on Flag codes, excluding data outside of sensor range, QAQC rejected, missing data, field or instrument maintenance days, cause unknown, instrument or sensor malfunction, data collected at wrong depth.</li>
+</ul></li>
+<li><p>USGS &amp; NERR Flag-filtered data:</p>
+<ul>
+<li>Plot whole dataset to double-check for bad data/significant outliers.</li>
+<li>Included a Year column and a Month column from datetime.</li>
+<li>Plot Year vs Month to identify significant holes in the dataset.</li>
+<li>Make a pivot table, will need it to calculate the ‘yearly’ parameters below.<br>
+</li>
+<li>Calculate data summary: N_all, Mean_all, Stdev_all (from all datatpoints) &amp; N_years, Mean_yearly_max, stdev_yearly_max, Mean_yearly_min, Stdev_yearly_min (from pivot table).</li>
+<li><strong>decided against</strong> using dd_0, dd_15, dd_30 because that would be biased by variations in data resolution (every 15min vs monthly; missing winter data or other wholes in datasets)</li>
+</ul></li>
+<li><p><a href="https://github.com/ModelValidationProgram/OysterAFClinesFullGenome">RDA</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="">Freezer</p></li>
+<li><p><a href="https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=1360256868">freezer database</a></p></li>
+<li><p>freezer map</p>
+<ul>
+<li>example: sample X is located at 1234 - this means shelf #1, column #2, drawer #3 and box #4 <img src="https://user-images.githubusercontent.com/52291277/142252508-14794a04-8693-42c9-a03b-82ee3f34fce9.png" class="img-fluid" alt="minus80_scheme"></li>
+</ul></li>
+<li><p>sample box labels</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/52291277/142253899-2bf14984-f66f-43f8-82c3-bfb387a76577.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">box label example</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li><p>alarm &amp; maintenance <a href="https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/">reference lab protocol</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="">Training Chemicals</p></li>
+</ul>
+<p><a href="https://github.com/thais-neu/Thais_lab_protocols/blob/master/incoming_chemicals.md">Manage Chemical Inventory</a></p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Training Waste</li>
+</ul>
+<p><a href="https://github.com/thais-neu/Thais_lab_protocols/blob/master/waste_clearing.md">Manage Lab Haz Waste</a></p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Purchasing</li>
+</ul>
+</section>
+<section id="thais-remy-lab-transition-meeting" class="level1">
+<h1>2021-11-18 Thais &amp; Remy Lab Transition Meeting</h1>
+<ul>
+<li><p><input type="checkbox" disabled="" checked="">Black SeaBass RADseq data</p></li>
+<li><p><input type="checkbox" disabled="" checked="">Freezer<br>
+</p></li>
+<li><p>show Remy where BSB samples are in the freezer.</p></li>
+<li><p><a href="https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=1360256868">freezer database</a></p></li>
+<li><p>freezer map <img src="https://user-images.githubusercontent.com/52291277/142252508-14794a04-8693-42c9-a03b-82ee3f34fce9.png" class="img-fluid" alt="minus80_scheme"></p></li>
+<li><p>sample box labels</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/52291277/142253899-2bf14984-f66f-43f8-82c3-bfb387a76577.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">box label example</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li><p>alarm &amp; maintenance <a href="https://drk-lo.github.io/lotterhoslabprotocols/general_freezer/">reference lab protocol</a></p></li>
+<li><p><input type="checkbox" disabled="" checked="">Training Chemicals</p></li>
+</ul>
+<p><a href="https://github.com/thais-neu/Thais_lab_protocols/blob/master/incoming_chemicals.md">Manage Chemical Inventory</a></p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Training Waste</li>
+</ul>
+<p><a href="https://github.com/thais-neu/Thais_lab_protocols/blob/master/waste_clearing.md">Manage Lab Haz Waste</a></p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="">Purchasing, Shipping</li>
+</ul>
+<p><a href="https://github.com/thais-neu/Thais_lab_protocols/blob/master/lab_purchasing.md">purchase</a><br>
+<a href="https://github.com/thais-neu/Thais_lab_protocols/blob/master/fedex_ship.md">fedex</a></p>
+</section>
+<section id="haz-waste-question-marks" class="level1">
+<h1>2021-11-24 - Haz Waste question marks</h1>
+<p><img src="https://user-images.githubusercontent.com/52291277/143311311-f4b4d2d0-948e-422b-b83f-6dbf3dfab04c.jpg" class="img-fluid" alt="samples_bywindow"> <img src="https://user-images.githubusercontent.com/52291277/143311312-087f270e-1137-48e3-8ee1-c8e211f0e2ff.jpg" class="img-fluid" alt="tissue_cassette"> <img src="https://user-images.githubusercontent.com/52291277/143311325-ee68e79a-f3bc-445b-8db2-ebb6fdf52649.jpg" class="img-fluid" alt="unlabelled_mayo"> <img src="https://user-images.githubusercontent.com/52291277/143311340-12d0eeff-a403-4926-b06b-7c10362d60f8.jpg" class="img-fluid" alt="beaker"> <img src="https://user-images.githubusercontent.com/52291277/143311354-103033fd-8a80-4601-9f11-68c0f362f31c.jpg" class="img-fluid" alt="mayo_waste"> <img src="https://user-images.githubusercontent.com/52291277/143311362-a6cdb500-9ed5-4d33-86b8-8a3e9cb9e909.jpg" class="img-fluid" alt="samples_bysink"></p>
+<p>Alan - update protocol for pico meth kit with custom primers https://github.com/epigeneticstoocean/2018OAExp_larvae/blob/master/protocols/libraryPrep.md</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

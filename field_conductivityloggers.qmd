@@ -24,7 +24,7 @@ To initialize the logger:
 
 7.  To properly start and connect the logger press the coupler lever
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/couplerlever.jpg){alt="\"\""}
+![](img/couplerlever.jpg){alt=""}
 
 1.  This starts the logger and you should see a 'Installing device drive software' message on your screen
 

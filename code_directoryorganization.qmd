@@ -31,6 +31,8 @@ A README file written in [markdown](https://www.markdownguide.org/cheat-sheet) c
       results - What kind of result files are here?
       data - What sort of data?
 
-Once you've set up your project folder, it should look something like this: ![folder example](https://drk-lo.github.io/img/eg_structure.png){alt="folder example"}
+Once you've set up your project folder, it should look something like this:
+
+![](img/eg_structure.png)
 
 Quick notes: simfiles folder results folder src folder

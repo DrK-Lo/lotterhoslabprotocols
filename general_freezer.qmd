@@ -30,9 +30,9 @@ Your logins are first initial, last name/names. All lowercase with no spaces or 
 
 We need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/freezerimage.png){alt=""}
+![](img/freezerimage.png){alt=""}
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/freezerinhibit.png){alt=""}
+![](img/freezerinhibit.png){alt=""}
 
 ## **Defrosting the -80C freezer** {.unnumbered}
 

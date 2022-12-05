@@ -58,7 +58,7 @@ If you are using the seatables, please follow the following:
 
 -   Check the plugs for corrosion. Scrub with green abrasive pad.
 
-    -   ![Image Name](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts1.JPG){alt="Image Name"}
+![](img/UVpicts1.JPG){alt="Image Name"}
 
 ### **Unfiltered Seawater** {.unnumbered}
 
@@ -94,17 +94,17 @@ If you are using the seatables, please follow the following:
 
 Read the instructions!
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts2.JPG){alt=""} ![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts3.JPG){alt=""}
+![](img/UVpicts2.JPG){alt=""} ![](img/UVpicts3.JPG){alt=""}
 
 ### **Signs there is a problem** {.unnumbered}
 
 If you see water in the quartz sleeve, this means it was not put together correctly and it leaked.
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts4.JPG){alt=""}
+![](img/UVpicts4.JPG){alt=""}
 
 Also look for signs that the bulb is burning out by the black residue inside the quartz tube:
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts10.JPG){alt=""}
+![](img/UVpicts10.JPG){alt=""}
 
 If the light is blue does that mean the UV light is working? Read the instructions to find the answer to this question. The answer will surprise you.
 
@@ -112,35 +112,35 @@ If the light is blue does that mean the UV light is working? Read the instructio
 
 Make sure when you change the bulb, to follow the instructions and use silicone grease. It can be found in a plastic box with a white top labeled "hot glue, silicone grease, etc."
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts6.JPG){alt=""}
+![](img/UVpicts6.JPG){alt=""}
 
 On the gasket (which should be changed once a year), make sure to put some silicone grease on the inside and smoosh it around with your finger:
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts8.JPG){alt=""}
+![](img/UVpicts8.JPG){alt=""}
 
 Make sure to follow these instructions as you put it back together:
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts9.JPG){alt=""}
+![](img/UVpicts9.JPG){alt=""}
 
 This is wrong:
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts14.JPG){alt=""}
+![](img/UVpicts14.JPG){alt=""}
 
 Make sure when you put it back together, screw in the coupling tight before attaching it to the housing:
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts15.JPG){alt=""}
+![](img/UVpicts15.JPG){alt=""}
 
 It's hard to see, but check that the gasket is securely in place:
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts16.JPG){alt=""}
+![](img/UVpicts16.JPG){alt=""}
 
 When you put the wires in, make sure not to let them get twisted by carefully stuffing them inside,
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts17.JPG){alt=""}
+![](img/UVpicts17.JPG){alt=""}
 
 then holding the top wire taught (don't let it twist) while you screw the top on:
 
-![](https://drk-lo.github.io/lotterhoslabprotocols/img/UVpicts18.JPG){alt=""}
+![](img/UVpicts18.JPG){alt=""}
 
 ### **Annual maintenance for UV lights** {.unnumbered}
 
