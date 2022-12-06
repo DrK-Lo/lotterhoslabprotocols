@@ -2,6 +2,8 @@
 
 ------------------------------------------------------------------------
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/code_bioinformatics.qmd)
+
 ## **Data Skills** {.unnumbered}
 
 Vince Buffalo's *Bioinformatic Data Skills* is a great book to build skills. Katie has a set of great readings for learning, contact her for more info.
