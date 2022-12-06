@@ -67,6 +67,7 @@ website:
           - field_conductivityloggers.qmd
           - field_fieldsafety_protocol.qmd
           - field_oystersampling.qmd
+          - field_kayak.qmd
           - field_phloggers.qmd
           - field_Seatables.qmd
           - field_watersampling.qmd
