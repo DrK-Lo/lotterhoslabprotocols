@@ -100,7 +100,7 @@ website:
           
 format:
   html:
-    theme: cosmo
+    theme: darkly
     css: styles.css
     toc: true
 
