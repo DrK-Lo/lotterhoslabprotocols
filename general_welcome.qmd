@@ -1,5 +1,7 @@
 # Welcome
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/general_welcome.qmd)
+
 An introduction to the lab for those that are new. This will help you orient yourself to where things can be found and how to access them.
 
 ------------------------------------------------------------------------
