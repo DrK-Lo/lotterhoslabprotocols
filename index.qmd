@@ -2,8 +2,10 @@
 title: "Lotterhos Lab Protocols"
 ---
 
-This is a Quarto website.
+This is the Lotterhos Lab Protocols Website. 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+[Edit this site](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages)
 
-![Girls workshop](img/2018%20girls%20workshop%20genomics.JPG){fig-alt="Girls workshop"}
+![Photo from our 2020 Workshop for High School Girls](img/2018%20girls%20workshop%20genomics.JPG){fig-alt="Girls workshop"}
+
+This is a Quarto website.To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
