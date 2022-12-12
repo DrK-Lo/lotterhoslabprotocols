@@ -2,7 +2,7 @@
 title: "Lotterhos Lab Protocols"
 ---
 
-This is the Lotterhos Lab Protocols Website. 
+This is the Lotterhos Lab Protocols Website.
 
 [Edit this site](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages)
 
