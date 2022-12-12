@@ -20,8 +20,8 @@ website:
           - general_welcome.qmd 
           - general_expectations.qmd
           - general_GettingStarted.qmd
-          - general_waste_clearing.qmd
           - general_summary.qmd
+          - general_waste_clearing.qmd
           - general_ShippingHazMat.qmd
           - general_shared_equipment.qmd
           - general_reimbursement.qmd
