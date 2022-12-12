@@ -1,7 +1,7 @@
 on:
   workflow_dispatch:
   push:
-    branches: gh-pages
+    branches: main
 
 name: Quarto Publish
 
@@ -20,6 +20,6 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
-          target: gh-pages/docs
+          target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
