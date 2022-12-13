@@ -1,5 +1,7 @@
 # Lab Kayak Care
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_kayak.qmd)
+
 ------------------------------------------------------------------------
 
 ## **Kayak checkout list** {.unnumbered}
@@ -34,7 +36,7 @@
 
 ## **Kayak predeparture checks** {.unnumbered}
 
--   Read the [Instructions](https://drk-lo.github.io/lotterhoslabprotocols/img/kayak_Aquaglide_Manual_2017.pdf). You should be able to answer these questions. Which parts of the kayak do you inflate first? What position should the Boston valves be in when you inflate them? How do you deflate?
+-   Read the [Instructions](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/3c95e7d8ac78ef4add5a264f890aa551c9d68c84/img/kayak_Aquaglide_Manual_2017.pdf). You should be able to answer these questions. Which parts of the kayak do you inflate first? What position should the Boston valves be in when you inflate them? How do you deflate?
 
 -   Make sure all the zippers are completely closed, with the zipper tucked under the fabric.
 
