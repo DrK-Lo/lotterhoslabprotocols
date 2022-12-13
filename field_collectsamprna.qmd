@@ -1,5 +1,7 @@
 # Collecting Samples for RNA
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_collectsamprna.qmd)
+
 The protocol for collecting samples for RNA extraction
 
 ------------------------------------------------------------------------
