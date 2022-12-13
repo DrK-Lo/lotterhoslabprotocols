@@ -1,5 +1,7 @@
 # Autoclave (OGL)
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_autoclave.qmd)
+
 The protocol for using the autoclave in OGL
 
 ------------------------------------------------------------------------
