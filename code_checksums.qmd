@@ -1,5 +1,7 @@
 # Transferring Files md5
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_checksums.qmd)
+
 ------------------------------------------------------------------------
 
 We recommend using GLOBUS (add link) to tranfer files. However, if you use another file tranfer mechanism, use md5sums to make sure your files transferred successfully.
