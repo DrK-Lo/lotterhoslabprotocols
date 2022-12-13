@@ -1,5 +1,7 @@
 # Workflow Parallelization Approaches
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_5-parallelization.qmd)
+
 ------------------------------------------------------------------------
 
 Workflow parallelization approaches:
@@ -69,7 +71,7 @@ In addition, this kind of code will not work: `#SBATCH —array=1001-1951%68` be
     print(Sys.time()-strt)
     stopCluster(cl)
 
-source: https://beckmw.wordpress.com/2014/01/21/a-brief-foray-into-parallel-processing-with-r/
+[Source](https://beckmw.wordpress.com/2014/01/21/a-brief-foray-into-parallel-processing-with-r/)
 
 Then, you can set up an array job that looks like this:
 
