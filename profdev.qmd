@@ -1,5 +1,7 @@
 # Professional Development Resources
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev.qmd)
+
 ------------------------------------------------------------------------
 
 ## **Collecting data and metadata** {.unnumbered}
@@ -22,7 +24,7 @@
 
 ## **Microaggresion** {.unnumbered}
 
--   [Recognizing and addressing microaggression](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/Recognizing%20and%20Addressing%20Microaggressions%20Takewaways%202021.pdf)
+-   [Recognizing and addressing microaggression](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/23fad2ce227a603e8d3bc604bd203538ea84cbb5/img/RecognizingandAddressingMicroaggressionsTakewaways2021.pdf)
 
 ## **Reviewing manuscripts and writing rejections** {.unnumbered}
 
@@ -30,7 +32,7 @@
 
 ## **Statistics** {.unnumbered}
 
--   \[2020 Lab discussion how to mix model\]{https://docs.google.com/document/d/1jQZkbZbZuWnElYmLUntg5qgh1NG2-yAbsT3zzvmbkZ0/edit#heading=h.btb80w3ha1pf}
+-   [2020 Lab discussion how to mix mode] (https://docs.google.com/document/d/1jQZkbZbZuWnElYmLUntg5qgh1NG2-yAbsT3zzvmbkZ0/edit#heading=h.btb80w3ha1pf)
 
 ## **Grant writing** {.unnumbered}
 
@@ -118,7 +120,7 @@ One time I had severe fatigue. My doctor did a vitamin panel and it turned out t
 
 -   https://earthoptimism.si.edu/resources/educational-resources/
 
--   Here's a faculty resource from American Sociological Association on dealing emotional reactions to climate grief: https://cpb-us-e1.wpmucdn.com/sites.ucsc.edu/dist/1/1169/files/2021/06/When-students-have-powerful-reactions.pdf
+-   [Faculty resource from American Sociological Association on dealing emotional reactions to climate grief] (https://cpb-us-e1.wpmucdn.com/sites.ucsc.edu/dist/1/1169/files/2021/06/When-students-have-powerful-reactions.pdf)
 
 ## **Conflicts of interest** {.unnumbered}
 
