@@ -1,5 +1,7 @@
 # Lotterhos Lab vs. Personal Storage on Discovery
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_3-storage.qmd)
+
 ------------------------------------------------------------------------
 
 -   We have **active** storage (10 TB) that should be used for 'active' projects, and **archival** storage for storing raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr. Lotterhos to make sure only relevant files are being archived.
