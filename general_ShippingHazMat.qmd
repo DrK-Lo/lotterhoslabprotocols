@@ -1,5 +1,7 @@
 # Shipping of Hazardous Materials
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_ShippingHazMat.qmd)
+
 This is applicable in cases when hazardous materials are shipped in 'small quantity'. Double-check with NU's Environmental and Health Safety (EHS) what volume is considered 'small quantity' before deciding that your shipment qualifies as excepted quantities.
 
 Example: sample vials with 95% ethanol -- up to 100 mL (total ethanol volume).
