@@ -34,7 +34,7 @@ There are extra steps required when receiving chemicals
 
 3.  Add pre-printed barcode to chemical container
 
-![""](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/60ecd53cfafe8f3b6d7f4298e997e3272fc3f868/img/chemicallabels.JPG){alt="\"\""}
+![""](img/chemicallabels.JPG){alt="\"\""}
 
 1.  Log into myNortheastern
 
