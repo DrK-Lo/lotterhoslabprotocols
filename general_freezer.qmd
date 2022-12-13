@@ -1,5 +1,7 @@
 # Freezer Alarm System
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_freezer.qmd)
+
 ------------------------------------------------------------------------
 
 NU contact: Dennis Todd
@@ -8,7 +10,7 @@ Here is the link for the Rees system: http://NOR926.ReesCloud.net
 
 Your logins are first initial, last name/names. All lowercase with no spaces or extra characters, just letters.
 
-## [**Phone alarm handling instructions**](https://drk-lo.github.io/lotterhoslabprotocols/img/PhoneAlarmHandlingInstructionsCentronNUcontactDennisTodd.pdf) {.unnumbered}
+## [**Phone alarm handling instructions**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/6ec4f70e2ace782d7a004a869a0caa5432cf9d74/img/PhoneAlarmHandlingInstructionsCentronNUcontactDennisTodd.pdf) {.unnumbered}
 
 -   Your pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers
 
