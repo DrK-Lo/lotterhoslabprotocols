@@ -1,5 +1,7 @@
 # Illumina Library Prep
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_illuminalibraryprep.qmd)
+
 The protocol for doing a library prep using Illumina kit
 
 ------------------------------------------------------------------------
