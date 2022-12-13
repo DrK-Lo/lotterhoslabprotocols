@@ -1,5 +1,7 @@
 # Water Sampling
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_watersampling.qmd)
+
 The protocol for collecting water samples for the BioOce project
 
 ------------------------------------------------------------------------
