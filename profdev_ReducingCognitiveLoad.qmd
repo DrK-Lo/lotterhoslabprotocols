@@ -1,5 +1,7 @@
 # Reducing Cognitive Load
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_ReducingCognitiveLoad.qmd)
+
 ------------------------------------------------------------------------
 
 ## **Reducing load on ourselves** {.unnumbered}
