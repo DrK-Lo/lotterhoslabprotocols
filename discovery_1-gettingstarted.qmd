@@ -104,3 +104,7 @@ OR For 20 minutes on the debug partition:
 ## **Overview presentation** {.unnumbered}
 
 Here is a presentation from Research Computing on terminology and optimizing workflows in the lab: [Optimization_Lotterhos_labmeeting_Sekar-V2.pdf](https://drk-lo.github.io/lotterhoslabprotocols/img/Optimization_Lotterhos_labmeeting_Sekar-V2.pdf)
+
+## Brandon's recordings on how to set up RSA keys and run Jupyter Notebooks
+
+[link to recording](https://northeastern.zoom.us/rec/share/6Dk1hHTMZkHi5xzATYImct7cEF93266l7zqqURsNu89qNSWIKCicqzfaw1VRMgbq.RBN-9ikQWzw6UEfc) Passcode: 0u?9rW&%
