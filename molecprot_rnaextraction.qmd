@@ -1,24 +1,26 @@
 # RNA Extraction
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_rnaextraction.qmd)
+
 The protocol for extracting RNA from tissue samples
 
 ------------------------------------------------------------------------
 
--   [General tips for RNA extraction](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction/#general-tips-for-rna-extraction)
+-   [General tips for RNA extraction](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction.html#general-tips-for-rna-extraction)
 
--   [Homogenize tissue sample with TissueRuptor](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction/#homogenize-tissue-sample-with-tissueruptor)
+-   [Homogenize tissue sample with TissueRuptor](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction.html#homogenize-tissue-sample-with-tissueruptor)
 
 ## **Kits that we use** {.unnumbered}
 
--   [TRI Reagent RNA Isolation](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction/#protocol-for-tri-reagent-rna-isolation)
+-   [TRI Reagent RNA Isolation](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction.html#protocol-for-tri-reagent-rna-isolation)
 
     -   (Trizol based)
 
     -   Works well with *Crassostrea virginica*
 
--   [Qiagen RNAeasy Kit](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction/#protocol-with-qiagen-rnaeasy-kit)
+-   [Qiagen RNAeasy Kit](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction.html#protocol-with-qiagen-rnaeasy-kit)
 
--   [ZYMO Quick DNA/RNA Miniprep](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction/#protocol-for-zymo-quick-dna-rna-miniprep-and-tissueruptor-homogenization)
+-   [ZYMO Quick DNA/RNA Miniprep](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction.html#protocol-for-zymo-quick-dna-rna-miniprep-and-tissueruptor-homogenization)
 
 ## **General tips for RNA extraction** {.unnumbered}
 
