@@ -1,5 +1,7 @@
 # Gel Electrophoresis
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_gelelectrophoresis.qmd)
+
 The protocol for running a gel
 
 ------------------------------------------------------------------------
