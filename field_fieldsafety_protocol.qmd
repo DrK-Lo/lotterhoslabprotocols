@@ -1,12 +1,14 @@
 # Field Safety Protocol
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_fieldsafety_protocol.qmd)
+
 ------------------------------------------------------------------------
 
--   [Planning](https://drk-lo.github.io/lotterhoslabprotocols/field_fieldsafety_protocol/#planning)
+-   [Planning](https://drk-lo.github.io/lotterhoslabprotocols/field_fieldsafety_protocol.html#planning)
 
--   [Training](https://drk-lo.github.io/lotterhoslabprotocols/field_fieldsafety_protocol/#training)
+-   [Training](https://drk-lo.github.io/lotterhoslabprotocols/field_fieldsafety_protocol.html#training)
 
--   [Incident Response & Reporting](https://drk-lo.github.io/lotterhoslabprotocols/field_fieldsafety_protocol/#emergency-procedures)
+-   [Incident Response & Reporting](https://drk-lo.github.io/lotterhoslabprotocols/field_fieldsafety_protocol.html#emergency-procedures)
 
 ## **Planning** {.unnumbered}
 
