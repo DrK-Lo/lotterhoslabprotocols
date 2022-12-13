@@ -1,8 +1,10 @@
 # Open OnDemand
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_1a-OOD.qmd)
+
 ------------------------------------------------------------------------
 
--   Check on the Open On Demand - R studio and Jupyter notebooks! Open OnDemand [ood.discovery.neu.edu](https://drk-lo.github.io/lotterhoslabprotocols/discovery_1a-OOD/ood.discovery.neu.edu)
+-   Check on the Open On Demand - R studio and Jupyter notebooks! Open OnDemand [ood.discovery.neu.edu](ood.discovery.neu.edu)
 
     -   You also open a JupyterHub interface (jupyterhub.discovery.neu.edu)
 
