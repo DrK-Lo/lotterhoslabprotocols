@@ -1,5 +1,7 @@
 # Globus File Transfer
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_2-globus.qmd)
+
 ------------------------------------------------------------------------
 
 -   Globus is a system for transferring files. The pros:
@@ -20,7 +22,7 @@
 
 ## **Getting started with Globus on Discovery** {.unnumbered}
 
--   Go to [globus.org](https://drk-lo.github.io/lotterhoslabprotocols/discovery_2-globus/globus.org)
+-   Go to [globus.org](globus.org)
 
 -   Click on "Login", from the dropdown list choose "Northeastern University", login with your NU credentials
 
@@ -68,4 +70,4 @@
 
         -   click on "Add Permissions - share with" and enter the email associated with the globus account you want to share with
 
-Question for research computing - can we link Globus with Google drive? https://docs.globus.org/how-to/access-google-drive/
+Question for research computing - can we link Globus with Google drive? https://docs.globus.org/how-to/access-google-storage/
