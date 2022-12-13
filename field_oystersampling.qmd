@@ -1,5 +1,7 @@
 # Oyster Sampling
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_oystersampling.qmd)
+
 ------------------------------------------------------------------------
 
 This protocols page does not exist yet.
