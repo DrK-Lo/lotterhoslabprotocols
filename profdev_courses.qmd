@@ -1,5 +1,7 @@
 # Graduate Courses
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_courses.qmd)
+
 ------------------------------------------------------------------------
 
 ### **Bioinformatics** {.unnumbered}
