@@ -1,5 +1,7 @@
 # Pseudo-Parallelize Your Code on the Cluster
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_pseudoparallel.qmd)
+
 ------------------------------------------------------------------------
 
 Defiance has 72 (check) cores per comp node. Generally we like to leave a few available, so can parallelize code across up to 68 cores at once.
