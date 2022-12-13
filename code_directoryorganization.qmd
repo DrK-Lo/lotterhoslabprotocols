@@ -1,5 +1,7 @@
 # General Directory Organization
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_directoryorganization.qmd)
+
 The protocol for maintaining consistency when creating directories
 
 ------------------------------------------------------------------------
