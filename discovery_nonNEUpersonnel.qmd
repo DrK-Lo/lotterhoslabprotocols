@@ -1,11 +1,13 @@
 # Instructions for Discovery for Non-Northeastern Personnel
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_nonNEUpersonnel.qmd)
+
 ------------------------------------------------------------------------
 
-1\) Request a Northeastern sponsored [account](https://research.northeastern.edu/nu-res/request-nu-sponsored-account/)
+1) Request a Northeastern sponsored [account](https://research.northeastern.edu/nu-res/request-nu-sponsored-account/)
 
-2\) Download Duo Two Factor Authentication
+2) Download Duo Two Factor Authentication
 
-3\) In order to login into Duo with your new Northeastern Account, call [Northeastern IT](https://its.northeastern.edu/support/) to set up duo access with them (needed for non-northeastern people)
+3) In order to login into Duo with your new Northeastern Account, call [Northeastern IT](https://its.northeastern.edu/support/) to set up duo access with them (needed for non-northeastern people)
 
-4\) submit a second [form](https://rc-docs.northeastern.edu/en/latest/get_started/get_access.html) to get a sponsored Discovery account in addition to a sponsored NEU ID
+4) Submit a second [form](https://rc-docs.northeastern.edu/en/latest/get_started/get_access.html) to get a sponsored Discovery account in addition to a sponsored NEU ID
