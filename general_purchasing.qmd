@@ -1,5 +1,7 @@
 # Purchasing
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_purchasing.qmd)
+
 Any purchases made with grant funds above \$10K need to be routed through the University's procurement department. To be ahead of the process, make sure you have at least 3 quotes from different vendors for each \>\$10K purchase.
 
 ------------------------------------------------------------------------
