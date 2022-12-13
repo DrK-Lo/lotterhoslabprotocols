@@ -1,5 +1,7 @@
 # Version Control with GitHub
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_versioncontrol.qmd)
+
 The protocol for keeping track of different versions using GitHub
 
 ------------------------------------------------------------------------
