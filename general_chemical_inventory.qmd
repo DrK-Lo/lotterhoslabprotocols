@@ -1,5 +1,7 @@
 # Managing Chemical Inventory
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_chemical_inventory.qmd)
+
 ------------------------------------------------------------------------
 
 Chemicals (including kits) purchased by any lab member, for any purpose, and stored in one of our labs (Edwards bldg and bunker lab) **MUST** be barcoded and added to our chemical inventory which is hosted in the BioRAFT platform.
