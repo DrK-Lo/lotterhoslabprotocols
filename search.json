@@ -431,7 +431,7 @@
     "href": "code_LearningToCode.html#learning-python",
     "title": "Lotterhos Lab Protocols",
     "section": "Learning Python",
-    "text": "Learning Python\n\nOn a mac, I recommend downloading Anaconda. I don’t know about running python on a PC.\nThis free python textbook is the best https://python-textbok.readthedocs.io/en/1.0/Python_Basics.html\nThis is a great resource for learning python, but the courses are not free: (https://pythonforbiologists.com/)[https://pythonforbiologists.com/]\n\nIn the menu, under training courses, there is a lot of options\nI bought the book “Introduction to Python for Biologists” and went through it myself\n\nHere are some resources I have yet to vet"
+    "text": "Learning Python\n\nOn a mac, I recommend downloading Anaconda. I don’t know about running python on a PC.\nThis free python textbook is the best https://python-textbok.readthedocs.io/en/1.0/Python_Basics.html\nThis is a great resource for learning python, but the courses are not free: (https://pythonforbiologists.com/)[https://pythonforbiologists.com/]\n\nIn the menu, under training courses, there is a lot of options\nI bought the book “Introduction to Python for Biologists” and went through it myself\n\nHere are some resources I have yet to vet\nlearning aspects of python based around Harry Potter examples (they changed names to avoid copyright problems). Note the GitHub page has link to blog posts that walk through the code. https://github.com/zotroneneis/magical_universe Here is the podcast about this, lots of other cool topics too. https://talkpython.fm/episodes/show/186/100-days-of-python-in-a-magical-universe"
   },
   {
     "objectID": "code_LearningToCode.html#learning-bioinformatics",
