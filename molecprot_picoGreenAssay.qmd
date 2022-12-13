@@ -1,5 +1,7 @@
 # PicoGreen Assay
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd)
+
 The protocol for checking quantification of DNA using the PicoGreen Assay on the Plate Reader
 
 ------------------------------------------------------------------------
