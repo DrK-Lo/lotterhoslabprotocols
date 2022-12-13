@@ -1,5 +1,7 @@
 # Expectations
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_expectations.qmd)
+
 ------------------------------------------------------------------------
 
 ## **These are expectations for everyone in the lab** {.unnumbered}
