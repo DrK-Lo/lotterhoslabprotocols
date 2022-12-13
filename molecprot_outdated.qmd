@@ -1,5 +1,7 @@
 # Outdated Molecular Protocols
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_outdated.qmd)
+
 ------------------------------------------------------------------------
 
 Outdated molecular protocols
