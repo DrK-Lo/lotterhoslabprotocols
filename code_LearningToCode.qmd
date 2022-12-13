@@ -1,18 +1,18 @@
 # Learning to Code
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_LearningToCode.qmd)
+
 ------------------------------------------------------------------------
 
 ## Options for downloading programs
 
-[Edit this page link](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/code_LearningToCode.md)
-
 1.  You can download and install on your computer
 
-2.  You can use NU's [Open On Demand](https://drk-lo.github.io/lotterhoslabprotocols/code_LearningToCode/ood.discovery.neu.edu) for R Studio, command line, and python, and more!
+2.  You can use NU's [Open On Demand](ood.discovery.neu.edu) for R Studio, command line, and python, and more!
 
     -   To use OOD, you have to have an NU email, and have Discovery access (NU's HPC cluster).
 
-        -   [Instructions to get Discovery access for non-NU people](https://drk-lo.github.io/lotterhoslabprotocols/discovery_nonNEUpersonnel/)
+        -   [Instructions to get Discovery access for non-NU people](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/2205b0b11ab25138b001238eb535d09fed760fde/discovery_nonNEUpersonnel.qmd)
 
     -   Once you have Discovery Access, you can follow [these intructions](https://docs.google.com/document/d/1sJAnQXE8-r_4ssr5VfVv0oZKFrrrRFxspdxx2kNdaLI/edit#heading=h.61692qeq0wnf), but instead of the `course` dropdown menu, use the `Interactive Apps` dropdown to find the program you need
 
@@ -60,8 +60,8 @@ I recommend starting with the "R programming E" course
 
 4.  Here are some [resources I have yet to vet](https://wiki.python.org/moin/BeginnersGuide/Programmers)
 
-5. learning aspects of python based around Harry Potter examples (they changed names to avoid copyright problems). Note the GitHub page has link to blog posts that walk through the code. https://github.com/zotroneneis/magical_universe
-Here is the podcast about this, lots of other cool topics too. https://talkpython.fm/episodes/show/186/100-days-of-python-in-a-magical-universe
+5. learning aspects of python based around Harry Potter examples (they changed names to avoid copyright problems). Note the GitHub page has link to blog posts that walk through the code. [https://github.com/zotroneneis/magical_universe](https://github.com/zotroneneis/magical_universe)
+Here is the podcast about this, lots of other cool topics too. [https://talkpython.fm/episodes/show/186/100-days-of-python-in-a-magical-universe](https://talkpython.fm/episodes/show/186/100-days-of-python-in-a-magical-universe)
 
 ## **Learning Bioinformatics** {.unnumbered}
 
@@ -69,15 +69,14 @@ Here is the podcast about this, lots of other cool topics too. https://talkpytho
 
 ## **Learning Machine Learning** {.unnumbered}
 
-https://christophm.github.io/interpretable-ml-book/
-
+[https://christophm.github.io/interpretable-ml-book/](https://christophm.github.io/interpretable-ml-book/)
 https://www.fast.ai/
 
-https://course.fast.ai/start_colab
+[https://course.fast.ai/start_colab](https://course.fast.ai/start_colab)
 
 ## **Learning SLiM** {.unnumbered}
 
-http://benhaller.com/workshops/workshops.html
+[http://benhaller.com/workshops/workshops.html](http://benhaller.com/workshops/workshops.html)
 
 ## **Advanced concepts** {.unnumbered}
 
@@ -99,4 +98,4 @@ http://benhaller.com/workshops/workshops.html
 
 ## **Other** {.unnumbered}
 
-https://github.com/thais-neu/Thais-learning-code
+[https://github.com/thais-neu/Thais-learning-code](https://github.com/thais-neu/Thais-learning-code)
