@@ -1,5 +1,7 @@
 # Troubleshooting CellProfiler Installation
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_TroubleshootingCellprofiler.qmd)
+
 Steps to take if errors occur during installation
 
 ------------------------------------------------------------------------
