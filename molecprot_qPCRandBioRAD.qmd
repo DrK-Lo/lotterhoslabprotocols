@@ -1,5 +1,7 @@
 # Molecular Protocols for Using the BioRAD qPCR Machine
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_qPCRandBioRAD.qmd)
+
 ------------------------------------------------------------------------
 
 This protocols page does not exist yet.
