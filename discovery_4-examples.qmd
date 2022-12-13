@@ -1,5 +1,7 @@
 # Example Scripts
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_4-examples.qmd)
+
 ------------------------------------------------------------------------
 
 This protocols page does not exist yet.
