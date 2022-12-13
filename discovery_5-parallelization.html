@@ -543,6 +543,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="workflow-parallelization-approaches" class="level1">
 <h1>Workflow Parallelization Approaches</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_5-parallelization.qmd">Edit this page</a></p>
 <hr>
 <p>Workflow parallelization approaches:</p>
 <p><em>a. One the shared resources</em>, limits on each partition are determined according to the following table: https://rc-docs.northeastern.edu/en/latest/hardware/partitions.html#introduction. If your jobs have exceeded those limits, this may have been the cause of job terminations.</p>
@@ -593,7 +594,7 @@ ls&lt;-foreach(icount(iters)) %dopar% {
 &nbsp;&nbsp;&nbsp; }
 print(Sys.time()-strt)
 stopCluster(cl)</code></pre>
-<p>source: https://beckmw.wordpress.com/2014/01/21/a-brief-foray-into-parallel-processing-with-r/</p>
+<p><a href="https://beckmw.wordpress.com/2014/01/21/a-brief-foray-into-parallel-processing-with-r/">Source</a></p>
 <p>Then, you can set up an array job that looks like this:</p>
 <pre><code>#SBATCH -p lotterhos
 #SBATCH --nodes=1
