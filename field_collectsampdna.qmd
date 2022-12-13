@@ -1,5 +1,7 @@
 # Collecting Samples for DNA
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_collectsampdna.qmd)
+
 Protocols and tips for collecting samples for DNA extraction
 
 ------------------------------------------------------------------------
@@ -32,6 +34,6 @@ Use regular grade 95% ethanol. Calculate how much ethanol will be needed for all
 
 OGLFix can be used instead of ethanol to preserve tissue for DNA extraction. Follow the same instructions described above for ethanol (no dilution needed). OGLFix can be shipped without hazardous designation. As for ethanol preservation, **it is critical the the entire tissue is submersed in fixative.** Refer to the OGLFix sampling protocol for detailed instructions.
 
-![Sampling protocol immerse](https://drk-lo.github.io/lotterhoslabprotocols/img/Samplingprotocolimmerse.png){alt="Sampling protocol immerse"}
+[Sampling protocol immerse](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/04f86a74369ae3fc9c5356d0c3252ef707f38bde/img/Samplingprotocolimmerse.png)
 
-![Samplingprotocolsize](https://drk-lo.github.io/lotterhoslabprotocols/img/Samplingprotocolsize.png){alt="Samplingprotocolsize"}
+[Samplingprotocolsize](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/04f86a74369ae3fc9c5356d0c3252ef707f38bde/img/Samplingprotocolsize.png)
