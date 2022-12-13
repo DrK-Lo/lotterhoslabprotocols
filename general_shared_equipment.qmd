@@ -1,5 +1,7 @@
 # NUMSC - Shared Lab Space
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_shared_equipment.qmd)
+
 ------------------------------------------------------------------------
 
 Introductory information on the shared lab space \@ NU Marine Science Center
