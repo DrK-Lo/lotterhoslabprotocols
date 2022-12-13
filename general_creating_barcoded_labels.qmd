@@ -1,5 +1,7 @@
 # Creating Barcoded Labels
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_creating_barcoded_labels.qmd)
+
 ------------------------------------------------------------------------
 
 *note - TSC printer is in the shared equipment lab, hooked up to the Plate Reader laptop.*
