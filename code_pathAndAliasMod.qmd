@@ -1,5 +1,7 @@
 # Setting Alias or PATH variable
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_pathAndAliasMod.qmd)
+
 Basics of altering the \`\~/.bashrc\` or \`\~/.bash_profile\` file
 
 ------------------------------------------------------------------------
