@@ -1,6 +1,8 @@
 # Getting Started in the Lab
 
-General Rules and Set up for Starting Out in the Lotterhos Lab
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_GettingStarted.qmd)
+
+General Rules and Set up for Starting Out in the Lotterhos Lab.
 
 ------------------------------------------------------------------------
 
