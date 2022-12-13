@@ -1,5 +1,7 @@
 # What are VS Code and PyCharm?
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_integrated-development-environment.qmd)
+
 ------------------------------------------------------------------------
 
 [VS Code](https://code.visualstudio.com/) and [Pycharm](https://www.jetbrains.com/pycharm/) are both Integrated Developement Environments, or IDEs. You've probably worked with an IDE, RStudio is an IDE. Ultimately the purpose of an IDE is to make coding easier. Some of the most basic features of IDEs are syntax highlighting and autocompletion capabilities, but they can also do a lot more than that - like displaying hover-over metadata (eg displaying a function's documentation when hovering over code), jumping to the part of the file where a function is defined/used, showing where an error will occur, among others. While PyCharm is specifically built for python (but see other IDEs from [jet brains](https://www.jetbrains.com/)), VS Code supports hundreds of coding languages.
