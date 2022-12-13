@@ -546,6 +546,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="accessing-and-using-defiance-cluster" class="level1">
 <h1>Accessing and Using Defiance Cluster</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_defiance.qmd">Edit this page</a></p>
 <p>Notes on how to access and use the defiance cluster</p>
 <hr>
 <section id="note-we-no-longer-use-this-resource." class="level2">
@@ -575,12 +576,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="checking-and-managing-resource-usage-on-defiance" class="level2">
 <h2 class="anchored" data-anchor-id="checking-and-managing-resource-usage-on-defiance"><strong>Checking and managing resource usage on defiance</strong></h2>
 <p>Defiance is a shared resource, so it is important to monitor the resources being used in order to avoid overloading the server. Before beginning any resource-intensive analysis, you should log into comp5 and enter the command <code>htop</code> to bring up the following interface:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://drk-lo.github.io/lotterhoslabprotocols/img/htop_screenshot.png" class="img-fluid figure-img" alt="htop example"></p>
-<p></p><figcaption class="figure-caption">htop example</figcaption><p></p>
-</figure>
-</div>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/5d631a958ac76bb515b9e9c9eb4448f79dc0d9d8/img/htop_screenshot.png">htop example</a></p>
 <p>One way to immediately get a sense of whether too many resources are being used is to look at the load average, circled in red in this image. These 3 numbers represent the CPU load over the past minute, 5 minutes, and 15 minutes (from left to right). The higher the load average and the longer it has been high, the more concerned you should be. A spike in the load average for the past minute may be ok, but a sustained high load for the past 15 minutes means some processes need to be killed before the server crashes. How high is too high? A common rule of thumb is 0.70 x total number of CPUs. Since we have 72 CPUs on comp5, if you see the <strong>load above or approaching 50.0 you should wait for other jobs to finish</strong> before starting any new ones.</p>
 <p>There is also a lot more information htop gives you that you can take into account. The top portion of the screen shows a real-time representation of how much load is on each of the 72 CPUs. In this image you can see that 2.0% of the total capacity of CPU number 38 is being used and none of the others are in use. Directly below the CPU grid is a bar showing the memory usage. 2.92 of 252 GB of memory is being used in this image. The bottom half of the htop display shows a list of processes currently running, the user they belong to, and information about the resources they are using.</p>
 <p>If you want to check on your jobs only, you can use <code>htop -u</code> followed by your username (ex: <code>htop -u freeman.k</code>) to show only jobs started by your username. This can be useful to check how long your jobs have been running, to make sure they still are running and haven’t been terminated, or to see how much of the server’s capacity you are using.</p>
