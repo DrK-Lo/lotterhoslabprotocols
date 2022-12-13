@@ -1,8 +1,10 @@
 # Optimizing
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_6-optimization.qmd)
+
 ------------------------------------------------------------------------
 
-Here is a presentation from Research Computing on terminology and optimizing workflows in the lab: [Optimization_Lotterhos_labmeeting_Sekar-V2.pdf](https://drk-lo.github.io/lotterhoslabprotocols/img/Optimization_Lotterhos_labmeeting_Sekar-V2.pdf)
+Here is a presentation from Research Computing on terminology and optimizing workflows in the lab: [Optimization_Lotterhos_labmeeting_Sekar-V2.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/69299ebb2fa86d83667c2f5bf7fd6d9f960231e0/img/Optimization_Lotterhos_labmeeting_Sekar-V2.pdf)
 
 To view your recent jobs, use `acct -S 2020-08-01 -u lotterhos` will list all jobs since that date for user lotterhos
 
