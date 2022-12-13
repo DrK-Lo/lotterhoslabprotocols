@@ -1,5 +1,7 @@
 # Connecting to the Discovery Cluster
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_1-gettingstarted.qmd)
+
 ------------------------------------------------------------------------
 
 Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://rc.northeastern.edu/support/training/
@@ -103,7 +105,7 @@ OR For 20 minutes on the debug partition:
 
 ## **Overview presentation** {.unnumbered}
 
-Here is a presentation from Research Computing on terminology and optimizing workflows in the lab: [Optimization_Lotterhos_labmeeting_Sekar-V2.pdf](https://drk-lo.github.io/lotterhoslabprotocols/img/Optimization_Lotterhos_labmeeting_Sekar-V2.pdf)
+Here is a presentation from Research Computing on terminology and optimizing workflows in the lab: [Optimization_Lotterhos_labmeeting_Sekar-V2.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/69299ebb2fa86d83667c2f5bf7fd6d9f960231e0/img/Optimization_Lotterhos_labmeeting_Sekar-V2.pdf)
 
 ## Brandon's recordings on how to set up RSA keys and run Jupyter Notebooks
 
