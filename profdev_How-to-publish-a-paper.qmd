@@ -1,5 +1,7 @@
 # How to Publish a Paper
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_How-to-publish-a-paper.qmd)
+
 ------------------------------------------------------------------------
 
 The average time it takes to publish a paper after you first submit it for review is 6-9 months. Each round of review takes 1-4 months, each round of revisions take 1-2 months, and then it can take a month or more to get the proofs and approve the final version for publication. Plan accordingly. If I want a paper published in a particular calendar year, I try to get it submitted by March.
