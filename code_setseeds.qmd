@@ -1,5 +1,7 @@
 # Setting Seeds for Reproducibility
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_setseeds.qmd)
+
 ------------------------------------------------------------------------
 
 Any time you call a random varible or random sample (e.g. `rnorm` or `sample` in R), your code will not be reproductible unless you set a seed. sets the starting number used to generate a sequence of random numbers -- it ensures that you get the same result if you start with that same seed each time you run the same process.
