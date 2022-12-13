@@ -1,5 +1,7 @@
 # Accessing and Using Defiance Cluster
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_defiance.qmd)
+
 Notes on how to access and use the defiance cluster
 
 ------------------------------------------------------------------------
@@ -44,7 +46,7 @@ To download the file to a different directory than the one you are currently in,
 
 Defiance is a shared resource, so it is important to monitor the resources being used in order to avoid overloading the server. Before beginning any resource-intensive analysis, you should log into comp5 and enter the command `htop` to bring up the following interface:
 
-![htop example](https://drk-lo.github.io/lotterhoslabprotocols/img/htop_screenshot.png){alt="htop example"}
+[htop example](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/5d631a958ac76bb515b9e9c9eb4448f79dc0d9d8/img/htop_screenshot.png)
 
 One way to immediately get a sense of whether too many resources are being used is to look at the load average, circled in red in this image. These 3 numbers represent the CPU load over the past minute, 5 minutes, and 15 minutes (from left to right). The higher the load average and the longer it has been high, the more concerned you should be. A spike in the load average for the past minute may be ok, but a sustained high load for the past 15 minutes means some processes need to be killed before the server crashes. How high is too high? A common rule of thumb is 0.70 x total number of CPUs. Since we have 72 CPUs on comp5, if you see the **load above or approaching 50.0 you should wait for other jobs to finish** before starting any new ones.
 
