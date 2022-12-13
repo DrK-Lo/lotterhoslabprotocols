@@ -518,13 +518,6 @@
     "text": "Setting Seeds for Reproducibility\n\nAny time you call a random varible or random sample (e.g. rnorm or sample in R), your code will not be reproductible unless you set a seed. sets the starting number used to generate a sequence of random numbers – it ensures that you get the same result if you start with that same seed each time you run the same process.\nThe function set.seed can make your code reproducible, but you have to call it on the line before you ask R to do anything random.\nTry:\nset.seed(98234)\nrnorm(100)\nset.seed(98234)\nrnorm(100)\nAnd compare it to:\nset.seed(98234)\nrnorm(100)\nrnorm(100)\nIf you are running a large number of replicate simulations, it’s important to make them reproducible. A good practice is to think about what parameters you are going to model and make a giant table. Here is an example for a simulation with three replicates of two different sets of parameters:\n\n\n\nSeed\nRep\nParam 1\nParam 2\n\n\n\n\n98234\n1\n0.5\n1.2\n\n\n98235\n2\n0.5\n1.2\n\n\n98236\n3\n0.5\n1.2\n\n\n98237\n1\n0.9\n1.5\n\n\n98238\n2\n0.9\n1.5\n\n\n98239\n3\n0.9\n1.5\n\n\n\nAs you loop through this table, you can use the Seed as the mySeed for your simulations. However, there are bad and good ways to take the seed from this table and incorporate it into your simulations.\n\nBad Practice:\nset.seed(mySeed)\na<-rnorm(100)\nset.seed(mySeed)\nb<-rnorm(100)\nset.seed(mySeed)\nc<-rnorm(100)\nTry this in R. What values do you get for a, b, and c?\n\n\nGood practice:\nset.seed(mySeed)\nsim_seeds <- round(runif(100)*10000000) \n  # may need more than 100 if there are more than \n  # 100 places in your sim where you set seeds\nset.seed(sim_seeds[1])\na<-rnorm(100)\nset.seed(sim_seeds[2])\nb<-rnorm(100)\nset.seed(sim_seeds[3])\nc<-rnorm(100)"
   },
   {
-    "objectID": "general_summary.html",
-    "href": "general_summary.html",
-    "title": "Lotterhos Lab Protocols",
-    "section": "",
-    "text": "Summary"
-  },
-  {
     "objectID": "discovery_integrated-development-environment.html",
     "href": "discovery_integrated-development-environment.html",
     "title": "Lotterhos Lab Protocols",
