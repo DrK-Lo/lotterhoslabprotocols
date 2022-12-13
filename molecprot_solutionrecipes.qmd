@@ -1,5 +1,7 @@
 # Solution Recipes
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_solutionrecipes.qmd)
+
 Recipes for solutions and reagents needed for lab protocols
 
 ------------------------------------------------------------------------
