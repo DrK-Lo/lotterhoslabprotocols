@@ -1,5 +1,7 @@
 # Scope Camera MVI Nikon SMZ 1000
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_MVI-scope-camera.qmd)
+
 Installing and configuring MVI Scope Camera
 
 ------------------------------------------------------------------------
