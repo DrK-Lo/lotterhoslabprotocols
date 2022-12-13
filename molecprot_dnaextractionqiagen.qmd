@@ -1,5 +1,7 @@
 # DNA Extraction (Qiagen)
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_dnaextractionqiagen.qmd)
+
 The protocol for extracting DNA with the Qiagen Tissue Kit
 
 ------------------------------------------------------------------------
