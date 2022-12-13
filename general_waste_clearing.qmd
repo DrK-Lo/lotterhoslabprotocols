@@ -1,12 +1,14 @@
 # Clearing Lab Waste
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_waste_clearing.qmd)
+
 ------------------------------------------------------------------------
 
 ## Solid waste {.unnumbered}
 
 Most solid waste in our lab consists of pipette tips, small tubes (microcentrifuge tubes, cryovials, tube strips) and, less frequently, a larger tube or a plate used with samples/chemical solutions.\
 These used materials are discarded inside waste containers called 'mayo jars'.\
-If you are going to generate any solid waste, **label a mayo jar BEFORE you start** using the standard [Hazardous Waste Label](https://github.com/DrK-Lo/lotterhoslabprotocols/notebook/Haz_Waste_labels.pdf).\
+If you are going to generate any solid waste, **label a mayo jar BEFORE you start** using the standard [Hazardous Waste Label](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/15352ee6c5eb6cd71ce45bfaa12fa7bbf951b44f/notebook/Haz_Waste_labels.pdf).\
 **NEVER dispose of solid waste inside a unlabelled mayo jar.**
 
 **Sharps**: we also use disposable razor blades frequently when dicing up animal tissue for extractions; all used razor blades MUST be disposed of inside the RED sharps containters in our lab; close the containers' lid when done for the day. Sharps containers are typically not labelled with the Haz Waste Label. **NEVER leave razor blades on the benches**
@@ -16,7 +18,7 @@ If you are going to generate any solid waste, **label a mayo jar BEFORE you star
 Our liquid waste typically consists of extraction/library prep isolation and wash solutions, preservative solutions, such as ethanol and formalin, and plastic-glassware cleaning solutions, such as HCl.\
 Liquid waste should **NEVER be mixed indiscriminately** - this can cause serios issues such as thermal reactions/explosions and production of harmful fumes.\
 Therefore, keep one waste bottle for each type of waste solution you are generating.\
-If you know your work will be generating liquid waste, label each waste bottle **BEFORE you start**, using the standard [Hazardous Waste Label](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/notebook/Haz%20Waste%20labels.pdf)
+If you know your work will be generating liquid waste, label each waste bottle **BEFORE you start**, using the standard [Hazardous Waste Label](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/15352ee6c5eb6cd71ce45bfaa12fa7bbf951b44f/notebook/Haz_Waste_labels.pdf)
 
 1.  Managing open stream waste containers:
 
