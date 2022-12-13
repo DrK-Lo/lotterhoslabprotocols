@@ -1,5 +1,7 @@
 # Magnetic Bead Wash
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_magbeadwash.qmd)
+
 The protocol for doing a magnetic bead wash
 
 ------------------------------------------------------------------------
@@ -24,15 +26,15 @@ Before using, be sure to read the [PDF](https://www.kapabiosystems.com/document/
 
 ### **Protocols** {.unnumbered}
 
-[Clean up genomic DNA](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash/#clean-up-genomic-dna)
+[Clean up genomic DNA](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash.html#cleanup-genomic-dna)
 
-[Cleanup of fragmented DNA](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash/#cleanup-of-fragmented-dna)
+[Cleanup of fragmented DNA](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash.html#cleanup-of-fragmented-dna)
 
-[Size Selection](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash/#size-selection)
+[Size Selection](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash.html#size-selection)
 
 ### **Troubleshooting** {.unnumbered}
 
-[Factors that Impact Overall Performance](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash/#factors-that-impact-overall-performance)
+[Factors that Impact Overall Performance](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_magbeadwash.html#factors-that-impact-overall-performance)
 
 ## **Protocols** {.unnumbered}
 
