@@ -1,5 +1,7 @@
 # DNA Extraction (Spartina)
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_dnaextractionspartina.qmd)
+
 A rough outline of the protocol used for extracting DNA from Spartina
 
 ------------------------------------------------------------------------
