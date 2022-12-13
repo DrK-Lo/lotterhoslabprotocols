@@ -544,6 +544,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="pseudo-parallelize-your-code-on-the-cluster" class="level1">
 <h1>Pseudo-Parallelize Your Code on the Cluster</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_pseudoparallel.qmd">Edit this page</a></p>
 <hr>
 <p>Defiance has 72 (check) cores per comp node. Generally we like to leave a few available, so can parallelize code across up to 68 cores at once.</p>
 <p>For genomics, we’re often doing tests for many loci. Depending on the test, it may be faster to run each locus in serial on a core, and spread out different parts of the data across several cores (as opposed to running each locus in serial across all cores in parallel).</p>
