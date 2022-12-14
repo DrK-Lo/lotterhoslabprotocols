@@ -18,7 +18,7 @@ This will help you know where certain items are in the lab that will help keep y
 
     -   All safety data sheets, chemical inventory and hazardous waste labels are in this binder...
 
-https://github.com/DrK-Lo/lotterhoslabprotocols/blob/67d0b612abbee2e45d9ba8761593f617c6cdd752/img/labSafetyBinder.jpg
+![Lab Safety Binder](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/67d0b612abbee2e45d9ba8761593f617c6cdd752/img/labSafetyBinder.jpg)
 
 -   **Hazardous Waste**:
 
