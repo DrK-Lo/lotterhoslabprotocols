@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_dnaextractionomega.qmd)
 
-The protocol for extracting DNA with the Omega Tissue DNA Kit
+The protocol for extracting DNA with the Omega Tissue DNA Kit.
 
 ------------------------------------------------------------------------
 
@@ -12,7 +12,7 @@ The protocol for extracting DNA with the Omega Tissue DNA Kit
 
 ### **Kits** {.unnumbered}
 
-#### **Omega E.Z.N.A. Tissue DNA Kit - individual spin columns: good for extracting fewer than 8-16 samples or low yield samples. Cheaper per sample (\~\$1.4-\$3.2 per sample).** {.unnumbered}
+**Omega E.Z.N.A. Tissue DNA Kit - individual spin columns: good for extracting fewer than 8-16 samples or low yield samples. Cheaper per sample (\~\$1.4-\$3.2 per sample).** {.unnumbered}
 
 -   200 reactions - cat #: D3396-02
 
@@ -20,7 +20,7 @@ The protocol for extracting DNA with the Omega Tissue DNA Kit
 
 -   5 reactions - cat #: D3396-00
 
-#### **Omega E.Z. 96 Tissue DNA Kit - 96-well plate columns: good for extracting a large number of samples (saves time by using the multi-channel pipette and in number of centrifugation rounds). More expensive per sample (\~\$2.1-\$2.6 per sample).** {.unnumbered}
+**Omega E.Z. 96 Tissue DNA Kit - 96-well plate columns: good for extracting a large number of samples (saves time by using the multi-channel pipette and in number of centrifugation rounds). More expensive per sample (\~\$2.1-\$2.6 per sample).** {.unnumbered}
 
 -   4 plates, 384 reactions - cat #: D1196-01
 
@@ -138,23 +138,23 @@ D2-2. Heat up heating block (or check oven temperature in Hughes lab) to 70oC an
 
 D2-3. Follow the kit manual for plates or individual tubes for DNA purification with the following modifications, if needed:
 
--   skip the optional step "add RNAase"
+-   Skip the optional step "add RNAase"
 
--   skip the optional step "column equilibration"
+-   Skip the optional step "column equilibration"
 
--   when centrifuging the lysis plate and the E-Z 96 DNA plate (mini-columns plate), tape them together.
+-   When centrifuging the lysis plate and the E-Z 96 DNA plate (mini-columns plate), tape them together.
 
--   skip the optional step "dry samples at 70oC"
+-   Skip the optional step "dry samples at 70oC"
 
--   we prefer to use molecular grade water as the elution buffer instead of the kit buffer.
+-   We prefer to use molecular grade water as the elution buffer instead of the kit buffer.
 
--   elution volume may vary depending on starting material and extraction yield. Minimum volume is 30 uL, to ensure that the entire memembrane is soaked with elution buffer.
+-   Elution volume may vary depending on starting material and extraction yield. Minimum volume is 30 uL, to ensure that the entire memembrane is soaked with elution buffer.
 
--   the second elution can be eluted into a separate tube, if there are concerns about DNA concentration in the first elution.
+-   The second elution can be eluted into a separate tube, if there are concerns about DNA concentration in the first elution.
 
 -   Align the tubes in the centrifuge in this manner: 
 
-[image](https://user-images.githubusercontent.com/98117631/183438550-75c4d11b-8d6a-4b37-8579-f74a95a913f5.png){alt="image"}
+[Tube alignment](https://user-images.githubusercontent.com/98117631/183438550-75c4d11b-8d6a-4b37-8579-f74a95a913f5.png)
 
 D2-4. You will likely need to spot-check the concentration of your extracted DNA, either by Qubit or Picogreen assay. Both are destructive assays, meaning you will need to use some aliquote (typically 1-2 uL) of your eluted DNA to measure concentration. Make note of how much you used from which samples, to keep track of how much is available for downstream library prep and sequencing.
 
