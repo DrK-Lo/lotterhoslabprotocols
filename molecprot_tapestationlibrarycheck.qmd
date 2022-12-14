@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_tapestationlibrarycheck.qmd)
 
-The protocol for checking libraries on the TapeStation
+The protocol for checking libraries on the TapeStation.
 
 ------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 
 **Store all tapes in their box with the label facing towards you (Fig 1 below)**
 
-https://docs.google.com/drawings/d/1t0-f8TKZFptM4MrDHA_w4AtsOcy_YRR7boeD1aCk2mg/pub?w=1429&h=495
+[https://docs.google.com/drawings/d/1t0-f8TKZFptM4MrDHA_w4AtsOcy_YRR7boeD1aCk2mg/pub?w=1429&h=495](https://docs.google.com/drawings/d/1t0-f8TKZFptM4MrDHA_w4AtsOcy_YRR7boeD1aCk2mg/pub?w=1429&h=495)
 
 ## **Important Notes READ BEFORE USING:** {.unnumbered}
 
@@ -86,7 +86,7 @@ https://docs.google.com/drawings/d/1t0-f8TKZFptM4MrDHA_w4AtsOcy_YRR7boeD1aCk2mg/
 
 -   Insert tape in the appropriate slot
 
-https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/pub?w=465&h=336
+[https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/pub?w=465&h=336](https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/pub?w=465&h=336)
 
 -   Tapes have a barcode that needs to be read by the machine
 
@@ -98,7 +98,7 @@ https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/
 
     -   CSV file with names can be uploaded
 
-https://docs.google.com/drawings/d/1joVrT3Hetfx3kbLPvPmTcUZlsE-SD004qC5AmqHDxq8/pub?w=239&h=283
+[https://docs.google.com/drawings/d/1joVrT3Hetfx3kbLPvPmTcUZlsE-SD004qC5AmqHDxq8/pub?w=239&h=283](https://docs.google.com/drawings/d/1joVrT3Hetfx3kbLPvPmTcUZlsE-SD004qC5AmqHDxq8/pub?w=239&h=283)
 
 **Table 1** : Each kit with the appropriate amount of sample buffer with either sample or ladder that should be mixed in each well
 
