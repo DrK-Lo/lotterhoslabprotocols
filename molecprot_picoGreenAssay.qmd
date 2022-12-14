@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd)
 
-The protocol for checking quantification of DNA using the PicoGreen Assay on the Plate Reader
+The protocol for checking quantification of DNA using the PicoGreen Assay on the Plate Reader.
 
 ------------------------------------------------------------------------
 
@@ -12,13 +12,13 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 ## **Equipment & Reagents** {.unnumbered}
 
--   flat bottom black Costar 96-well plate (Fisher Cat #: 07-200-627) (FIND OUT IF AUTOCLAVE SAFE)
+-   Flat bottom black Costar 96-well plate (Fisher Cat #: 07-200-627) (FIND OUT IF AUTOCLAVE SAFE)
 
--   two - 15 mL Falcon tubes
+-   Two - 15 mL Falcon tubes
 
--   two - 0.2 mL snap cap tubes for ladder dilutions
+-   Two - 0.2 mL snap cap tubes for ladder dilutions
 
--   samples diluted to appropriate concentration to be read on the plate reader
+-   Samples diluted to appropriate concentration to be read on the plate reader
 
 -   20X TE Buffer (comes with PicoGreen Kit)
 
