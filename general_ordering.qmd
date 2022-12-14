@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_ordering.qmd)
 
-The protocol for ordering supplies and equipment for the lab
+The protocol for ordering supplies and equipment for the lab.
 
 ------------------------------------------------------------------------
 
