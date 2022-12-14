@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_illuminalibraryprep.qmd)
 
-The protocol for doing a library prep using Illumina kit
+The protocol for doing a library prep using Illumina kit.
 
 ------------------------------------------------------------------------
 
@@ -10,7 +10,7 @@ The protocol for doing a library prep using Illumina kit
 
 ## **Background** {.unnumbered}
 
-Before you start this, you should [determine the barcodes and index scheme for your library.](https://bmford11.github.io/lotterhoslabprotocols/barcodesnindexes/)
+Before you start this, you should [determine the barcodes and index scheme for your library.](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_barcodesnindexes.html)
 
 Then, you should draw an outline of what is happening at each step in this protocol:
 
