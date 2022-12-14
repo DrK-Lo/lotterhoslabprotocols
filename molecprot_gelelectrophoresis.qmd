@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_gelelectrophoresis.qmd)
 
-The protocol for running a gel
+The protocol for running a gel.
 
 ------------------------------------------------------------------------
 
@@ -18,7 +18,7 @@ We are Ethidium-Bromide Free!
 
 4.  Erlenmeyer flask (should be in the room with gel docks).
 
-    ## Protocol {.unnumbered}
+## Protocol {.unnumbered}
 
 5.  Tare a weigh boat on the scale.
 
