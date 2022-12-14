@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_barcodesnindexes.qmd)
 
-Tips for determining barcodes and indexes for Illumina Sequencing
+Tips for determining barcodes and indexes for Illumina Sequencing.
 
 ------------------------------------------------------------------------
 
