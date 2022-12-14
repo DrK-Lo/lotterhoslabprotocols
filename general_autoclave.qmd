@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_autoclave.qmd)
 
-The protocol for using the autoclave in OGL
+The protocol for using the autoclave in OGL.
 
 ------------------------------------------------------------------------
 
@@ -46,7 +46,7 @@ An autoclave chamber is used to sterilize laboratory equipment, including liquid
 
 9.  Look on the chart:
 
-    -   determine what you are autoclaving (wrapped vs unwrapped)
+    -   Determine what you are autoclaving (wrapped vs unwrapped)
 
     -   Set temperature to the desired setting
 
