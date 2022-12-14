@@ -36,8 +36,9 @@ Any purchases made with grant funds above \$10K need to be routed through the Un
 
     -   Print that page (or the order confirmation you should receive by email) to a pdf and save it to Orders and Receipts using the format below for file name.
 
-### **Save orders/invoces to a pdf file and into the folder 'Orders and Receipts' using the following file name:**
+### **Saving orders/invoices**
 
+Save orders/invoces to a pdf file and into the folder 'Orders and Receipts' using the following file name:
 YYYYMMDD_Amazon_whatpurchase.pdf
 
 -   example: 20210602_Amazon_labnotebooks.pdf
