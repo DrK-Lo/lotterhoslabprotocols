@@ -161,8 +161,6 @@ You don't have to move them individually, just use the bash command 'rename' wit
 
 -   /oyster_pic/ is the string to replace it with
 
-    ![Close document tab](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAbElEQVR4Xs2RQQrAMAgEfZgf7W9LAguybljJpR3wEse5JOL3ZObDb4x1loDhHbBOFU6i2Ddnw2KNiXcdAXygJlwE8OFVBHDgKrLgSInN4WMe9iXiqIVsTMjH7z/GhNTEibOxQswcYIWYOR/zAjBJfiXh3jZ6AAAAAElFTkSuQmCC){alt="Close document tab"}
-
 -   'g' is the **g**lobal flag -- this means replace every instance of the 1st string with the 2nd. Ex, pic1pic.png would become oyster1oyster.png. This may or may not be desirable depending on what you want to do.
 
 -   \* after the regex just tells rename what to rename - in this case everything in the directory
