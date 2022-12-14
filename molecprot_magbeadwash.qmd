@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_magbeadwash.qmd)
 
-The protocol for doing a magnetic bead wash
+The protocol for doing a magnetic bead wash.
 
 ------------------------------------------------------------------------
 
