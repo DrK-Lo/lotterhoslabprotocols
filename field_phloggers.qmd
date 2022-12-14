@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_phloggers.qmd)
 
-The protocol for calibrating/initializing, deploying, and offloading Data from the HOBO pH loggers
+The protocol for calibrating/initializing, deploying, and offloading Data from the HOBO pH loggers.
 
 ------------------------------------------------------------------------
 
@@ -52,7 +52,7 @@ After the logger has been calibrated you can configure it and launch it. To do s
 
 -   Rope and buoy
 
--   Glass bottles and 50 mL Falcon tubes. See [this page](https://bmford11.github.io/lotterhoslabprotocols/watersampling/) for water sampling protocol
+-   Glass bottles and 50 mL Falcon tubes. See [this page](https://drk-lo.github.io/lotterhoslabprotocols/field_watersampling.html) for water sampling protocol
 
 ### **Before leaving for the field** {.unnumbered}
 
