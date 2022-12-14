@@ -18,11 +18,11 @@ This will help you know where certain items are in the lab that will help keep y
 
     -   All safety data sheets, chemical inventory and hazardous waste labels are in this binder...
 
-        ![Alt text](img/labSafetyBinder.jpg){alt="Alt text"}
+(img/labSafetyBinder.jpg)
 
 -   **Hazardous Waste**:
 
-    -   Clean Harbors now does pick up and transportation of chemical waste containers. They will come around to each of the labs that have filled out the [online pick up sheet](https://ehsa.nunet.neu.edu/neu_wp) on **the last Tuesday of every month**.
+    -   Clean Harbors now does pick up and transportation of chemical waste containers. They will come around to each of the labs that have filled out the [online pick up sheet](https://ehsa.nunet.neu.edu/neu_wp) (**this link is broken**) on **the last Tuesday of every month**.
 
     -   At this same time, Clean harbors should bring the extra hazardous waste containers that have been requested by members of the lab.
 
