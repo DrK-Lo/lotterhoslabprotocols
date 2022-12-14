@@ -602,10 +602,12 @@ chgrp -R lotterhos-bsb 2020_NOAA_BlackSeaBass_ddRADb    # change the group on th
 chmod -R 775 2020_NOAA_BlackSeaBass_ddRADb            # give group permissions to the directory
 ls -la 2020_NOAA_BlackSeaBass_ddRADb # check permissions</code></pre>
 <ul>
-<li><p>Groups</p></li>
+<li><p>Groups</p>
+<ul>
 <li><p><code>lotterhos</code> - all Lotterhos Lab members</p></li>
 <li><p><code>lotterhos-bsb</code> - access to Black Sea Bass project</p></li>
 <li><p><code>lotterhos-cod</code></p></li>
+</ul></li>
 <li><p>Groups are created by research computing</p></li>
 </ul>
 <p>Find the groups of a user: <code>groups tbittar</code> will give the groups for user tbittar</p>
@@ -636,13 +638,25 @@ ls -la 2020_NOAA_BlackSeaBass_ddRADb # check permissions</code></pre>
 <li><p>For this endpoint to work, it has to be mapped through Katie’s laptop or the iMac in the lab. <em>Katie’s laptop from home: sign into NU VPN, make sure Globus Connect Personal App is running, plug in ethernet cord</em></p></li>
 <li><p>Because accessing this server is done through a computer, it makes transferring files specific to the computer that the server is mapped to. Typically, you will ask Katie to share the Globus endpoint for this server that is set up through the lab iMac. As long as the server is mapped to the computer (typically lab iMac) and that connection is not interrupted, you should have no problems.</p></li>
 <li><p>From a laptop or over wifi, transfers of large files are very slow. This is why we map to the server through the iMac. The point of all the steps we outline below is so we can use Globus to transfer files from the smb drive to Discovery.</p></li>
-<li><p>To connect to the smb server, follow these directions to map to the server on a computer <a href="https://drk-lo.github.io/lotterhoslabprotocols/discovery_3-storage/accessing_shared_storage_2020.pdf">this document</a> (typically Katie only)</p></li>
+<li><p>To connect to the smb server, follow these directions to map to the server on a computer this document</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><embed src="img/accessing_shared_storage_2020.pdf" class="img-fluid"></p>
+<p></p><figcaption class="figure-caption">(Typically Katie only)</figcaption><p></p>
+</figure>
+</div>
+<ul>
 <li><p>Setting up a Globus endpoint for the folder to share (typically Katie only)</p></li>
 <li><p><em>Intitial step if Globus personal endpoint for the computer is not set up</em>: Download and install the Globus Connect Personal App. In Globus web app, click on “Add a personal endpoint” and enter the key in the Desktop app.</p></li>
 <li><p><em>Intial setup if working from a home laptop</em>: Use GlobalProtect to establish a VPN connection (vpn.northeastern.edu) (if you are having trouble establishing the VPN connection on a Mac, check your Security and Permissions settings and give the app permissions, see image). Then you should be able to map to the server.</p></li>
-<li><p><img src="https://drk-lo.github.io/lotterhoslabprotocols/discovery_3-storage/globalprotectgetittowork.png" class="img-fluid" alt=""></p></li>
-<li><p>Step 1: In the Globus Desktop App, then go to Preferences-&gt; Access and click the “+” sign. On a Mac, at the top center click on the bar, click on the name of the computer, and you should see the mapped server there as a volume <code>Volumes/lotterhos</code>. Click on it and add it to the list.</p></li>
-<li><p><img src="https://drk-lo.github.io/lotterhoslabprotocols/discovery_3-storage/howtofindvolumeinglobusconnect.png" class="img-fluid" alt=""></p></li>
+</ul>
+<p><img src="img/globalprotectgetittowork.png" class="img-fluid"></p>
+<ul>
+<li>Step 1: In the Globus Desktop App, then go to Preferences-&gt; Access and click the “+” sign. On a Mac, at the top center click on the bar, click on the name of the computer, and you should see the mapped server there as a volume <code>Volumes/lotterhos</code>. Click on it and add it to the list.</li>
+</ul>
+<p><img src="img/howtofindvolumeinglobusconnect.png" class="img-fluid"></p>
+<ul>
 <li><p>Step 2: In the Globus Web App, go to the endpoint for the computer. Then type <code>Volumes/lotterhos/</code> in the path. Save it as a bookmark.</p></li>
 <li><p>Step 3: Before you can conduct file transfers from a personal endpoint, you need to have a “Globus Plus Account”. Email James Macalino at NU research computing to get added. You will then receive an email.</p></li>
 </ul>
