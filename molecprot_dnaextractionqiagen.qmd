@@ -12,13 +12,13 @@ This protocol has proven successful for rockfish (Sebastes), cod (Gadus morhua),
 
 ### **Qiagen Extraction Kits** {.unnumbered}
 
-#### **Qiagen Blood and Tissue Extraction Kit - single sample** {.unnumbered}
+**Qiagen Blood and Tissue Extraction Kit - single sample**
 
 -   250 samples - Cat No./ID: 69506 - \~700\$
 
 -   2.80\$ per sample
 
-#### **Qiagen Blood and Tissue Extraction Kit - 96 plate** {.unnumbered}
+**Qiagen Blood and Tissue Extraction Kit - 96 plate**
 
 -   4x96 (384 samples) - Cat No./ID: 69506 - \~1300\$
 
@@ -58,7 +58,7 @@ This protocol has proven successful for rockfish (Sebastes), cod (Gadus morhua),
 
 -   Preheat thermo-mixer to 56 degrees C.
 
-    ### Tissue Lysing {.unnumbered}
+### **Tissue Lysing** {.unnumbered}
 
     1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by H2O, then 70% EtoH.
 
