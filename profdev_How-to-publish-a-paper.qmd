@@ -14,13 +14,13 @@ Writing has two facets: building good writing habits and actually putting words 
 
 -   Check out this Nature article ["Kick-Start Writing"](https://www.nature.com/articles/d41586-020-00917-5)
 
-#### **Building good writing habits** {.unnumbered}
+### **Building good writing habits** {.unnumbered}
 
 -   Writing Your Dissertation in 15min/day
 
 -   How to Write Alot
 
-#### **Putting words together** {.unnumbered}
+### **Putting words together** {.unnumbered}
 
 -   Style: the elements of clarity and grace
 
@@ -50,7 +50,7 @@ This timeline assumes you have a full rough draft 3 months before a deadline. Pr
 
 Every manuscript typically has 3 parts that I submit, the text of the manuscript (written collaboratively in google docs), the figures with legends (in latex), and the supplement (in latex). I use LaTex for figures and supplements because it makes them high quality, and is easier to control the size of the figures as they are displayed on the page.
 
-### **Use this template to kick-start your manuscript in google docs** {.unnumbered}
+### **Template to kick-start your manuscript in google docs** {.unnumbered}
 
 [Here is a link to a template, with important things to remember about writing](https://docs.google.com/document/d/15FYgxaSEQ6krNOlOq0qHmz0mD2No_tcRdVpG-xG8EXw/edit) \* Having links to relevant documents at the top of the manuscript can be helpful, including a link to the editor letter, response to reviewers, notes and unused text, etc.
 
@@ -156,23 +156,23 @@ The final stages prior to submission can take about a month or more.
 
 -   **Writing Author Contributions.** Communication here is paramount. It can help to send this list to each author and let them tell you where they think they should have their initials by. Who:
 
-    -   conceptualized and administered the project,
+    -   Conceptualized and administered the project,
 
-    -   obtained funding
+    -   Obtained funding
 
-    -   developed methods
+    -   Developed methods
 
-    -   collected data
+    -   Collected data
 
-    -   did the formal analysis
+    -   Did the formal analysis
 
-    -   visualized the data
+    -   Visualized the data
 
-    -   wrote the software
+    -   Wrote the software
 
-    -   performed data curation
+    -   Performed data curation
 
-    -   wrote the original draft of the manuscript
+    -   Wrote the original draft of the manuscript
 
     -   All authors reviewed and edited the manuscript.
 
