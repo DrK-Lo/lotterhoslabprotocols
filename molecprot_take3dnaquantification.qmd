@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_take3dnaquantification.qmd)
 
-The protocol for quantifying DNA/RNA samples using the Take3
+The protocol for quantifying DNA/RNA samples using the Take3.
 
 ------------------------------------------------------------------------
 
