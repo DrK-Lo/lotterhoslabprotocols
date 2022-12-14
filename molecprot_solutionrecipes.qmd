@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_solutionrecipes.qmd)
 
-Recipes for solutions and reagents needed for lab protocols
+Recipes for solutions and reagents needed for lab protocols.
 
 ------------------------------------------------------------------------
 
@@ -25,7 +25,7 @@ Recipes for solutions and reagents needed for lab protocols
 
 -   If needed, sterilize by filtration in 0.2um filter.
 
--   final pH will be 5.5
+-   Final pH will be 5.5
 
 ### **Bleach 10%** {.unnumbered}
 
@@ -34,7 +34,7 @@ Recipes for solutions and reagents needed for lab protocols
 | Bleach         | 10ml       |
 | DI Water       | 90ml       |
 
--   solution is good for up to 7 days
+-   Solution is good for up to 7 days
 
 ### **0.5M EDTA (pH - 8)** {.unnumbered}
 
@@ -71,11 +71,11 @@ Note that we are transitioning to a EtBr-free facility. CAUTION: Ethidium bromid
 | Ethidium bromide (Fisher #BP1025) | 1g         |
 | Water                             | 100ml      |
 
--   stir on magnetic stirrer for several hours to ensure that the dye has dissolved
+-   Stir on magnetic stirrer for several hours to ensure that the dye has dissolved
 
--   light sensitive, wrap the container in aluminum foil or transfer to a dark bottle
+-   Light sensitive, wrap the container in aluminum foil or transfer to a dark bottle
 
--   store at 4C
+-   Store at 4C
 
 ### **CTAB** {.unnumbered}
 
@@ -118,7 +118,7 @@ All of the items below come in a Fisher package #FERR01811
 | NaOH (Fisher #BP359-212) | 40g        |
 | H20                      | 80ml       |
 
-\*continue adding water to 100ml
+\*Continue adding water to 100ml
 
 ### **10% Tween-20** {.unnumbered}
 
@@ -135,11 +135,11 @@ All of the items below come in a Fisher package #FERR01811
 | Boric acid (Fisher #A73 1)  | 55g \*dissolve in Milli-Q water |
 | 0.5M EDTA (pH 8.0)          | 40ml                            |
 
--   increase the final volume to 1 liter
+-   Increase the final volume to 1 liter
 
--   store at room temperature or at 4C
+-   Store at room temperature or at 4C
 
--   might be too concentrated for long term storage, ok if you are planning to do a lot of work
+-   Might be too concentrated for long term storage, ok if you are planning to do a lot of work
 
 ### **TBE 5X (stock solution)** {.unnumbered}
 
@@ -149,9 +149,9 @@ All of the items below come in a Fisher package #FERR01811
 | Boric acid (Fisher #A73 1)  | 27.5 g \*dissolve in Milli-Q water |
 | 0.5M EDTA (pH 8.0)          | 20ml                               |
 
--   increase the final volume to 1 liter
+-   Increase the final volume to 1 liter
 
--   store at room temperature or at 4C
+-   Store at room temperature or at 4C
 
 -   (1X TBE = 200ml of 5X TBE + 800ml)
 
