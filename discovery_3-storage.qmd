@@ -62,11 +62,11 @@ Example:
 
 -   Groups
 
--   `lotterhos` - all Lotterhos Lab members
+    -   `lotterhos` - all Lotterhos Lab members
 
--   `lotterhos-bsb` - access to Black Sea Bass project
+    -   `lotterhos-bsb` - access to Black Sea Bass project
 
--   `lotterhos-cod`
+    -    `lotterhos-cod`
 
 -   Groups are created by research computing
 
@@ -104,7 +104,9 @@ Sometimes I have still had trouble making the code work on existing directories,
 
 -   From a laptop or over wifi, transfers of large files are very slow. This is why we map to the server through the iMac. The point of all the steps we outline below is so we can use Globus to transfer files from the smb drive to Discovery.
 
--   To connect to the smb server, follow these directions to map to the server on a computer [this document](https://drk-lo.github.io/lotterhoslabprotocols/discovery_3-storage/accessing_shared_storage_2020.pdf) (typically Katie only)
+-   To connect to the smb server, follow these directions to map to the server on a computer this document
+
+![(Typically Katie only)](img/accessing_shared_storage_2020.pdf)
 
 -   Setting up a Globus endpoint for the folder to share (typically Katie only)
 
@@ -112,11 +114,11 @@ Sometimes I have still had trouble making the code work on existing directories,
 
 -   *Intial setup if working from a home laptop*: Use GlobalProtect to establish a VPN connection (vpn.northeastern.edu) (if you are having trouble establishing the VPN connection on a Mac, check your Security and Permissions settings and give the app permissions, see image). Then you should be able to map to the server.
 
--   ![](https://drk-lo.github.io/lotterhoslabprotocols/discovery_3-storage/globalprotectgetittowork.png){alt=""}
+![](img/globalprotectgetittowork.png)
 
 -   Step 1: In the Globus Desktop App, then go to Preferences-\> Access and click the "+" sign. On a Mac, at the top center click on the bar, click on the name of the computer, and you should see the mapped server there as a volume `Volumes/lotterhos`. Click on it and add it to the list.
 
--   ![](https://drk-lo.github.io/lotterhoslabprotocols/discovery_3-storage/howtofindvolumeinglobusconnect.png){alt=""}
+![](img/howtofindvolumeinglobusconnect.png)
 
 -   Step 2: In the Globus Web App, go to the endpoint for the computer. Then type `Volumes/lotterhos/` in the path. Save it as a bookmark.
 
