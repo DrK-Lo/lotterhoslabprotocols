@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_conductivityloggers.qmd)
 
-The protocol for calibrating/initializing, deploying, and offloading Data for conductivity loggers
+The protocol for calibrating/initializing, deploying, and offloading Data for conductivity loggers.
 
 ------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ To initialize the logger:
 
 7.  To properly start and connect the logger press the coupler lever
 
-![](img/couplerlever.jpg){alt=""}
+![](img/couplerlever.jpg)
 
 1.  This starts the logger and you should see a 'Installing device drive software' message on your screen
 
@@ -62,7 +62,7 @@ To initialize the logger:
 
 -   Rope and buoy
 
--   Glass bottles and 50 mL Falcon tubes. See [this page](https://bmford11.github.io/lotterhoslabprotocols/watersampling/) for water sampling protocol
+-   Glass bottles and 50 mL Falcon tubes. See [this page](https://drk-lo.github.io/lotterhoslabprotocols/field_watersampling.html) for water sampling protocol
 
 ### **Before leaving for the field** {.unnumbered}
 
