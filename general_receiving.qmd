@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_receiving.qmd)
 
-The protocol for what to do when orders come in
+The protocol for what to do when orders come in.
 
 ------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ There are extra steps required when receiving chemicals
 
 3.  Add pre-printed barcode to chemical container
 
-![""](img/chemicallabels.JPG){alt="\"\""}
+![Chemical Labels](img/chemicallabels.JPG)
 
 1.  Log into myNortheastern
 
