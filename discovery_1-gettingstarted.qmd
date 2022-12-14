@@ -10,13 +10,13 @@ Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://r
 
 -   Login by typing e.g. `ssh lotterhos@login.discovery.neu.edu`, but use your own username
 
--   Read [NU's Getting started on Discovery](https://cpb-us-w2.wpmucdn.com/express.northeastern.edu/dist/1/43/files/2019/08/GettingStartedGuide-1.pdf) (this link is outdated, need to find new location)
+-   Read [NU's Getting started on Discovery](https://rc-docs.northeastern.edu/en/latest/first_steps/connect_ood.html)
 
 -   Check out [NU Discovery research computing docs](https://rc-docs.northeastern.edu/en/latest/)
 
--   Need help? Create a ticket automatically by emailing rchelp\@northeastern.edu
+-   Need help?
 
-    -   RC bookings https://outlook.office365.com/owa/calendar/ResearchComputing2\@northeastern.onmicrosoft.com/bookings/
+    -   [Submit a ticket with Research Computing](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
 
 ## **Software on Discovery for Lotterhos Lab** {.unnumbered}
 
