@@ -51,6 +51,7 @@ website:
           - molecprot_qPCR-Libraryquant.qmd
           - molecprot_rnaextraction.qmd
           - molecprot_solutionrecipes.qmd
+          - molecprot_etoh.qmd
       - section: "Molecular Equipment"
         contents:
           - molecprot_take3dnaquantification.qmd
