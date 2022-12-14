@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_rnaextraction.qmd)
 
-The protocol for extracting RNA from tissue samples
+The protocol for extracting RNA from tissue samples.
 
 ------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ The Tissue Ruptor uses disposable probes that can be sterilized and re-used.
 
 ## **Protocol for TRI Reagent RNA Isolation** {.unnumbered}
 
-Adapted from official protocol. Download [here](http://depts.washington.edu/kellylab/wp-content/uploads/2013/06/Tri-Reagent-Protocol.pdf)
+Adapted from official protocol. Download [here](http://depts.washington.edu/kellylab/wordpress/wp-content/uploads/2020/10/Tri-Reagent-Protocol.pdf)
 
 ### **Materials** {.unnumbered}
 
@@ -126,7 +126,7 @@ Adapted from official protocol. Download [here](http://depts.washington.edu/kell
 
 3.  (Optional) Centrifuge at 12,000 xg for 10 min at 4°C and transfer the supernatant to a fresh tube.
 
-    -   This optional centrifugation is only required to remove insoluable material from homogenates that contain high amounts of protein, fat, polysaccharide, or extracellular material, such as muscle, fat tissue, and tuberous parts of plants. Centrifugation pellets, extracellular membranes, polysaccharides, and high molecular weight DNA, leaving the RNA in the supernatant. High molecular weight DNA can be recovered from the pellet by following the wash and solubilization steps of the DNA isolation protocol, available [here](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction/www.ambion.com/techlib/append/supp.)
+    -   This optional centrifugation is only required to remove insoluable material from homogenates that contain high amounts of protein, fat, polysaccharide, or extracellular material, such as muscle, fat tissue, and tuberous parts of plants. Centrifugation pellets, extracellular membranes, polysaccharides, and high molecular weight DNA, leaving the RNA in the supernatant. High molecular weight DNA can be recovered from the pellet by following the wash and solubilization steps of the DNA isolation protocol, available [here](https://www.thermofisher.com/us/en/home/brands/invitrogen/ambion.html)
 
 4.  Add 100 μL BCP per 1 mL of TRI Reagent solution, mix well, and incubate at room temp for 5--15 min.
 
@@ -144,7 +144,7 @@ Adapted from official protocol. Download [here](http://depts.washington.edu/kell
 
     -   RNA remains exclusively in the aqueous phase whereas DNA and protein are in the interphase and organic phase.
 
-    -   The interphase and lower, red, organic phase can be stored at 4°C for subsequent isolation of DNA and protein. A protocol is posted [here](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_rnaextraction/www.ambion.com/techlib/append/supp)
+    -   The interphase and lower, red, organic phase can be stored at 4°C for subsequent isolation of DNA and protein. A protocol is posted [here](https://www.thermofisher.com/us/en/home/brands/invitrogen/ambion.html)
 
 6.  Add 500 μL of isopropanol per 1 mL of TRI Reagent solution, vortex for 5--10 sec, and incubate at room temp for 5--10 min.
 
