@@ -31,4 +31,4 @@ Code: `pandoc_args: "--webtex"`
 
 ### **Template File** {.unnumbered}
 
-[Markdown](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/_data/github_markdown_template.md) or [Rmd](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/gh-pages/_data/github_markdown_template.Rmd)
+[Markdown](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/23ce0adef5a374d188c307348a48b296b391add2/_data/github_markdown_template.md) or [Rmd](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/23ce0adef5a374d188c307348a48b296b391add2/_data/github_markdown_template.Rmd)
