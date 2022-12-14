@@ -8,25 +8,25 @@ Example: sample vials with 95% ethanol -- up to 100 mL (total ethanol volume).
 
 ------------------------------------------------------------------------
 
-### **1) Packing the materials:** {.unnumbered}
+### **Packing the materials** {.unnumbered}
 
-a\) The primary container(s), e.g. ethanol vials, must be leak-proof and allow space for liquid expansion,
+1. The primary container(s), e.g. ethanol vials, must be leak-proof and allow space for liquid expansion,
 
-b\) If shipping multiple vials, use a grid box or rack to stabilize them,
+2. If shipping multiple vials, use a grid box or rack to stabilize them,
 
-c\) Primary containers must be placed inside a secondary container (e.g., a ziplock bag) filled with enough appropriate absorbert material (e.g., paper towels) in case primary container spills.
+3. Primary containers must be placed inside a secondary container (e.g., a ziplock bag) filled with enough appropriate absorbert material (e.g., paper towels) in case primary container spills.
 
-### **2) What Northeastern's EHS needs from you:** {.unnumbered}
+### **What Northeastern's EHS needs from you** {.unnumbered}
 
-a\) Northeastern University, Hazardous Material Shipping Declaration Form, filled out and signed,
+1. Northeastern University, Hazardous Material Shipping Declaration Form, filled out and signed,
 
-b\) A statement that the package contents qualify as hazardous goods **in excepted quantities**,
+2. A statement that the package contents qualify as hazardous goods **in excepted quantities**,
 
-c\) A letter informing the (1) package contents, (2) name and location of the person receiving the package and (3) your (the shipper's) name, contact info (phone and address) and job title.
+3. A letter informing the (1) package contents, (2) name and location of the person receiving the package and (3) your (the shipper's) name, contact info (phone and address) and job title.
 
-> • I incorporated b) into c) for brevity.
+> I incorporated b) into c) for brevity.
 
-**Then make a pdf file of these documents combined and email to EHS: biosafety\@northeastern.edu and to lab manager: t.bittar\@northeastern.edu**
+**Then make a pdf file of these documents combined and email to EHS: biosafety\@northeastern.edu and to lab manager**
 
 Example of the combined letter/statement:
 
@@ -42,26 +42,26 @@ Example of the combined letter/statement:
 
     T. Bittar, Lotterhos Lab Manager, Northeastern University
 
-### **3) Packing the shipping box:** {.unnumbered}
+### **Packing the shipping box** {.unnumbered}
 
 *Do not use FedEx boxes, envelopes, sleeves or other non-rigid mailers for liquids; you will need a sturdy container, such as a cardboard box, that is at least 100 x 100 mm or 4 x 4 in.*
 
-#### **What goes inside the box:** {.unnumbered}
+#### **What goes inside the box** {.unnumbered}
 
-a\) Your packed vials;
+1. Your packed vials
 
-b\) MSDS, if applicable (for ethanol, in this example);
+2. MSDS, if applicable (for ethanol, in this example)
 
-c\) A copy of the letter/statement listed items 2 b) and 2 c).
+3. A copy of the letter/statement listed items 2 b) and 2 c)
 
-#### **What goes on the outside of the box:** {.unnumbered}
+#### **What goes on the outside of the box** {.unnumbered}
 
-a\) The "Dangerous Goods in Excepted Quantity" label
+1. The "Dangerous Goods in Excepted Quantity" label
 
--   must be at least 100 x 100 mm or 4 x 4 in,
+-   Must be at least 100 x 100 mm or 4 x 4 in
 
--   must conform with shape, color, format and text of the official label (see lab manager),
+-   Must conform with shape, color, format and text of the official label (see lab manager)
 
--   must be filled out with DOT hazmat class and your full name (class 3 for DOT for flammable ignitable liquids in this example; see lab manager).
+-   Must be filled out with DOT hazmat class and your full name (class 3 for DOT for flammable ignitable liquids in this example; see lab manager)
 
-b\) The shipping label (from FedEx, UPS, etc) -- you do not need to inform the carrier that you are shipping hazmats as long as the package is labeled correctly (see front desk associate to create shipping label and schedule pickup).
+2. The shipping label (from FedEx, UPS, etc) -- you do not need to inform the carrier that you are shipping hazmats as long as the package is labeled correctly (see front desk associate to create shipping label and schedule pickup)
