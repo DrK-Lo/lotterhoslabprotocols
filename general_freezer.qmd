@@ -4,7 +4,7 @@
 
 ------------------------------------------------------------------------
 
-NU contact: Dennis Todd
+**NU contact**: Dennis Todd
 
 Here is the link for the Rees system: http://NOR926.ReesCloud.net
 
@@ -42,63 +42,64 @@ We need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
 ### **To do ahead of time:** {.unnumbered}
 
-1\) Find a backup freezer for the samples and confirm that there's enough space for all contents of our freezer; check the dimensions of the available shelves in the backup freezer to see if it is the same as ours (ideally, transfer whole racks to the equivalent shelf & rack position on the backup freezer to save time and avoid messing up the inventory).
+1.  Find a backup freezer for the samples and confirm that there's enough space for all contents of our freezer; check the dimensions of the available shelves in the backup freezer to see if it is the same as ours (ideally, transfer whole racks to the equivalent shelf & rack position on the backup freezer to save time and avoid messing up the inventory).
 
-2\) Find help - defrosting can be done by one person, but having a second pair of hands is very helpful and strongly recommended.
+2.  Find help - defrosting can be done by one person, but having a second pair of hands is very helpful and strongly recommended.
 
-3\) Familiarize yourself with the protocol to disable freezer alarms (see above), with the materials that need to be on hand to defrost & clean the freezer and the overall protocol/timeline described below.
+3.  Familiarize yourself with the protocol to disable freezer alarms (see above), with the materials that need to be on hand to defrost & clean the freezer and the overall protocol/timeline described below.
 
 ### **The day of transfer/defrost:** {.unnumbered}
 
-4\) Before you begin, double-check that the backup freezer(s)' alarm was disabled (see above instructions); request that our alarm is disabled remotely for 24h by emailing Dennis Todd \@ northeastern; gather:
+4.  Before you begin, double-check that the backup freezer(s)' alarm was disabled (see above instructions); request that our alarm is disabled remotely for 24h by emailing Dennis Todd \@ northeastern; gather:
 
--   freezer mittens
+-   Freezer mittens
 
--   lab cart
+-   Lab cart
 
--   a mop or large towel
+-   A mop or large towel
 
--   'wet floor' sign
+-   'Wet floor' sign
 
--   a cooler or large styrofoam box for lose boxes/bags
+-   A cooler or large styrofoam box for lose boxes/bags
 
--   a bucket to collect water
+-   A bucket to collect water
 
--   clean cloths to wipe the freezer
+-   Clean cloths to wipe the freezer
 
-5\) **WEARING FREEZER MITTENS**, transfer whole racks to the backup freezer: place all 5 racks from one shelf on our lab cart; roll the cart to the backup freezer and place them on **the equivalent shelf and in the same order as they were on our freezer**. Do this one shelf at the time until the freezer is empty.
+5.  **WEARING FREEZER MITTENS**, transfer whole racks to the backup freezer: place all 5 racks from one shelf on our lab cart; roll the cart to the backup freezer and place them on **the equivalent shelf and in the same order as they were on our freezer**. Do this one shelf at the time until the freezer is empty.
 
-> transfer racks in and out of freezers carefully but quickly to minimize temp rising - note that the drawers slide open, so keep the racks horizontal; monitor both freezer's temp as you transfer - shouldn't rise above -65oC.
+> Transfer racks in and out of freezers carefully but quickly to minimize temp rising - note that the drawers slide open, so keep the racks horizontal; monitor both freezer's temp as you transfer - shouldn't rise above -65oC.
 
-6\) Once empty:
+6.  Once empty:
 
--   put up a "wet floor" sign,
+-   Put up a "wet floor" sign,
 
--   close the CO2 cylinder valve,
+-   Close the CO2 cylinder valve,
 
--   switch off the local alarm box located on top of the freezer,
+-   Switch off the local alarm box located on top of the freezer,
 
--   unlock the switch locking plate (front-bottom-right side of the freezer) and switch off the battery (top) and the main (bottom) switches,
+-   Unlock the switch locking plate (front-bottom-right side of the freezer) and switch off the battery (top) and the main (bottom) switches,
 
--   unplug the freezer from the wall,
+-   Unplug the freezer from the wall,
 
--   open all doors and let the freezer defrost, use a bucket to catch water dripping from the doors, use a mop to dry up the puddles.
+-   Open all doors and let the freezer defrost, use a bucket to catch water dripping from the doors, use a mop to dry up the puddles.
 
-7\) Once defrosted: wipe the whole interior of the freezer, the inner and outer doors and the seal using clean microfiber cloths (under the lab sink) until completely dry.
+7.  Once defrosted: wipe the whole interior of the freezer, the inner and outer doors and the seal using clean microfiber cloths (under the lab sink) until completely dry.
 
-8\) Reverse to bring freezer back up: close all doors, plug freezer back up, switch on main switch/battery switch and lock up the locking plate, switch on alarm box up on top of the freezer. Monitor temperature to ensure that it is appropriately decreasing all the way to -80oC.
+8.  Reverse to bring freezer back up: close all doors, plug freezer back up, switch on main switch/battery switch and lock up the locking plate, switch on alarm box up on top of the freezer. Monitor temperature to ensure that it is appropriately decreasing all the way to -80oC.
 
-> during this stage, the freezer alarm may go off (not the alarms associated with the remote system), just mute it using the door pannel keys.
+> During this stage, the freezer alarm may go off (not the alarms associated with the remote system), just mute it using the door pannel keys.
 
-### **Refill our freezer (at least 24h after temp is back to -80oC on the empty freezer)** {.unnumbered}
+### **Refill our freezer** {.unnumbered}
+**Note:** (At least 24h after temp is back to -80oC on the empty freezer)
 
-9\) Disable our freezer alarm for 1h (instructions above). Set a timer for yourself for 55 min because you might need to extend alarm cancellation. Check with the host lab on whether the alarm on the backup freezer needs to be disabled.
+9.  Disable our freezer alarm for 1h (instructions above). Set a timer for yourself for 55 min because you might need to extend alarm cancellation. Check with the host lab on whether the alarm on the backup freezer needs to be disabled.
 
-10\) **WEARING FREEZER MITTENS** transfer freezer racks back and ensure they are placed back on the freezer position (shelf & row) where they before - so it continues to match the freezer database. Leave one or two empty racks in the freezer for new boxes. **Monitor** the temperature of both freezers during retrieval to ensure it does not raise above 65oC.
+10.  **WEARING FREEZER MITTENS** Transfer freezer racks back and ensure they are placed back on the freezer position (shelf & row) where they before - so it continues to match the freezer database. Leave one or two empty racks in the freezer for new boxes. **Monitor** The temperature of both freezers during retrieval to ensure it does not raise above 65oC.
 
-11\) If you need to take a break to allow the temperature to drop, remember to **extend the alarm cancellation for another hour**.
+11.  If you need to take a break to allow the temperature to drop, remember to **extend the alarm cancellation for another hour**.
 
-12\) Once all samples are back, wait around and make sure that the freezer temp drops down to -80oC.
+12.  Once all samples are back, wait around and make sure that the freezer temp drops down to -80oC.
 
 ### ***Example timeline:*** {.unnumbered}
 
