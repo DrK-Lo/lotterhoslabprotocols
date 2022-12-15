@@ -1,16 +1,14 @@
----
-title: "Lotterhos Lab Protocols"
----
-------------------------------------------------------------------------
+# "Lotterhos Lab Protocols"
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/index.qmd)
+
+------------------------------------------------------------------------
 
 # Welcome!
 
 This is the Lotterhos Lab protocols website.
 
 Click [here](https://sites.google.com/site/katielotterhos/home) for the Lotterhos Lab general website.
-
 
 ------------------------------------------------------------------------
 
