@@ -22,9 +22,9 @@ See [types of ethanol page](https://github.com/DrK-Lo/lotterhoslabprotocols/blob
 
 ### For cryovials that do not fit in the certifuge
 
-Transfer the tissue into a o-ring with a label for long term storage
+1. Transfer the tissue into a labeled o-ring for long term storage
 
-Then do the above steps!
+2. Then do the above steps!
 
 
 ### For vials with too much gonad and not enough ethanol (over 1:5 tissue-to-ethanol)
