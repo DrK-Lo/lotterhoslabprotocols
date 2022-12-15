@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.280">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lotterhos Lab Protocols – molecprot_rnaseqlibraryprep</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Lotterhos Lab Protocols</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">General</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_welcome.html" class="sidebar-item-text sidebar-link">Welcome</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_expectations.html" class="sidebar-item-text sidebar-link">Expectations</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_GettingStarted.html" class="sidebar-item-text sidebar-link">Getting Started in the Lab</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_waste_clearing.html" class="sidebar-item-text sidebar-link">Clearing Lab Waste</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_ShippingHazMat.html" class="sidebar-item-text sidebar-link">Shipping of Hazardous Materials</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_shared_equipment.html" class="sidebar-item-text sidebar-link">NUMSC - Shared Lab Space</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_reimbursement.html" class="sidebar-item-text sidebar-link">Reimbursement</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_receiving.html" class="sidebar-item-text sidebar-link">Receiving Supplies and Equipment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_purchasing.html" class="sidebar-item-text sidebar-link">Purchasing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_ordering.html" class="sidebar-item-text sidebar-link">Ordering Supplies and Equipment</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_MVI-scope-camera.html" class="sidebar-item-text sidebar-link">Scope Camera MVI Nikon SMZ 1000</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_freezer.html" class="sidebar-item-text sidebar-link">Freezer Alarm System</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_fedex_ship.html" class="sidebar-item-text sidebar-link">FedEx Account</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_creating_barcoded_labels.html" class="sidebar-item-text sidebar-link">Creating Barcoded Labels</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_chemical_inventory.html" class="sidebar-item-text sidebar-link">Managing Chemical Inventory</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./general_autoclave.html" class="sidebar-item-text sidebar-link">Autoclave (OGL)</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Professional Development</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./profdev.html" class="sidebar-item-text sidebar-link">Professional Development Resources</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./profdev_ReducingCognitiveLoad.html" class="sidebar-item-text sidebar-link">Reducing Cognitive Load</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./profdev_How-to-publish-a-paper.html" class="sidebar-item-text sidebar-link">How to Publish a Paper</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./profdev_design.html" class="sidebar-item-text sidebar-link">Design</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./profdev_courses.html" class="sidebar-item-text sidebar-link">Graduate Courses</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Molecular Protocols</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_barcodesnindexes.html" class="sidebar-item-text sidebar-link">Determining Barcodes and Indexes for Illumina Sequencing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_dnaextractionomega.html" class="sidebar-item-text sidebar-link">DNA Extraction (Omega)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_dnaextractionqiagen.html" class="sidebar-item-text sidebar-link">DNA Extraction (Qiagen)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_dnaextractionspartina.html" class="sidebar-item-text sidebar-link">DNA Extraction (Spartina)</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_gelelectrophoresis.html" class="sidebar-item-text sidebar-link">Gel Electrophoresis</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_illuminalibraryprep.html" class="sidebar-item-text sidebar-link">Illumina Library Prep</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_qPCR-Libraryquant.html" class="sidebar-item-text sidebar-link">Library Quantification</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_rnaextraction.html" class="sidebar-item-text sidebar-link">RNA Extraction</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_solutionrecipes.html" class="sidebar-item-text sidebar-link">Solution Recipes</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  molecprot_etoh.qmd
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Molecular Equipment</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_take3dnaquantification.html" class="sidebar-item-text sidebar-link">Take3 DNA Quantification</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_picoGreenAssay.html" class="sidebar-item-text sidebar-link">PicoGreen Assay</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_magbeadwash.html" class="sidebar-item-text sidebar-link">Magnetic Bead Wash</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_tapestationlibrarycheck.html" class="sidebar-item-text sidebar-link">TapeStation Library Check</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_qPCRandBioRAD.html" class="sidebar-item-text sidebar-link">Molecular Protocols for Using the BioRAD qPCR Machine</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_outdated.html" class="sidebar-item-text sidebar-link">Outdated Molecular Protocols</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">Field and Sampling Protocols</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_collectsampdna.html" class="sidebar-item-text sidebar-link">Collecting Samples for DNA</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_collectsamprna.html" class="sidebar-item-text sidebar-link">Collecting Samples for RNA</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_conductivityloggers.html" class="sidebar-item-text sidebar-link">Conductivity Loggers</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_fieldsafety_protocol.html" class="sidebar-item-text sidebar-link">Field Safety Protocol</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_oystersampling.html" class="sidebar-item-text sidebar-link">Oyster Sampling</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_kayak.html" class="sidebar-item-text sidebar-link">Lab Kayak Care</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_phloggers.html" class="sidebar-item-text sidebar-link">pH Loggers</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_Seatables.html" class="sidebar-item-text sidebar-link">Managing Seatables</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./field_watersampling.html" class="sidebar-item-text sidebar-link">Water Sampling</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">Coding Protocols</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_bioinformatics.html" class="sidebar-item-text sidebar-link">Bioinformatics Resources</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_checksums.html" class="sidebar-item-text sidebar-link">Transferring Files md5</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_defiance.html" class="sidebar-item-text sidebar-link">Accessing and Using Defiance Cluster</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_directoryorganization.html" class="sidebar-item-text sidebar-link">General Directory Organization</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_githhubMarkdown.html" class="sidebar-item-text sidebar-link">GitHub Figures</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_LearningToCode.html" class="sidebar-item-text sidebar-link">Learning to Code</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_pathAndAliasMod.html" class="sidebar-item-text sidebar-link">Setting Alias or PATH variable</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_pseudoparallel.html" class="sidebar-item-text sidebar-link">Pseudo-Parallelize Your Code on the Cluster</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_setseeds.html" class="sidebar-item-text sidebar-link">Setting Seeds for Reproducibility</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_TroubleshootingCellprofiler.html" class="sidebar-item-text sidebar-link">Troubleshooting CellProfiler Installation</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_unixcommands.html" class="sidebar-item-text sidebar-link">Basic Unix Commands</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./code_versioncontrol.html" class="sidebar-item-text sidebar-link">Version Control with GitHub</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">Discovery</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_slurmArrays.html" class="sidebar-item-text sidebar-link">Parallelization with Array</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_nonNEUpersonnel.html" class="sidebar-item-text sidebar-link">Instructions for Discovery for Non-Northeastern Personnel</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_integrated-development-environment.html" class="sidebar-item-text sidebar-link">What are VS Code and PyCharm?</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_6-optimization.html" class="sidebar-item-text sidebar-link">Optimizing</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_5-parallelization.html" class="sidebar-item-text sidebar-link">Workflow Parallelization Approaches</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_4-examples.html" class="sidebar-item-text sidebar-link">Example Scripts</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_3-storage.html" class="sidebar-item-text sidebar-link">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_2-globus.html" class="sidebar-item-text sidebar-link">Globus File Transfer</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_1a-OOD.html" class="sidebar-item-text sidebar-link">Open OnDemand</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./discovery_1-gettingstarted.html" class="sidebar-item-text sidebar-link">Connecting to the Discovery Cluster</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#rnaseq-library-prep" id="toc-rnaseq-library-prep" class="nav-link active" data-scroll-target="#rnaseq-library-prep">RNAseq Library Prep</a>
+  <ul class="collapse">
+  <li><a href="#begin-kapa-stranded-mrna-seq-kit-using-12-rxn-volumes" id="toc-begin-kapa-stranded-mrna-seq-kit-using-12-rxn-volumes" class="nav-link" data-scroll-target="#begin-kapa-stranded-mrna-seq-kit-using-12-rxn-volumes">Begin KAPA Stranded mRNA-Seq Kit using 1/2 rxn volumes</a>
+  <ul class="collapse">
+  <li><a href="#reagents" id="toc-reagents" class="nav-link" data-scroll-target="#reagents">Reagents</a></li>
+  <li><a href="#additional-reagents-needed" id="toc-additional-reagents-needed" class="nav-link" data-scroll-target="#additional-reagents-needed">Additional reagents needed:</a></li>
+  <li><a href="#equipment" id="toc-equipment" class="nav-link" data-scroll-target="#equipment">Equipment</a></li>
+  <li><a href="#custom-oligos-needed-to-make-adapters" id="toc-custom-oligos-needed-to-make-adapters" class="nav-link" data-scroll-target="#custom-oligos-needed-to-make-adapters">Custom Oligos needed to make adapters:</a></li>
+  <li><a href="#anneal-rna-adapters" id="toc-anneal-rna-adapters" class="nav-link" data-scroll-target="#anneal-rna-adapters">Anneal RNA Adapters</a></li>
+  <li><a href="#mrna-capture" id="toc-mrna-capture" class="nav-link" data-scroll-target="#mrna-capture">mRNA Capture</a></li>
+  <li><a href="#safe-stopping-point" id="toc-safe-stopping-point" class="nav-link" data-scroll-target="#safe-stopping-point">Safe Stopping Point</a></li>
+  <li><a href="#st-strand-synthesis" id="toc-st-strand-synthesis" class="nav-link" data-scroll-target="#st-strand-synthesis">1st Strand Synthesis</a></li>
+  <li><a href="#nd-strand-synthesis" id="toc-nd-strand-synthesis" class="nav-link" data-scroll-target="#nd-strand-synthesis">2nd Strand Synthesis</a></li>
+  <li><a href="#cleanup" id="toc-cleanup" class="nav-link" data-scroll-target="#cleanup">Cleanup</a></li>
+  <li><a href="#safe-stopping-point-1" id="toc-safe-stopping-point-1" class="nav-link" data-scroll-target="#safe-stopping-point-1">SAFE STOPPING POINT</a></li>
+  <li><a href="#a-tailing" id="toc-a-tailing" class="nav-link" data-scroll-target="#a-tailing">A-Tailing</a></li>
+  <li><a href="#a-tailing-immediately" id="toc-a-tailing-immediately" class="nav-link" data-scroll-target="#a-tailing-immediately">A-Tailing immediately</a></li>
+  <li><a href="#a-tailing-after-safe-stopping-point" id="toc-a-tailing-after-safe-stopping-point" class="nav-link" data-scroll-target="#a-tailing-after-safe-stopping-point">A-Tailing after safe stopping point</a></li>
+  <li><a href="#adapter-ligation" id="toc-adapter-ligation" class="nav-link" data-scroll-target="#adapter-ligation">Adapter Ligation</a></li>
+  <li><a href="#post-ligation-cleanup" id="toc-post-ligation-cleanup" class="nav-link" data-scroll-target="#post-ligation-cleanup">Post-Ligation Cleanup</a></li>
+  <li><a href="#safe-stopping-point-2" id="toc-safe-stopping-point-2" class="nav-link" data-scroll-target="#safe-stopping-point-2">Safe Stopping Point</a></li>
+  <li><a href="#nd-post-ligation-cleanup" id="toc-nd-post-ligation-cleanup" class="nav-link" data-scroll-target="#nd-post-ligation-cleanup">2nd Post-Ligation Cleanup</a></li>
+  <li><a href="#safe-stopping-point-3" id="toc-safe-stopping-point-3" class="nav-link" data-scroll-target="#safe-stopping-point-3">SAFE STOPPING POINT</a></li>
+  <li><a href="#library-amplificiation" id="toc-library-amplificiation" class="nav-link" data-scroll-target="#library-amplificiation">Library Amplificiation</a></li>
+  </ul></li>
+  <li><a href="#needs-to-be-tested" id="toc-needs-to-be-tested" class="nav-link" data-scroll-target="#needs-to-be-tested">NEEDS TO BE TESTED</a>
+  <ul class="collapse">
+  <li><a href="#library-amplification-cleanup" id="toc-library-amplification-cleanup" class="nav-link" data-scroll-target="#library-amplification-cleanup">Library Amplification Cleanup</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="rnaseq-library-prep" class="level1">
+<h1>RNAseq Library Prep</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_rnaseqlibraryprep.qmd">Edit this page</a></p>
+<p>The protocol for doing a library prep for RNASeq.</p>
+<hr>
+<section id="begin-kapa-stranded-mrna-seq-kit-using-12-rxn-volumes" class="level2">
+<h2 class="anchored" data-anchor-id="begin-kapa-stranded-mrna-seq-kit-using-12-rxn-volumes">Begin KAPA Stranded mRNA-Seq Kit using 1/2 rxn volumes</h2>
+<p>This should take 8-10 hours Refer to manual during procedure (steps below are for notes and comments)</p>
+<section id="reagents" class="level3">
+<h3 class="anchored" data-anchor-id="reagents">Reagents</h3>
+<p>KAPA Stranded mRNA-Seq Kit (KAPA #XXXXXX). This kit includes all the enzymes and buffers required for cDNA library preparation from isolation of poly(A)-tailed RNA. Kits include reagents for RNA fragmentation, 1st strand cDNA synthesis and 2nd strand synthesis/marking, and cDNA library preparation, including A-tailing, ligation and library amplification.</p>
+<p>Steps in Library construction (Here I just want to be explicit where we use their reagents and where we use our reagents):</p>
+<ul>
+<li>mRNA capture using magnetic oligo-dT beads</li>
+<li>Fragmentation using heat and magnesium</li>
+<li>1st Strand cDNA Synthesis using random priming</li>
+<li>2nd Strand cDNA Synthesis and marking, which converts the cDNA:RNA hybrid to double-stranded cDNA (dscDNA) and incorporates dUTP in the second cDNA strand</li>
+<li>A-tailing to add dAMP to the 3′-ends of the dscDNA library fragments</li>
+<li>Adapter ligation, where dsDNA adapters with 3′-dTMP overhangs are ligated to A-tailed library insert fragments (HERE WE USE CUSTOM ADAPTERS, SEE BELOW)</li>
+<li>Library amplification to amplify library fragments carrying appropriate adapter sequences at both ends using high-fidelity, low-bias PCR; the strand marked with dUTP is not amplified.</li>
+</ul>
+</section>
+<section id="additional-reagents-needed" class="level3">
+<h3 class="anchored" data-anchor-id="additional-reagents-needed">Additional reagents needed:</h3>
+<p>Annealing buffer stock (10X):</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Concentration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tris HCl, pH 8</td>
+<td>100 mM</td>
+</tr>
+<tr class="even">
+<td>NaCl</td>
+<td>500 mM</td>
+</tr>
+<tr class="odd">
+<td>EDTA</td>
+<td>10 mM</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="equipment" class="level3">
+<h3 class="anchored" data-anchor-id="equipment">Equipment</h3>
+</section>
+<section id="custom-oligos-needed-to-make-adapters" class="level3">
+<h3 class="anchored" data-anchor-id="custom-oligos-needed-to-make-adapters">Custom Oligos needed to make adapters:</h3>
+<p>Jon can you add a figure here on the adapters… Illumina calls P1 P5 and P2 P7… just to avoid confusion for the eventual user of this protocol.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Oligo Name</th>
+<th>Sequence</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RNA_P2.1_H3</td>
+<td>P*CAAGCTTAGATCGGAAGAGCGAGAACAA</td>
+</tr>
+<tr class="even">
+<td>RNA_P2.1_NC</td>
+<td>P*CCCATGGAGATCGGAAGAGCGAGAACAA</td>
+</tr>
+<tr class="odd">
+<td>RNA_P2.1_SA</td>
+<td>P*CGTCGACAGATCGGAAGAGCGAGAACAA</td>
+</tr>
+<tr class="even">
+<td>RNA_P2.1_BS</td>
+<td>P*CTGTACAAGATCGGAAGAGCGAGAACAA</td>
+</tr>
+<tr class="odd">
+<td>RNA_P2.2_H3</td>
+<td>GTGACTGGAGTTCACACGTGTGCTCTTCCGATCTTTCGAAG*T</td>
+</tr>
+<tr class="even">
+<td>RNA_P2.2_NC</td>
+<td>GTGACTGGAGTTCACACGTGTGCTCTTCCGATCTGGTACCG*T</td>
+</tr>
+<tr class="odd">
+<td>RNA_P2.2_SA</td>
+<td>GTGACTGGAGTTCACACGTGTGCTCTTCCGATCTCAGCTGG*T</td>
+</tr>
+<tr class="even">
+<td>RNA_P2.2_BS</td>
+<td>GTGACTGGAGTTCACACGTGTGCTCTTCCGATCTACATGTG*T</td>
+</tr>
+<tr class="odd">
+<td>RNA_P1.1_H3</td>
+<td>ACACTCTTTCCCTACACGACGCTCTTCCGATCTAAGCTTG*T</td>
+</tr>
+<tr class="even">
+<td>RNA_P1.1_NC</td>
+<td>ACACTCTTTCCCTACACGACGCTCTTCCGATCTCCATGGG*T</td>
+</tr>
+<tr class="odd">
+<td>RNA_P1.1_SA</td>
+<td>ACACTCTTTCCCTACACGACGCTCTTCCGATCTGTCGACG*T</td>
+</tr>
+<tr class="even">
+<td>RNA_P1.1_BS</td>
+<td>ACACTCTTTCCCTACACGACGCTCTTCCGATCTTGTACAG*T</td>
+</tr>
+<tr class="odd">
+<td>RNA_P1.2_H3</td>
+<td>P*CTTCGAAATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT</td>
+</tr>
+<tr class="even">
+<td>RNA_P1.2_NC</td>
+<td>P*CGGTACCATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT</td>
+</tr>
+<tr class="odd">
+<td>RNA_P1.2_SA</td>
+<td>P*CCAGCTGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT</td>
+</tr>
+<tr class="even">
+<td>RNA_P1.2_BS</td>
+<td>P*CACATGTATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="anneal-rna-adapters" class="level3">
+<h3 class="anchored" data-anchor-id="anneal-rna-adapters">Anneal RNA Adapters</h3>
+<p>Single-stranded oligos need to be annealed with their appropriate partner before ligation.</p>
+<ul>
+<li>To create Adapter P1, combine each oligo 1.1 with its complementary oligo 1.2 in a 1:1 ratio in working strength annealing buffer (final buffer concentration 1x) for a total annealed adapter concentration of 40uM (for example, if purchased oligos are resuspended to an initial concentration of 100uM, use 40ul oligo 1.1, 40ul oligo 1.2, 10ul 10x annealing buffer and 10ul nuclease-free water). Do the same for oligos 2.1 and 2.2 to create the common adapter P2.</li>
+</ul>
+<ol start="2" type="1">
+<li>In a thermocyler, incubate at 97.5°C for 2.5 minutes, and then cool at a rate of not greater than 3°C per minute until the solution reaches a temperature of 21°C. Hold at 4°C.</li>
+<li>Prepare final working strength concentrations of annealed adapters from this annealed stock (the appropriate working stock dilution for your experiment can be determined from our ligation molarity calculator-WILL PROBABLY HAVE TO ADD DETAILS). For convenience, it is possible to store the adapters at 4°C while in active use.</li>
+</ol>
+<p><strong>Procedure:</strong> * Prepare mastermixes for 4 libraries * See tables in manual and tables below for guidelines:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Total Volume Needed for 4 RXNs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1st Strand Synthesis Master Mix:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>1st Strand Synthesis Buffer</td>
+<td>22 μl</td>
+</tr>
+<tr class="odd">
+<td>KAPA Script</td>
+<td>2 μl</td>
+</tr>
+<tr class="even">
+<td><strong>Total Master Mix Volume</strong></td>
+<td><strong>24 μl</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Final reaction composition:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>1st Strand Synthesis Master Mix</td>
+<td>5 μl</td>
+</tr>
+<tr class="odd">
+<td>Fragmented, primed RNA</td>
+<td>10 μl</td>
+</tr>
+<tr class="even">
+<td><strong>Total Reaction Volume</strong></td>
+<td><strong>15 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Total Volume Needed for 4 RXNs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>2nd Strand Synthesis and Marking Master Mix:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>2nd Strand Marking Buffer</td>
+<td>62 μl</td>
+</tr>
+<tr class="odd">
+<td>2nd Strand Synthesis Enzyme Mix</td>
+<td>4 μl</td>
+</tr>
+<tr class="even">
+<td><strong>Total Master Mix Volume</strong></td>
+<td><strong>66 μl</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Final reaction composition:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>2nd Strand Synthesis and Marking Master Mix</td>
+<td>15 μl</td>
+</tr>
+<tr class="odd">
+<td>Fragmented, primed RNA</td>
+<td>15 μl</td>
+</tr>
+<tr class="even">
+<td><strong>Total Reaction Volume</strong></td>
+<td><strong>30 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Total Volume Needed for 4 RXNs (10% excess)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>A-Tailing Master Mix:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Water</td>
+<td>52.8 μl</td>
+</tr>
+<tr class="odd">
+<td>10X KAPA A-Tailing Buffer</td>
+<td>6.6 μl</td>
+</tr>
+<tr class="even">
+<td>KAPA A-Tailing Enzyme</td>
+<td>6.6 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Master Mix Volume</strong></td>
+<td><strong>66 μl</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Resuspend beads in a volume of:</strong></td>
+<td>** 15 μl**</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Total Volume Needed for 4 RXNs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Adapter Ligation Master Mix:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Water</td>
+<td>35.2 μl</td>
+</tr>
+<tr class="odd">
+<td>5X KAPA Ligation Buffer</td>
+<td>30.8μl</td>
+</tr>
+<tr class="even">
+<td>KAPA T4 DNA Ligase</td>
+<td>11 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Master Mix Volume</strong></td>
+<td><strong>77 μl</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Final reaction composition:</strong></td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td>Beads with A-tailed DNA</td>
+<td>15 μl</td>
+</tr>
+<tr class="even">
+<td>Adapter Ligation Master Mix</td>
+<td>17.5 μl</td>
+</tr>
+<tr class="odd">
+<td>Adapter (350 nM – 1400 nM, as appropriate)</td>
+<td>2.5 μl</td>
+</tr>
+<tr class="even">
+<td><strong>Total Reaction Volume</strong></td>
+<td><strong>35 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Total Volume Needed for 4 RXNs (10% excess)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Library Ampli cation Master Mix:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>2X KAPA HiFi HotStart ReadyMix</td>
+<td>55 μl</td>
+</tr>
+<tr class="odd">
+<td>10X KAPA Library Amplication Primer Mix</td>
+<td>11 μl</td>
+</tr>
+<tr class="even">
+<td><strong>Total Master Mix Volume</strong></td>
+<td><strong>66 μl</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Final reaction composition:</strong></td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>Adapter-ligated library DNA</td>
+<td>10 μl</td>
+</tr>
+<tr class="odd">
+<td>Library Ampli cation Master Mix</td>
+<td>15 μl</td>
+</tr>
+<tr class="even">
+<td>Balance of water (if required)</td>
+<td>5 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Reaction Volume</strong></td>
+<td><strong>30 μl</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mrna-capture" class="level3">
+<h3 class="anchored" data-anchor-id="mrna-capture">mRNA Capture</h3>
+<ul>
+<li>Combine the following for each RNA sample to be captured:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>RNA sample (in RNase-free water)</td>
+<td>25 μl</td>
+</tr>
+<tr class="even">
+<td>KAPA mRNA Capture Beads</td>
+<td>25 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>50 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Mix thoroughly by gently pipetting up and down several times.</li>
+<li>Place the plate/tube in a thermal cycler and carry out the 1st mRNA capture program as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Temp.</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1st mRNA capture</td>
+<td>65 °C</td>
+<td>2 min</td>
+</tr>
+<tr class="even">
+<td>Cool</td>
+<td>20 °C</td>
+<td>5 min</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Place the plate/tube containing the mixture of KAPA mRNA Capture Beads and RNA on a magnet and incubate at room temperature until the solution is clear. Remove and discard the supernatant.</li>
+<li>Remove the plate/tube from the magnet and resuspend thoroughly in 100 μl of KAPA mRNA Bead Wash Buffer by pipetting up and down several times.</li>
+<li>Place the plate/tube on the magnet and incubate at room temperature until the solution is clear. Remove and discard the supernatant.</li>
+<li>Resuspend the beads in 25 μl of RNase-free water.</li>
+<li>Place the plate/tube in a thermal cycler and carry out the 2nd mRNA capture program as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Temp.</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2nd mRNA capture</td>
+<td>70 °C</td>
+<td>2 min</td>
+</tr>
+<tr class="even">
+<td>Cool</td>
+<td>20 °C</td>
+<td>5 min</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Add 25 μl of KAPA Bead Binding Buffer to the mixture of KAPA mRNA Capture Beads and RNA and mix thoroughly by gently pipetting up and down several times.</li>
+<li>Incubate the plate/tube at 20 °C for 5 min.</li>
+<li>Place the plate/tube on the magnet and incubate at room temperature until the solution is clear. Remove and discard the supernatant.</li>
+<li>Remove the beads from the magnet and resuspend in 100 μl of KAPA mRNA Bead Wash Buffer by pipetting up and down several times.</li>
+<li>Place the plate/tube on the magnet and incubate at room temperature until the solution is clear. Remove and discard the entire volume of supernatant. #### mRNA Elution, Fragmentation and Priming</li>
+<li>Prepare the required volume of 1X Fragment, Prime and Elute Buffer as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume per sample</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Water</td>
+<td>5.5 μl</td>
+</tr>
+<tr class="even">
+<td>Fragment, Prime and Elute Buffer (2X)</td>
+<td>5.5 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>11 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Thoroughly resuspend the KAPA mRNA Capture Beads with captured mRNA prepared in Step 2.13 above in 11 μl of 1X Fragment, Prime and Elute Buffer.</li>
+</ul>
+</section>
+<section id="safe-stopping-point" class="level3">
+<h3 class="anchored" data-anchor-id="safe-stopping-point">Safe Stopping Point</h3>
+<p>Resuspended beads with captured mRNA may be stored at 4 oC for up to 24 hours. Do not freeze the samples as this will damage the beads. When ready, proceed to step below.</p>
+<ul>
+<li>Place the plate/tubes in a thermal cycler and carry out the fragmentation and priming program as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Desired Fragment Size</th>
+<th>Temp.</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>100 – 200 bp</td>
+<td>94 °C</td>
+<td>8 min</td>
+</tr>
+<tr class="even">
+<td><strong>200 – 300 bp</strong></td>
+<td><strong>94 °C</strong></td>
+<td><strong>6 min</strong></td>
+</tr>
+<tr class="odd">
+<td>300 – 400 bp</td>
+<td>85 °C</td>
+<td>6 min</td>
+</tr>
+</tbody>
+</table>
+<p><strong><em>We are planning on using 125 bp or 150 bp sequencing, so I think it makes sense to use the 200-300 range</em></strong></p>
+<ul>
+<li>Immediately place the plate/tube on a magnet to capture the beads, and incubate until the liquid is clear. <strong>Caution: To prevent hybridization of poly(A)- rich RNA to the capture beads, do not allow the sample to cool before placing on the magnet.</strong></li>
+<li>Carefully remove 10 μl of the supernatant containing the eluted, fragmented, and primed RNA into a separate plate or tube.</li>
+<li>Proceed immediately to <strong>1st Strand Synthesis</strong>.</li>
+</ul>
+</section>
+<section id="st-strand-synthesis" class="level3">
+<h3 class="anchored" data-anchor-id="st-strand-synthesis">1st Strand Synthesis</h3>
+<ul>
+<li>On ice, assemble the 1st Strand Synthesis reaction as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Fragmented, primed RNA eluted from beads</td>
+<td>10 μl</td>
+</tr>
+<tr class="even">
+<td>1st Strand Synthesis Master Mix</td>
+<td>5 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>15 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Keeping the plate/tube on ice, mix thoroughly by gently pipetting the reaction up and down several times.</li>
+<li>Incubate the plate/tube using the following protocol:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Temp.</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Primer extension</td>
+<td>25 °C</td>
+<td>10 min</td>
+</tr>
+<tr class="even">
+<td>1st Strand synthesis</td>
+<td>42 °C</td>
+<td>15 min</td>
+</tr>
+<tr class="odd">
+<td>Enzyme inactivation</td>
+<td>70 °C</td>
+<td>15 min</td>
+</tr>
+<tr class="even">
+<td>HOLD</td>
+<td>4 °C</td>
+<td>∞</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Place the plate/tube on ice and proceed immediately to <strong>2nd Strand Synthesis and Marking</strong>.</li>
+</ul>
+</section>
+<section id="nd-strand-synthesis" class="level3">
+<h3 class="anchored" data-anchor-id="nd-strand-synthesis">2nd Strand Synthesis</h3>
+<ul>
+<li>Assemble the 2nd Strand Synthesis and Marking reaction as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1st Strand cDNA</td>
+<td>15 μl</td>
+</tr>
+<tr class="even">
+<td>2nd Strand Synthesis and Marking Master Mix</td>
+<td>15 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>30 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Mix thoroughly by gently pipetting the reaction up and down several times.</li>
+<li>Incubate the plate/tube using the following protocol:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Temp.</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2nd Strand synthesis and marking</td>
+<td>16 °C</td>
+<td>60 min</td>
+</tr>
+<tr class="even">
+<td>HOLD</td>
+<td>4 °C</td>
+<td>∞</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Place the plate/tube on ice and proceed immediately to <strong>2nd Strand Synthesis and Marking Cleanup</strong>.</li>
+</ul>
+</section>
+<section id="cleanup" class="level3">
+<h3 class="anchored" data-anchor-id="cleanup">Cleanup</h3>
+<ul>
+<li>Perform a 1.8X SPRI® cleanup by combining the following:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2nd Strand Synthesis reaction product</td>
+<td>30 μl</td>
+</tr>
+<tr class="even">
+<td>Agencourt® AMPure® XP reagent</td>
+<td>54 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>84 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Thoroughly resuspend the beads by pipetting up and down multiple times.</li>
+<li>Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.</li>
+<li>Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.</li>
+<li>Carefully remove and discard 74 μl of supernatant.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.</li>
+<li>Dry the beads at room temperature, until all of the ethanol has evaporated.
+<ul>
+<li><strong>Caution: over-drying the beads may result in dramatic yield loss.</strong></li>
+</ul></li>
+<li>Proceed immediately to <strong>A-Tailing</strong> immediately, or follow the Safe Stopping Point instructions below.</li>
+</ul>
+</section>
+<section id="safe-stopping-point-1" class="level3">
+<h3 class="anchored" data-anchor-id="safe-stopping-point-1">SAFE STOPPING POINT</h3>
+<ul>
+<li>Resuspend the beads in 15 μl 1X A-Tailing Buffer (Table 5B), cover the reaction and store at 4 oC for up to 24 hours. Do not freeze the samples as this will damage the AMPure® XP® beads. When ready, proceed to <strong>A-Tailing after Safe Stopping Point</strong>.</li>
+</ul>
+</section>
+<section id="a-tailing" class="level3">
+<h3 class="anchored" data-anchor-id="a-tailing">A-Tailing</h3>
+<ul>
+<li>A-Tailing is performed either directly after the 2nd Strand Synthesis and Marking Cleanup, or after the Safe Stopping Point, where beads were resuspended in 1X A-Tailing Buffer and stored at 4 °C for up to 24 hours.</li>
+</ul>
+</section>
+<section id="a-tailing-immediately" class="level3">
+<h3 class="anchored" data-anchor-id="a-tailing-immediately">A-Tailing immediately</h3>
+<ul>
+<li>Assemble the A-Tailing reaction as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beads with dscDNA</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td>A-Tailing Master Mix</td>
+<td>15 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>15 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Mix thoroughly by pipetting up and down several times.</li>
+<li>Incubate the plate/tube using the following protocol:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Temp.</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A-Tailing</td>
+<td>30 °C</td>
+<td>30 min</td>
+</tr>
+<tr class="even">
+<td>Enzyme inactivation</td>
+<td>60 °C</td>
+<td>30 min</td>
+</tr>
+<tr class="odd">
+<td>HOLD</td>
+<td>4 °C</td>
+<td>∞</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Proceed immediately to <strong>Adapter Ligation</strong>.</li>
+</ul>
+</section>
+<section id="a-tailing-after-safe-stopping-point" class="level3">
+<h3 class="anchored" data-anchor-id="a-tailing-after-safe-stopping-point">A-Tailing after safe stopping point</h3>
+<ul>
+<li>To resume library preparation, combine the following reagents to perform A-Tailing:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beads with dscDNA (in 1X A-Tailing Buffer)</td>
+<td>7.5 μl</td>
+</tr>
+<tr class="even">
+<td>A-Tailing Master Mix after Safe Stopping Point</td>
+<td>7.5 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>15 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Mix thoroughly by pipetting up and down several times.</li>
+<li>Incubate the plate/tube using the following protocol:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Temp.</th>
+<th>Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A-Tailing</td>
+<td>30 °C</td>
+<td>30 min</td>
+</tr>
+<tr class="even">
+<td>Enzyme inactivation</td>
+<td>60 °C</td>
+<td>30 min</td>
+</tr>
+<tr class="odd">
+<td>HOLD</td>
+<td>4 °C</td>
+<td>∞</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Proceed immediately to <strong>Adapter Ligation</strong>.</li>
+</ul>
+</section>
+<section id="adapter-ligation" class="level3">
+<h3 class="anchored" data-anchor-id="adapter-ligation">Adapter Ligation</h3>
+<ul>
+<li>Set up the adapter ligation reactions as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beads with A-tailed DNA</td>
+<td>15 μl</td>
+</tr>
+<tr class="even">
+<td>Adapter Ligation Master Mix</td>
+<td>17.5 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Adapters</strong>*</td>
+<td>2.5 μl</td>
+</tr>
+<tr class="even">
+<td><strong>Total Volume</strong></td>
+<td><strong>35 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<section id="adapter-concentration-will-vary-depending-on-overall-rna-yield-see-table-below" class="level4">
+<h4 class="anchored" data-anchor-id="adapter-concentration-will-vary-depending-on-overall-rna-yield-see-table-below">Adapter concentration will vary depending on overall RNA yield, see table below:</h4>
+<table class="table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 30%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Quantity of starting material</th>
+<th>Adapter stock concentration</th>
+<th>Adapter concentration in ligation reaction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>100 – 250 ng</td>
+<td>140 nM</td>
+<td>10 nM</td>
+</tr>
+<tr class="even">
+<td>251 – 500 ng</td>
+<td>350 nM</td>
+<td>25 nM</td>
+</tr>
+<tr class="odd">
+<td>501 – 2000 ng</td>
+<td>700 nM</td>
+<td>50 nM</td>
+</tr>
+<tr class="even">
+<td>2001 – 4000 ng</td>
+<td>1400 nM</td>
+<td>100 nM</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="this-will-be-where-we-insert-the-custom-adapters-that-are-barcoded-with-re-sites" class="level4">
+<h4 class="anchored" data-anchor-id="this-will-be-where-we-insert-the-custom-adapters-that-are-barcoded-with-re-sites">This will be where we insert the custom adapters that are barcoded with RE sites</h4>
+<ul>
+<li>Mix thoroughly by pipetting up and down several times to resuspend the beads.</li>
+<li>Incubate the plate/tube at 20 °C for 15 min.</li>
+<li>Proceed immediately to <strong>1st Post-Ligation Cleanup</strong>.</li>
+</ul>
+</section>
+</section>
+<section id="post-ligation-cleanup" class="level3">
+<h3 class="anchored" data-anchor-id="post-ligation-cleanup">Post-Ligation Cleanup</h3>
+<ul>
+<li>Perform a 1X SPRI® cleanup by combining the following:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beads with adapter-ligated DNA</td>
+<td>35 μl</td>
+</tr>
+<tr class="even">
+<td>Agencourt® AMPure® XP reagent</td>
+<td>35 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>70 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Thoroughly resuspend the beads by pipetting up and down multiple times.</li>
+<li>Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.</li>
+<li>Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.</li>
+<li>Carefully remove and discard 65 μl of supernatant.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.</li>
+<li>Dry the beads at room temperature, until all of the ethanol has evaporated. <strong>Caution: over-drying the beads may result in dramatic yield loss.</strong></li>
+<li>Remove the plate/tube from the magnet.</li>
+<li>Thoroughly resuspend the beads in 25 μl of 10 mM Tris-HCl (pH 8.0).</li>
+<li>Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads</li>
+</ul>
+</section>
+<section id="safe-stopping-point-2" class="level3">
+<h3 class="anchored" data-anchor-id="safe-stopping-point-2">Safe Stopping Point</h3>
+<p>The solution with resuspended beads can be stored at 4 °C for up to 24 hours. Do not freeze the beads, as this can result in dramatic loss of DNA. When ready, proceed to <strong>2nd Post-Ligation Cleanup</strong>.</p>
+</section>
+<section id="nd-post-ligation-cleanup" class="level3">
+<h3 class="anchored" data-anchor-id="nd-post-ligation-cleanup">2nd Post-Ligation Cleanup</h3>
+<ul>
+<li>Perform a 1X SPRI® cleanup by combining the following:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Beads with puri ed, adapter-ligated DNA</td>
+<td>25 μl</td>
+</tr>
+<tr class="even">
+<td>Agencourt® AMPure® XP reagent</td>
+<td>25 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>50 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Thoroughly resuspend the beads by pipetting up and down multiple times.</li>
+<li>Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.</li>
+<li>Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.</li>
+<li>Carefully remove and discard 45 μl of supernatant.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.</li>
+<li>Dry the beads at room temperature, until all of the ethanol has evaporated. <strong>Caution: over-drying the beads may result in dramatic yield loss.</strong></li>
+<li>Remove the plate/tube from the magnet.</li>
+<li>Thoroughly resuspend the beads in 11.25 μl of 10 mM Tris-HCl (pH 8.0).</li>
+<li>Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads.</li>
+<li>Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.</li>
+<li>Transfer 20 μl of the clear supernatant to a new plate/tube and proceed to <em>Library Amplication</em>.</li>
+</ul>
+</section>
+<section id="safe-stopping-point-3" class="level3">
+<h3 class="anchored" data-anchor-id="safe-stopping-point-3">SAFE STOPPING POINT</h3>
+<p>The purified, adapter-ligated library DNA may be stored at 4 °C for up to 1 week, or frozen at -20 °C for up to 1 month. When ready, proceed to <strong>Library Amplification</strong>.</p>
+</section>
+<section id="library-amplificiation" class="level3">
+<h3 class="anchored" data-anchor-id="library-amplificiation">Library Amplificiation</h3>
+<ul>
+<li>Assemble each library ampli cation reaction as follows:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Purified, adapter-ligated DNA</td>
+<td>10 μl</td>
+</tr>
+<tr class="even">
+<td>Library Amplification Master Mix</td>
+<td>15 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>25 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Mix well by pipetting up and down several times</li>
+<li>Amplify the library using the following thermal cycling protocol:</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Step</th>
+<th>Temp</th>
+<th>Duration</th>
+<th>Cycles</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Initial denaturation</td>
+<td>98 °C</td>
+<td>45 sec</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Denaturation</td>
+<td>98 °C</td>
+<td>15 sec</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>Annealing*</td>
+<td>60 °C</td>
+<td>30 sec</td>
+<td>16</td>
+</tr>
+<tr class="even">
+<td>Extension</td>
+<td>72 °C</td>
+<td>30 sec</td>
+<td>16</td>
+</tr>
+<tr class="odd">
+<td>Final Extension</td>
+<td>72 °C</td>
+<td>5 min</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Hold</td>
+<td>10 °C</td>
+<td>∞</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="needs-to-be-tested" class="level2">
+<h2 class="anchored" data-anchor-id="needs-to-be-tested">NEEDS TO BE TESTED</h2>
+<p><em>Annealing temperature may need to be optimized</em></p>
+<p>I think that 8 cycles should be enough. It’s half the maximum recommended number for the kit, and given the that we have another PCR step after DSN, I don’t think we need to maximize here</p>
+<ul>
+<li>Place the plate/tube on ice and proceed to <strong>Library Amplification Cleanup</strong></li>
+</ul>
+<section id="library-amplification-cleanup" class="level3">
+<h3 class="anchored" data-anchor-id="library-amplification-cleanup">Library Amplification Cleanup</h3>
+<ul>
+<li>Perform a 1X SPRI® cleanup by combining the following</li>
+</ul>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Volume</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Amplified library DNA</td>
+<td>25 μl</td>
+</tr>
+<tr class="even">
+<td>Agencourt® AMPure® XP reagent</td>
+<td>25 μl</td>
+</tr>
+<tr class="odd">
+<td><strong>Total Volume</strong></td>
+<td><strong>50 μl</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Mix thoroughly by pipetting up and down several times.</li>
+<li>Incubate the plate/tube at room temperature for 5 – 15 min to allow the DNA to bind to the beads.</li>
+<li>Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear.</li>
+<li>Carefully remove and discard 45 μl of supernatant.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol.</li>
+<li>Keeping the plate/tube on the magnet, add 200 μl of 80% ethanol.</li>
+<li>Incubate the plate/tube at room temperature for ≥30 sec.</li>
+<li>Carefully remove and discard the ethanol. Try to remove all residual ethanol without disturbing the beads.</li>
+<li>Dry the beads at room temperature, until all of the ethanol has evaporated. <strong>Caution: over-drying the beads may result in dramatic yield loss.</strong></li>
+<li>Remove the plate/tube from the magnet.</li>
+<li>Thoroughly resuspend the dried beads in 22 μl of 10 mM Tris-HCl (pH 8.0).</li>
+<li>Incubate the plate/tube at room temperature for 2 min to allow the DNA to elute off the beads.</li>
+<li>Place the plate/tube on a magnet to capture the beads. Incubate until the liquid is clear. Transfer 20 μl of the clear supernatant to a new plate/tube.</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
