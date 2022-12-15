@@ -1,6 +1,6 @@
 # Changing ethanol out of gonad tissue vials
 
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_etoh_gonad.qmd)
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_gonad_buffer.qmd)
 
 Protocol for changing the ethanol out of gonad tissue vials.
 
