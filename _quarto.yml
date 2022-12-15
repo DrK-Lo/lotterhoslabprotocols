@@ -86,6 +86,7 @@ website:
           - code_TroubleshootingCellprofiler.qmd
           - code_unixcommands.qmd
           - code_versioncontrol.qmd
+          - code_quarto.qmd
       - section: "Discovery"
         contents:
           - discovery_slurmArrays.qmd
