@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "molecprot_etoh_gonad.html",
-    "href": "molecprot_etoh_gonad.html",
-    "title": "Lotterhos Lab Protocols",
-    "section": "",
-    "text": "Edit this page\nProtocol for changing the ethanol out of gonad tissue vials.\n\nWe are switching to a 95Etoh-PureNoAdditives buffer. See types of ethanol page to understand why we are changing the ethanol out of gonad vials.\n\n\n\nCentrigue the vial for 2 minutes at full speed\nUse a pipette to suck up the 95MGetoh ethanol\n\nNote: Make sure to not suck up any tissue!\n\nAdd the 95Etoh-PureNoAdditives\n\n\n\n\n\n\n\nTransfer the tissue into a o-ring with the label for long term storage\n\n\n\n\n\nTransfer the tissue in these to a o-ring with the label for long term storage"
-  },
-  {
     "objectID": "field_Seatables.html",
     "href": "field_Seatables.html",
     "title": "Lotterhos Lab Protocols",
@@ -390,6 +383,13 @@
     "title": "Lotterhos Lab Protocols",
     "section": "",
     "text": "NUMSC - Shared Lab Space\nEdit this page\n\nIntroductory information on the shared lab space @ NU Marine Science Center\nhttps://numsc-corefacility.github.io/sharedLabSpace/"
+  },
+  {
+    "objectID": "molecprot_gonad_buffer.html",
+    "href": "molecprot_gonad_buffer.html",
+    "title": "Lotterhos Lab Protocols",
+    "section": "",
+    "text": "Edit this page\nProtocol for changing the ethanol out of gonad tissue vials.\n\nWe are switching to a 95Etoh-PureNoAdditives buffer. See types of ethanol page to understand why we are changing the ethanol out of gonad vials.\n\n\n\nCentrigue the vial for 2 minutes at full speed\nUse a pipette to suck up the 95MGetoh ethanol\n\nNote: Make sure to not suck up any tissue!\n\nAdd the 95Etoh-PureNoAdditives\n\n\n\n\n\n\n\nTransfer the tissue into a o-ring with the label for long term storage\n\n\n\n\n\nTransfer the tissue in these to a o-ring with the label for long term storage"
   },
   {
     "objectID": "profdev_knowledge.html",

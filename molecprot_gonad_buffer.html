@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lotterhos Lab Protocols – field_phloggers</title>
+<title>Lotterhos Lab Protocols – molecprot_gonad_buffer</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./field_Seatables.html" rel="next">
-<link href="./field_kayak.html" rel="prev">
+<link href="./molecprot_take3dnaquantification.html" rel="next">
+<link href="./molecprot_solutionrecipes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -242,12 +242,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Molecular Protocols</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Molecular Protocols</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./molecprot_barcodesnindexes.html" class="sidebar-item-text sidebar-link">Determining Barcodes and Indexes for Illumina Sequencing</a>
@@ -298,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./molecprot_gonad_buffer.html" class="sidebar-item-text sidebar-link">Changing ethanol out of gonad tissue vials</a>
+  <a href="./molecprot_gonad_buffer.html" class="sidebar-item-text sidebar-link active">Changing ethanol out of gonad tissue vials</a>
   </div>
 </li>
       </ul>
@@ -345,12 +345,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Field and Sampling Protocols</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">Field and Sampling Protocols</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./field_collectsampdna.html" class="sidebar-item-text sidebar-link">Collecting Samples for DNA</a>
@@ -383,7 +383,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./field_phloggers.html" class="sidebar-item-text sidebar-link active">pH Loggers</a>
+  <a href="./field_phloggers.html" class="sidebar-item-text sidebar-link">pH Loggers</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -537,24 +537,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ph-loggers" id="toc-ph-loggers" class="nav-link active" data-scroll-target="#ph-loggers">pH Loggers</a>
+  <li><a href="#changing-ethanol-out-of-gonad-tissue-vials" id="toc-changing-ethanol-out-of-gonad-tissue-vials" class="nav-link active" data-scroll-target="#changing-ethanol-out-of-gonad-tissue-vials">Changing ethanol out of gonad tissue vials</a>
   <ul class="collapse">
-  <li><a href="#initializing-loggers" id="toc-initializing-loggers" class="nav-link" data-scroll-target="#initializing-loggers"><strong>Initializing Loggers</strong></a>
+  <li><a href="#steps-for-changing-ethanol-out-of-gonad-tissue-vials" id="toc-steps-for-changing-ethanol-out-of-gonad-tissue-vials" class="nav-link" data-scroll-target="#steps-for-changing-ethanol-out-of-gonad-tissue-vials">Steps for changing ethanol out of gonad tissue vials</a></li>
+  <li><a href="#exceptions" id="toc-exceptions" class="nav-link" data-scroll-target="#exceptions">Exceptions</a>
   <ul class="collapse">
-  <li><a href="#calibrating-the-logger" id="toc-calibrating-the-logger" class="nav-link" data-scroll-target="#calibrating-the-logger"><strong>Calibrating the Logger</strong></a></li>
-  <li><a href="#configuring-and-launching-logger" id="toc-configuring-and-launching-logger" class="nav-link" data-scroll-target="#configuring-and-launching-logger"><strong>Configuring and Launching Logger</strong></a></li>
-  </ul></li>
-  <li><a href="#deploying-loggers" id="toc-deploying-loggers" class="nav-link" data-scroll-target="#deploying-loggers"><strong>Deploying loggers</strong></a>
-  <ul class="collapse">
-  <li><a href="#materials-youll-need-before-deploying" id="toc-materials-youll-need-before-deploying" class="nav-link" data-scroll-target="#materials-youll-need-before-deploying"><strong>Materials you’ll need before deploying</strong></a></li>
-  <li><a href="#before-leaving-for-the-field" id="toc-before-leaving-for-the-field" class="nav-link" data-scroll-target="#before-leaving-for-the-field"><strong>Before leaving for the field</strong></a></li>
-  <li><a href="#deploying" id="toc-deploying" class="nav-link" data-scroll-target="#deploying"><strong>Deploying</strong></a></li>
-  <li><a href="#last-steps" id="toc-last-steps" class="nav-link" data-scroll-target="#last-steps"><strong>Last Steps</strong></a></li>
-  </ul></li>
-  <li><a href="#offloading-data" id="toc-offloading-data" class="nav-link" data-scroll-target="#offloading-data"><strong>Offloading Data</strong></a>
-  <ul class="collapse">
-  <li><a href="#materials-youll-need-before-going-into-the-field-for-off-loading-data" id="toc-materials-youll-need-before-going-into-the-field-for-off-loading-data" class="nav-link" data-scroll-target="#materials-youll-need-before-going-into-the-field-for-off-loading-data"><strong>Materials you’ll need before going into the field for off-loading data</strong></a></li>
-  <li><a href="#transferring-data-to-the-ipad" id="toc-transferring-data-to-the-ipad" class="nav-link" data-scroll-target="#transferring-data-to-the-ipad"><strong>Transferring Data to the iPad</strong></a></li>
+  <li><a href="#for-cryovials-that-do-not-fit-in-the-certifuge" id="toc-for-cryovials-that-do-not-fit-in-the-certifuge" class="nav-link" data-scroll-target="#for-cryovials-that-do-not-fit-in-the-certifuge">For cryovials that do not fit in the certifuge</a></li>
+  <li><a href="#for-vials-with-too-much-gonad-and-not-enough-ethanol-over-15-ratio" id="toc-for-vials-with-too-much-gonad-and-not-enough-ethanol-over-15-ratio" class="nav-link" data-scroll-target="#for-vials-with-too-much-gonad-and-not-enough-ethanol-over-15-ratio">For vials with too much gonad and not enough ethanol (over 1:5 ratio)</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -565,98 +554,36 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="ph-loggers" class="level1">
-<h1>pH Loggers</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_phloggers.qmd">Edit this page</a></p>
-<p>The protocol for calibrating/initializing, deploying, and offloading Data from the HOBO pH loggers.</p>
+<section id="changing-ethanol-out-of-gonad-tissue-vials" class="level1">
+<h1>Changing ethanol out of gonad tissue vials</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_etoh_gonad.qmd">Edit this page</a></p>
+<p>Protocol for changing the ethanol out of gonad tissue vials.</p>
 <hr>
-<p>The pH loggers require the iPad with the special HOBO software</p>
-<section id="initializing-loggers" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="initializing-loggers"><strong>Initializing Loggers</strong></h2>
-<section id="calibrating-the-logger" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="calibrating-the-logger"><strong>Calibrating the Logger</strong></h3>
-<p>To initialize the logger:</p>
+<p>We are switching to a 95Etoh-PureNoAdditives buffer. See <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/3689d797871137dc6ae6eedd4959b8365b184d0c/molecprot_etoh">types of ethanol page</a> to understand why we are changing the ethanol out of gonad vials.</p>
+<section id="steps-for-changing-ethanol-out-of-gonad-tissue-vials" class="level2">
+<h2 class="anchored" data-anchor-id="steps-for-changing-ethanol-out-of-gonad-tissue-vials">Steps for changing ethanol out of gonad tissue vials</h2>
 <ol type="1">
-<li><p>First, make sure you have the IPad the is used for the pH loggers</p></li>
-<li><p>If the logger isn’t on, turn the logger on</p></li>
-<li><p>Under ‘IN RANGE’ the logger should appear. Select the correct logger</p></li>
-<li><p>If the logger has an expired calibration, you will be promoted to calibrate the logger. If it isn’t expired, you should still calibrate before deploying by selecting ‘pH Calibration’</p></li>
-<li><p>This will open a window with a very easy-to-follow guide on how to calibrate the logger. We typically do a three-point calibration, so choose ‘Three-Point’ <strong>Follow the important tips at the bottom of the page. Namely, make sure the copper tip has been removed before calibrating and make sure the temperature logger is fully submerged when calibrating</strong></p></li>
+<li>Centrigue the vial for 2 minutes at full speed</li>
+<li>Use a pipette to suck up the 95MGetoh ethanol</li>
 </ol>
-<p><strong>Tip: Have the logger in the 7 pH buffer before clicking ‘Start Calibration’ and before clikcing ‘Next Buffer’ for the 4 and 10 pH buffers</strong></p>
-<p>If you put it in the wrong buffer or click ‘Next Buffer’ before putting the logger in, you should be able to place the logger in the buffer and it will properly stabilize</p>
-</section>
-<section id="configuring-and-launching-logger" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="configuring-and-launching-logger"><strong>Configuring and Launching Logger</strong></h3>
-<p>After the logger has been calibrated you can configure it and launch it. To do so:</p>
-<ol type="1">
-<li><p>Choose ‘Configure’ under the ‘Actions’ list</p></li>
-<li><p>Some things I would change: Name (to something meaningful like 20180615_Barnstable_pH), Logging Interval (typically 30 min), Start Logging (to the date and time it will be deployed, or ‘Now’ if relaunching), Stop Logging (make sure it’s on ‘When memory fills’), and make sure bluetooth is always on.</p></li>
-<li><p>Click ‘Start’ and the logger should launch at the date and time you set.</p></li>
+<p><strong>Note</strong>: Make sure to not suck up any tissue!</p>
+<ol start="5" type="1">
+<li>Add the 95Etoh-PureNoAdditives</li>
 </ol>
 </section>
-</section>
-<section id="deploying-loggers" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="deploying-loggers"><strong>Deploying loggers</strong></h2>
-<section id="materials-youll-need-before-deploying" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="materials-youll-need-before-deploying"><strong>Materials you’ll need before deploying</strong></h3>
-<ul>
-<li><p>Cinderblock</p></li>
-<li><p>Metal tubing straps to attach PVC fixed loggers to</p></li>
-<li><p>Zipties</p></li>
-<li><p>PVC pipe large and long enough to fit logger, “swiss-cheesed’ with holes <strong>There must be enough holes for regular flow of water through the PVC pipe. The PVC pipe prevents large rocks and debris from damaging loggers</strong></p></li>
-<li><p>Rope and buoy</p></li>
-<li><p>Glass bottles and 50 mL Falcon tubes. See <a href="https://drk-lo.github.io/lotterhoslabprotocols/field_watersampling.html">this page</a> for water sampling protocol</p></li>
-</ul>
-</section>
-<section id="before-leaving-for-the-field" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="before-leaving-for-the-field"><strong>Before leaving for the field</strong></h3>
+<section id="exceptions" class="level2">
+<h2 class="anchored" data-anchor-id="exceptions">Exceptions</h2>
+<section id="for-cryovials-that-do-not-fit-in-the-certifuge" class="level3">
+<h3 class="anchored" data-anchor-id="for-cryovials-that-do-not-fit-in-the-certifuge">For cryovials that do not fit in the certifuge</h3>
 <ol type="1">
-<li><p>Attach metal straps to cinder block</p></li>
-<li><p>Attach PVC pipe to the metal rings that are fastened to the cinderblock</p></li>
-<li><p>Label cinderblock, PVC pipe, buoy, and loggers with contact information (Katie’s)</p></li>
-<li><p>Make sure you’ve contacted local shellfish constable to make sure they can keep an eye on the logger</p></li>
+<li>Transfer the tissue into a o-ring with the label for long term storage</li>
 </ol>
 </section>
-<section id="deploying" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="deploying"><strong>Deploying</strong></h3>
-<p>Loggers should be deployed at low tide, so that we know they’ll be constantly exposed to water while logging</p>
+<section id="for-vials-with-too-much-gonad-and-not-enough-ethanol-over-15-ratio" class="level3">
+<h3 class="anchored" data-anchor-id="for-vials-with-too-much-gonad-and-not-enough-ethanol-over-15-ratio">For vials with too much gonad and not enough ethanol (over 1:5 ratio)</h3>
 <ol type="1">
-<li><p>Before deploying, attach logger(s) to PVC using many zipties <strong>IMPORTANT: MAKE SURE THE COPPER GUARD HAS BEEN PLACED ON SENSOR BEFORE DEPLOYING</strong></p></li>
-<li><p>Wade to waist-deep water at site of deployment</p></li>
-<li><p>Deploy logger</p></li>
-<li><p>Record time of deployment. If loggers start logging before they are deployed they give strange readings. It is good to know when the logger was actually deployed, so we know when logging was actually initiated</p></li>
-<li><p>Record location using GPS</p></li>
-<li><p>Take water samples</p></li>
+<li>Transfer the tissue in these to a o-ring with the label for long term storage</li>
 </ol>
-</section>
-<section id="last-steps" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="last-steps"><strong>Last Steps</strong></h3>
-<ol type="1">
-<li><p>Add the geographic location, deployment time, and additional notes about site to the log file (should be a google doc- ask Katie)</p></li>
-<li><p>Make sure field sample in glass bottle has been poisoned with Mecuric Chloride (Ries Lab) and place in freezer</p></li>
-</ol>
-</section>
-</section>
-<section id="offloading-data" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="offloading-data"><strong>Offloading Data</strong></h2>
-<p>Data from loggers should be off-loaded about every two weeks</p>
-<section id="materials-youll-need-before-going-into-the-field-for-off-loading-data" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="materials-youll-need-before-going-into-the-field-for-off-loading-data"><strong>Materials you’ll need before going into the field for off-loading data</strong></h3>
-<ul>
-<li><p>Glass bottle and 50mL Falcon tube fore water samples</p></li>
-<li><p>IPad with HOBO software</p></li>
-<li><p>Kimwipes</p></li>
-<li><p>Wire cutters (to clip zipties)</p></li>
-<li><p>Zipties- to reattached logger</p></li>
-</ul>
-</section>
-<section id="transferring-data-to-the-ipad" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="transferring-data-to-the-ipad"><strong>Transferring Data to the iPad</strong></h3>
-<ol type="1">
-<li>Retrieve logger and <strong>record the time you collected logger</strong></li>
-</ol>
-<p><em>pH protocols is not finished</em></p>
 
 
 </section>
@@ -797,16 +724,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./field_kayak.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Lab Kayak Care</span>
+      <a href="./molecprot_solutionrecipes.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Solution Recipes</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./field_Seatables.html" class="pagination-link">
-        <span class="nav-page-text">Managing Seatables</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./molecprot_take3dnaquantification.html" class="pagination-link">
+        <span class="nav-page-text">Take3 DNA Quantification</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
