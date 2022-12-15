@@ -104,7 +104,7 @@ website:
 format:
   html:
     theme: 
-      dark: solar
+      light: solar
     css: styles.css
     toc: true
 
