@@ -1,4 +1,4 @@
-# "Lotterhos Lab Protocols"
+# Lotterhos Lab Protocols
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/index.qmd)
 
