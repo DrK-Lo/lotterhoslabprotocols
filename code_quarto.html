@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lotterhos Lab Protocols – general_ordering</title>
+<title>Lotterhos Lab Protocols – code_quarto</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./general_MVI-scope-camera.html" rel="next">
-<link href="./general_purchasing.html" rel="prev">
+<link href="./discovery_slurmArrays.html" rel="next">
+<link href="./code_versioncontrol.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -117,12 +117,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">General</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">General</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./general_welcome.html" class="sidebar-item-text sidebar-link">Welcome</a>
@@ -170,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./general_ordering.html" class="sidebar-item-text sidebar-link active">Ordering Supplies and Equipment</a>
+  <a href="./general_ordering.html" class="sidebar-item-text sidebar-link">Ordering Supplies and Equipment</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -402,12 +402,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">Coding Protocols</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Coding Protocols</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./code_bioinformatics.html" class="sidebar-item-text sidebar-link">Bioinformatics Resources</a>
@@ -470,7 +470,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code_quarto.html" class="sidebar-item-text sidebar-link">Editing with Quarto</a>
+  <a href="./code_quarto.html" class="sidebar-item-text sidebar-link active">Editing with Quarto</a>
   </div>
 </li>
       </ul>
@@ -544,10 +544,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#ordering-supplies-and-equipment" id="toc-ordering-supplies-and-equipment" class="nav-link active" data-scroll-target="#ordering-supplies-and-equipment">Ordering Supplies and Equipment</a>
+  <li><a href="#editing-with-quarto" id="toc-editing-with-quarto" class="nav-link active" data-scroll-target="#editing-with-quarto">Editing with Quarto</a>
   <ul class="collapse">
-  <li><a href="#placing-orders-on-mymarketplace" id="toc-placing-orders-on-mymarketplace" class="nav-link" data-scroll-target="#placing-orders-on-mymarketplace"><strong>Placing Orders on myMarketplace</strong></a></li>
-  <li><a href="#placing-orders-through-external-website" id="toc-placing-orders-through-external-website" class="nav-link" data-scroll-target="#placing-orders-through-external-website"><strong>Placing Orders through External Website</strong></a></li>
+  <li><a href="#creating-your-quarto-website" id="toc-creating-your-quarto-website" class="nav-link" data-scroll-target="#creating-your-quarto-website">Creating your Quarto website</a></li>
+  <li><a href="#structuring-your-quarto-website" id="toc-structuring-your-quarto-website" class="nav-link" data-scroll-target="#structuring-your-quarto-website">Structuring your Quarto website</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -557,44 +557,56 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="ordering-supplies-and-equipment" class="level1">
-<h1>Ordering Supplies and Equipment</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_ordering.qmd">Edit this page</a></p>
-<p>The protocol for ordering supplies and equipment for the lab.</p>
+<section id="editing-with-quarto" class="level1">
+<h1>Editing with Quarto</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_quarto.qmd">Edit this page</a></p>
 <hr>
-<section id="placing-orders-on-mymarketplace" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="placing-orders-on-mymarketplace"><strong>Placing Orders on myMarketplace</strong></h2>
-<p>Most supplies for the lab are ordered through companies that Northeastern has accounts with, such as Fisher, Sigma Aldrich or VWR To order from these companies:</p>
+<p>The “Edit this page” link at the top of each page will direct you to the GitHub repository where you can directly make edits to the contents of each page.</p>
+<p>If you would like to create your own Quarto website, click here. If you already have your Quarto website created and want to know more about how to build out your website, click here.</p>
+<p>An in-depth Quarto tutorial exists <a href="https://quarto.org/docs/websites/">here</a>.</p>
+<section id="creating-your-quarto-website" class="level2">
+<h2 class="anchored" data-anchor-id="creating-your-quarto-website">Creating your Quarto website</h2>
 <ol type="1">
-<li><p>Log on to myNortheastern</p></li>
-<li><p>Go to Services &amp; Links -&gt; myMarketplace (Under ‘Finance Services for Faculty\Staff’)</p></li>
-<li><p>Log on to myMarketplace</p></li>
-<li><p>Scroll down and select the company you want to order from (e.g., Fisher Scientific)</p></li>
-<li><p>Search for your desired item</p></li>
-<li><p>Choose price and quantity</p></li>
-<li><p>Add to cart</p></li>
-<li><p>Continue adding items to cart</p></li>
-<li><p>Once all items are in the cart, go to cart symbol in upper right hand corner and select ‘View Cart’</p></li>
-<li><p>Review order. If everything is correct go to ‘Return Cart to Purchasing Application’</p></li>
-<li><p>Click ‘Submit’. You will return to myMarketplace</p></li>
-<li><p>From here, choose the index (the budget code, depending on the project), the account code (typically Scientific Supplies), and how much to cover with this budget code (typically 100%)</p></li>
-<li><p>Click ‘Send to Approval’ <strong>DO NOT FORGET STEPS BELOW</strong></p></li>
-<li><p>Once you receive a confirmation e-mail with the receipt of the purchase forward it to the Business and Operations Manager (currently Liz Magee) and David Dawson. CC Katie on the e-mail</p></li>
-<li><p><strong>In the body of the e-mail put the index number it was charged to</strong></p></li>
-<li><p>Download PDF of the receipt, rename to date_company_item (e.g.&nbsp;20180505_Fisher_Gloves) and add it to the Dropbox Folder : LotterhosLab/orders and receipts <strong>Katie will need these receipts to do budgets at the end of the month</strong></p></li>
+<li>Download <a href="https://quarto.org/docs/download/">Quarto app</a>
+<ul>
+<li>Quarto is an open-source publishing system that works with R Markdown to create high-quality articles, websites, or books</li>
+</ul></li>
+<li><a href="https://quarto.org/docs/get-started/hello/rstudio.html">Connecting the Quarto app with R</a>
+<ul>
+<li>Make sure you have the latest release of RStudio downloaded</li>
+<li>Be sure that you have installed any packages that it prompts you to</li>
+</ul></li>
+<li>Download the <a href="https://quarto.org/docs/get-started/hello/rstudio/_hello.qmd">Quarto document (.qmd)</a>, open it in RStudio, and click Render
+<ul>
+<li>When you render a Quarto document, knitr executes all of the code chunks and creates a new markdown (.md) document which includes the code and its output</li>
+<li>The markdown file generated is then processed by pandoc, which creates the finished format</li>
+<li>The Render button encapsulates these actions and executes them in the right order for you</li>
+</ul></li>
+<li>Creating your Quarto website
+<ul>
+<li>To create a new website project within RStudio, use the New Project command and select Quarto Website</li>
+<li>You may create a new directory or attach it to an existing directory</li>
+<li>To attach the protocols website to the GitHub, we created a new website as a subdirectory of the main GitHub branch on GitHub Desktop</li>
+</ul></li>
 </ol>
 </section>
-<section id="placing-orders-through-external-website" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="placing-orders-through-external-website"><strong>Placing Orders through External Website</strong></h2>
-<p>Sometimes orders will have to be placed outside these companies. Many sites will have a lab login (get from Katie), if there isn’t one, you’ll create one <strong>Make sure the account is tax-free; you can get the tax numbers from Katie to set this up</strong></p>
-<p>To order from external companies:</p>
+<section id="structuring-your-quarto-website" class="level2">
+<h2 class="anchored" data-anchor-id="structuring-your-quarto-website">Structuring your Quarto website</h2>
+<ul>
+<li>Your Quarto website should come with some basic, starter files:
 <ol type="1">
-<li><p>Login with lab login</p></li>
-<li><p>Place order, making sure no tax is applied (it’s hard to get reimbursed)</p></li>
-<li><p>Pay with American Express card</p></li>
-<li><p>If using your e-mail, and you receive receipt, rename PDF with same convention as above and add to Dropbox</p></li>
-<li><p>Typically lab login will be through Katie’s e-mail; confirm with Katie that she has received the receipt</p></li>
+<li>index.qmd: the home page for your Quarto website</li>
 </ol>
+<ul>
+<li>This is a REQUIRED file which includes the preface, acknowledgements, etc.</li>
+</ul>
+<ol start="2" type="1">
+<li>_quarto.yml: the contents of your Quarto website</li>
+</ol>
+<ul>
+<li>This is where you will divide your website into sections…. and within sections, you can divide it further into contents</li>
+</ul></li>
+</ul>
 
 
 </section>
@@ -736,13 +748,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./general_purchasing.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Purchasing</span>
+      <a href="./code_versioncontrol.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Version Control with GitHub</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./general_MVI-scope-camera.html" class="pagination-link">
-        <span class="nav-page-text">Scope Camera MVI Nikon SMZ 1000</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./discovery_slurmArrays.html" class="pagination-link">
+        <span class="nav-page-text">Parallelization with Array</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
