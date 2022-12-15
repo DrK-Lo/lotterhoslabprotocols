@@ -14,5 +14,5 @@ Click [here](https://sites.google.com/site/katielotterhos/home) for the Lotterho
 
 ------------------------------------------------------------------------
 
-This is a Quarto website. 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+_This is a Quarto website. 
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>._
