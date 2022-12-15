@@ -11,7 +11,7 @@ website:
         text: Home
       - about.qmd
   sidebar:
-    logo: img/Lotterhos_logo.png
+    logo: img/Lotterhos_logo2.png
     style: "floating"
     search: true
     collapse-level: 1
@@ -103,7 +103,8 @@ website:
           
 format:
   html:
-    theme: solar
+    theme: 
+      dark: solar
     css: styles.css
     toc: true
 
