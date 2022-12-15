@@ -6,8 +6,8 @@
 
 The "Edit this page" link at the top of each page will direct you to the GitHub repository where you can directly make edits to the contents of each page.
 
-If you would like to create your own Quarto website, click here. 
-If you already have your Quarto website created and want to know more about how to build out your website, click here.
+If you would like to create your own Quarto website, go [here](https://drk-lo.github.io/lotterhoslabprotocols/code_quarto.html#creating-your-quarto-website). 
+If you already have your Quarto website created and want to know more about how to build out your website, go [here](https://drk-lo.github.io/lotterhoslabprotocols/code_quarto.html#structuring-your-quarto-website).
 
 An in-depth Quarto tutorial exists [here](https://quarto.org/docs/websites/).
 
