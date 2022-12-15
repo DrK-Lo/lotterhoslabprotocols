@@ -12,8 +12,7 @@ website:
       - about.qmd
   sidebar:
     logo: img/Lotterhos_logo.png
-    style: "docked"
-    border: true
+    style: "floating"
     search: true
     collapse-level: 1
     contents:
@@ -104,7 +103,9 @@ website:
           
 format:
   html:
-    theme: darkly
+    theme:
+      light: sandstone
+      dark: sandstone
     css: styles.css
     toc: true
 
