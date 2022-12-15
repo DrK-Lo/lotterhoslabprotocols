@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lotterhos Lab Protocols – discovery_slurmarrays</title>
+<title>Lotterhos Lab Protocols – molecprot_etoh</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./discovery_nonNEUpersonnel.html" rel="next">
-<link href="./code_versioncontrol.html" rel="prev">
+<link href="./molecprot_gonad_buffer.html" rel="next">
+<link href="./molecprot_solutionrecipes.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -242,12 +242,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Molecular Protocols</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Molecular Protocols</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./molecprot_barcodesnindexes.html" class="sidebar-item-text sidebar-link">Determining Barcodes and Indexes for Illumina Sequencing</a>
@@ -295,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./molecprot_etoh.html" class="sidebar-item-text sidebar-link">Types of Ethanol</a>
+  <a href="./molecprot_etoh.html" class="sidebar-item-text sidebar-link active">Types of Ethanol</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -472,15 +472,15 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">Discovery</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">Discovery</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./discovery_slurmArrays.html" class="sidebar-item-text sidebar-link active">Parallelization with Array</a>
+  <a href="./discovery_slurmArrays.html" class="sidebar-item-text sidebar-link">Parallelization with Array</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -539,15 +539,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#parallelization-with-array" id="toc-parallelization-with-array" class="nav-link active" data-scroll-target="#parallelization-with-array">Parallelization with Array</a>
+  <li><a href="#types-of-ethanol" id="toc-types-of-ethanol" class="nav-link active" data-scroll-target="#types-of-ethanol">Types of Ethanol</a>
   <ul class="collapse">
-  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview"><strong>Overview</strong></a>
-  <ul class="collapse">
-  <li><a href="#breaking-down-the---array-argument" id="toc-breaking-down-the---array-argument" class="nav-link" data-scroll-target="#breaking-down-the---array-argument"><strong>Breaking down the <code>--array</code> argument</strong></a></li>
-  <li><a href="#using-the---array-argument-in-your-script" id="toc-using-the---array-argument-in-your-script" class="nav-link" data-scroll-target="#using-the---array-argument-in-your-script"><strong>Using the <code>--array</code> argument in your script</strong></a></li>
-  <li><a href="#calculations" id="toc-calculations" class="nav-link" data-scroll-target="#calculations"><strong>Calculations</strong></a></li>
-  <li><a href="#pratical-example" id="toc-pratical-example" class="nav-link" data-scroll-target="#pratical-example"><strong>Pratical example</strong></a></li>
-  </ul></li>
+  <li><a href="#denatured-ethanol-vs-non-denatured-ethanol" id="toc-denatured-ethanol-vs-non-denatured-ethanol" class="nav-link" data-scroll-target="#denatured-ethanol-vs-non-denatured-ethanol">Denatured ethanol vs non-denatured ethanol</a></li>
+  <li><a href="#histologicalreagent-ethanol-vs-molecular-grade" id="toc-histologicalreagent-ethanol-vs-molecular-grade" class="nav-link" data-scroll-target="#histologicalreagent-ethanol-vs-molecular-grade">Histological/reagent ethanol vs molecular grade</a></li>
+  <li><a href="#use-95-pure-190-proof-non-denatured-ethanol-without-benzene-for-preserving-tissues-for-genomic-dna" id="toc-use-95-pure-190-proof-non-denatured-ethanol-without-benzene-for-preserving-tissues-for-genomic-dna" class="nav-link" data-scroll-target="#use-95-pure-190-proof-non-denatured-ethanol-without-benzene-for-preserving-tissues-for-genomic-dna">Use 95% Pure (190 proof) non-denatured Ethanol without Benzene for Preserving tissues for genomic DNA</a></li>
+  <li><a href="#use-70-denatured-ethanol-for-cleaning" id="toc-use-70-denatured-ethanol-for-cleaning" class="nav-link" data-scroll-target="#use-70-denatured-ethanol-for-cleaning">Use 70% Denatured Ethanol for Cleaning</a></li>
+  <li><a href="#there-are-a-couple-of-things-to-watch-out-for-when-diluting-ethanol" id="toc-there-are-a-couple-of-things-to-watch-out-for-when-diluting-ethanol" class="nav-link" data-scroll-target="#there-are-a-couple-of-things-to-watch-out-for-when-diluting-ethanol">There are a couple of things to watch out for when diluting ethanol:</a></li>
+  <li><a href="#use-100-200-proof-absolute-ethanol-molecular-grade-non-denatured-ethanol-for-molecular-biology-work" id="toc-use-100-200-proof-absolute-ethanol-molecular-grade-non-denatured-ethanol-for-molecular-biology-work" class="nav-link" data-scroll-target="#use-100-200-proof-absolute-ethanol-molecular-grade-non-denatured-ethanol-for-molecular-biology-work">Use 100% (200 Proof, absolute ethanol, molecular grade) non-denatured Ethanol for Molecular Biology work</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -557,96 +556,65 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="parallelization-with-array" class="level1">
-<h1>Parallelization with Array</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_slurmArrays.qmd">Edit this page</a></p>
+<section id="types-of-ethanol" class="level1">
+<h1>Types of Ethanol</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/gh-pages/molecular_etoh.md">Edit this page</a></p>
+<p>Protocols for understanding different types of ethanol and when to use them.</p>
 <hr>
-<section id="overview" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="overview"><strong>Overview</strong></h2>
-<p>Brief review of using the <code>#SBATCH --array</code> slurm argument to restrict the number of jobs running in parallel on Discovery. Arrays seem to be most effective when you have a large number of jobs that all require the same number of resources and the user wants to limit the amount of the computing resource being used at a particular time. This guide follows the same template format from the lotterhos wiki, which reads through and leverages a reference file that contains a number of file names corresponding to files you wish to process. For example, this cod contain a list of raw sequence files (e.g., <code>fq.gz</code>) that you with to perform trimming and qc on.</p>
-<section id="breaking-down-the---array-argument" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="breaking-down-the---array-argument"><strong>Breaking down the <code>--array</code> argument</strong></h3>
-<p>The <code>--array</code> argument can take a single integer,<code>1</code>, or a range, <code>1-32</code>, of integers that the slurm script will iterate through. Following the range of integers you specify the number of these values you wish to process simultaneously using the <code>%</code> operator. For example, if you wish to iterate through the range of integers in batches of 4 you could code: <code>#SBATCH --array=1-32%4</code></p>
-<p><strong>Other options</strong></p>
-<pre><code># A job array with array tasks numbered 1, 2, 5, 19, 27.
-#SBATCH --array=1,2,5,19,27
-
-# A job array with array tasks numbered 1, 3, 5 and 7.
-#SBATCH --array=1-7:2</code></pre>
+<p>Note: this protocols page may be outdated.</p>
+<section id="denatured-ethanol-vs-non-denatured-ethanol" class="level2">
+<h2 class="anchored" data-anchor-id="denatured-ethanol-vs-non-denatured-ethanol">Denatured ethanol vs non-denatured ethanol</h2>
+<p>The main difference is that denatured ethanol contains additives that make it unsafe to drink. On the other hand, non-denatured ethanol is ethanol with no additives or denaturants.</p>
+<p>Denatured ethanol is a form of ethanol containing a high amount of additives and denaturants that makes it poisonous. Denatured ethanol has bad taste and foul smell that makes it unsafe for drinking. There are two forms of non-denatured ethanol named 95% ethanol and absolute ethanol. These forms are known as “pure” forms of ethanol.</p>
 </section>
-<section id="using-the---array-argument-in-your-script" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="using-the---array-argument-in-your-script"><strong>Using the <code>--array</code> argument in your script</strong></h3>
-<p>Including the above example (<code>#SBATCH --array=1-32%4</code>) in your slurm script will effectively iterate through your slurm script 32 times, by running 4 simultaneous instances (or jobs) of the script at a time on Discovery. However, running the same script with identical parameters (or files) may not be particularly useful. Instead we probably want to run the same script but apply it to a different set of data or use different parameters. At the very least we want to be able to create unique outputs for each iteration!</p>
-<p>Conviently, the <code>--array</code> argument creats a unix variable - <code>SLURM_ARRAY_TASK_ID</code>, which in the case above references the specific integer that corresponds to the particular instances of the script. For example, the first iteration of your slurm script will have <code>SLURM_ARRAY_TASK_ID=1</code>.</p>
-<p>This could be leveraged in multiple ways, but one option is using this index to extract specific lines from a reference script. The data on these lines could be anything, but having file names is a particular useful approach if you want to apply your script to multiple files.</p>
-<p><strong>Short illustration</strong></p>
-<pre><code>VARNAME=`sed "${SLURM_ARRAY_TASK_ID}q;d" path/to/reference/reference.txt`
-
-file1 = path/to/data/${VARNAME}
-
-echo '${file1}'</code></pre>
-<p>Example of reference file:</p>
-<pre><code>datafile1.csv
-datafile2.csv
-datafile3.csv</code></pre>
-<p>Example output in <code>.out</code> file</p>
-<pre><code>datafile1.csv
-datafile2.csv
-datafile3.csv</code></pre>
+<section id="histologicalreagent-ethanol-vs-molecular-grade" class="level2">
+<h2 class="anchored" data-anchor-id="histologicalreagent-ethanol-vs-molecular-grade">Histological/reagent ethanol vs molecular grade</h2>
+<p>Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is non-denatured. <a href="https://www.differencebetween.com/difference-between-denatured-and-vs-undenatured-ethanol/#Undenatured%20Ethanol">Source</a></p>
 </section>
-<section id="calculations" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="calculations"><strong>Calculations</strong></h3>
-<p>The lotterhos partition has 2 nodes, 36 cores per node, and 5GB per core. A job that only uses a single cpu should not take up more than 5GB of memory.</p>
-<p>Here is an example of an array that runs 72 jobs at a time, each job runs on one core. In the remaining script, not shown, is code that reads the input parameters from a file that has 1000 lines (the first line is the header, and each line after that has parameters). Hence, the array starts on line 2 and goes to line 1000. Unless the program is able to cross-talk among nodes (most do not have the architecture to do that), then nodes should always be set to 1. However, this script will run arrays across both lotterhos nodes (the nodes=1 just indicates that each task will use one node).</p>
-<pre><code>#SBATCH --partition=lotterhos
-#SBATCH --mem=5GB
-#SBATCH --nodes=1
-#SBATCH --cpus-per-task=1
-#SBATCH --array=2-1000%70</code></pre>
-<p>1000 is the upper limit that can be requested by the “array” command. It’s also good to keep the total number of jobs submitted at a time capped at 70, so that a couple of cores are left open for <code>srun</code></p>
-<p>Below is an example of a job that calls a program that can use multiple cpus. If 32 cpus are requested, then 32 cpus * 5GB/cpu = 160GB can be also requested for memory. Unless the program is able to cross-talk among nodes (most do not have the architecture to do that), then nodes should always be set to 1. y Since there are only 2 nodes, each with 36 cpus, then we can only run 2 jobs at a time and stay within the bounds of the architecture. Hence the<code>array=2-1000%2</code> argument</p>
-<pre><code>#SBATCH --partition=lotterhos
-#SBATCH --mem=160GB
-#SBATCH --nodes=1
-#SBATCH --cpus-per-task=32
-#SBATCH --array=2-1000%2</code></pre>
+<section id="use-95-pure-190-proof-non-denatured-ethanol-without-benzene-for-preserving-tissues-for-genomic-dna" class="level2">
+<h2 class="anchored" data-anchor-id="use-95-pure-190-proof-non-denatured-ethanol-without-benzene-for-preserving-tissues-for-genomic-dna">Use 95% Pure (190 proof) non-denatured Ethanol without Benzene for Preserving tissues for genomic DNA</h2>
+<p><a href="https://link.springer.com/article/10.1007/s13127-010-0012-4">This article</a> has the following information on ethanol for tissue preservation:</p>
+<ul>
+<li>If possible, the use of non-denaturated ethanol is favoured, but traces of denaturating agents (e.g.&nbsp;isopropanol, acetone, methyl ethyl ketone, also gasoline) usually do not significantly alter the performance.</li>
+<li>According to plenty of tests, the optimal concentration is about 95–99% (King and Porter 2004, who also compared with isopropanol).</li>
+<li>With 70% ethanol, a high degree of degradation has been observed, even after one year.</li>
+<li>Interestingly, absolute ethanol may not be the optimal medium as it is most expensive and can contain traces of benzene that seriously affect DNA preservation (Ito 1992).
+<ul>
+<li>Side note: KEL tried to find Ito 1992, but the orginal print is not available online.</li>
+</ul></li>
+<li>The ethanol-tissue ratio should exceed 5:1, although some authors recommend much higher ratios (e.g.&nbsp;Martin 1977).</li>
+<li>When ordering, look for “pure ethanol” and check the SDS to make sure it does not contain additives</li>
+<li>95.6% ethanol is an azeotrope, which means the vapor state has the same ethanol-to-water ratio as the liquid state. This means as it evaporates the remaining liquid will still be at 95.6%</li>
+<li>When adding wet tissues to 95% ethanol, it can decrease the concentration of ethanol. It can be helpful to change the ethanol after the first few months.</li>
+<li>More information on other ways to preserve tissues are found <a href="https://spnhc.biowikifarm.net/wiki/Tissue_Sample_Collection">in this article</a></li>
+</ul>
 </section>
-<section id="pratical-example" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="pratical-example"><strong>Pratical example</strong></h3>
-<p>Script performs bismark mapping, <code>bismark</code> on list of files based on the file names in a reference text file, <code>sample_files.txt</code>. Based on the <code>--array</code> argument, I am peforming the mapping on 32 samples, processing 4 samples at a time.</p>
-<pre><code>    #!/bin/bash
-
-    #SBATCH --job-name=DNAMethylation_mapping
-    #SBATCH --mem=100Gb
-    #SBATCH --mail-user=downey-wall.a@northeastern.edu
-    #SBATCH --mail-type=FAIL
-    #SBATCH --partition=lotterhos
-    #SBATCH --nodes=1
-    #SBATCH --cpus-per-task=32
-    #SBATCH --array=1-32%2
-    #SBATCH --output=/work/lotterhos/2018OALarvae_DNAm/slurm_log/DNAm_mapping_%j.out
-    #SBATCH --error=/work/lotterhos/2018OALarvae_DNAm/slurm_log/DNAm_mapping_%j.err
-
-    ## Store name of individual sample
-    VARNAME=`sed "${SLURM_ARRAY_TASK_ID}q;d" 2018OALarvae_DNAm/RAW/sample_files.txt`
-
-    ## Code for running bismark (DNA methylation sequence mapper)
-
-    i=$(ls 2018OALarvae_DNAm/trimmed_files/${VARNAME}_R1*fq.gz | rev | cut -d'/' -f 1 | rev) 
-    j=$(ls 2018OALarvae_DNAm/trimmed_files/${VARNAME}_R2*fq.gz | rev | cut -d'/' -f 1 | rev)
-
-    # Run Bismark
-    bismark --non_directional \
-    --parallel 32 \
-    --genome oyster_references/haplo_tig_genome \
-    --score_min L,0,-0.4 \
-    --bowtie2 \
-    -1 2018OALarvae_DNAm/trimmed_files/${i} \
-    -2 2018OALarvae_DNAm/trimmed_files/${j} \
-    -o 2018OALarvae_DNAm/mapped_files</code></pre>
-
-
+<section id="use-70-denatured-ethanol-for-cleaning" class="level2">
+<h2 class="anchored" data-anchor-id="use-70-denatured-ethanol-for-cleaning">Use 70% Denatured Ethanol for Cleaning</h2>
+<p><a href="https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/">Information from this article explains the use of ethanol for cleaning</a>. The main points are summarized here:</p>
+<ul>
+<li>Although it may seem counter-intuitive, 70% ethanol seems to be the most effective concentration, as 90% ethanol coagulates the protein, and the protein layer that is created effectively renders the cell dormant. At a 70% concentration, however, the ethanol takes longer to evaporate and this longer contact time means that it is able to penetrate cells more effectively. The water in a 70% grade is also important in denaturing proteins. And 70% ethanol also tends to be cheaper and is less flammable.</li>
+</ul>
 </section>
+<section id="there-are-a-couple-of-things-to-watch-out-for-when-diluting-ethanol" class="level2">
+<h2 class="anchored" data-anchor-id="there-are-a-couple-of-things-to-watch-out-for-when-diluting-ethanol">There are a couple of things to watch out for when diluting ethanol:</h2>
+<ul>
+<li>First, diluted ethanol is no longer an azeotrope. At 70%, ethanol will evaporate faster than water, so evaporative loss will result in a gradual decrease in ethanol concentration in the remaining solution. Don’t be surprised when an unsealed beaker of 70% ethanol ‘stops working’. So don’t make more than is necessary at a time, and make sure to label the date when it was made (which you should do for everything you make anyway).</li>
+<li>Second, ethanol/water mixtures don’t have additive volumes. That means that if you want to make 1 liter of 70% ethanol from absolute ethanol, you can’t do it by mixing 700 ml of ethanol and 300 ml of water. The correct method is to measure 700 ml of ethanol and then bring it to a volume of 1 liter with water.
+<ul>
+<li>Why? When you mix water and ethanol, the ethanol molecules occupy the space between the water molecules. A helpful way to visualize this is to think about sand and rocks – if you were to mix 1 liter of each, the final volume would be less than 2 liters because the sand would fall between the rocks.</li>
+</ul></li>
+</ul>
+</section>
+<section id="use-100-200-proof-absolute-ethanol-molecular-grade-non-denatured-ethanol-for-molecular-biology-work" class="level2">
+<h2 class="anchored" data-anchor-id="use-100-200-proof-absolute-ethanol-molecular-grade-non-denatured-ethanol-for-molecular-biology-work">Use 100% (200 Proof, absolute ethanol, molecular grade) non-denatured Ethanol for Molecular Biology work</h2>
+<ul>
+<li>Something about the process of making ethanol makes it hard to get from 95% to 100%. Sometimes this contains additives to get it up to 100%, but they are not denaturing agents.</li>
+<li>Some procedures that are sensitive to the presence of water require absolute ethanol.</li>
+<li>A common method to produce ethanol with a higher concentration than 95% is to use additives that disrupt the azeotrope composition and allow further distillation. For this reason, absolute ethanol sometimes contains trace amounts of these additives (such as benzene). <a href="https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/">source</a></li>
+</ul>
+
+
 </section>
 </section>
 
@@ -786,13 +754,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./code_versioncontrol.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Version Control with GitHub</span>
+      <a href="./molecprot_solutionrecipes.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Solution Recipes</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./discovery_nonNEUpersonnel.html" class="pagination-link">
-        <span class="nav-page-text">Instructions for Discovery for Non-Northeastern Personnel</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./molecprot_gonad_buffer.html" class="pagination-link">
+        <span class="nav-page-text">Changing ethanol out of gonad tissue vials</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
