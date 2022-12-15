@@ -12,11 +12,11 @@ See [types of ethanol page](https://github.com/DrK-Lo/lotterhoslabprotocols/blob
 ## Steps for changing ethanol out of gonad tissue vials
 
 1. Centrigue the vial for 2 minutes at full speed
-2. Use a pipette to suck up the 95MGetoh ethanol
+2. Use a pipette to suck up the 95MGetoh ethanol buffer
 
 **Note**: Make sure to not suck up any tissue!
 
-5. Add the 95Etoh-PureNoAdditives
+3. Add the 95Etoh-PureNoAdditives ethanol buffer
 
 ## Exceptions
 
