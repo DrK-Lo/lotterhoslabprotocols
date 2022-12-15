@@ -1,11 +1,18 @@
 ---
 title: "Lotterhos Lab Protocols"
 ---
+------------------------------------------------------------------------
 
-This is the Lotterhos Lab Protocols Website.
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/index.qmd)
 
-[Edit this site](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/gh-pages)
+# Welcome!
 
-![Photo from our 2020 Workshop for High School Girls](img/2018%20girls%20workshop%20genomics.JPG){fig-alt="Girls workshop"}
+This is the Lotterhos Lab protocols website.
 
-This is a Quarto website.To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Click [here](https://sites.google.com/site/katielotterhos/home) for the Lotterhos Lab general website.
+
+
+------------------------------------------------------------------------
+
+This is a Quarto website. 
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
