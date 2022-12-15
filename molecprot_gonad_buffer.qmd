@@ -12,18 +12,19 @@ See [types of ethanol page](https://github.com/DrK-Lo/lotterhoslabprotocols/blob
 ## Steps for changing ethanol out of gonad tissue vials
 
 1. Centrigue the vial for 2 minutes at full speed
-2. Use a pipette to suck up the 95MGetoh ethanol buffer
+2. Use a pipette, suck up the 95MGetoh ethanol buffer
 
 **Note**: Make sure to not suck up any tissue!
 
 3. Add the 95Etoh-PureNoAdditives ethanol buffer
 
+
 ## Exceptions
 
 ### For cryovials that do not fit in the certifuge
 
-1. Transfer the tissue into a o-ring with the label for long term storage
+Transfer the tissue into a o-ring with a label for long term storage
 
-### For vials with too much gonad and not enough ethanol (over 1:5 ratio)
+### For vials with too much gonad and not enough ethanol (over 1:5 tissue-to-ethanol)
 
-1. Transfer the tissue in these to a o-ring with the label for long term storage
+You may remove some of the tissue from the vial, but make sure there is at least 1:5 tissue-to-ethanol.
