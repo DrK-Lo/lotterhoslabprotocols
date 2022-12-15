@@ -1,4 +1,4 @@
-# Changing ethanol out of gonad tissue vials
+# Changing Gonad Buffer
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_gonad_buffer.qmd)
 
