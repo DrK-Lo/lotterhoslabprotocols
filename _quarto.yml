@@ -3,7 +3,7 @@ project:
   output-dir: docs
     
 website:
-  title: "Lotterhos Lab Protocols"
+  title: Lotterhos Lab Protocols
   page-navigation: true
   navbar:
     left:
@@ -103,9 +103,7 @@ website:
           
 format:
   html:
-    theme:
-      light: solar
-      dark: solar
+    theme: solar
     css: styles.css
     toc: true
 
