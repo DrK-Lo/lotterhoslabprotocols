@@ -1,0 +1,35 @@
+# Editing with Quarto
+
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_quarto.qmd)
+
+------------------------------------------------------------------------
+
+The "Edit this page" link at the top of each page will direct you to the GitHub repository where you can directly make edits to the contents of each page.
+
+If you would like to create your own Quarto website, click here. 
+If you already have your Quarto website created and want to know more about how to build out your website, click here.
+
+An in-depth Quarto tutorial exists [here](https://quarto.org/docs/websites/).
+
+## Creating your Quarto website
+1.  Download [Quarto app](https://quarto.org/docs/download/)
+     - Quarto is an open-source publishing system that works with R Markdown to create high-quality articles, websites, or books
+2.  [Connecting the Quarto app with R](https://quarto.org/docs/get-started/hello/rstudio.html) 
+     - Make sure you have the latest release of RStudio downloaded 
+     - Be sure that you have installed any packages that it prompts you to
+3.  Download the [Quarto document (.qmd)](https://quarto.org/docs/get-started/hello/rstudio/_hello.qmd), open it in RStudio, and click Render 
+     - When you render a Quarto document, knitr executes all of the code chunks and creates a new markdown (.md) document which includes the code and its output
+     - The markdown file generated is then processed by pandoc, which creates the finished format
+     - The Render button encapsulates these actions and executes them in the right order for you
+4.  Creating your Quarto website
+     - To create a new website project within RStudio, use the New Project command and select Quarto Website
+     - You may create a new directory or attach it to an existing directory
+     - To attach the protocols website to the GitHub, we created a new website as a subdirectory of the main GitHub branch on GitHub Desktop
+
+## Structuring your Quarto website
+-   Your Quarto website should come with some basic, starter files: 
+    1.  index.qmd: the home page for your Quarto website
+      -   This is a REQUIRED file which includes the preface, acknowledgements, etc.
+    2.  _quarto.yml: the contents of your Quarto website 
+      -   This is where you will divide your website into sections.... and within sections, you can divide it further into contents
+
