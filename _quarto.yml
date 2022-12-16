@@ -17,6 +17,7 @@ website:
     collapse-level: 1
     contents:
       - section: "Welcome"
+        contents:
           - general_welcome.qmd 
           - general_expectations.qmd
           - general_GettingStarted.qmd
@@ -33,6 +34,7 @@ website:
           - general_chemical_inventory.qmd
           - general_waste_clearing.qmd
       - section: "General Equipment"
+        contents:
           - general_autoclave.qmd 
           - general_MVI-scope-camera.qmd
           - general_freezer.qmd
