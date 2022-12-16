@@ -24,7 +24,7 @@ This page will be a good start to getting yourself settled in the lab. If you ha
 -[ ] If you will be using the Discovery Cluster for computing, submit a request for an account. [Apply by opening a Service-Now ticket with an access request](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
 -[ ] If you are a graduate student, make sure to get your hands on the latest version of the Graduate Handbook
 -[ ] If you will be working in the Molecular Lab or doing Fieldwork, you will need to take some Environmental Health and Safety Trainings. See [this page for the required trainings](https://drk-lo.github.io/lotterhoslabprotocols/general_GettingStarted.html#required-trainings-to-work-in-molecular-lab)
--[ ] Read all the pages in "Welcome" section in these protocols
+-[ ] Read all the pages in these protocols
 -[ ] Everyone in the lab is encouraged to stay up-to-date on their first aid and CPR trainings
 -[ ] If you are working on an NSF grant, you may be required to complete trainings with research compliance
 -[ ] If you will be putting samples in the -80C freezer, ask Dr. L to add you to our Freezer App
