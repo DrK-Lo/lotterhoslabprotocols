@@ -11,19 +11,21 @@ An introduction to the lab for those that are new. This will help you orient you
 This page will be a good start to getting yourself settled in the lab. If you have any questions after reading through this, don't be afraid to ask other members of the lab (and write the questions down so we can add it to this page :D).
 
 ## Onboarding
-- Dr. Lotterhos will add you to our Lab Slack Channel
-- Provide Dr. L with an email you prefer to access Google Drive from. She will give you editing access to:
-    - the lab webpage, where you can add yourself to the [People](https://sites.google.com/site/katielotterhos/people) page
-    - A shared lab resources folder 
-    - The Lab Calendar
-- If you are not a graduate student, fill out the [New Lab Worker Intake Form](https://docs.google.com/forms/d/1fJL5c4q0njhx-3QZYBINOlyFPTbUniTHWx7ipzSPjq8/viewform?ts=61e85234&edit_requested=true) for the MSC
-- If you will be using the Discovery Cluster for computing, submit a request for an account. [Apply by opening a Service-Now ticket with an access request](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
-- If you are a graduate student, make sure to get your hands on the latest version of the Graduate Handbook
-- If you will be working in the Molecular Lab or doing Fieldwork, you will need to take some Environmental Health and Safety Trainings. See [this page for the required trainings](https://drk-lo.github.io/lotterhoslabprotocols/general_GettingStarted.html#required-trainings-to-work-in-molecular-lab)
-- Everyone in the lab is encouraged to stay up-to-date on their first aid and CPR trainings
-- If you are working on an NSF grant, you may be required to complete trainings with research compliance
-- Read all the pages in "Welcome" section in these protocols
-- If you will be putting samples in the -80C freezer, ask Dr. L to add you to our Freezer App
+-[ ] Dr. Lotterhos will add you to our Lab Slack Channel
+-[ ] Provide Dr. L with an email you prefer to access Google Drive from. She will give you editing access to:
+    -[ ] the lab webpage, where you can add yourself to the [People](https://sites.google.com/site/katielotterhos/people) page
+    -[ ] A shared lab resources folder 
+    -[ ] The Lab Calendar
+    -[ ] A shared google doc for 1:1 meetings, notes, and milestones
+-[ ] We use GitHub alot! Sign up for a GitHub account and ask Dr. L to add you as a collaborator for this protocols page
+-[ ] If you are not a graduate student, fill out the [New Lab Worker Intake Form](https://docs.google.com/forms/d/1fJL5c4q0njhx-3QZYBINOlyFPTbUniTHWx7ipzSPjq8/viewform?ts=61e85234&edit_requested=true) for the MSC
+-[ ] If you will be using the Discovery Cluster for computing, submit a request for an account. [Apply by opening a Service-Now ticket with an access request](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
+-[ ] If you are a graduate student, make sure to get your hands on the latest version of the Graduate Handbook
+-[ ] If you will be working in the Molecular Lab or doing Fieldwork, you will need to take some Environmental Health and Safety Trainings. See [this page for the required trainings](https://drk-lo.github.io/lotterhoslabprotocols/general_GettingStarted.html#required-trainings-to-work-in-molecular-lab)
+-[ ] Read all the pages in "Welcome" section in these protocols
+-[ ] Everyone in the lab is encouraged to stay up-to-date on their first aid and CPR trainings
+-[ ] If you are working on an NSF grant, you may be required to complete trainings with research compliance
+-[ ] If you will be putting samples in the -80C freezer, ask Dr. L to add you to our Freezer App
 
 ### **Safety First** {.unnumbered}
 
