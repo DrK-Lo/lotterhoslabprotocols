@@ -23,6 +23,7 @@ This page will be a good start to getting yourself settled in the lab. If you ha
 - Everyone in the lab is encouraged to stay up-to-date on their first aid and CPR trainings
 - If you are working on an NSF grant, you may be required to complete trainings with research compliance
 - Read all the pages in "Welcome" section in these protocols
+- If you will be putting samples in the -80C freezer, ask Dr. L to add you to our Freezer App
 
 ### **Safety First** {.unnumbered}
 
