@@ -103,8 +103,7 @@ website:
           
 format:
   html:
-    theme: 
-      light: solar
+    theme: lumen
     css: styles.css
     toc: true
 
