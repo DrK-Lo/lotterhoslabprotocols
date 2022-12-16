@@ -1,4 +1,4 @@
-# Editing with Quarto
+# Editing These Protocols with Quarto
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_quarto.qmd)
 
