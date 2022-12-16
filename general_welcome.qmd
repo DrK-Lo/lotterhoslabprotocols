@@ -10,6 +10,17 @@ An introduction to the lab for those that are new. This will help you orient you
 
 This page will be a good start to getting yourself settled in the lab. If you have any questions after reading through this, don't be afraid to ask other members of the lab (and write the questions down so we can add it to this page :D).
 
+## Onboarding
+- Dr. Lotterhos will add you to our Lab Slack Channel
+- Provide Dr. L with an email you prefer to access Google Drive from. She will give you editing access to:
+    - the lab webpage, where you can add yourself to the [People](https://sites.google.com/site/katielotterhos/people) page
+    - A shared lab resources folder 
+    - The Lab Calendar
+- If you are not a graduate student, fill out the [New Lab Worker Intake Form](https://docs.google.com/forms/d/1fJL5c4q0njhx-3QZYBINOlyFPTbUniTHWx7ipzSPjq8/viewform?ts=61e85234&edit_requested=true) for the MSC
+- If you will be using the Discovery Cluster for computing, submit a request for an account. [Apply by opening a Service-Now ticket with an access request](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
+- If you are a graduate student, make sure to get your hands on the latest version of the Graduate Handbook
+- Read all the "Welcome" section in this lab protocols page
+
 ### **Safety First** {.unnumbered}
 
 This will help you know where certain items are in the lab that will help keep you and others safe:
@@ -50,6 +61,3 @@ This will help you know where certain items are in the lab that will help keep y
 
     -   It is also important to log your uses of other shared equipment such as the autoclave, gel imager, NanoDrop, etc.
 
-### **Computing** {.unnumbered}
-
--   Our lab and some other labs at the MSC have access to a computing cluster (defiance) so we can run scripts and simulations that may take days to run. Refer to [this page](https://drk-lo.github.io/lotterhoslabprotocols/code_defiance.html) in order to gain access and learn how to use defiance.
