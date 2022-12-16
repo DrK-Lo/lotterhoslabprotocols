@@ -32,7 +32,7 @@ General Rules and Set up for Starting Out in the Lotterhos Lab.
 
 -   Tip boxes whenever a box is taken off the shelf to be used in the post-PCR area that box stays in that area and does not get placed back on the shelf. All boxes on the shelf if opened can only be used on the pre-PCR bench.
 
--   All benches that will be used for your molecular work for the day should be cleaned with 10% bleach then 70% ethanol. You should also do this after your done working for the day.
+-   All benches that will be used for your molecular work for the day should be cleaned with 10% bleach then 70% ethanol. There are at least [3 different kinds of ethanol that we use - make sure you know the difference and when to use each one](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_etoh.html). You should also do this after your done working for the day.
 
 -   If using the UV hood for RNA work, all supplies that will be used for said work need to be placed in the UV hood and then light should be turned on for 1 hour to sterilize everything. DO NOT PUT YOUR SAMPLES IN THE UV HOOD WHEN THE LIGHT IS ON!
 
@@ -44,15 +44,23 @@ General Rules and Set up for Starting Out in the Lotterhos Lab.
 
 -   Filtered tips are used for all molecular work (as budget allows). Fisherbrand tips are to be used ONLY ONLY ONLY with the multichannel pipettes.
 
+## Freezer tips  {.unnumbered}
+
 -   -80oC freezer is linked to a alarm system to alert us if it goes below -70oC. If you have to take samples/reagents out or in please work quickly and efficiently to ensure it does not drop below that temperature. If you need to do a lot of reorganizing the -80, take breaks to allow the temperature to come back down to \~ -80oC.
 
--   The layout of the -80oC freezer can be found https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=0 please see current Grad Student (Sara Schaal or Alan Downey-Wall) to get training on how to fill out this document.
+- Quite often we put vials in boxes and boxes in freezers. 
+    - If you put a vial in a box, make sure it is labeled. Make sure there is a data spreasheet associated with the vial that has information about the sample, the date of the sample, the BUFFER that the sample is stored in, and the ID of the box that you put the vial in.
+    - If you put a box in the freezer, make sure it is labeled with an ID that matches what you entered in the vial spreadsheet. We have a standardized sticker labeling system, make sure to put one of those labels on the box before it gets cold!    
+
+-   The [layout of the -80oC freezer can be found here](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit#gid=0). Please work with current people in charge of the freezer to get training on how to fill out this document or to use our new App!
 
 -   -20oC freezer has a general layout with the top shelf for main stocks, second shelf aliquots of kits and other reagents, third shelf is for DNA/RNA extractions, fourth shelf for tissue samples for DNA/RNA extraction.
 
+-  -20oC for brief use of RNA, but use -80oC for long term storage
+
 ## **Working in the Molecular Lab** {.unnumbered}
 
--   If you need an aliquot of anything, see current lab manager (Thais Bittar). Main stocks of primers and adapters are in the -80oC and should ONLY ONLY ONLY be handled by the lab manager.
+-   Make aliquots for your work. If you need an aliquot of anything, see current lab manager. Main stocks of primers and adapters are in the -80oC and should ONLY ONLY ONLY be handled by the lab manager.
 
     -   Label your aliquot clearly with a date and keep track of which aliquot you use for a given days protocol. This is to ensure that if you get DNA in your negative control you can track which aliquots you need to test for contamination. \*\* THIS IS VERY IMPORTANT \*\*
 
@@ -60,7 +68,4 @@ General Rules and Set up for Starting Out in the Lotterhos Lab.
 
 -   Aliquots of positive controls for multiple species are kept in the -80oC freezer. See lab manager for aliquot. Use if you have work that is failing and you want to make sure its not the samples themselves.
 
--   ADD BUFFER AND FREEZER ID INFO FOR SAMPLES
 
--   -20oC for brief use of RNA -80oC for long term storage\
-    \
