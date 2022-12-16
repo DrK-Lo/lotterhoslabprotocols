@@ -20,6 +20,7 @@ website:
           - general_welcome.qmd 
           - general_expectations.qmd
           - general_GettingStarted.qmd
+          - code_quarto.qmd
       - section: "General"
         contents:
           - general_ordering.qmd
