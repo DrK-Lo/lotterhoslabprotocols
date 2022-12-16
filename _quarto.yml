@@ -16,24 +16,34 @@ website:
     search: true
     collapse-level: 1
     contents:
-      - section: "General"
-        contents:
+      - section: "Welcome"
           - general_welcome.qmd 
           - general_expectations.qmd
           - general_GettingStarted.qmd
-          - general_waste_clearing.qmd
-          - general_ShippingHazMat.qmd
-          - general_shared_equipment.qmd
-          - general_reimbursement.qmd
-          - general_receiving.qmd
-          - general_purchasing.qmd
+      - section: "General"
+        contents:
           - general_ordering.qmd
-          - general_MVI-scope-camera.qmd
-          - general_freezer.qmd
           - general_fedex_ship.qmd
+          - general_ShippingHazMat.qmd
+          - general_purchasing.qmd
+          - general_receiving.qmd
+          - general_reimbursement.qmd
           - general_creating_barcoded_labels.qmd
           - general_chemical_inventory.qmd
-          - general_autoclave.qmd
+          - general_waste_clearing.qmd
+      - section: "General Equipment"
+          - general_autoclave.qmd 
+          - general_MVI-scope-camera.qmd
+          - general_freezer.qmd
+          - general_shared_equipment.qmd
+      - section: "Molecular Equipment"
+        contents:
+          - molecprot_take3dnaquantification.qmd
+          - molecprot_picoGreenAssay.qmd
+          - molecprot_magbeadwash.qmd
+          - molecprot_tapestationlibrarycheck.qmd
+          - molecprot_qPCRandBioRAD.qmd
+          - molecprot_outdated.qmd
       - section: "Professional Development"
         contents: 
           - profdev.qmd
@@ -43,6 +53,7 @@ website:
           - profdev_courses.qmd
       - section: "Molecular Protocols"
         contents:
+          - molecprot_etoh.qmd
           - molecprot_barcodesnindexes.qmd
           - molecprot_dnaextractionomega.qmd
           - molecprot_dnaextractionqiagen.qmd
@@ -52,16 +63,7 @@ website:
           - molecprot_qPCR-Libraryquant.qmd
           - molecprot_rnaextraction.qmd
           - molecprot_solutionrecipes.qmd
-          - molecprot_etoh.qmd
           - molecprot_gonad_buffer.qmd
-      - section: "Molecular Equipment"
-        contents:
-          - molecprot_take3dnaquantification.qmd
-          - molecprot_picoGreenAssay.qmd
-          - molecprot_magbeadwash.qmd
-          - molecprot_tapestationlibrarycheck.qmd
-          - molecprot_qPCRandBioRAD.qmd
-          - molecprot_outdated.qmd
       - section: "Field and Sampling Protocols"
         contents:
           - field_collectsampdna.qmd
@@ -90,17 +92,16 @@ website:
           - code_quarto.qmd
       - section: "Discovery"
         contents:
+          - discovery_1-gettingstarted.qmd
+          - discovery_1a-OOD.qmd
+          - discovery_2-globus.qmd
+          - discovery_3-storage.qmd
+          - discovery_4-examples.qmd
+          - discovery_5-parallelization.qmd
+          - discovery_6-optimization.qmd
           - discovery_slurmArrays.qmd
           - discovery_nonNEUpersonnel.qmd
-          - discovery_integrated-development-environment.qmd
-          - discovery_6-optimization.qmd
-          - discovery_5-parallelization.qmd
-          - discovery_4-examples.qmd
-          - discovery_3-storage.qmd
-          - discovery_2-globus.qmd
-          - discovery_1a-OOD.qmd
-          - discovery_1-gettingstarted.qmd
-          
+          - discovery_integrated-development-environment.qmd      
 format:
   html:
     theme: lumen
