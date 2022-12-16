@@ -9,14 +9,12 @@ General Rules and Set up for Starting Out in the Lotterhos Lab.
 ## **Required Trainings to Work In Molecular Lab** {.unnumbered}
 
 -   Laboratory Safety Program Orientation - See Ryan Hill (Facilities Manager) for setting this up
-
 -   Fundamentals of Laboratory Safety - See Ryan Hill (Facilities Manager) for setting this up
-
 -   Autoclave Training - See Technicians in Ocean Genome Legacy for training
-
--   Shared Equipment Training - See Technicians in Ocean Genome Legacy for training
-
--   Layout and Tour/Labelling of the Lotterhos Lab - See current Grad Student (Sara Schaal) or Lab Manager (Thais Bittar)
+-   Shared Equipment Training - See Technicians in Ocean Genome Legacy for training. They usually offer it at the beginning of every semester.
+-   Working with Cryogenics (Liquid Nitrogen)
+-   Working with Biological Samples
+-   You may need additional trainings
 
 ## **Molecular Lab Layout & Rules** {.unnumbered}
 
