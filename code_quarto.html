@@ -575,7 +575,12 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#editing-these-protocols-with-quarto" id="toc-editing-these-protocols-with-quarto" class="nav-link active" data-scroll-target="#editing-these-protocols-with-quarto">Editing These Protocols with Quarto</a>
   <ul class="collapse">
-  <li><a href="#creating-your-quarto-website" id="toc-creating-your-quarto-website" class="nav-link" data-scroll-target="#creating-your-quarto-website">Creating your Quarto website</a></li>
+  <li><a href="#adding-an-image" id="toc-adding-an-image" class="nav-link" data-scroll-target="#adding-an-image">Adding an image</a></li>
+  <li><a href="#adding-a-new-page" id="toc-adding-a-new-page" class="nav-link" data-scroll-target="#adding-a-new-page">Adding a new page</a></li>
+  <li><a href="#check-that-your-changes-to-the-site-rendered-online" id="toc-check-that-your-changes-to-the-site-rendered-online" class="nav-link" data-scroll-target="#check-that-your-changes-to-the-site-rendered-online">Check that your changes to the site rendered online!</a></li>
+  </ul></li>
+  <li><a href="#creating-your-quarto-website" id="toc-creating-your-quarto-website" class="nav-link" data-scroll-target="#creating-your-quarto-website">Creating your Quarto website</a>
+  <ul class="collapse">
   <li><a href="#structuring-your-quarto-website" id="toc-structuring-your-quarto-website" class="nav-link" data-scroll-target="#structuring-your-quarto-website">Structuring your Quarto website</a></li>
   </ul></li>
   </ul>
@@ -591,10 +596,26 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_quarto.qmd">Edit this page</a></p>
 <hr>
 <p>The “Edit this page” link at the top of each page will direct you to the GitHub repository where you can directly make edits to the contents of each page.</p>
+<p>You will need to know Markdown to understand how to format your edits! <a href="https://www.markdownguide.org/cheat-sheet/">Here is a cheat sheet</a></p>
+<section id="adding-an-image" class="level3">
+<h3 class="anchored" data-anchor-id="adding-an-image">Adding an image</h3>
+<p>Add images to the <code>/img</code> folder and use relative paths to source them. See the Kayak page for an example.</p>
+</section>
+<section id="adding-a-new-page" class="level3">
+<h3 class="anchored" data-anchor-id="adding-a-new-page">Adding a new page</h3>
+<p>Create a new <code>.qmd</code> file and give it an informative name without spaces: <img width="792" alt="image" src="https://user-images.githubusercontent.com/6870125/208171442-b69173c8-298d-45b1-9955-15fa6494f9aa.png"></p>
+<p>Add your new page to the <a href="https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/_quarto.yml">quarto.yml</a> file where you want it to appear in the table of contents. But be careful to get the spacing right! Quarto is very picky about everything lining up correctly: <img width="367" alt="image" src="https://user-images.githubusercontent.com/6870125/208171367-a9f0b3f2-9309-4fa0-96e6-3b8b9ddc3f98.png"></p>
+</section>
+<section id="check-that-your-changes-to-the-site-rendered-online" class="level3">
+<h3 class="anchored" data-anchor-id="check-that-your-changes-to-the-site-rendered-online">Check that your changes to the site rendered online!</h3>
+<p>After you commit your edits, check that they show up on the website! We have the site set up so that it will automatically render to html and publish, thanks to GitHub Actions. This process takes a few minutes, so your changes may not show up right away.</p>
+<p>Some information that is useful to know for troubleshooting, if your edits don’t show up on the site: - The way that the GitHub Action works it to take commits on the <code>main</code> branch and build the .html files on the <code>gh-pages</code> branch - You can check that the Action completed by clicking on <code>Actions</code> button in the horizontal links at the top of the page - If you see a red <code>X</code> by the last commit, then you changes did not render properly into a website. You can click on the action to learn more about what went wrong.</p>
+</section>
+</section>
+<section id="creating-your-quarto-website" class="level1">
+<h1>Creating your Quarto website</h1>
 <p>If you would like to create your own Quarto website, go <a href="https://drk-lo.github.io/lotterhoslabprotocols/code_quarto.html#creating-your-quarto-website">here</a>. If you already have your Quarto website created and want to know more about how to build out your website, go <a href="https://drk-lo.github.io/lotterhoslabprotocols/code_quarto.html#structuring-your-quarto-website">here</a>.</p>
 <p>An in-depth Quarto tutorial exists <a href="https://quarto.org/docs/websites/">here</a>.</p>
-<section id="creating-your-quarto-website" class="level2">
-<h2 class="anchored" data-anchor-id="creating-your-quarto-website">Creating your Quarto website</h2>
 <ol type="1">
 <li>Download <a href="https://quarto.org/docs/download/">Quarto app</a>
 <ul>
@@ -618,7 +639,6 @@ ul.task-list li input[type="checkbox"] {
 <li>To attach the protocols website to the GitHub, we created a new website as a subdirectory of the main GitHub branch on GitHub Desktop</li>
 </ul></li>
 </ol>
-</section>
 <section id="structuring-your-quarto-website" class="level2">
 <h2 class="anchored" data-anchor-id="structuring-your-quarto-website">Structuring your Quarto website</h2>
 <ul>
