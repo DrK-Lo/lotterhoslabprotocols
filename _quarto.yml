@@ -103,7 +103,7 @@ website:
           
 format:
   html:
-    theme: [lumen, theme.scss]
+    theme: lumen
     toc: true
 
 editor: visual
