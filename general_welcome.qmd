@@ -28,6 +28,12 @@ This page will be a good start to getting yourself settled in the lab. If you ha
 - [ ] Everyone in the lab is encouraged to stay up-to-date on their first aid and CPR trainings
 - [ ] If you are working on an NSF grant, you may be required to complete trainings with research compliance
 - [ ] If you will be putting samples in the -80C freezer, ask Dr. L to add you to our Freezer App
+- [ ] Staff (Postdocs and Technicians)
+    - [ ] Depending on the position you may have to enter your hours weekly with Workday
+    - [ ] Please use sick days when you need them and report them in Workday
+    - [ ] Request vacation days in Workday. You will get paid for unused vacation days, but they may get charged to a grant and take us over budget.
+    - [ ] Annual reviews are required at NU, these typically occur every ~March.
+    - [ ] Develop a mentoring plan
 
 ### **Safety First** {.unnumbered}
 
