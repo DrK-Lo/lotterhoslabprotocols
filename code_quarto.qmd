@@ -17,6 +17,10 @@ Add images to the `/img` folder and use relative paths to source them. See the K
 Create a new `.qmd` file and give it an informative name without spaces:
 <img width="792" alt="image" src="https://user-images.githubusercontent.com/6870125/208171442-b69173c8-298d-45b1-9955-15fa6494f9aa.png">
 
+.
+
+.
+
 Add your new page to the [quarto.yml](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/_quarto.yml) file where you want it to appear in the table of contents. But be careful to get the spacing right! Quarto is very picky about everything lining up correctly:
 <img width="367" alt="image" src="https://user-images.githubusercontent.com/6870125/208171367-a9f0b3f2-9309-4fa0-96e6-3b8b9ddc3f98.png">
 
