@@ -1,6 +1,6 @@
 # install iTerm terminal app for MacOS
 
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_ShippingHazMat.qmd)
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_1_install_iterm.qmd)
 
 These instructions will instruct users on how to install iTerm terminal app for MacOS and further install iTerm's "shell integration".
 
@@ -22,3 +22,11 @@ Once the program is installed, we’ll want to install a feature called “shell
 - Note that we just installed shell integration for your local laptop. For shell integration to work on other servers, you'll need to be ssh-ed to the server and then go to the menubar again and iTerm2 > Install Shell Integration.
 
 Once complete, it should print a bunch of information to the terminal window. At the end, it will list all of the new tools you can use and how to use them. For some, you only enter the tool name and hit enter to use it in command-line (`imgls`), while others it shows you you need another word after the tool name (`it2dl [filename]`) before the tool will work. Each tool also has an indented description of what it does.If you can ssh to Discovery (or other servers) you’ll need to install shell integration with each server.
+
+- For shell integration and the new tools to work, you will need to either start a new session (e.g., open a new terminal tab +/- ssh) or `source $HOME/.bash_profile`. Doing either option will execute the commands added to your `$HOME/.bash_profile` file by iTerm. if you `vim $HOME/.bash_profile` you should see something like this:
+
+     ```
+     test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+     ```
+
+
