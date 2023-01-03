@@ -108,6 +108,7 @@ website:
       - section: "Bioinformagics"
         contents:
           - bioinformagics_1_install_iterm.qmd
+          - bioinformagics_2-3_advanced_sshing.qmd
 format:
   html:
     theme: lumen
