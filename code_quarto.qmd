@@ -44,8 +44,10 @@ An in-depth Quarto tutorial exists [here](https://quarto.org/docs/websites/).
 1.  Download [Quarto app](https://quarto.org/docs/download/)
      - Quarto is an open-source publishing system that works with R Markdown to create high-quality articles, websites, or books
 2.  [Connecting the Quarto app with R](https://quarto.org/docs/get-started/hello/rstudio.html) 
-     - Make sure you have the latest release of RStudio downloaded 
+     - Make sure you have the latest release of RStudio downloaded
      - Be sure that you have installed any packages that it prompts you to
+           - If you're using a mac, you may need to install [XCode's Command Line Tools](https://mac.install.guide/commandlinetools/index.html) before installing R packages to connect Quarto app with R 
+           - when installing R packages, if R asks whether to install some packages from source, you should enter 'yes'
 3.  Download the [Quarto document (.qmd)](https://quarto.org/docs/get-started/hello/rstudio/_hello.qmd), open it in RStudio, and click Render 
      - When you render a Quarto document, knitr executes all of the code chunks and creates a new markdown (.md) document which includes the code and its output
      - The markdown file generated is then processed by pandoc, which creates the finished format
