@@ -104,7 +104,10 @@ website:
           - discovery_6-optimization.qmd
           - discovery_slurmArrays.qmd
           - discovery_nonNEUpersonnel.qmd
-          - discovery_integrated-development-environment.qmd      
+          - discovery_integrated-development-environment.qmd
+      - section: "Bioinformagics"
+        contents:
+          - bioinformagics_1_install_iterm.qmd
 format:
   html:
     theme: lumen
