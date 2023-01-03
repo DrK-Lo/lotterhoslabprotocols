@@ -602,7 +602,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="install-iterm-terminal-app-for-macos" class="level1">
 <h1>install iTerm terminal app for MacOS</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_ShippingHazMat.qmd">Edit this page</a></p>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_1_install_iterm.qmd">Edit this page</a></p>
 <p>These instructions will instruct users on how to install iTerm terminal app for MacOS and further install iTerm’s “shell integration”.</p>
 <p>iTerm2 is a program that allows you to have a command-line interface with the computer. Generally this type of program is called a ‘terminal’. Mac has a native Terminal app, but iTerm has more bells and whistles. The terminal is used to run programs (or custom scripts) “manually”.</p>
 <hr>
@@ -620,6 +620,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Note that we just installed shell integration for your local laptop. For shell integration to work on other servers, you’ll need to be ssh-ed to the server and then go to the menubar again and iTerm2 &gt; Install Shell Integration.</li>
 </ul>
 <p>Once complete, it should print a bunch of information to the terminal window. At the end, it will list all of the new tools you can use and how to use them. For some, you only enter the tool name and hit enter to use it in command-line (<code>imgls</code>), while others it shows you you need another word after the tool name (<code>it2dl [filename]</code>) before the tool will work. Each tool also has an indented description of what it does.If you can ssh to Discovery (or other servers) you’ll need to install shell integration with each server.</p>
+<ul>
+<li><p>For shell integration and the new tools to work, you will need to either start a new session (e.g., open a new terminal tab +/- ssh) or <code>source $HOME/.bash_profile</code>. Doing either option will execute the commands added to your <code>$HOME/.bash_profile</code> file by iTerm. if you <code>vim $HOME/.bash_profile</code> you should see something like this:</p>
+<pre><code>test -e "${HOME}/.iterm2_shell_integration.bash" &amp;&amp; source "${HOME}/.iterm2_shell_integration.bash"</code></pre></li>
+</ul>
 
 
 </section>
