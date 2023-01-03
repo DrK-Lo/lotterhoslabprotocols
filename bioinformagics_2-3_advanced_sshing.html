@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lotterhos Lab Protocols – discovery_integrated-development-environment</title>
+<title>Lotterhos Lab Protocols – bioinformagics_2-3_advanced_sshing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bioinformagics_1_install_iterm.html" rel="next">
-<link href="./discovery_nonNEUpersonnel.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -506,12 +504,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">Discovery</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">Discovery</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./discovery_1-gettingstarted.html" class="sidebar-item-text sidebar-link">Connecting to the Discovery Cluster</a>
@@ -559,7 +557,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./discovery_integrated-development-environment.html" class="sidebar-item-text sidebar-link active">What are VS Code and PyCharm?</a>
+  <a href="./discovery_integrated-development-environment.html" class="sidebar-item-text sidebar-link">What are VS Code and PyCharm?</a>
   </div>
 </li>
       </ul>
@@ -591,10 +589,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-are-vs-code-and-pycharm" id="toc-what-are-vs-code-and-pycharm" class="nav-link active" data-scroll-target="#what-are-vs-code-and-pycharm">What are VS Code and PyCharm?</a>
+  <li><a href="#advanced-ssh-ing" id="toc-advanced-ssh-ing" class="nav-link active" data-scroll-target="#advanced-ssh-ing">Advanced SSH-ing</a>
   <ul class="collapse">
-  <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code"><strong>VS Code</strong></a></li>
-  <li><a href="#pycharm" id="toc-pycharm" class="nav-link" data-scroll-target="#pycharm"><strong>PyCharm</strong></a></li>
+  <li><a href="#connecting-to-discovery-using-ssh" id="toc-connecting-to-discovery-using-ssh" class="nav-link" data-scroll-target="#connecting-to-discovery-using-ssh">1. Connecting to Discovery using <code>ssh</code></a></li>
+  <li><a href="#ssh-ing-to-discovery-without-a-password" id="toc-ssh-ing-to-discovery-without-a-password" class="nav-link" data-scroll-target="#ssh-ing-to-discovery-without-a-password">2. <code>ssh</code>-ing to Discovery without a password</a>
+  <ul class="collapse">
+  <li><a href="#setting-up-your-ssh-folder" id="toc-setting-up-your-ssh-folder" class="nav-link" data-scroll-target="#setting-up-your-ssh-folder">Setting up your <code>ssh</code> folder</a></li>
+  <li><a href="#create-rsa-key-for-passwordless-ssh" id="toc-create-rsa-key-for-passwordless-ssh" class="nav-link" data-scroll-target="#create-rsa-key-for-passwordless-ssh">Create RSA key for passwordless ssh</a></li>
+  <li><a href="#send-rsa-key-to-discovery" id="toc-send-rsa-key-to-discovery" class="nav-link" data-scroll-target="#send-rsa-key-to-discovery">Send RSA key to Discovery</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -604,66 +607,46 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="what-are-vs-code-and-pycharm" class="level1">
-<h1>What are VS Code and PyCharm?</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_integrated-development-environment.qmd">Edit this page</a></p>
+<section id="advanced-ssh-ing" class="level1">
+<h1>Advanced SSH-ing</h1>
+<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_2-3_advanced_sshing.qmd">Edit this page</a></p>
+<p>These instructions will cover the following topics: 1. Connecting to Discovery using <code>ssh</code> 1. Setting up your <code>ssh</code> folder - Connecting to Discovery using <code>ssh</code> without a password - <code>ssh</code>-ing with aliases</p>
+<p>This tutorial assumes you are familiar with using terminal - see also <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_1_install_iterm.html">instructions for installing iTerm</a></p>
+<p>Below, if I want you to execute a terminal command, I’ll preface the command with “do” - eg “do <code>ls</code>”.</p>
+<p>To connect to Discovery, and most servers used in academia, we can use a Secure SHell (<code>ssh</code>) that will allow our computer to plug in our monitor to the server. Just like our home monitors show what’s going on ‘inside’ our computer, the ssh tunnel allows us to use the server like we would use our own computer.</p>
+<p>I’m assuming everyone has the credentials on the IT side of things to be able to connect to discovery. Ask Katie if this is not the case.</p>
+<p>Before actually getting into doing the ‘connecting’, we should cover some basic commands to navigate in terminal, where we’ll eventually execute the <code>ssh</code> command. If you are not familiar with basic terminal commands, see the <a href="https://drk-lo.github.io/lotterhoslabprotocols/code_unixcommands.html">lab protocols page here</a>. Generally the types of ‘native’ commands used will be BASH - BAsic SHell; think of BASH like a computer language and the terminal as a session of BASH). The BASH commands from this protocol that we’ll need immediately are <code>cd</code> and <code>ls</code> . Read those sections then come back here and continue.</p>
+<p>The following instructions cover connecting “Computer A” (e.g., your laptop) to “Server B” (e.g., Discovery). But if you wanted to connect to another server from Discovery, you would follow these steps for creating and editing files on Discovery - in other words, Discovery would now be “Computer A” and the new server would be “Server B”.</p>
 <hr>
-<p><a href="https://code.visualstudio.com/">VS Code</a> and <a href="https://www.jetbrains.com/pycharm/">Pycharm</a> are both Integrated Developement Environments, or IDEs. You’ve probably worked with an IDE, RStudio is an IDE. Ultimately the purpose of an IDE is to make coding easier. Some of the most basic features of IDEs are syntax highlighting and autocompletion capabilities, but they can also do a lot more than that - like displaying hover-over metadata (eg displaying a function’s documentation when hovering over code), jumping to the part of the file where a function is defined/used, showing where an error will occur, among others. While PyCharm is specifically built for python (but see other IDEs from <a href="https://www.jetbrains.com/">jet brains</a>), VS Code supports hundreds of coding languages.</p>
-<p>Both PyCharm and VS Code have free professional versions for students and academics - see eg here for <a href="https://www.jetbrains.com/community/education/#students">PyCharm</a>. I won’t say much more about the purposes and cool features of these IDEs, for that it would be good to google, use the intro/how-to resources from each program’s page, or better yet open one up and explore.</p>
-<p>The purpose of this post is to show how to set up VS Code and PyCharm to connect to NEU’s Discovery cluster.</p>
-<ul>
-<li><p>First download and install the program by visiting the landing pages linked above.</p></li>
-<li><p>Make sure you can ssh to discovery - in terminal <code>ssh user@discovery.neu.edu</code></p>
-<ul>
-<li><p>TODO - link to example of ssh config</p></li>
-<li><p>to set up passwordless ssh so you don’t have to enter a password each time, see <a href="http://www.linuxproblem.org/art_9.html">this link</a></p></li>
-</ul></li>
-</ul>
-<section id="vs-code" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="vs-code"><strong>VS Code</strong></h2>
-<ul>
-<li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack">Remote Development Extensionpack</a></li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159176412-c43f26ad-855a-46d8-918a-31bf41156bea.png" class="img-fluid"></p>
-<ul>
-<li>Once the Remote Development Extension is installed, open the Command Palette (⇧⌘P) and type “<strong>Remote-SSH: Connect to Host…</strong>” and you should see something like this</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159713469-dcb1aebc-915e-495f-89b1-d3ca29ff7fd0.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 39 21 AM"></p>
-<ul>
-<li>After a moment, VS Code will connect to the SSH server and set itself up. VS Code will keep you up-to-date using a progress notification. After you are connected, you’ll be in an empty window. You can always refer to the Status bar to see which host you are connected to.</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159713970-a6471acf-e7db-4b43-a87f-316ee8feb9a5.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 45 28 AM"></p>
-<ul>
-<li>You should now be able to choose the folder you wish to open</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159714594-fa30ac5e-3666-492a-abb9-52de33fa2879.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 48 16 AM"></p>
-<ul>
-<li>After opening the folder destination you can begin to create new files or open that already exist</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159715126-e0cc754b-ddb3-43ea-98a1-a1fa6a665f16.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 9 50 56 AM"></p>
+<section id="connecting-to-discovery-using-ssh" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-to-discovery-using-ssh">1. Connecting to Discovery using <code>ssh</code></h2>
+<p>Once you have your discovery credentials, you should be able to ssh to discovery like this: <code>ssh your_login@login.discovery.neu.edu</code>. It will then prompt you for a password. You can keep entering a password every time you log in (which can get annoying, if the long login isn’t annoying enough) or we can create a file (see next step) that will tell Discovery that you’re really you and you won’t have to enter a password afterward.</p>
 </section>
-<section id="pycharm" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="pycharm"><strong>PyCharm</strong></h2>
-<ul>
-<li>After setting up a project first add the Remote Host tool window to the sidebar</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159718453-3750eb37-6127-4c53-9e00-ffec62ba4a22.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 07 10 AM"></p>
-<ul>
-<li>If PyCharm opens the Remote Host tool window like a browser tab, you can drag it to the sidebar. Afterwards, click on it. Then click on the <code>...</code> next to the drop down menu. In the Deployment window, click the <code>+</code> button to add a new SFTP connection. This will then prompt you to give a server name, let’s use “discovery”.</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159719312-ca86411a-1d7d-4131-95a3-fa894d6eee94.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 11 28 AM"></p>
-<ul>
-<li>Next we need to set up the SSH Configuration - click the <code>...</code> next to the SSH Configuration drop-down menu. Fill in your credentials. I have passwordless ssh already configured (how-to link above) so I have selected to authenticate using my RSA key. Make sure to test the connection.</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159720760-74429eab-6aa7-4a5e-bbb9-eb3672879f72.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 19 02 AM"></p>
-<ul>
-<li>Close the SSH Configuration window to return to the Deployment window. Test the connection in the Deployment window. After a successful connection, close the Deployment window and select ‘discovery’ from the Remote Host drop-down menu. You should now be able to browse files on the remote server.</li>
-</ul>
-<p><img src="https://user-images.githubusercontent.com/8821725/159721461-d1106690-d6f9-452d-983e-02913f4b625c.png" class="img-fluid" alt="Screen Shot 2022-03-23 at 10 22 20 AM"></p>
-<p><br>
-</p>
+<section id="ssh-ing-to-discovery-without-a-password" class="level2">
+<h2 class="anchored" data-anchor-id="ssh-ing-to-discovery-without-a-password">2. <code>ssh</code>-ing to Discovery without a password</h2>
+<section id="setting-up-your-ssh-folder" class="level3">
+<h3 class="anchored" data-anchor-id="setting-up-your-ssh-folder">Setting up your <code>ssh</code> folder</h3>
+<p>Before we can <code>ssh</code> without a password, we need to create a folder on your laptop.</p>
+<p>On mac and linux, the short cut to your “home” directory is <code>~</code>. So if you had a folder called ‘documents’ in your home directory, you could access that file path with <code>~/documents</code>. On a mac, that path is something like <code>/Users/yourusername</code>. You can also ask BASH to tell you your username with <code>echo $USER</code>. Or you can ask for the actual home path <code>echo $HOME</code>.</p>
+<p>To connect to Discovery with <code>ssh</code> we’re going to need a place to put files. That place by default is in a hidden folder called <code>.ssh</code> in your home directory on your laptop (note the <code>.</code>). So let’s first change directories to the home directory on your laptop (do <code>cd ~</code>) and see if you have it (to do this step you should not be <code>ssh</code>-ed to Discovery yet). Normally to see files you would use <code>ls</code> but to see hidden files (those that start with <code>.</code>) you need to add <code>-a</code> to the command - let’s get the long form list of all files (do <code>ls -la</code>).</p>
+<p>If you don’t see <code>.ssh</code>, make the directory - do <code>mkdir .ssh</code>.</p>
+<p>then do <code>cd .ssh</code></p>
+</section>
+<section id="create-rsa-key-for-passwordless-ssh" class="level3">
+<h3 class="anchored" data-anchor-id="create-rsa-key-for-passwordless-ssh">Create RSA key for passwordless ssh</h3>
+<p>The file that Discovery uses to ‘trust’ us is called an RSA key (abbr is creators names Rivest–Shamir–Adleman). To create that key, make sure you ARE NOT ssh-ed to discovery (ie you are in your laptop’s filesystem in the <code>~/.ssh</code> folder) and execute this command <code>ssh-keygen -t rsa</code>. - Executing this command should ask you to create the file id_rsa in your $HOME/.ssh folder; agree. - When it asks you for a password, just hit the return key (and again for the confirmation). In other words, don’t enter a password.</p>
+<p>You should now see the <code>id_rsa</code> file (and maybe a couple others with that prefix) if you do <code>ls -l</code>.</p>
+</section>
+<section id="send-rsa-key-to-discovery" class="level3">
+<h3 class="anchored" data-anchor-id="send-rsa-key-to-discovery">Send RSA key to Discovery</h3>
+<p>Okay, we’ve created the key for Discovery, but now we have to give that key to discovery.</p>
+<p>Before we send the file, we’ll need a destination (directory) to send it to on Discovery. do <code>ssh your_login@login.discovery.neu.edu mkdir -p .ssh</code> - you’ll get a password prompt since we haven’t completed the setup yet. This command first logs in to Discovery then makes the hidden directory called <code>.ssh</code> in your Discovery home directory. In the screenshot I make a directory I’ll delete later.</p>
+<p>The key Discovery will use to authenticate us is actually the content within the file called <code>id_rsa.pub</code>. To send this key to Discovery, we’re going to use a command called <code>cat</code> which basically prints the content of a file (try doing <code>cat id_rsa.pub</code> by itself). We’re also going to use a pipe <code>|</code> (on keyboard above return key; use shift) - the pipe let’s you take standardout (like something that’s printed) and pass it to another command. So we could print the rsa key and pass it to a command to send it to discovery like so: do <code>cat .ssh/id_rsa.pub | ssh your_login@login.discovery.neu.edu 'cat &gt;&gt; .ssh/authorized_keys'</code>. You’ll be prompted for your login password again. If it works, there won’t be any fanfare - it will just give you a new prompt for your local filesystem (it makes a connection, sends the info, then ends the connection).</p>
+<p>The command prints the file contents (<code>cat id_rsa.pub</code>) then sends that printout to an ssh connection <code>| ssh me@domain</code> then after connecting uses another cat command (<code>'cat</code>) to send the contents of the original file on our laptop to a discovery file <code>&gt;&gt; .ssh/authorized_keys'</code>. The command executed after connection is surrounded by single quotes: <code>'</code> . Note that we used <code>&gt;&gt;</code> to append to the discovery file. Had we used just <code>&gt;</code> it would have overwritten/created the file with just the new content. We’ll often have multiple computers that we use to ssh (eg a different server connecting to discovery) so we may have many keys in this authorized key file (which is why we append the new content with <code>&gt;&gt;</code>).</p>
+<p>You should now be able to ssh without a password: do <code>ssh your_login@login.discovery.neu.edu</code>.</p>
 
 
+</section>
 </section>
 </section>
 
@@ -801,18 +784,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./discovery_nonNEUpersonnel.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Instructions for Discovery for Non-Northeastern Personnel</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./bioinformagics_1_install_iterm.html" class="pagination-link">
-        <span class="nav-page-text">install iTerm terminal app for MacOS</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
