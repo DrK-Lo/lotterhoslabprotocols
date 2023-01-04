@@ -12,18 +12,18 @@ However, in “practice” we may want to be able to use many versions of eg R a
 
 ---
 
-# 1. Connect to Discovery
+## 1. Connect to Discovery
 
 First, do `ssh discovery` to connect to Discovery server (see here for [advanced ssh-ing instructions](https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html)). 
 
-# 2. Create folder for source code
+## 2. Create folder for source code
 
 When installing software, it’s generally convention to keep the “source code” in a folder called `src` in the home directory. If you don’t have it, create it: do `mkdir ~/src`
 
 Then, change to the home directory: do `cd ~/src`
 
 
-# 3. Download and transfer Anaconda installation file to discovery
+## 3. Download and transfer Anaconda installation file to discovery
 
 In a web browser, navigate to [anaconda's website](https://www.anaconda.com/products/distribution#Downloads). Since Discovery has a linux environment, right click on the linux 64-bit (x86) and copy the link as in the screenshot.
 
@@ -34,7 +34,7 @@ Back in terminal, in your Discovery `src` directory, type `wget`, then a space, 
 - The file should download with a progress bar.  
 
 
-# 4. Install Anaconda
+## 4. Install Anaconda
 
 Once the file is downloaded, to install anaconda on discovery do: `bash Anaconda3-2022.10-Linux-x86_64.sh` (or use whatever the file name downloaded was).
 - Hit enter to go scroll the user agreement. then type ‘yes’ to agree at the bottom.
