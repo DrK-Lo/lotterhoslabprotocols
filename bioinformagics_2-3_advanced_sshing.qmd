@@ -3,10 +3,10 @@
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_2-3_advanced_sshing.qmd)
 
 These instructions will cover the following topics:
+
 1. Connecting to Discovery using `ssh`
-1. Setting up your `ssh` folder
-     - Connecting to Discovery using `ssh` without a password
-     - `ssh`-ing with aliases
+1. Connecting to Discovery using `ssh` without a password
+1. `ssh`-ing using an alias
 
 This tutorial assumes you are familiar with using terminal - see also [instructions for installing iTerm](https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_1_install_iterm.html)
 
@@ -62,5 +62,71 @@ The key Discovery will use to authenticate us is actually the content within the
 The command prints the file contents (`cat id_rsa.pub`) then sends that printout to an ssh connection `| ssh me@domain` then after connecting uses another cat command (`'cat`) to send the contents of the original file on our laptop to a discovery file `>> .ssh/authorized_keys'`. The command executed after connection is surrounded by single quotes: `'` . Note that we used `>>` to append to the discovery file. Had we used just `>` it would have overwritten/created the file with just the new content. We’ll often have multiple computers that we use to ssh (eg a different server connecting to discovery) so we may have many keys in this authorized key file (which is why we append the new content with `>>`).
 
 You should now be able to ssh without a password: do `ssh your_login@login.discovery.neu.edu`.
+
+# 3. `ssh`-ing using an alias
+
+If you've followed the steps above you can now connect to Discovery without a password (or another server by following the same steps), but each time you want to `ssh` to the server you'll still have to type out a long command: `ssh user@login.yadayada.domain`. If you ever want to transfer files to/from the server you'll also need to use the long-form user/domain: eg `scp localfile.txt user@login.yadayada.domain:/path/to/transfer_location`.
+
+With an alias, you can replace the `user@login` with a nickname for the server and make `ssh`-ing much easier: eg `ssh discovery`. Or for transferring files: `scp localfile.txt discovery:/path/to/transfer_location`.
+
+In Step 2 we created the `~/.ssh` directory on our laptops. We can customize the way `ssh` connections “work” by using a config file (ie a ‘configuration’ file). I’m not sure if you’ll have one, but try doing: `ls ~/.ssh/config`. If you don’t have it, we’ll be creating it using vim below.
+
+We’ll be using `vim` to add our `ssh` aliases to the config file. `vim` is basically a terminal text editor that you can view and edit the contents of files. It is actually pretty powerful, but I only use its basic parts. If you try and `vim` a file that doesn’t exist, one is created and you’ll see blank content.
+
+So we want to edit the config file. Using terminal that is within your laptop's filesystem (i.e., not `ssh`-ed to discovery) do `vim ~/.ssh/config`.
+
+To use `vim`, we use the keyboard keys instead of drop down menus. To begin editing, hit the `i` key (for “insert”). Paste the following at the top of the file (the normal way with command+v). The first bit will apply to all hosts (`*`) and do a couple other things that you can look up later (this is not the alias part).
+
+     ```
+     Host *
+     Protocol 2
+     TCPKeepAlive yes
+     ServerAliveInterval 300
+     ```
+
+To create aliases to servers, we provide our nickname for that host, our user name for that host, and the domain for that host (the bits after the @ of our login). The following will allow me to `ssh discovery` without typing out the long-form user@ domain (just change the user). Note I've kept the text from above for context, it should only appear once in the file.
+
+     ```
+     Host *
+     Protocol 2
+     TCPKeepAlive yes
+     ServerAliveInterval 300
+     
+     Host discovery
+     User b.lind
+     HostName login.discovery.neu.edu
+     ```
+
+To save the file, we’re going to tell `vim` to “write then quit”. To do this first hit the `esc` key, then type `:wq` (note colon) then hit enter. If you ever make a mistake while editing, or `vim` a non-existent file you don’t want to create, you tell `vim` to quit but ignore any warnings about quitting using an exclamation: `:q!` (note we wouldn’t tell `vim` to write to the file using `w`).
+
+You can do this for any host. For instance here are a couple canadian servers I have configured like so:
+
+     ```
+     Host yeaman02
+     User brandon.lind
+     HostName itbioyeaman02.ucalgary.ca
+     
+     Host yeaman01
+     User brandon.lind
+     HostName itbioyeaman.ucalgary.ca
+     
+     Host yeaman03
+     User brandon.lind
+     HostName itbioyeaman03.ucalgary.ca
+     ```
+     
+After successfully saving (you can always `cat ~/.ssh/config` to print the file), and using the correct username, you should be able to do `ssh discovery` (from a non `ssh`-ed terminal window). 
+
+As a note, you can use whatever nickname you want, really. but "discovery" is probably easiest to remember. For example, if you wanted to be able to `ssh hogwarts` to connect to the Discovery server you could use this in your config file instead of what we used above:
+
+     ```
+     Host hogwarts
+     User b.lind
+     HostName login.discovery.neu.edu
+     ```
+
+
+
+
 
 
