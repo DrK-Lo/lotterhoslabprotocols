@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./discovery_1a-OOD.html" rel="next">
-<link href="./code_versioncontrol.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -506,17 +504,15 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">Discovery</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">Discovery</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./discovery_1-gettingstarted.html" class="sidebar-item-text sidebar-link active">Connecting to the Discovery Cluster</a>
-  </div>
-</li>
+  discovery_1-gettingstarted.qmd
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./discovery_1a-OOD.html" class="sidebar-item-text sidebar-link">Open OnDemand</a>
@@ -619,7 +615,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://rc.northeastern.edu/support/training/</p>
 <ul>
 <li><p>Discovery account. Apply by opening a Service-Now ticket with an access request at https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket</p></li>
-<li><p>Login by typing e.g.&nbsp;<code>ssh lotterhos@login.discovery.neu.edu</code>, but use your own username</p></li>
+<li><p>Login by typing e.g.&nbsp;<code>ssh lotterhos@login.discovery.neu.edu</code>, but use your own username</p>
+<ul>
+<li>also check out instructions for <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html">advanced ssh-ing</a> to <code>ssh</code> without a password and to use an alias (eg <code>ssh discovery</code> instead of using the full command: <code>ssh username@login.discovery.neu.edu</code>). These steps will help you save time in the long run.</li>
+</ul></li>
 <li><p>Read <a href="https://rc-docs.northeastern.edu/en/latest/first_steps/connect_ood.html">NU’s Getting started on Discovery</a></p></li>
 <li><p>Check out <a href="https://rc-docs.northeastern.edu/en/latest/">NU Discovery research computing docs</a></p></li>
 <li><p>Need help?</p>
@@ -837,18 +836,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./code_versioncontrol.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Version Control with GitHub</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./discovery_1a-OOD.html" class="pagination-link">
-        <span class="nav-page-text">Open OnDemand</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 
