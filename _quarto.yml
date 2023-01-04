@@ -110,6 +110,7 @@ website:
           - bioinformagics_1_install_iterm.qmd
           - bioinformagics_2-3_advanced_sshing.qmd
           - bioinformagics_4_anaconda.qmd
+          - bioinformagics_6_jupyter.qmd
 
 format:
   html:
