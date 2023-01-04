@@ -1,6 +1,6 @@
 # Installing Anaconda and Anaconda Environments
 
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_anaconda.qmd)
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_4_anaconda.qmd)
 
 These are instructions for setting up a package management software called Anaconda on Discovery (or more generally any computer).
 
@@ -29,7 +29,7 @@ Then, change to the home directory: do `cd ~/src`
 
 In a web browser, navigate to [anaconda's website](https://www.anaconda.com/products/distribution#Downloads). Since Discovery has a linux environment, right click on the linux 64-bit (x86) and copy the link as in the screenshot.
 
-![fig1](img/bioinformagics_anaconda_fig2.png#center)
+![fig1](img/bioinformagics_anaconda_fig2.png)
 
 Back in terminal, in your Discovery `src` directory, type `wget`, then a space, then paste the link you copied. Then hit enter. `wget` is a way to download files from web links. The command you execute should look something like `wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh.`
 
