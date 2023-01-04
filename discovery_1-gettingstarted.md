@@ -9,6 +9,7 @@ Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://r
 -   Discovery account. Apply by opening a Service-Now ticket with an access request at https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket
 
 -   Login by typing e.g. `ssh lotterhos@login.discovery.neu.edu`, but use your own username
+     - also check out instructions for [advanced ssh-ing](https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html) to `ssh` without a password and to use an alias (eg `ssh discovery` instead of using the full command: `ssh username@login.discovery.neu.edu`). These steps will help you save time in the long run.
 
 -   Read [NU's Getting started on Discovery](https://rc-docs.northeastern.edu/en/latest/first_steps/connect_ood.html)
 
