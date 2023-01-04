@@ -35,7 +35,7 @@ Once you have your discovery credentials, you should be able to ssh to discovery
 
 Before we can `ssh` without a password, we need to create a folder on your laptop.
 
-On mac and linux, the short cut to your “home” directory is `~`. So if you had a folder called ‘documents’ in your home directory, you could access that file path with `~/documents`.  On a mac, that path is something like `/Users/yourusername`. You can also ask BASH to tell you your username with `echo $USER`. Or you can ask for the actual home path `echo $HOME`.
+On mac and linux, the short cut to your “home” directory is `~`. So if you had a folder called ‘documents’ in your home directory, you could access that file path with `~/documents`.  On a mac, that path is something like `/Users/yourusername`. You can also ask BASH to tell you your username with `echo $USER`. Or you can ask for the actual home path `echo $HOME`. If you're using a PC, we'll need to replace the home path `~` with the actual path - ask Katie for help if needed.
 
 To connect to Discovery with `ssh` we’re going to need a place to put files. That place by default is in a hidden folder called `.ssh` in your home directory on your laptop (note the `.`). So let’s first change directories to the home directory on your laptop (do `cd ~`) and see if you have it (to do this step you should not be `ssh`-ed to Discovery yet). Normally to see files you would use `ls` but to see hidden files  (those that start with `.`) you need to add `-a` to the command - let’s get the long form list of all files (do `ls -la`).
 
