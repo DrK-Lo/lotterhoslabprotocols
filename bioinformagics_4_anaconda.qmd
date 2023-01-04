@@ -1,4 +1,4 @@
-# Installing Anaconda
+# Installing Anaconda and Anaconda Environments
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_anaconda.qmd)
 
@@ -12,18 +12,20 @@ However, in “practice” we may want to be able to use many versions of eg R a
 
 ---
 
-## 1. Connect to Discovery
+## 1. Install Anaconda
+
+### Connect to Discovery
 
 First, do `ssh discovery` to connect to Discovery server (see here for [advanced ssh-ing instructions](https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html)). 
 
-## 2. Create folder for source code
+### Create folder for source code
 
 When installing software, it’s generally convention to keep the “source code” in a folder called `src` in the home directory. If you don’t have it, create it: do `mkdir ~/src`
 
 Then, change to the home directory: do `cd ~/src`
 
 
-## 3. Download and transfer Anaconda installation file to discovery
+### Download and transfer Anaconda installation file to discovery
 
 In a web browser, navigate to [anaconda's website](https://www.anaconda.com/products/distribution#Downloads). Since Discovery has a linux environment, right click on the linux 64-bit (x86) and copy the link as in the screenshot.
 
@@ -34,7 +36,7 @@ Back in terminal, in your Discovery `src` directory, type `wget`, then a space, 
 - The file should download with a progress bar.  
 
 
-## 4. Install Anaconda
+### Install Anaconda
 
 Once the file is downloaded, to install anaconda on discovery do: `bash Anaconda3-2022.10-Linux-x86_64.sh` (or use whatever the file name downloaded was).
 - Hit enter to go scroll the user agreement. then type ‘yes’ to agree at the bottom.
@@ -65,15 +67,25 @@ After opening a new terminal window/tab or sourcing `~/.bashrc`, you should be a
 
 ![fig1](img/bioinformagics_anaconda_fig1.png)
 
+## 2. Creating Anaconda Environments
 
+An Anaconda environment is a set of specific software and software versions + some hardware stuff that we really don’t have to worry about. Environments make sure all of the needed package versions and programs work as expected.
 
+These instructions are based on those found here on [Anaconda's website](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands).
 
+### Examples
 
+If you end up creating these examples, you can always remove their folders later ( eg `yes | rm -r ~/anaconda3/envs/first_env`)
 
+To create a blank environment (with some default package versions) that we can call `first_env`, we can do `conda create --name first_env`. This will create an environment whose files are located at `~/anaconda3/envs/first_env`.
 
+To create an environment with a specific version of python we can do eg `conda create --name pyenv python=3.8.2` - these files will be located at `~/anaconda3/envs/pyenv`.
 
+To create an environment with a specific version of R, first create a blank environment. Activate it (see below in next substep), then do eg `conda install -c conda-forge r-base=3.5.1`. This uses a ‘channel’ called conda-forge, if the previous command gives you an error you may first have to do `conda config --add channels conda-forge` to add the channel.
 
+To copy an environment to another computer, conda can create a .yml file. To export an env (after activating) do `conda env export > environment.yml` or whatever.yml filename you want. To create that env elsewhere, do this on the other computer: `conda env create -f environment.yml`.
 
+To use an environment (ie ‘activate’ it): do `conda activate envname`. And the env name should appear to the left of your terminal prompt.
 
 
 
