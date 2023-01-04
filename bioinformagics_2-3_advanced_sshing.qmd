@@ -77,7 +77,7 @@ So we want to edit the config file. Using terminal that is within your laptop's 
 
 To use `vim`, we use the keyboard keys instead of drop down menus. To begin editing, hit the `i` key (for “insert”). Paste the following at the top of the file (the normal way with command+v). The first bit will apply to all hosts (`*`) and do a couple other things that you can look up later (this is not the alias part).
 
-     ```
+     ``` {style="background-color: gainsboro"}
      Host *
      Protocol 2
      TCPKeepAlive yes
@@ -86,7 +86,7 @@ To use `vim`, we use the keyboard keys instead of drop down menus. To begin edit
 
 To create aliases to servers, we provide our nickname for that host, our user name for that host, and the domain for that host (the bits after the @ of our login). The following will allow me to `ssh discovery` without typing out the long-form user@ domain (just change the user). Note I've kept the text from above for context, it should only appear once in the file.
 
-     ```
+     ``` {style="background-color: gainsboro"}
      Host *
      Protocol 2
      TCPKeepAlive yes
@@ -101,7 +101,7 @@ To save the file, we’re going to tell `vim` to “write then quit”. To do th
 
 You can do this for any host. For instance here are a couple canadian servers I have configured like so:
 
-     ```
+     ``` {style="background-color: gainsboro"}
      Host yeaman02
      User brandon.lind
      HostName itbioyeaman02.ucalgary.ca
@@ -119,7 +119,7 @@ After successfully saving (you can always `cat ~/.ssh/config` to print the file)
 
 As a note, you can use whatever nickname you want, really. but "discovery" is probably easiest to remember. For example, if you wanted to be able to `ssh hogwarts` to connect to the Discovery server you could use this in your config file instead of what we used above:
 
-     ```
+     ``` {style="background-color: gainsboro"}
      Host hogwarts
      User b.lind
      HostName login.discovery.neu.edu
