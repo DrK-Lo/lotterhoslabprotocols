@@ -63,7 +63,7 @@ The command prints the file contents (`cat id_rsa.pub`) then sends that printout
 
 You should now be able to ssh without a password: do `ssh your_login@login.discovery.neu.edu`.
 
-# 3. `ssh`-ing using an alias
+## 3. `ssh`-ing using an alias
 
 If you've followed the steps above you can now connect to Discovery without a password (or another server by following the same steps), but each time you want to `ssh` to the server you'll still have to type out a long command: `ssh user@login.yadayada.domain`. If you ever want to transfer files to/from the server you'll also need to use the long-form user/domain: eg `scp localfile.txt user@login.yadayada.domain:/path/to/transfer_location`.
 
