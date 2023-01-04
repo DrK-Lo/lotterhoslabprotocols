@@ -583,7 +583,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bioinformagics_4_anaconda.html" class="sidebar-item-text sidebar-link active">Installing Anaconda</a>
+  <a href="./bioinformagics_4_anaconda.html" class="sidebar-item-text sidebar-link active">Installing Anaconda and Anaconda Environments</a>
   </div>
 </li>
       </ul>
@@ -597,12 +597,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#installing-anaconda" id="toc-installing-anaconda" class="nav-link active" data-scroll-target="#installing-anaconda">Installing Anaconda</a>
+  <li><a href="#installing-anaconda-and-anaconda-environments" id="toc-installing-anaconda-and-anaconda-environments" class="nav-link active" data-scroll-target="#installing-anaconda-and-anaconda-environments">Installing Anaconda and Anaconda Environments</a>
   <ul class="collapse">
-  <li><a href="#connect-to-discovery" id="toc-connect-to-discovery" class="nav-link" data-scroll-target="#connect-to-discovery">1. Connect to Discovery</a></li>
-  <li><a href="#create-folder-for-source-code" id="toc-create-folder-for-source-code" class="nav-link" data-scroll-target="#create-folder-for-source-code">2. Create folder for source code</a></li>
-  <li><a href="#download-and-transfer-anaconda-installation-file-to-discovery" id="toc-download-and-transfer-anaconda-installation-file-to-discovery" class="nav-link" data-scroll-target="#download-and-transfer-anaconda-installation-file-to-discovery">3. Download and transfer Anaconda installation file to discovery</a></li>
-  <li><a href="#install-anaconda" id="toc-install-anaconda" class="nav-link" data-scroll-target="#install-anaconda">4. Install Anaconda</a></li>
+  <li><a href="#install-anaconda" id="toc-install-anaconda" class="nav-link" data-scroll-target="#install-anaconda">1. Install Anaconda</a>
+  <ul class="collapse">
+  <li><a href="#connect-to-discovery" id="toc-connect-to-discovery" class="nav-link" data-scroll-target="#connect-to-discovery">Connect to Discovery</a></li>
+  <li><a href="#create-folder-for-source-code" id="toc-create-folder-for-source-code" class="nav-link" data-scroll-target="#create-folder-for-source-code">Create folder for source code</a></li>
+  <li><a href="#download-and-transfer-anaconda-installation-file-to-discovery" id="toc-download-and-transfer-anaconda-installation-file-to-discovery" class="nav-link" data-scroll-target="#download-and-transfer-anaconda-installation-file-to-discovery">Download and transfer Anaconda installation file to discovery</a></li>
+  <li><a href="#install-anaconda-1" id="toc-install-anaconda-1" class="nav-link" data-scroll-target="#install-anaconda-1">Install Anaconda</a></li>
+  </ul></li>
+  <li><a href="#creating-anaconda-environments" id="toc-creating-anaconda-environments" class="nav-link" data-scroll-target="#creating-anaconda-environments">2. Creating Anaconda Environments</a>
+  <ul class="collapse">
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -612,25 +619,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="installing-anaconda" class="level1">
-<h1>Installing Anaconda</h1>
+<section id="installing-anaconda-and-anaconda-environments" class="level1">
+<h1>Installing Anaconda and Anaconda Environments</h1>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_anaconda.qmd">Edit this page</a></p>
 <p>These are instructions for setting up a package management software called Anaconda on Discovery (or more generally any computer).</p>
 <p>Below, if I want you to execute a terminal command, I’ll preface the command with “do” - eg “do <code>ls</code>”.</p>
 <p>Most of us got started programming using the R app or RStudio. Unless things have changed, we were only able to use one version of R at a time. When I used them, I wasn’t able to have multiple versions installed (even if used one at a time).</p>
 <p>However, in “practice” we may want to be able to use many versions of eg R at the exact same time (or at least the option to choose among versions), or install a workspace that is the same as it is somewhere else so that when we run code we don’t have to worry about program/package version differences affecting results. This is where Anaconda is really handy. If you’ve ever had to install terminal programs outside of a package manager or GUI install, you’ll know about the ‘dependency hell’ which is when you try to install something only to find out you need to install yet another version of this other program/package to work. And then find out about a dependency for the dependency. And so on. Anaconda helps sidestep this almost entirely, and makes creating new and multiple ‘environments’ a lot easier.</p>
 <hr>
-<section id="connect-to-discovery" class="level2">
-<h2 class="anchored" data-anchor-id="connect-to-discovery">1. Connect to Discovery</h2>
+<section id="install-anaconda" class="level2">
+<h2 class="anchored" data-anchor-id="install-anaconda">1. Install Anaconda</h2>
+<section id="connect-to-discovery" class="level3">
+<h3 class="anchored" data-anchor-id="connect-to-discovery">Connect to Discovery</h3>
 <p>First, do <code>ssh discovery</code> to connect to Discovery server (see here for <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html">advanced ssh-ing instructions</a>).</p>
 </section>
-<section id="create-folder-for-source-code" class="level2">
-<h2 class="anchored" data-anchor-id="create-folder-for-source-code">2. Create folder for source code</h2>
+<section id="create-folder-for-source-code" class="level3">
+<h3 class="anchored" data-anchor-id="create-folder-for-source-code">Create folder for source code</h3>
 <p>When installing software, it’s generally convention to keep the “source code” in a folder called <code>src</code> in the home directory. If you don’t have it, create it: do <code>mkdir ~/src</code></p>
 <p>Then, change to the home directory: do <code>cd ~/src</code></p>
 </section>
-<section id="download-and-transfer-anaconda-installation-file-to-discovery" class="level2">
-<h2 class="anchored" data-anchor-id="download-and-transfer-anaconda-installation-file-to-discovery">3. Download and transfer Anaconda installation file to discovery</h2>
+<section id="download-and-transfer-anaconda-installation-file-to-discovery" class="level3">
+<h3 class="anchored" data-anchor-id="download-and-transfer-anaconda-installation-file-to-discovery">Download and transfer Anaconda installation file to discovery</h3>
 <p>In a web browser, navigate to <a href="https://www.anaconda.com/products/distribution#Downloads">anaconda’s website</a>. Since Discovery has a linux environment, right click on the linux 64-bit (x86) and copy the link as in the screenshot.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -643,8 +652,8 @@ ul.task-list li input[type="checkbox"] {
 <li>The file should download with a progress bar.</li>
 </ul>
 </section>
-<section id="install-anaconda" class="level2">
-<h2 class="anchored" data-anchor-id="install-anaconda">4. Install Anaconda</h2>
+<section id="install-anaconda-1" class="level3">
+<h3 class="anchored" data-anchor-id="install-anaconda-1">Install Anaconda</h3>
 <p>Once the file is downloaded, to install anaconda on discovery do: <code>bash Anaconda3-2022.10-Linux-x86_64.sh</code> (or use whatever the file name downloaded was). - Hit enter to go scroll the user agreement. then type ‘yes’ to agree at the bottom. - installing in <code>$HOME/anaconda3</code> should be fine. Hit enter.</p>
 <p>I think I remember there eventually being a prompt to instantiate conda in your <code>~/.bashrc</code>. This will allow you to use anaconda when opening a new terminal tab/window/session (note you need to open a new window or do <code>source ~/.bashrc</code> for it to take effect). It should add something like this to your <code>~/.bashrc</code>:</p>
 <pre><code> ``` {style="background-color: gainsboro"}
@@ -671,8 +680,23 @@ ul.task-list li input[type="checkbox"] {
 <p></p><figcaption class="figure-caption">fig1</figcaption><p></p>
 </figure>
 </div>
+</section>
+</section>
+<section id="creating-anaconda-environments" class="level2">
+<h2 class="anchored" data-anchor-id="creating-anaconda-environments">2. Creating Anaconda Environments</h2>
+<p>An Anaconda environment is a set of specific software and software versions + some hardware stuff that we really don’t have to worry about. Environments make sure all of the needed package versions and programs work as expected.</p>
+<p>These instructions are based on those found here on <a href="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands">Anaconda’s website</a>.</p>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<p>If you end up creating these examples, you can always remove their folders later ( eg <code>yes | rm -r ~/anaconda3/envs/first_env</code>)</p>
+<p>To create a blank environment (with some default package versions) that we can call <code>first_env</code>, we can do <code>conda create --name first_env</code>. This will create an environment whose files are located at <code>~/anaconda3/envs/first_env</code>.</p>
+<p>To create an environment with a specific version of python we can do eg <code>conda create --name pyenv python=3.8.2</code> - these files will be located at <code>~/anaconda3/envs/pyenv</code>.</p>
+<p>To create an environment with a specific version of R, first create a blank environment. Activate it (see below in next substep), then do eg <code>conda install -c conda-forge r-base=3.5.1</code>. This uses a ‘channel’ called conda-forge, if the previous command gives you an error you may first have to do <code>conda config --add channels conda-forge</code> to add the channel.</p>
+<p>To copy an environment to another computer, conda can create a .yml file. To export an env (after activating) do <code>conda env export &gt; environment.yml</code> or whatever.yml filename you want. To create that env elsewhere, do this on the other computer: <code>conda env create -f environment.yml</code>.</p>
+<p>To use an environment (ie ‘activate’ it): do <code>conda activate envname</code>. And the env name should appear to the left of your terminal prompt.</p>
 
 
+</section>
 </section>
 </section>
 
