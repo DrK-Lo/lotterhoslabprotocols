@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bioinformagics_anaconda.html" rel="next">
+<link href="./bioinformagics_4_anaconda.html" rel="next">
 <link href="./bioinformagics_1_install_iterm.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -584,7 +584,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bioinformagics_anaconda.html" class="sidebar-item-text sidebar-link">Installing Anaconda</a>
+  <a href="./bioinformagics_4_anaconda.html" class="sidebar-item-text sidebar-link">Installing Anaconda</a>
   </div>
 </li>
       </ul>
@@ -607,8 +607,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#create-rsa-key-for-passwordless-ssh" id="toc-create-rsa-key-for-passwordless-ssh" class="nav-link" data-scroll-target="#create-rsa-key-for-passwordless-ssh">Create RSA key for passwordless ssh</a></li>
   <li><a href="#send-rsa-key-to-discovery" id="toc-send-rsa-key-to-discovery" class="nav-link" data-scroll-target="#send-rsa-key-to-discovery">Send RSA key to Discovery</a></li>
   </ul></li>
-  </ul></li>
   <li><a href="#ssh-ing-using-an-alias" id="toc-ssh-ing-using-an-alias" class="nav-link" data-scroll-target="#ssh-ing-using-an-alias">3. <code>ssh</code>-ing using an alias</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -661,9 +661,8 @@ ul.task-list li input[type="checkbox"] {
 <p>You should now be able to ssh without a password: do <code>ssh your_login@login.discovery.neu.edu</code>.</p>
 </section>
 </section>
-</section>
-<section id="ssh-ing-using-an-alias" class="level1">
-<h1>3. <code>ssh</code>-ing using an alias</h1>
+<section id="ssh-ing-using-an-alias" class="level2">
+<h2 class="anchored" data-anchor-id="ssh-ing-using-an-alias">3. <code>ssh</code>-ing using an alias</h2>
 <p>If you’ve followed the steps above you can now connect to Discovery without a password (or another server by following the same steps), but each time you want to <code>ssh</code> to the server you’ll still have to type out a long command: <code>ssh user@login.yadayada.domain</code>. If you ever want to transfer files to/from the server you’ll also need to use the long-form user/domain: eg <code>scp localfile.txt user@login.yadayada.domain:/path/to/transfer_location</code>.</p>
 <p>With an alias, you can replace the <code>user@login</code> with a nickname for the server and make <code>ssh</code>-ing much easier: eg <code>ssh discovery</code>. Or for transferring files: <code>scp localfile.txt discovery:/path/to/transfer_location</code>.</p>
 <p>In Step 2 we created the <code>~/.ssh</code> directory on our laptops. We can customize the way <code>ssh</code> connections “work” by using a config file (ie a ‘configuration’ file). I’m not sure if you’ll have one, but try doing: <code>ls ~/.ssh/config</code>. If you don’t have it, we’ll be creating it using vim below.</p>
@@ -712,6 +711,7 @@ ul.task-list li input[type="checkbox"] {
  ```</code></pre>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -855,7 +855,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./bioinformagics_anaconda.html" class="pagination-link">
+      <a href="./bioinformagics_4_anaconda.html" class="pagination-link">
         <span class="nav-page-text">Installing Anaconda</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
