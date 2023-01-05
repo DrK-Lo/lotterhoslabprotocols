@@ -84,9 +84,10 @@ Before we do this, it will be useful to consider how our terminal windows will b
 - In the first window we will 1) connect to discovery via `ssh discovery`, 2) connect to the compute node, and 3) launch jupyter
 - In the second window we will connect to discovery using port forwarding described above (eg `ssh -L 9603:localhost:9603 discovery`).
 
-Let's first open two windows to use. 
+Let's first open two sessions to use, and combine them.
 - Using iTerm, hit 'command + n' to open a new window (or from the menu bar: Shell > New Window). This will be referred to as Window #1.
-- Then we'll add a second tab in the same window - using the menu bar: Shell > Split Horizontally with Current Profile. This will be referred to as Window #2.
+- Next we're going to split the window to add another pane (i.e., BASH session). To add a second pane in the same window - using the menu bar: Shell > Split Horizontally with Current Profile. This will be referred to as Window #2.
+- We put both of these sessions/panes in the same window so that we can eventually minimize it to the dock. We don't ever want to close the jupyter notebook, nor do we want to close the port forwarding window that allows us to view the jupyter broadcast.
 
 ![fig11](img/bioinformagics_6_jupyter_fig11.png)
 
