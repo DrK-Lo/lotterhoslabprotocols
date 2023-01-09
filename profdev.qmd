@@ -2,7 +2,6 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev.qmd)
 
-Hello world!
 
 ------------------------------------------------------------------------
 
