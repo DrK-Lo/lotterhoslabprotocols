@@ -1,7 +1,5 @@
 # Field Safety Protocol
 
-Hi :)
-
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_fieldsafety_protocol.qmd)
 
 ------------------------------------------------------------------------
