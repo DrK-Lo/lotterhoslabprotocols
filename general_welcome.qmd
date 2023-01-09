@@ -55,6 +55,7 @@ This will help you know where certain items are in the lab that will help keep y
     -   If our secondary containment is overflowing in the middle of the month, notify Ryan and he will transport the containers to the central accumulation area.
 
     -   Lastly, do your best to fill out the hazardous waste labels correctly. Use the SDS of the chemical that you have been working with to help fill out the label.
+    -   Make sure to not put a date on the label until it is ready to be picked up. Once the container is full, complete the 'date filled' and notify Ryan to pick it up at the end of the day. 
 
 ### **Shared Lab Space** {.unnumbered}
 
