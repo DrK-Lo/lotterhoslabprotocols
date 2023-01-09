@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_quarto.qmd)
 
-Hi!
+
 ------------------------------------------------------------------------
 
 The "Edit this page" link at the top of each page will direct you to the GitHub repository where you can directly make edits to the contents of each page.
