@@ -4,6 +4,8 @@
 
 The protocol for running a gel.
 
+Hi!
+
 ------------------------------------------------------------------------
 
 We are Ethidium-Bromide Free!
