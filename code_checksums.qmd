@@ -54,7 +54,9 @@ Note that the commands use `>>`, this will append the output to the file `md5sum
 
 Then you can use GNU parallel and choose the number of CPUs you would like to use. For instance to use 36 CPUs:
 
-```cat get_hashes.sh | parallel -j 36 --progress --eta```
+```
+cat get_hashes.sh | parallel -j 36 --progress --eta
+```
 
 Note: creating the file `get_hashes.sh` is probably quicker if you use R (or another language) to create it by looping through your files, instead of writing each command/line by hand (including copying/pasting/editing). Here is an example in python:
 
