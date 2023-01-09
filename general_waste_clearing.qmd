@@ -1,5 +1,7 @@
-# Clearing Lab Waste
+#Clearing Lab Waste
 
+Hello world
+ 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_waste_clearing.qmd)
 
 ------------------------------------------------------------------------
