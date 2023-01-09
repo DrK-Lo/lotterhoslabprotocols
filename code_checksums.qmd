@@ -65,7 +65,7 @@ files = get_files()
 # make a list of commands
 commands = []
 for file in files:
-    commands.append(f'md5sum {f} >> /path/to/md5sum_original.txt')
+    commands.append(f'md5sum {file} >> /path/to/md5sum_original.txt')
     
 # identify where you want commands to go
 hash_file = '/path/to/get_hashes.sh'
