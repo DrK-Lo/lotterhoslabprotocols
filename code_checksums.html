@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -605,11 +668,17 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#transferring-files-md5" id="toc-transferring-files-md5" class="nav-link active" data-scroll-target="#transferring-files-md5">Transferring Files md5</a>
   <ul class="collapse">
-  <li><a href="#how-to-ensure-the-files-you-are-transferring-are-transferred-successfully" id="toc-how-to-ensure-the-files-you-are-transferring-are-transferred-successfully" class="nav-link" data-scroll-target="#how-to-ensure-the-files-you-are-transferring-are-transferred-successfully"><strong>How to ensure the files you are transferring are transferred successfully</strong></a>
+  <li><a href="#general-overview-serial-implementation" id="toc-general-overview-serial-implementation" class="nav-link" data-scroll-target="#general-overview-serial-implementation">General Overview (serial implementation)</a>
   <ul class="collapse">
   <li><a href="#step-1-make-a-list-of-md5sums-of-your-files" id="toc-step-1-make-a-list-of-md5sums-of-your-files" class="nav-link" data-scroll-target="#step-1-make-a-list-of-md5sums-of-your-files"><strong>Step 1: Make a list of md5sums of your files</strong></a></li>
-  <li><a href="#step-2-transfer-files-to-new-location-including-the-md5sum.txt" id="toc-step-2-transfer-files-to-new-location-including-the-md5sum.txt" class="nav-link" data-scroll-target="#step-2-transfer-files-to-new-location-including-the-md5sum.txt"><strong>Step 2: Transfer files to new location (including the md5sum.txt)</strong></a></li>
+  <li><a href="#step-2-transfer-files-to-new-location-including-the-md5sum_original.txt" id="toc-step-2-transfer-files-to-new-location-including-the-md5sum_original.txt" class="nav-link" data-scroll-target="#step-2-transfer-files-to-new-location-including-the-md5sum_original.txt"><strong>Step 2: Transfer files to new location (including the md5sum_original.txt)</strong></a></li>
   <li><a href="#step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer" id="toc-step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer" class="nav-link" data-scroll-target="#step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer"><strong>Step 3: Compare md5sum from before the transfer to md5sum after the transfer</strong></a></li>
+  </ul></li>
+  <li><a href="#parallel-implementation" id="toc-parallel-implementation" class="nav-link" data-scroll-target="#parallel-implementation">Parallel implementation</a>
+  <ul class="collapse">
+  <li><a href="#step-1-make-a-list-of-md5sums-of-your-files-1" id="toc-step-1-make-a-list-of-md5sums-of-your-files-1" class="nav-link" data-scroll-target="#step-1-make-a-list-of-md5sums-of-your-files-1"><strong>Step 1: Make a list of md5sums of your files</strong></a></li>
+  <li><a href="#step-2" id="toc-step-2" class="nav-link" data-scroll-target="#step-2"><strong>Step 2</strong></a></li>
+  <li><a href="#step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer-1" id="toc-step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer-1" class="nav-link" data-scroll-target="#step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer-1"><strong>Step 3: Compare md5sum from before the transfer to md5sum after the transfer</strong></a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -624,26 +693,70 @@ ul.task-list li input[type="checkbox"] {
 <h1>Transferring Files md5</h1>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_checksums.qmd">Edit this page</a></p>
 <hr>
+<p>Quite often we will need to transfer files to/from another computer or server. We can use what’s called an “md5 hash” to confirm a successful file transfer. A hash is basically a long alphanumeric string (e.g., <code>beec7332e06b09a262ab252544cf7b60</code>) and is generated by running a compression algorithm on the file. Because different files will give different md5 hashes, you can confirm a successful transfer by ensuring that the md5 hashes are the same between the transferred file and the original file.</p>
 <p>We recommend using GLOBUS (add link) to tranfer files. However, if you use another file tranfer mechanism, use md5sums to make sure your files transferred successfully.</p>
-<section id="how-to-ensure-the-files-you-are-transferring-are-transferred-successfully" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="how-to-ensure-the-files-you-are-transferring-are-transferred-successfully"><strong>How to ensure the files you are transferring are transferred successfully</strong></h2>
+<p>Below, a general overview is given. Then an example of a parallel implementation for checking many files is given.</p>
+<section id="general-overview-serial-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="general-overview-serial-implementation">General Overview (serial implementation)</h2>
 <section id="step-1-make-a-list-of-md5sums-of-your-files" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="step-1-make-a-list-of-md5sums-of-your-files"><strong>Step 1: Make a list of md5sums of your files</strong></h3>
 <p>If md5 sums provided by the sequencing facility in a file: <code>md5_sum.txt</code> (on mac is md5, on unix md5sum)</p>
-<p>If not: <code>md5sum (list files) &gt; md5sum.txt</code></p>
+<p>If not: <code>md5sum (list files) &gt; md5sum_original.txt</code></p>
 </section>
-<section id="step-2-transfer-files-to-new-location-including-the-md5sum.txt" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="step-2-transfer-files-to-new-location-including-the-md5sum.txt"><strong>Step 2: Transfer files to new location (including the md5sum.txt)</strong></h3>
-<p>change directory to that location</p>
+<section id="step-2-transfer-files-to-new-location-including-the-md5sum_original.txt" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="step-2-transfer-files-to-new-location-including-the-md5sum_original.txt"><strong>Step 2: Transfer files to new location (including the md5sum_original.txt)</strong></h3>
+<p>After transferring files, change directory to that location (which could be on another computer/server).</p>
 <p>Then, create an md5sum of the transferred files:</p>
 <p><code>md5sum (list files in new location) &gt; md5sum_new.txt</code></p>
 </section>
 <section id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer"><strong>Step 3: Compare md5sum from before the transfer to md5sum after the transfer</strong></h3>
 <p>Compare sorted files FILE1 and FILE2 line by line:</p>
-<p><code>comm -3 md5sum.txt md5sum_new.txt</code></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">comm</span> <span class="at">-3</span> md5sum_original.txt md5sum_new.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>With no options, produce three-column output. Column one contains lines unique to FILE1, column two contains lines unique to FILE2, and column three contains lines common to both files. -1 suppress lines unique to FILE1 -2 suppress lines unique to FILE2 -3 suppress lines that appear in both files</p>
 <p>If the last command produces no output, the two files are identical.</p>
+</section>
+</section>
+<section id="parallel-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="parallel-implementation">Parallel implementation</h2>
+<p>Below are some examples of how to deploy md5 checksums in parallel. These instructions assume you are not on a login node of Discovery (i.e., you’re able to use more than one CPU - you may need to request an <a href="https://hpc.nmsu.edu/discovery/slurm/interactive-jobs/">interactive job</a>).</p>
+<section id="step-1-make-a-list-of-md5sums-of-your-files-1" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-make-a-list-of-md5sums-of-your-files-1"><strong>Step 1: Make a list of md5sums of your files</strong></h3>
+<p>Instead of running each command serially (as in Step 1 above), we can put commands for multiple files into yet another file we’ll call <code>get_hashes.sh</code>. Here are the first three lines of <code>get_hashes.sh</code>:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">md5sum</span> file1 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">md5sum</span> file2 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="fu">md5sum</span> file3 <span class="op">&gt;&gt;</span> md5sum_original.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Note that the commands use <code>&gt;&gt;</code>, this will append the output to the file <code>md5sum_original.txt</code>, as opposed to using <code>&gt;</code> which would overwrite the file every command/line.</p>
+<p>Then you can use GNU parallel and choose the number of CPUs you would like to use. For instance to use 36 CPUs:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">cat</span> get_hashes.sh <span class="kw">|</span> <span class="ex">parallel</span> <span class="at">-j</span> 36 <span class="at">--progress</span> <span class="at">--eta</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Note: creating the file <code>get_hashes.sh</code> is probably quicker if you use R (or another language) to create it by looping through your files, instead of writing each command/line by hand (including copying/pasting/editing). Here is an example in python:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>get_hashes.sh</strong></pre>
+</div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># get_files is a generic script that will return a list of the files for which you want hashes</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>files <span class="op">=</span> get_files()</span>
+<span id="cb4-3"><a href="#cb4-3"></a></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="co"># make a list of commands</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a>commands <span class="op">=</span> []</span>
+<span id="cb4-6"><a href="#cb4-6"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
+<span id="cb4-7"><a href="#cb4-7"></a>    commands.append(<span class="ss">f'md5sum </span><span class="sc">{</span><span class="bu">file</span><span class="sc">}</span><span class="ss"> &gt;&gt; /path/to/md5sum_original.txt'</span>)</span>
+<span id="cb4-8"><a href="#cb4-8"></a>    </span>
+<span id="cb4-9"><a href="#cb4-9"></a><span class="co"># identify where you want commands to go</span></span>
+<span id="cb4-10"><a href="#cb4-10"></a>hash_file <span class="op">=</span> <span class="st">'/path/to/get_hashes.sh'</span></span>
+<span id="cb4-11"><a href="#cb4-11"></a></span>
+<span id="cb4-12"><a href="#cb4-12"></a><span class="co"># write commands to hash_file</span></span>
+<span id="cb4-13"><a href="#cb4-13"></a><span class="cf">with</span> <span class="bu">open</span>(hash_file, <span class="st">'w'</span>) <span class="im">as</span> o:</span>
+<span id="cb4-14"><a href="#cb4-14"></a>    o.write(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(commands))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="step-2" class="level3">
+<h3 class="anchored" data-anchor-id="step-2"><strong>Step 2</strong></h3>
+<p>You can then do the same thing in Step 1, but for the transferred files, this time putting the hashes into <code>md5sum_new.txt</code>.</p>
+</section>
+<section id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer-1" class="level3">
+<h3 class="anchored" data-anchor-id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer-1"><strong>Step 3: Compare md5sum from before the transfer to md5sum after the transfer</strong></h3>
+<p>Step 3 here is the same as Step 3 above.</p>
 
 
 </section>
