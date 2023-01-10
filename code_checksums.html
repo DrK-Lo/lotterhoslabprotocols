@@ -701,18 +701,19 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="step-1-make-a-list-of-md5sums-of-your-files" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="step-1-make-a-list-of-md5sums-of-your-files"><strong>Step 1: Make a list of md5sums of your files</strong></h3>
 <p>If md5 sums provided by the sequencing facility in a file: <code>md5_sum.txt</code> (on mac is md5, on unix md5sum)</p>
-<p>If not: <code>md5sum (list files) &gt; md5sum_original.txt</code></p>
+<p>If not do:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">md5sum</span> <span class="er">(</span><span class="ex">list</span> files<span class="kw">)</span> <span class="op">&gt;</span> md5sum_original.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-2-transfer-files-to-new-location-including-the-md5sum_original.txt" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="step-2-transfer-files-to-new-location-including-the-md5sum_original.txt"><strong>Step 2: Transfer files to new location (including the md5sum_original.txt)</strong></h3>
 <p>After transferring files, change directory to that location (which could be on another computer/server).</p>
 <p>Then, create an md5sum of the transferred files:</p>
-<p><code>md5sum (list files in new location) &gt; md5sum_new.txt</code></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">md5sum</span> <span class="er">(</span><span class="ex">list</span> files in new location<span class="kw">)</span> <span class="op">&gt;</span> md5sum_new.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer"><strong>Step 3: Compare md5sum from before the transfer to md5sum after the transfer</strong></h3>
 <p>Compare sorted files FILE1 and FILE2 line by line:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">comm</span> <span class="at">-3</span> md5sum_original.txt md5sum_new.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">comm</span> <span class="at">-3</span> md5sum_original.txt md5sum_new.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>With no options, produce three-column output. Column one contains lines unique to FILE1, column two contains lines unique to FILE2, and column three contains lines common to both files. -1 suppress lines unique to FILE1 -2 suppress lines unique to FILE2 -3 suppress lines that appear in both files</p>
 <p>If the last command produces no output, the two files are identical.</p>
 </section>
@@ -723,31 +724,36 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="step-1-make-a-list-of-md5sums-of-your-files-1" class="level3">
 <h3 class="anchored" data-anchor-id="step-1-make-a-list-of-md5sums-of-your-files-1"><strong>Step 1: Make a list of md5sums of your files</strong></h3>
 <p>Instead of running each command serially (as in Step 1 above), we can put commands for multiple files into yet another file we’ll call <code>get_hashes.sh</code>. Here are the first three lines of <code>get_hashes.sh</code>:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">md5sum</span> file1 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="fu">md5sum</span> file2 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
-<span id="cb2-3"><a href="#cb2-3"></a><span class="fu">md5sum</span> file3 <span class="op">&gt;&gt;</span> md5sum_original.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Note that the commands use <code>&gt;&gt;</code>, this will append the output to the file <code>md5sum_original.txt</code>, as opposed to using <code>&gt;</code> which would overwrite the file every command/line.</p>
-<p>Then you can use GNU parallel and choose the number of CPUs you would like to use. For instance to use 36 CPUs:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">cat</span> get_hashes.sh <span class="kw">|</span> <span class="ex">parallel</span> <span class="at">-j</span> 36 <span class="at">--progress</span> <span class="at">--eta</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Note: creating the file <code>get_hashes.sh</code> is probably quicker if you use R (or another language) to create it by looping through your files, instead of writing each command/line by hand (including copying/pasting/editing). Here is an example in python:</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>get_hashes.sh</strong></pre>
 </div>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># get_files is a generic script that will return a list of the files for which you want hashes</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a>files <span class="op">=</span> get_files()</span>
-<span id="cb4-3"><a href="#cb4-3"></a></span>
-<span id="cb4-4"><a href="#cb4-4"></a><span class="co"># make a list of commands</span></span>
-<span id="cb4-5"><a href="#cb4-5"></a>commands <span class="op">=</span> []</span>
-<span id="cb4-6"><a href="#cb4-6"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
-<span id="cb4-7"><a href="#cb4-7"></a>    commands.append(<span class="ss">f'md5sum </span><span class="sc">{</span><span class="bu">file</span><span class="sc">}</span><span class="ss"> &gt;&gt; /path/to/md5sum_original.txt'</span>)</span>
-<span id="cb4-8"><a href="#cb4-8"></a>    </span>
-<span id="cb4-9"><a href="#cb4-9"></a><span class="co"># identify where you want commands to go</span></span>
-<span id="cb4-10"><a href="#cb4-10"></a>hash_file <span class="op">=</span> <span class="st">'/path/to/get_hashes.sh'</span></span>
-<span id="cb4-11"><a href="#cb4-11"></a></span>
-<span id="cb4-12"><a href="#cb4-12"></a><span class="co"># write commands to hash_file</span></span>
-<span id="cb4-13"><a href="#cb4-13"></a><span class="cf">with</span> <span class="bu">open</span>(hash_file, <span class="st">'w'</span>) <span class="im">as</span> o:</span>
-<span id="cb4-14"><a href="#cb4-14"></a>    o.write(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(commands))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">md5sum</span> file1 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">md5sum</span> file2 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="fu">md5sum</span> file3 <span class="op">&gt;&gt;</span> md5sum_original.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Note that the commands use <code>&gt;&gt;</code>, this will append the output to the file <code>md5sum_original.txt</code>, as opposed to using <code>&gt;</code> which would overwrite the file every command/line.</p>
+<p>Then you can use GNU parallel and choose the number of CPUs you would like to use. For instance to use 36 CPUs:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="fu">cat</span> get_hashes.sh <span class="kw">|</span> <span class="ex">parallel</span> <span class="at">-j</span> 36 <span class="at">--progress</span> <span class="at">--eta</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Note: creating the file <code>get_hashes.sh</code> is probably quicker if you use R (or another language) to create it by looping through your files, instead of writing each command/line by hand (including copying/pasting/editing). Here is an example in python:</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>create_get_hashes_sh_file.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># get_files is a generic script that will return a list of the files for which you want hashes</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a>files <span class="op">=</span> get_files()</span>
+<span id="cb6-3"><a href="#cb6-3"></a></span>
+<span id="cb6-4"><a href="#cb6-4"></a><span class="co"># make a list of commands</span></span>
+<span id="cb6-5"><a href="#cb6-5"></a>commands <span class="op">=</span> []</span>
+<span id="cb6-6"><a href="#cb6-6"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
+<span id="cb6-7"><a href="#cb6-7"></a>    commands.append(<span class="ss">f'md5sum </span><span class="sc">{</span><span class="bu">file</span><span class="sc">}</span><span class="ss"> &gt;&gt; /path/to/md5sum_original.txt'</span>)</span>
+<span id="cb6-8"><a href="#cb6-8"></a>    </span>
+<span id="cb6-9"><a href="#cb6-9"></a><span class="co"># identify where you want commands to go</span></span>
+<span id="cb6-10"><a href="#cb6-10"></a>hash_file <span class="op">=</span> <span class="st">'/path/to/get_hashes.sh'</span></span>
+<span id="cb6-11"><a href="#cb6-11"></a></span>
+<span id="cb6-12"><a href="#cb6-12"></a><span class="co"># write commands to hash_file</span></span>
+<span id="cb6-13"><a href="#cb6-13"></a><span class="cf">with</span> <span class="bu">open</span>(hash_file, <span class="st">'w'</span>) <span class="im">as</span> o:</span>
+<span id="cb6-14"><a href="#cb6-14"></a>    o.write(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(commands))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="step-2" class="level3">
