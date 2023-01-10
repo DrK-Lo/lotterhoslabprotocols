@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    code-line-numbers: true
+---
+
 # Transferring Files md5
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_checksums.qmd)
@@ -30,7 +36,9 @@ Then, create an md5sum of the transferred files:
 
 Compare sorted files FILE1 and FILE2 line by line:
 
-`comm -3 md5sum_original.txt md5sum_new.txt`
+```{.bash}
+comm -3 md5sum_original.txt md5sum_new.txt
+```
 
 With no options, produce three-column output. Column one contains lines unique to FILE1, column two contains lines unique to FILE2, and column three contains lines common to both files. -1 suppress lines unique to FILE1 -2 suppress lines unique to FILE2 -3 suppress lines that appear in both files
 
@@ -44,7 +52,7 @@ Below are some examples of how to deploy md5 checksums in parallel. These instru
 
 Instead of running each command serially (as in Step 1 above), we can put commands for multiple files into yet another file we'll call `get_hashes.sh`. Here are the first three lines of `get_hashes.sh`:
 
-```
+```{.bash}
 md5sum file1 >> md5sum_original.txt
 md5sum file2 >> md5sum_original.txt
 md5sum file3 >> md5sum_original.txt
@@ -54,13 +62,13 @@ Note that the commands use `>>`, this will append the output to the file `md5sum
 
 Then you can use GNU parallel and choose the number of CPUs you would like to use. For instance to use 36 CPUs:
 
-```
+```{.bash}
 cat get_hashes.sh | parallel -j 36 --progress --eta
 ```
 
 Note: creating the file `get_hashes.sh` is probably quicker if you use R (or another language) to create it by looping through your files, instead of writing each command/line by hand (including copying/pasting/editing). Here is an example in python:
 
-```{python}
+```{.python filename="get_hashes.sh"}
 # get_files is a generic script that will return a list of the files for which you want hashes
 files = get_files()
 
