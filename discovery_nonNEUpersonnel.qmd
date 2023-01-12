@@ -10,4 +10,4 @@
 
 3) In order to login into Duo with your new Northeastern Account, call [Northeastern IT](https://its.northeastern.edu/support/) to set up duo access with them (needed for non-northeastern people)
 
-4) Submit a second [form](https://rc-docs.northeastern.edu/en/latest/get_started/get_access.html) to get a sponsored Discovery account in addition to a sponsored NEU ID
+4) Submit a second [form](https://rc-docs.northeastern.edu/en/latest/get_started/get_access.html](https://service.northeastern.edu/tech?id=sc_cat_item&sys_id=0ae24596db535fc075892f17d496199c) to get a sponsored Discovery account in addition to a sponsored NEU ID
