@@ -1,6 +1,6 @@
 # How to color code your terminal
 
-Often when we use terminal, we'll use `ls` to list the files in the current directory. I can be useful to have different types of files be colored different colors so you can more easily make sense of what is output.
+Often when we use terminal, we'll use `ls` to list the files in the current directory. It can be useful to have different types of files be colored different colors so you can more easily make sense of what is output.
 
 In this tutorial, we'll create a dummy folder and put some files with various suffixes. Then we'll add the BASH code to color the files. You'll have to set this up for each computer/server that you use.
 
@@ -15,6 +15,8 @@ Next, we'll color code the prompt (the part that says the computer and folder at
 We want to create a dummy folder just to practice setting up the color coding, then you can delete the dummy folder later.
 
 Let's create a dummy folder in your home directory: `mkdir ~/dummy`
+
+Then change to that directory: `cd ~/dummy`
 
 Now let's create some files:
 
