@@ -111,6 +111,7 @@ website:
           - bioinformagics_2-3_advanced_sshing.qmd
           - bioinformagics_4_anaconda.qmd
           - bioinformagics_6_jupyter.qmd
+          - bioinformagics_7_terminal_colors.qmd
 
 format:
   html:
