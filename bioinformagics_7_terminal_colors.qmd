@@ -67,6 +67,8 @@ If you want to have these colors show up every time you start a new terminal ses
 
 To edit the bashrc file do this: `vim ~/.bashrc`. If you scroll you should see a section that says something like "# User specific aliases and functions", add the export command below this line: hit `i` to insert text and the normal paste command (command + v on a mac). Then to "write + quit" to save the file first hit `esc` then `:wq` (note colon) and then hit enter. You'll need to start a new terminal session or `source ~/.bashrc` for the export command to be executed.
 
+You will also need to add this command to your .bashrc to show colors: `alias ls="ls --color=always"`. This will make it so that whenever you do `ls`, the full command `ls --color=always` is executed instead.
+
 ## Color coding terminal prompt
 
 It's useful to color code this prompt (see below) so that it's easy to tell which computer/server you're working on. This part of the prompt has the environmental name `PS1`. For instance, I color code my personal computer's `PS1` as bold white, and several other servers different colors so that I can quickly know where I am. (ignore the "(py3)" "(mvp_env)" etc before the color coding, that's just my anaconda environment)
