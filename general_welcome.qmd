@@ -19,10 +19,11 @@ This page will be a good start to getting yourself settled in the lab. If you ha
     - [ ] The Lab Calendar
     - [ ] A shared google doc for 1:1 meetings, notes, and milestones
 - [ ] We use GitHub alot! Sign up for a GitHub account and ask Dr. L to add you as a collaborator for this protocols page
-    - [ ] Develop a firm understanding of Git and how it works. [Start with this document and linked readings](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account), but you may find videos online more helpful
+    - [ ] Develop a firm understanding of Git and how it works. [Start with this document and linked readings](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account), but you may find videos online more helpful 
     - [ ] Download and read this documentation on [Github Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
     - [ ] Outside of Github documentation, [this article](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) is helpful
     - [ ] [This video tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk) is a good walkthrough of getting set up and using Git commands 
+    - [ ] [This video tutorial](https://www.youtube.com/watch?v=8Dd7KRpKeaE) gives an introduction to GitHub and GitHub desktop. It uses VS Code but can be similarly followed in RStudio.
 - [ ] If you are not a graduate student, fill out the [New Lab Worker Intake Form](https://docs.google.com/forms/d/1fJL5c4q0njhx-3QZYBINOlyFPTbUniTHWx7ipzSPjq8/viewform?ts=61e85234&edit_requested=true) for the MSC
 - [ ] If you will be using the Discovery Cluster for computing, submit a request for an account. [Apply by opening a Service-Now ticket with an access request](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
 - [ ] If you are a graduate student, make sure to get your hands on the latest version of the Graduate Handbook
