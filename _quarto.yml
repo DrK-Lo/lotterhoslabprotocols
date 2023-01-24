@@ -60,6 +60,7 @@ website:
           - molecprot_barcodesnindexes.qmd
           - molecprot_dnaextractionomega.qmd
           - molecprot_dnaextractionqiagen.qmd
+          - molecprot_dnaextractionqiagenplate.qmd
           - molecprot_dnaextractionspartina.qmd
           - molecprot_gelelectrophoresis.qmd
           - molecprot_illuminalibraryprep.qmd
