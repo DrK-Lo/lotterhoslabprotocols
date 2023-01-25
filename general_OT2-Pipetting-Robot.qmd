@@ -67,6 +67,7 @@ You will need to create a free account to access this protocol designer.
 
 8.  Bring the pipette onto the mount. 
 
+![](img/OT2_pipet_mounting.png)
 
 
 
