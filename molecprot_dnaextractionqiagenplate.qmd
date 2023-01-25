@@ -1,6 +1,6 @@
 # Plate DNA Extraction (Qiagen)
 
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_platednaextractionqiagen.qmd)
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_dnaextractionqiagenplate.qmd)
 
 The protocol for extracting DNA from a full plate with the Qiagen Tissue Kit.
 
