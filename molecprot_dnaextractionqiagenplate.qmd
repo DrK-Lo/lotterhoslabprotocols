@@ -32,19 +32,21 @@ This protocol is for oysters (Crassostrea virginica)
 
 -   Pipette Tips (300uL, 1000uL)
 
--   Easy Pet + Giant Tips
+-   Easy Pet + Serological Tips
 
 -   Liquid boats
 
 -   EtoH (100% - molecular grade)
 
+-   Plastic sheet
+
 ### **Equipment** {.unnumbered}
 
 -   Micro-scale (need to be able to measure down to 20mg)
 
--   Thermo-mixer (with plate attachments) - check temperature ranges
+-   Thermo-mixer (with plate attachments - plates from kit are too tall for our Thermo-mixer) - check temperature ranges
 
--   Large centrifuge (does it fit qiagen plate? - might need to use Randall's centrifuge)
+-   Large centrifuge (ours does not fit qiagen plate - might need to use Randall's centrifuge)
 
 -   Multichannel Pipette (300uL, 1000uL)
 
@@ -70,13 +72,13 @@ This protocol is for oysters (Crassostrea virginica)
 
 4.  Tare piece of weighing paper on scale.
 
-5.  Carefully remove tissue from 2mL tube. Using a sterile razor blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+5.  Carefully remove tissue from 2mL tube. Use a sterile razor blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue and pat dry with clean kim wipe, so that the tissue appears nearly dry.
 
-6.  Place tissue on weigh paper and measure the weight, if the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue.
+6.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue.
 
 **Note:** Between samples scalpel & forceps should be sterilized by spraying with EtoH and using a flame to burn off any residual EtoH and tissue.
 
-1.  Record weight in lab notebook & place sample into appropriate well plate. Keep samples covered with clear plastic sheet.
+1.  Record weight in lab notebook & place sample into appropriate collection well plate (cyan plates). Keep samples covered with clear plastic sheet.
 
 2.  Prepare working solution of 20uL Proteinase K & 180uL buffer ATL per sample. For a 96 well plate, prepare enough solution for 100 samples by mixing 2mL Proteinase K & 18mL buffer ATL in a 50mL falcon tube. This solution should be placed into a 25mL liquid boat following mixing.
 
@@ -84,7 +86,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 4.  Seal wells with caps, then place clear cover over rack. Use plate attachment for vortexer to mix samples, then centrifuge for 10s at 3800 x g (6000 rpm), ensuring that a counter weight is placed into the centrifuge before starting. (save practice extraction plate as counter weight for future)
 
-5.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (do we have an attachment for a plate?). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
+5.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
 6.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed.
 
@@ -112,7 +114,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 6.  Remove tape and carefully add 500μl of Buffer AW2 to each sample. Use the 300μl multichannel pipette and add 250μl twice. This will require ~50mL of buffer AW1.
 
-7.  Centrifuge at 3800 x g (6000 rpm) for 15 min. (protocol says not to seal the plate - seems wrong ?)
+7.  Centrifuge at 3800 x g (6000 rpm) for 15 min without the lid on. Thoroughly clean out centrifugre afterward (create protocol).
 
 **Note:** Spin column membrane should be dry after this step. Spin for an additional 1 min if not.
 
