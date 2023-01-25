@@ -623,8 +623,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#important-links" id="toc-important-links" class="nav-link" data-scroll-target="#important-links">Important Links</a></li>
   <li><a href="#protocols" id="toc-protocols" class="nav-link" data-scroll-target="#protocols">Protocols</a>
   <ul class="collapse">
-  <li><a href="#starting-up-and-connecting-your-laptop-to-the-robot" id="toc-starting-up-and-connecting-your-laptop-to-the-robot" class="nav-link" data-scroll-target="#starting-up-and-connecting-your-laptop-to-the-robot">Starting up and connecting your laptop to the robot</a></li>
-  <li><a href="#mounting-and-switching-pipet-arms" id="toc-mounting-and-switching-pipet-arms" class="nav-link" data-scroll-target="#mounting-and-switching-pipet-arms">Mounting and Switching Pipet Arms</a></li>
+  <li><a href="#starting-up-and-connecting-your-laptop" id="toc-starting-up-and-connecting-your-laptop" class="nav-link" data-scroll-target="#starting-up-and-connecting-your-laptop">Starting up and connecting your laptop</a></li>
+  <li><a href="#mounting-pipet-arms" id="toc-mounting-pipet-arms" class="nav-link" data-scroll-target="#mounting-pipet-arms">Mounting Pipet Arms</a></li>
+  <li><a href="#deck-calibration" id="toc-deck-calibration" class="nav-link" data-scroll-target="#deck-calibration">Deck Calibration</a></li>
+  <li><a href="#pipette-calibration" id="toc-pipette-calibration" class="nav-link" data-scroll-target="#pipette-calibration">Pipette Calibration</a></li>
+  <li><a href="#protocol-upload-and-runs" id="toc-protocol-upload-and-runs" class="nav-link" data-scroll-target="#protocol-upload-and-runs">Protocol Upload and Runs</a></li>
   </ul></li>
   </ul></li>
   </ul>
@@ -651,8 +654,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="protocols" class="level2">
 <h2 class="anchored" data-anchor-id="protocols">Protocols</h2>
-<section id="starting-up-and-connecting-your-laptop-to-the-robot" class="level3">
-<h3 class="anchored" data-anchor-id="starting-up-and-connecting-your-laptop-to-the-robot">Starting up and connecting your laptop to the robot</h3>
+<section id="starting-up-and-connecting-your-laptop" class="level3">
+<h3 class="anchored" data-anchor-id="starting-up-and-connecting-your-laptop">Starting up and connecting your laptop</h3>
 <ol type="1">
 <li><p>Opentrons pipetting OT-2 robot is located in the MSC shared equipment lab.</p></li>
 <li><p>Make sure the power cable and USB cable are plugged into the robot and wall.</p></li>
@@ -673,8 +676,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>The flashing should stop when the update is complete.</p></li>
 </ul>
 </section>
-<section id="mounting-and-switching-pipet-arms" class="level3">
-<h3 class="anchored" data-anchor-id="mounting-and-switching-pipet-arms">Mounting and Switching Pipet Arms</h3>
+<section id="mounting-pipet-arms" class="level3">
+<h3 class="anchored" data-anchor-id="mounting-pipet-arms">Mounting Pipet Arms</h3>
 <ol type="1">
 <li><p>Remove everything from the robot deck (tip racks, wells, etc.).</p></li>
 <li><p>Under Devices, select the robot.</p></li>
@@ -702,6 +705,26 @@ ul.task-list li input[type="checkbox"] {
 <ol start="13" type="1">
 <li>In the Opentrons app, prompt the robot to check the connection. If the connection fails, try pushing the white tag in more. Check connection again.</li>
 </ol>
+</section>
+<section id="deck-calibration" class="level3">
+<h3 class="anchored" data-anchor-id="deck-calibration">Deck Calibration</h3>
+<p><strong>Note</strong>: Deck calibration only needs to be done once or twice a year, so you can likely skip this step and head straight to pipette calibration.</p>
+<ol type="1">
+<li><p>Select the robot from <strong>“Devices”</strong> and click the three dots on the top right of the page.</p></li>
+<li><p>Go to <strong>“Robot Settings.”</strong></p></li>
+<li><p>Under Deck Calibration, select <strong>“Recalibrate Deck.”</strong></p></li>
+<li><p>Follow calibration instructions as prompted by the app.</p></li>
+</ol>
+</section>
+<section id="pipette-calibration" class="level3">
+<h3 class="anchored" data-anchor-id="pipette-calibration">Pipette Calibration</h3>
+<ol type="1">
+<li><p>Once the pipette connection is established, click on the calibration pop-up. Pop-up may not show up if the arm has been recently calibrated.</p></li>
+<li><p>Follow instructions in the app to complete offset and tip-length calibration.</p></li>
+</ol>
+</section>
+<section id="protocol-upload-and-runs" class="level3">
+<h3 class="anchored" data-anchor-id="protocol-upload-and-runs">Protocol Upload and Runs</h3>
 
 
 </section>
