@@ -1,4 +1,4 @@
-#**Opentrons OT-2 Pipetting Robot
+# **Opentrons OT-2 Pipetting Robot
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_OT2-Pipetting-Robot.qmd)
 
@@ -6,7 +6,7 @@ Set up and use instructions.
 
 ------------------------------------------------------------------------
 
-##**Important Links** {.unnumbered}
+## Important Links
 
 [OT-2 Laptop App Download](https://opentrons.com/ot-app/)
 
