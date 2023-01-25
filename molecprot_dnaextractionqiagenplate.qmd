@@ -22,7 +22,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 -   Sterile Scalpel blades + blue plastic disposal container
 
--   Alcohol lamp (to do: what EtOH)
+-   Alcohol lamp (requires minimum 90% ethanol)
 
 -   Flame (sterilization)
 
