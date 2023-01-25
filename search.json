@@ -270,7 +270,7 @@
     "href": "general_OT2-Pipetting-Robot.html",
     "title": "Lotterhos Lab Protocols",
     "section": "",
-    "text": "Edit this page\nSet up and use instructions.\n\n\n\nOT-2 Laptop App Download\nOpentrons OT-2 support and set-up\nGeneral troubleshooting\nPublic OT-2 protocols library\nNon-coding protocol designer You will need to create a free account to access this protocol designer."
+    "text": "Edit this page\nSet up and use instructions.\n\n\n\nOT-2 Laptop App Download\nOpentrons OT-2 support and set-up\nGeneral troubleshooting\nPublic OT-2 protocols library\nNon-coding protocol designer\nYou will need to create a free account to access this protocol designer.\n\n\n\n\nOpentrons pipetting OT-2 robot is located in the MSC shared equipment lab.\nMake sure the power cable and USB cable are plugged into the robot and wall.\nDownload the Opentrons app. Do not open it yet.\nTurn on the robot with the power switch on its back left side. Make sure the blue light on the front of the machine is solid and not flashing and that you hear machinery start-up noises. Start-up can take a minute or two.\nConnect your computer to the USB cable attached to the OT-2. Then, open the Opentrons app after the robot is fully on (troubleshooting here.\nIn the app, go to the “Devices” tab in the left panel. Select the OT-2 robot. It may take a few minutes for your computer to acknowledge the robot. If after several minutes the robot does not appear, close out of the app, turn the machine off and on, and try the connection steps again."
   },
   {
     "objectID": "code_githhubMarkdown.html",
