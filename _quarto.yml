@@ -38,6 +38,7 @@ website:
           - general_autoclave.qmd 
           - general_MVI-scope-camera.qmd
           - general_freezer.qmd
+          - general_OT2-Pipetting-Robot.qmd
           - general_shared_equipment.qmd
       - section: "Molecular Equipment"
         contents:
