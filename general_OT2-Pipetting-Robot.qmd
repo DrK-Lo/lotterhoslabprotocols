@@ -40,15 +40,13 @@ You will need to create a free account to access this protocol designer.
 
 7.  Install any robot or app updates if prompted (robot updates take several minutes).
 
-**Robot Update Notes**: 
+  - You may need to restart the robot and exit and re-enter the app to begin step two of the robot updates. It seems to be a finnicky process.
 
--   You may need to restart the robot and exit and re-enter the app to begin step two of the robot updates. It seems to be a finnicky process.
+  - The blue light on the top left of the robot will begin flashing once it has begun downloading the update.
 
--   The blue light on the top left of the robot will begin flashing once it has begun downloading the update.
+  - The robot may restart itself as part of the update process.
 
--   The robot may restart itself as part of the update process.
-
--   The flashing should stop when the update is complete.
+  - The flashing should stop when the update is complete.
 
 ### Mounting Pipet Arms
 1.  Remove everything from the robot deck (tip racks, wells, etc.).
@@ -103,3 +101,17 @@ You will need to create a free account to access this protocol designer.
 2.  Follow instructions in the app to complete offset and tip-length calibration. 
 
 ### Protocol Upload and Runs
+
+1.  Save the protocol you want to run to your laptop. 
+
+  - Thus far, .json and .py files have been compatible. The non-coding protocol designer's default file output format is .json. Protocols from the public library tend to be in .py format.
+
+2. In the Opentrons app, go to the **"Protocols"** tab. Select the blue **"Import"** tab in the top right.
+
+3.  Select **"Choose File"** or drag and drop your protocol in. Once it uploads, it should be visible in an alphabetized list uner **"Protocols"**.
+
+4.  Click on the protocol. Select **"Run Protocol."** The app will prompt you to select the OT-2 robot. Then click **"Proceed to setup."**
+
+5.  Ensure the deck view in the app matches the way you have the deck setup with materials.
+
+6. Click **"Start run."**
