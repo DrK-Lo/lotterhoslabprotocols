@@ -621,7 +621,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#opentrons-ot-2-pipetting-robot" id="toc-opentrons-ot-2-pipetting-robot" class="nav-link active" data-scroll-target="#opentrons-ot-2-pipetting-robot">Opentrons OT-2 Pipetting Robot</a>
   <ul class="collapse">
   <li><a href="#important-links" id="toc-important-links" class="nav-link" data-scroll-target="#important-links">Important Links</a></li>
+  <li><a href="#protocols" id="toc-protocols" class="nav-link" data-scroll-target="#protocols">Protocols</a>
+  <ul class="collapse">
   <li><a href="#starting-up-and-connecting-your-laptop-to-the-robot" id="toc-starting-up-and-connecting-your-laptop-to-the-robot" class="nav-link" data-scroll-target="#starting-up-and-connecting-your-laptop-to-the-robot">Starting up and connecting your laptop to the robot</a></li>
+  <li><a href="#mounting-and-switching-pipet-arms" id="toc-mounting-and-switching-pipet-arms" class="nav-link" data-scroll-target="#mounting-and-switching-pipet-arms">Mounting and Switching Pipet Arms</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -645,18 +649,45 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://designer.opentrons.com/">Non-coding protocol designer</a></p>
 <p>You will need to create a free account to access this protocol designer.</p>
 </section>
-<section id="starting-up-and-connecting-your-laptop-to-the-robot" class="level2">
-<h2 class="anchored" data-anchor-id="starting-up-and-connecting-your-laptop-to-the-robot">Starting up and connecting your laptop to the robot</h2>
+<section id="protocols" class="level2">
+<h2 class="anchored" data-anchor-id="protocols">Protocols</h2>
+<section id="starting-up-and-connecting-your-laptop-to-the-robot" class="level3">
+<h3 class="anchored" data-anchor-id="starting-up-and-connecting-your-laptop-to-the-robot">Starting up and connecting your laptop to the robot</h3>
 <ol type="1">
 <li><p>Opentrons pipetting OT-2 robot is located in the MSC shared equipment lab.</p></li>
 <li><p>Make sure the power cable and USB cable are plugged into the robot and wall.</p></li>
 <li><p>Download the <a href="https://opentrons.com/ot-app/">Opentrons app</a>. Do not open it yet.</p></li>
 <li><p>Turn on the robot with the power switch on its back left side. Make sure the blue light on the front of the machine is solid and not flashing and that you hear machinery start-up noises. Start-up can take a minute or two.</p></li>
 <li><p><a href="https://support.opentrons.com/s/article/Get-started-Connect-to-your-OT-2-over-USB">Connect</a> your computer to the USB cable attached to the OT-2. Then, open the Opentrons app after the robot is fully on (troubleshooting <a href="https://support.opentrons.com/s/article/Troubleshooting-connection-problems">here</a>.</p></li>
-<li><p>In the app, go to the <strong>“Devices”</strong> tab in the left panel. Select the OT-2 robot. It may take a few minutes for your computer to acknowledge the robot. If after several minutes the robot does not appear, close out of the app, turn the machine off and on, and try the connection steps again.</p></li>
+<li><p>In the app, go to the <strong>“Devices”</strong> tab in the left panel. Select the OT-2 robot.</p></li>
+</ol>
+<p><strong>Note</strong>:It may take a few minutes for your computer to acknowledge the robot. If after several minutes the robot does not appear, close out of the app, turn the machine off and on, and try the connection steps again.</p>
+<ol start="7" type="1">
+<li>Install any robot or app updates if prompted (robot updates take several minutes).</li>
+</ol>
+<p><strong>Robot Update Notes</strong>:</p>
+<ul>
+<li><p>You may need to restart the robot and exit and re-enter the app to begin step two of the robot updates. It seems to be a finnicky process.</p></li>
+<li><p>The blue light on the top left of the robot will begin flashing once it has begun downloading the update.</p></li>
+<li><p>The robot may restart itself as part of the update process.</p></li>
+<li><p>The flashing should stop when the update is complete.</p></li>
+</ul>
+</section>
+<section id="mounting-and-switching-pipet-arms" class="level3">
+<h3 class="anchored" data-anchor-id="mounting-and-switching-pipet-arms">Mounting and Switching Pipet Arms</h3>
+<ol type="1">
+<li><p>Remove everything from the robot deck (tip racks, wells, etc.).</p></li>
+<li><p>Under Devices, select the robot.</p></li>
+<li><p>Under Pipettes and Modules, click on the three dots for either the left or right pipette mount.</p></li>
+<li><p>If there is already a pipette in the mount, select detach pipette.</p></li>
+<li><p>When ready, select “Attach pipette” from the submenu.</p></li>
+<li><p>Click on “Move pipette to front” and wait for the arm to stop moving forward.</p></li>
+<li><p>On the next page that pops us, select the pipette model (all our tips are Gen1) and the volume.</p></li>
+<li><p>Bring the pipette onto the mount.</p></li>
 </ol>
 
 
+</section>
 </section>
 </section>
 
