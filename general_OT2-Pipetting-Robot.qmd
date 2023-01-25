@@ -20,7 +20,9 @@ Set up and use instructions.
 
 You will need to create a free account to access this protocol designer.
 
-## Starting up and connecting your laptop to the robot
+## Protocols
+
+### Starting up and connecting your laptop to the robot
 
 1.  Opentrons pipetting OT-2 robot is located in the MSC shared equipment lab.
 
@@ -32,7 +34,41 @@ You will need to create a free account to access this protocol designer.
 
 5.  [Connect](https://support.opentrons.com/s/article/Get-started-Connect-to-your-OT-2-over-USB) your computer to the USB cable attached to the OT-2. Then, open the Opentrons app after the robot is fully on (troubleshooting [here](https://support.opentrons.com/s/article/Troubleshooting-connection-problems).
 
-6.  In the app, go to the **“Devices”** tab in the left panel. Select the OT-2 robot. It may take a few minutes for your computer to acknowledge the robot. If after several minutes the robot does not appear, close out of the app, turn the machine off and on, and try the connection steps again.
+6.  In the app, go to the **“Devices”** tab in the left panel. Select the OT-2 robot. 
+
+**Note**:It may take a few minutes for your computer to acknowledge the robot. If after several minutes the robot does not appear, close out of the app, turn the machine off and on, and try the connection steps again.
+
+7.  Install any robot or app updates if prompted (robot updates take several minutes).
+
+**Robot Update Notes**: 
+
+-   You may need to restart the robot and exit and re-enter the app to begin step two of the robot updates. It seems to be a finnicky process.
+
+-   The blue light on the top left of the robot will begin flashing once it has begun downloading the update.
+
+-   The robot may restart itself as part of the update process.
+
+-   The flashing should stop when the update is complete.
+
+### Mounting and Switching Pipet Arms
+1.  Remove everything from the robot deck (tip racks, wells, etc.).
+
+2.  Under Devices, select the robot.
+
+3.  Under Pipettes and Modules, click on the three dots for either the left or right pipette mount.
+
+4.  If there is already a pipette in the mount, select detach pipette.
+
+5.  When ready, select “Attach pipette” from the submenu.
+
+6.  Click on “Move pipette to front” and wait for the arm to stop moving forward.
+
+7.  On the next page that pops us, select the pipette model (all our tips are Gen1) and the volume.
+
+8.  Bring the pipette onto the mount. 
+
+
+
 
 
 
