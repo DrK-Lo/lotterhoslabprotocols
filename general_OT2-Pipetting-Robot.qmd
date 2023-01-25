@@ -1,0 +1,20 @@
+#**Opentrons OT-2 Pipetting Robot
+
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_OT2-Pipetting-Robot.qmd)
+
+Set up and use instructions.
+
+------------------------------------------------------------------------
+
+##**Important Links** {.unnumbered}
+
+[OT-2 Laptop App Download](https://opentrons.com/ot-app/)
+
+[Opentrons OT-2 support and set-up](https://support.opentrons.com/s/ot2-get-started)
+
+[General troubleshooting](https://support.opentrons.com/s/ot2-troubleshooting)
+
+[Public OT-2 protocols library](https://protocols.opentrons.com/)
+
+[Non-coding protocol designer](https://designer.opentrons.com/)
+You will need to create a free account to access this protocol designer.
