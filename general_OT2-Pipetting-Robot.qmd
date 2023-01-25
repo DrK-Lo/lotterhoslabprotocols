@@ -20,7 +20,57 @@ Set up and use instructions.
 
 You will need to create a free account to access this protocol designer.
 
-## Protocols
+## Associates Materials and Attachments
+
+### Pipettes
+
+**Single Channel**
+
+- P10, 1-10 uL
+
+- P50, 5-50 uL
+
+- P300, 30-300 uL
+
+- P1000, 100-1000 uL
+
+**Multichannel**
+
+- P10, 1-10 uL
+
+- P50, 5-50 uL
+
+- P300, 30-300 uL
+
+**Tips**
+
+- 10 uL
+
+- 300 uL
+
+- 1000 uL
+
+### Attachments
+
+- Temperature Module (look into protocols)
+
+### Other Materials
+
+- Calibration block (unclear if we have this or not, but have yet to find it if it's here)
+
+- Removable trash bin (in machine)
+
+- Aluminum 96 well plate (Temp module compatible)
+
+- Aluminum 24 well plate (Temp module compatible)
+
+- Aluminum flat plate (Temp module compatible)
+
+- 96 well PCR plates
+
+- 12 well plastic reservoir, 22 mL
+
+## Set-Up
 
 ### Starting Up and Connecting Your Laptop
 
@@ -100,7 +150,12 @@ You will need to create a free account to access this protocol designer.
 
 2.  Follow instructions in the app to complete offset and tip-length calibration. 
 
-### Protocol Uploads and Runs
+## Protocols
+
+### Deck preparation
+
+
+### Uploads and Runs
 
 1.  Save the protocol you want to run to your laptop. 
 
