@@ -69,6 +69,21 @@ You will need to create a free account to access this protocol designer.
 
 ![](img/OT2_pipet_mounting.png)
 
+9. Align the small dots on the back of the pipette with the matching prongs toward the top of the mount.
+
+![](img/OT2_prongs.png)
+
+10. Find the hex screwdriver (should be on lower shelf to the left of the machine).
+
+![](img/OT2_hex.png)
+
+11. If mounting a multi-channel pipette, place the ends of the pipette on the deck so all are evenly resting on the surface. The pipette should still be aligned with the prongs on the mount.
+
+12. Screw in the screws according to the diagram below. Push in the white connector tag until you feel it move.
+
+![](img/OT2_tab.png)
+
+13. In the Opentrons app, prompt the robot to check the connection. If the connection fails, try pushing the white tag in more. Check connection again.
 
 
 
