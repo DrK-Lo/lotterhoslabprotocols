@@ -40,13 +40,13 @@ You will need to create a free account to access this protocol designer.
 
 7.  Install any robot or app updates if prompted (robot updates take several minutes).
 
-  - You may need to restart the robot and exit and re-enter the app to begin step two of the robot updates. It seems to be a finnicky process.
+    - You may need to restart the robot and exit and re-enter the app to begin step two of the robot updates. It seems to be a finnicky process.
 
-  - The blue light on the top left of the robot will begin flashing once it has begun downloading the update.
+    - The blue light on the top left of the robot will begin flashing once it has begun downloading the update.
 
-  - The robot may restart itself as part of the update process.
+    - The robot may restart itself as part of the update process.
 
-  - The flashing should stop when the update is complete.
+    - The flashing should stop when the update is complete.
 
 ### Mounting Pipet Arms
 1.  Remove everything from the robot deck (tip racks, wells, etc.).
@@ -61,7 +61,7 @@ You will need to create a free account to access this protocol designer.
 
 6.  Click on “Move pipette to front” and wait for the arm to stop moving forward.
 
-7.  On the next page that pops us, select the pipette model (all our tips are Gen1) and the volume.
+7.  On the next page that pops us, select the pipette model (all ours are Gen1) and the volume.
 
 8.  Bring the pipette onto the mount. 
 
@@ -115,3 +115,4 @@ You will need to create a free account to access this protocol designer.
 5.  Ensure the deck view in the app matches the way you have the deck setup with materials.
 
 6. Click **"Start run."**
+
