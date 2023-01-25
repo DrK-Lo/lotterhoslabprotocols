@@ -22,7 +22,7 @@ You will need to create a free account to access this protocol designer.
 
 ## Protocols
 
-### Starting up and connecting your laptop to the robot
+### Starting up and connecting your laptop
 
 1.  Opentrons pipetting OT-2 robot is located in the MSC shared equipment lab.
 
@@ -50,7 +50,7 @@ You will need to create a free account to access this protocol designer.
 
 -   The flashing should stop when the update is complete.
 
-### Mounting and Switching Pipet Arms
+### Mounting Pipet Arms
 1.  Remove everything from the robot deck (tip racks, wells, etc.).
 
 2.  Under Devices, select the robot.
@@ -85,6 +85,21 @@ You will need to create a free account to access this protocol designer.
 
 13. In the Opentrons app, prompt the robot to check the connection. If the connection fails, try pushing the white tag in more. Check connection again.
 
+### Deck Calibration
+**Note**: Deck calibration only needs to be done once or twice a year, so you can likely skip this step and head straight to pipette calibration.
 
+1.  Select the robot from **"Devices"** and click the three dots on the top right of the page.
 
+2.  Go to **"Robot Settings."**
 
+3.  Under Deck Calibration, select **“Recalibrate Deck.”**
+
+4.  Follow calibration instructions as prompted by the app.
+
+### Pipette Calibration
+  
+1.  Once the pipette connection is established, click on the calibration pop-up. Pop-up may not show up if the arm has been recently calibrated.
+
+2.  Follow instructions in the app to complete offset and tip-length calibration. 
+
+### Protocol Upload and Runs
