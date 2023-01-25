@@ -154,6 +154,11 @@ You will need to create a free account to access this protocol designer.
 
 ### Deck preparation
 
+- Place all materials (tip rack, plates, reservoirs, etc.) in the numbered blocks on the deck. Keep track of which materials are in which blocks when you write your protocol.
+
+- Ensure that everything fits snugly in the blocks. They should not slide around when you push them. Put the black rectangular bases on anything that is too small for the blocks.
+
+- Close the acrylic door when all materials are within.
 
 ### Uploads and Runs
 
