@@ -98,7 +98,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 2.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL). For a full plate of 96 samples, use 40 mL Buffer AL in a 25mL liquid boat. Tightly reseal with new caps.
 
-3.  Place clear cover over the rack and shake vigorously for 15s, then centrifuge 15s at (speed?) to collect any solution from the caps. 
+3.  Place clear cover over the rack and shake vigorously for 15s, then centrifuge 15s at 6000 rpm to collect any solution from the caps. 
 
 **Note:** Ensure ethanol has been added to Buffer AL according to instructions on the container.
 
