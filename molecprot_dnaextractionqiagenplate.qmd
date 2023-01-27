@@ -94,7 +94,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by H2O, then 70% EtoH.
 
-2.  After removing samples from the thermomixer, ensure microtubes are properly sealed, cover racks and shake vigorously for 15 seconds. Centrifuge for 15s at (speed?) to collect any solution from the caps. 
+2.  After removing samples from the thermomixer, ensure microtubes are properly sealed, cover racks and shake vigorously for 15 seconds. Centrifuge for 15s at 6000 rpm to collect any solution from the caps. 
 
 2.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL). For a full plate of 96 samples, use 40 mL Buffer AL in a 25mL liquid boat. Tightly reseal with new caps.
 
