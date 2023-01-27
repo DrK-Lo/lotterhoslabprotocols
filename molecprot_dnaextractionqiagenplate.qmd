@@ -114,7 +114,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 6.  Remove tape and carefully add 500μl of Buffer AW2 to each sample. Use the 300μl multichannel pipette and add 250μl twice. This will require ~50mL of buffer AW1.
 
-7.  Centrifuge at 3800 x g (6000 rpm) for 15 min without the lid on. Thoroughly clean out centrifugre afterward (create protocol).
+7.  Centrifuge at 3800 x g (6000 rpm) for 15 min without the lid on. Thoroughly clean out centrifuge afterward (create protocol).
 
 **Note:** Spin column membrane should be dry after this step. Spin for an additional 1 min if not.
 
