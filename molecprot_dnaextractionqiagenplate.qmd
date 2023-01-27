@@ -56,7 +56,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 -   Sample transfer: Samples will be in multiple boxes in freezer, but we only want to take a box out once to minimize sample degradation.
     - We need a sample transfer plan which lists which samples in a given box will be going into which places on the tray
-    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays. Keep tray covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. 
+    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.  
 
 -   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C until precipitates have fully dissolved.
 
@@ -78,7 +78,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 **Note:** Between samples scalpel & forceps should be sterilized by spraying with EtoH and using a flame to burn off any residual EtoH and tissue.
 
-1.  Record weight in lab notebook & place sample into appropriate collection well plate (cyan plates). Keep samples covered with clear plastic sheet.
+1.  Record weight in lab notebook & place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer.
 
 2.  Prepare working solution of 20uL Proteinase K & 180uL buffer ATL per sample. For a 96 well plate, prepare enough solution for 100 samples by mixing 2mL Proteinase K & 18mL buffer ATL in a 50mL falcon tube. This solution should be placed into a 25mL liquid boat following mixing.
 
