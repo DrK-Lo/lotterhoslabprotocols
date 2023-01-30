@@ -171,9 +171,9 @@ Next you will decide how you want your R environment to display in Jupyter. Here
 
 ![fig13](img/bioinformagics_6_jupyter_fig13.png)
 
-In the following command, the `displayname` is what is shown in the figure above. The `name` argument should be similar to the display name; `name` is used in the background for naming filesystems. Since you may have multiple R environments with a specific 
+In the following command, the `displayname` is what is shown in the figure above. The `name` argument should be similar to the display name; `name` is used in the background for naming filesystems. Since you may have multiple R environments each set up for a specific purpose, including the purpose may be helpful.
 
-```IRkernel::installspec(name = 'ir40', displayname = 'R 4.0')```
+```IRkernel::installspec(name = 'ir40_purpose', displayname = 'R 4.0 purpose')```
 
 Then in whichever environment you run jupyter, you should be able to see your R version to run notebooks.
 
