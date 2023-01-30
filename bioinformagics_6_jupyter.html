@@ -826,8 +826,8 @@ jupyter notebook --no-browser --port $1</code></pre>
 <p></p><figcaption class="figure-caption">fig13</figcaption><p></p>
 </figure>
 </div>
-<p>In the following command, the <code>displayname</code> is what is shown in the figure above. The <code>name</code> argument should be similar to the display name; <code>name</code> is used in the background for naming filesystems. Since you may have multiple R environments with a specific</p>
-<p><code>IRkernel::installspec(name = 'ir40', displayname = 'R 4.0')</code></p>
+<p>In the following command, the <code>displayname</code> is what is shown in the figure above. The <code>name</code> argument should be similar to the display name; <code>name</code> is used in the background for naming filesystems. Since you may have multiple R environments each set up for a specific purpose, including the purpose may be helpful.</p>
+<p><code>IRkernel::installspec(name = 'ir40_purpose', displayname = 'R 4.0 purpose')</code></p>
 <p>Then in whichever environment you run jupyter, you should be able to see your R version to run notebooks.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
