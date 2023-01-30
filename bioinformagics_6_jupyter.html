@@ -599,7 +599,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bioinformagics_6_jupyter.html" class="sidebar-item-text sidebar-link active">Launching jupyter Notebooks</a>
+  <a href="./bioinformagics_6_jupyter.html" class="sidebar-item-text sidebar-link active">jupyter Notebooks</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -618,17 +618,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#launching-jupyter-notebooks" id="toc-launching-jupyter-notebooks" class="nav-link active" data-scroll-target="#launching-jupyter-notebooks">Launching jupyter Notebooks</a>
+  <li><a href="#jupyter-notebooks" id="toc-jupyter-notebooks" class="nav-link active" data-scroll-target="#jupyter-notebooks">jupyter Notebooks</a>
+  <ul class="collapse">
+  <li><a href="#launching-jupyter-notebooks" id="toc-launching-jupyter-notebooks" class="nav-link" data-scroll-target="#launching-jupyter-notebooks">Launching jupyter notebooks</a>
   <ul class="collapse">
   <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">1. Examples</a></li>
   <li><a href="#installing-jupyter" id="toc-installing-jupyter" class="nav-link" data-scroll-target="#installing-jupyter">2. Installing jupyter</a></li>
   <li><a href="#launching-jupyter" id="toc-launching-jupyter" class="nav-link" data-scroll-target="#launching-jupyter">3. Launching jupyter</a></li>
-  <li><a href="#launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" id="toc-launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" class="nav-link" data-scroll-target="#launching-and-connecting-to-jupyter-notebooks-on-compute-nodes">4. Launching and Connecting to jupyter Notebooks on Compute Nodes</a>
-  <ul class="collapse">
-  <li><a href="#terminal-window-arrangements" id="toc-terminal-window-arrangements" class="nav-link" data-scroll-target="#terminal-window-arrangements">Terminal window arrangements</a></li>
-  <li><a href="#connecting-to-compute-nodes-and-launching-jupyter" id="toc-connecting-to-compute-nodes-and-launching-jupyter" class="nav-link" data-scroll-target="#connecting-to-compute-nodes-and-launching-jupyter">Connecting to compute nodes and launching jupyter</a></li>
-  </ul></li>
+  <li><a href="#launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" id="toc-launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" class="nav-link" data-scroll-target="#launching-and-connecting-to-jupyter-notebooks-on-compute-nodes">4. Launching and Connecting to jupyter Notebooks on Compute Nodes</a></li>
   <li><a href="#considerations-with-coding-file-systems" id="toc-considerations-with-coding-file-systems" class="nav-link" data-scroll-target="#considerations-with-coding-file-systems">5. Considerations with coding file systems</a></li>
+  </ul></li>
+  <li><a href="#r-kernels-in-jupyter-notebooks" id="toc-r-kernels-in-jupyter-notebooks" class="nav-link" data-scroll-target="#r-kernels-in-jupyter-notebooks">R kernels in jupyter notebooks</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -638,14 +638,16 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="launching-jupyter-notebooks" class="level1">
-<h1>Launching jupyter Notebooks</h1>
+<section id="jupyter-notebooks" class="level1">
+<h1>jupyter Notebooks</h1>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_6_jupyter.qmd">Edit this page</a></p>
-<p>These instructions will cover launching and connecting to jupyter notebooks on discovery. For launching jupyter notebooks on your laptop, the process is similar but instead of connecting to discovery you just execute: <code>jupyter notebook</code>.</p>
+<p>These instructions will cover launching and connecting to jupyter notebooks on discovery. For launching jupyter notebooks on your laptop, the process is similar but instead of connecting to discovery you just execute: <code>jupyter notebook</code>. At the end of the page, there are instructions for using R within jupyter notebooks.</p>
 <p>jupyter notebooks are basically like any session of R or python, but you can organize code and save the code’s output. You can also use “markdown” which is a handy way of manipulating font and typesetting. If you’re ever curious about markdown you can google markdown cheatsheet, or there is <a href="[link below](https://www.markdowntutorial.com/lesson/1/)">this tutorial</a> as well as <a href="https://www.markdownguide.org/cheat-sheet/">this cheatsheat</a>.</p>
 <p>These instructions assume that you’ve completed <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html">Advanced SSH-ing</a> as well as <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_4_anaconda.html">Installing Anaconda</a> including creating the <code>mvp_env</code> anaconda environment.</p>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">1. Examples</h2>
+<section id="launching-jupyter-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="launching-jupyter-notebooks">Launching jupyter notebooks</h2>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">1. Examples</h3>
 <p>Here is an example of what a notebook looks like. This notebook is running python, but there are many languages that can be run - I’ll show you how to use R in these notebooks when I’m in town. You can see the markdown (in black at the very top) and the code (in gray cells) and code output below each cell. Having code set up this way means you can go anywhere in the notebook and run code, then scroll up and run code, then scroll elsewhere and run code. Because of this, the order of execution is recorded to the left of the cell - eg <code>In [1]</code> or <code>In [2]</code>.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -668,8 +670,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="installing-jupyter" class="level2">
-<h2 class="anchored" data-anchor-id="installing-jupyter">2. Installing jupyter</h2>
+<section id="installing-jupyter" class="level3">
+<h3 class="anchored" data-anchor-id="installing-jupyter">2. Installing jupyter</h3>
 <p>To run jupyter, you need to have a version of python installed (even if you want to only use R). Anaconda environments are built on python, so they come with python as one of the default installs when you create even “blank” environments. The default python will likely be a recent version (&gt;3.8) but you can also use jupyter on previous versions of python if you need to use another version.</p>
 <p>Normally you have to install jupyter via python. Python packages are installed with something called <code>pip</code>. We already have jupyter in the mvp_env, so we don’t have to do this, but for future reference do (after activating the environment) : <code>pip install jupyter</code></p>
 <p>For now, let’s just activate our environment: <code>conda activate mvp_env</code> - afterwards, you should be able to get a path returned from doing <code>which jupyter</code>:</p>
@@ -680,8 +682,8 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="launching-jupyter" class="level2">
-<h2 class="anchored" data-anchor-id="launching-jupyter">3. Launching jupyter</h2>
+<section id="launching-jupyter" class="level3">
+<h3 class="anchored" data-anchor-id="launching-jupyter">3. Launching jupyter</h3>
 <p>Running jupyter is pretty easy … except we installed jupyter on a remote server. Had we installed jupyter on our laptop, we would only need to run this command : <code>jupyter notebook</code> from terminal.</p>
 <p>However, if we run that command that on the server, our computer doesn’t know where to plug in our monitor to “listen” to that jupyter broadcast so we can actually see the notebooks. So we need to tell our computer where to listen. The “where” is what’s called a “port”, and ports are identified by numbers - we’ll stick to four-digit numbers.</p>
 <p>The default port that jupyter broadcasts on is port 8888. Because of this, it is likely that we cannot rely on port 8888 to be available on servers (since other people may be running notebooks or other things). So I want you to pick a number between 8888-9999 - but it can’t be 9603 because that’s what I use :slightly_smiling_face: - if you run into any errors below with the ssh command, try another number.</p>
@@ -725,11 +727,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Note we don’t want to run jupyter on the login-node (this is where you “land” when you initially <code>ssh</code>) - in the how to launch and connect to a jupyter notebook on one of the compute nodes.</p>
 <p>To stop your jupyter command you can do ‘control + c’ (and respond ‘y’ to confirm), or close the jupyter command window.</p>
 </section>
-<section id="launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" class="level2">
-<h2 class="anchored" data-anchor-id="launching-and-connecting-to-jupyter-notebooks-on-compute-nodes">4. Launching and Connecting to jupyter Notebooks on Compute Nodes</h2>
+<section id="launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" class="level3">
+<h3 class="anchored" data-anchor-id="launching-and-connecting-to-jupyter-notebooks-on-compute-nodes">4. Launching and Connecting to jupyter Notebooks on Compute Nodes</h3>
 <p>When you initially <code>ssh</code> to discovery, you “land” on one of the two login nodes: either <code>login-00</code> or <code>login-01</code>. You should see which one in your terminal prompt (see screenshots above). Running programs (including jupyter) on the login nodes (on any server) is usually “taboo” since resources are limited and all users will “land” here. So we want to use the compute nodes on discovery to actually run our notebook (which will run our code).</p>
-<section id="terminal-window-arrangements" class="level3">
-<h3 class="anchored" data-anchor-id="terminal-window-arrangements">Terminal window arrangements</h3>
+<section id="terminal-window-arrangements" class="level4">
+<h4 class="anchored" data-anchor-id="terminal-window-arrangements">Terminal window arrangements</h4>
 <p>Before we do this, it will be useful to consider how our terminal windows will be arranged. In the following instructions we will have two <code>ssh</code> connections to discovery: - In the first window we will 1) connect to discovery via <code>ssh discovery</code>, 2) connect to the compute node, and 3) launch jupyter - In the second window we will connect to discovery using port forwarding described above (eg <code>ssh -L 9603:localhost:9603 discovery</code>).</p>
 <p>Let’s first open two sessions to use, and combine them. - Using iTerm, hit ‘command + n’ to open a new window (or from the menu bar: Shell &gt; New Window). This will be referred to as Window #1. - Next we’re going to split the window to add another pane (i.e., BASH session). To add a second pane in the same window - using the menu bar: Shell &gt; Split Horizontally with Current Profile. This will be referred to as Window #2. - We put both of these sessions/panes in the same window so that we can eventually minimize it to the dock. We don’t ever want to close the jupyter notebook, nor do we want to close the port forwarding window that allows us to view the jupyter broadcast.</p>
 <div class="quarto-figure quarto-figure-center">
@@ -739,10 +741,10 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 </section>
-<section id="connecting-to-compute-nodes-and-launching-jupyter" class="level3">
-<h3 class="anchored" data-anchor-id="connecting-to-compute-nodes-and-launching-jupyter">Connecting to compute nodes and launching jupyter</h3>
-<section id="window-1" class="level4">
-<h4 class="anchored" data-anchor-id="window-1">Window #1</h4>
+<section id="connecting-to-compute-nodes-and-launching-jupyter" class="level4">
+<h4 class="anchored" data-anchor-id="connecting-to-compute-nodes-and-launching-jupyter">Connecting to compute nodes and launching jupyter</h4>
+<section id="window-1" class="level5">
+<h5 class="anchored" data-anchor-id="window-1">Window #1</h5>
 <p>First connect to discovery: <code>ssh discovery</code>.</p>
 <p>Similar to how we launched jupyter on the login nodes, we will launch jupyter once connected to the compute nodes. To do so so that we can use jupyter, we need to launch an “interactive job”. The following command will request 1 CPU for 8 hours from the lotterhos partition (a partition where lab members get priority for computing resources).</p>
 <p><code>srun -p lotterhos -N 1 --time=8:00:00 --pty /bin/bash</code></p>
@@ -775,12 +777,12 @@ jupyter notebook --no-browser --port $1</code></pre>
 </ul></li>
 </ul>
 </section>
-<section id="window-2" class="level4">
-<h4 class="anchored" data-anchor-id="window-2">Window #2</h4>
+<section id="window-2" class="level5">
+<h5 class="anchored" data-anchor-id="window-2">Window #2</h5>
 <p>Since we have our jupyte broadcast being forwarded to each of the login nodes, it doesn’t matter which one we connect to. But we do need to tell our computer to listen for these broadcasts using the port number above (eg 9603). Simple execute the following in Window #2 <code>ssh -L 9603:localhost:9603 discovery</code> (using your port number). Now go back to Window #1, hold the ‘command’ key and click the <code>http://localhost</code> link. This should open up a file browswer as we saw when launching juypyter on the login node.</p>
 </section>
-<section id="combined-windows" class="level4">
-<h4 class="anchored" data-anchor-id="combined-windows">Combined windows</h4>
+<section id="combined-windows" class="level5">
+<h5 class="anchored" data-anchor-id="combined-windows">Combined windows</h5>
 <p>Your windows should look more or less like this:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -791,8 +793,8 @@ jupyter notebook --no-browser --port $1</code></pre>
 </section>
 </section>
 </section>
-<section id="considerations-with-coding-file-systems" class="level2">
-<h2 class="anchored" data-anchor-id="considerations-with-coding-file-systems">5. Considerations with coding file systems</h2>
+<section id="considerations-with-coding-file-systems" class="level3">
+<h3 class="anchored" data-anchor-id="considerations-with-coding-file-systems">5. Considerations with coding file systems</h3>
 <p>One thing to keep in mind - where ever you execute the <code>jupyter notebook …</code> command is where this ‘file browser’ will open. Some times this may not be ideal - eg if you save notebooks in a different directory other than home. So you could either create a symlink in your home directory so you can get to your notebooks faster or you can just launch the jupyter command from the notebooks directory. - on a mac, a symlink is called an alias and you can create aliases by right-clicking folders and files then drag the alias anywhere you want.</p>
 <p>I recommend having all code for all projects under one directory (or at least having a single directory that symlinks all of your coding directories). This one directory can have multiple subdirectories with an arbitrary number of sub-subdirectories (so you don’t have to save all notebooks in a single directory).</p>
 <p>For instance I have a directory for all code, then a subdirectory for my current work (MVP-offsets):</p>
@@ -807,6 +809,30 @@ jupyter notebook --no-browser --port $1</code></pre>
 <figure class="figure">
 <p><img src="img/bioinformagics_6_jupyter_fig09.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">fig9</figcaption><p></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="r-kernels-in-jupyter-notebooks" class="level2">
+<h2 class="anchored" data-anchor-id="r-kernels-in-jupyter-notebooks">R kernels in jupyter notebooks</h2>
+<p>Using jupyter for its native languages can be very powerful. However, you may want to use R. Well you can! To use R with jupyter we need <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_4_anaconda.html">an R environment</a>.</p>
+<p>When thinking about the setup - you will need an R environment at minimum. You can run jupyter from this environment, or run jupyter in another environment and still be able to use the R version in jupyter.</p>
+<p>After you have an active R environment (eg <code>conda activate r_4.0_env</code>), you will need to install a version (&gt;v3.6) of python (if it’s not already - conda envs will have python installed). After isntalling python, use <code>pip</code> to install the python jupyter package <code>pip install jupyter</code>.</p>
+<p>Next open R, then in the R session do <code>install.packages('IRkernel')</code>.</p>
+<p>Next you will decide how you want your R environment to display in Jupyter. Here is a screenshot of some of the R environments I have set up.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/bioinformagics_6_jupyter_fig13.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">fig13</figcaption><p></p>
+</figure>
+</div>
+<p>In the following command, the <code>displayname</code> is what is shown in the figure above. The <code>name</code> argument should be similar to the display name; <code>name</code> is used in the background for naming filesystems. Since you may have multiple R environments with a specific</p>
+<p><code>IRkernel::installspec(name = 'ir40', displayname = 'R 4.0')</code></p>
+<p>Then in whichever environment you run jupyter, you should be able to see your R version to run notebooks.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/bioinformagics_6_jupyter_fig14.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">fig14</figcaption><p></p>
 </figure>
 </div>
 
