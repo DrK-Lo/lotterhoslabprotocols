@@ -1,14 +1,15 @@
-# Launching jupyter Notebooks
+# jupyter Notebooks
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_6_jupyter.qmd)
 
-These instructions will cover launching and connecting to jupyter notebooks on discovery. For launching jupyter notebooks on your laptop, the process is similar but instead of connecting to discovery you just execute: `jupyter notebook`.
+These instructions will cover launching and connecting to jupyter notebooks on discovery. For launching jupyter notebooks on your laptop, the process is similar but instead of connecting to discovery you just execute: `jupyter notebook`. At the end of the page, there are instructions for using R within jupyter notebooks.
 
 jupyter notebooks are basically like any session of R or python, but you can organize code and save the code’s output. You can also use “markdown” which is a handy way of manipulating font and typesetting. If you’re ever curious about markdown you can google markdown cheatsheet, or there is [this tutorial]([link below](https://www.markdowntutorial.com/lesson/1/)) as well as [this cheatsheat](https://www.markdownguide.org/cheat-sheet/).
 
 These instructions assume that you've completed [Advanced SSH-ing](https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html) as well as [Installing Anaconda](https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_4_anaconda.html) including creating the `mvp_env` anaconda environment.
 
-## 1. Examples
+## Launching jupyter notebooks
+### 1. Examples
 
 Here is an example of what a notebook looks like. This notebook is running python, but there are many languages that can be run - I’ll show you how to use R in these notebooks when I’m in town.
 You can see the markdown (in black at the very top) and the code (in gray cells) and code output below each cell.
@@ -24,7 +25,7 @@ Or remembering which figure (filename) was created by which code:
 
 ![fig3](img/bioinformagics_6_jupyter_fig03.png)
 
-## 2. Installing jupyter
+### 2. Installing jupyter
 
 To run jupyter, you need to have a version of python installed (even if you want to only use R). Anaconda environments are built on python, so they come with python as one of the default installs when you create even “blank” environments. The default python will likely be a recent version (>3.8) but you can also use jupyter on previous versions of python if you need to use another version.
 
@@ -35,7 +36,7 @@ For now, let’s just activate our environment: `conda activate mvp_env` - after
 ![fig4](img/bioinformagics_6_jupyter_fig04.png)
 
 
-## 3. Launching jupyter
+### 3. Launching jupyter
 
 Running jupyter is pretty easy … except we installed jupyter on a remote server. Had we installed jupyter on our laptop, we would only need to run this command : `jupyter notebook` from terminal.
 
@@ -74,11 +75,11 @@ Note we don’t want to run jupyter on the login-node (this is where you “land
 
 To stop your jupyter command you can do ‘control + c’ (and respond ‘y’ to confirm), or close the jupyter command window. 
 
-## 4. Launching and Connecting to jupyter Notebooks on Compute Nodes
+### 4. Launching and Connecting to jupyter Notebooks on Compute Nodes
 
 When you initially `ssh` to discovery, you "land" on one of the two login nodes: either `login-00` or `login-01`. You should see which one in your terminal prompt (see screenshots above). Running programs (including jupyter) on the login nodes (on any server) is usually "taboo" since resources are limited and all users will "land" here. So we want to use the compute nodes on discovery to actually run our notebook (which will run our code).
 
-### Terminal window arrangements
+#### Terminal window arrangements
 
 Before we do this, it will be useful to consider how our terminal windows will be arranged. In the following instructions we will have two `ssh` connections to discovery:
 - In the first window we will 1) connect to discovery via `ssh discovery`, 2) connect to the compute node, and 3) launch jupyter
@@ -91,9 +92,9 @@ Let's first open two sessions to use, and combine them.
 
 ![fig11](img/bioinformagics_6_jupyter_fig11.png)
 
-### Connecting to compute nodes and launching jupyter
+#### Connecting to compute nodes and launching jupyter
 
-#### Window #1
+##### Window #1
 
 First connect to discovery: `ssh discovery`.
 
@@ -131,18 +132,18 @@ jupyter notebook --no-browser --port $1
      - Note we added 9603 to the execution command. The "9603" is a "trailing argument" which is a common way to tell a program (BASH/shell, R, python, etc) to use a certain variable. In shell file, where ever you see `$1` you can pretend as if it's actually "9603".
      - Executing the file should eventually bring up a link to connect, but first we need to tell our computer where to listen to the jupyter broadcast (see Window #2 instructions).
 
-#### Window #2
+##### Window #2
 
 Since we have our jupyte broadcast being forwarded to each of the login nodes, it doesn't matter which one we connect to. But we do need to tell our computer to listen for these broadcasts using the port number above (eg 9603). Simple execute the following in Window #2
 `ssh -L 9603:localhost:9603 discovery` (using your port number). Now go back to Window #1, hold the 'command' key and click the `http://localhost` link. This should open up a file browswer as we saw when launching juypyter on the login node.
 
-#### Combined windows
+##### Combined windows
 
 Your windows should look more or less like this:
 
 ![fig12](img/bioinformagics_6_jupyter_fig12.png)
 
-## 5. Considerations with coding file systems
+### 5. Considerations with coding file systems
 
 One thing to keep in mind - where ever you execute the `jupyter notebook …` command is where this ‘file browser’ will open. Some times this may not be ideal - eg if you save notebooks in a different directory other than home. So you could either create a symlink in your home directory so you can get to your notebooks faster or you can just launch the jupyter command from the notebooks directory. - on a mac, a symlink is called an alias and you can create aliases by right-clicking folders and files then drag the alias anywhere you want.
 
@@ -156,16 +157,24 @@ and sub-subdirectories within MVP-offsets:
 
 ![fig9](img/bioinformagics_6_jupyter_fig09.png)
 
+## R kernels in jupyter notebooks
 
+Using jupyter for its native languages can be very powerful. However, you may want to use R. Well you can! To use R with jupyter we need [an R environment](https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_4_anaconda.html).
 
+When thinking about the setup - you will need an R environment at minimum. You can run jupyter from this environment, or run jupyter in another environment and still be able to use the R version in jupyter.
 
+After you have an active R environment (eg `conda activate r_4.0_env`), you will need to install a version (>v3.6) of python (if it's not already - conda envs will have python installed). After isntalling python, use `pip` to install the python jupyter package `pip install jupyter`.
 
+Next open R, then in the R session do `install.packages('IRkernel')`.
 
+Next you will decide how you want your R environment to display in Jupyter. Here is a screenshot of some of the R environments I have set up.
 
+![fig13](img/bioinformagics_6_jupyter_fig13.png)
 
+In the following command, the `displayname` is what is shown in the figure above. The `name` argument should be similar to the display name; `name` is used in the background for naming filesystems. Since you may have multiple R environments with a specific 
 
+```IRkernel::installspec(name = 'ir40', displayname = 'R 4.0')```
 
+Then in whichever environment you run jupyter, you should be able to see your R version to run notebooks.
 
-
-
-
+![fig14](img/bioinformagics_6_jupyter_fig14.png)
