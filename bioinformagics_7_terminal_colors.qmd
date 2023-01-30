@@ -1,5 +1,7 @@
 # How to color code your terminal
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_7_terminal_colors.qmd)
+
 Often when we use terminal, we'll use `ls` to list the files in the current directory. It can be useful to have different types of files be colored different colors so you can more easily make sense of what is output.
 
 In this tutorial, we'll create a dummy folder and put some files with various suffixes. Then we'll add the BASH code to color the files. You'll have to set this up for each computer/server that you use.
