@@ -12,7 +12,7 @@ We are Ethidium-Bromide Free!
 
 1.  Agarose
 
-2.  1X TBE
+2.  1X TAE (you can also use TBE, but we regularly have TAE stock pre-made). Here's a link to a [TAE recipe](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) for TAE. We should have all materials in the lab. If using 10x TAE stock, dilute with 100 mL TAE to 900 mL milliq water.
 
 3.  GelRed® 10,000X stock reagent (left-top drawer in the room with gel docks).
 
@@ -24,17 +24,17 @@ We are Ethidium-Bromide Free!
 
 6.  Add 1.4 g of agarose to the weigh boat.
 
-7.  Pour 70 mL of 1x TBE buffer into a graduated cylinder.
+7.  Pour 70 mL of 1x TAE buffer into a graduated cylinder.
 
-8.  Pour 35-40 mL of the TBE buffer into an Erlenmeyer flask, then add the agarose and swirl.
+8.  Pour 35-40 mL of the TAE buffer into an Erlenmeyer flask, then add the agarose and swirl.
 
 9.  Microwave solution for \~45 seconds, or until it begins to boil.
 
-10. Add more TBE buffer, but leave 10-20 mL in the graduated cylinder.
+10. Add more TAE buffer, but leave 10-20 mL in the graduated cylinder.
 
 11. Microwave solution again until it begins to boil. Repeat until agarose is completely dissolved.
 
-12. Add remaining TBE buffer (to cool solution).
+12. Add remaining TAE buffer (to cool solution).
 
 13. Dilute the GelRed® 10,000X stock reagent into the molten agarose gel solution at 1:10,000 and mix thoroughly.
 
