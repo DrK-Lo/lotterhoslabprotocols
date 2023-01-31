@@ -2,7 +2,7 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_gelelectrophoresis.qmd)
 
-The protocol for running a gel.
+The protocol for running a gel. Madeline's lab notebook (labeled "Eppley") has written protocols and troubleshooting for gels on pages 2-3. 
 
 ------------------------------------------------------------------------
 
