@@ -55,6 +55,7 @@ website:
           - profdev_How-to-publish-a-paper.qmd
           - profdev_design.qmd
           - profdev_courses.qmd
+          - profdev_ColdBrew.qmd
       - section: "Molecular Protocols"
         contents:
           - molecprot_etoh.qmd
