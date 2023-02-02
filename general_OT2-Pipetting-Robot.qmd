@@ -20,6 +20,9 @@ Set up and use instructions.
 
 You will need to create a free account to access this protocol designer.
 
+[Cleaning Protocols](https://support.opentrons.com/s/article/Cleaning-your-OT-2?)
+
+
 ## Associated Materials and Attachments
 
 ### Pipettes
@@ -175,4 +178,58 @@ You will need to create a free account to access this protocol designer.
 5.  Ensure the deck view in the app matches the way you have the deck set up with materials.
 
 6. Click **"Start run."**
+
+## Cleaning
+
+### Materials
+
+    - 70% ethanol (not for acrylic panels)
+    
+    - 10% bleach
+    
+    - Kimwipes or paper towels
+
+**Notes:**
+    - **AVOID** cleaning anything that does not have explicit instructions on the cleaning website listed at the top of the page. You may damage electrical elements of the machine.
+    - Spray cleaning fluids onto a paper towel or Kimwipe. Do not douse any part of the machine in fluid.
+
+### Surfaces
+
+    - Wipe down the following parts of the gantry using either isopropyl alcohol or bleach:
+    
+        - X rail cover
+        
+        - X carriage
+        
+        - Mount cover
+        
+    - Clean the following parts of the deck using either isopropyl alcohol or bleach:
+    
+        - Removable deck
+        
+        - Stationary deck
+        
+        - Trash base
+        
+        - Trash cover
+        
+    - Wipe down acrylic windows with **bleach only**.
+    
+    
+
+### Pipettes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
