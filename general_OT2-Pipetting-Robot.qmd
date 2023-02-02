@@ -183,53 +183,55 @@ You will need to create a free account to access this protocol designer.
 
 ### Materials
 
-    - 70% ethanol (not for acrylic panels)
+- 70% ethanol (**not for acrylic panels, ethanol will cause cracks**)
     
-    - 10% bleach
+- 10% bleach
     
-    - Kimwipes or paper towels
+- Kimwipes or paper towels
 
 **Notes:**
-    - **AVOID** cleaning anything that does not have explicit instructions on the cleaning website listed at the top of the page. You may damage electrical elements of the machine.
-    - Spray cleaning fluids onto a paper towel or Kimwipe. Do not douse any part of the machine in fluid.
+
+- **AVOID** cleaning anything that does not have explicit instructions on the cleaning website listed at the top of the page. You may damage electrical elements of the machine.
+
+- Spray cleaning fluids onto a paper towel or Kimwipe. Do not douse any part of the machine in fluid.
 
 ### Surfaces
 
-    - Wipe down the following parts of the gantry using either isopropyl alcohol or bleach:
+- Wipe down the following parts of the gantry using either isopropyl alcohol or bleach:
     
-        - X rail cover
+  - X rail cover
         
-        - X carriage
+  - X carriage
         
-        - Mount cover
+  - Mount cover
+
+![](img/OT-2_Surface_Cleaning.jpeg)
         
-    - Clean the following parts of the deck using either isopropyl alcohol or bleach:
+ - Clean the following parts of the deck using either isopropyl alcohol or bleach:
     
-        - Removable deck
+  - Removable deck
         
-        - Stationary deck
+  - Stationary deck
         
-        - Trash base
+  - Trash base
         
-        - Trash cover
+  - Trash cover
+
+![](img/OT-2_Deck.jpeg)
+
+- Clean the following parts of the frame using isopropyl alcohol or ethyl alcohol:
+  
+  - Black frame
+  
+  - Y rail cover
+   
+  - Silver frame
+
+![](img/OT-2_Frame.jpeg)
         
-    - Wipe down acrylic windows with **bleach only**.
-    
-    
+- Wipe down acrylic windows with **bleach only**
 
 ### Pipettes
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
