@@ -63,6 +63,13 @@
     "text": "Edit this page\nThe protocol for quantifying DNA/RNA samples using the Take3.\n\n\n\nThe Take3 is like a nanodrop for DNA quantification using spectrophotometry on the plate reader. For more accurate quantification similar to Qubit, considering using the PicoGreen assay.\n\n\n\n\nSelect File -> New Task\nWhen prompted by Task Manager, select Read Now in left pane.\nSelect Nucleic Acid Quantification (or Protein A280 if measuring proteins) under Take3 Application at the bottom of prompt\nInformation in top three drop down menus should be autopopulated with plate serial number, well type, and sample type.\nChange sample type if desired\nChose Scan 240-300 nm with 2nm step if desired\nClick Read. Reader reads the blanks and takes an average, then tray opens.\nClick Approve if reading blanks was successful (low %CV value).\nYou can now specify sample wells. Samples must be in rectangular blocks for reader.\nClick Read again to read samples. Reader reads samples and once finished ejects tray.\nExport Data.\nBlot liquid off with Kimwipe. Store with proper packaging.\nReplace carrier tray with priming plate."
   },
   {
+    "objectID": "profdev_ColdBrew.html",
+    "href": "profdev_ColdBrew.html",
+    "title": "Lotterhos Lab Protocols",
+    "section": "",
+    "text": "Coarse grid 100g whole bean medium or light roast coffee.\nAdd coffee and 700mL cold water to french press. Mix and let sit overnight\n\n\n\n\nIMG_20230129_182753691\n\n\n\nPlunge the french press.\nSlowly pour the coffee over a mesh strainer and two bamboo filters. This level of filtering will really improve the flavor.\n\n\n\n\nIMG_20230130_064335065\n\n\n\nYou now have cold brew concentrate!\nStore in the fridge for up to 7 days in a ceramic or glass container.\n\n\n\nMix about 1/5 of the concentrate to 4/5 sub-boiling water.\n\n\n\nPour about 1/8-1/4 cup over a glass of ice. Add milk to fill up the glass.\n\n\n\nWe use Illy coffee and bamboo filters."
+  },
+  {
     "objectID": "molecprot_qPCR-Libraryquant.html",
     "href": "molecprot_qPCR-Libraryquant.html",
     "title": "Lotterhos Lab Protocols",
@@ -971,13 +978,6 @@
     "title": "Lotterhos Lab Protocols",
     "section": "",
     "text": "NUMSC - Shared Lab Space\nEdit this page\n\nIntroductory information on the shared lab space @ NU Marine Science Center\nhttps://numsc-corefacility.github.io/sharedLabSpace/"
-  },
-  {
-    "objectID": "profdev_ColdBrew.html",
-    "href": "profdev_ColdBrew.html",
-    "title": "Lotterhos Lab Protocols",
-    "section": "",
-    "text": "Coarse grid 100g whole bean medium or light roast coffee.\nAdd coffee and 700mL cold water to french press. Mix and let sit overnight\n\n\n\n\nIMG_20230129_182753691\n\n\n\nPlunge the french press.\nSlowly pour the coffee over a mesh strainer and two bamboo filters. This level of filtering will really improve the flavor.\n\n\n\n\nIMG_20230130_064335065\n\n\n\nYou now have cold brew concentrate!\nStore in the fridge for up to 7 days in a ceramic or glass container.\n\n\n\nMix about 1/5 of the concentrate to 4/5 sub-boiling water.\n\n\n\nPour about 1/8-1/4 cup over a glass of ice. Add milk to fill up the glass.\n\n\n\nWe use Illy coffee and bamboo filters."
   },
   {
     "objectID": "discovery_5-parallelization.html",
