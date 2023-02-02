@@ -197,13 +197,13 @@ You will need to create a free account to access this protocol designer.
 
 ### Surfaces
 
-- Wipe down the following parts of the gantry using either isopropyl alcohol or bleach:
+Wipe down the following parts of the gantry using either isopropyl alcohol or bleach:
     
-  - X rail cover
+- X rail cover
         
-  - X carriage
+- X carriage
         
-  - Mount cover
+- Mount cover
 
 ![](img/OT-2_Surface_Cleaning.jpeg)
         
