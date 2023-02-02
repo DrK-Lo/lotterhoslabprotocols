@@ -30,7 +30,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 -   Kim wipes
 
--   Pipette Tips (300uL, 1000uL)
+-   Pipette Tips (300uL)
 
 -   Easy Pet + Serological Tips
 
@@ -46,9 +46,9 @@ This protocol is for oysters (Crassostrea virginica)
 
 -   Thermo-mixer (with plate attachments - plates from kit are too tall for our Thermo-mixer) - check temperature ranges
 
--   Large centrifuge (ours does not fit qiagen plate - might need to use Randall's centrifuge)
+-   Large centrifuge (Hughes lab centrifuge)
 
--   Multichannel Pipette (300uL, 1000uL)
+-   Multichannel Pipette (300uL)
 
 ## **Protocol** {.unnumbered}
 
@@ -56,7 +56,8 @@ This protocol is for oysters (Crassostrea virginica)
 
 -   Sample transfer: Samples will be in multiple boxes in freezer, but we only want to take a box out once to minimize sample degradation.
     - We need a sample transfer plan which lists which samples in a given box will be going into which places on the tray
-    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.  
+    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.
+    - Organize plate in rows (A1 - A12, then move to row B in order of sample numbers)   
 
 -   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C until precipitates have fully dissolved.
 
@@ -68,60 +69,62 @@ This protocol is for oysters (Crassostrea virginica)
 
 2.  Get a styrofoam container with ice to keep tissue samples cool while prepping for extraction. 
 
-3.  Remove one plate of tissue from freezer and let thaw (do not let them sit any longer than necessary). Once thawed they can be placed on ice (this generally won't cause them to re-freeze).
+3.  Remove one plate of tissue from freezer and let thaw on counter (do not let them sit any longer than necessary). Once thawed they can be placed on ice (this generally won't cause them to re-freeze).
 
-4.  Tare piece of weighing paper on scale.
+4. Prepare working solution of 20uL Proteinase K & 180uL buffer ATL per sample. For a 96 well plate, prepare enough solution for 100 samples by gently inverting and mixing 2mL Proteinase K & 18mL buffer ATL in a 50mL falcon tube (don't vortex). This solution should be placed into a 25mL liquid boat following mixing.
 
-5.  Carefully remove tissue from 2mL tube. Use a sterile razor blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+5. Add 180 uL of Buffer ATL and 20 uL of Proteinase K to each well using the 300 uL multichannel pipette. Don't pipette to the second stop as it will create too many bubbles. Keep samples covered with tinfoil unless actively pipetting working solution to prevent cross-contamination and minimize pipetting errors.
 
-6.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue.
+6.  Tare piece of weighing paper on scale.
+
+7.  Carefully remove tissue from 2mL tube. Use a sterile razor blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+
+8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue. 
 
 **Note:** Between samples scalpel & forceps should be sterilized by spraying with EtoH and using a flame to burn off any residual EtoH and tissue.
 
-1.  Record weight in lab notebook & place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer.
+9.  Record weight in lab notebook by well location, not by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
 
-2.  Prepare working solution of 20uL Proteinase K & 180uL buffer ATL per sample. For a 96 well plate, prepare enough solution for 100 samples by mixing 2mL Proteinase K & 18mL buffer ATL in a 50mL falcon tube. This solution should be placed into a 25mL liquid boat following mixing.
+**Note:** Make sure tissue is all the way at the bottom of the well. 
 
-3.  After tissues have been processed and placed into appropriate plate well (consult sample key), add 180 uL of Buffer ATL and 20 uL of Proteinase K to each well using the 300 uL multichannel pipette. Keep samples covered with tinfoil unless actively pipetting working solution to prevent cross-contamination and minimize pipetting errors.
+10.  Seal wells with caps, then place clear cover over rack. Use plate attachment for vortexer to mix samples, then centrifuge for 10s at 3800 x g (6000 rpm), ensuring that a counter weight is placed into the centrifuge before starting. (save practice extraction plate as counter weight for future)
 
-4.  Seal wells with caps, then place clear cover over rack. Use plate attachment for vortexer to mix samples, then centrifuge for 10s at 3800 x g (6000 rpm), ensuring that a counter weight is placed into the centrifuge before starting. (save practice extraction plate as counter weight for future)
+11.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
-5.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
-
-6.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed.
+12.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed.
 
 ### **Extraction** {.unnumbered}
 
 1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by H2O, then 70% EtoH.
 
-2.  After removing samples from the thermomixer, ensure microtubes are properly sealed, cover racks and shake vigorously for 15 seconds. Centrifuge for 15s at 6000 rpm to collect any solution from the caps. 
+2.  After removing samples from the thermomixer, ensure microtubes are properly sealed, cover racks and shake vigorously for 15 seconds. Centrifuge for 30s at 4500 rpm to collect any solution from the caps. Hold down short spin button.
 
-2.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL). For a full plate of 96 samples, use 40 mL Buffer AL in a 25mL liquid boat. Tightly reseal with new caps.
+3.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use 45 mL Buffer AL in a 50mL liquid boat. Tightly reseal with new caps.
 
-3.  Place clear cover over the rack and shake vigorously for 15s, then centrifuge 15s at 6000 rpm to collect any solution from the caps. 
+4.  Place clear cover over the rack and shake vigorously for 15s, then centrifuge 30s at 4500 rpm to collect any solution from the caps. 
 
 **Note:** Ensure ethanol has been added to Buffer AL according to instructions on the container.
 
-1.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key.
+5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key.
 
-2.  Carefully remove caps & transfer the lysate (up to 900μl) of each sample to the new wells using the 300μl multichannel pipette, using tinfoil to cover wells before/after transfer.
+6.  Carefully remove caps & transfer the lysate (up to 600μl) of each sample to the new wells using the 300μl multichannel pipette (set to 290μl). Pop any bubbles using a  pipette tip.
 
-3.  Seal the plate with an AirPore tape sheet and centrifuge at 3000 x g (6000 rpm) for 10 min.
+7.  Seal the plate with an AirPore tape sheet and centrifuge at 4500 rpm for 13 min.
 
-4.  Remove tape and carefully add 500μl of Buffer AW1 to each sample. Use the 300μl multichannel pipette and add 250μl Buffer AW1 twice. This will require ~50mL of buffer AW1.
+8.  Remove tape and carefully add 500μl of Buffer AW1 to each sample. Use the 300μl multichannel pipette and add 250μl Buffer AW1 twice. This will require ~55mL of buffer AW1 in a liquid boat.
 
-5.  Seal the plate with a new AirPore tape sheet and centrifuge at 3800 x g (6000 rpm) for 5 min. 
+9.  Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 7 min. 
 
-6.  Remove tape and carefully add 500μl of Buffer AW2 to each sample. Use the 300μl multichannel pipette and add 250μl twice. This will require ~50mL of buffer AW1.
+10.  Remove tape and carefully add 500μl of Buffer AW2 to each sample. Use the 300μl multichannel pipette and add 250μl twice. This will require ~55mL of buffer AW2 in a liquid boat.
 
-7.  Centrifuge at 3800 x g (6000 rpm) for 15 min without the lid on. Thoroughly clean out centrifuge afterward (create protocol).
+11. Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 20 min. 
 
 **Note:** Spin column membrane should be dry after this step. Spin for an additional 1 min if not.
 
-1.  Transfer the DNeasy 96 plate on a rack of Elution Microtubes RS.
+12.  Transfer the DNeasy 96 plate on a rack of Elution Microtubes RS.
 
-2.  Elute the DNA by adding 200μl of Buffer AE to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of buffer AE. Seal with a new AirPore tape sheet & incubate for 1 min at room temperature (15--25°C). Centrifuge for 2 min at 3800 x g (6000 rpm).
+13.  Elute the DNA by adding 200μl of Buffer AE to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of buffer AE. Seal with a new AirPore tape sheet & incubate for 1 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm.
 
-3.  Perform second elution by adding 200μl Buffer AE to each sample using the 300μl multichannel pipette. Incubate for 10 min at room temperature (15--25°C). Centrifuge for 1 min at 3800 x g (6000rpm), and seal elution microtubes with new caps.
+14.  Perform second elution by adding 200μl Buffer AE to each sample using the 300μl multichannel pipette. Incubate for 10 min at room temperature (15--25°C). Centrifuge for 90 seconds at 4500 rpm, and seal elution microtubes with new caps.
 
-4.  Extracted DNA can be place in fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.\
+15.  Label plate and extracted DNA can be place in fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.\
