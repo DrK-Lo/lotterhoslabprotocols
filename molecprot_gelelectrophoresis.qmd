@@ -52,7 +52,25 @@ We are Ethidium-Bromide Free!
 
 -   Use the ladder to determine the size in basepairs of your DNA samples.
 
-**Thermo Fisher GeneRuler 1 kb Plus Ladder** (ladder we have in the lab)
+**Thermo Fisher GeneRuler 1 kb Plus Ladder, 75-20,000 kbp** (ladder we have in the lab)
 
 ![](/img/Ladder.png)
+
+-   As shown in the image above, the ladder has 15 distinct bands representing strands of 75 bp at the lowest band to 20,000 bp at the topmost band. In practice, however, lines representing 3,000-20,000 bp tend to be squished together. What matters most for genomic DNA to be sent for sequencing is ensuring your DNA strands are long enough (> 3,000 bp) to indicate a successful extraction.
+
+**Example Gel**
+
+![](/img/ExampleGel.png)
+
+2% agarose gel with ladders in the rightmost and leftmost wells, a blank in the second well from the right, and three oyster genomic DNA samples in the remaining wells. 
+
+-   Both ladders ran nicely. The bands are mostly spaced out with minimal streaking.
+    
+    -   **Note** the clustered bands in the ladders for 3,000-20,000 bp
+
+-   The second well, a blank, contains nothing beyond loading dye. As there was no sample running there, the image shows no DNA present, which is as it should be.
+
+-   Samples 1 and 2 ran properly- each has a clear distinct line placing them between 3,000-20,000 bp in length (appropriate for genomic DNA). These samples appear to be in a good state for sequencing.
+
+-   Sample 3, on the other hand, is streaky, indicating that the DNA likely degraded during the electrophoresis process. There is one bright band up near the top in the 3,000-20,000 bp range, which is good, but this sample probably isn't in the best shape for sequencing.
 
