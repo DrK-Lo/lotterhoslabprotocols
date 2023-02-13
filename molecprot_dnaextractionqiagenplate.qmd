@@ -57,7 +57,6 @@ This protocol is for oysters (Crassostrea virginica)
 -   Sample transfer: Samples will be in multiple boxes in freezer, but we only want to take a box out once to minimize sample degradation.
     - We need a sample transfer plan which lists which samples in a given box will be going into which places on the tray
     - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.
-    - Organize plate in rows (A1 - A12, then move to row B in order of sample numbers)   
 
 -   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C until precipitates have fully dissolved.
 
@@ -79,15 +78,15 @@ This protocol is for oysters (Crassostrea virginica)
 
 7.  Carefully remove tissue from 2mL tube. Use a sterile razor blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry.
 
-8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue. 
+8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
 
 **Note:** Between samples scalpel & forceps should be sterilized by spraying with EtoH and using a flame to burn off any residual EtoH and tissue.
 
-9.  Record weight in lab notebook by well location, not by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
+9.  Record weight in lab notebook by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
 
 **Note:** Make sure tissue is all the way at the bottom of the well. 
 
-10.  Seal wells with caps, then place clear cover over rack. Use vortexer to mix samples, then centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. (save practice extraction plate as counter weight for future)
+10.  Seal wells with caps, then place clear cover over rack. Use vortexer to mix samples, then centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. (Use practice extraction plate as counter weight.)
 
 11.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
