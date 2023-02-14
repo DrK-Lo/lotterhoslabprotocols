@@ -74,3 +74,11 @@ We are Ethidium-Bromide Free!
 
 -   Sample 3, on the other hand, is streaky, indicating that the DNA likely degraded during the electrophoresis process. There is one bright band up near the top in the 3,000-20,000 bp range, which is good, but this sample probably isn't in the best shape for sequencing.
 
+## **Troubleshooting**
+
+[What happens if I make the wrong percent agarose gel?](https://northeastern.zoom.us/j/92075400920?pwd=NjRRdHd6emlyVlRLcXlOejRyb1NlUT09)
+
+
+
+
+
