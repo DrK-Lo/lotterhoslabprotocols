@@ -127,3 +127,11 @@ This protocol is for oysters (Crassostrea virginica)
 14.  Perform second elution by adding 200μl Buffer AE to each sample using the 300μl multichannel pipette. Incubate for 10 min at room temperature (15--25°C). Centrifuge for 90 seconds at 4500 rpm, and seal elution microtubes with new caps.
 
 15.  Label plate and extracted DNA can be place in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.
+
+### **Cleaning the S-Blocks for reuse** {.unnumbered}
+1. After each use, rinse the S-Blocks thoroughly in tap water
+2. Incubate for 1 min at room temperature in 0.4M HCl
+- HCl is located in the corrosives cabinet
+3. Wash S-Block thoroughly with distilled water
+- Optional: S-Blocks can be autoclaved after washing, and additional S-Blocks can be ordered from Qiagen
+
