@@ -82,4 +82,4 @@ We are Ethidium-Bromide Free!
 
 -   Comparison between ladder expression in 1% vs. 2% agarose gels
 
-
+![](/img/GelComparison.jpeg)
