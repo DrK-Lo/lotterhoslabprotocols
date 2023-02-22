@@ -59,7 +59,7 @@ You will need to create a free account to access this protocol designer.
 
 ### Other Materials
 
-- Calibration block (unclear if we have this or not, but have yet to find it if it's here)
+- Calibration block - used to calibrate multichannel pipettes
 
 - Removable trash bin (in machine)
 
