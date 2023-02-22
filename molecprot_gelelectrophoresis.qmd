@@ -184,3 +184,6 @@ The protocol for running a gel. Madeline's lab notebook (labeled "Eppley") has w
 -   Comparison between ladder expression in 1% vs. 2% agarose gels
 
 ![](/img/GelComparison.jpeg)
+
+### E1 error on voltage machine
+The voltage machine in the gel room will often give an "E1" error and will not begin running. When this happens, check that there is enough TAE buffer in the rig such that the electrodes are touching the liquid. Add a bit more if not. Also check that electrodes are tightened on each side. 
