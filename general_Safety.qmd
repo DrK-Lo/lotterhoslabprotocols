@@ -1,0 +1,47 @@
+# General Safety Protocols
+
+## Personal Protective Equipment (PPE)
+
+- PPE includes gloves, lab coats, safety eyewear, face shields, etc.
+
+- Never wear PPE outside of lab spaces. If you need to go to OGL, the shared lab space, etc., remove PPE before entering the hallway and put back on once at your destination. 
+
+    - Feel free to use carts or secondary bins to carry things through hallways without needing to wear gloves.
+    
+    - Never touch common surfaces (e.g. door handles, light switches) with gloves on.
+
+- Plan your lab work to minimize trips into the hallway and between lab spaces.
+
+## NFPA Sign Accuracy
+
+- Periodically review the NFPA sign (diamond hazards sign) is up to date with the materials in the lab. This can be edited by the PI or people given edit access by the PI on BioRaft.
+
+    - Ensure that the contact info is up to date. Contact info should be for the PI and/or benefits eligible lab members.
+
+    - There must also be off-hours contact information on our lab's BioRaft profile. NUPD mandates that the PI's personal number is listed, as well as a secondary contact number. Secondary contact can be the lab's safety manager. Only OARS members, NUPD, and lab workers can see that number
+
+- If there are multiple hazardous materials of a certain type (e.g. fire hazard, health hazard, instability hazard), put the number of the highest chemical hazard level on the sign.
+
+## Eye Wash and Safety Showers
+
+- Our lab's eye wash is located directly next to the sink.
+
+- Test eye wash once a week by running the water through. This will help keep mineral/microbial buildups from happening.
+
+- Visually examine filters for degradation.
+
+- Visually inspect safety showers once a week.
+
+- There is a weekly inspection checklist on BioRaft as a guide.
+
+
+## Hazardous Waste Disposal
+
+- Email hazwaste@northeastern.edu for questions about waste disposal. This is not the contact for waste pick-up requests.
+
+- Remy Gatins is our lab's hazardous waste manager.
+
+
+
+
+
