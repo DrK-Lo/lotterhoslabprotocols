@@ -26,6 +26,7 @@ website:
         contents:
           - general_ordering.qmd
           - general_fedex_ship.qmd
+          - general_Safety.qmd
           - general_ShippingHazMat.qmd
           - general_purchasing.qmd
           - general_receiving.qmd
