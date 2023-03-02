@@ -143,5 +143,7 @@ This protocol is for oysters (Crassostrea virginica)
 - Submerge S-Block a few times to rinse
 - Over the sink, thoroughly rinse by pouring more distilled water over S-Block
 
+4. Dispose of HCl and HCl-contaminated dH20 in large hazardous waste bottle (5L or 1 gal). 
+
 **Optional:** S-Blocks can be autoclaved after washing, and additional S-Blocks can be ordered from Qiagen
 
