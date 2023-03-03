@@ -181,9 +181,25 @@ The protocol for running a gel. Madeline's lab notebook (labeled "Eppley") has w
 
 [What happens if I make the wrong percent agarose gel?](https://northeastern.zoom.us/j/92075400920?pwd=NjRRdHd6emlyVlRLcXlOejRyb1NlUT09)
 
--   Comparison between ladder expression in 1% vs. 2% agarose gels
+- Comparison between ladder expression in 1% vs. 2% agarose gels
 
 ![](/img/GelComparison.jpeg)
 
-### E1 error on voltage machine
-The voltage machine in the gel room will often give an "E1" error and will not begin running. When this happens, check that there is enough TAE buffer in the rig such that the electrodes are touching the liquid. Add a bit more if not. Also check that electrodes are tightened on each side. 
+### Wavy Sample or Ladder Bands
+
+- When removing the combs from a set gel, remove very gently and pull them straight up and out to keep pieces of gel from getting loosened and knocked into the well.
+
+- Make sure not to touch the sides of the wells with the pipette tip when adding samples in.
+
+### E1 Error on Voltage Machine
+- The voltage machine may give an "E1" error and will not begin running. When this happens, check that there is enough TAE buffer in the rig such that the ends of the electrodes are submerged. Add more 1X TAE if not. 
+
+- Also check that electrodes are tightened on each side. The red one on rig 2 tends to get a bit loose.
+
+### Streaky Samples
+
+- Your sample may have degraded. Be careful not to leave DNA samples in the fridge for more than 4 or 5 days and try not to thaw and refreeze samples too many times.
+
+
+
+
