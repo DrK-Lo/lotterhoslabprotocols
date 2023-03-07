@@ -9,7 +9,8 @@ We are Ethidium-Bromide Free!
 ## New Protocol adapted from OGL:
 
 1.	Mix the gel components.For a 1% agarose gel: 
-         i.	Small gel: 0.60g agarose + 60 ml 1xTAE Buffer
+2.	i. Small gel: 0.60g agarose + 60 ml 1x TAE Buffer
+3.	ii: Medium gel: 1 g agarose + 100 mL 1X TAE Buffer
     b.	Add agarose, then 1xTAE to an Erlenmeyer flask.
     c.	Use the magnetic stirring plate (put a magnet inside the Erlenmeyer flask) to mix. Turn the RPM into the 1000s until all the clumps are gone. 
 2.	Melt the gel.
@@ -22,8 +23,9 @@ We are Ethidium-Bromide Free!
     a.	Gently swirl while cooling. The solution should be cool enough to hold in the palm of your hand. This can take a couple minutes, please be patient. 
 4.	Add GelRed:
     a.	Small gel: 6ul.
-        i.	GelRed can be found in the drawer labeled “Lotterhos” in the shared wet lab/gel room. 
-    b.	Gently swirl until the stain is dissolved (you should not be able to see any red stain in the gel).
+    b.   Medium gel: 10 uL
+        i. GelRed can be found in the drawer labeled “Lotterhos” in the shared wet lab/gel room. 
+    c.	Gently swirl until the stain is dissolved (you should not be able to see any red stain in the gel).
 5.	Pour the gel.
     a.	Use masking tape to create walls on either side of the tray to contain the solution when poured. Use multiple layers of tape to make sure it doesn’t leak.
         i.	If you are having issues with this method, you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set. 
