@@ -34,7 +34,6 @@ website:
           - general_creating_barcoded_labels.qmd
           - general_chemical_inventory.qmd
           - general_waste_clearing.qmd
-          - general_Acid_Washes.qmd
       - section: "General Equipment"
         contents:
           - general_autoclave.qmd 
@@ -72,6 +71,7 @@ website:
           - molecprot_rnaextraction.qmd
           - molecprot_solutionrecipes.qmd
           - molecprot_gonad_buffer.qmd
+          - molecprot_Acid_Washes.qmd
       - section: "Field and Sampling Protocols"
         contents:
           - field_collectsampdna.qmd
