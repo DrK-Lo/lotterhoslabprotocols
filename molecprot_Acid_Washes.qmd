@@ -1,4 +1,4 @@
-### **Cleaning the S-Blocks for reuse** {.unnumbered}
+# Cleaning the S-Blocks for reuse
 
 1. After each use, rinse the S-Blocks thoroughly in tap water
 
