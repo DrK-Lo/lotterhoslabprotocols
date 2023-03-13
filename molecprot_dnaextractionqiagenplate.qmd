@@ -130,20 +130,22 @@ This protocol is for oysters (Crassostrea virginica)
 
 ### **Cleaning the S-Blocks for reuse** {.unnumbered}
 
+from Qiagen:
 1. After each use, rinse the S-Blocks thoroughly in tap water
-
 2. Incubate for 1 min at room temperature in 0.4M HCl
-- HCl is located in the corrosives cabinet
-- Place S-Block into 1000mL beaker. Place beaker into secondary container (large red plastic bin)
-- Carefully pour 0.4HCl over S-Block until S-Block is nearly submerged
-- To submerge, place another beaker filled with water on top of the S-Block to weight it down
-
 3. Wash S-Block thoroughly with distilled water
-- Transfer S-Block to another 1000mL beaker filled with distilled water
-- Submerge S-Block a few times to rinse
-- Over the sink, thoroughly rinse by pouring more distilled water over S-Block
-
-4. Dispose of HCl and HCl-contaminated dH20 in large hazardous waste bottle (5L or 1 gal). 
-
 **Optional:** S-Blocks can be autoclaved after washing, and additional S-Blocks can be ordered from Qiagen
+
+- HCl is located in the corrosives cabinet
+    - Concentration: 12.1M
+    - To get total volume of 5L of 0.4M HCl: use 165.29mL 12.1M HCl
+- Make HCl bath in large red plastic bin
+    - Use large plastic graduated cylinder and **add acid to water** not the other way around
+- Carefully submerge S-Block for one minute
+
+- Transfer S-Block to another container filled with distilled water
+    - Submerge S-Block a few times to rinse
+- Over the sink, thoroughly rinse by pouring more distilled water over S-Block
+- Dispose of HCl and HCl-contaminated dH20 in large hazardous waste bottle under RNA hood (5L or 1 gal). 
+
 
