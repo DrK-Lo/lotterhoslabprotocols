@@ -131,9 +131,9 @@ This protocol is for oysters (Crassostrea virginica)
 ### **Cleaning the S-Blocks for reuse** {.unnumbered}
 
 from Qiagen:
-1. After each use, rinse the S-Blocks thoroughly in tap water
-2. Incubate for 1 min at room temperature in 0.4M HCl
-3. Wash S-Block thoroughly with distilled water
+1.  After each use, rinse the S-Blocks thoroughly in tap water
+2.  Incubate for 1 min at room temperature in 0.4M HCl
+3.  Wash S-Block thoroughly with distilled water
 **Optional:** S-Blocks can be autoclaved after washing, and additional S-Blocks can be ordered from Qiagen
 
 - HCl is located in the corrosives cabinet
