@@ -117,6 +117,9 @@ website:
           - bioinformagics_4_anaconda.qmd
           - bioinformagics_6_jupyter.qmd
           - bioinformagics_7_terminal_colors.qmd
+      - section: "Outreach and Teaching"
+        contents:
+          - outreach_oysterworkshop.qmd
 
 format:
   html:
