@@ -1,11 +1,6 @@
 # All About Oysters: Outreach Dissection Workshop
 What are those slimy, squishy invertebrates? This workshop includes an oyster dissection and introduces students to shellfish, their unique biology, and their challenges to survival in diverse marine environments. You will dissect a live oyster collected from the US Atlantic and Gulf coasts and locate such features as the gills, digestive tract, and gonads! We will then learn how to measure ocean salinity using a refractometer and discuss how oysters can adapt to rapidly changing marine habitats. 
 
-- We last hosted this workshop at the Annual High School Marine Science Symposium in the spring of 2023! 
-  - [Link to News Article](https://news.northeastern.edu/2023/03/09/high-school-marine-science-symposium/)
-  - ![IMG_6905](https://user-images.githubusercontent.com/90652097/225397088-1436e0f0-bcb3-4966-9b39-e9ff059ce6c2.jpeg)
-
-
 
 # Powerpoint Slides
 [Link to Slides](https://docs.google.com/presentation/d/1GOnDZ01uSu0eYD7uKkD_-A4zf-n-IFhvK6Kuom4D8kk/edit?usp=share_link)
@@ -52,4 +47,10 @@ What are those slimy, squishy invertebrates? This workshop includes an oyster di
 - 3 large field work buckets (used to make trash cans and transport materials) 
 - Bottles of low concentration bleach for cleaning trays
 - First aid kit, good to have on hand for small cuts from tools
+
+
+# Presentations
+We last ran this workshop at the Annual High School Marine Science Symposium in the spring of 2023! 
+  - [Link to News Article](https://news.northeastern.edu/2023/03/09/high-school-marine-science-symposium/)
+  - ![IMG_6905](https://user-images.githubusercontent.com/90652097/225397088-1436e0f0-bcb3-4966-9b39-e9ff059ce6c2.jpeg)
 
