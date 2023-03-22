@@ -1,0 +1,13 @@
+# Qubit dsDNA Quantification
+
+The Qubit machine is located on the post-PCR (blue tape) lab bench. It can run broad range (BR) or high-sensitivity (HS) assays to quantify DNA. DNA concentration outputs are typically in ng/uL.
+
+## Picking the Right Qubit Assay
+
+|                                   | **BR**                                         | **HS**                                              |
+|-----------------------------------|------------------------------------------------|-----------------------------------------------------|
+| **Concentration detection range** | 0.2-2000 ng/uL                                 | 0.005-120 ng/uL                                     |
+| **DNA mass detection range**      | 4-2000 ng                                      | 0.1-120 ng                                          |
+| **Best accuracy**                 | With higher range samples                      | With lower range samples                            |
+| **Ideal use**                     | Unsure of DNA concentrations                   | Know low DNA concentrations                         |
+
