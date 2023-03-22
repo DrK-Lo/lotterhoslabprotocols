@@ -1,1 +1,31 @@
+# DNA Drying
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_dnadrying.qmd)
+
+The protocol for drying DNA for shipment using the SpeedVac.
+
+------------------------------------------------------------------------
+1. Use equation **c1v1=c2v2** to calculate volumes needed to get your target amount of DNA and target total volume of liquid to dry. 
+    
+    - Equation variables: 
+    - c1 = concentration 1, the original DNA concentration of each sample.
+    - v1 = volume 1, the volume of each sample removed for drying.
+    - c2 = concentration 2, the desired concentration of each sample after it has been diluted for drying, standardized across all samples.
+    - v2 = volume 2, the total volume of water and sample you are drying.
+
+    - Example:
+    - c1 = concentrations based on Picogreen assay
+    - v1 = ?
+    - c2 = 50 ng/ul (dilute each sample to this concentration)
+    - v2 = 15ul (amount of water and sample at a concentration of 50 ng/uL that would be dried)
+    - This example would yield 750ng of dried DNA: 15ul * 50ng/ul = 750ng
+
+2. Pipette appropriate amounts of sample and molecular grade water into a PCR plate according to values calculated above for desired concentration, volume, and total ng of DNA. Pipette up and down 5-10 times to mix DNA and water. 
+
+3. The SpeedVac is located in the shared molecular space. There is silicone grease in the upper drawer under the ultracentrifuge. Ensure that the SpeedVac seal has been greased thoroughly before using. If needed, add grease to the black rim. 
+
+4. Ensure SpeedVac is on the no heat setting and the timer is set for an adequate amount of time (at least 3 hours). Use plate attachment and place sample plate and counterweight into the holders. 
+
+5. Turn on SpeedVac. Check samples periodically for drying, remove plate as soon as everything is dry. If the process is slow, you can add more of the silicone grease. 
+
+6. Cover dried DNA plate with a plastic cover and store in the fridge or immediately prepare it for shipment. 
