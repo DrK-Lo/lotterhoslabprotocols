@@ -1,6 +1,8 @@
 # Qubit dsDNA Quantification
 
-The Qubit machine is located on the post-PCR (blue tape) lab bench. It can run broad range (BR) or high-sensitivity (HS) assays to quantify DNA. DNA concentration outputs are typically in ng/uL.
+The Qubit machine is located on the post-PCR (blue tape) lab bench. Qubit boxes with assay tubes are located on the top shelp above the Mastercyclers. Working solutions are on the shelf below in Invitrogen bags. Standards are located in the small "No Animals" fridge. Qubit can run broad range (BR) or high-sensitivity (HS) assays to quantify DNA. DNA concentration outputs are typically in ng/uL.
+
+Note that working solutions are light sensitive, so try not to leave the caps off the stock solutions for too long, and run samples relatively quickly after making them.
 
 ## Picking the Right Qubit Assay
 
@@ -11,3 +13,66 @@ The Qubit machine is located on the post-PCR (blue tape) lab bench. It can run b
 | **Best accuracy**                 | With higher range samples                      | With lower range samples                            |
 | **Ideal use**                     | Unsure of DNA concentrations                   | Know low DNA concentrations                         |
 
+## Assay Prep
+
+### Making Standards
+
+Qubit stores standard readings until new standards are read. The same standard readings can be used for up to a week.
+
+- Set up two Qubit assay tubes in a tube rack. Label them ST1 (standard 1) and ST2 (standard 2)
+
+- Pipette 190 uL working solution into each tube. **Make sure you use the appropriate working solution for the assay you're running (BR or HS).** Although the laminated instructions card says you need to make your own working solution, this is not true. Use the ones in the Invitrogen bags.
+
+- Pipette 10 uL standard 1 (red cap tube) into ST1 tube and 10 uL standard 2 (yellow cap) into ST2 tube.
+
+- Vortex each tube for 2-3 seconds, then spin in the microcentrifuge for ~5 seconds, or until all liquid has collected at the bottom of the tube.
+
+### Making Samples
+
+**Note**: If samples have been frozen prior to Qubit, vortex and centrifuge all samples before pipetting. This will help ensure that the DNA is evenly distributed throughout the solution in the tube and not clumped at the bottom. This step is essential for getting accurate reads.
+
+- Label as many Qubit assay tubes as samples you are going to run, and place them in tube rack. 
+
+- Decide how much sample you want to use for the assay. You can use anywhere from 1-20 uL sample. **We typically use 1 or 2 uL sample.**
+
+- Pipette chosen amount of sample into each tube. Use the P2.5 pipette if sample volume is under 2.5 uL for more accurate measurements.
+
+- Pipette enough working solution into each tube to bring the total volume per tube to 200 uL. Ex. 1 uL sample + 199 uL working solution. **Again, make sure you're using the correct working solution for the assay you're running.**
+
+**Note**: As you're pipetting samples and working solution, check the amount of volume pulled up by the pipette. Make sure this volume looks consistent with each pull.
+
+- Vortex each tube for 2-3 sec, then spin in the microcentrifuge for ~5 seconds, or until all liquid has collected at the bottom of the tube.
+
+- Run samples in Qubit
+
+## Running Samples
+
+- Tap the Qubit screen to wake it up. Select dsDNA, then the assay you're running. If a protocol comes up when the machine wakes up, just hit home until you get to the protocol selection page.
+
+- If running standards, select "Run standards." Qubit will prompt you to insert Standard 1 and then Standard 2 tubes into the tube slot.
+
+- Check to make sure the standard reads look correct
+
+  - Standard 1: upper 80s-low 100s.
+
+  - Standard 2: approx. 6000-8000
+
+- If reads look correct, select "Run samples"
+
+- Set the amount of sample in uL you're using for the read.
+
+- Qubit will prompt you on when to insert and read tubes.
+
+- Record sample concentrations.
+
+- If you need to access your data again later, go to the home page, select "Data", then select the run whose data you want to view.
+
+**Note**: You can only read the same sample tube once because of the sensitivity of the working solution.
+
+## Troubleshooting
+| Problem                                                      | Possible solutions                                                                                                                                                |
+|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| My standard readings are weird.                              | Make sure you used the right working solution and that you selected the right assay on the Qubit machine.                                                         |
+| "Too low: samples out of range"                              | Make sure you vortexed and spun the Qubit tubes prior to reading, or the DNA may be on the side of the tube. Sample may also be at too low concentration to read. |
+| Qubit numbers inconsistent for the same sample across reads. | Check that your pipette tips are pulling up the same amount of sample each time. Be sure to vortex and spin samples prior to pipetting any into the Qubit tubes.  |
+| Numbers look generally strange.                              | The working solution is light sensitive, so don't wait too long to read your samples. Don't read any sample tube twice, as it can only be accurately read once.   |
