@@ -670,32 +670,30 @@ ul.task-list li input[type="checkbox"] {
 <section id="dna-drying" class="level1">
 <h1>DNA Drying</h1>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_dnadrying.qmd">Edit this page</a></p>
-<p>The protocol for drying DNA for shipment using the SpeedVac.</p>
+<p>This protocol is for drying DNA for shipment using the SpeedVac.</p>
 <hr>
 <ol type="1">
 <li><p>If needed, thaw eluted DNA. Mix thoroughly by vortexing and centrifuge ~30 seconds.</p></li>
-<li><p>Use equation <strong>c1v1=c2v2</strong> to calculate volumes needed to get your target amount of DNA and target total volume of liquid to dry.</p>
-<ul>
-<li>Equation variables:
-<ul>
-<li>c1 = concentration 1, the original DNA concentration of each sample.</li>
-<li>v1 = volume 1, the volume of each sample removed for drying.</li>
-<li>c2 = concentration 2, the desired concentration of each sample after it has been diluted for drying, standardized across all samples.</li>
-<li>v2 = volume 2, the total volume of water and sample you are drying.</li>
-</ul></li>
-<li>Example:
-<ul>
-<li>c1 = concentrations based on Picogreen assay</li>
-<li>v1 = ?</li>
-<li>c2 = 50 ng/ul (dilute each sample to this concentration)</li>
-<li>v2 = 15ul (amount of water and sample at a concentration of 50 ng/uL that would be dried)</li>
-</ul></li>
-<li>This example would yield 750ng of dried DNA: 15ul * 50ng/ul = 750ng</li>
-</ul></li>
+<li><p>Use the equation <strong>c1v1=c2v2</strong> to calculate volumes needed to get your target values for total amount of DNA and total volume of liquid to dry.</p></li>
+</ol>
+<p>Note: We have found that 15ul volumes take about 2.5 hours to dry in the SpeedVac. 400ng of DNA is likely enough to send for sequencing, but you can dry 1000ng or more to be safe.</p>
+<pre><code>- Equation variables: 
+    - c1 = concentration 1, the original DNA concentration of each sample.
+    - v1 = volume 1, the volume of each sample removed for drying.
+    - c2 = concentration 2, the desired concentration of each sample after it has been diluted for drying, standardized across all samples.
+    - v2 = volume 2, the total volume of water and sample you are drying.
+
+- Example:
+    - c1 = concentrations based on Picogreen assay
+    - v1 = ?
+    - c2 = 50 ng/ul (dilute each sample to this concentration)
+    - v2 = 15ul (amount of water and sample at a concentration of 50 ng/uL that would be dried)
+- This example would yield 750ng of dried DNA: 15ul * 50ng/ul = 750ng</code></pre>
+<ol start="3" type="1">
 <li><p>Pipette appropriate amounts of sample and molecular grade water into a PCR plate according to values calculated above for desired concentration, volume, and total ng of DNA. Pipette up and down 5-10 times to mix DNA and water.</p></li>
-<li><p>The SpeedVac is located in the shared molecular space. There is silicone grease in the upper drawer under the ultracentrifuge. Ensure that the SpeedVac seal has been greased thoroughly before using. If needed, add grease to the black rim.</p></li>
-<li><p>Ensure SpeedVac is on the no heat setting and the timer is set for an adequate amount of time (at least 3 hours). Use plate attachment and place sample plate and counterweight into the holders.</p></li>
-<li><p>Turn on SpeedVac. Check samples periodically for drying, remove plate as soon as everything is dry. If the process is slow, you can add more of the silicone grease.</p></li>
+<li><p>The SpeedVac is located in the shared molecular space. There is silicone grease in the upper drawer under the ultracentrifuge. Ensure that the SpeedVac seal has been greased thoroughly before using. If needed, add more grease to the black rim and check for a tight seal when closing the lid.</p></li>
+<li><p>Ensure SpeedVac is on the no heat setting and the timer is set for an adequate amount of time (at least 3 hours). Use plate attachment and place sample plate and counterweight into the holders. The lid will not open until the SpeedVac is on.</p></li>
+<li><p>Start SpeedVac. Check samples periodically for drying, remove plate as soon as everything is dry. If the process is slow, you can add more of the silicone grease.</p></li>
 <li><p>Cover dried DNA plate with a plastic cover and store in the fridge or immediately prepare it for shipment.</p></li>
 </ol>
 
