@@ -86,7 +86,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 10. Add 2 mL Proteinase K to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL Proteinase K into each sample tube. 
 
-11.  Seal wells with caps, then place clear cover over rack. Use vortexer to mix samples, then centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. (Use practice extraction plate as counter weight.)
+11.  Seal wells with caps, then place clear cover over rack. Use vortexer to mix samples, then centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
 
 12.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
@@ -122,30 +122,30 @@ This protocol is for oysters (Crassostrea virginica)
 
 12.  Transfer the DNeasy 96 plate on a rack of Elution Microtubes RS.
 
-13.  Elute the DNA by adding 200μl of Buffer AE to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of buffer AE. Seal with a new AirPore tape sheet & incubate for 1 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm.
+13.  Elute the DNA by adding 200μl of Low TE Buffer to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of low TE. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm, and seal elution microtubes with new caps.
 
-14.  Perform second elution by adding 200μl Buffer AE to each sample using the 300μl multichannel pipette. Incubate for 10 min at room temperature (15--25°C). Centrifuge for 90 seconds at 4500 rpm, and seal elution microtubes with new caps.
-
-15.  Label plate and extracted DNA can be place in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.
+14.  Label plate and extracted DNA can be place in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.
 
 ### **Cleaning the S-Blocks for reuse** {.unnumbered}
 
 from Qiagen:
-1.  After each use, rinse the S-Blocks thoroughly in tap water
-2.  Incubate for 1 min at room temperature in 0.4M HCl
-3.  Wash S-Block thoroughly with distilled water
+- After each use, rinse the S-Blocks thoroughly in tap water
+- Incubate for 1 min at room temperature in 0.4M HCl
+- Wash S-Block thoroughly with distilled water
 **Optional:** S-Blocks can be autoclaved after washing, and additional S-Blocks can be ordered from Qiagen
 
-- HCl is located in the corrosives cabinet
-    - Concentration: 12.1M
-    - To get total volume of 5L of 0.4M HCl: use 165.29mL 12.1M HCl
-- Make HCl bath in large red plastic bin
-    - Use large plastic graduated cylinder and **add acid to water** not the other way around
-- Carefully submerge S-Block for one minute
+1. Calculate volume of HCl needed using C1V1 = C2V2 equation. Our HCl is 12.1M and located in the corrosives cabinet. For example, to get a total volume of 5L of 0.4M HCl, use 165.29 of the 12.1M HCl
 
-- Transfer S-Block to another container filled with distilled water
-    - Submerge S-Block a few times to rinse
-- Over the sink, thoroughly rinse by pouring more distilled water over S-Block
-- Dispose of HCl and HCl-contaminated dH20 in large hazardous waste bottle under RNA hood (5L or 1 gal). 
+2. An HCl bath is already made in the plastic container in the fume hood. If making a new bath, use the large plastic graduated cylinder and **add the quantity of acid to the quantity of water** not the other way around. 
+
+3. Prepare another container in the fume hood with enough water to submerge the S-Block. 
+
+4. Carefully submerge S-Block in HCl bath for one minute. 
+
+5. Transfer S-Block to the water container and submerge a few times to rinse
+
+6. Leave S-Block on drying rack above sink. 
+
+7. If making a new HCl bath, dispose of HCl and HCl-contaminated water in large hazardous waste bottle under RNA hood (5L or 1 gal). 
 
 
