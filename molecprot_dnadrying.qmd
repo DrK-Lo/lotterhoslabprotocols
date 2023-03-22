@@ -2,12 +2,14 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_dnadrying.qmd)
 
-The protocol for drying DNA for shipment using the SpeedVac.
+This protocol is for drying DNA for shipment using the SpeedVac.
 
 ------------------------------------------------------------------------
 1. If needed, thaw eluted DNA. Mix thoroughly by vortexing and centrifuge ~30 seconds. 
 
-2. Use equation **c1v1=c2v2** to calculate volumes needed to get your target amount of DNA and target total volume of liquid to dry. 
+2. Use the equation **c1v1=c2v2** to calculate volumes needed to get your target values for total amount of DNA and total volume of liquid to dry. 
+
+Note: We have found that 15ul volumes take about 2.5 hours to dry in the SpeedVac. 400ng of DNA is likely enough to send for sequencing, but you can dry 1000ng or more to be safe.
     
     - Equation variables: 
         - c1 = concentration 1, the original DNA concentration of each sample.
@@ -24,10 +26,10 @@ The protocol for drying DNA for shipment using the SpeedVac.
 
 3. Pipette appropriate amounts of sample and molecular grade water into a PCR plate according to values calculated above for desired concentration, volume, and total ng of DNA. Pipette up and down 5-10 times to mix DNA and water. 
 
-4. The SpeedVac is located in the shared molecular space. There is silicone grease in the upper drawer under the ultracentrifuge. Ensure that the SpeedVac seal has been greased thoroughly before using. If needed, add grease to the black rim. 
+4. The SpeedVac is located in the shared molecular space. There is silicone grease in the upper drawer under the ultracentrifuge. Ensure that the SpeedVac seal has been greased thoroughly before using. If needed, add more grease to the black rim and check for a tight seal when closing the lid.
 
-5. Ensure SpeedVac is on the no heat setting and the timer is set for an adequate amount of time (at least 3 hours). Use plate attachment and place sample plate and counterweight into the holders. 
+5. Ensure SpeedVac is on the no heat setting and the timer is set for an adequate amount of time (at least 3 hours). Use plate attachment and place sample plate and counterweight into the holders. The lid will not open until the SpeedVac is on. 
 
-6. Turn on SpeedVac. Check samples periodically for drying, remove plate as soon as everything is dry. If the process is slow, you can add more of the silicone grease. 
+6. Start SpeedVac. Check samples periodically for drying, remove plate as soon as everything is dry. If the process is slow, you can add more of the silicone grease. 
 
 7. Cover dried DNA plate with a plastic cover and store in the fridge or immediately prepare it for shipment. 
