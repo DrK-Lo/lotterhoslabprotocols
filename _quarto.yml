@@ -5,6 +5,8 @@ project:
 website:
   title: Lotterhos Lab Protocols
   page-navigation: true
+  repo-url: https://github.com/DrK-Lo/lotterhoslabprotocols
+  repo-actions: [edit, issue]
   navbar:
     left:
       - href: index.qmd
