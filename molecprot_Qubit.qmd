@@ -71,6 +71,8 @@ Qubit stores standard readings until new standards are read. The same standard r
 
 - If you need to access your data again later, go to the home page, select "Data", then select the run whose data you want to view.
 
+- Make sure to place a tube back into the tube slot and close the lid on the machine when finished.
+
 **Note**: You can only read the same sample tube once because of the sensitivity of the working solution.
 
 ## Troubleshooting
