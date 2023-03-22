@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./molecprot_rnaextraction.html" rel="next">
+<link href="./molecprot_qPCR-Libraryquant.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -324,12 +326,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">Molecular Protocols</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">Molecular Protocols</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./molecprot_etoh.html" class="sidebar-item-text sidebar-link">Types of Ethanol</a>
@@ -381,8 +383,10 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
           <li class="sidebar-item">
-  molecprot_Qubit.qmd
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="./molecprot_Qubit.html" class="sidebar-item-text sidebar-link active">Qubit dsDNA Quantification</a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./molecprot_rnaextraction.html" class="sidebar-item-text sidebar-link">RNA Extraction</a>
@@ -654,7 +658,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#qubit-dna-quantification" id="toc-qubit-dna-quantification" class="nav-link active" data-scroll-target="#qubit-dna-quantification">Qubit DNA Quantification</a></li>
+  <li><a href="#qubit-dsdna-quantification" id="toc-qubit-dsdna-quantification" class="nav-link active" data-scroll-target="#qubit-dsdna-quantification">Qubit dsDNA Quantification</a>
+  <ul class="collapse">
+  <li><a href="#picking-the-right-qubit-assay" id="toc-picking-the-right-qubit-assay" class="nav-link" data-scroll-target="#picking-the-right-qubit-assay">Picking the Right Qubit Assay</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -663,10 +670,50 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="qubit-dna-quantification" class="level1">
-<h1>Qubit DNA Quantification</h1>
+<section id="qubit-dsdna-quantification" class="level1">
+<h1>Qubit dsDNA Quantification</h1>
+<p>The Qubit machine is located on the post-PCR (blue tape) lab bench. It can run broad range (BR) or high-sensitivity (HS) assays to quantify DNA. DNA concentration outputs are typically in ng/uL.</p>
+<section id="picking-the-right-qubit-assay" class="level2">
+<h2 class="anchored" data-anchor-id="picking-the-right-qubit-assay">Picking the Right Qubit Assay</h2>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 35%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>BR</strong></th>
+<th><strong>HS</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Concentration detection range</strong></td>
+<td>0.2-2000 ng/uL</td>
+<td>0.005-120 ng/uL</td>
+</tr>
+<tr class="even">
+<td><strong>DNA mass detection range</strong></td>
+<td>4-2000 ng</td>
+<td>0.1-120 ng</td>
+</tr>
+<tr class="odd">
+<td><strong>Best accuracy</strong></td>
+<td>With higher range samples</td>
+<td>With lower range samples</td>
+</tr>
+<tr class="even">
+<td><strong>Ideal use</strong></td>
+<td>Unsure of DNA concentrations</td>
+<td>Know low DNA concentrations</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -803,6 +850,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./molecprot_qPCR-Libraryquant.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Library Quantification</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./molecprot_rnaextraction.html" class="pagination-link">
+        <span class="nav-page-text">RNA Extraction</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
