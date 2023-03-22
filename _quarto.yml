@@ -68,6 +68,7 @@ website:
           - molecprot_gelelectrophoresis.qmd
           - molecprot_illuminalibraryprep.qmd
           - molecprot_qPCR-Libraryquant.qmd
+          - molecprot_Qubit.qmd
           - molecprot_rnaextraction.qmd
           - molecprot_solutionrecipes.qmd
           - molecprot_gonad_buffer.qmd
