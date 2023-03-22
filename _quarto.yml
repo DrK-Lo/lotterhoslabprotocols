@@ -66,6 +66,7 @@ website:
           - molecprot_dnaextractionqiagenplate.qmd
           - molecprot_dnaextractionspartina.qmd
           - molecprot_gelelectrophoresis.qmd
+          - molecprot_dnadrying.qmd
           - molecprot_illuminalibraryprep.qmd
           - molecprot_qPCR-Libraryquant.qmd
           - molecprot_Qubit.qmd
