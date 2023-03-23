@@ -113,10 +113,13 @@ Change in protocol? 88 samples quantified on plate reader (leaving one column op
 
 ### **Equation 1 ** {.unnumbered}
 
- <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculatng? The volume of stock that you will need?</span>
+ <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculatng? The volume of stock that you will need? Also it looks like there is a parenetheses missing here. Should we move up the equation to where it is cited? </span>
  
+
+(1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
+
 $$
-(1.1 * (50 /microL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
+\frac{1.1 * 50{\micro}L \mathrm{diluted PicoGreen * (#samples + # standards)}}{200} = \mathrm{vol of PicoGreen Stock}
 $$ {#eq-Pico1}
 
 ### **Equation 2** {.unnumbered}
