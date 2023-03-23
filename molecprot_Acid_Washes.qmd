@@ -1,4 +1,5 @@
-### **Cleaning the S-Blocks for reuse** {.unnumbered}
+# Cleaning Qiagen S-Blocks for reuse
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_Acid_Washes.qmd)
 
 After each use, the S-Blocks <span style="color:purple"> from the Qiagen plate extraction kit </span> must be sterilized for re-use.
 
