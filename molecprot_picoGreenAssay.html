@@ -61,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -666,7 +667,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><strong>Protocol</strong></a>
   <ul class="collapse">
   <li><a href="#run-plate-on-a-plate-reader-using-the-gen5-software." id="toc-run-plate-on-a-plate-reader-using-the-gen5-software." class="nav-link" data-scroll-target="#run-plate-on-a-plate-reader-using-the-gen5-software.">Run plate on a Plate Reader using the Gen5 software.</a></li>
-  <li><a href="#equation-1-eq-pico1" id="toc-equation-1-eq-pico1" class="nav-link" data-scroll-target="#equation-1-eq-pico1"><strong>Equation 1 {#eq-Pico1}</strong></a></li>
+  <li><a href="#equation-1" id="toc-equation-1" class="nav-link" data-scroll-target="#equation-1"><strong>Equation 1 </strong></a></li>
   <li><a href="#equation-2" id="toc-equation-2" class="nav-link" data-scroll-target="#equation-2"><strong>Equation 2</strong></a></li>
   <li><a href="#table-1" id="toc-table-1" class="nav-link" data-scroll-target="#table-1"><strong>TABLE 1</strong></a></li>
   <li><a href="#table-2" id="toc-table-2" class="nav-link" data-scroll-target="#table-2"><strong>TABLE 2</strong></a></li>
@@ -769,12 +770,14 @@ Important: PicoGreen vs.&nbsp;Quibit
 <p>Change in protocol? 88 samples quantified on plate reader (leaving one column open for standards + blanks), the rest quantified on qubit</p>
 <p>Add info: Inspect pico green standards curve - if it’s not linear REDO, it should be linear and R^2 should be 0.99 or higher</p>
 <p>Divide plate reader outputs by 2 to standardize measurements to qubit readings</p>
-<p></p>
+<p>I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated? </p>
 </section>
-<section id="equation-1-eq-pico1" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="equation-1-eq-pico1"><strong>Equation 1 {#eq-Pico1}</strong></h3>
-<p><span style="color:red"> Oh here they are! You can add links in Quarto <strong>?@eq-Pico1</strong> </span></p>
-<p>(1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = vol of Stock PicoGreen</p>
+<section id="equation-1" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="equation-1"><strong>Equation 1 </strong></h3>
+<p><span style="color:red"> Oh here they are! You can add links in Quarto e.g. <a href="#eq-Pico1">Equation&nbsp;1</a> (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculatng? The volume of stock that you will need?</span></p>
+<p><span id="eq-Pico1"><span class="math display">\[
+(1.1 * (50 /microL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
+\tag{1}\]</span></span></p>
 </section>
 <section id="equation-2" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="equation-2"><strong>Equation 2</strong></h3>
