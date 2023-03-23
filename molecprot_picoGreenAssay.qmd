@@ -47,6 +47,10 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 -   <span style="color:purple"> Lotterhos Lab centrifuge </span>
 
+-   <span style="color:purple"> Vortexer </span>
+
+-   <span style="color:purple"> Mini centrifuge </span>
+
 ::: {.callout-note}
 ## Important notes 
 -   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL. 
@@ -73,6 +77,10 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 -   Add 1 uL of sample to each of the sample wells and the appropriate amount of each ladder <span style="color:purple"> (Either Dilution 1 or Dilution 2) </span> to the standard wells according to Table 2. For example, add 25 uL of Ladder Dilution 1 to standard 1 well. 
 
 <span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span>
+
+<span style="color:purple"> Diagram of volumes of ladders and 1X TE required for each plate standard </span>
+<img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png">
+
 
 -   At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.
 
