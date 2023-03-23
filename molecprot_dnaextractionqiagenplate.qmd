@@ -6,7 +6,7 @@ The protocol for extracting DNA from a full plate with the Qiagen Tissue Kit.
 
 ------------------------------------------------------------------------
 
-This protocol is for oysters (Crassostrea virginica)
+This protocol is for oysters (_Crassostrea virginica_)
 
 ## **Materials and Equipment** {.unnumbered}
 
@@ -35,66 +35,101 @@ This protocol is for oysters (Crassostrea virginica)
 -   Easy Pet + Serological Tips <span style="color:red"> ADD TIPS SIZE </span>
 
 -   Liquid boats
+-   <span style="color:red"> 95% PURE ETOH for sample rinsing? ADD INFO FOR NAIVE USERSS, PRODUCT ID, and link to ETOH types </span>
+-   <span style="color:red"> 70% ETOH for cleaning? ADD INFO FOR NAIVE USERSS, PRODUCT ID, and link to ETOH types</span>
 
--   EtoH (100% - molecular grade) <span style="color:red"> ADD INFOR FOR ORDERING </span>
+-   EtoH (100% - molecular grade) <span style="color:red"> ADD INFOR FOR NAIVE USERS, PRODUCT ID, and link to ETOH types </span>
 
 -   Plastic sheet
+-   <span style="color:red"> ADD BLEACH SOLUTION FOR CLEANING AND LINK TO PROTOCOL </span>
 
 ### **Equipment** {.unnumbered}
 
--   Micro-scale (need to be able to measure down to 20mg)
+-   Micro-scale (need to be able to measure down to 20mg) <span style="color:red"> ADD MODEL OF SCALE FOR METHODS </span>
 
--   Thermo-mixer (with plate attachments - plates from kit are too tall for our Thermo-mixer) - check temperature ranges
+-   Thermo-mixer (with plate attachments - plates from kit are too tall for our Thermo-mixer) - check temperature ranges <span style="color:red"> ADD MODEL FOR METHODS </span>
 
--   Large centrifuge (Hughes lab centrifuge)
+-   Large centrifuge (Hughes lab centrifuge) <span style="color:red"> ADD MODEL FOR METHODS </span>
 
 -   Multichannel Pipette (300uL)
 
 ## **Protocol** {.unnumbered}
 
+Wear gloves for all steps in this process. Do not touch door handles or computers with gloves on (unless the keyboard says "gloves only").
+
 ### **Before Starting** {.unnumbered}
 
 -   Sample transfer: Samples will be in multiple boxes in freezer, but we only want to take a box out once to minimize sample degradation.
-    - We need a sample transfer plan which lists which samples in a given box will be going into which places on the tray
-    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.
+    - First, develop a sample transfer plan which lists which samples in a given box will be going into which places on the tray. Work with Dr. Lotterhos to develop the plan.
+    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays. <span style="color:red"> ADD A PHOTO OF THE ORDERED TRAY AND A SCREENSHOT OF THE DATA PLAN TO HELP NEW PEOPLE UNDERSTAND THIS STEP</span>
 
--   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C until precipitates have fully dissolved.
+-   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C until precipitates have fully dissolved. <span style="color:red"> SHOULDN'T THIS COME AFTER THE NEXT STEP AND SPECIFY TO WARM IN THE THERMO-MIXER? </span>
 
 -   Preheat thermo-mixer to 56 degrees C.
 
 ### **Tissue Lysing** {.unnumbered}
 
-1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by H2O, then 70% EtoH.
+1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by H2O <span style="color:red"> be specific - do you use ddH2O? we want to avoid people using tap water </span>, then 70% EtoH <span style="color:red"> be specific - which EtOH? </span>.
 
 2.  Get a styrofoam container with ice to keep tissue samples cool while prepping for extraction. 
 
 3.  Remove one plate of tissue from freezer and let thaw on counter (do not let them sit any longer than necessary). Once thawed they can be placed on ice (this generally won't cause them to re-freeze).
 
-4. Add 18 mL buffer ATL to a 25 mL liquid boat (enough for 100 samples). Add 180uL buffer ATL to each tissue collection tube using the P300 multichannel pipette. Don't pipette to the second stop as it will create too many bubbles. Keep samples covered with tinfoil unless actively pipetting buffer to prevent cross-contamination and minimize pipetting errors.
+4. Add 18 mL buffer ATL to a 25 mL liquid boat (enough for 100 samples). Add 180uL buffer ATL to each tissue collection tube <span style="color:red"> DO YOU MEAN EACH WELL IN THE PLATE </span> using the P300 multichannel pipette. Keep samples covered with tinfoil unless actively pipetting buffer to prevent cross-contamination and minimize pipetting errors. <span style="color:red"> WHY IS A COVER NEEDED HERE IF YOU ARE JUST ADDING BUFFER? </span>
+
+::: {.callout-tip}
+## Tip for pipetting
+
+_Drawing up liquid_. Check the amount on the pipette is correct. When pipetting, be sure only to push down on the plunger to the first stop and slowly release to pick up the liquid until your thumb comes completely off the plunger. If you go past the first stop, you will draw up more liquid than the amount you set on the pipette and/or create bubbles. If you push down and then release quickly to draw up liquid, it can cause aspiration and contaminate the pipette if you aren't using filtered tips. If you are using filtered tips, aspiration can cause liquid to land on the filter, so the pipette tip will hold less liquid than you specified. 
+
+_Check the pipette tip has the correct amount_. Look at the pipette tip, or all the pipette tips if using the multichannel. Does it have the amount of liquid that you expect? Are there air bubbles (other than a tiny bubble that often forms at the very apex of the tip)? If so, push out the liquid and restart.
+
+_Pushing out liquid_. Slowly push down on the plunger past the first stop until you reach the final stopping point for the plunger. Keep your thumb on the plunger until the tip of the pipette is completely removed from the solution. Drawing up your thumb before the tip is removed will suck up some of the solution. 
+
+_Check the pipette tip is empty_. After you push the liquid out, check the pipette tip again and make sure it is empty. Dispose of the tip in a EHS-labeled waste jar. If there is any liquid in the tip that didn't get pushed out or beads of liquid on the inside of the tip, proceed to the next step.
+
+_Solution is stuck in the pipette tip_. If there is any liquid in the tip that didn't get pushed out, carefully take the tip off. When you put the tip back on the pipette, some of the liquid may get pushed out, so carefully put the tip back on over the well where the solution needs to go. Then push down to the second stop and push the rest of the liquid out.
+:::
 
 6.  Tare piece of weighing paper on scale.
 
-7.  Carefully remove tissue from 2mL tube. Use a sterile razor blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+<span style="color:red"> If this requires three people, can you explain the roles of the 3 people? </span>
+
+7.  Carefully remove tissue from 2mL tube. Use a sterile razor <span style="color:red"> DO YOU MEAN SCALPEL? </span> blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry. <span style="color:red"> WHY IS A COVER NEEDED HERE IF YOU ARE JUST ADDING BUFFER? </span>
 
 8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
 
-**Note:** Between samples scalpel & forceps should be sterilized by spraying with EtoH and using a flame to burn off any residual EtoH and tissue.
+::: {.callout-important}
+## Important: Prevent cross-contamination
+Between samples, the scalpel & forceps should be sterilized by spraying <span style="color:red"> DO YOU SPRAY OR DIP IN ETOH? </span> with EtoH and using a flame to burn off any residual EtoH and tissue.
+:::
 
-9.  Record weight in lab notebook by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
 
+9.  Record weight in lab notebook <span style="color:red"> or app? </span> by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
+
+<span style="color:red"> can you add a photo of the plastic sheet? How do you sterilize it between samples? how do you prevent the hole from being contaminated? </span>
+
+::: {.callout-important}
 **Note:** Make sure tissue is all the way at the bottom of the well. 
+:::
 
 10. Add 2 mL Proteinase K to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL Proteinase K into each sample tube. 
 
 11.  Seal wells with caps, then place clear cover over rack. Use vortexer to mix samples, then centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
 
-12.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
+<span style="color:red"> what caps? can you add to list of materials? what do you mean by "clear cover over rack?" should we also specify to use the plate attachement for the vortexer? some photos here could help. Also, specify again the centrifuge in the Hughes lab because that always comes up. Where is the plastic extraction plate stored?  </span>
+
+12.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the plate attachement). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
 13.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed.
 
+<span style="color:red"> can we be more specific about the lysing time that we will use for all the samples? </span>
+
+<span style="color:red"> can we add instructions where data is entered in the App/Database - e.g. plate start/end time and lysing time </span>
+
 ### **Extraction** {.unnumbered}
 
-1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by H2O, then 70% EtoH.
+1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by H2O <span style="color:red"> be specific - do you use ddH2O? we want to avoid people using tap water </span>, then 70% EtoH.
 
 2.  After removing samples from the thermomixer, ensure microtubes are properly sealed, cover racks and shake vigorously for 15 seconds. Centrifuge for 30s at 4500 rpm to collect any solution from the caps. Hold down short spin button.
 
