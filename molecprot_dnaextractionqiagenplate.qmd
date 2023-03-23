@@ -177,6 +177,9 @@ Between samples, the scalpel & forceps should be sterilized by spraying <span st
 
 After each use, the S-Blocks must be sterilized for re-use.
 
+<span style="color:red"> I'M WONDERING IF WE SHOULDN'T PUT THIS AT THE BEGINNING, E.G. IT SHOULD BE DONE BEFORE THE EXTRACTION STARTS. HOW ARE WE GOING TO KEEP TRACK IF IT'S BEEN STERILIZED OR NOT? E.G. IF A LONG TIME HAS GONE BY AND A NEW GROUP OF PEOPLE COMES IN, IT WOULD BE BEST TO RE-STERILIZE ANYWAY </span>
+
+
 **Materials**
 
 - 0.4M HCl solution
