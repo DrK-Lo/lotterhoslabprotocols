@@ -1,16 +1,32 @@
-# Cleaning the S-Blocks for reuse
+### **Cleaning the S-Blocks for reuse** {.unnumbered}
 
-1. After each use, rinse the S-Blocks thoroughly in tap water
+After each use, the S-Blocks <span style="color:purple"> from the Qiagen plate extraction kit </span> must be sterilized for re-use.
 
-2. Incubate for 1 min at room temperature in 0.4M HCl
-- HCl is located in the corrosives cabinet
-- Place S-Block into 1000mL beaker. Place beaker into secondary container (large red plastic bin)
-- Carefully pour 0.4HCl over S-Block until S-Block is nearly submerged
-- To submerge, place another beaker filled with water on top of the S-Block to weight it down
+<span style="color:red"> HOW ARE WE GOING TO KEEP TRACK IF IT'S BEEN STERILIZED OR NOT? E.G. IF A LONG TIME HAS GONE BY AND A NEW GROUP OF PEOPLE COMES IN, IT WOULD BE BEST TO RE-STERILIZE ANYWAY </span>
 
-3. Wash S-Block thoroughly with distilled water
-- Transfer S-Block to another 1000mL beaker filled with distilled water
-- Submerge S-Block a few times to rinse
-- Over the sink, thoroughly rinse by pouring more distilled water over S-Block
+**Materials**
 
-4. Dispose of HCl and HCl-contaminated dH20 in large hazardous waste bottle (5L or 1 gal). 
+- 0.4M HCl solution
+- Glass 6in x 6in x 8in container for bath
+- ddH2O <span style="color:purple"> from Lotterhos lab, not from shared tap in MSC gel room </span> <span style="color:red"> add specifications, should be ordered not from MSC </span>
+- fume hood
+- container filled with ddH2O to submerge S-Block for rinsing
+
+1. We often keep a pre-made HCl bath in the clear <span style="color:purple"> glass container in the fumehood labeled "0.4 M HCl. for acid washing" </span> <span style="color:red"> I THOUGHT I ORDERED GLASS? how is this container labeled? </span> container in the fume hood. If making a new bath, and **add the quantity of acid to the quantity of water** not the other way around. 
+
+2. If a bath is not pre-made, prepare an 0.4M HCl bath <span style="color:purple"> in the glass container in the fume hood. </span> Calculate volume of HCl needed using C1V1 = C2V2 equation. Our HCl is 12M and located in the corrosives cabinet. For example, to get a total volume of 1.5L of 0.4M HCl, use the equation (12)(V1) = (0.4)(1.5) and use 50mL of 12M HCl <span style="color:red"> THIS SENTENCE WILL CONFUSE SOME READERS - recommend to specific how many mL of 12M HCl to add to ddH20, and where the H2O comes from -  I'm also confused why we need a full 1.5L to cover a small S-Block - can you double check </span>. 
+
+3. <span style="color:purple"> Get a red plastic container labelled "no animals", these are usually found near the sink. Move container into the fume hood and fill with enough tap water </span> <span style="color:red"> be specfic, what kind of water? </span> to submerge the S-Block. 
+
+4. Carefully submerge S-Block in 0.4M HCl bath for one minute. 
+
+5. Transfer S-Block to the water container and submerge a few times to rinse.
+
+6. Leave S-Block on drying rack above sink. 
+
+7. S-Blocks should be autoclaved after washing.
+
+8. If making a new HCl bath, dispose of HCl in <span style="color:purple"> large brown bottle with a hazardous waste label that says "hydrochloric acid, 1.25%", found under the RNA hood/PCR cabinet. Complete the transfer of HCl to the hazardous waste bottle in the fume hood </span> <span style="color:red"> THERE ARE MULTIPLE BOTTLES - make sure to dispose of in BOTTLE labelled </span>. 
+
+
+
