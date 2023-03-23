@@ -2,8 +2,13 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd)
 
-The protocol for checking quantification of DNA using the PicoGreen Assay on the Plate Reader.
+The protocol for checking quantification of DNA using the PicoGreen Assay on the Synergy HTX Plate Reader.
 
+
+::: {.callout-important}
+## Important: PicoGreen vs. Quibit
+Although the picogreen and quibit both use flourescence to quantify DNA, in our experience the amounts reported by PicoGreen are about twice the amounts reported by Quibit. Therefore, we recommend dividing the Picogreen amounts by 2 and using that number in your calculations. [Meeting notes](https://github.com/ModelValidationProgram/MVP_ProjectManagement/blob/main/meetings/20230321_meeting_drying.md)
+:::
 ------------------------------------------------------------------------
 
 ## **Background** {.unnumbered}
@@ -26,35 +31,53 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 -   DNA Ladder 100 ug/mL (comes with PicoGreen Kit)
 
+<span style="color:red"> ADD INFO FOR ORDERING PICOGREEN KIT </span>
+
 -   Synergy HTX plate reader in shared molecular space
+-   <span style="color:red"> Molecular grade H2O, add order info</span>
+
 
 ## **Important Notes** {.unnumbered}
+<span style="color:red"> MAKE A CALLOUT BOX? </span>
 
--   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL.
 
--   Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay.
+-   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL. 
+
+-   Samples should be diluted to be read within this range. For example, typical <span style="color:red"> QUBIT? </span>
+quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. <span style="color:red"> THEN YOU BACKTRANSFORM TO GET THE CORRECT AMOUNT? </span>. The steps below will explain this in more detail.
 
 -   PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.
 
--   The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90.
+-   The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:red"> ADD RECOMMENATION IF DOING A WHOLE PLATE, TO RUN THE 6 SAMPLES ON QUIBIT? </span>
+
 
 ## **Protocol** {.unnumbered}
 
--   Dilute your 20X TE to 1X TE by pipetting 9.5 mL of Molecular Grade H2O and 0.5 mL of 20X TE into a 15mL falcon tube. This solution is stable long term so you can make more than you will need and store for later use. If you will not be using frequently, you can also calculate exactly how much you need and just make enough for that use.
+-   Dilute your 20X TE to 1X TE by pipetting 9.5 mL of Molecular Grade H2O and 0.5 mL of 20X TE into a 15mL falcon tube. This solution is stable long term so you can make more than you will need and store for later use. If you will not be using it frequently, you can also calculate exactly how much you need and just make enough for that use.
 
--   Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. So for example, to make Dilution 1 at 2 ug/mL, combine 1 uL of stock ladder with 49 uL of 1X TE.
+-   Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. So for example, to make Dilution 1 at 2 ug/mL, combine 1 uL of stock ladder with 49 uL of 1X TE. <span style="color:red"> where is table 1? what is Dilution 1? is dilution 1 for samples or ladders? I guess these are explained in the kit? </span>
 
--   Pipette 49 uL of 1X TE in all sample wells and the appropriate volume of 1X TE into each standard well according to Table 2. For example for standard 1 pipette 25 uL of 1X TE in the appropriate well.
 
--   Add 1 uL of sample to each of the sample wells and the appropriate amount of each ladder to the standard wells according to Table 2. For example, add 25 uL of Ladder Dilution 1 to standard 1 well.
+-   Pipette 49 uL of 1X TE in all sample wells and the appropriate volume of 1X TE into each standard well according to Table 2. For example for standard 1, pipette 25 uL of 1X TE in the appropriate well.
+
+-   Add 1 uL of sample to each of the sample wells and the appropriate amount of each ladder to the standard wells according to Table 2. For example, add 25 uL of Ladder Dilution 1 to standard 1 well. 
+
+<span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span>
 
 -   At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.
 
+<span style="color:red"> where do the equations come from? we might not need them here, but readers need to know where to look. Maybe we should add an example for how we will do each oyster plate? </span>
+
 -   Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
 
--   Use a plate cover and briefly spin down the plate to get all liquid to the bottom of the well.
+<span style="color:red"> I may have missed it, but where is the step where the samples were added? Should we add pipetting tips here? </span>
 
--   Run plate on a Plate Reader using the Gen5 software. First turn on the machine to warm up (takes \~2-3 minutes)
+-   Use a plate cover and briefly spin down the plate to get all liquid to the bottom of the well.
+<span style="color:red"> where does the spin down happen? add to equipment </span>
+
+###  Run plate on a Plate Reader using the Gen5 software. 
+
+- First turn on the machine to warm up (takes \~2-3 minutes)
 
 -   Open Gen5 software and on the opening window make sure you are on the "Run Now" option on the left side column and click on the PicoGreen Assay full plate file.
 
@@ -68,7 +91,7 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 -   Highlight the first standard curve value in the left panel and click on the appropriate well where that value is located. You can click and drag down the column if they are all in a row.
 
--   Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled. \*\* You do not need to put water in empty wells can just leave empty \*\*
+-   Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled. ** You do not need to put water in empty wells can just leave empty ** <span style="color:red"> should this tip be moved up to plate preparation?? </span>
 
 -   When this is done click okay and the machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click "okay".
 
@@ -76,8 +99,21 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 -   Finally use XXX spreadsheet to convert absorbance values to associated concentrations.
 
-### **Equation 1** {.unnumbered}
+ <span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help
 
+Change in protocol? 88 samples quantified on plate reader (leaving one column open for standards + blanks), the rest quantified on qubit
+
+  Add info: 
+ Inspect pico green standards curve - if it’s not linear REDO, it should be linear and R^2 should be 0.99 or higher
+
+  Divide plate reader outputs by 2 to standardize measurements to qubit readings
+
+</span>
+
+### **Equation 1 {#eq-Pico1}** {.unnumbered}
+
+ <span style="color:red"> Oh here they are! You can add links in Quarto @eq-Pico1 </span>
+  
 (1.1 \* (50 uL diluted PicoGreen \* (#samples + #standards))/200 = vol of Stock PicoGreen
 
 ### **Equation 2** {.unnumbered}
