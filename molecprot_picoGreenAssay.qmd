@@ -108,17 +108,20 @@ Change in protocol? 88 samples quantified on plate reader (leaving one column op
 
   Divide plate reader outputs by 2 to standardize measurements to qubit readings
 
+ I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated?
 </span>
 
-### **Equation 1 {#eq-Pico1}** {.unnumbered}
+### **Equation 1 ** {.unnumbered}
 
- <span style="color:red"> Oh here they are! You can add links in Quarto @eq-Pico1 </span>
-  
-(1.1 \* (50 uL diluted PicoGreen \* (#samples + #standards))/200 = vol of Stock PicoGreen
+ <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculatng? The volume of stock that you will need?</span>
+ 
+$$
+(1.1 * (50 /microL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
+$$ {#eq-Pico1}
 
 ### **Equation 2** {.unnumbered}
 
-199 \* vol of Stock PicoGreen = vol of 1x TE
+199 * vol of Stock PicoGreen = vol of 1x TE
 
 ### **TABLE 1** {.unnumbered}
 
