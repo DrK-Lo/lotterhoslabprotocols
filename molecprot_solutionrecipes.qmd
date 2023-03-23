@@ -34,6 +34,8 @@ Recipes for solutions and reagents needed for lab protocols.
 | Bleach         | 10ml       |
 | DI Water       | 90ml       |
 
+-   DI water is located to the right of the sink in the blue lidded container with the blue valve.
+
 -   Solution is good for up to 7 days
 
 ### **0.5M EDTA (pH - 8)** {.unnumbered}
