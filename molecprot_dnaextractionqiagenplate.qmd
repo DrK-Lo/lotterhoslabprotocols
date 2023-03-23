@@ -72,6 +72,8 @@ Wear gloves for all steps in this process. Do not touch door handles or computer
     - First, develop a sample transfer plan which lists which samples in a given box will be going into which places on the tray. Work with Dr. Lotterhos to develop the plan.
     - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays. <span style="color:red"> ADD A PHOTO OF THE ORDERED TRAY AND A SCREENSHOT OF THE DATA PLAN TO HELP NEW PEOPLE UNDERSTAND THIS STEP</span>
 
+<span style="color:purple"> Ensure that if you are reusing S-blocks that they have been sterilized in an HCl bath and autoclaved prior to use. If they have not been or if you are unsure, follow [this protocol](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_Acid_Washes.html). If you are using a kit for the first time, you do not need to sterilize/HCl bath the block, as it is already sterile. </span>
+
 ::: {.callout-note}
 ## Organizing trays according to data plan
 
@@ -222,36 +224,4 @@ Spin column membrane should be dry after this step. Spin for an additional 1 min
 15.  Label plate and extracted DNA can be place in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.  <span style="color:purple"> Record time samples were put into the fridge/freezer in the app/datasheet. </span>
 
 <span style="color:red"> INFORMATION ON SAMPLE STORAGE AND FREEZE/THAW SHOULD BE ADDED TO APP/DATABASE </span>
-
-### **Cleaning the S-Blocks for reuse** {.unnumbered}
-
-After each use, the S-Blocks must be sterilized for re-use.
-
-<span style="color:red"> I'M WONDERING IF WE SHOULDN'T PUT THIS AT THE BEGINNING, E.G. IT SHOULD BE DONE BEFORE THE EXTRACTION STARTS. HOW ARE WE GOING TO KEEP TRACK IF IT'S BEEN STERILIZED OR NOT? E.G. IF A LONG TIME HAS GONE BY AND A NEW GROUP OF PEOPLE COMES IN, IT WOULD BE BEST TO RE-STERILIZE ANYWAY </span>
-
-
-**Materials**
-
-- 0.4M HCl solution
-- Glass 6in x 6in x 8in container for bath
-- ddH2O <span style="color:red"> add specifications, should be ordered not from MSC </span>
-- fume hood
-- container filled with ddH2O to submerge S-Block for rinsing
-
-**Optional:** S-Blocks can be autoclaved after washing, and additional S-Blocks can be ordered from Qiagen
-
-1. We often keep a pre-made HCl bath in the clear plastic <span style="color:red"> I THOUGHT I ORDERED GLASS? how is this container labeled? </span> container in the fume hood. A water bath is already made in the red plastic container <span style="color:red"> ?? can you be more specific?? </span>. If making a new bath, and **add the quantity of acid to the quantity of water** not the other way around. 
-
-2. If a bath is not pre-made, prepare an 0.4M HCl bath. Calculate volume of HCl needed using C1V1 = C2V2 equation. Our HCl is 12M and located in the corrosives cabinet. For example, to get a total volume of 1.5L of 0.4M HCl, use the equation (12)(V1) = (0.4)(1.5) and use 50mL of 12M HCl <span style="color:red"> THIS SENTENCE WILL CONFUSE SOME READERS - recommend to specific how many mL of 12M HCl to add to ddH20, and where the H2O comes from -  I'm also confused why we need a full 1.5L to cover a small S-Block - can you double check </span>. 
-
-3. If needed, prepare a container in the fume hood with enough water <span style="color:red"> be specfic, what kind of water? </span> to submerge the S-Block. 
-
-4. Carefully submerge S-Block in 0.4M HCl bath for one minute. 
-
-5. Transfer S-Block to the water container and submerge a few times to rinse
-
-6. Leave S-Block on drying rack above sink. 
-
-7. If making a new HCl bath, dispose of HCl and HCl-contaminated water in large hazardous waste bottle <span style="color:red"> THERE ARE MULTIPLE BOTTLES - make sure to dispose of in BOTTLE labeled ____ </span> under RNA hood (5L or 1 gal). 
-
 
