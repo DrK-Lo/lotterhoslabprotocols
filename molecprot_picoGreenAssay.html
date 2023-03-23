@@ -665,7 +665,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#important-notes" id="toc-important-notes" class="nav-link" data-scroll-target="#important-notes"><strong>Important Notes</strong></a></li>
   <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><strong>Protocol</strong></a>
   <ul class="collapse">
-  <li><a href="#equation-1" id="toc-equation-1" class="nav-link" data-scroll-target="#equation-1"><strong>Equation 1</strong></a></li>
+  <li><a href="#run-plate-on-a-plate-reader-using-the-gen5-software." id="toc-run-plate-on-a-plate-reader-using-the-gen5-software." class="nav-link" data-scroll-target="#run-plate-on-a-plate-reader-using-the-gen5-software.">Run plate on a Plate Reader using the Gen5 software.</a></li>
+  <li><a href="#equation-1-eq-pico1" id="toc-equation-1-eq-pico1" class="nav-link" data-scroll-target="#equation-1-eq-pico1"><strong>Equation 1 {#eq-Pico1}</strong></a></li>
   <li><a href="#equation-2" id="toc-equation-2" class="nav-link" data-scroll-target="#equation-2"><strong>Equation 2</strong></a></li>
   <li><a href="#table-1" id="toc-table-1" class="nav-link" data-scroll-target="#table-1"><strong>TABLE 1</strong></a></li>
   <li><a href="#table-2" id="toc-table-2" class="nav-link" data-scroll-target="#table-2"><strong>TABLE 2</strong></a></li>
@@ -683,7 +684,20 @@ ul.task-list li input[type="checkbox"] {
 <section id="picogreen-assay" class="level1">
 <h1>PicoGreen Assay</h1>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd">Edit this page</a></p>
-<p>The protocol for checking quantification of DNA using the PicoGreen Assay on the Plate Reader.</p>
+<p>The protocol for checking quantification of DNA using the PicoGreen Assay on the Synergy HTX Plate Reader.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important: PicoGreen vs.&nbsp;Quibit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Although the picogreen and quibit both use flourescence to quantify DNA, in our experience the amounts reported by PicoGreen are about twice the amounts reported by Quibit. Therefore, we recommend dividing the Picogreen amounts by 2 and using that number in your calculations. <a href="https://github.com/ModelValidationProgram/MVP_ProjectManagement/blob/main/meetings/20230321_meeting_drying.md">Meeting notes</a></p>
+</div>
+</div>
 <hr>
 <section id="background" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="background"><strong>Background</strong></h2>
@@ -699,42 +713,67 @@ ul.task-list li input[type="checkbox"] {
 <li><p>20X TE Buffer (comes with PicoGreen Kit)</p></li>
 <li><p>PicoGreen Dye (comes with PicoGreen Kit)</p></li>
 <li><p>DNA Ladder 100 ug/mL (comes with PicoGreen Kit)</p></li>
-<li><p>Synergy HTX plate reader in shared molecular space</p></li>
+</ul>
+<p><span style="color:red"> ADD INFO FOR ORDERING PICOGREEN KIT </span></p>
+<ul>
+<li>Synergy HTX plate reader in shared molecular space</li>
+<li><span style="color:red"> Molecular grade H2O, add order info</span></li>
 </ul>
 </section>
 <section id="important-notes" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="important-notes"><strong>Important Notes</strong></h2>
+<p><span style="color:red"> MAKE A CALLOUT BOX? </span></p>
 <ul>
 <li><p>Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL.</p></li>
-<li><p>Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay.</p></li>
+<li><p>Samples should be diluted to be read within this range. For example, typical <span style="color:red"> QUBIT? </span> quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. <span style="color:red"> THEN YOU BACKTRANSFORM TO GET THE CORRECT AMOUNT? </span>. The steps below will explain this in more detail.</p></li>
 <li><p>PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.</p></li>
-<li><p>The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90.</p></li>
+<li><p>The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:red"> ADD RECOMMENATION IF DOING A WHOLE PLATE, TO RUN THE 6 SAMPLES ON QUIBIT? </span></p></li>
 </ul>
 </section>
 <section id="protocol" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="protocol"><strong>Protocol</strong></h2>
 <ul>
-<li><p>Dilute your 20X TE to 1X TE by pipetting 9.5 mL of Molecular Grade H2O and 0.5 mL of 20X TE into a 15mL falcon tube. This solution is stable long term so you can make more than you will need and store for later use. If you will not be using frequently, you can also calculate exactly how much you need and just make enough for that use.</p></li>
-<li><p>Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. So for example, to make Dilution 1 at 2 ug/mL, combine 1 uL of stock ladder with 49 uL of 1X TE.</p></li>
-<li><p>Pipette 49 uL of 1X TE in all sample wells and the appropriate volume of 1X TE into each standard well according to Table 2. For example for standard 1 pipette 25 uL of 1X TE in the appropriate well.</p></li>
+<li><p>Dilute your 20X TE to 1X TE by pipetting 9.5 mL of Molecular Grade H2O and 0.5 mL of 20X TE into a 15mL falcon tube. This solution is stable long term so you can make more than you will need and store for later use. If you will not be using it frequently, you can also calculate exactly how much you need and just make enough for that use.</p></li>
+<li><p>Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. So for example, to make Dilution 1 at 2 ug/mL, combine 1 uL of stock ladder with 49 uL of 1X TE. <span style="color:red"> where is table 1? what is Dilution 1? is dilution 1 for samples or ladders? I guess these are explained in the kit? </span></p></li>
+<li><p>Pipette 49 uL of 1X TE in all sample wells and the appropriate volume of 1X TE into each standard well according to Table 2. For example for standard 1, pipette 25 uL of 1X TE in the appropriate well.</p></li>
 <li><p>Add 1 uL of sample to each of the sample wells and the appropriate amount of each ladder to the standard wells according to Table 2. For example, add 25 uL of Ladder Dilution 1 to standard 1 well.</p></li>
-<li><p>At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.</p></li>
-<li><p>Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.</p></li>
-<li><p>Use a plate cover and briefly spin down the plate to get all liquid to the bottom of the well.</p></li>
-<li><p>Run plate on a Plate Reader using the Gen5 software. First turn on the machine to warm up (takes ~2-3 minutes)</p></li>
+</ul>
+<p><span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span></p>
+<ul>
+<li>At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.</li>
+</ul>
+<p><span style="color:red"> where do the equations come from? we might not need them here, but readers need to know where to look. Maybe we should add an example for how we will do each oyster plate? </span></p>
+<ul>
+<li>Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.</li>
+</ul>
+<p><span style="color:red"> I may have missed it, but where is the step where the samples were added? Should we add pipetting tips here? </span></p>
+<ul>
+<li>Use a plate cover and briefly spin down the plate to get all liquid to the bottom of the well. <span style="color:red"> where does the spin down happen? add to equipment </span></li>
+</ul>
+<section id="run-plate-on-a-plate-reader-using-the-gen5-software." class="level3">
+<h3 class="anchored" data-anchor-id="run-plate-on-a-plate-reader-using-the-gen5-software.">Run plate on a Plate Reader using the Gen5 software.</h3>
+<ul>
+<li><p>First turn on the machine to warm up (takes ~2-3 minutes)</p></li>
 <li><p>Open Gen5 software and on the opening window make sure you are on the “Run Now” option on the left side column and click on the PicoGreen Assay full plate file.</p></li>
 <li><p>This will open another window with a full plate already loaded just click “cancel”</p></li>
 <li><p>Click “Plate Layout” on the top bar which will open a new window to edit with your standard curve and sample wells</p></li>
 <li><p>Clear plate by highlighting “EMPTY” on the left panel and click and drag across whole plate</p></li>
 <li><p>Then right click on the “STD” and click “edit” to change your standard curve values to what you set up for your plate when you are done editing click okay</p></li>
 <li><p>Highlight the first standard curve value in the left panel and click on the appropriate well where that value is located. You can click and drag down the column if they are all in a row.</p></li>
-<li><p>Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled. ** You do not need to put water in empty wells can just leave empty **</p></li>
+<li><p>Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled. ** You do not need to put water in empty wells can just leave empty ** <span style="color:red"> should this tip be moved up to plate preparation?? </span></p></li>
 <li><p>When this is done click okay and the machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click “okay”.</p></li>
 <li><p>The run should take ~2-3 minutes, then click on the “Statistics” tab and output that spreadsheet to an excel file by copy and pasting.</p></li>
 <li><p>Finally use XXX spreadsheet to convert absorbance values to associated concentrations.</p></li>
 </ul>
-<section id="equation-1" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="equation-1"><strong>Equation 1</strong></h3>
+<p><span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help</span></p>
+<p>Change in protocol? 88 samples quantified on plate reader (leaving one column open for standards + blanks), the rest quantified on qubit</p>
+<p>Add info: Inspect pico green standards curve - if it’s not linear REDO, it should be linear and R^2 should be 0.99 or higher</p>
+<p>Divide plate reader outputs by 2 to standardize measurements to qubit readings</p>
+<p></p>
+</section>
+<section id="equation-1-eq-pico1" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="equation-1-eq-pico1"><strong>Equation 1 {#eq-Pico1}</strong></h3>
+<p><span style="color:red"> Oh here they are! You can add links in Quarto <strong>?@eq-Pico1</strong> </span></p>
 <p>(1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = vol of Stock PicoGreen</p>
 </section>
 <section id="equation-2" class="level3 unnumbered">
