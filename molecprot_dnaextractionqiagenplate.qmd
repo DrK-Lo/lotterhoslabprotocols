@@ -20,7 +20,7 @@ This protocol is for oysters (Crassostrea virginica)
 
 ### **Additional Reagents and Consumables** {.unnumbered}
 
--   Sterile Scalpel blades + blue plastic disposal container
+-   Sterile Scalpel blades + blue plastic disposal container <span style="color:red"> ADD BLADE NUMBER </span>
 
 -   Alcohol lamp (requires minimum 90% ethanol)
 
@@ -30,13 +30,13 @@ This protocol is for oysters (Crassostrea virginica)
 
 -   Kim wipes
 
--   Pipette Tips (300uL)
+-   Pipette Tips (300uL) <span style="color:red"> ADD TIPS INFO FOR ORDERING </span>
 
--   Easy Pet + Serological Tips
+-   Easy Pet + Serological Tips <span style="color:red"> ADD TIPS SIZE </span>
 
 -   Liquid boats
 
--   EtoH (100% - molecular grade)
+-   EtoH (100% - molecular grade) <span style="color:red"> ADD INFOR FOR ORDERING </span>
 
 -   Plastic sheet
 
