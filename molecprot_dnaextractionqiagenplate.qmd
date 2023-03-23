@@ -129,18 +129,17 @@ _Solution is stuck in the pipette tip_. If there is any liquid in the tip that d
 8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
 
 ::: {.callout-important}
+**Note:** Make sure tissue is all the way at the bottom of the well. 
+:::
+
+::: {.callout-important}
 ## Important: Prevent cross-contamination
 Between samples, the scalpel & forceps should be sterilized by spraying <span style="color:red"> DO YOU SPRAY OR DIP IN ETOH? </span> <span style="color:purple"> spray </span> with EtoH and using a flame to burn off any residual EtoH and tissue. <span style="color:purple"> sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates. </span>
 :::
 
-
 9.  Record weight in lab notebook <span style="color:purple"> or app </span> by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
 
 <span style="color:red"> can you add a photo of the plastic sheet? How do you sterilize it between samples? how do you prevent the hole from being contaminated? </span>
-
-::: {.callout-important}
-**Note:** Make sure tissue is all the way at the bottom of the well. 
-:::
 
 10. Add 2 mL Proteinase K to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL Proteinase K into each sample tube. 
 
@@ -152,7 +151,7 @@ Vortexer plate attachment:
 
 <span style="color:red"> what caps? can you add to list of materials? what do you mean by "clear cover over rack?" should we also specify to use the plate attachement for the vortexer? some photos here could help. Also, specify again the centrifuge in the Hughes lab because that always comes up. Where is the plastic extraction plate stored?  </span>
 
-12.  Place samples on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the plate attachement). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
+12.  Place <span style="color:purple"> entire tube rack with individual tube caps and rack lid</span> on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the plate attachement). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
 13.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed. <span style="color:purple"> Samples can be in thermomixer from the time the tissue prep is finished until you are ready to start the extraction first thing the following morning (usually ~ 2pm to 9am the following day). </span>
 
@@ -160,34 +159,42 @@ Vortexer plate attachment:
 
 <span style="color:red"> can we add instructions where data is entered in the App/Database - e.g. plate start/end time and lysing time </span>
 
+::: {.callout-note}
+## Entering sample weights into the app
+Open the Seascape Samples Extractions app on your laptop or lab iPad (passcode is 0156). Select the plate you are extracting from on the home page, then select the extraction entry for the current extraction. Scroll down to Extraction_mg_tissue and click "Add." Enter data into all fields as prompted.
+:::
+
 ### **Extraction** {.unnumbered}
 
 <span style="color:red"> THROUGHOUT CAN YOU ADD INFO ON HOW EXTRA BUFFER IN WEIGH BOATS IS DISPOSED OF? </span>
 
 1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by <span style="color:purple"> DI H2O </span> <span style="color:red"> be specific - do you use ddH2O? we want to avoid people using tap water </span>, then 70% EtoH <span style="color:red"> be specific - which type of ETOH </span>.
 
-2.  After removing samples from the thermomixer, ensure microtubes <span style="color:red"> DO YOU MEAN PLATE WELLS? </span> are properly sealed, cover racks <span style="color:red"> WHAT DO YOU MEAN BY COVER RACKS? </span> and shake vigorously for 15 seconds <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>. Centrifuge for 30s at 4500 rpm to collect any solution from the caps. Hold down short spin button.
+2.  After removing entire tube rack with the samples from the thermomixer, ensure microtubes <span style="color:purple"> in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid </span> <span style="color:red"> DO YOU MEAN PLATE WELLS? </span> are properly sealed, cover racks <span style="color:red"> WHAT DO YOU MEAN BY COVER RACKS? </span> and shake vigorously <span style="color:purple"> by hand </span>for 15 seconds <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>. Centrifuge <span style="color:purple"> in the Hughes lab centrifuge </span>for 30s at 4500 rpm to collect any solution from the caps. Hold down short spin button.
 
-3.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use <span style="color:red"> the E-Pet pipette to transfer </span> 45 mL Buffer AL in a 50mL liquid boat. Tightly reseal with new caps.
+::: {.callout-important}
+## Buffer AL prep
+Ensure ethanol has been added to Buffer AL according to instructions on the container
+:::
+
+3.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use <span style="color:purple"> 25 mL serological pipette tips with </span> <span style="color:red"> the E-Pet pipette to transfer </span> 45 mL Buffer AL in a 50mL liquid boat. <span style="color:purple"> If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. </span> Tightly reseal with new caps.
 
 ::: {.callout-important}
 ## Disposing of extra buffers
 Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 'Waste liquid extraction buffer' in the hazardous waste accumulation area under the RNA hood. 
 :::
 
-4.  Place clear cover over the rack and shake vigorously for 15s <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>, then centrifuge 30s at 4500 rpm to collect any solution from the caps. <span style="color:red"> ARE WE STILL USING HUGHES CENTRIFUGE? </span>
-
-**Note:** Ensure ethanol has been added to Buffer AL according to instructions on the container. <span style="color:red"> SHOULDN'T THIS COME BEFORE STEP 3? </span>
+4.  Place clear cover over the rack and shake vigorously for 15s <span style="color:purple"> by hand </span> <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>, then centrifuge 30s at 4500 rpm to collect any solution from the caps. <span style="color:red"> ARE WE STILL USING HUGHES CENTRIFUGE? </span>
 
 5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key.
 
-6.  Carefully remove caps & transfer the lysate (up to 600μl) of each sample to the new wells using the 300μl multichannel pipette (set to 290μl). Pop any bubbles using a  pipette tip. <span style="color:red"> CAN WE BE MORE SPECIFIC? IS 600UL OF 290UL TRANSFERED? </span>
+6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the <span style="color:purple"> corresponding wells on the DNeasy 96 plate. Set the P300 multichannel pipette to 290 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. There's usually about 600 uL total lysate in each sample. </span> Pop any bubbles using a  pipette tip. <span style="color:red"> CAN WE BE MORE SPECIFIC? IS 600UL OF 290UL TRANSFERED? </span> <span style="color:purple"> Dispose of empty collection microtubes and blue tube rack in the mayo jar. </span>
 
 <span style="color:red"> HOW IS ADDITIONAL LYSATE DISPOSED? </span>
 
 <span style="color:red"> I THINK MOST OF THESE STEPS CAN BE USED WITH UNFILTERED TIPS BECAUSE LIQUID IS JUST BEING TRANSFERED INTO THE SAMPLES, BUT I WONDER WITH STEP 6 ABOVE IF WE SHOULDN'T USE FILTERED TIPS BECAUSE TRANFERING THE SAMPLES COULD CAUSE CROSS-CONTAMINATION IF ASPIRATION OCCURS </span>
 
-7.  Seal the plate with an AirPore tape sheet <span style="color:red"> ADD TO LIST OF MATERIALS NEEDED WITH ORDERING INFO </span> and centrifuge at 4500 rpm for 13 min.
+7.  Seal the plate with an AirPore tape sheet <span style="color:purple">, which comes with the Qiagen kit. </span> <span style="color:red"> ADD TO LIST OF MATERIALS NEEDED WITH ORDERING INFO </span> and centrifuge at 4500 rpm for 13 min.
 
 8.  Remove tape and carefully add 500μl of Buffer AW1 to each sample. Use the 300μl multichannel pipette and add 250μl Buffer AW1 twice. This will require ~55mL of buffer AW1 in a liquid boat.
 
@@ -197,19 +204,24 @@ Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 
 
 11. Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 20 min. 
 
-**Note:** Spin column membrane should be dry after this step. Spin for an additional 1 min if not.
+::: {.callout-note}
+## Check spin column membrane
+Spin column membrane should be dry after this step. Spin for an additional 1 min if not.
+:::
 <span style="color:red"> MOVE NOTES INTO CALLOUT BLOCKS? https://quarto.org/docs/authoring/callouts.html </span>
 
 12.  Transfer the DNeasy 96 plate on a rack of Elution Microtubes RS.
 
-13.  Elute the DNA by adding 200μl of Low TE Buffer to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of low TE. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm, and seal elution microtubes with new caps.
+13.  Elute the DNA by adding 200μl of Low TE Buffer to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of low TE. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm, and seal elution microtubes with new caps. 
+
+
+14. <span style="color:purple"> Add the elution buffer data to the app/database. </span>
 
 <span style="color:red"> ELUTION BUFFER DATA ADDED TO APP/DATABASE </span>
 
-14.  Label plate and extracted DNA can be place in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.
+15.  Label plate and extracted DNA can be place in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.  <span style="color:purple"> Record time samples were put into the fridge/freezer in the app/datasheet. </span>
 
 <span style="color:red"> INFORMATION ON SAMPLE STORAGE AND FREEZE/THAW SHOULD BE ADDED TO APP/DATABASE </span>
-
 
 ### **Cleaning the S-Blocks for reuse** {.unnumbered}
 
