@@ -119,8 +119,7 @@ Change in protocol? 88 samples quantified on plate reader (leaving one column op
 (1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
 
 $$
-\frac{1.1 * 50{\micro}L \mathrm{diluted PicoGreen * (#samples + # standards)}}{200} = \mathrm{vol of PicoGreen Stock}
-$$ {#eq-Pico1}
+\frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol of PicoGreen Stock needed}$$ {#eq-Pico1}
 
 ### **Equation 2** {.unnumbered}
 
