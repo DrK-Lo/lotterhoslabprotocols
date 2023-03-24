@@ -138,7 +138,7 @@ Change in protocol? 88 samples quantified on plate reader (leaving one column op
 
 - The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values to ng/uL using the following steps.
 
-1. Plot your standards in a scatter plot with concentration in ng/uL on the x axis and RFU on the y axis. 
+1. Plot your standards in a scatter plot with concentration in ng/mL on the x axis and RFU on the y axis. 
 
 ### Equation 1 {.unnumbered}
 
@@ -154,7 +154,7 @@ $$
 
 ### Equation 2 {.unnumbered}
 
-$$ 199 * vol of Stock PicoGreen = vol of 1x TE$$ {eq-Pico2}
+$$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
 
 ### **TABLE 1** {.unnumbered}
 
