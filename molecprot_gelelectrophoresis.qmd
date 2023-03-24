@@ -38,7 +38,7 @@ We are Ethidium-Bromide Free!
     
 6.	Pour the gel.
     a.	Use masking tape to create walls on either side of the tray to contain the solution when poured. Test tape by filling tray with water first. Use multiple layers of tape to make sure it doesn’t leak. <span style="color:red"> add a photo </span>
-    ![IMG_8723](https://user-images.githubusercontent.com/122108419/227598240-f3a75e30-ec48-43d4-8a6e-9490e2cf21a6.png)
+    ![image](https://user-images.githubusercontent.com/122108419/227598240-f3a75e30-ec48-43d4-8a6e-9490e2cf21a6.png)
         i.	If you are having issues with this method, you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set.  <span style="color:red"> add a photo </span>
     b.	Pour gel slowly to avoid bubbles.
         i.	If bubbles form, you can remove or pop them using the casting combs.
@@ -67,11 +67,11 @@ We are Ethidium-Bromide Free!
     a.	If there is any gel inside the wells, clean them out by pipetting up TAE and expelling it into the wells
     b.	Cut a piece of parafilm and tape to benchtop.
     c.	Using a pipette, add dots of 6X loading dye (1 for each sample) to parafilm.
-    ![IMG_8725](https://user-images.githubusercontent.com/122108419/227598955-18de9630-d458-471c-8d21-685d44ce709e.png)
+    ![image](https://user-images.githubusercontent.com/122108419/227598955-18de9630-d458-471c-8d21-685d44ce709e.png)
         i.	Centrifuge the loading dye and the ladder briefly so that the the liquid is not on the sides. 
         ii.	The loading dye is blue and can be found in the -20 freezer. 
     d.	Using a pipette, add DNA sample to a dot of loading dye.
-    ![IMG_8726](https://user-images.githubusercontent.com/122108419/227599000-1ed1ec43-4996-425e-9977-e8e55ac612b6.png)
+    ![image](https://user-images.githubusercontent.com/122108419/227599000-1ed1ec43-4996-425e-9977-e8e55ac612b6.png)
     i.	We use 3ul DNA + 1ul loading dye.
     e.	Mix by pipetting up and down slowly 3+ times.
     f.	Pipette 3 ul of the dye/sample solution into the proper well of the gel.
