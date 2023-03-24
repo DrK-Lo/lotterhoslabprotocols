@@ -55,8 +55,8 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 - <span style="color:purple"> 1000ul single channel, 2.5ul single channel, 10ul single channel, 100ul single channel, 100ul multichannel, and 10ul multichannel pipettes and tips </span>
 
+## **Important Notes** {.unnumbered}
 ::: {.callout-note}
-## Important notes 
 -   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL. 
 
 -   Samples should be diluted to be read within this range. For example, typical <span style="color:red"> QUBIT? </span>
@@ -67,7 +67,6 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 -   The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:purple"> For a full plate of 96 samples, you can run standards in the first column and samples in the remaining 11 columns. This would account for 88 samples and you could quantify the remaining 8 samples with Qubit. </span> <span style="color:red"> ADD RECOMMENATION IF DOING A WHOLE PLATE, TO RUN THE 6 SAMPLES ON QUIBIT? </span>
 :::
 
-## **Important Notes** {.unnumbered}
 <span style="color:red"> MAKE A CALLOUT BOX? </span> <span style="color:purple"> callout box above </span> 
 
 ## **Protocol** {.unnumbered}
@@ -78,9 +77,9 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 -   Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. <span style="color:purple"> To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap tube. Vortex and spin Dilution 1 in the mini centrifuge. To make Dilution 2, use the P2.5 and P10 single channel pipettes combine 1uL of Dilution 1 and 9uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. </span> <span style="color:red"> where is table 1? what is Dilution 1? is dilution 1 for samples or ladders? I guess these are explained in the kit? </span>
 
--   <span style="color:purple"> Pour the 1X TE from the falcon tube into a liquid boat. Using the P100 multichannel, </span> pipette 49 uL of 1X TE in all sample wells. <span style="color:purple"> Using the corresponding pipette, add </span> the appropriate volume of 1X TE into each standard well according to Table 2. For example, for standard 1, <span style="color:purple"> use the P100 single channel and </span> pipette 25 uL of 1X TE in the appropriate well.
+-   <span style="color:purple"> Pour the 1X TE from the falcon tube into a liquid boat. Using the P100 multichannel, </span> pipette 49 uL of 1X TE in all sample wells. <span style="color:purple"> Using the correct pipette, add </span> the appropriate volume of 1X TE into each standard well according to Table 2. For example, for standard 1, <span style="color:purple"> use the P100 single channel and </span> pipette 25 uL of 1X TE in the appropriate well.
 
--   Add 1 uL of sample to each of the sample wells and the appropriate amount of each ladder <span style="color:purple"> (Either Dilution 1 or Dilution 2) </span> to the standard wells according to Table 2. For example, add 25 uL of Ladder Dilution 1 to standard 1 well. 
+-   <span style="color:purple"> Use the P10 multichannel pipette to add 1 uL of the diluted DNA </span> to each of the sample wells and the appropriate amount of each ladder <span style="color:purple"> (Either Dilution 1 or Dilution 2) </span> to the standard wells according to Table 2. For example, add 25 uL of Ladder Dilution 1 to standard 1 well. 
 
 <span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span>
 
