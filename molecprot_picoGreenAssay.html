@@ -668,12 +668,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><strong>Protocol</strong></a>
   <ul class="collapse">
   <li><a href="#run-plate-on-a-plate-reader-using-the-gen5-software." id="toc-run-plate-on-a-plate-reader-using-the-gen5-software." class="nav-link" data-scroll-target="#run-plate-on-a-plate-reader-using-the-gen5-software.">Run plate on a Plate Reader using the Gen5 software.</a></li>
-  <li><a href="#equation-1" id="toc-equation-1" class="nav-link" data-scroll-target="#equation-1"><strong>Equation 1 </strong></a></li>
-  <li><a href="#equation-2" id="toc-equation-2" class="nav-link" data-scroll-target="#equation-2"><strong>Equation 2</strong></a></li>
+  <li><a href="#equation-1eq-pico1" id="toc-equation-1eq-pico1" class="nav-link" data-scroll-target="#equation-1eq-pico1">Equation 1{#eq-Pico1}</a></li>
+  <li><a href="#equation-2eq-pico2" id="toc-equation-2eq-pico2" class="nav-link" data-scroll-target="#equation-2eq-pico2">Equation 2(<strong>?@eq-Pico2</strong>)</a></li>
   <li><a href="#table-1" id="toc-table-1" class="nav-link" data-scroll-target="#table-1"><strong>TABLE 1</strong></a></li>
   <li><a href="#table-2" id="toc-table-2" class="nav-link" data-scroll-target="#table-2"><strong>TABLE 2</strong></a></li>
   <li><a href="#table-3" id="toc-table-3" class="nav-link" data-scroll-target="#table-3"><strong>TABLE 3</strong></a></li>
   </ul></li>
+  <li><a href="#interpreting-plate-reader-results" id="toc-interpreting-plate-reader-results" class="nav-link" data-scroll-target="#interpreting-plate-reader-results">Interpreting Plate Reader Results</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -713,7 +714,7 @@ Important: PicoGreen vs.&nbsp;Quibit
 <li><p>Two - 15 mL Falcon tubes</p></li>
 <li><p>Two - 0.2 mL snap cap tubes for ladder dilutions</p></li>
 <li><p>Samples diluted to appropriate concentration to be read on the plate reader</p></li>
-<li><p><span style="color:purple"> Materials from Quant-It PicoGreen dsDNA Assay Kit, cat #P7589</span></p>
+<li><p><span style="color:purple"> Materials from Invitrogen Quant-It PicoGreen dsDNA Assay Kit, cat #P7589</span></p>
 <ul>
 <li><p>20X TE Buffer</p></li>
 <li><p>PicoGreen Dye</p></li>
@@ -769,9 +770,10 @@ Note
 <p><span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span></p>
 <p><span style="color:purple"> Diagram of volumes of ladders and 1X TE required for each plate standard </span> <img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png"></p>
 <ul>
-<li>At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.</li>
+<li><p><span style="color=purple"> At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. &lt;span)</span></p></li>
+<li><p>At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 <a href="#eq-Pico1">Equation&nbsp;1</a> to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.</p></li>
 </ul>
-<p><span style="color:red"> where do the equations come from? we might not need them here, but readers need to know where to look. Maybe we should add an example for how we will do each oyster plate? </span></p>
+<p><span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span></p>
 <ul>
 <li>Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.</li>
 </ul>
@@ -789,7 +791,7 @@ Note
 <li><p>Clear plate by highlighting “EMPTY” on the left panel and click and drag across whole plate</p></li>
 <li><p>Then right click on the “STD” and click “edit” to change your standard curve values to what you set up for your plate when you are done editing click okay</p></li>
 <li><p>Highlight the first standard curve value in the left panel and click on the appropriate well where that value is located. You can click and drag down the column if they are all in a row.</p></li>
-<li><p>Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled. ** You do not need to put water in empty wells can just leave empty ** <span style="color:red"> should this tip be moved up to plate preparation?? </span></p></li>
+<li><p>Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled.</p></li>
 <li><p>When this is done click okay and the machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click “okay”.</p></li>
 <li><p>The run should take ~2-3 minutes, then click on the “Statistics” tab and output that spreadsheet to an excel file by copy and pasting.</p></li>
 <li><p>Finally use XXX spreadsheet to convert absorbance values to associated concentrations.</p></li>
@@ -800,15 +802,16 @@ Note
 <p>Divide plate reader outputs by 2 to standardize measurements to qubit readings</p>
 <p>I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated? </p>
 </section>
-<section id="equation-1" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="equation-1"><strong>Equation 1 </strong></h3>
-<p><span style="color:red"> Oh here they are! You can add links in Quarto e.g. <a href="#eq-Pico1">Equation&nbsp;1</a> (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculatng? The volume of stock that you will need? Also it looks like there is a parenetheses missing here. Should we move up the equation to where it is cited? </span></p>
+<section id="equation-1eq-pico1" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="equation-1eq-pico1">Equation 1{#eq-Pico1}</h3>
+<p>Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.</p>
+<p><span style="color:red"> Oh here they are! You can add links in Quarto e.g. <a href="#eq-Pico1">Equation&nbsp;1</a> (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculating? The volume of stock that you will need? Also it looks like there is a parenetheses missing here. Should we move up the equation to where it is cited? </span></p>
 <p>(1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)</p>
 <p><span id="eq-Pico1"><span class="math display">\[
 \frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol of PicoGreen Stock needed} \tag{1}\]</span></span></p>
 </section>
-<section id="equation-2" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="equation-2"><strong>Equation 2</strong></h3>
+<section id="equation-2eq-pico2" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="equation-2eq-pico2">Equation 2(<strong>?@eq-Pico2</strong>)</h3>
 <p>199 * vol of Stock PicoGreen = vol of 1x TE</p>
 </section>
 <section id="table-1" class="level3 unnumbered">
@@ -945,9 +948,15 @@ Note
 </tr>
 </tbody>
 </table>
-
-
 </section>
+</section>
+<section id="interpreting-plate-reader-results" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-plate-reader-results">Interpreting Plate Reader Results</h2>
+<ul>
+<li>The</li>
+</ul>
+
+
 </section>
 </section>
 
