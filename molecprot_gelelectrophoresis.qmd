@@ -78,7 +78,7 @@ We are Ethidium-Bromide Free!
     g.	Repeat for each sample
         i.	Change your pipette tip for each sample.
         ii.	Make sure to use new dot of dye for each sample.
-	
+
 	<span style="color:red"> add a photo of the parafilm technique. I also recommend looking for the dye in the correct well after you pipette it, and checking to see if the agarose around the well breaks. Add callout box to make sure not break the agarose or to stick the pipette tip into the well so far that it ejects into the agarose. Add callout box that any accidents with breaking agarose around the well should be noted. </span>
 	
 	<span style="color:red"> when running a plate, I think we should have a standard layout for how a gel should be loaded from the plate. Draw up a conceptual visualization and add the image here. </span>
@@ -100,6 +100,8 @@ We are Ethidium-Bromide Free!
     b.	Check for bubbles rising at cathode (black plug) side to ensure the rig is working. If you do not see bubbles rising, the gel is not running.
     
     <span style="color:red"> add an image </span>
+    
+https://user-images.githubusercontent.com/122108419/227600188-434bad92-3efc-433a-9fe5-2f391d6d55d0.MOV
     
     c.	When the gel is done running, turn the off power. 
         i.	Never open the rig when the power is on.
