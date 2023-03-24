@@ -72,7 +72,7 @@ We are Ethidium-Bromide Free!
         i.	Centrifuge the loading dye and the ladder briefly so that the the liquid is not on the sides. 
         ii.	The loading dye is blue and can be found in the -20 freezer. 
     d.	Using a pipette, add DNA sample to a dot of loading dye.
-    ![](/img/Parafilm_mixing.jpg)
+    ![](img/Parafilm_mixing.jpg)
     i.	We use 3ul DNA + 1ul loading dye.
     e.	Mix by pipetting up and down slowly 3+ times.
     f.	Pipette 3 ul of the dye/sample solution into the proper well of the gel.
