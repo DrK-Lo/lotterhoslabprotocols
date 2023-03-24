@@ -92,8 +92,6 @@ We are Ethidium-Bromide Free!
     a.	Typically, 2ul ladder.
         i.	We use the Generuler 1kb Plus DNA.
         ii.	Aliquots of ladder can be found in the  -20 freezer. 
-	
-	
         
 13.	Run the gel.
     a.	Put the gel box cover into place.
@@ -103,6 +101,7 @@ We are Ethidium-Bromide Free!
 	<span style="color:red"> If we have a 300 V power supply, can it handle 3 units running at 130 V at the same time? add saftey info. I wonder if this is why power supplies are breaking... </span>
 	
     b.	Check for bubbles rising at cathode (black plug) side to ensure the rig is working. If you do not see bubbles rising, the gel is not running.
+    ![](/img/Gel_bubbles.MOV)
     
     <span style="color:red"> add an image </span>
     
