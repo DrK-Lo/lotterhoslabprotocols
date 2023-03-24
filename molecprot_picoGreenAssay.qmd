@@ -27,7 +27,7 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 -   Samples diluted to appropriate concentration to be read on the plate reader
 
-- <span style="color:purple"> Materials from Quant-It PicoGreen dsDNA Assay Kit, cat #P7589
+- <span style="color:purple"> Materials from Invitrogen Quant-It PicoGreen dsDNA Assay Kit, cat #P7589
  
   - 20X TE Buffer 
  
@@ -86,9 +86,11 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 <span style="color:purple"> Diagram of volumes of ladders and 1X TE required for each plate standard </span>
 <img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png">
 
--   At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.
+- <span style="color=purple"> At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. <span)
 
-<span style="color:red"> where do the equations come from? we might not need them here, but readers need to know where to look. Maybe we should add an example for how we will do each oyster plate? </span>
+-   At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 @eq-Pico1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.
+
+<span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span>
 
 -   Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
 
@@ -113,7 +115,7 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 -   Highlight the first standard curve value in the left panel and click on the appropriate well where that value is located. You can click and drag down the column if they are all in a row.
 
--   Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled. ** You do not need to put water in empty wells can just leave empty ** <span style="color:red"> should this tip be moved up to plate preparation?? </span>
+-   Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled.
 
 -   When this is done click okay and the machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click "okay".
 
@@ -133,9 +135,11 @@ Change in protocol? 88 samples quantified on plate reader (leaving one column op
  I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated?
 </span>
 
-### **Equation 1 ** {.unnumbered}
+### Equation 1{#eq-Pico1} {.unnumbered}
 
- <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculatng? The volume of stock that you will need? Also it looks like there is a parenetheses missing here. Should we move up the equation to where it is cited? </span>
+Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
+
+ <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculating? The volume of stock that you will need? Also it looks like there is a parenetheses missing here. Should we move up the equation to where it is cited? </span>
  
 
 (1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
@@ -143,7 +147,7 @@ Change in protocol? 88 samples quantified on plate reader (leaving one column op
 $$
 \frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol of PicoGreen Stock needed}$$ {#eq-Pico1}
 
-### **Equation 2** {.unnumbered}
+### Equation 2(@eq-Pico2) {.unnumbered}
 
 199 * vol of Stock PicoGreen = vol of 1x TE
 
@@ -172,3 +176,7 @@ $$
 | 1X TE       | 49              |
 | sample      | 1               |
 | dil PG      | 50              |
+
+## Interpreting Plate Reader Results
+
+- The
