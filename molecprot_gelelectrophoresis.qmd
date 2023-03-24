@@ -10,32 +10,35 @@ We are Ethidium-Bromide Free!
 
 <span style="color:red"> can you add some context on how we landed on a 1% gel instead of 2% </span>
 
-1.	Mix the gel components.  
+1.  <span style="color:purple"> Dilute 10X TAE Buffer to 1X. Measure 900mL MilliQ H20 and 100mL 10X TAE in the large plastic graduated cyliner. Combine and store in a 1L labelled glass bottle. The recipe for making more 10X TAE Buffer is below and [here](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) </span> 
+
+2.	Mix the gel components.  
     a. For a 1% agarose gel:
-	    i. Small gel: 0.60g agarose + 60 ml 1X TAE Buffer <span style="color:red"> add links to recipe </span>
+	    i. Small gel: 0.60g agarose + 60 ml 1X TAE Buffer <span style="color:red"> add links to recipe </span> 
 	    
 	    ii: Medium gel: 1 g agarose + 100 mL 1X TAE Buffer
     b.	Add agarose, then 1X TAE to an Erlenmeyer flask.
     c.	Use the magnetic stirring plate (put a magnet inside the Erlenmeyer flask) to mix. Turn the RPM into the 1000s until all the clumps are gone. 
     
-2.	Melt the gel.
+3.	Melt the gel.
     a.	Microwave the flask with agarose mixture for ~30 seconds. 
         i.	Always watch for boiling. If mixture begins to bubble, remove it immediately and carefully swirl until bubbles are gone.
     b.	With hot mitt, remove the flask from microwave and gently swirl.
         i.	Be careful—it will be hot! Hold the flask away from you and gently swirl to avoid splashing.
     c.	Return the flask to microwave and continue heating for another 30-40 seconds until mixture is clear and there are no agarose particles.
     
-3.	Allow to cool.
+4.	Allow to cool.
     a.	Gently swirl while cooling. The solution should be cool enough to hold in the palm of your hand. This can take a couple minutes, please be patient. 
     
-4.	Add GelRed:
+5.	Add GelRed:
     a.	Small gel: 6ul.
     b.  Medium gel: 10 uL
         i. 	GelRed can be found in the drawer labeled “Lotterhos” in the shared wet lab/gel room. 
     c.	Gently swirl until the stain is dissolved (you should not be able to see any red stain in the gel).
     
-5.	Pour the gel.
+6.	Pour the gel.
     a.	Use masking tape to create walls on either side of the tray to contain the solution when poured. Test tape by filling tray with water first. Use multiple layers of tape to make sure it doesn’t leak. <span style="color:red"> add a photo </span>
+    ![IMG_8723](https://user-images.githubusercontent.com/122108419/227598240-f3a75e30-ec48-43d4-8a6e-9490e2cf21a6.png)
         i.	If you are having issues with this method, you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set.  <span style="color:red"> add a photo </span>
     b.	Pour gel slowly to avoid bubbles.
         i.	If bubbles form, you can remove or pop them using the casting combs.
@@ -43,28 +46,32 @@ We are Ethidium-Bromide Free!
         i.	There are 2 pairs of combs for each size gel; one will create wider wells than the other. You can use either set of combs. 
     d.	Rinse out the flask and leave upside down to dry on a paper towel.
 
-6.	Let the gel set for ~40 minutes.
+7.	Let the gel set for ~40 minutes.
     a.	The gel should be solid, cool to the touch, and opaque.
     b.	Once gel is set, remove the tape and combs.
         i.	Remove combs slowly, pulling straight up.
         
-7.	Make sure that the power source is off, and the gel rig is unplugged before removing the top.
+8.	Make sure that the power source is off, and the gel rig is unplugged before removing the top.
 
-8.	Place the tray with your gel in the gel rig with wells on the side with the black plug 
+9.	Place the tray with your gel in the gel rig with wells on the side with the black plug 
     a.	Samples will run from the black side toward red side.
     b.	DNA “runs to red”
     <span style="color:red"> add a photo </span>
+    <img width="299" alt="Screen Shot 2023-03-24 at 1 37 35 PM" src="https://user-images.githubusercontent.com/122108419/227599823-a24f1a01-58bb-4c51-b04f-c04bc3ba4ee3.png">
+
    
-9.	Fill rig with enough 1X TAE Buffer to just cover the entire gel.
+10.	Fill rig with enough 1X TAE Buffer to just cover the entire gel.
     a.	The rig doesn’t need to be filled all the way to the line, just enough to cover the gel.
     
-10.	Load the gel.
+11.	Load the gel.
     a.	If there is any gel inside the wells, clean them out by pipetting up TAE and expelling it into the wells
     b.	Cut a piece of parafilm and tape to benchtop.
     c.	Using a pipette, add dots of 6X loading dye (1 for each sample) to parafilm.
+    ![IMG_8725](https://user-images.githubusercontent.com/122108419/227598955-18de9630-d458-471c-8d21-685d44ce709e.png)
         i.	Centrifuge the loading dye and the ladder briefly so that the the liquid is not on the sides. 
         ii.	The loading dye is blue and can be found in the -20 freezer. 
     d.	Using a pipette, add DNA sample to a dot of loading dye.
+    ![IMG_8726](https://user-images.githubusercontent.com/122108419/227599000-1ed1ec43-4996-425e-9977-e8e55ac612b6.png)
     i.	We use 3ul DNA + 1ul loading dye.
     e.	Mix by pipetting up and down slowly 3+ times.
     f.	Pipette 3 ul of the dye/sample solution into the proper well of the gel.
@@ -76,14 +83,14 @@ We are Ethidium-Bromide Free!
 	
 	<span style="color:red"> when running a plate, I think we should have a standard layout for how a gel should be loaded from the plate. Draw up a conceptual visualization and add the image here. </span>
         
-11.	Add ladder into the first well. <span style="color:red"> if this is in the first well, shouldn't this step come before the last? do you have to add the dye to the ladder? I can't remember </span>
+12.	Add ladder into the first well. <span style="color:red"> if this is in the first well, shouldn't this step come before the last? do you have to add the dye to the ladder? I can't remember </span>
     a.	Typically, 2ul ladder.
         i.	We use the Generuler 1kb Plus DNA.
         ii.	Aliquots of ladder can be found in the  -20 freezer. 
 	
 	
         
-12.	Run the gel.
+13.	Run the gel.
     a.	Put the gel box cover into place.
         i.	Make sure the wires are plugged in correctly (wire colors match plug colors).
         ii.	Turn on the power supply and set timer. Set it for 130V for 30 minutes. 
@@ -97,7 +104,7 @@ We are Ethidium-Bromide Free!
     c.	When the gel is done running, turn the off power. 
         i.	Never open the rig when the power is on.
         
-13.	Visualize the gel.
+14.	Visualize the gel.
     a.	Turn the power off.
     b.	Remove the cover from the gel box.
     c.	Carefully remove the tray and gel.
@@ -134,15 +141,15 @@ We are Ethidium-Bromide Free!
 
 <span style="color:red"> how to know appropriate folder? </span>
         
-14.	Always clean the gel doc tray after use.
+15.	Always clean the gel doc tray after use.
 
 <span style="color:red"> how to clean? </span>
 
-15.	Dispose of the gel in proper mayo jar. 
+16.	Dispose of the gel in proper mayo jar. 
 
 <span style="color:red"> how is the jar labeled? </span>
 
-16.	Rinse gel tray and let dry on lab bench.
+17.	Rinse gel tray and let dry on lab bench.
 
 <span style="color:red"> which lab bench? </span>
 
