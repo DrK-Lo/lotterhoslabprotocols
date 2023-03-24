@@ -30,13 +30,13 @@ We are Ethidium-Bromide Free!
     
 4.	Add GelRed:
     a.	Small gel: 6ul.
-    b.   Medium gel: 10 uL
-        i. GelRed can be found in the drawer labeled “Lotterhos” in the shared wet lab/gel room. 
+    b.  Medium gel: 10 uL
+        i. 	GelRed can be found in the drawer labeled “Lotterhos” in the shared wet lab/gel room. 
     c.	Gently swirl until the stain is dissolved (you should not be able to see any red stain in the gel).
     
 5.	Pour the gel.
-    a.	Use masking tape to create walls on either side of the tray to contain the solution when poured. Test tape by filling tray with water first. Use multiple layers of tape to make sure it doesn’t leak.
-        i.	If you are having issues with this method, you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set. 
+    a.	Use masking tape to create walls on either side of the tray to contain the solution when poured. Test tape by filling tray with water first. Use multiple layers of tape to make sure it doesn’t leak. <span style="color:red"> add a photo </span>
+        i.	If you are having issues with this method, you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set.  <span style="color:red"> add a photo </span>
     b.	Pour gel slowly to avoid bubbles.
         i.	If bubbles form, you can remove or pop them using the casting combs.
     c.	Add casting combs into the slots.
@@ -53,6 +53,7 @@ We are Ethidium-Bromide Free!
 8.	Place the tray with your gel in the gel rig with wells on the side with the black plug 
     a.	Samples will run from the black side toward red side.
     b.	DNA “runs to red”
+    <span style="color:red"> add a photo </span>
    
 9.	Fill rig with enough 1X TAE Buffer to just cover the entire gel.
     a.	The rig doesn’t need to be filled all the way to the line, just enough to cover the gel.
@@ -70,17 +71,29 @@ We are Ethidium-Bromide Free!
     g.	Repeat for each sample
         i.	Change your pipette tip for each sample.
         ii.	Make sure to use new dot of dye for each sample.
+	
+	<span style="color:red"> add a photo of the parafilm technique. I also recommend looking for the dye in the correct well after you pipette it, and checking to see if the agarose around the well breaks. Add callout box to make sure not break the agarose or to stick the pipette tip into the well so far that it ejects into the agarose. Add callout box that any accidents with breaking agarose around the well should be noted. </span>
+	
+	<span style="color:red"> when running a plate, I think we should have a standard layout for how a gel should be loaded from the plate. Draw up a conceptual visualization and add the image here. </span>
         
-11.	Add ladder into the first well.
+11.	Add ladder into the first well. <span style="color:red"> if this is in the first well, shouldn't this step come before the last? do you have to add the dye to the ladder? I can't remember </span>
     a.	Typically, 2ul ladder.
         i.	We use the Generuler 1kb Plus DNA.
         ii.	Aliquots of ladder can be found in the  -20 freezer. 
+	
+	
         
 12.	Run the gel.
     a.	Put the gel box cover into place.
         i.	Make sure the wires are plugged in correctly (wire colors match plug colors).
         ii.	Turn on the power supply and set timer. Set it for 130V for 30 minutes. 
-    b.	Check for bubbles rising at cathode (black plug) side to ensure the rig in working. If you do not see bubbles rising, the gel is not running.
+	
+	<span style="color:red"> If we have a 300 V power supply, can it handle 3 units running at 130 V at the same time? add saftey info. I wonder if this is why power supplies are breaking... </span>
+	
+    b.	Check for bubbles rising at cathode (black plug) side to ensure the rig is working. If you do not see bubbles rising, the gel is not running.
+    
+    <span style="color:red"> add an image </span>
+    
     c.	When the gel is done running, turn the off power. 
         i.	Never open the rig when the power is on.
         
@@ -91,6 +104,9 @@ We are Ethidium-Bromide Free!
         i.	Try to drip excess buffer back into the rig, scraping the bottom of the tray on the edge of the box.
     d.	Open the gel doc tray and wipe it clean using MilliQ water and KimWipes.
         i.	A small volume of water (<10ml) is sufficient. 
+	
+	<span style="color:red"> add info for new people where they can find the gel doc </span>
+	
     e.	Slide the gel onto the gel doc tray.
         i.	Do so slowly to avoid creating bubbles under the gel.
         ii.	If you’re unsure if your gel has run long enough, you can leave gel in tray and visualize it.  You can then return the gel to the rig and run it for longer if necessary.
@@ -115,15 +131,26 @@ We are Ethidium-Bromide Free!
         1.	Select File>Export>Export for Publication>Select Export.
         2.	Change file type to .jpg.
         3.	Name file and save in appropriate folder.
+
+<span style="color:red"> how to know appropriate folder? </span>
         
 14.	Always clean the gel doc tray after use.
 
+<span style="color:red"> how to clean? </span>
+
 15.	Dispose of the gel in proper mayo jar. 
+
+<span style="color:red"> how is the jar labeled? </span>
 
 16.	Rinse gel tray and let dry on lab bench.
 
-------------------------------------------------------------------------
+<span style="color:red"> which lab bench? </span>
 
+------------------------------------------------------------------------
+<span style="color:red"> ## Interpret your gel
+
+Students often have a lot of questions about how to interpret their gel correctly. Need to add some information and photos on how to interpret ladders, bands, and smearing for DNA gels.
+</span>
 
 ## Old Protocol: 
 The protocol for running a gel. Madeline's lab notebook (labeled "Eppley") has written protocols and troubleshooting for gels on pages 2-3 (not the new protocol). 
