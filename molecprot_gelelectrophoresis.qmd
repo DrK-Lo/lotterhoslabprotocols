@@ -8,9 +8,12 @@ We are Ethidium-Bromide Free!
 
 ## New Protocol adapted from OGL:
 
-1.	Mix the gel components. For a 1% agarose gel: 
-    a. 
-	    i. Small gel: 0.60g agarose + 60 ml 1X TAE Buffer
+<span style="color:red"> can you add some context on how we landed on a 1% gel instead of 2% </span>
+
+1.	Mix the gel components.  
+    a. For a 1% agarose gel:
+	    i. Small gel: 0.60g agarose + 60 ml 1X TAE Buffer <span style="color:red"> add links to recipe </span>
+	    
 	    ii: Medium gel: 1 g agarose + 100 mL 1X TAE Buffer
     b.	Add agarose, then 1X TAE to an Erlenmeyer flask.
     c.	Use the magnetic stirring plate (put a magnet inside the Erlenmeyer flask) to mix. Turn the RPM into the 1000s until all the clumps are gone. 
