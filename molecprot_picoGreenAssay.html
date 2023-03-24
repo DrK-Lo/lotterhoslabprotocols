@@ -799,12 +799,18 @@ Note
 <p>Change in protocol? 88 samples quantified on plate reader (leaving one column open for standards + blanks), the rest quantified on qubit</p>
 <p>Add info: Inspect pico green standards curve - if it’s not linear REDO, it should be linear and R^2 should be 0.99 or higher</p>
 <p>Divide plate reader outputs by 2 to standardize measurements to qubit readings</p>
-<p>I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated?  ### Interpreting Plate Reader Results</p>
-<ul>
-<li>The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values to ng/uL using the following steps.</li>
-</ul>
+<p>I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated?  ### Calculating Concentrations in ng/uL Using Plate Reader Results</p>
+<p>::: {.callout-note} ## Converting from RFU to ng/uL. The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values first to ng/mL, then to ng/uL using the following steps. Keep in mind that the concentrations determined by the PicoGreen are for the 1000X diluted DNA that was created for the assay. This DNA has the unit ng/mL. To find the concentration of the undiluted sample, you will need to multiply your PicoGreen concentration by 1000. Then, to convert from ng/mL to ng/uL, divide by 1000 (1 mL = 1000 uL). Hence, the 1000s cancel out and the value of the concentration of the diluted samples in ng/mL is the same as the value of the concentration of the undiluted samples in ng/uL. See image below for math.</p>
+<p><img src="https://user-images.githubusercontent.com/122042203/227622787-860a79c3-8de3-4487-adf3-d04d57e54d44.jpg" class="img-fluid" alt="IMG_0054"> :::</p>
 <ol type="1">
-<li>Plot your standards in a scatter plot with concentration in ng/mL on the x axis and RFU on the y axis.</li>
+<li>Plot your standards in a scatter plot with concentration in ng/mL on the x axis and RFU on the y axis. If doing this in Google Sheets, go to “Series” in the chart editor, and add a linear trendline to the graph. Label the line with the line equation. Check the box next to R^2 to show the R^2 value on the graph. You will use the equation of this line to convert the RFU values for your samples to concentration in ng/mL.</li>
+</ol>
+<p>::: {.callout-tip} ## R^2 Values The R^2 value describes how well a set of data points fit a particular trendline. A value of 1 indicates a perfect fit, while a value of 0 indicates no fit between points and the line, meaning the line is a poor description of the data. If your R^2 value for the standards is below 0.99, you should redo your PicoGreen assay. :::</p>
+<ol start="2" type="1">
+<li><p>Rearrange the equation of the standards line to solve for x. In this case, x is your concentration in ng/mL and y is your RFU value, which the plate reader determined.</p></li>
+<li><p>Make a new tab in the datasheet for concentrations and use the equation above to solve for concentration based on the RFU values. You can copy this equation down the datasheet to avoid having to retype it after writing it the first time.</p></li>
+<li><p>As described above, the resulting concentration is in ng/mL and describes the concentration of the 1000X diluted DNA samples that were used in the PicoGreen assay. In converting from diluted to undiluted DNA and from ng/mL to ng/uL, the conversions cancel out, so the concentrations calculated in this step represent a) the concentration of the diluted DNA in ng/mL and b) the concentration of the undiluted DNA in ng/uL. Describe all original, undiluted DNA concentrations in ng/uL.</p></li>
+<li><p>Record sample concentrations in the datasheet or app.</p></li>
 </ol>
 </section>
 <section id="equation-1" class="level3 unnumbered">
