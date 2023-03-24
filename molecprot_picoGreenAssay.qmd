@@ -88,7 +88,7 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 - <span style="color=purple"> At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. <span)
 
--   At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use Equation 1 @eq-Pico1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using Equation 2.
+-   At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use @eq-Pico1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using @eq-Pico2.
 
 <span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span>
 
@@ -134,8 +134,13 @@ Change in protocol? 88 samples quantified on plate reader (leaving one column op
 
  I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated?
 </span>
+### Interpreting Plate Reader Results
 
-### Equation 1{#eq-Pico1} {.unnumbered}
+- The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values to ng/uL using the following steps.
+
+1. 
+
+### Equation 1 {.unnumbered}
 
 Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
 
@@ -147,9 +152,9 @@ Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGr
 $$
 \frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol of PicoGreen Stock needed}$$ {#eq-Pico1}
 
-### Equation 2(@eq-Pico2) {.unnumbered}
+### Equation 2 {.unnumbered}
 
-199 * vol of Stock PicoGreen = vol of 1x TE
+199 * vol of Stock PicoGreen = vol of 1x TE {eq-Pico2}
 
 ### **TABLE 1** {.unnumbered}
 
@@ -177,6 +182,3 @@ $$
 | sample      | 1               |
 | dil PG      | 50              |
 
-## Interpreting Plate Reader Results
-
-- The
