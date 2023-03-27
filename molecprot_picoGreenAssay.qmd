@@ -7,7 +7,7 @@ The protocol for checking quantification of DNA using the PicoGreen Assay on the
 
 ::: {.callout-important}
 ## Important: PicoGreen vs. Quibit
-Although the picogreen and quibit both use flourescence to quantify DNA, in our experience the amounts reported by PicoGreen are about twice the amounts reported by Quibit. Therefore, we recommend dividing the Picogreen amounts by 2 and using that number in your calculations. [Meeting notes](https://github.com/ModelValidationProgram/MVP_ProjectManagement/blob/main/meetings/20230321_meeting_drying.md)
+Although the PicoGreen and Qubit both use flourescence to quantify DNA, in our experience the amounts reported by PicoGreen are about twice the amounts reported by Qubit. Therefore, we recommend dividing the Picogreen amounts by 2 and using that number in your calculations. [Meeting notes](https://github.com/ModelValidationProgram/MVP_ProjectManagement/blob/main/meetings/20230321_meeting_drying.md)
 :::
 ------------------------------------------------------------------------
 
@@ -60,14 +60,12 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 -   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL. 
 
 -   Samples should be diluted to be read within this range. For example, typical <span style="color:red"> QUBIT? </span>
-quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. <span style="color:red"> THEN YOU BACKTRANSFORM TO GET THE CORRECT AMOUNT? </span>. The steps below will explain this in more detail. See @sec-CalculatingConcs
+quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (@sec-CalculatingConcs) for more info.
 
 -   PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.
 
--   The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:purple"> For a full plate of 96 samples, you can run standards in the first column and samples in the remaining 11 columns. This would account for 88 samples and you could quantify the remaining 8 samples with Qubit. </span> <span style="color:red"> ADD RECOMMENDATION IF DOING A WHOLE PLATE, TO RUN THE 6 SAMPLES ON QUIBIT? </span>
+-   The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:purple"> For a full plate of 96 samples, you can run standards in the first column and samples in the remaining 11 columns. This would account for 88 samples and you could quantify the remaining 8 samples with Qubit. </span>.
 :::
-
-<span style="color:red"> MAKE A CALLOUT BOX? </span> <span style="color:purple"> callout box above </span> 
 
 ## **Protocol** {.unnumbered}
 
@@ -75,11 +73,11 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 -   Dilute your 20X TE to 1X TE. <span style="color:purple"> Using a 25mL E-Pet tip, pipette 9.5 mL of Molecular Grade H2O into a 15mL falcon tube. Using a p1000 single channel pipette, add 500ul of 20X TE to the falcon tube. </span> This solution is stable long term so you can make more than you will need and store for later use. If you will not be using it frequently, you can also calculate exactly how much you need and just make enough for that use.
 
--   Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. <span style="color:purple"> To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap tube. Vortex and spin Dilution 1 in the mini centrifuge. To make Dilution 2, use the P2.5 and P10 single channel pipettes combine 1uL of Dilution 1 and 9uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. </span> <span style="color:red"> where is table 1? what is Dilution 1? is dilution 1 for samples or ladders? I guess these are explained in the kit? </span>
+-   Create your ladder standards using Table 1 (@sec-table1). The stock ladder is at 100 ug/mL. <span style="color:purple"> To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap tube. Vortex and spin Dilution 1 in the mini centrifuge. To make Dilution 2, use the P2.5 and P10 single channel pipettes combine 1uL of Dilution 1 and 9uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. </span> 
 
 -   <span style="color:purple"> Pour the 1X TE from the falcon tube into a liquid boat. Using the P100 multichannel, </span> pipette 49 uL of 1X TE in all sample wells. <span style="color:purple"> Using the correct pipette, add </span> the appropriate volume of 1X TE into each standard well according to Table 2. For example, for standard 1, <span style="color:purple"> use the P100 single channel and </span> pipette 25 uL of 1X TE in the appropriate well.
 
--   <span style="color:purple"> Use the P10 multichannel pipette to add 1 uL of the diluted DNA </span> to each of the sample wells and the appropriate amount of each ladder <span style="color:purple"> (Either Dilution 1 or Dilution 2) </span> to the standard wells according to Table 2. For example, add 25 uL of Ladder Dilution 1 to standard 1 well. 
+-   <span style="color:purple"> Use the P10 multichannel pipette to add 1 uL of the diluted DNA </span> to each of the sample wells and the appropriate amount of each ladder <span style="color:purple"> (Either Dilution 1 or Dilution 2) </span> to the standard wells according to Table 2 (@sec-table2). For example, add 25 uL of Ladder Dilution 1 to standard 1 well. 
 
 <span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span>
 
@@ -97,7 +95,6 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 <span style="color:red"> I may have missed it, but where is the step where the samples were added? Should we add pipetting tips here? </span>
 
 -   <span style="color:purple"> Cover the plate with a plastic sticker cover and briefly spin down the plate to get all liquid to the bottom of the well. Use the Lotterhos lab centrifuge and a pipette tip wafer as a counterweight.  </span> 
-<span style="color:red"> where does the spin down happen? add to equipment </span>
 
 ###  Run plate on a Plate Reader using the Gen5 software. 
 
@@ -125,10 +122,8 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
  <span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help
 
-Change in protocol? 88 samples quantified on plate reader (leaving one column open for standards + blanks), the rest quantified on qubit
-
   Add info: 
- Inspect pico green standards curve - if it’s not linear REDO, it should be linear and R^2 should be 0.99 or higher
+ Inspect pico green standards curve 
 
   Divide plate reader outputs by 2 to standardize measurements to qubit readings
 
@@ -163,26 +158,26 @@ The R^2 value describes how well a set of data points fit a particular trendline
 
 Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
 
- <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) . What is this calculating? The volume of stock that you will need? Also it looks like there is a parenetheses missing here. Should we move up the equation to where it is cited? </span>
+ <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) Also it looks like there is a parentheses missing here. Should we move up the equation to where it is cited? </span>
  
 
 (1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
 
 $$
-\frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol of PicoGreen Stock needed}$$ {#eq-Pico1}
+\frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol PicoGreen Stock needed}$$ {#eq-Pico1}
 
 ### Equation 2 {.unnumbered}
 
 $$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
 
-### **TABLE 1** {.unnumbered}
+### TABLE 1 {#sec-table1}
 
 | **Ladder Type** | **Concentration (ug/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** |
 |:----------------|:--------------------------|:----------------|:--------------------|:-------------------|
 | D1              | 2                         | Stock           | 1                   | 49                 |
 | D2              | 0.2                       | D1              | 1                   | 9                  |
 
-### **TABLE 2** {.unnumbered}
+### TABLE 2 {#sec-table2}
 
 | **Standards** | **Concentration (ng/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** | **Diluted PicoGreen Vol (uL)** |
 |:--------------|:--------------------------|:----------------|:--------------------|:-------------------|:-------------------------------|
