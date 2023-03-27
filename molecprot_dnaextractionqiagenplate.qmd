@@ -126,9 +126,9 @@ _Solution is stuck in the pipette tip_. If there is any liquid in the tip that d
 
 <span style="color:red"> If this requires three people, can you explain the roles of the 3 people? </span> <span style="color:purple"> addressed in callout above </span>
 
-7.  Carefully remove tissue from 2mL tube. Use a sterile scalpel <span style="color:red"> DO YOU MEAN SCALPEL? </span> blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry. <span style="color:red"> WHY IS A COVER NEEDED HERE IF YOU ARE JUST ADDING BUFFER? </span>
+7.  Carefully remove tissue from 2mL tube <span style="color:purple"> using forceps. Place the tissue on a weigh boat to cut. </span> Use a sterile scalpel <span style="color:red"> DO YOU MEAN SCALPEL? </span> blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry. <span style="color:red"> WHY IS A COVER NEEDED HERE IF YOU ARE JUST ADDING BUFFER? </span> <span style="color:purple"> not needed </span>
 
-8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube. If not, either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
+8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube, <span style="color:purple"> using the plastic sheet over the tube rack to only expose the tube you're working with. If the tissue is not the correct weight, </span> either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
 
 ::: {.callout-important}
 **Note:** Make sure tissue is all the way at the bottom of the well. 
@@ -136,7 +136,7 @@ _Solution is stuck in the pipette tip_. If there is any liquid in the tip that d
 
 ::: {.callout-important}
 ## Important: Prevent cross-contamination
-Between samples, the scalpel & forceps should be sterilized by spraying <span style="color:red"> DO YOU SPRAY OR DIP IN ETOH? </span> <span style="color:purple"> spray </span> with EtoH and using a flame to burn off any residual EtoH and tissue. <span style="color:purple"> sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates. </span>
+Between samples, the scalpel & forceps should be sterilized by spraying <span style="color:red"> DO YOU SPRAY OR DIP IN ETOH? </span> <span style="color:purple"> spray </span> with EtoH and using a flame to burn off any residual EtoH and tissue. <span style="color:purple"> Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates. </span>
 :::
 
 9.  Record weight in lab notebook <span style="color:purple"> or app </span> by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
