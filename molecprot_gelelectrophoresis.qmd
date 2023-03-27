@@ -105,13 +105,16 @@ We are Ethidium-Bromide Free!
 <span style="color:purple"> Here is a sample gel layout for how you could organize your samples into gels if you have a plate of 96. This layout uses 3 medium gels with 2 20-well combs each. 
 
 Gel 1:
-<img width="633" alt="Screen Shot 2023-03-27 at 11 08 56 AM" src="https://user-images.githubusercontent.com/122108419/227982501-e8a1a8c8-2d99-400a-93f8-31472503c8f0.png">
+<img width="764" alt="Screen Shot 2023-03-27 at 1 11 03 PM" src="https://user-images.githubusercontent.com/122108419/228015687-58ee45c2-7834-4d39-9aca-529e7247deed.png">
+
 
 Gel 2:
-<img width="636" alt="Screen Shot 2023-03-27 at 11 09 17 AM" src="https://user-images.githubusercontent.com/122108419/227982598-299e447b-0ce3-498c-8e58-37d9aa2b4a21.png">
+<img width="762" alt="Screen Shot 2023-03-27 at 1 11 19 PM" src="https://user-images.githubusercontent.com/122108419/228015755-53eba3de-5755-434b-97c0-fb54c10526c8.png">
+
 	
 Gel 3:
-<img width="650" alt="Screen Shot 2023-03-27 at 11 09 38 AM" src="https://user-images.githubusercontent.com/122108419/227982695-eaa877a6-966b-4e2c-b1d7-07692eec7758.png"> </span>
+<img width="820" alt="Screen Shot 2023-03-27 at 1 11 36 PM" src="https://user-images.githubusercontent.com/122108419/228015830-d75c9698-59cf-4277-b586-9fff868c495d.png">
+
 :::
        
 13. Run the gel.
