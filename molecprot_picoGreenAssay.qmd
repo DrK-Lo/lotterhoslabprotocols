@@ -158,6 +158,7 @@ $$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
 ::: {.callout-important}
 ## Plate Orientation
 Make sure the plate is loaded with well A1 in the top left. There's a marker for A1 in the top left corner of the plate reader tray to indicate how to orient the plate. You can only run a plate through the reader **once**, so make sure you run it properly.
+:::
 
 -   The run should take \~2-3 minutes. Once complete, click on the "Statistics" tab and output that spreadsheet to an excel file or Google sheet by copying to clipboard and pasting.
 
