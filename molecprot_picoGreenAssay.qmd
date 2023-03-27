@@ -164,14 +164,13 @@ Make sure the plate is loaded with well A1 in the top left. There's a marker for
 
 -   Finally use the spreadsheet to convert absorbance values to associated concentrations.
 
- <span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help
+ <span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help </span>
 
-## Calculating Concentrations in ng/uL Using Plate Reader Results {#sec-CalculatingConcs}
+## Calculating Concentrations {#sec-CalculatingConcs}
 
 ::: {.callout-note}
-## Converting from RFU to ng/uL.
+## Converting RFU to ng/uL
 The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values first to ng/mL, then to ng/uL using the following steps. Keep in mind that the concentrations determined by the PicoGreen are for the 1000X diluted DNA that was created for the assay. This DNA has the unit ng/mL. To find the concentration of the undiluted sample, you will need to multiply your PicoGreen concentration by 1000. Then, to convert from ng/mL to ng/uL, divide by 1000 (1 mL = 1000 uL). Hence, the 1000s cancel out and the value of the concentration of the diluted samples in ng/mL is the same as the value of the concentration of the undiluted samples in ng/uL. See image below for math.
-
 ![IMG_0054](https://user-images.githubusercontent.com/122042203/227622787-860a79c3-8de3-4487-adf3-d04d57e54d44.jpg)
 :::
 
