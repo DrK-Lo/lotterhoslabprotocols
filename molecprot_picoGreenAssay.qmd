@@ -166,14 +166,6 @@ Make sure the plate is loaded with well A1 in the top left. There's a marker for
 
  <span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help
 
-  Add info: 
- Inspect pico green standards curve 
-
-  Divide plate reader outputs by 2 to standardize measurements to qubit readings
-
- I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated?
-</span>
-
 ## Calculating Concentrations in ng/uL Using Plate Reader Results {#sec-CalculatingConcs}
 
 ::: {.callout-note}
@@ -190,13 +182,16 @@ The plate reader outputs concentrations in RFU (relative fluorescence units). Yo
 The R^2 value describes how well a set of data points fit a particular trendline. A value of 1 indicates a perfect fit, while a value of 0 indicates no fit between points and the line, meaning the line is a poor description of the data. If your R^2 value for the standards is below 0.99, you should redo your PicoGreen assay.
 :::
 
+**Example Standards Plot**
+![RFU vs  Conc ](https://user-images.githubusercontent.com/122042203/227982062-86495ffb-960a-4899-afe8-d7ed5cd36a4d.png)
+
 2. Rearrange the equation of the standards line to solve for x. In this case, x is your concentration in ng/mL and y is your RFU value, which the plate reader determined.
 
 3. Make a new tab in the datasheet for concentrations and use the equation above to solve for concentration based on the RFU values. You can copy this equation down the datasheet to avoid having to retype it after writing it the first time.
 
 4. As described above, the resulting concentration is in ng/mL and describes the concentration of the 1000X diluted DNA samples that were used in the PicoGreen assay. In converting from diluted to undiluted DNA and from ng/mL to ng/uL, the conversions cancel out, so the concentrations calculated in this step represent a) the concentration of the diluted DNA in ng/mL and b) the concentration of the undiluted DNA in ng/uL. Describe all original, undiluted DNA concentrations in ng/uL.
 
-5. Divide sample concentrations by 2 to make up for the 2x difference between PicoGreen and Qubit concentrations for the same sample. This value represents the final concentration of your undiluted samples in ng/uL.
+5. Divide sample concentrations by 2 to make up for the 2x difference between PicoGreen and Qubit concentrations sample. This value represents the final concentration of your undiluted samples in ng/uL.
 
 6. Record sample concentrations in the datasheet or app.
 
