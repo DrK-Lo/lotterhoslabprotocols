@@ -10,18 +10,21 @@ We are Ethidium-Bromide Free!
 
 <span style="color:red"> can you add some context on how we landed on a 1% gel instead of 2% </span>
 
-<span style="color:purple"> You can make either a 1% or 2% gel. We have been using 2% gels because our 1% gels broke often and did not give us as clear results. </span>
+<span style="color:purple"> You can make either a 1% or 2% agarose gel. We have been using 2% gels because our 1% gels broke often and did not give us as clear results. </span>
 
 1.  <span style="color:purple"> Dilute 10X TAE Buffer to 1X. Measure 900mL MilliQ H20 and 100mL 10X TAE in the large plastic graduated cyliner. Combine and store in a 1L labelled glass bottle. The recipe for making more 10X TAE Buffer is below and [here](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) </span> 
 
 2.	Mix the gel components.  
     a. For a 1% agarose gel:
 	    i. Small gel: 0.60g agarose + 60 mL 1X TAE Buffer <span style="color:red"> add links to recipe </span> 
-	    ii: Medium gel: 1 g agarose + 100 mL 1X TAE Buffer
+	    ii. Medium gel: 1 g agarose + 100 mL 1X TAE Buffer
+	    
     b. <span style="color:purple"> For a 2% agarose gel: </span> 
     	    i. <span style="color:purple"> Small gel: 1.2g agarose + 60 mL 1X TAE Buffer </span> 
 	    ii. <span style="color:purple"> Medium gel: 2g agarose + 100 mL 1X TAE Buffer </span>
+	    
     c.	Add agarose, then 1X TAE to an Erlenmeyer flask.
+    
     d.	Use the magnetic stirring plate (put a magnet inside the Erlenmeyer flask) to mix. Turn the RPM into the 1000s until all the clumps are gone. 
     
 3.	Melt the gel.
@@ -45,6 +48,8 @@ We are Ethidium-Bromide Free!
     <img width="457" alt="Screen Shot 2023-03-24 at 2 54 06 PM" src="https://user-images.githubusercontent.com/122108419/227614768-6b639160-04ff-4606-80b6-7f9fb6bc8161.png">
     
         i.	If you are having issues with this method, you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set.  <span style="color:red"> add a photo </span>
+	<img width="329" alt="Screen Shot 2023-03-27 at 10 13 46 AM" src="https://user-images.githubusercontent.com/122108419/227965749-c42c0fae-27ca-400f-b826-46acb3d169e2.png">
+
     b.	Pour gel slowly to avoid bubbles.
         i.	If bubbles form, you can remove or pop them using the casting combs.
     c.	Add casting combs into the slots.
@@ -69,7 +74,7 @@ We are Ethidium-Bromide Free!
     
 11.	Add ladder into the first well. <span style="color:red"> if this is in the first well, shouldn't this step come before the last? do you have to add the dye to the ladder? I can't remember </span>  <span style="color:purple"> Switched order of 11 and 12, and you don't need to add dye to ladder </span>
     a.	Typically, 2ul ladder.
-        i.	We use the Generuler 1kb Plus DNA.
+        i.	We use the Generuler 1kb Plus DNA. <span style="color:purple"> Before pipetting, centrifuge the ladder briefly with the loading dye (for balance) so that there are no drips on the sides of the tubes. </span>
         ii.	Aliquots of ladder can be found in the  -20 freezer. 
 
 12.	Load the gel.
@@ -78,8 +83,8 @@ We are Ethidium-Bromide Free!
     c.	Using a pipette, add dots of 6X loading dye (1 for each sample) to parafilm.
     <img width="456" alt="Screen Shot 2023-03-24 at 2 54 47 PM" src="https://user-images.githubusercontent.com/122108419/227614901-02cf7032-314f-4d5d-809b-4f24198516b0.png">
 
-        i.	Centrifuge the loading dye and the ladder briefly so that the the liquid is not on the sides. 
-        ii.	The loading dye is blue and can be found in the -20 freezer. 
+        i.	The loading dye is blue and can be found in the -20 freezer. 
+       	
     d.	Using a pipette, add DNA sample to a dot of loading dye.
     <img width="460" alt="Screen Shot 2023-03-24 at 2 55 12 PM" src="https://user-images.githubusercontent.com/122108419/227614980-fc8435a5-46c8-47be-9839-8136d1aa8c28.png">
 
@@ -166,6 +171,8 @@ https://user-images.githubusercontent.com/122108419/227600188-434bad92-3efc-433a
 17.	Rinse gel tray and let dry on <span style="color:purple"> drying rack above the sink in the gel room. </span>
 
 <span style="color:red"> which lab bench? </span>
+
+18. <span style="color:purple"> Interpret your gel. See guidelines below (under the old gel protocol) for an example and information on how to interpret your gel. </span>
 
 ------------------------------------------------------------------------
 <span style="color:red"> ## Interpret your gel
