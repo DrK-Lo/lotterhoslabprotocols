@@ -117,10 +117,7 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
 
- <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) Also it looks like there is a parentheses missing here. Should we move up the equation to where it is cited? </span>
- 
-
-(1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
+ <span style="color:red"> You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) </span>
 
 $$
 \frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol PicoGreen Stock needed}$$ {#eq-Pico1}
@@ -133,7 +130,7 @@ $$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
 
 -   Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
 
-<span style="color:red"> I may have missed it, but where is the step where the samples were added? Should we add pipetting tips here? </span>
+<span style="color:red"> Should we add pipetting tips here? </span>
 
 -   <span style="color:purple"> Cover the plate with a plastic sticker cover and briefly spin down the plate to get all liquid to the bottom of the well. Use the Lotterhos lab centrifuge and a pipette tip wafer as a counterweight.  </span> 
 
