@@ -19,11 +19,11 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 -   Flat bottom black Costar 96-well plate (Fisher Cat #: 07-200-627) (FIND OUT IF AUTOCLAVE SAFE)
 
--   <span style="color:purple"> 96 well PCR plate </span>
+-   <span style="color:purple"> PCR plate, 96-well, 0.3 mL, semi-skirted (Fisher Brand, Cat#: 14230244) </span>
 
--   Two - 15 mL Falcon tubes
+-   Two 15 mL Falcon tubes
 
--   Two - 0.2 mL snap cap tubes for ladder dilutions
+-   Two 0.2 mL snap cap tubes for ladder dilutions <span style="color:purple"> (you can use Qubit tubes for this) </span>
 
 -   Samples diluted to appropriate concentration to be read on the plate reader
 
@@ -37,9 +37,7 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
  
 -   <span style="color:red"> Molecular grade H2O, add order info</span>
 
--  <span style="color:purple"> MilliQ H20 </span>
-
-<span style="color:red"> ADD INFO FOR ORDERING PICOGREEN KIT </span>
+-  <span style="color:purple"> MilliQ H20 (get this from OGL) </span>
 
 ## **Equipment** {.unnumbered}
 
@@ -64,7 +62,7 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 -   PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.
 
--   The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:purple"> For a full plate of 96 samples, you can run standards in the first column and samples in the remaining 11 columns. This would account for 88 samples and you could quantify the remaining 8 samples with Qubit. </span>.
+-   The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards and 2 empty wells as recommended in this protocol, the most samples you could run on a plate is 88. <span style="color:purple"> For a full plate of 96 samples, you can run standards/blanks in the first column and samples in the remaining 11 columns. This would account for 88 samples and you could quantify the remaining 8 samples with Qubit. </span>.
 :::
 
 ## **Protocol** {.unnumbered}
@@ -73,20 +71,63 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 -   Dilute your 20X TE to 1X TE. <span style="color:purple"> Using a 25mL E-Pet tip, pipette 9.5 mL of Molecular Grade H2O into a 15mL falcon tube. Using a p1000 single channel pipette, add 500ul of 20X TE to the falcon tube. </span> This solution is stable long term so you can make more than you will need and store for later use. If you will not be using it frequently, you can also calculate exactly how much you need and just make enough for that use.
 
--   Create your ladder standards using Table 1 (@sec-table1). The stock ladder is at 100 ug/mL. <span style="color:purple"> To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap tube. Vortex and spin Dilution 1 in the mini centrifuge. To make Dilution 2, use the P2.5 and P10 single channel pipettes combine 1uL of Dilution 1 and 9uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. </span> 
+-   Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. <span style="color:purple"> To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap tube. Vortex and spin Dilution 1 in the mini centrifuge. To make Dilution 2, use the P2.5 and P10 single channel pipettes combine 1uL of Dilution 1 and 9uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. </span> 
+
+### TABLE 1 - Standard Dilutions
+
+| **Ladder Type** | **Concentration (ug/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** |
+|:----------------|:--------------------------|:----------------|:--------------------|:-------------------|
+| D1              | 2                         | Stock           | 1                   | 49                 |
+| D2              | 0.2                       | D1              | 1                   | 9                  |
 
 -   <span style="color:purple"> Pour the 1X TE from the falcon tube into a liquid boat. Using the P100 multichannel, </span> pipette 49 uL of 1X TE in all sample wells. <span style="color:purple"> Using the correct pipette, add </span> the appropriate volume of 1X TE into each standard well according to Table 2. For example, for standard 1, <span style="color:purple"> use the P100 single channel and </span> pipette 25 uL of 1X TE in the appropriate well.
 
--   <span style="color:purple"> Use the P10 multichannel pipette to add 1 uL of the diluted DNA </span> to each of the sample wells and the appropriate amount of each ladder <span style="color:purple"> (Either Dilution 1 or Dilution 2) </span> to the standard wells according to Table 2 (@sec-table2). For example, add 25 uL of Ladder Dilution 1 to standard 1 well. 
+### TABLE 2 - Standard Wells
 
-<span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span>
+| **Standards** | **Concentration (ng/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** | **Diluted PicoGreen Vol (uL)** |
+|:--------------|:--------------------------|:----------------|:--------------------|:-------------------|:-------------------------------|
+| 1             | 500                       | D1              | 25                  | 25                 | 50                             |
+| 2             | 250                       | D1              | 12.5                | 37.5               | 50                             |
+| 3             | 100                       | D1              | 5                   | 45                 | 50                             |
+| 4             | 10                        | D2              | 5                   | 45                 | 50                             |
+| 5             | 4                         | D2              | 2                   | 48                 | 50                             |
+| blank         | 0                         | \-              | \-                  | 50                 | 50                             |
+
+<span style="color:purple"> Diagram of volumes of ladders and 1X TE required for each plate standard </span>
+<img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png">
+
+-   <span style="color:purple"> Prepare the sample wells according to Table 3. Use the P10 multichannel pipette to add 1 uL of the diluted DNA to each of the sample wells. Use the P100  multichannel to pipette 49 uL 1X TE into each sample well. </span> 
+
+### TABLE 3 - Sample Wells {.unnumbered}
+
+| **Reagent** | **Volume (uL)** |
+|:------------|:----------------|
+| 1X TE       | 49              |
+| sample      | 1               |
+| dil PG      | 50              |
 
 <span style="color:purple"> Diagram of volumes of ladders and 1X TE required for each plate standard </span>
 <img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png">
 
 - <span style="color=purple"> At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. </span>
 
--   At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use @eq-Pico1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using @eq-Pico2.
+-   Your PicoGreen should be at room temperature, but if it's not, hold it in your hand to help it defrost. Create your diluted PicoGreen and use @eq-Pico1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using @eq-Pico2.
+
+### Equation 1 {.unnumbered}
+
+Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
+
+ <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) Also it looks like there is a parentheses missing here. Should we move up the equation to where it is cited? </span>
+ 
+
+(1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
+
+$$
+\frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol PicoGreen Stock needed}$$ {#eq-Pico1}
+
+### Equation 2 {.unnumbered}
+
+$$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
 
 <span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span>
 
@@ -96,29 +137,31 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 -   <span style="color:purple"> Cover the plate with a plastic sticker cover and briefly spin down the plate to get all liquid to the bottom of the well. Use the Lotterhos lab centrifuge and a pipette tip wafer as a counterweight.  </span> 
 
-###  Run plate on a Plate Reader using the Gen5 software. 
+###  Run Plate on Reader using Gen5 Software
 
-- First turn on the machine to warm up (takes \~2-3 minutes)
+-   First switch on the plate reader to warm up (takes \~2-3 minutes).
 
--   Open Gen5 software and on the opening window make sure you are on the "Run Now" option on the left side column and click on the PicoGreen Assay full plate file.
+-   Using the laptop next to the reader, open Gen5 software. On the opening window make sure you are in the "Run Now" option on the left side column and click on the PicoGreen Assay full plate file.
 
--   This will open another window with a full plate already loaded just click "cancel"
+-   This will open another window with a full plate already loaded. Click "cancel."
 
--   Click "Plate Layout" on the top bar which will open a new window to edit with your standard curve and sample wells
+-   Click the "Plate Layout" symbol on the top bar. It looks like a little plate with a red circle over one of the wells. This will open a new window with a 96 well plate. You can then specify where your standards, blanks, empty wells, and standard wells are.
 
--   Clear plate by highlighting "EMPTY" on the left panel and click and drag across whole plate
+-   Clear plate by highlighting "EMPTY" on the left panel and click and drag across whole plate.
 
--   Then right click on the "STD" and click "edit" to change your standard curve values to what you set up for your plate when you are done editing click okay
-
--   Highlight the first standard curve value in the left panel and click on the appropriate well where that value is located. You can click and drag down the column if they are all in a row.
+-   Click the first standard curve value in the left panel and click on the well where that standard is located. You can click and drag down the column to fill in remaining standards if they are in numeric order.
 
 -   Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled.
 
--   When this is done click okay and the machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click "okay".
+-   When this is done click okay. The machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click "okay".
 
--   The run should take \~2-3 minutes, then click on the "Statistics" tab and output that spreadsheet to an excel file by copy and pasting.
+::: {.callout-important}
+## Plate Orientation
+Make sure the plate is loaded with well A1 in the top left. There's a marker for A1 in the top left corner of the plate reader tray to indicate how to orient the plate. You can only run a plate through the reader **once**, so make sure you run it properly.
 
--   Finally use XXX spreadsheet to convert absorbance values to associated concentrations.
+-   The run should take \~2-3 minutes. Once complete, click on the "Statistics" tab and output that spreadsheet to an excel file or Google sheet by copying to clipboard and pasting.
+
+-   Finally use the spreadsheet to convert absorbance values to associated concentrations.
 
  <span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help
 
@@ -152,47 +195,7 @@ The R^2 value describes how well a set of data points fit a particular trendline
 
 4. As described above, the resulting concentration is in ng/mL and describes the concentration of the 1000X diluted DNA samples that were used in the PicoGreen assay. In converting from diluted to undiluted DNA and from ng/mL to ng/uL, the conversions cancel out, so the concentrations calculated in this step represent a) the concentration of the diluted DNA in ng/mL and b) the concentration of the undiluted DNA in ng/uL. Describe all original, undiluted DNA concentrations in ng/uL.
 
-5. Record sample concentrations in the datasheet or app.
+5. Divide sample concentrations by 2 to make up for the 2x difference between PicoGreen and Qubit concentrations for the same sample. This value represents the final concentration of your undiluted samples in ng/uL.
 
-### Equation 1 {.unnumbered}
-
-Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
-
- <span style="color:red"> Oh here they are! You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) Also it looks like there is a parentheses missing here. Should we move up the equation to where it is cited? </span>
- 
-
-(1.1 * (50 uL diluted PicoGreen * (#samples + #standards))/200 = (vol of Stock PicoGreen)
-
-$$
-\frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol PicoGreen Stock needed}$$ {#eq-Pico1}
-
-### Equation 2 {.unnumbered}
-
-$$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
-
-### TABLE 1 {#sec-table1}
-
-| **Ladder Type** | **Concentration (ug/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** |
-|:----------------|:--------------------------|:----------------|:--------------------|:-------------------|
-| D1              | 2                         | Stock           | 1                   | 49                 |
-| D2              | 0.2                       | D1              | 1                   | 9                  |
-
-### TABLE 2 {#sec-table2}
-
-| **Standards** | **Concentration (ng/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** | **Diluted PicoGreen Vol (uL)** |
-|:--------------|:--------------------------|:----------------|:--------------------|:-------------------|:-------------------------------|
-| 1             | 500                       | D1              | 25                  | 25                 | 50                             |
-| 2             | 250                       | D1              | 12.5                | 37.5               | 50                             |
-| 3             | 100                       | D1              | 5                   | 45                 | 50                             |
-| 4             | 10                        | D2              | 5                   | 45                 | 50                             |
-| 5             | 4                         | D2              | 2                   | 48                 | 50                             |
-| blank         | 0                         | \-              | \-                  | 50                 | 50                             |
-
-### **TABLE 3** {.unnumbered}
-
-| **Reagent** | **Volume (uL)** |
-|:------------|:----------------|
-| 1X TE       | 49              |
-| sample      | 1               |
-| dil PG      | 50              |
+6. Record sample concentrations in the datasheet or app.
 
