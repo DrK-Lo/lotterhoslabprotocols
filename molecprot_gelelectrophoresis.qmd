@@ -8,8 +8,6 @@ We are Ethidium-Bromide Free!
 
 ## New Protocol adapted from OGL:
 
-<span style="color:red"> can you add some context on how we landed on a 1% gel instead of 2% </span>
-
 <span style="color:purple"> You can make either a 1% or 2% agarose gel. We have been using 2% gels because our 1% gels broke often and did not give us as clear results. </span>
 
 1.  <span style="color:purple"> Dilute 10X TAE Buffer to 1X. Measure 900mL MilliQ H20 and 100mL 10X TAE in the large plastic graduated cyliner. Combine and store in a 1L labelled glass bottle. The recipe for making more 10X TAE Buffer is below and [here](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) </span> 
