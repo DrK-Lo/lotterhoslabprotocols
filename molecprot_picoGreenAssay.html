@@ -674,7 +674,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#equation-2" id="toc-equation-2" class="nav-link" data-scroll-target="#equation-2">Equation 2</a></li>
   <li><a href="#run-plate-on-reader-using-gen5-software" id="toc-run-plate-on-reader-using-gen5-software" class="nav-link" data-scroll-target="#run-plate-on-reader-using-gen5-software">Run Plate on Reader using Gen5 Software</a></li>
   </ul></li>
-  <li><a href="#sec-CalculatingConcs" id="toc-sec-CalculatingConcs" class="nav-link" data-scroll-target="#sec-CalculatingConcs">Calculating Concentrations in ng/uL Using Plate Reader Results</a></li>
+  <li><a href="#sec-CalculatingConcs" id="toc-sec-CalculatingConcs" class="nav-link" data-scroll-target="#sec-CalculatingConcs">Calculating Concentrations</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -959,28 +959,22 @@ Plate Orientation
 <li><p>The run should take ~2-3 minutes. Once complete, click on the “Statistics” tab and output that spreadsheet to an excel file or Google sheet by copying to clipboard and pasting.</p></li>
 <li><p>Finally use the spreadsheet to convert absorbance values to associated concentrations.</p></li>
 </ul>
-<p><span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help</span></p>
+<p><span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help </span></p>
 </section>
 </section>
 <section id="sec-CalculatingConcs" class="level2">
-<h2 class="anchored" data-anchor-id="sec-CalculatingConcs">Calculating Concentrations in ng/uL Using Plate Reader Results</h2>
+<h2 class="anchored" data-anchor-id="sec-CalculatingConcs">Calculating Concentrations</h2>
 <div class="callout-note callout callout-style-default callout-captioned">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-caption-container flex-fill">
-Converting from RFU to ng/uL.
+Converting RFU to ng/uL
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values first to ng/mL, then to ng/uL using the following steps. Keep in mind that the concentrations determined by the PicoGreen are for the 1000X diluted DNA that was created for the assay. This DNA has the unit ng/mL. To find the concentration of the undiluted sample, you will need to multiply your PicoGreen concentration by 1000. Then, to convert from ng/mL to ng/uL, divide by 1000 (1 mL = 1000 uL). Hence, the 1000s cancel out and the value of the concentration of the diluted samples in ng/mL is the same as the value of the concentration of the undiluted samples in ng/uL. See image below for math.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://user-images.githubusercontent.com/122042203/227622787-860a79c3-8de3-4487-adf3-d04d57e54d44.jpg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">IMG_0054</figcaption><p></p>
-</figure>
-</div>
+<p>The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values first to ng/mL, then to ng/uL using the following steps. Keep in mind that the concentrations determined by the PicoGreen are for the 1000X diluted DNA that was created for the assay. This DNA has the unit ng/mL. To find the concentration of the undiluted sample, you will need to multiply your PicoGreen concentration by 1000. Then, to convert from ng/mL to ng/uL, divide by 1000 (1 mL = 1000 uL). Hence, the 1000s cancel out and the value of the concentration of the diluted samples in ng/mL is the same as the value of the concentration of the undiluted samples in ng/uL. See image below for math. <img src="https://user-images.githubusercontent.com/122042203/227622787-860a79c3-8de3-4487-adf3-d04d57e54d44.jpg" class="img-fluid" alt="IMG_0054"></p>
 </div>
 </div>
 <ol type="1">
