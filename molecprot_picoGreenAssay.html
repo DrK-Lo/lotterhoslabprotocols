@@ -668,6 +668,9 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><strong>Protocol</strong></a>
   <ul class="collapse">
   <li><a href="#run-plate-on-a-plate-reader-using-the-gen5-software." id="toc-run-plate-on-a-plate-reader-using-the-gen5-software." class="nav-link" data-scroll-target="#run-plate-on-a-plate-reader-using-the-gen5-software.">Run plate on a Plate Reader using the Gen5 software.</a></li>
+  </ul></li>
+  <li><a href="#sec-CalculatingConcs" id="toc-sec-CalculatingConcs" class="nav-link" data-scroll-target="#sec-CalculatingConcs">Calculating Concentrations in ng/uL Using Plate Reader Results</a>
+  <ul class="collapse">
   <li><a href="#equation-1" id="toc-equation-1" class="nav-link" data-scroll-target="#equation-1">Equation 1</a></li>
   <li><a href="#equation-2" id="toc-equation-2" class="nav-link" data-scroll-target="#equation-2">Equation 2</a></li>
   <li><a href="#table-1" id="toc-table-1" class="nav-link" data-scroll-target="#table-1"><strong>TABLE 1</strong></a></li>
@@ -749,9 +752,9 @@ Note
 <div class="callout-body-container callout-body">
 <ul>
 <li><p>Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL.</p></li>
-<li><p>Samples should be diluted to be read within this range. For example, typical <span style="color:red"> QUBIT? </span> quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. <span style="color:red"> THEN YOU BACKTRANSFORM TO GET THE CORRECT AMOUNT? </span>. The steps below will explain this in more detail.</p></li>
+<li><p>Samples should be diluted to be read within this range. For example, typical <span style="color:red"> QUBIT? </span> quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. <span style="color:red"> THEN YOU BACKTRANSFORM TO GET THE CORRECT AMOUNT? </span>. The steps below will explain this in more detail. See <a href="#sec-CalculatingConcs">Section&nbsp;1.1</a></p></li>
 <li><p>PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.</p></li>
-<li><p>The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:purple"> For a full plate of 96 samples, you can run standards in the first column and samples in the remaining 11 columns. This would account for 88 samples and you could quantify the remaining 8 samples with Qubit. </span> <span style="color:red"> ADD RECOMMENATION IF DOING A WHOLE PLATE, TO RUN THE 6 SAMPLES ON QUIBIT? </span></p></li>
+<li><p>The first column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards as recommended in this protocol, the most samples you could run on a plate is 90. <span style="color:purple"> For a full plate of 96 samples, you can run standards in the first column and samples in the remaining 11 columns. This would account for 88 samples and you could quantify the remaining 8 samples with Qubit. </span> <span style="color:red"> ADD RECOMMENDATION IF DOING A WHOLE PLATE, TO RUN THE 6 SAMPLES ON QUIBIT? </span></p></li>
 </ul>
 </div>
 </div>
@@ -769,7 +772,7 @@ Note
 <p><span style="color:red"> maybe a conceptual figure would help, showing the wells for the standards and the amounts that go into each one </span></p>
 <p><span style="color:purple"> Diagram of volumes of ladders and 1X TE required for each plate standard </span> <img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png"></p>
 <ul>
-<li><p><span style="color=purple"> At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. &lt;span)</span></p></li>
+<li><p><span style="color=purple"> At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. </span></p></li>
 <li><p>At this point your PicoGreen should be at room temperature. Create your Diluted PicoGreen and use <a href="#eq-Pico1">Equation&nbsp;1</a> to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using <a href="#eq-Pico2">Equation&nbsp;2</a>.</p></li>
 </ul>
 <p><span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span></p>
@@ -799,20 +802,52 @@ Note
 <p>Change in protocol? 88 samples quantified on plate reader (leaving one column open for standards + blanks), the rest quantified on qubit</p>
 <p>Add info: Inspect pico green standards curve - if it’s not linear REDO, it should be linear and R^2 should be 0.99 or higher</p>
 <p>Divide plate reader outputs by 2 to standardize measurements to qubit readings</p>
-<p>I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated?  ### Calculating Concentrations in ng/uL Using Plate Reader Results</p>
-<p>::: {.callout-note} ## Converting from RFU to ng/uL. The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values first to ng/mL, then to ng/uL using the following steps. Keep in mind that the concentrations determined by the PicoGreen are for the 1000X diluted DNA that was created for the assay. This DNA has the unit ng/mL. To find the concentration of the undiluted sample, you will need to multiply your PicoGreen concentration by 1000. Then, to convert from ng/mL to ng/uL, divide by 1000 (1 mL = 1000 uL). Hence, the 1000s cancel out and the value of the concentration of the diluted samples in ng/mL is the same as the value of the concentration of the undiluted samples in ng/uL. See image below for math.</p>
-<p><img src="https://user-images.githubusercontent.com/122042203/227622787-860a79c3-8de3-4487-adf3-d04d57e54d44.jpg" class="img-fluid" alt="IMG_0054"> :::</p>
+<p>I am confused about how, if you dilute the sample, the original sample concentration is correctly calculated? </p>
+</section>
+</section>
+<section id="sec-CalculatingConcs" class="level2">
+<h2 class="anchored" data-anchor-id="sec-CalculatingConcs">Calculating Concentrations in ng/uL Using Plate Reader Results</h2>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Converting from RFU to ng/uL.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The plate reader outputs concentrations in RFU (relative fluorescence units). You will need to convert these values first to ng/mL, then to ng/uL using the following steps. Keep in mind that the concentrations determined by the PicoGreen are for the 1000X diluted DNA that was created for the assay. This DNA has the unit ng/mL. To find the concentration of the undiluted sample, you will need to multiply your PicoGreen concentration by 1000. Then, to convert from ng/mL to ng/uL, divide by 1000 (1 mL = 1000 uL). Hence, the 1000s cancel out and the value of the concentration of the diluted samples in ng/mL is the same as the value of the concentration of the undiluted samples in ng/uL. See image below for math.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://user-images.githubusercontent.com/122042203/227622787-860a79c3-8de3-4487-adf3-d04d57e54d44.jpg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">IMG_0054</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
 <ol type="1">
 <li>Plot your standards in a scatter plot with concentration in ng/mL on the x axis and RFU on the y axis. If doing this in Google Sheets, go to “Series” in the chart editor, and add a linear trendline to the graph. Label the line with the line equation. Check the box next to R^2 to show the R^2 value on the graph. You will use the equation of this line to convert the RFU values for your samples to concentration in ng/mL.</li>
 </ol>
-<p>::: {.callout-tip} ## R^2 Values The R^2 value describes how well a set of data points fit a particular trendline. A value of 1 indicates a perfect fit, while a value of 0 indicates no fit between points and the line, meaning the line is a poor description of the data. If your R^2 value for the standards is below 0.99, you should redo your PicoGreen assay. :::</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+R^2 Values
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The R^2 value describes how well a set of data points fit a particular trendline. A value of 1 indicates a perfect fit, while a value of 0 indicates no fit between points and the line, meaning the line is a poor description of the data. If your R^2 value for the standards is below 0.99, you should redo your PicoGreen assay.</p>
+</div>
+</div>
 <ol start="2" type="1">
 <li><p>Rearrange the equation of the standards line to solve for x. In this case, x is your concentration in ng/mL and y is your RFU value, which the plate reader determined.</p></li>
 <li><p>Make a new tab in the datasheet for concentrations and use the equation above to solve for concentration based on the RFU values. You can copy this equation down the datasheet to avoid having to retype it after writing it the first time.</p></li>
 <li><p>As described above, the resulting concentration is in ng/mL and describes the concentration of the 1000X diluted DNA samples that were used in the PicoGreen assay. In converting from diluted to undiluted DNA and from ng/mL to ng/uL, the conversions cancel out, so the concentrations calculated in this step represent a) the concentration of the diluted DNA in ng/mL and b) the concentration of the undiluted DNA in ng/uL. Describe all original, undiluted DNA concentrations in ng/uL.</p></li>
 <li><p>Record sample concentrations in the datasheet or app.</p></li>
 </ol>
-</section>
 <section id="equation-1" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="equation-1">Equation 1</h3>
 <p>Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.</p>
