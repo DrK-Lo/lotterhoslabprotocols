@@ -155,17 +155,33 @@ $$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
 
 -   First switch on the plate reader to warm up (takes \~2-3 minutes).
 
+![](img/IMG_1956.png)
+
 -   Using the laptop next to the reader, open Gen5 software. On the opening window make sure you are in the "Run Now" option on the left side column and click on the PicoGreen Assay full plate file.
+
+![](img/IMG_1957.png)
+
+![](img/IMG_1958.png)
 
 -   This will open another window with a full plate already loaded. Click "cancel."
 
+![](img/IMG_1959.png)
+
 -   Click the "Plate Layout" symbol on the top bar. It looks like a little plate with a red circle over one of the wells. This will open a new window with a 96 well plate. You can then specify where your standards, blanks, empty wells, and standard wells are.
+
+![](img/IMG_1960.png)
 
 -   Clear plate by highlighting "EMPTY" on the left panel and click and drag across whole plate.
 
+![](img/IMG_1961.png)
+
 -   Click the first standard curve value in the left panel and click on the well where that standard is located. You can click and drag down the column to fill in remaining standards if they are in numeric order.
 
+![](img/IMG_1962.png)
+
 -   Highlight the first sample (SP1) from the left panel and click on the well with your first sample well and drag across the plate until all wells you want readings for are filled.
+
+![](img/IMG_1963.png)
 
 -   When this is done click okay. The machine will have a bulb warm up period after which it will ask you to load your plate. You do not need to close the drawer it will close automatically after you load the plate and click "okay".
 
@@ -175,6 +191,10 @@ Make sure the plate is loaded with well A1 in the top left. There's a marker for
 :::
 
 -   The run should take \~2-3 minutes. Once complete, click on the "Statistics" tab and output that spreadsheet to an excel file or Google sheet by copying to clipboard and pasting.
+
+![](img/IMG_1964.png)
+
+![](img/IMG_1965.png)
 
 -   Finally use the spreadsheet to convert absorbance values to associated concentrations.
 
