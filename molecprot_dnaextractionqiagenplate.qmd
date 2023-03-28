@@ -20,7 +20,7 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 ### **Additional Reagents and Consumables** {.unnumbered}
 
--   Sterile Scalpel blades + blue plastic disposal container <span style="color:red"> ADD BLADE NUMBER </span> <span style="color:purple"> blade #22, fits handle #4 </span>
+-   Sterile Scalpel blades + blue plastic disposal container <span style="color:purple"> blade #22, fits handle #4 </span>
 
 -   Alcohol lamp (requires minimum 90% ethanol)
 
@@ -30,18 +30,16 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   Kim wipes
 
--   Pipette Tips (300uL <span style="color:purple"> , 200uL </span>) <span style="color:red"> ADD TIPS INFO FOR ORDERING </span> <span style="color:purple"> Info for ordering: Pipetman E300 TowerPack Reload System P/N:F1736051, Pipetman E200 TowerPack Reload System P/N:F1733051 </span> 
+-   Pipette Tips (300uL <span style="color:purple"> , 200uL </span>)\ <span style="color:purple"> Info for ordering: Pipetman E300 TowerPack Reload System P/N:F1736051, Pipetman E200 TowerPack Reload System P/N:F1733051 </span> 
 
--   Easy Pet + Serological Tips <span style="color:red"> ADD TIPS SIZE </span> <span style="color:purple"> size: 25mL tips, catalog #170357N </span>
+-   Easy Pet + Serological Tips <span style="color:purple"> size: 25mL tips, catalog #170357N </span>
 
 -   Liquid boats <span style="color:purple"> 25mL </span>
 
--   <span style="color:red"> 95% PURE ETOH for sample rinsing? ADD INFO FOR NAIVE USERSS, PRODUCT ID, and link to ETOH types </span>
-    <span style="color:purple"> 95% pure EtOH for sample rinsing, diluted from molecular grade absolute ethanol 200 proof </span>
+-   <span style="color:purple"> 95% pure EtOH for sample rinsing, diluted from molecular grade absolute ethanol 200 proof </span>
     - <span style="color:purple"> Different types of ethanol and how to dilute [guide](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_etoh.html) </span>
 
--   <span style="color:red"> 70% ETOH for cleaning? ADD INFO FOR NAIVE USERSS, PRODUCT ID, and link to ETOH types</span>
-    <span style="color:purple"> 70% pure EtOH for cleaning, diluted from molecular grade absolute ethanol 200 proof </span>
+-   <span style="color:purple"> 70% pure EtOH for cleaning, diluted from molecular grade absolute ethanol 200 proof </span>
 
 -   EtoH (100% - molecular grade) <span style="color:red"> ADD INFOR FOR NAIVE USERS, PRODUCT ID, and link to ETOH types </span> 
     <span style="color:purple"> use for 95% and 70% dilutions only, product ID: A409-4, green 'Molecular' label </span>
@@ -49,12 +47,11 @@ This protocol is for oysters (_Crassostrea virginica_)
 -   Plastic sheet <span style="color:purple"> half of a 8x11in sheet protector with a hole punched out in the middle. Sheet protectors can be found in office supplies drawer. </span>
 ![IMG_1919](https://user-images.githubusercontent.com/122108419/227256130-8bff04d2-0d0e-4ab2-878f-d85292b72be4.jpg)
 
--   <span style="color:red"> ADD BLEACH SOLUTION FOR CLEANING AND LINK TO PROTOCOL </span>
-    <span style="color:purple"> 10% bleach solution for cleaning [solution recipe](https://drk-     lo.github.io/lotterhoslabprotocols/molecprot_solutionrecipes.html) </span>
+-   <span style="color:purple"> 10% bleach solution for cleaning [solution recipe](https://drk-     lo.github.io/lotterhoslabprotocols/molecprot_solutionrecipes.html) </span>
 
 ### **Equipment** {.unnumbered}
 
--   Micro-scale (need to be able to measure down to 20mg) <span style="color:red"> ADD MODEL OF SCALE FOR METHODS </span> <span style="color:purple">  model: Mettler Toldeo, model #ME303E </span> 
+-   Micro-scale (need to be able to measure down to 20mg) <span style="color:purple">  model: Mettler Toldeo, model #ME303E </span> 
 
 -   Thermo-mixer (with plate attachments - plates from kit are too tall for our Thermo-mixer) - check temperature ranges <span style="color:red"> ADD MODEL FOR METHODS </span> <span style="color:purple"> model: Eppendorf Thermomixer C, model #5382. </span>
 
@@ -98,7 +95,7 @@ Ordered tray according to sample organization above
 This process goes smoothest with three lab members working at once. Two lab members should cut and weigh tissue samples, and read out weights to the third lab member who will record them in the spreadsheet or app and place samples into corresponding collection tubes. 
 :::
 
-1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by <span style="color:purple"> DI </span> H2O <span style="color:red"> be specific - do you use ddH2O? we want to avoid people using tap water </span>, then 70% EtoH <span style="color:red"> be specific - which EtOH? </span>.
+1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by <span style="color:purple"> DI </span> H2O.
 
 2.  Get a styrofoam container with ice to keep tissue samples cool while prepping for extraction. 
 
@@ -106,8 +103,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 
 4. <span style="color:purple"> Get a tissue collection tube rack from Qiagen kit box. The clear tubes are already in a clear blue rack and have a clear lid over them. </span>
 
-5. Add 18 mL buffer ATL to a 25 mL liquid boat (enough for 100 samples). Add 180uL buffer ATL to each tissue collection tube <span style="color:red"> DO YOU MEAN EACH WELL IN THE PLATE </span> using the P300 multichannel pipette. <span style="color:red"> WHY IS A COVER NEEDED HERE IF YOU ARE JUST ADDING BUFFER? </span> <span style="color:purple"> deleted note about the cover </span>
-
+5. Add 18 mL buffer ATL to a 25 mL liquid boat (enough for 100 samples). Add 180uL buffer ATL to each tissue collection tube <span style="color:red"> DO YOU MEAN EACH WELL IN THE PLATE </span> using the P300 multichannel pipette.
 ::: {.callout-tip}
 ## Tip for pipetting
 
