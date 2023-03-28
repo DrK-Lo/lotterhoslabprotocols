@@ -142,9 +142,12 @@ $$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
 
 <span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span>
 
--   Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
+**Example PicoGreen Dilution Calculations for 88 Samples and 6 Standards**
+- Reminder that the remaining 8 samples from the 96 well plate will be quantified with Qubit
 
-<span style="color:red"> Should we add pipetting tips here? </span>
+![IMG_1950](https://user-images.githubusercontent.com/122042203/228288033-bc68985b-acc8-4283-bdcb-31f5466792f7.jpg)
+
+-   Pipette diluted PicoGreen to each well with each well getting 50 uL of the 200 times diluted PicoGreen. When adding the diluted PicoGreen pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
 
 -   <span style="color:purple"> Cover the plate with a plastic sticker cover and briefly spin down the plate to get all liquid to the bottom of the well. Use the Lotterhos lab centrifuge and a pipette tip wafer as a counterweight.  </span> 
 
