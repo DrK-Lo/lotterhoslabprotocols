@@ -182,13 +182,11 @@ Ensure ethanol has been added to Buffer AL according to instructions on the cont
 Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 'Waste liquid extraction buffer' in the hazardous waste accumulation area under the RNA hood. 
 :::
 
-4.  Place clear cover over the rack and shake vigorously for 15s <span style="color:purple"> by hand </span> <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>, then centrifuge 30s at 4500 rpm to collect any solution from the caps. <span style="color:red"> ARE WE STILL USING HUGHES CENTRIFUGE? </span>
+4.  Place clear cover over the rack and shake vigorously for 15s <span style="color:purple"> by hand </span> <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>, then centrifuge in the Hughes Lab centrifuge for 30s at 4500 rpm to collect any solution from the caps.
 
 5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key.
 
-6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the <span style="color:purple"> corresponding wells on the DNeasy 96 plate. Set the P300 multichannel pipette to 290 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. There's usually about 600 uL total lysate in each sample. </span> Pop any bubbles using a  pipette tip. <span style="color:red"> CAN WE BE MORE SPECIFIC? IS 600UL OF 290UL TRANSFERED? </span> <span style="color:purple"> Dispose of empty collection microtubes and blue tube rack in the mayo jar. </span>
-
-<span style="color:red"> HOW IS ADDITIONAL LYSATE DISPOSED? </span>
+6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the <span style="color:purple"> corresponding wells on the DNeasy 96 plate. Set the P300 multichannel pipette to 290 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. There's usually about 600 uL total lysate in each sample. </span> Pop any bubbles using a  pipette tip. <span style="color:purple"> Dispose of empty collection microtubes and blue tube rack in the mayo jar. </span>
 
 <span style="color:red"> I THINK MOST OF THESE STEPS CAN BE USED WITH UNFILTERED TIPS BECAUSE LIQUID IS JUST BEING TRANSFERED INTO THE SAMPLES, BUT I WONDER WITH STEP 6 ABOVE IF WE SHOULDN'T USE FILTERED TIPS BECAUSE TRANFERING THE SAMPLES COULD CAUSE CROSS-CONTAMINATION IF ASPIRATION OCCURS </span>
 
@@ -217,7 +215,5 @@ Spin column membrane should be dry after this step. Spin for an additional 1 min
 
 <span style="color:red"> ELUTION BUFFER DATA ADDED TO APP/DATABASE </span>
 
-15.  Label plate and extracted DNA can be place in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.  <span style="color:purple"> Record time samples were put into the fridge/freezer in the app/datasheet. </span>
-
-<span style="color:red"> INFORMATION ON SAMPLE STORAGE AND FREEZE/THAW SHOULD BE ADDED TO APP/DATABASE </span>
+15.  Label plate and extracted DNA can be placed in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.  <span style="color:purple"> Record time samples were put into the fridge/freezer in the app/datasheet. </span>
 
