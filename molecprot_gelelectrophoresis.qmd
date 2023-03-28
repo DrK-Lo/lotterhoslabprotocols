@@ -102,7 +102,7 @@ We are Ethidium-Bromide Free!
 
 ::: {.callout-note}
 ## 3 Gel layout for a 96-well plate of samples
-<span style="color:purple"> Here is a sample gel layout for how you could organize your samples into gels if you have a plate of 96. This layout uses 3 medium gels with 2 20-well combs each. 
+<span style="color:purple"> Here is a sample gel layout for how you could organize your samples into gels if you have a plate of 96. This layout uses 3 medium gels with 2 20-well combs each. Because there are so many wells in each row, it may be useful to have one member keeping track of which well is the next to load and another member to actually load the gel. 
 
 Gel 1:
 <img width="764" alt="Screen Shot 2023-03-27 at 1 11 03 PM" src="https://user-images.githubusercontent.com/122108419/228015687-58ee45c2-7834-4d39-9aca-529e7247deed.png">
