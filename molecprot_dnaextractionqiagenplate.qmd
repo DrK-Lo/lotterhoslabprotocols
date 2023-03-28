@@ -104,6 +104,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 4. <span style="color:purple"> Get a tissue collection tube rack from Qiagen kit box. The clear tubes are already in a clear blue rack and have a clear lid over them. </span>
 
 5. Add 18 mL buffer ATL to a 25 mL liquid boat (enough for 100 samples). Add 180uL buffer ATL to each tissue collection tube <span style="color:red"> DO YOU MEAN EACH WELL IN THE PLATE </span> using the P300 multichannel pipette.
+
 ::: {.callout-tip}
 ## Tips for pipetting
 
