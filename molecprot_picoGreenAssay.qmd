@@ -117,7 +117,7 @@ _Solution is stuck in the pipette tip_. If there is any liquid in the tip that d
 | **Reagent** | **Volume (uL)** |
 |:------------|:----------------|
 | 1X TE       | 49              |
-| sample      | 1               |
+| 1:10 DNA    | 1               |
 | dil PG      | 50              |
 
 <span style="color:purple"> Diagram of volumes of ladders and 1X TE required for each plate standard </span>
@@ -138,7 +138,7 @@ $$
 
 ### Equation 2 {.unnumbered}
 
-$$ 199 * {vol of Stock PicoGreen} = {vol of 1x TE}$$ {#eq-Pico2}
+$$ 199 * \textrm{vol of Stock PicoGreen} = \textrm{vol of 1x TE}$$ {#eq-Pico2}
 
 <span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span>
 
