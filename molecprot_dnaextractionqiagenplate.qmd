@@ -53,7 +53,7 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   Micro-scale (need to be able to measure down to 20mg) <span style="color:purple">  model: Mettler Toldeo, model #ME303E </span> 
 
--   Thermo-mixer (with plate attachments - plates from kit are too tall for our Thermo-mixer) - check temperature ranges <span style="color:red"> ADD MODEL FOR METHODS </span> <span style="color:purple"> model: Eppendorf Thermomixer C, model #5382. </span>
+-   Thermo-mixer (with plate attachments - plates from kit are too tall for our Thermo-mixer) - check temperature ranges <span style="color:purple"> model: Eppendorf Thermomixer C, model #5382. </span>
 
 -   Large centrifuge (Hughes lab centrifuge) <span style="color:red"> ADD MODEL FOR METHODS </span>
 
@@ -85,7 +85,7 @@ Ordered tray according to sample organization above
 
 -   </span> <span style="color:purple"> Preheat thermo-mixer to 56 degrees C. </span>
 
--   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C </span> <span style="color:purple"> in the Thermomixer </span> until precipitates have fully dissolved. <span style="color:red"> SHOULDN'T THIS COME AFTER THE NEXT STEP AND SPECIFY TO WARM IN THE THERMO-MIXER? </span>
+-   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C </span> <span style="color:purple"> in the Thermomixer </span> until precipitates have fully dissolved.
 
 ### **Tissue Lysing** {.unnumbered}
 
@@ -105,7 +105,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 
 5. Add 18 mL buffer ATL to a 25 mL liquid boat (enough for 100 samples). Add 180uL buffer ATL to each tissue collection tube <span style="color:red"> DO YOU MEAN EACH WELL IN THE PLATE </span> using the P300 multichannel pipette.
 ::: {.callout-tip}
-## Tip for pipetting
+## Tips for pipetting
 
 _Drawing up liquid_. Check the amount on the pipette is correct. When pipetting, be sure only to push down on the plunger to the first stop and slowly release to pick up the liquid until your thumb comes completely off the plunger. If you go past the first stop, you will draw up more liquid than the amount you set on the pipette and/or create bubbles. If you push down and then release quickly to draw up liquid, it can cause aspiration and contaminate the pipette if you aren't using filtered tips. If you are using filtered tips, aspiration can cause liquid to land on the filter, so the pipette tip will hold less liquid than you specified. 
 
@@ -122,7 +122,7 @@ _Solution is stuck in the pipette tip_. If there is any liquid in the tip that d
 
 <span style="color:red"> If this requires three people, can you explain the roles of the 3 people? </span> <span style="color:purple"> addressed in callout above </span>
 
-7.  Carefully remove tissue from 2mL tube <span style="color:purple"> using forceps. Place the tissue on a weigh boat to cut. </span> Use a sterile scalpel <span style="color:red"> DO YOU MEAN SCALPEL? </span> blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry. <span style="color:red"> WHY IS A COVER NEEDED HERE IF YOU ARE JUST ADDING BUFFER? </span> <span style="color:purple"> not needed </span>
+7.  Carefully remove tissue from 2mL tube <span style="color:purple"> using forceps. Place the tissue on a weigh boat to cut. </span> Use a sterile scalpel blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry.
 
 8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube, <span style="color:purple"> using the plastic sheet over the tube rack to only expose the tube you're working with. If the tissue is not the correct weight, </span> either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
 
@@ -132,7 +132,7 @@ _Solution is stuck in the pipette tip_. If there is any liquid in the tip that d
 
 ::: {.callout-important}
 ## Important: Prevent cross-contamination
-Between samples, the scalpel & forceps should be sterilized by spraying <span style="color:red"> DO YOU SPRAY OR DIP IN ETOH? </span> <span style="color:purple"> spray </span> with EtoH and using a flame to burn off any residual EtoH and tissue. <span style="color:purple"> Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates. </span>
+Between samples, the scalpel & forceps should be sterilized by spraying <span style="color:purple"> spray </span> with EtoH and using a flame to burn off any residual EtoH and tissue. <span style="color:purple"> Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates. </span>
 :::
 
 9.  Record weight in lab notebook <span style="color:purple"> or app </span> by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
