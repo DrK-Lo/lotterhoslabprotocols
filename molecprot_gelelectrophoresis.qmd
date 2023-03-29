@@ -150,7 +150,6 @@ Gel 2:
 	
 Gel 3:
 <img width="820" alt="Screen Shot 2023-03-27 at 1 11 36 PM" src="https://user-images.githubusercontent.com/122108419/228015830-d75c9698-59cf-4277-b586-9fff868c495d.png">
-
 :::
        
 13. Run the gel.
