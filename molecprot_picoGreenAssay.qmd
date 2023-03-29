@@ -35,7 +35,7 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
   - DNA Ladder 100 ug/mL </span>
  
--   <span style="color:red"> Molecular grade H2O, add order info</span>
+-   Molecular grade H2O (Fisher Scientific: Water, Molecular Grade Biology, cat#: BP2819-10)
 
 -  <span style="color:purple"> MilliQ H20 (get this from OGL) </span>
 
@@ -129,18 +129,16 @@ _Solution is stuck in the pipette tip_. If there is any liquid in the tip that d
 
 ### Equation 1 {.unnumbered}
 
-Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
-
- <span style="color:red"> You can add links in Quarto e.g. @eq-Pico1 (https://quarto.org/docs/authoring/cross-references.html#equations) </span>
+- Calculates the volume of undiluted stock PicoGreen needed to make diluted PicoGreen for a given number of standards and samples.
 
 $$
 \frac{1.1 * 50 \mu L \textrm{ diluted PicoGreen * (Num. samples + Num. standards)}}{200} = \textrm{vol PicoGreen Stock needed}$$ {#eq-Pico1}
 
 ### Equation 2 {.unnumbered}
 
-$$ 199 * \textrm{vol of Stock PicoGreen} = \textrm{vol of 1x TE}$$ {#eq-Pico2}
+- Calculate the volume of 1X TE needed to dilute the stock PicoGreen
 
-<span style="color:red"> Maybe we should add an example for how we will do each oyster plate? </span>
+$$ 199 * \textrm{vol of Stock PicoGreen} = \textrm{vol of 1x TE}$$ {#eq-Pico2}
 
 **Example PicoGreen Dilution Calculations for 88 Samples and 6 Standards**
 - Reminder that the remaining 8 samples from the 96 well plate will be quantified with Qubit
@@ -197,8 +195,6 @@ Make sure the plate is loaded with well A1 in the top left. There's a marker for
 ![](img/IMG_1965.png)
 
 -   Finally use the spreadsheet to convert absorbance values to associated concentrations.
-
- <span style="color:red"> overall this was hard to follow, some photos or links to an instruction manual would help </span>
 
 ## Calculating Concentrations {#sec-CalculatingConcs}
 
