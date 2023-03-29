@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Lotterhos Lab Protocols – bioinformagics_6_jupyter</title>
+<title>Lotterhos Lab Protocols – molecprot_pipettes_and_pipetting_tips</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./bioinformagics_7_terminal_colors.html" rel="next">
-<link href="./bioinformagics_4_anaconda.html" rel="prev">
+<link href="./molecprot_outdated.html" rel="next">
+<link href="./molecprot_qPCRandBioRAD.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -246,12 +246,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Molecular Equipment</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Molecular Equipment</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./molecprot_take3dnaquantification.html" class="sidebar-item-text sidebar-link">Take3 DNA Quantification</a>
@@ -279,7 +279,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./molecprot_Pipettes_and_Pipetting_Tips.html" class="sidebar-item-text sidebar-link">Pipetting</a>
+  <a href="./molecprot_Pipettes_and_Pipetting_Tips.html" class="sidebar-item-text sidebar-link active">Pipetting</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -606,12 +606,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">Bioinformagics</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="false">Bioinformagics</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./bioinformagics_1_install_iterm.html" class="sidebar-item-text sidebar-link">install iTerm terminal app for MacOS</a>
@@ -629,7 +629,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./bioinformagics_6_jupyter.html" class="sidebar-item-text sidebar-link active">jupyter Notebooks</a>
+  <a href="./bioinformagics_6_jupyter.html" class="sidebar-item-text sidebar-link">jupyter Notebooks</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -663,223 +663,71 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#jupyter-notebooks" id="toc-jupyter-notebooks" class="nav-link active" data-scroll-target="#jupyter-notebooks">jupyter Notebooks</a>
+  <li><a href="#pipetting" id="toc-pipetting" class="nav-link active" data-scroll-target="#pipetting">Pipetting</a>
   <ul class="collapse">
-  <li><a href="#launching-jupyter-notebooks" id="toc-launching-jupyter-notebooks" class="nav-link" data-scroll-target="#launching-jupyter-notebooks">Launching jupyter notebooks</a>
+  <li><a href="#pipettes-in-the-lab" id="toc-pipettes-in-the-lab" class="nav-link" data-scroll-target="#pipettes-in-the-lab">Pipettes in the Lab</a></li>
+  <li><a href="#using-the-right-tips" id="toc-using-the-right-tips" class="nav-link" data-scroll-target="#using-the-right-tips">Using the Right Tips</a>
   <ul class="collapse">
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">1. Examples</a></li>
-  <li><a href="#installing-jupyter" id="toc-installing-jupyter" class="nav-link" data-scroll-target="#installing-jupyter">2. Installing jupyter</a></li>
-  <li><a href="#launching-jupyter" id="toc-launching-jupyter" class="nav-link" data-scroll-target="#launching-jupyter">3. Launching jupyter</a></li>
-  <li><a href="#launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" id="toc-launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" class="nav-link" data-scroll-target="#launching-and-connecting-to-jupyter-notebooks-on-compute-nodes">4. Launching and Connecting to jupyter Notebooks on Compute Nodes</a></li>
-  <li><a href="#considerations-with-coding-file-systems" id="toc-considerations-with-coding-file-systems" class="nav-link" data-scroll-target="#considerations-with-coding-file-systems">5. Considerations with coding file systems</a></li>
+  <li><a href="#refilling-tip-boxes" id="toc-refilling-tip-boxes" class="nav-link" data-scroll-target="#refilling-tip-boxes">Refilling Tip Boxes</a></li>
   </ul></li>
-  <li><a href="#r-kernels-in-jupyter-notebooks" id="toc-r-kernels-in-jupyter-notebooks" class="nav-link" data-scroll-target="#r-kernels-in-jupyter-notebooks">R kernels in jupyter notebooks</a></li>
+  <li><a href="#pointers-for-pipetting" id="toc-pointers-for-pipetting" class="nav-link" data-scroll-target="#pointers-for-pipetting">Pointers for Pipetting</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_6_jupyter.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_Pipettes_and_Pipetting_Tips.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
-<section id="jupyter-notebooks" class="level1">
-<h1>jupyter Notebooks</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/bioinformagics_6_jupyter.qmd">Edit this page</a></p>
-<p>These instructions will cover launching and connecting to jupyter notebooks on discovery. For launching jupyter notebooks on your laptop, the process is similar but instead of connecting to discovery you just execute: <code>jupyter notebook</code>. At the end of the page, there are instructions for using R within jupyter notebooks.</p>
-<p>jupyter notebooks are basically like any session of R or python, but you can organize code and save the code’s output. You can also use “markdown” which is a handy way of manipulating font and typesetting. If you’re ever curious about markdown you can google markdown cheatsheet, or there is <a href="[link below](https://www.markdowntutorial.com/lesson/1/)">this tutorial</a> as well as <a href="https://www.markdownguide.org/cheat-sheet/">this cheatsheat</a>.</p>
-<p>These instructions assume that you’ve completed <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_2-3_advanced_sshing.html">Advanced SSH-ing</a> as well as <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_4_anaconda.html">Installing Anaconda</a> including creating the <code>mvp_env</code> anaconda environment.</p>
-<section id="launching-jupyter-notebooks" class="level2">
-<h2 class="anchored" data-anchor-id="launching-jupyter-notebooks">Launching jupyter notebooks</h2>
-<section id="examples" class="level3">
-<h3 class="anchored" data-anchor-id="examples">1. Examples</h3>
-<p>Here is an example of what a notebook looks like. This notebook is running python, but there are many languages that can be run - I’ll show you how to use R in these notebooks when I’m in town. You can see the markdown (in black at the very top) and the code (in gray cells) and code output below each cell. Having code set up this way means you can go anywhere in the notebook and run code, then scroll up and run code, then scroll elsewhere and run code. Because of this, the order of execution is recorded to the left of the cell - eg <code>In [1]</code> or <code>In [2]</code>.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig01.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig1</figcaption><p></p>
-</figure>
-</div>
-<p>Having code output saved alongside code is super super handy when going back to review or read code. Without the code output, you have to guess what the data looks like ‘behind the scenes’. With the code output you can leave yourself better clues as to what your code was doing. For example, previewing a data frame:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig02.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig2</figcaption><p></p>
-</figure>
-</div>
-<p>Or remembering which figure (filename) was created by which code:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig03.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig3</figcaption><p></p>
-</figure>
-</div>
-</section>
-<section id="installing-jupyter" class="level3">
-<h3 class="anchored" data-anchor-id="installing-jupyter">2. Installing jupyter</h3>
-<p>To run jupyter, you need to have a version of python installed (even if you want to only use R). Anaconda environments are built on python, so they come with python as one of the default installs when you create even “blank” environments. The default python will likely be a recent version (&gt;3.8) but you can also use jupyter on previous versions of python if you need to use another version.</p>
-<p>Normally you have to install jupyter via python. Python packages are installed with something called <code>pip</code>. We already have jupyter in the mvp_env, so we don’t have to do this, but for future reference do (after activating the environment) : <code>pip install jupyter</code></p>
-<p>For now, let’s just activate our environment: <code>conda activate mvp_env</code> - afterwards, you should be able to get a path returned from doing <code>which jupyter</code>:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig04.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig4</figcaption><p></p>
-</figure>
-</div>
-</section>
-<section id="launching-jupyter" class="level3">
-<h3 class="anchored" data-anchor-id="launching-jupyter">3. Launching jupyter</h3>
-<p>Running jupyter is pretty easy … except we installed jupyter on a remote server. Had we installed jupyter on our laptop, we would only need to run this command : <code>jupyter notebook</code> from terminal.</p>
-<p>However, if we run that command that on the server, our computer doesn’t know where to plug in our monitor to “listen” to that jupyter broadcast so we can actually see the notebooks. So we need to tell our computer where to listen. The “where” is what’s called a “port”, and ports are identified by numbers - we’ll stick to four-digit numbers.</p>
-<p>The default port that jupyter broadcasts on is port 8888. Because of this, it is likely that we cannot rely on port 8888 to be available on servers (since other people may be running notebooks or other things). So I want you to pick a number between 8888-9999 - but it can’t be 9603 because that’s what I use :slightly_smiling_face: - if you run into any errors below with the ssh command, try another number.</p>
-<p>The way we tell our computer where to listen on the server takes place during a <code>ssh</code> command using “port forwarding”. Previously we just did <code>ssh discovery</code>. To have your computer listen on port 9603 do: <code>ssh -L 9603:localhost:9603 discovery</code> (remember to use your own port number).</p>
-<p>This command tells your computer to forward the server’s port 9603 to your computer’s 9603. Honestly, it’s just easier to keep both numbers before and after <code>:localhost:</code> the same number. Once executed, this command will open a ssh connection to discovery and the port forwarding will happen silently (you won’t be able to tell). This window needs to remain open and connected in order for the “listening” to be maintained (if it’s closed, then you won’t be able to connect to your jupyter session).</p>
-<p>When you’re doing this type of connection, you should make sure that you do not see the following message - this indicates that you aren’t able to “listen” on the port you want (ie it’s already in use) and you should pick another port. You will still connect to the server, so there is no “error” just the warning.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig05.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig5</figcaption><p></p>
-</figure>
-</div>
-<p>Since we’re not using the default port 8888, we also want jupyter to broadcast to the port we’re listening to (eg 9603). We want to launch the jupyter command in a new window (not our current “port forwarding” window) - so we’ll have two windows in total. But we also want to keep these two windows together, so while you have your “port forwarding” window open :</p>
+<section id="pipetting" class="level1">
+<h1>Pipetting</h1>
+<p>See below for a list of the lab’s pipettes and advice for pipetting</p>
+<section id="pipettes-in-the-lab" class="level2">
+<h2 class="anchored" data-anchor-id="pipettes-in-the-lab">Pipettes in the Lab</h2>
+<p><strong>Single channels:</strong></p>
 <ul>
-<li>go to iTerm’s menubar: Shell &gt; Split Horizontally With Current Profile - this will (as you may expect) split the current window size to fit in another window. Note that the new window isn’t ssh-ed.</li>
-<li>in the new window do <code>ssh discovery</code> to connect. You will “land” on one of the login nodes - make sure you’re on the same login node as your other window (<code>login-00</code> or <code>login-01</code>) - the terminal prompt as well as the iTerm window itself will display your current node. If you’re not on the same node, you can <code>ssh</code> from one node to the other: eg do <code>ssh login-00</code> or <code>ssh login-01</code></li>
-<li>then activate mvp_env by doing <code>conda activate mvp_env</code></li>
-<li>then launch jupyter by doing <code>jupyter notebook --no-browser --port 9603</code> (using your port)</li>
+<li><p>P2.5 (.1-2.5 uL)</p></li>
+<li><p>P10 (.5-10 uL)</p></li>
+<li><p>P20 (2-20 uL)</p></li>
+<li><p>P100 (10-100 uL)</p></li>
+<li><p>P200 (20-200 uL)</p></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig06.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig6</figcaption><p></p>
-</figure>
-</div>
-<p>If you’ve <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_1_install_iterm.html">installed iTerm for macOS</a> and if you click on the top window with the jupyter command, and hold the ‘command’ key, you can scroll over the http:localhost link and it will become click-able. Click it, and you should see a file browser with the contents of your home directory.</p>
-<p>If your browser says it can’t connect - double check to make sure your “listening” window didn’t have warnings about busy ports, and that you used the same port in the <code>ssh -L</code> command AND the jupyter launch command. If all else fails: close all of your windows, choose another port and redo the substeps above.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig07.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig7</figcaption><p></p>
-</figure>
-</div>
-<p>To actually launch a jupyter notebook, you click the New drop down menu and then python3. This should open a new browser tab with the notebook (with a default Untitled filename which you can edit either within the notebook or on the file browser page).</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig10.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig10</figcaption><p></p>
-</figure>
-</div>
-<p>Note we don’t want to run jupyter on the login-node (this is where you “land” when you initially <code>ssh</code>) - in the how to launch and connect to a jupyter notebook on one of the compute nodes.</p>
-<p>To stop your jupyter command you can do ‘control + c’ (and respond ‘y’ to confirm), or close the jupyter command window.</p>
-</section>
-<section id="launching-and-connecting-to-jupyter-notebooks-on-compute-nodes" class="level3">
-<h3 class="anchored" data-anchor-id="launching-and-connecting-to-jupyter-notebooks-on-compute-nodes">4. Launching and Connecting to jupyter Notebooks on Compute Nodes</h3>
-<p>When you initially <code>ssh</code> to discovery, you “land” on one of the two login nodes: either <code>login-00</code> or <code>login-01</code>. You should see which one in your terminal prompt (see screenshots above). Running programs (including jupyter) on the login nodes (on any server) is usually “taboo” since resources are limited and all users will “land” here. So we want to use the compute nodes on discovery to actually run our notebook (which will run our code).</p>
-<section id="terminal-window-arrangements" class="level4">
-<h4 class="anchored" data-anchor-id="terminal-window-arrangements">Terminal window arrangements</h4>
-<p>Before we do this, it will be useful to consider how our terminal windows will be arranged. In the following instructions we will have two <code>ssh</code> connections to discovery: - In the first window we will 1) connect to discovery via <code>ssh discovery</code>, 2) connect to the compute node, and 3) launch jupyter - In the second window we will connect to discovery using port forwarding described above (eg <code>ssh -L 9603:localhost:9603 discovery</code>).</p>
-<p>Let’s first open two sessions to use, and combine them. - Using iTerm, hit ‘command + n’ to open a new window (or from the menu bar: Shell &gt; New Window). This will be referred to as Window #1. - Next we’re going to split the window to add another pane (i.e., BASH session). To add a second pane in the same window - using the menu bar: Shell &gt; Split Horizontally with Current Profile. This will be referred to as Window #2. - We put both of these sessions/panes in the same window so that we can eventually minimize it to the dock. We don’t ever want to close the jupyter notebook, nor do we want to close the port forwarding window that allows us to view the jupyter broadcast.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig11.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig11</figcaption><p></p>
-</figure>
-</div>
-</section>
-<section id="connecting-to-compute-nodes-and-launching-jupyter" class="level4">
-<h4 class="anchored" data-anchor-id="connecting-to-compute-nodes-and-launching-jupyter">Connecting to compute nodes and launching jupyter</h4>
-<section id="window-1" class="level5">
-<h5 class="anchored" data-anchor-id="window-1">Window #1</h5>
-<p>First connect to discovery: <code>ssh discovery</code>.</p>
-<p>Similar to how we launched jupyter on the login nodes, we will launch jupyter once connected to the compute nodes. To do so so that we can use jupyter, we need to launch an “interactive job”. The following command will request 1 CPU for 8 hours from the lotterhos partition (a partition where lab members get priority for computing resources).</p>
-<p><code>srun -p lotterhos -N 1 --time=8:00:00 --pty /bin/bash</code></p>
-<p>It may take some time to connect, and if the partition is busy it won’t connect until any currently running jobs are done. Ask Katie if you need clarification. If it’s taking too long you could try the “short” partition and use <code>-p short</code> instead of <code>-p lotterhos</code>. Once you’ve been granted resources, you should see a message like <code>srun: job 33302314 has been allocated resources</code></p>
-<p>Once connected, activate the anconda environment that has jupyter: eg <code>conda activate mvp_env</code> (note you could just add this line to the <code>notebook.sh</code> file below before the jupyter command)</p>
-<p>Now that we’re connected, we actually need to run several lines of commands in Window #1 for everything to work properly. Instead of running these commands every time we want to connect to jupyter on a compute node, let’s put them all into a single file. - first let’s create a file in the source directory: <code>vim ~/src/notebook.sh</code> - if there’s an error, the source directory likely doesn’t exist, so create it: do <code>mkdir ~/src</code> - Using <code>vim</code> will open a file for editing. Once opened, paste the following text into the file. After pasting, hit <code>esc</code> then <code>:wq</code> (note <code>:</code>) then hit enter to save the file.</p>
-<pre><code>echo "launching on port $1"
-
-ssh -N -f -R $1:localhost:$1 login-00
-ssh -N -f -R $1:localhost:$1 login-01
-
-cd $HOME/code
-jupyter notebook --no-browser --port $1</code></pre>
+<p>-P1000 (100-1000 uL)</p>
+<p><strong>Multichannels:</strong></p>
 <ul>
-<li>The contents of the file at <code>~/src/notebook.sh</code> do the following:
-<ul>
-<li>it will first print (<code>echo</code>) the port we chose to use (see below for file usage)</li>
-<li>then it will open a connection to each of the login nodes (<code>ssh -N ...</code>) from the compute node (see instructions for Window #2 below). This is basically telling the compute node to broadcast the notebook at your port on each of the login nodes.</li>
-<li>change to a folder where we save our notebooks <code>cd $HOME/code</code> - note you may want to change this path, as it probably doesn’t exist in your directories</li>
-<li>then launch jupyter using port we chose</li>
-</ul></li>
-<li>Once the file at <code>~/src/notebook.sh</code> is saved we need to make it “executable” so we can eventually execute all of the lines within it at once whenever we want to launch jupyter. To do so do : <code>chmod +x ~/src/notebook.sh</code>
-<ul>
-<li>If you <code>ls ~/src/notebook.sh</code> the file should now show up as green</li>
-</ul></li>
-<li>Now we can run this file like it was a program. To use this file we run something like: <code>~/src/notebook.sh 9603</code> or if in the <code>src</code> directory: <code>./notebook 9603</code>
-<ul>
-<li>Note we added 9603 to the execution command. The “9603” is a “trailing argument” which is a common way to tell a program (BASH/shell, R, python, etc) to use a certain variable. In shell file, where ever you see <code>$1</code> you can pretend as if it’s actually “9603”.</li>
-<li>Executing the file should eventually bring up a link to connect, but first we need to tell our computer where to listen to the jupyter broadcast (see Window #2 instructions).</li>
-</ul></li>
+<li><p>P10 (.5-10 uL)</p></li>
+<li><p>P100 (10-100 uL)</p></li>
+<li><p>P300 (30-300 uL)</p></li>
 </ul>
 </section>
-<section id="window-2" class="level5">
-<h5 class="anchored" data-anchor-id="window-2">Window #2</h5>
-<p>Since we have our jupyte broadcast being forwarded to each of the login nodes, it doesn’t matter which one we connect to. But we do need to tell our computer to listen for these broadcasts using the port number above (eg 9603). Simple execute the following in Window #2 <code>ssh -L 9603:localhost:9603 discovery</code> (using your port number). Now go back to Window #1, hold the ‘command’ key and click the <code>http://localhost</code> link. This should open up a file browswer as we saw when launching juypyter on the login node.</p>
-</section>
-<section id="combined-windows" class="level5">
-<h5 class="anchored" data-anchor-id="combined-windows">Combined windows</h5>
-<p>Your windows should look more or less like this:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig12.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig12</figcaption><p></p>
-</figure>
-</div>
-</section>
-</section>
-</section>
-<section id="considerations-with-coding-file-systems" class="level3">
-<h3 class="anchored" data-anchor-id="considerations-with-coding-file-systems">5. Considerations with coding file systems</h3>
-<p>One thing to keep in mind - where ever you execute the <code>jupyter notebook …</code> command is where this ‘file browser’ will open. Some times this may not be ideal - eg if you save notebooks in a different directory other than home. So you could either create a symlink in your home directory so you can get to your notebooks faster or you can just launch the jupyter command from the notebooks directory. - on a mac, a symlink is called an alias and you can create aliases by right-clicking folders and files then drag the alias anywhere you want.</p>
-<p>I recommend having all code for all projects under one directory (or at least having a single directory that symlinks all of your coding directories). This one directory can have multiple subdirectories with an arbitrary number of sub-subdirectories (so you don’t have to save all notebooks in a single directory).</p>
-<p>For instance I have a directory for all code, then a subdirectory for my current work (MVP-offsets):</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig08.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig8</figcaption><p></p>
-</figure>
-</div>
-<p>and sub-subdirectories within MVP-offsets:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig09.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig9</figcaption><p></p>
-</figure>
-</div>
+<section id="using-the-right-tips" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-right-tips">Using the Right Tips</h2>
+<ul>
+<li><p>Each pipette is marked with a certain color tape that corresponds to the type(s) of tips that are compatible with it. Tip boxes are also marked with tape using the same color code, so if you’re ever unsure what tips to use with a pipette, just look at the tape.</p></li>
+<li><p>Red tape: 0.1-2.5 uL tips</p></li>
+<li><p>Orange tape: 0.1-10 uL tips</p></li>
+<li><p>Yellow tape: 1-200 uL tips</p></li>
+<li><p>Green tape: 1-300 uL tips</p></li>
+<li><p>Blue tape: 50-1250 uL tips</p></li>
+</ul>
+<section id="refilling-tip-boxes" class="level3">
+<h3 class="anchored" data-anchor-id="refilling-tip-boxes">Refilling Tip Boxes</h3>
+<ul>
+<li><p>When you finish all the tips in one box, remove the tip wafer (the colored plate that held the tips), and put the box aside for autoclaving. The wafer can be recycled in the labware recycling box in the shared lab space.</p></li>
+<li><p>Autoclave empty tip boxes.</p></li>
+<li><p>After autoclaving, you can place a new rack of tips inside. <strong>Be sure to wear gloves.</strong> New tip racks that are plastic wrapped and inside the hard plastic holders they were shipped in are considered sterile.</p></li>
+<li><p>When placing new tips into an autoclaved box, try not to touch any part of the tips with your hands to maintain their sterility.</p></li>
+</ul>
 </section>
 </section>
-<section id="r-kernels-in-jupyter-notebooks" class="level2">
-<h2 class="anchored" data-anchor-id="r-kernels-in-jupyter-notebooks">R kernels in jupyter notebooks</h2>
-<p>Using jupyter for its native languages can be very powerful. However, you may want to use R. Well you can! To use R with jupyter we need <a href="https://drk-lo.github.io/lotterhoslabprotocols/bioinformagics_4_anaconda.html">an R environment</a>.</p>
-<p>When thinking about the setup - you will need an R environment at minimum. You can run jupyter from this environment, or run jupyter in another environment and still be able to use the R version in jupyter.</p>
-<p>After you have an active R environment (eg <code>conda activate r_4.0_env</code>), you will need to install a version (&gt;v3.6) of python (if it’s not already - conda envs will have python installed). After isntalling python, use <code>pip</code> to install the python jupyter package <code>pip install jupyter</code>.</p>
-<p>Next open R, then in the R session do <code>install.packages('IRkernel')</code>.</p>
-<p>Next you will decide how you want your R environment to display in Jupyter. Here is a screenshot of some of the R environments I have set up.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig13.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig13</figcaption><p></p>
-</figure>
-</div>
-<p>In the following command, the <code>displayname</code> is what is shown in the figure above. The <code>name</code> argument should be similar to the display name; <code>name</code> is used in the background for naming filesystems. Since you may have multiple R environments each set up for a specific purpose, including the purpose may be helpful.</p>
-<p><code>IRkernel::installspec(name = 'ir40_purpose', displayname = 'R 4.0 purpose')</code></p>
-<p>Then in whichever environment you run jupyter, you should be able to see your R version to run notebooks.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/bioinformagics_6_jupyter_fig14.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">fig14</figcaption><p></p>
-</figure>
-</div>
+<section id="pointers-for-pipetting" class="level2">
+<h2 class="anchored" data-anchor-id="pointers-for-pipetting">Pointers for Pipetting</h2>
+<p><em>Drawing up liquid</em>. Check the amount on the pipette is correct. When pipetting, be sure only to push down on the plunger to the first stop and slowly release to pick up the liquid until your thumb comes completely off the plunger. If you go past the first stop, you will draw up more liquid than the amount you set on the pipette and/or create bubbles. If you push down and then release quickly to draw up liquid, it can cause aspiration and contaminate the pipette if you aren’t using filtered tips. If you are using filtered tips, aspiration can cause liquid to land on the filter, so the pipette tip will hold less liquid than you specified.</p>
+<p><em>Check the pipette tip has the correct amount</em>. Look at the pipette tip, or all the pipette tips if using the multichannel. Does it have the amount of liquid that you expect? Are there air bubbles (other than a tiny bubble that often forms at the very apex of the tip)? If so, push out the liquid and restart.</p>
+<p><em>Pushing out liquid</em>. Slowly push down on the plunger past the first stop until you reach the final stopping point for the plunger. Keep your thumb on the plunger until the tip of the pipette is completely removed from the solution. Drawing up your thumb before the tip is removed will suck up some of the solution.</p>
+<p><em>Check the pipette tip is empty</em>. After you push the liquid out, check the pipette tip again and make sure it is empty. Dispose of the tip in a EHS-labeled waste jar. If there is any liquid in the tip that didn’t get pushed out or beads of liquid on the inside of the tip, proceed to the next step.</p>
+<p><em>Solution is stuck in the pipette tip</em>. If there is any liquid in the tip that didn’t get pushed out, carefully take the tip off. When you put the tip back on the pipette, some of the liquid may get pushed out, so carefully put the tip back on over the well where the solution needs to go. Then push down to the second stop and push the rest of the liquid out.</p>
 
 
 </section>
@@ -1021,13 +869,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./bioinformagics_4_anaconda.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Installing Anaconda and Anaconda Environments</span>
+      <a href="./molecprot_qPCRandBioRAD.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Molecular Protocols for Using the BioRAD qPCR Machine</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./bioinformagics_7_terminal_colors.html" class="pagination-link">
-        <span class="nav-page-text">How to color code your terminal</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./molecprot_outdated.html" class="pagination-link">
+        <span class="nav-page-text">Outdated Molecular Protocols</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
