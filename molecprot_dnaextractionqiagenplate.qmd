@@ -107,7 +107,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 
 ::: {.callout-tip}
 ## Tips for pipetting
-See page on [Pipettes and Pipetting Tips] for best pipetting practices and troubleshooting.
+See page on [Pipettes and Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipettesandpipettingtips.html) for best pipetting practices and troubleshooting.
 :::
 
 6.  Tare piece of weighing paper on scale.
