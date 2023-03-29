@@ -18,7 +18,7 @@ See below for a list of the lab's pipettes and advice for pipetting
 
 - P200 (20-200 uL)
 
--P1000 (100-1000 uL)
+- P1000 (100-1000 uL)
 
 **Multichannels:**
 
