@@ -157,6 +157,24 @@ Gel 3:
     a. Put the gel box cover into place.
         i. Make sure the wires are plugged in correctly (wire colors match plug colors).
         ii. Turn on the power supply and set timer. For a 1% gel, set it for 130V for 30 minutes. For a 2% gel, we found that 90V for 30 to 40 minutes works better.
+
+:::{.callout-important}
+## Important Power Supply Safety Notes
+
+- The power supply can output 300 V at maximum. Never run a protocol that maxes out the voltage.
+
+- You can safely run up to 4 small gels or 2 medium gels at most simultaneously on the power supply. Do not run more gels than the machine can handle, or it may break the machine.
+
+- Never connect/disconnect cords from the power supply's power jacks while the blue indicator light is on or when the screen says "Running."
+
+- Make sure area around the power supply is dry and clean
+
+- Wait 5 seconds after ending a run before handling the cords/output leads/gel rig.
+
+- For proper ventilation, leave at least 10 cm of space behind the instrument, and at least 5 cm of space on each side.
+
+- Information based on Appendix D of the [safety manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2FMAN0019502_PowerEaseTouch120WPowerSupply_UG.pdf)
+:::
 	
 <span style="color:red"> If we have a 300 V power supply, can it handle 3 units running at 130 V at the same time? add saftey info. I wonder if this is why power supplies are breaking... </span>
 	
