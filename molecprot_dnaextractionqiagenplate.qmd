@@ -69,15 +69,16 @@ Wear gloves for all steps in this process. Do not touch door handles or computer
     - First, develop a sample transfer plan which lists which samples in a given box will be going into which places on the tray. Work with Dr. Lotterhos to develop the plan.
     - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.
 
--   Ensure that if you are reusing S-blocks that they have been sterilized in an HCl bath and autoclaved prior to use. If they have not been or if you are unsure, follow [this protocol](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_Acid_Washes.html). If you are using a kit for the first time, you do not need to sterilize/HCl bath the block, as it is already sterile. </span>
+-   Ensure that if you are reusing S-blocks that they have been sterilized in an HCl bath and autoclaved prior to use. If they have not been or if you are unsure, follow [this protocol](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_Acid_Washes.html). If you are using a kit for the first time, you do not need to sterilize/HCl bath the block, as it is already sterile.
 
 ::: {.callout-note}
+
 ## Organizing trays according to data plan
 
 Samples were randomized into different positions on different plates. There is a datasheet for this layout that was used to fill plates with corresponding samples. Pictures of the datasheet and organized samples are shown below. 
 
 Data plan for sample organization
-</span> <span style="color:purple"> Camille could you add a picture from your plate organization spreadsheet here? </span>
+<span style="color:purple"> Camille could you add a picture from your plate organization spreadsheet here? </span>
 
 Ordered tray according to sample organization above
 ![image](https://user-images.githubusercontent.com/122108419/227250019-f5afe2c6-af53-494f-b5fb-dbf393c279f5.png)
@@ -85,7 +86,7 @@ Ordered tray according to sample organization above
 
 -   Preheat thermo-mixer to 56 degrees C.
 
--   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C in the Thermomixer </span> until precipitates have fully dissolved.
+-   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C in the Thermomixer until precipitates have fully dissolved.
 
 ### **Tissue Lysing** {.unnumbered}
 
@@ -122,7 +123,7 @@ See page on [Pipettes and Pipetting Tips](https://drk-lo.github.io/lotterhoslabp
 
 ::: {.callout-important}
 ## Important: Prevent cross-contamination
-Between samples, the scalpel & forceps should be sterilized by spraying with EtoH, wiping with a Kim wipe, and using a flame to burn off any residual EtoH and tissue. **Scalpels are very sharp, be very careful when wiping with a Kim wipe, as it's very easy to cut yourself.** Consider placing the Kim wipe on the counter, and wiping the scalpel off on it there. Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates. </span>
+Between samples, the scalpel & forceps should be sterilized by spraying with EtoH, wiping with a Kim wipe, and using a flame to burn off any residual EtoH and tissue. **Scalpels are very sharp, be very careful when wiping with a Kim wipe, as it's very easy to cut yourself.** Consider placing the Kim wipe on the counter, and wiping the scalpel off on it there. Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates.
 :::
 
 9.  Record weight in lab notebook or app by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
