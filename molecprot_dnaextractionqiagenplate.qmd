@@ -41,7 +41,7 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   <span style="color:purple"> 70% pure EtOH for cleaning, diluted from molecular grade absolute ethanol 200 proof </span>
 
--   EtoH (100% - molecular grade) <span style="color:red"> ADD INFOR FOR NAIVE USERS, PRODUCT ID, and link to ETOH types </span> 
+-   EtoH (100% - molecular grade)
     <span style="color:purple"> use for 95% and 70% dilutions only, product ID: A409-4, green 'Molecular' label </span>
 
 -   Plastic sheet <span style="color:purple"> half of a 8x11in sheet protector with a hole punched out in the middle. Sheet protectors can be found in office supplies drawer. </span>
@@ -67,7 +67,7 @@ Wear gloves for all steps in this process. Do not touch door handles or computer
 
 -   Sample transfer: Samples will be in multiple boxes in freezer, but we only want to take a box out once to minimize sample degradation.
     - First, develop a sample transfer plan which lists which samples in a given box will be going into which places on the tray. Work with Dr. Lotterhos to develop the plan.
-    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays. <span style="color:red"> ADD A PHOTO OF THE ORDERED TRAY AND A SCREENSHOT OF THE DATA PLAN TO HELP NEW PEOPLE UNDERSTAND THIS STEP</span>
+    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.
 
 <span style="color:purple"> Ensure that if you are reusing S-blocks that they have been sterilized in an HCl bath and autoclaved prior to use. If they have not been or if you are unsure, follow [this protocol](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_Acid_Washes.html). If you are using a kit for the first time, you do not need to sterilize/HCl bath the block, as it is already sterile. </span>
 
@@ -107,16 +107,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 
 ::: {.callout-tip}
 ## Tips for pipetting
-
-_Drawing up liquid_. Check the amount on the pipette is correct. When pipetting, be sure only to push down on the plunger to the first stop and slowly release to pick up the liquid until your thumb comes completely off the plunger. If you go past the first stop, you will draw up more liquid than the amount you set on the pipette and/or create bubbles. If you push down and then release quickly to draw up liquid, it can cause aspiration and contaminate the pipette if you aren't using filtered tips. If you are using filtered tips, aspiration can cause liquid to land on the filter, so the pipette tip will hold less liquid than you specified. 
-
-_Check the pipette tip has the correct amount_. Look at the pipette tip, or all the pipette tips if using the multichannel. Does it have the amount of liquid that you expect? Are there air bubbles (other than a tiny bubble that often forms at the very apex of the tip)? If so, push out the liquid and restart.
-
-_Pushing out liquid_. Slowly push down on the plunger past the first stop until you reach the final stopping point for the plunger. Keep your thumb on the plunger until the tip of the pipette is completely removed from the solution. Drawing up your thumb before the tip is removed will suck up some of the solution. 
-
-_Check the pipette tip is empty_. After you push the liquid out, check the pipette tip again and make sure it is empty. Dispose of the tip in a EHS-labeled waste jar. If there is any liquid in the tip that didn't get pushed out or beads of liquid on the inside of the tip, proceed to the next step.
-
-_Solution is stuck in the pipette tip_. If there is any liquid in the tip that didn't get pushed out, carefully take the tip off. When you put the tip back on the pipette, some of the liquid may get pushed out, so carefully put the tip back on over the well where the solution needs to go. Then push down to the second stop and push the rest of the liquid out.
+See page on [Pipettes and Pipetting Tips] for best pipetting practices and troubleshooting.
 :::
 
 6.  Tare piece of weighing paper on scale.
@@ -147,16 +138,9 @@ Between samples, the scalpel & forceps should be sterilized by spraying <span st
 Vortexer plate attachment:
 ![IMG_AD4161720A95-1](https://user-images.githubusercontent.com/122108419/227262189-0e2897c9-f374-4f67-8466-d486a99eb196.jpeg)
 
-
-<span style="color:red"> what caps? can you add to list of materials? what do you mean by "clear cover over rack?" should we also specify to use the plate attachement for the vortexer? some photos here could help. Also, specify again the centrifuge in the Hughes lab because that always comes up. Where is the plastic extraction plate stored?  </span>
-
 12.  Place <span style="color:purple"> entire tube rack with individual tube caps and rack lid</span> on thermo-mixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the plate attachement). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
 13.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed. <span style="color:purple"> Samples can be in thermomixer from the time the tissue prep is finished until you are ready to start the extraction first thing the following morning (usually ~ 2pm to 9am the following day). </span>
-
-<span style="color:red"> can we be more specific about the lysing time that we will use for all the samples? </span>
-
-<span style="color:red"> can we add instructions where data is entered in the App/Database - e.g. plate start/end time and lysing time </span>
 
 ::: {.callout-note}
 ## Entering sample weights into the app
@@ -165,25 +149,23 @@ Open the Seascape Samples Extractions app on your laptop or lab iPad (passcode i
 
 ### **Extraction** {.unnumbered}
 
-<span style="color:red"> THROUGHOUT CAN YOU ADD INFO ON HOW EXTRA BUFFER IN WEIGH BOATS IS DISPOSED OF? </span>
+1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by <span style="color:purple"> DI H2O </span> <span style="color:red"> be specific - do you use ddH2O? we want to avoid people using tap water </span>, then 70% EtoH.
 
-1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by <span style="color:purple"> DI H2O </span> <span style="color:red"> be specific - do you use ddH2O? we want to avoid people using tap water </span>, then 70% EtoH <span style="color:red"> be specific - which type of ETOH </span>.
-
-2.  After removing entire tube rack with the samples from the thermomixer, ensure microtubes <span style="color:purple"> in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid </span> <span style="color:red"> DO YOU MEAN PLATE WELLS? </span> are properly sealed, cover racks <span style="color:red"> WHAT DO YOU MEAN BY COVER RACKS? </span> and shake vigorously <span style="color:purple"> by hand </span>for 15 seconds <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>. Centrifuge <span style="color:purple"> in the Hughes lab centrifuge </span>for 30s at 4500 rpm to collect any solution from the caps. Hold down short spin button.
+2.  After removing entire tube rack with the samples from the thermomixer, ensure microtubes <span style="color:purple"> in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid </span> are properly sealed, cover racks  and shake vigorously <span style="color:purple"> by hand </span>for 15 seconds. Centrifuge <span style="color:purple"> in the Hughes lab centrifuge </span>for 30s at 4500 rpm to collect any solution from the caps. Hold down short spin button.
 
 ::: {.callout-important}
 ## Buffer AL prep
 Ensure ethanol has been added to Buffer AL according to instructions on the container
 :::
 
-3.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use <span style="color:purple"> 25 mL serological pipette tips with </span> <span style="color:red"> the E-Pet pipette to transfer </span> 45 mL Buffer AL in a 50mL liquid boat. <span style="color:purple"> If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. </span> Tightly reseal with new caps.
+3.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use 25 mL serological pipette tips with the E-Pet pipette to transfer 45 mL Buffer AL in a 50mL liquid boat. If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
 
 ::: {.callout-important}
 ## Disposing of extra buffers
 Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 'Waste liquid extraction buffer' in the hazardous waste accumulation area under the RNA hood. 
 :::
 
-4.  Place clear cover over the rack and shake vigorously for 15s <span style="color:purple"> by hand </span> <span style="color:red"> DO YOU MEAN VORTEXT THEM?</span>, then centrifuge in the Hughes Lab centrifuge for 30s at 4500 rpm to collect any solution from the caps.
+4.  Place clear cover over the rack and shake vigorously for 15s <span style="color:purple"> by hand </span>, then centrifuge in the Hughes Lab centrifuge for 30s at 4500 rpm to collect any solution from the caps.
 
 5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key.
 
@@ -191,7 +173,7 @@ Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 
 
 <span style="color:red"> I THINK MOST OF THESE STEPS CAN BE USED WITH UNFILTERED TIPS BECAUSE LIQUID IS JUST BEING TRANSFERED INTO THE SAMPLES, BUT I WONDER WITH STEP 6 ABOVE IF WE SHOULDN'T USE FILTERED TIPS BECAUSE TRANFERING THE SAMPLES COULD CAUSE CROSS-CONTAMINATION IF ASPIRATION OCCURS </span>
 
-7.  Seal the plate with an AirPore tape sheet <span style="color:purple">, which comes with the Qiagen kit. </span> <span style="color:red"> ADD TO LIST OF MATERIALS NEEDED WITH ORDERING INFO </span> and centrifuge at 4500 rpm for 13 min.
+7.  Seal the plate with an AirPore tape sheet which comes with the Qiagen kit and centrifuge at 4500 rpm for 13 min.
 
 8.  Remove tape and carefully add 500μl of Buffer AW1 to each sample. Use the 300μl multichannel pipette and add 250μl Buffer AW1 twice. This will require ~55mL of buffer AW1 in a liquid boat.
 
@@ -205,16 +187,12 @@ Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 
 ## Check spin column membrane
 Spin column membrane should be dry after this step. Spin for an additional 1 min if not.
 :::
-<span style="color:red"> MOVE NOTES INTO CALLOUT BLOCKS? https://quarto.org/docs/authoring/callouts.html </span>
 
 12.  Transfer the DNeasy 96 plate on a rack of Elution Microtubes RS.
 
 13.  Elute the DNA by adding 200μl of Low TE Buffer to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of low TE. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm, and seal elution microtubes with new caps. 
 
+14. Add the elution buffer data to the app/database.
 
-14. <span style="color:purple"> Add the elution buffer data to the app/database. </span>
-
-<span style="color:red"> ELUTION BUFFER DATA ADDED TO APP/DATABASE </span>
-
-15.  Label plate and extracted DNA can be placed in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.  <span style="color:purple"> Record time samples were put into the fridge/freezer in the app/datasheet. </span>
+15.  Label plate and extracted DNA can be placed in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles. Record time samples were put into the fridge/freezer in the app/datasheet.
 
