@@ -85,7 +85,7 @@ See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecpro
 | D1              | 2                         | Stock           | 1                   | 49                 |
 | D2              | 0.2                       | D1              | 1                   | 9                  |
 
--   Pour the 1X TE from the falcon tube into a liquid boat. Using the P100 multichannel, </span> pipette 49 uL of 1X TE in all sample wells. Using the correct pipette, add the appropriate volume of 1X TE into each standard well according to Table 2. For example, for standard 1, use the P100 single channel and pipette 25 uL of 1X TE in the appropriate well.
+-   Pour the 1X TE from the falcon tube into a liquid boat. Using the P100 multichannel, pipette 49 uL of 1X TE in all sample wells. Using the correct pipette, add the appropriate volume of 1X TE into each standard well according to Table 2. For example, for standard 1, use the P100 single channel and pipette 25 uL of 1X TE in the appropriate well.
 
 ### TABLE 2 - Standard Wells
 
