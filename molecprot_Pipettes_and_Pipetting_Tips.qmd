@@ -1,0 +1,64 @@
+# Pipetting
+
+See below for a list of the lab's pipettes and advice for pipetting
+
+## Pipettes in the Lab
+
+**Single channels:**
+
+- P2.5 (.1-2.5 uL)
+
+- P10 (.5-10 uL)
+
+- P20 (2-20 uL)
+
+- P100 (10-100 uL)
+
+- P200 (20-200 uL)
+
+-P1000 (100-1000 uL)
+
+**Multichannels:**
+
+- P10 (.5-10 uL)
+
+- P100 (10-100 uL)
+
+- P300 (30-300 uL)
+
+## Using the Right Tips
+
+- Each pipette is marked with a certain color tape that corresponds to the type(s) of tips that are compatible with it. Tip boxes are also marked with tape using the same color code, so if you're ever unsure what tips to use with a pipette, just look at the tape.
+
+- Red tape: 0.1-2.5 uL tips
+
+- Orange tape: 0.1-10 uL tips
+
+- Yellow tape: 1-200 uL tips
+
+- Green tape: 1-300 uL tips
+
+- Blue tape: 50-1250 uL tips
+
+### Refilling Tip Boxes
+
+- When you finish all the tips in one box, remove the tip wafer (the colored plate that held the tips), and put the box aside for autoclaving. The wafer can be recycled in the labware recycling box in the shared lab space.
+
+- Autoclave empty tip boxes.
+
+- After autoclaving, you can place a new rack of tips inside.  **Be sure to wear gloves.** New tip racks that are plastic wrapped and inside the hard plastic holders they were shipped in are considered sterile.
+
+- When placing new tips into an autoclaved box, try not to touch any part of the tips with your hands to maintain their sterility.
+
+## Pointers for Pipetting
+
+_Drawing up liquid_. Check the amount on the pipette is correct. When pipetting, be sure only to push down on the plunger to the first stop and slowly release to pick up the liquid until your thumb comes completely off the plunger. If you go past the first stop, you will draw up more liquid than the amount you set on the pipette and/or create bubbles. If you push down and then release quickly to draw up liquid, it can cause aspiration and contaminate the pipette if you aren't using filtered tips. If you are using filtered tips, aspiration can cause liquid to land on the filter, so the pipette tip will hold less liquid than you specified. 
+
+_Check the pipette tip has the correct amount_. Look at the pipette tip, or all the pipette tips if using the multichannel. Does it have the amount of liquid that you expect? Are there air bubbles (other than a tiny bubble that often forms at the very apex of the tip)? If so, push out the liquid and restart.
+
+_Pushing out liquid_. Slowly push down on the plunger past the first stop until you reach the final stopping point for the plunger. Keep your thumb on the plunger until the tip of the pipette is completely removed from the solution. Drawing up your thumb before the tip is removed will suck up some of the solution. 
+
+_Check the pipette tip is empty_. After you push the liquid out, check the pipette tip again and make sure it is empty. Dispose of the tip in a EHS-labeled waste jar. If there is any liquid in the tip that didn't get pushed out or beads of liquid on the inside of the tip, proceed to the next step.
+
+_Solution is stuck in the pipette tip_. If there is any liquid in the tip that didn't get pushed out, carefully take the tip off. When you put the tip back on the pipette, some of the liquid may get pushed out, so carefully put the tip back on over the well where the solution needs to go. Then push down to the second stop and push the rest of the liquid out.
+
