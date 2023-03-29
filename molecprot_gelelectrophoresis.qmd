@@ -8,18 +8,18 @@ We are Ethidium-Bromide Free!
 
 ## New Protocol adapted from OGL:
 
-<span style="color:purple"> You can make either a 1% or 2% agarose gel. We have been using 2% gels because our 1% gels broke often and did not give us as clear results. </span>
+You can make either a 1% or 2% agarose gel. We have been using 2% gels because our 1% gels broke often and did not give us as clear results.
 
-1.  <span style="color:purple"> Dilute 10X TAE Buffer to 1X. Measure 900mL MilliQ H20 and 100mL 10X TAE in the large plastic graduated cyliner. Combine and store in a 1L labelled glass bottle. The recipe for making more 10X TAE Buffer is below and [here](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) </span> 
+1. Dilute 10X TAE Buffer to 1X. Measure 900mL MilliQ H20 and 100mL 10X TAE in the large plastic graduated cyliner. Combine and store in a 1L labelled glass bottle. The recipe for making more 10X TAE Buffer is below and [here](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) 
 
 2. Mix the gel components.  
     a. For a 1% agarose gel:
 	    i. Small gel: 0.60g agarose + 60 mL 1X TAE Buffer <span style="color:red"> add links to recipe </span> 
 	    ii. Medium gel: 1 g agarose + 100 mL 1X TAE Buffer
 	    
-    b. <span style="color:purple"> For a 2% agarose gel: </span> 
-    	    i. <span style="color:purple"> Small gel: 1.2g agarose + 60 mL 1X TAE Buffer </span> 
-	    ii. <span style="color:purple"> Medium gel: 2g agarose + 100 mL 1X TAE Buffer </span>
+    b. For a 2% agarose gel:
+    	    i. Small gel: 1.2g agarose + 60 mL 1X TAE Buffer 
+	    ii. Medium gel: 2g agarose + 100 mL 1X TAE Buffer
 	    
     c.	Add agarose, then 1X TAE to an Erlenmeyer flask.
     
@@ -69,9 +69,9 @@ We are Ethidium-Bromide Free!
 10. Fill rig with enough 1X TAE Buffer to just cover the entire gel.
     a.	The rig doesn’t need to be filled all the way to the line, just enough to cover the gel.
     
-11. Add ladder into the first well. <span style="color:red"> if this is in the first well, shouldn't this step come before the last? do you have to add the dye to the ladder? I can't remember </span>  <span style="color:purple"> Switched order of 11 and 12, and you don't need to add dye to ladder </span>
-    a.	Typically, 2ul ladder.
-        i. We use the Generuler 1kb Plus DNA. <span style="color:purple"> Before pipetting, centrifuge the ladder briefly with the loading dye (for balance) so that there are no drips on the sides of the tubes. </span>
+11. Add ladder into the first well. You don't need to add dye to ladder.
+    a.	Typically, 2ul ladder per well
+        i. We use the Generuler 1kb Plus DNA. Before pipetting, centrifuge the ladder briefly with the loading dye (for balance) so that there are no drips on the sides of the tubes.
         ii. Aliquots of ladder can be found in the  -20 freezer. 
 
 12. Load the gel.
@@ -96,13 +96,12 @@ We are Ethidium-Bromide Free!
 	
 ::: {.callout-important}
 ## Pipetting into gel wells
-
-<span style="color:purple"> When pipetting into gel wells, be careful not to break the agarose or stick the pipette tip too far into the well so that the sample ejects into the agarose. Position your pipette tip just inside the well and check for dye in the correct well after you pipette it. Check to see if the agarose around the well breaks. Take a note if the agarose breaks around a well. (Will add a photo here) </span>
+When pipetting into gel wells, be careful not to break the agarose or stick the pipette tip too far into the well so that the sample ejects into the agarose. Position your pipette tip just inside the well and check for dye in the correct well after you pipette it. Check to see if the agarose around the well breaks. Take a note if the agarose breaks around a well. (Will add a photo here)
 :::	
 
 ::: {.callout-note}
 ## 3 Gel layout for a 96-well plate of samples
-<span style="color:purple"> Here is a sample gel layout for how you could organize your samples into gels if you have a plate of 96. This layout uses 3 medium gels with 2 20-well combs each. Because there are so many wells in each row, it may be useful to have one member keeping track of which well is the next to load and another member to actually load the gel. 
+Here is a sample gel layout for how you could organize your samples into gels if you have a plate of 96. This layout uses 3 medium gels with 2 20-well combs each. Because there are so many wells in each row, it may be useful to have one member keeping track of which well is the next to load and another member to actually load the gel. 
 
 Gel 1:
 <img width="764" alt="Screen Shot 2023-03-27 at 1 11 03 PM" src="https://user-images.githubusercontent.com/122108419/228015687-58ee45c2-7834-4d39-9aca-529e7247deed.png">
@@ -120,7 +119,7 @@ Gel 3:
 13. Run the gel.
     a. Put the gel box cover into place.
         i. Make sure the wires are plugged in correctly (wire colors match plug colors).
-        ii. Turn on the power supply and set timer. <span style="color:purple"> For a 1% gel, set it for 130V for 30 minutes. For a 2% gel, we found that 90V for 30 to 40 minutes works better. </span>
+        ii. Turn on the power supply and set timer. For a 1% gel, set it for 130V for 30 minutes. For a 2% gel, we found that 90V for 30 to 40 minutes works better.
 	
 <span style="color:red"> If we have a 300 V power supply, can it handle 3 units running at 130 V at the same time? add saftey info. I wonder if this is why power supplies are breaking... </span>
 	
@@ -138,16 +137,16 @@ Gel 3:
     c. Carefully remove the tray and gel.
         i. Try to drip excess buffer back into the rig, scraping the bottom of the tray on the edge of the box.
    
-    d. <span style="color:purple"> The gel doc (for visualizing the gel) is in OGL, in the room you walk through right before the autoclave room. The gel doc is a large grey machine on the benchtop next to a black computer. </span> Open the gel doc tray and wipe it clean using MilliQ water and KimWipes.
+    d. The gel doc (for visualizing the gel) is in OGL, in the room you walk through right before the autoclave room. The gel doc is a large grey machine on the benchtop next to a black computer. Open the gel doc tray and wipe it clean using MilliQ water and KimWipes.
         i. A small volume of water (<10ml) is sufficient. 
 	
     e. Slide the gel onto the gel doc tray.
         i. Do so slowly to avoid creating bubbles under the gel.
-        ii. If you’re unsure if your gel has run long enough, you can leave gel in tray and visualize it.  You can then return the gel to the rig and run it for longer if necessary.
+        ii. If you’re unsure if your gel has run long enough, you can leave gel in tray and visualize it. You can then return the gel to the rig and run it for longer if necessary.
 	
     f. Close the tray.
     
-    g. Open “Image Lab” application on the computer connected to the gel doc.
+    g. Open “Image Lab” application on the OGL laptop connected to the gel doc.
     
     i. Check that the cord labeled “Gel doc” is plugged into the computer.
     
@@ -175,15 +174,15 @@ Gel 3:
     i.	To save as .jpg image:
         i. Select File>Export>Export for Publication>Select Export.
         ii. Change file type to .jpg.
-        iii. Name file and save in appropriate folder. <span style="color:purple"> We have a Lotterhos folder on the OGL computer. </span>
+        iii. Name file and save in appropriate folder. We have a Lotterhos folder on the OGL laptop.
         
-15. Always clean the gel doc tray after use. <span style="color:purple"> You can use DI water from the squirt bottle near the gel doc and a Kimwipe to clean the tray of any remaining gel or TAE. Make sure the tray is dry before you leave. </span>
+15. Always clean the gel doc tray after use. You can use DI water from the squirt bottle near the gel doc and a Kimwipe to clean the tray of any remaining gel or TAE. Make sure the tray is dry before you leave.
 
-16. Dispose of the gel in <span style="color:purple"> the mayo jar in the gel room labeled 'Gel waste.' </span>
+16. Dispose of the gel in the mayo jar in the gel room labeled 'Gel waste.'
 
-17. Rinse gel tray and let dry on <span style="color:purple"> drying rack above the sink in the gel room. </span>
+17. Rinse gel tray and let dry on drying rack above the sink in the gel room.
 
-18. <span style="color:purple"> Interpret your gel. See guidelines below (under the old gel protocol) for an example and information on how to interpret your gel. </span>
+18. Interpret your gel. See guidelines below (under the old gel protocol) for an example and information on how to interpret your gel.
 
 ## Gel Interpretation
 
