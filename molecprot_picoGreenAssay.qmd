@@ -67,7 +67,7 @@ quantifications for Atlantic cod DNA extractions using a spin column plate is be
 
 ::: {.callout-tip}
 ## Tips for pipetting
-See the [Pipetting Tips](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_Pipetting_Tips.qmd) page for advice on good pipetting practice and troubleshooting.
+See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipettesandpipettingtips.html) page for advice on good pipetting practice and troubleshooting.
 :::
 
 ## **Protocol** {.unnumbered}
