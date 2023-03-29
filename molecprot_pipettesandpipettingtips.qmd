@@ -1,5 +1,7 @@
 # Pipetting
 
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_pipettesandpipettingtips.qmd)
+
 See below for a list of the lab's pipettes and advice for pipetting
 
 ## Pipettes in the Lab
