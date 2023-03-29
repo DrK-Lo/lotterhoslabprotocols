@@ -50,7 +50,7 @@ website:
           - molecprot_magbeadwash.qmd
           - molecprot_tapestationlibrarycheck.qmd
           - molecprot_qPCRandBioRAD.qmd
-          - molecprot_Pipettes_and_Pipetting_Tips.qmd
+          - molecprot_pipettesandpipettingtips.qmd
           - molecprot_outdated.qmd
       - section: "Professional Development"
         contents: 
