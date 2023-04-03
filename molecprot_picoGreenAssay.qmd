@@ -39,6 +39,8 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 -   MilliQ H20 (get this from OGL lab space)
 
+- Styrofoam box with ice and lid
+
 ## **Equipment** {.unnumbered}
 
 -   Synergy HTX plate reader in shared molecular space
@@ -71,6 +73,8 @@ See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecpro
 :::
 
 ## **Protocol** {.unnumbered}
+
+- Fill a styrofoam box with ice. Place your samples on ice and keep them there the whole time they're out of the fridge to prevent degradation.
 
 -   Dilute your DNA samples. For a full plate of 96 samples, only dilute samples in columns 1-11 as this is as many samples as will fit on the PicoGreen plate. Use the E-Pet with a 2mL tip to transfer 2mL of MilliQ H20 into a liquid boat. Using the P100 multichannel pipette, add 20uL of MilliQ H20 to the wells of 11 columns of a 96 well PCR plate. Using the P10 multichannel pipette, add 2uL of your DNA to the corresponding wells in 11 columns of the PCR plate. Seal the PCR plate with a plastic sticker cover, vortex with plate attachment, and centrifuge with 'short' setting and using a tip wafer as a counterweight. This is a 1:10 dilution as required to be read by PicoGreen.
 
