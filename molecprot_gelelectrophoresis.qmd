@@ -34,6 +34,8 @@ You can make either a 1% or 2% agarose gel. We have been using 2% gels because o
 
 - P2.5 and P10 pipettes
 
+- Styrofoam box with ice
+
 **Equipment**
 
 - Magnetic stir plate (to the left of the -20 fridge)
@@ -112,14 +114,15 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
         ii. Aliquots of ladder can be found in the  -20 freezer. 
 
 12. Load the gel.
-    a.	If there is any gel inside the wells, clean them out by pipetting up TAE and expelling it into the wells
-    b.	Cut a piece of parafilm and tape to benchtop.
-    c.	Using a pipette, add dots of 6X loading dye (1 for each sample) to parafilm.
+    a. Place the DNA samples on ice in the styrofoam box once they have defrosted.
+    b.	If there is any gel inside the wells, clean them out by pipetting up TAE and expelling it into the wells
+    c.	Cut a piece of parafilm and tape to benchtop.
+    d.	Using a pipette, add dots of 6X loading dye (1 for each sample) to parafilm.
     <img width="456" alt="Screen Shot 2023-03-24 at 2 54 47 PM" src="https://user-images.githubusercontent.com/122108419/227614901-02cf7032-314f-4d5d-809b-4f24198516b0.png">
 
         i. The loading dye is blue and can be found in the -20 freezer. 
        	
-    d.	Using a pipette, add DNA sample to a dot of loading dye.
+    d.	Using a pipette **with filtered tips**, add DNA sample to a dot of loading dye.
     <img width="460" alt="Screen Shot 2023-03-24 at 2 55 12 PM" src="https://user-images.githubusercontent.com/122108419/227614980-fc8435a5-46c8-47be-9839-8136d1aa8c28.png">
    	 i. We use 3ul DNA + 1ul loading dye.
 	 
