@@ -30,17 +30,17 @@ See below for a list of the lab's pipettes and advice for pipetting
 
 ## Using the Right Tips
 
-- Each pipette is marked with a certain color tape that corresponds to the type(s) of tips that are compatible with it. Tip boxes are also marked with tape using the same color code, so if you're ever unsure what tips to use with a pipette, just look at the tape.
+- Each pipette is marked with a certain color tape and symbol that corresponds to the type(s) of tips that are compatible with it. Tip boxes are also marked with tape using the same color/symbol code, so if you're ever unsure what tips to use with a pipette, just look at the tape.
 
-- Red tape: 0.1-2.5 uL tips
+- Red tape (+): 0.1-2.5 uL tips
 
-- Orange tape: 0.1-10 uL tips
+- Orange tape (triangle): 0.1-10 uL tips
 
-- Yellow tape: 1-200 uL tips
+- Yellow tape (...): 1-200 uL tips
 
-- Green tape: 1-300 uL tips
+- Green tape (o): 1-300 uL tips
 
-- Blue tape: 50-1250 uL tips
+- Blue tape (#): 50-1250 uL tips
 
 ### Refilling Tip Boxes
 
@@ -51,6 +51,16 @@ See below for a list of the lab's pipettes and advice for pipetting
 - After autoclaving, you can place a new rack of tips inside.  **Be sure to wear gloves.** New tip racks that are plastic wrapped and inside the hard plastic holders they were shipped in are considered sterile.
 
 - When placing new tips into an autoclaved box, try not to touch any part of the tips with your hands to maintain their sterility.
+
+## Filtered vs. Non-Filtered Pipette Tips
+
+- All pipettes in the lab have both filtered and non-filtered compatible tips. 
+
+- Filtered tips help prevent whatever you're pipetting from getting into the pipette through aspiration. Therefore, it is best to use filtered tips when working with different samples to prevent cross contamination from any sample that has gotten into the pipette (ex. when pipetting different DNA samples for a DNA extraction)
+
+- Unfiltered tips are appropriate to use when pipetting solutions, dyes, and buffers, i.e. things less likely to cause significant contamination to other pipetted materials. (Ex. loading dye, gel ladders, extraction buffers, etc.)
+
+- Spray a kimwipe with ethanol and wipe down pipettes before and after use to remove any potential remaining sample.
 
 ## Pointers for Pipetting
 
