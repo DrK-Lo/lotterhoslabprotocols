@@ -49,6 +49,8 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   10% bleach solution for cleaning [solution recipe](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_solutionrecipes.html)
 
+- Low TE buffer for elutions (in glass bottle)
+
 ### **Equipment** {.unnumbered}
 
 -   Micro-scale (need to be able to measure down to 20mg), Mettler Toldeo, model #ME303E 
