@@ -106,7 +106,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 
 4.  Get a tissue collection tube rack from Qiagen kit box. The clear tubes are already in a clear blue rack and have a clear lid over them. 
 
-5.  Add 18 mL buffer ATL to a 25 mL liquid boat (enough for 100 samples). Add 180uL buffer ATL to each tissue collection tube using the P300 multichannel pipette.
+5.  Add 18 mL **Buffer ATL** to a 25 mL liquid boat (enough for 100 samples). Add 180uL **Buffer ATL** to each tissue collection tube using the P300 multichannel pipette.
 
 ::: {.callout-tip}
 ## Tips for pipetting
@@ -130,7 +130,7 @@ Between samples, the scalpel & forceps should be sterilized by spraying with Eto
 
 9.  Record weight in lab notebook or app by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
 
-10. Add 2 mL Proteinase K to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL Proteinase K into each sample tube. 
+10. Add 2 mL **Proteinase K** to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL **Proteinase K** into each sample tube. 
 
 11.  Seal wells with collection microtube caps from Qiagen kit, then place clear rack lid back on the tube rack. Use vortexer  with plate attachment (shown below) to mix samples, then centrifuge using Hughes lab centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
 
@@ -154,10 +154,10 @@ Open the Seascape Samples Extractions app on your laptop or lab iPad (passcode i
 
 ::: {.callout-important}
 ## Buffer AL prep
-Ensure ethanol has been added to Buffer AL according to instructions on the container
+Ensure ethanol has been added to **Buffer AL** according to instructions on the container
 :::
 
-3.  Carefully remove caps and add 410 μl Buffer AL using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use 25 mL serological pipette tips with the E-Pet pipette to transfer 45 mL Buffer AL in a 50mL liquid boat. If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
+3.  Carefully remove caps and add 410 μl **Buffer AL** using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use 25 mL serological pipette tips with the E-Pet pipette to transfer 45 mL Buffer AL in a 50mL liquid boat. If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
 
 ::: {.callout-important}
 ## Disposing of extra buffers
@@ -174,11 +174,11 @@ Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 
 
 7.  Seal the plate with an AirPore tape sheet which comes with the Qiagen kit and centrifuge at 4500 rpm for 13 min in the Hughes centrifuge.
 
-8.  Remove tape and carefully add 500μl of Buffer AW1 to each sample. Use the 300μl multichannel pipette and add 250μl Buffer AW1 twice. This will require ~55mL of buffer AW1 in a liquid boat.
+8.  Remove tape and carefully add 500μl of **Buffer AW1** to each sample. Use the 300μl multichannel pipette and add 250μl **Buffer AW1** twice. This will require ~55mL of **Buffer AW1** in a liquid boat.
 
 9.  Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 7 min. 
 
-10.  Remove tape and carefully add 500μl of Buffer AW2 to each sample. Use the 300μl multichannel pipette and add 250μl twice. This will require ~55mL of buffer AW2 in a liquid boat.
+10.  Remove tape and carefully add 500μl of **Buffer AW2** to each sample. Use the 300μl multichannel pipette and add 250μl twice. This will require ~55mL of **Buffer AW2** in a liquid boat.
 
 11. Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 20 min in the Hughes centrifuge. 
 
@@ -189,7 +189,7 @@ Spin column membrane should be dry after this step. Spin for an additional 1 min
 
 12.  Transfer the DNeasy 96 plate on a rack of Elution Microtubes RS.
 
-13.  Elute the DNA by adding 200μl of Low TE Buffer to each sample using the 300μl multichannel pipette. For a full plate, this will require ~20mL of low TE. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm in the Hughes centrifuge, and seal elution microtubes with new caps. 
+13.  Elute the DNA by adding 200μl of **Low TE Buffer** to each sample using the 300μl multichannel pipette. We have found **Low TE Buffer** gives better yields than kit Buffer AE. For a full plate, this will require ~20mL of **low TE**. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Centrifuge for 3 min at 4500 rpm in the Hughes centrifuge, and seal elution microtubes with new caps. 
 
 14. Add the elution buffer data to the app/database.
 
