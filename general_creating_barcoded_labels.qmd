@@ -57,5 +57,5 @@
 :::
 {.callout-note}
 ## CviMVPe QR Code Template
-See [this link] for the template for May 2023 CviMVPe QR code labels. Please look over the README tab before making any edits to the page. 
+See [this link](https://docs.google.com/spreadsheets/d/1nHdGgG5RP_mz7KuAI_e7l-nRvl1O6B4K33N7Kh1AFjA/edit?usp=sharing) for the template for May 2023 CviMVPe QR code labels. Please look over the README tab before making any edits to the page. 
 :::
