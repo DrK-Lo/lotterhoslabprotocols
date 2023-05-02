@@ -32,6 +32,12 @@ Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is no
 * When adding wet tissues to 95% ethanol, it can decrease the concentration of ethanol. It can be helpful to change the ethanol after the first few months.
 * More information on other ways to preserve tissues are found [in this article](https://spnhc.biowikifarm.net/wiki/Tissue_Sample_Collection)
 
+ORDERING INFORMATION:[Ethyl alcohol, Pure 190 proof, meets USP testing specifications, non-denatured ethanol 493538-4L](https://www.sigmaaldrich.com/US/en/product/sial/493538) 
+
+[Ethanol, 190 proof, 95%, Reagent ACS, Spectrophotometric Grade, Thermo Scientific Chemicals AC615110040](https://punchout.fishersci.com/shop/products/ethanol-190-proof-95-reagent-acs-spectrophotometric-grade-thermo-scientific/AC615110040)
+
+USP vs. ACS ethanol: ACS reagent grade ethyl alcohol meets or exceeds the specifications the American Chemical Society's Reagent Handbook. USP Grade are chemicals manufactured under current Good Manufacturing Practices (cGMP) and which meet the requirements of the US Pharmacopeia. ACS and USP are generally equivalent.
+
 ## Use 70% Denatured Ethanol for Cleaning
 
 [Information from this article explains the use of ethanol for cleaning](https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/). The main points are summarized here:
@@ -48,3 +54,5 @@ Histological/reagent ethanol is denatured ethanol. Molecular grade ethanol is no
 * Something about the process of making ethanol makes it hard to get from 95% to 100%. Sometimes this contains additives to get it up to 100%, but they are not denaturing agents. 
 * Some procedures that are sensitive to the presence of water require absolute ethanol. 
 * A common method to produce ethanol with a higher concentration than 95% is to use additives that disrupt the azeotrope composition and allow further distillation. For this reason, absolute ethanol sometimes contains trace amounts of these additives (such as benzene). [source](https://bitesizebio.com/13518/which-type-of-ethanol-should-i-use/)
+
+ORDERING INFORMATION  [Ethyl alcohol, Pure 200 proof, for molecular biology E7023-4L](https://www.sigmaaldrich.com/US/en/product/sigald/e7023)
