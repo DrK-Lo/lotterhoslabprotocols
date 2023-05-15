@@ -1,0 +1,6 @@
+# OMAX Microscope and Camera
+
+This page explains OMAX Microscope and camera attachment operation.
+
+## Getting Set Up
+
