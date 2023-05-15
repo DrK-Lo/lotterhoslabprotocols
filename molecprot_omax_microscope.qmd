@@ -2,5 +2,7 @@
 
 This page explains OMAX Microscope and camera attachment operation.
 
+![](img/
+
 ## Getting Set Up
 
