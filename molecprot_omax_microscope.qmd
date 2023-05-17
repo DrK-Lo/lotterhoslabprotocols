@@ -1,8 +1,29 @@
 # OMAX Microscope and Camera
 
-This page explains OMAX Microscope and camera attachment operation.
+This page explains OMAX microscope, camera attachment, and accompanying laptop operation.
 
-![](img/
+![](img/OMAXscope.png)
 
 ## Getting Set Up
+
+### Microscope
+
+- The OMAX microscope is located on the frontmost lab bench next to the lab Mac desktop and below the shelves with white sample boxes
+
+- Remove the plastic covering from the microscope. Plug the microscope into the wall if it isn't already.
+
+- Turn it on using the switch in the back. You'll know it's on when blue lights on the side of the scope start glowing and the sample illuminating light turns on.
+
+![](img/OMAXpower.png)
+
+### Laptop
+- If you want to take images of what you're looking at on the microscope, use the Lenovo YOGA 730-15 laptop located on the counter next to the microscope.
+
+- Power on the laptop using the long button on the right side next to the cable ports. The light will glow white when the laptop is on.
+
+- Make sure the Unitek cable is plugged into both the laptop and microscope.
+
+![](img/OMAXcord.png)
+
+- Open the ToupView app.
 
