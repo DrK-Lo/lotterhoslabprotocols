@@ -8,6 +8,14 @@
 
 -   In addition each user has a home directory and a scratch directory.
 
+## Storage unix tricks
+
+`df -h /work/lotterhos` #total space useage for lotterhos
+
+`pwd | du -h --max-depth=1` get disk use for folders in the current directory
+
+`ls -lah` view owners of files and file sizes (the total size of the folders is not displayed)
+
 ## **Working with github:** {.unnumbered}
 
 It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo's Bioinformatics book to work with git on linux.
@@ -78,17 +86,14 @@ Find the users in a group: `users lotterhos-bsb lotterhos` will give the users f
 
 Sometimes I have still had trouble making the code work on existing directories, but it can work if you copy the directory to a new one
 
-### **GitHub Enterprise** {.unnumbered}
-
--   To do: Set up a time to talk to Raphael
 
 ### **Archival Lotterhos Lab storage\*\* (25 TB for lab). Northeastern NESE collection.** {.unnumbered}
 
 -   Path: `/lotterhosarchive/`
 
--   TO DO: FIGURE OUT WHAT TO DO ABOUT SARA's COD BACKUPS ON SMB/LOTTERHOS - ASK JAMES
+-   Access through GLOBUS endpoint that Katie can Share with you
 
--   Within this storage space we will have a shared folder for each project, that only the people on that project will have access to.
+# Outdated storage
 
 ### **Active Lotterhos Lab storage: more information\*\* (? TB for lab).** {.unnumbered}
 
