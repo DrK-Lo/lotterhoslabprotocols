@@ -32,7 +32,14 @@ The qPCR machine is located in the Bowen Lab. Please coordinate with their lab b
 
 #### **Table 1:** {.unnumbered}
 
-\| Reagent \| Amount \| \|---------------------------------\|---------\| \| 10 mM Tris-HCl + 0.05% Tween-20 \| 999 uL \| \| Library dsDNA \| 1 uL \| \| Total \| 1000 uL \|
+| Reagent | Amount \| \|---------------------------------\|---------\| \| 10 mM Tris-HCl + 0.05% Tween-20 \| 999 uL \| \| Library dsDNA \| 1 uL \| \| Total \| 1000 uL \|
+
+| Reagent | Amount|
+|---------------------------------|---------|
+| 10 mM Tris-HCl + 0.05% Tween-20| 999 uL |
+| Library dsDNA | 1 uL|
+| Total | 1000 uL |
+
 
 -   Next dilute your sample libraries to ensure they fall within the range of the standards provided by the KAPA kit (Table 2). Typically for a library in the range of 1-200 ng/uL you need a 1:18000 dilution to be read on the QPCR machine. However, you can use the calculation below to determine what you need to dilute your undiluted library down to:
 
