@@ -32,6 +32,16 @@ Designed to build upon the core topics covered in BINF 6308, i.e., use of the co
 
 Introduces the field of genomics. With the completion of the Human Genome Project several years ago, there has been an explosion of genetic data collected. Focuses on the bioinformatics tools necessary to analyze large-scale genomic data. Covers topics such as phylogenetic trees, molecular evolution, gene expression profiling, heterogeneous genomic data, as well as next-generation sequencing (NGS) data.
 
+## **Programming** {.unnumbered}
+
+#### **CS5001: Intensive Foundations of Computer Science** {.unnumbered}
+
+-   Syllabus: 
+
+This course is an accelerated introduction to the principles of systematic problem solving through "computational thinking" and programming. Topics include analysis of problems, modeling a solution, data types, and control structures. Additionally, it will introduce various ways to organize data including a discussion of their advantages and disadvantages.
+
+This course is part of the ALIGN MS in the Computer Science Program, but assumes no prior experience with programming. Students learn the basics of programming using the Python programming language.
+
 ## **Machine Learning** {.unnumbered}
 
 #### **DS4400: Machine Learning and Data Mining I** {.unnumbered}
