@@ -38,6 +38,8 @@ Introduces the field of genomics. With the completion of the Human Genome Projec
 
 -   Syllabus: 
 
+<img width="839" alt="Screen Shot 2023-06-07 at 12 08 18 PM" src="https://github.com/DrK-Lo/lotterhoslabprotocols/assets/65687148/66a7b71f-3a0b-499c-8b6a-d664cd9efebb">
+
 This course is an accelerated introduction to the principles of systematic problem solving through "computational thinking" and programming. Topics include analysis of problems, modeling a solution, data types, and control structures. Additionally, it will introduce various ways to organize data including a discussion of their advantages and disadvantages.
 
 This course is part of the ALIGN MS in the Computer Science Program, but assumes no prior experience with programming. Students learn the basics of programming using the Python programming language.
