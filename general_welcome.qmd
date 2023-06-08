@@ -50,15 +50,27 @@ This will help you know where certain items are in the lab that will help keep y
 ![Lab Safety Binder](img/labSafetyBinder.jpg)
 
 -   **Hazardous Waste**:
+We used to schedule waste pickup through Clean Harbors but this got complicated and so now Ryan accumulates all the waste for us and contacts them directly. So for our sake our direct point of contact to remove hazardous waste and get new empty containers is Ryan (r.hill@northeastern.edu)
+ 
+    -  Every container should be labelled. You can find Hazardous waste labels next to the the sink. If you see we are running low please make more copies and add them to the folder.
+<img width="905" alt="image" src="https://github.com/DrK-Lo/lotterhoslabprotocols/assets/26288352/d7092872-1f31-401f-af61-59c1eb68c7e6">
 
-    -   Clean Harbors now does pick up and transportation of chemical waste containers. They will come around to each of the labs that have filled out the [online pick up sheet](https://ehsa.nunet.neu.edu/neu_wp) (**this link is broken**) on **the last Tuesday of every month**.
+    -   Do your best to fill out the hazardous waste labels correctly. Use the SDS of the chemical that you have been working with to help fill out the label.
 
-    -   At this same time, Clean harbors should bring the extra hazardous waste containers that have been requested by members of the lab.
+<img width="745" alt="image" src="https://github.com/DrK-Lo/lotterhoslabprotocols/assets/26288352/8dbedc3e-cae0-4ac6-afef-36bc761d569e">
 
-    -   If our secondary containment is overflowing in the middle of the month, notify Ryan and he will transport the containers to the central accumulation area.
+    -   **IMPORTANT** Make sure to not put a date on the label until it is ready to be picked up. Once the container is full, complete the 'date filled' and **notify Ryan** to pick it up at the end of the day.
+    
+    -   Make sure to leave the containers that need to be removed somewhere easy for Ryan to find as soon as he walks into the lab. I usually put them on top of the push cart but if you are removing liquid waste containers please make sure to put them in a secondary container to avoid spills.
+    
+    -   If you need extra Hazardous waste containers please ask Ryan and he will provide them.
 
-    -   Lastly, do your best to fill out the hazardous waste labels correctly. Use the SDS of the chemical that you have been working with to help fill out the label.
-    -   Make sure to not put a date on the label until it is ready to be picked up. Once the container is full, complete the 'date filled' and notify Ryan to pick it up at the end of the day. 
+*Hazardous Waste in the past*
+  -   Clean Harbors does pick up and transportation of chemical waste containers. They will come around to each of the labs that have filled out the [online pick up sheet](https://ehsa.nunet.neu.edu/neu_wp) (**this link is broken**) on **the last Tuesday of every month**.
+
+  -   At this same time, Clean harbors should bring the extra hazardous waste containers that have been requested by members of the lab.
+
+  -   If our secondary containment is overflowing in the middle of the month, notify Ryan and he will transport the containers to the central accumulation area.
 
 ### **Shared Lab Space** {.unnumbered}
 
