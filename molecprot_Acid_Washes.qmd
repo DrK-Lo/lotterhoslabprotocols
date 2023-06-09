@@ -9,25 +9,26 @@ After each use, the S-Blocks <span style="color:purple"> from the Qiagen plate e
 
 - 0.4M HCl solution
 - Glass 6in x 6in x 8in container for bath
-- ddH2O <span style="color:purple"> from Lotterhos lab, not from shared tap in MSC gel room </span> <span style="color:red"> add specifications, should be ordered not from MSC </span>
+- ddH2O from Lotterhos lab, **not** from shared tap in MSC gel room
 - fume hood
 - container filled with ddH2O to submerge S-Block for rinsing
 
-1. We often keep a pre-made HCl bath in the clear <span style="color:purple"> glass container in the fumehood labeled "0.4 M HCl. for acid washing" </span> <span style="color:red"> I THOUGHT I ORDERED GLASS? how is this container labeled? </span> container in the fume hood. If making a new bath, and **add the quantity of acid to the quantity of water** not the other way around. 
+1. We often keep a pre-made HCl bath in the clear glass container in the fumehood labeled "0.4 M HCl. for acid washing"  container in the fume hood. If making a new bath, and **add the quantity of acid to the quantity of water** not the other way around. 
 
-2. If a bath is not pre-made, prepare an 0.4M HCl bath <span style="color:purple"> in the glass container in the fume hood. </span> Calculate volume of HCl needed using C1V1 = C2V2 equation. Our HCl is 12M and located in the corrosives cabinet. For example, to get a total volume of 1.5L of 0.4M HCl, use the equation (12)(V1) = (0.4)(1.5) and use 50mL of 12M HCl <span style="color:red"> THIS SENTENCE WILL CONFUSE SOME READERS - recommend to specific how many mL of 12M HCl to add to ddH20, and where the H2O comes from -  I'm also confused why we need a full 1.5L to cover a small S-Block - can you double check </span>. 
+2. If a bath is not pre-made, prepare 1.5L of a 0.4M HCl bath in the glass container in the fume hood. Use the 12M HCl located in the corrosives cabinet and the DI water located in the jug to the right of the sink. Measure out 1L DI water using a graduated cylinder and pour into the container in the hood. Measure out another 450mL DI water. In the fumehood, pour 50 mL 12M HCl into the cylinder with the water. Then slowly pour this mixture into the 1L DI water in the container. 
+  - If you need a different volume of .4M HCl, use the equation: (Conc1)(Vol1) = (Conc2)(Vol2) 
+  - Ex. (12M HCl) x (Vol HCl to dillute down to .4M) = (.4M HCl) x (1.5 L diluted HCl)
 
-3. <span style="color:purple"> Get a red plastic container labelled "no animals", these are usually found near the sink. Move container into the fume hood and fill with enough tap water </span> <span style="color:red"> be specfic, what kind of water? </span> to submerge the S-Block. 
+3. Get a red plastic container labelled "no animals". These are usually found near the sink. Move container into the fume hood and fill with enough tap water to submerge the S-Block. 
 
-4. Carefully submerge S-Block in 0.4M HCl bath for one minute. 
+4. Carefully submerge S-Block in 0.4M HCl bath for one minute. Ensure no bubbles are trapped in the wells, or the block will not get fully decontaminated.
 
-5. Transfer S-Block to the water container and submerge a few times to rinse.
+5. Transfer S-Block to the water container and submerge a few times to rinse. Again, ensure no bubbles are trapped in the wells.
 
 6. Leave S-Block on drying rack above sink. 
 
 7. S-Blocks should be autoclaved after washing.
 
-8. If making a new HCl bath, dispose of HCl in <span style="color:purple"> large brown bottle with a hazardous waste label that says "hydrochloric acid, 1.25%", found under the RNA hood/PCR cabinet. Complete the transfer of HCl to the hazardous waste bottle in the fume hood </span> <span style="color:red"> THERE ARE MULTIPLE BOTTLES - make sure to dispose of in BOTTLE labelled </span>. 
-
+8. If making a new HCl bath, dispose of HCl in large brown bottle with a hazardous waste label that says "hydrochloric acid, 1.25%", found under the RNA hood/PCR cabinet. Complete the transfer of HCl to the hazardous waste bottle in the fume hood.
 
 
