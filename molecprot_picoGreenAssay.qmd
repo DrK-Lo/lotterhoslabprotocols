@@ -59,8 +59,7 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 ::: {.callout-note}
 -   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL. 
 
--   Samples should be diluted to be read within this range. For example, typical <span style="color:red"> QUBIT? </span>
-quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (@sec-CalculatingConcs) for more info.
+-   Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (@sec-CalculatingConcs) for more info.
 
 -   PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.
 
@@ -75,6 +74,8 @@ See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecpro
 ## **Protocol** {.unnumbered}
 
 - Fill a styrofoam box with ice. Place your samples on ice and keep them there the whole time they're out of the fridge to prevent degradation.
+
+- Once samples have thawed, vortex and centrifuge the plate to make sure DNA is spread evenly throughout the sample.
 
 -   Dilute your DNA samples. Use the E-Pet with a 2mL tip to transfer 2mL of MilliQ H20 into a liquid boat. Using the P100 multichannel pipette, add 20uL of MilliQ H20 to the wells of 11 columns of a 96 well PCR plate. Using the P10 multichannel pipette **with filtered tips**, add 2uL of your DNA from cols. 1-6 to the corresponding wells in PCR plate 1 and 2 uL DNA from cols. 7-12 to the corresponding wells in PCR plate 2. 
 
