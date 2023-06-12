@@ -1568,6 +1568,13 @@
     "text": "Sterilize TissueRuptor probes in the Autoclave:\n\nplace probes in a large beaker and cover with aluminum and autoclave tape\nautoclave at 120°C for 35 min (20 min to reach temperature + 15 min at 120°C).\nNote TissueRuptor Probes may be cleaned /sterilized up to 5 times (15 min at 120°C) or until visible signs of wear are seen\n\nWipe of bench with 10% Bleach and RNAse Away\nLeave UV hood on for 1 hour to sterilize the working area\n\n\n\n\nHomogenize- TissueRuptor\n\nGet each tissue out of the freezer and keep on ice\n\ndo one tissue at a time\n\nprepare 2 mL vials (with somewhat flat bottoms) each with 600 µl DNA/RNA Lysis Buffer\ncut ~25 mg of tissue and put in prepared lysis vials\nkeep vials on ice\nrun TissueRuptor at level 3 for 7 seconds (or until tissue is completely lysed)\nreturn to ice\nclean probe with 3 washes of DI water\n\nyou should have 3 separate falcon tubes with DI water\nrun TissueRuptor through each DI wash for 5 seconds\nremove probe and set aside to be autoclaved prior to re-use\nsecure a new sterilized probe to the TissueRuptor\n\nrepeat steps with the next tissue\ncentrifuge samples at 14`,000 rfc x 30 seconds (may want to increase this)\n\nTransfer the sample lysed in DNA/RNA Lysis Buffer into a SpinAway™ Filter (yellow) in a Collection Tube\n\ncentrifuge 16,000 rfc x 30 sec\nSave the flow-through for RNA purification and the filter for DNA purification!\n\nDNA/RNA Purification\n\n3a: DNA Purification (DNA is in the filter)\n\nTransfer the Spin-Away Filter (yellow) into a new Collection Tube\n\n3b: RNA Purification(RNA is in the flow-through)\n\nAdd 600 μL volume ethanol (95-100%) to the flow-through (1:1 vol) and mix well.\nTransfer the sample into a Zymo-Spin™ IICR Column in a Collection Tube\n\nmax 600 μL at a time\n\ncentrifuge 16,000 rfc x 30 sec\nDiscard the flow-through\n\n\nAdd 400 µl DNA/RNA Prep Buffer to the column\n\ncentrifuge 16,000 rfc x 30 sec\ndiscard the flow-through\n\nAdd 700 µl DNA/RNA Wash Buffer to the column\n\ncentrifuge 16,000 rfc x 30 sec\nDiscard the flow-through.\n\nAdd 400 µl DNA/RNA Wash Buffer\n\ncentrifuge 16,000 rfc x 2 min to ensure complete removal of the wash buffer\nThen carefully, transfer the column into a nuclease-free tube (not provided).\n\nElute DNA/RNA\n\n7a: DNA\n\nadd 50 µl DNase/RNase-Free Water\n\nor 100 µl if you need it less concentrated\n\nlet stand 2-5 min\ncentrifuge 16,000 rfc x 30 sec\n\n7b: RNA\n\nadd 30 µl DNase/RNase-Free Water\n\nor 50 µl if you need it less concentrated\n\ncentrifuge 16,000 rfc x 30 sec"
   },
   {
+    "objectID": "molecprot_pipettedecontamination.html",
+    "href": "molecprot_pipettedecontamination.html",
+    "title": "Pipette Internal Decontamination",
+    "section": "",
+    "text": "Pipette Internal Decontamination\nSo, (Captain America pulls up a chair) you’ve accidentally sucked some sample up into the pipette comb, contaminating the inside of the pipette. You can’t keep using that pipette without possbily contaminating other samples. Not to worry, you can disassemble, decontaminate, autoclave, and reassemble the pipette. Here’s how."
+  },
+  {
     "objectID": "profdev_ColdBrew.html",
     "href": "profdev_ColdBrew.html",
     "title": "Lotterhos Lab Protocols",
@@ -2420,13 +2427,6 @@
     "title": "Reducing Cognitive Load",
     "section": "",
     "text": "Six strategies\n\nMaintain signal to noise ratio - get rid of all the noise\nPromote generative strategies - get learner to interact and generate their own ideas\nWrite concisely\nSupplantive strategies - small steps to bigger problem/tasks\nCollaborative learning - divide cognitive process across several individuals\nProvide cognitive aids - lists, tools, strategies to offload task complexity\n\nMindmap on kumu.com\n\n\nUse F-pattern emails\n\n5-second test - can someone else understand it in 5 sec?\nPredictability - email templates\nVisible flow - heading organization and white space\nEase of skimming/scanning -\n\npeople skim emails in an F pattern - use pointed headings to convey message and short paragraphs\nmost important information at the top\n\n\nWrite an email with military precision\n\nInformative subject line with keywords\n\nWhat do I want by emailing this person and distill it to one word\n\nBottom line up front (BLUF)\n\nMost important information at the top\n\nDon’t make recipient scroll - keep it short\nUse active voice"
-  },
-  {
-    "objectID": "molecprot_pipettedecontamination.html",
-    "href": "molecprot_pipettedecontamination.html",
-    "title": "Pipette Internal Decontamination",
-    "section": "",
-    "text": "Pipette Internal Decontamination\nSo, (Captain America pulls up a chair) you’ve accidentally sucked some sample up into the pipette comb, contaminating the inside of the pipette. You can’t keep using that pipette without possbily contaminating other samples. Not to worry, you can disassemble, decontaminate, autoclave, and reassemble the pipette. Here’s how."
   },
   {
     "objectID": "molecprot_dnadrying.html",
