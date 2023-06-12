@@ -52,6 +52,7 @@ website:
           - molecprot_tapestationlibrarycheck.qmd
           - molecprot_qPCRandBioRAD.qmd
           - molecprot_pipettesandpipettingtips.qmd
+          - molecprot_pipettedecontamination.qmd
           - molecprot_outdated.qmd
       - section: "Professional Development"
         contents: 
