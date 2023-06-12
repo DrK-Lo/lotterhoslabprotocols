@@ -4,6 +4,12 @@ So, (Captain America pulls up a chair) you've accidentally sucked some sample up
 
 **Reference**: [Eppendorf Pipettes Used Manual](https://www.eppendorf.com/product-media/doc/en/186591/Eppendorf_Liquid-Handling_Operating-manual_Research-plus_Eppendorf-Research-plus.pdf)
 
+## Before Decontamination
+
+- Label the pipette with tape that says it's contaminated and the date of contamination to let other lab members know not to use it.
+
+- Hang the pipette seperately from the uncontaminated ones. You can hang it off one of the lab shelves above the benches.
+
 ## Disassembling the Pipette for Decontamination
 
 Ref. pages: 21-29
@@ -57,3 +63,23 @@ Ref. pages: 21-29
 2. Autoclave at 121 degrees C for 40 min, allowing 20 extra minutes for depressurization.
 
 3. Make sure the pipette is completely dry before reassembling it. You may want to allow the pipette to dry overnight to be sure.
+
+## Reassembly
+
+1. For both the single and multichannel pipettes, simply follow the steps for disassembly in reverse.
+
+2. Once reassembled, remove the tape marking the pipette as contaminated, and replace it with one that says "Needs calibration check." During the decontamination process, the pipette may have become uncalibrated. You will need to check its accuracy.
+
+### Checking Pipette Accuracy
+
+- Perform a water measurement test using the pipette, tap water, and the scale.
+
+- 1 ml of water = 1 gram. 1 uL of water = 1 mg. Set the pipette to a certain volume, pipette up some water, and then pipette it onto a tared weighboat on the scale. The scale should read a mass that matches the volume of water as described in the equations above.
+
+   - For example, 300 uL water should measure to 300 mg or 0.3 grams on the scale.
+
+- The scale is accurate to +/- 2 mg or +/- 0.002 g. Measure out the same volume of water several times in a row and see if its mass is within that error range of the true mass.
+
+  - For example, if measuring out 300 uL water, measure out that volume of water several times in a row to see if the mass comes out to 298 mg - 302 mg consecutively.
+
+- If you can do this, the pipette does not need to be recalibrated. If not, mark the pipette with tape as being uncalibrated and ask Katie to schedule recalibration.
