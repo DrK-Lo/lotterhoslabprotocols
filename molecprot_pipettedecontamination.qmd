@@ -2,3 +2,42 @@
 
 So, (Captain America pulls up a chair) you've accidentally sucked some sample up into the pipette comb, contaminating the inside of the pipette. You can't keep using that pipette without possbily contaminating other samples. Not to worry, you can disassemble, decontaminate, autoclave, and reassemble the pipette. Here's how.
 
+**Reference**: [Eppendorf Pipettes Used Manual](https://www.eppendorf.com/product-media/doc/en/186591/Eppendorf_Liquid-Handling_Operating-manual_Research-plus_Eppendorf-Research-plus.pdf)
+
+## Disassembling the Pipette for Decontamination
+
+Ref. pages: 21-29
+
+### Single Channel
+
+
+
+### Multichannel 
+
+1. Set the pipette volume to the highest end of its range (the nominal value)
+
+  - For example, on the 20-300 uL pipette, set the volume to 300 uL
+
+2. There's a lever at the base of where the pipette handle meets the lower part with the combs. Push it to one side and hold it there to remove the lower part from the handle.
+
+![](img/rem_low.png)
+
+3. On the right and left sides of the lower part, there are two locking mechanisms. With the lower part hanging combs-down, push both locking mechanisms down. You can now remove the cover plate of the pipette combs.
+
+![](img/open_low.png)
+
+4. When you open the pipette, you'll see the row of tip cones with pistons. Gently remove each piston. First pull the top of the piston forward, then pull it up and out of the tip cone.
+
+![](img/rem_piston.png)
+
+5. Remove the tip cones. Push one cone up into the pipette until you can pull the bottom part of the cone forward and out of the rack. The cones are spring-loaded, so do this step slowly to avoid the cone being flung out of the rack.
+
+![](img/rem_tipcone.png)
+
+6. Pull the rest of the tip cone along with the spring out of the rack.
+
+![](img/rem_tipcone2.png)
+
+## Decontamination
+
+## Autoclaving
