@@ -1,8 +1,10 @@
-# Pipette Internal Decontamination
+# Pipette Decontamination
+
+[Edit this page](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipettedecontamination.html)
 
 So, (Captain America pulls up a chair) you've accidentally sucked some sample up into the pipette comb, contaminating the inside of the pipette. You can't keep using that pipette without possbily contaminating other samples. Not to worry, you can disassemble, decontaminate, autoclave, and reassemble the pipette. Here's how.
 
-**Reference**: [Eppendorf Pipettes Used Manual](https://www.eppendorf.com/product-media/doc/en/186591/Eppendorf_Liquid-Handling_Operating-manual_Research-plus_Eppendorf-Research-plus.pdf)
+**Reference**: [Eppendorf Pipettes User Manual](https://www.eppendorf.com/product-media/doc/en/186591/Eppendorf_Liquid-Handling_Operating-manual_Research-plus_Eppendorf-Research-plus.pdf)
 
 ## Before Decontamination
 
