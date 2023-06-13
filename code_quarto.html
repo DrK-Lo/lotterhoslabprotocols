@@ -879,7 +879,8 @@ ul.task-list li input[type="checkbox"] {
 <ul class="task-list">
 <li><input type="checkbox">Update your <a href="https://quarto.org/docs/publishing/github-pages.html#ignoring-output">.gitignore</a></li>
 <li><input type="checkbox">Add a <code>.nojekyll</code> file</li>
-<li><input type="checkbox">if you created the last two files on your machine, sync to the web with GitHub Desktop</li>
+<li><input type="checkbox">add the “execute: freeze: auto” to the end of your .yml (see this webpage for example)</li>
+<li><input type="checkbox">if you made the last edits on your machine, sync to the web with GitHub Desktop</li>
 </ul></li>
 <li><p><input type="checkbox">Next follow <a href="https://quarto.org/docs/publishing/github-pages.html#publish-action">these instructions</a> to:</p>
 <ul class="task-list">
@@ -889,8 +890,8 @@ ul.task-list li input[type="checkbox"] {
 <li><input type="checkbox">make sure your token settings will grant access!</li>
 </ul></li>
 <li><input type="checkbox">On your computer - sync to github with GitHub Desktop</li>
-<li><input type="checkbox">On Github - checking the Read and Write Permissions box under Workflow permissions</li>
-<li><input type="checkbox">On Github - add a <code>publish.yml</code> GitHub Action</li>
+<li><input type="checkbox">On Github - in Actions section of your repository Settings - [ ] checking the Read and Write Permissions box under Workflow permissions per instructions - [ ] check “Allow github actions to create and approve pull requests”</li>
+<li><input type="checkbox">On Github - add a <code>publish.yml</code> GitHub Action per instructions</li>
 </ul></li>
 </ul>
 <p>If it works, you should be able to check the <code>Actions</code> and see pages render and publish when you make edits.</p>
