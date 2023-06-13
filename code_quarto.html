@@ -788,7 +788,10 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#creating-your-quarto-website" id="toc-creating-your-quarto-website" class="nav-link" data-scroll-target="#creating-your-quarto-website">Creating your Quarto website</a>
   <ul class="collapse">
-  <li><a href="#structuring-your-quarto-website" id="toc-structuring-your-quarto-website" class="nav-link" data-scroll-target="#structuring-your-quarto-website">Structuring your Quarto website</a></li>
+  <li><a href="#structuring-your-quarto-website" id="toc-structuring-your-quarto-website" class="nav-link" data-scroll-target="#structuring-your-quarto-website">Structuring your Quarto website</a>
+  <ul class="collapse">
+  <li><a href="#publish-your-quarto-website-to-github" id="toc-publish-your-quarto-website-to-github" class="nav-link" data-scroll-target="#publish-your-quarto-website-to-github">Publish your Quarto website to Github</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_quarto.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -865,8 +868,31 @@ ul.task-list li input[type="checkbox"] {
 <li>This is where you will divide your website into sections…. and within sections, you can divide it further into contents</li>
 </ul></li>
 </ul>
+<section id="publish-your-quarto-website-to-github" class="level3">
+<h3 class="anchored" data-anchor-id="publish-your-quarto-website-to-github">Publish your Quarto website to Github</h3>
+<ul>
+<li><p><a href="https://quarto.org/docs/publishing/github-pages.html#github-action">overview here</a></p></li>
+<li><p><input type="checkbox">Create your website on your local machine and sync to github</p></li>
+<li><p><input type="checkbox">Create <code>gh-pages</code> branch on github</p></li>
+<li><p><input type="checkbox">Make sure you follow <a href="https://quarto.org/docs/publishing/github-pages.html#render-to-docs">these directions</a> to:</p>
+<ul class="task-list">
+<li><input type="checkbox">output to docs</li>
+<li><input type="checkbox">add a .nojekyll file</li>
+<li><input type="checkbox">GitHub repository to publish from the docs directory</li>
+</ul></li>
+<li><p><input type="checkbox">Update your <a href="https://quarto.org/docs/publishing/github-pages.html#ignoring-output">.gitignore</a></p></li>
+<li><p><input type="checkbox">Next follow <a href="https://quarto.org/docs/publishing/github-pages.html#publish-action">these instructions</a> to:</p>
+<ul>
+<li><input type="checkbox">checking the Read and write permissions box under Workflow permissions</li>
+<li><input type="checkbox">run <code>quarto publish gh-pages</code> locally, once</li>
+<li><input type="checkbox">sync to github</li>
+<li><input type="checkbox">add a <code>publish.yml</code> GitHub Action</li>
+<li></li>
+</ul></li>
+</ul>
 
 
+</section>
 </section>
 </section>
 
