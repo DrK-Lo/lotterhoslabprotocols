@@ -66,21 +66,20 @@ An in-depth Quarto tutorial exists [here](https://quarto.org/docs/websites/).
       -   This is where you will divide your website into sections.... and within sections, you can divide it further into contents
 
 
-### Publish your Quarto website to Github 
+### Publish your Quarto website to Github
+
+Basically, what you will do is have a `main` branch on your site and publish the .qmd files from that branch as .html files on the `gh-pages` branch. GitHub will automatically read anything on the `gh-pages` branch and publish it to the web.
+
 - [overview here](https://quarto.org/docs/publishing/github-pages.html#github-action)
 
 - [ ] Create your website on your local machine and sync to github
-- [ ]  Create `gh-pages` branch on github
-- [ ]  Make sure you follow [these directions](https://quarto.org/docs/publishing/github-pages.html#render-to-docs) to:
-     - [ ]  output to docs
-     - [ ]  add a .nojekyll file
-     - [ ]  GitHub repository to publish from the docs directory
--  [ ] Update your [.gitignore](https://quarto.org/docs/publishing/github-pages.html#ignoring-output)
-
+- [ ] Create `gh-pages` branch on github
+- [ ] Update your [.gitignore](https://quarto.org/docs/publishing/github-pages.html#ignoring-output)
 -  [ ] Next follow [these instructions](https://quarto.org/docs/publishing/github-pages.html#publish-action) to:
+     - [ ]  add a `.nojekyll` file
      - [ ] checking the Read and write permissions box under Workflow permissions
      - [ ] run `quarto publish gh-pages` locally, once 
      - [ ] sync to github
      - [ ] add a `publish.yml` GitHub Action
-     - 
+     
 
