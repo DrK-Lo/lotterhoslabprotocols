@@ -2,34 +2,65 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_Acid_Washes.qmd)
 
-After each use, the S-Blocks <span style="color:purple"> from the Qiagen plate extraction kit </span> must be sterilized for re-use.
+After each use, the S-Blocks from the Qiagen plate extraction kit must be sterilized for re-use.
 
 <span style="color:red"> HOW ARE WE GOING TO KEEP TRACK IF IT'S BEEN STERILIZED OR NOT? E.G. IF A LONG TIME HAS GONE BY AND A NEW GROUP OF PEOPLE COMES IN, IT WOULD BE BEST TO RE-STERILIZE ANYWAY </span>
 
-**Materials**
+## Materials
 
-- 0.4M HCl solution
-- Glass 6in x 6in x 8in container for bath
+
+### Bath Materials
+- 12M HCl (under fume hood in "Corrosives" cabinet) 
+
 - ddH2O from Lotterhos lab, **not** from shared tap in MSC gel room
-- fume hood
-- container filled with ddH2O to submerge S-Block for rinsing
 
-1. We often keep a pre-made HCl bath in the clear glass container in the fumehood labeled "0.4 M HCl. for acid washing"  container in the fume hood. If making a new bath, and **add the quantity of acid to the quantity of water** not the other way around. 
+- Glass 6in x 6in x 8in container for bath
 
-2. If a bath is not pre-made, prepare 1.5L of a 0.4M HCl bath in the glass container in the fume hood. Use the 12M HCl located in the corrosives cabinet and the DI water located in the jug to the right of the sink. Measure out 1L DI water using a graduated cylinder and pour into the container in the hood. Measure out another 450mL DI water. In the fumehood, pour 50 mL 12M HCl into the cylinder with the water. Then slowly pour this mixture into the 1L DI water in the container. 
+- Fume hood
+
+- Container filled with ddH2O to submerge S-Block for rinsing
+
+### Required PPE
+- Nitrile gloves
+
+- Chemical-proof gloves (hanging to the left of the -80 freezer) over nitrile gloves
+
+- Lab coat buttoned up (hanging to the left of the -80 freezer)
+
+- Chemical splash goggles
+
+## HCl Bath Instructions
+
+1. We often keep a pre-made HCl bath in the clear container in the fumehood labeled "0.4 M HCl. for acid washing". 
+
+2. If a bath is not pre-made, prepare 1.5L of a 0.4M HCl bath in the container in the fume hood. Use the 12M HCl located in the corrosives cabinet and the DI water located in the jug to the right of the sink. 
+
+3. Measure out 1L DI water using a graduated cylinder and pour into the container in the hood. Measure out another 450mL DI water. In the fumehood, pour 50 mL 12M HCl into the cylinder with the water. Then slowly pour this mixture into the 1L DI water in the container. 
   - If you need a different volume of .4M HCl, use the equation: (Conc1)(Vol1) = (Conc2)(Vol2) 
   - Ex. (12M HCl) x (Vol HCl to dillute down to .4M) = (.4M HCl) x (1.5 L diluted HCl)
 
-3. Get a red plastic container labelled "no animals". These are usually found near the sink. Move container into the fume hood and fill with enough tap water to submerge the S-Block. 
+::: {.callout-important}
+## Always Add Acid
+If making a new bath, **always pour acid into the water** not the other way around. When strong acids mox with water, heat is produced. If you were to add water to acid, a very highly concentrated amount of HCl would be produced, which can cause the mixture to heat up quickly and possibly boil. Adding the acid to the water ensures that the acid dilution happens slowly.
+:::
 
-4. Carefully submerge S-Block in 0.4M HCl bath for one minute. Ensure no bubbles are trapped in the wells, or the block will not get fully decontaminated.
+4. Get a red plastic container labelled "No Animals". These are usually found near the sink. Fill the container with enough tap water to submerge the S-Block, and then place it in the fume hood.
 
-5. Transfer S-Block to the water container and submerge a few times to rinse. Again, ensure no bubbles are trapped in the wells.
+::: {.callout-important}
+## Clear Your Fume Hood Space
+Make sure you have a clear working space for your HCl and water baths. Both the HCl container and the water container should be able to sit flat on the surface of the fume hood. Move materials not being used for the bath to a location in the fume hood that isn't in your way.
+:::
+
+5. Carefully submerge S-Block in 0.4M HCl bath for one minute. Ensure no bubbles are trapped in the wells, or the block will not get fully decontaminated. You can release bubbles by running your finger over the wells while they're submerged or by gently tapping the block on the side and bottom of the container. Be careful to avoid splashing.
+
+6. Transfer S-Block to the water container and submerge a few times to rinse. Again, ensure no bubbles are trapped in the wells.
 
 6. Leave S-Block on drying rack above sink. 
 
 7. S-Blocks should be autoclaved after washing.
 
-8. If making a new HCl bath, dispose of HCl in large brown bottle with a hazardous waste label that says "hydrochloric acid, 1.25%", found under the RNA hood/PCR cabinet. Complete the transfer of HCl to the hazardous waste bottle in the fume hood.
+## HCl Disposal
+
+- Dispose of HCl in large brown bottle with a hazardous waste label that says "hydrochloric acid, 1.25%", found under the RNA hood/PCR cabinet. **Complete the transfer of HCl to the hazardous waste bottle in the fume hood.**
 
 
