@@ -8,7 +8,6 @@ After each use, the S-Blocks from the Qiagen plate extraction kit must be steril
 
 ## Materials
 
-
 ### Bath Materials
 - 12M HCl (under fume hood in "Corrosives" cabinet) 
 
