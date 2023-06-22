@@ -108,8 +108,8 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
 10. Fill rig with enough 1X TAE Buffer to just cover the entire gel.
     a.	The rig doesn’t need to be filled all the way to the line, just enough to cover the gel.
     
-11. Add ladder into the first well. You don't need to add dye to ladder.
-    a.	Typically, 2ul ladder per well
+11. Add ladder into the first well. 
+    a.	Mix 1ul ladder, 1ul TriTrack loading dye, and 4ul DI H20. Mix on parafilm or in a Qubit tube. Fill ladder wells with 3ul (half) of this mixture. 
         i. We use the Generuler 1kb Plus DNA. Before pipetting, centrifuge the ladder briefly with the loading dye (for balance) so that there are no drips on the sides of the tubes.
         ii. Aliquots of ladder can be found in the  -20 freezer. 
 
