@@ -236,6 +236,10 @@ Gel 3:
 15. Always clean the gel doc tray after use. You can use DI water from the squirt bottle near the gel doc and a Kimwipe to clean the tray of any remaining gel or TAE. Make sure the tray is dry before you leave.
 
 16. Dispose of the gel in the mayo jar in the gel room labeled 'Gel waste.'
+:::{.callout-important}
+## Gel waste 
+- If the gel waste mayo jar is labelled with Lotterhos, ensure that the label is filled out correctly. GelRed and Bromophenol blue are not hazardous, and the label should be filled out as such if those are the only constituents. You should also ask others who use the gel mayo jar about what chemicals are in their gels. 
+:::
 
 17. Rinse gel tray and let dry on drying rack above the sink in the gel room.
 
