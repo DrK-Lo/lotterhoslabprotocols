@@ -159,11 +159,6 @@ Ensure ethanol has been added to **Buffer AL** according to instructions on the 
 
 3.  Carefully remove caps and add 410 μl **Buffer AL** using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use 25 mL serological pipette tips with the E-Pet pipette to transfer 45 mL Buffer AL in a 50mL liquid boat. If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
 
-::: {.callout-important}
-## Disposing of extra buffers
-Extra buffer remaining in liquid boats can be disposed on in the bottle labeled 'Waste liquid extraction buffer' in the hazardous waste accumulation area under the RNA hood. 
-:::
-
 4.  Place clear cover over the rack and shake vigorously for 15s by hand, then centrifuge in the Hughes Lab centrifuge for 30s at 4500 rpm to collect any solution from the caps.
 
 5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key.
@@ -195,3 +190,7 @@ Spin column membrane should be dry after this step. Spin for an additional 1 min
 
 15.  Label plate and extracted DNA can be placed in "No animals" fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles. Record time samples were put into the fridge/freezer in the app/datasheet.
 
+::: {.callout-important}
+## **Extraction waste disposal**
+Extraction buffers should be disposed of in their own hazardous waste container (not combined with ethanol, other liquid waste, etc.). Buffers AL/E, Proteinase K, and AW1 are hazardous. If you have leftovers of these, dispose of them in the hazardous waste container. Buffers ATL, AE, and AW2 are not hazardous and can be disposed of in the sink if they are uncontaminated leftovers and not used for extraction. At the end of the extraction, pour all of the liquid out of the S-Block into an 1000mL beaker and dispose of the contents in the dedicated hazardous waste container for extraction buffers. Check Qiagen [material safety data sheets](https://www.qiagen.com/us/knowledge-and-support/product-and-technical-support/quality-and-safety-data/sds-search?l=US&q=69582%20-%20DNeasy%2096%20Blood%20%26%20Tissue%20Kit%20(12)) and type in catalog number 69581 for the plate extraciton kit. 
+:::
