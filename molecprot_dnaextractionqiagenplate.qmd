@@ -86,16 +86,14 @@ Ordered tray according to sample organization above
 ![image](https://user-images.githubusercontent.com/122108419/227250019-f5afe2c6-af53-494f-b5fb-dbf393c279f5.png)
 :::
 
--   Preheat thermo-mixer to 56 degrees C.
-
--   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C in the Thermomixer until precipitates have fully dissolved.
+-   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C on the Isotemp until precipitates have fully dissolved. The Isotemp is in the left corner of the pre-PCR counter.
 
 ### **Tissue Lysing** {.unnumbered}
 
 ::: {.callout-tip}
 ## Lab member roles during tissue lysis
 
-This process goes smoothest with three lab members working at once. Two lab members should cut and weigh tissue samples, and read out weights to the third lab member who will record them in the spreadsheet or app and place samples into corresponding collection tubes. 
+This process goes smoothest with three lab members working at once. Two lab members should cut and weigh tissue samples, and read out weights to the third lab member who will record them in the spreadsheet or app and place samples into corresponding collection tubes. It's very easy to put tissue into the wrong collection tubes, so having one person committed to placing the samples into tubes is good.
 :::
 
 1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by DI H2O.
@@ -113,11 +111,13 @@ This process goes smoothest with three lab members working at once. Two lab memb
 See page on [Pipettes and Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipettesandpipettingtips.html) for best pipetting practices and troubleshooting.
 :::
 
-6.  Tare piece of weighing paper on scale.
+6.    Fill a 50 mL falcon tube with 70% ethanol. Light the ethanol lamp using the lighter in the drawer in front of the scale. Sterilize your forceps, scalpel, and pokey stick before starting by dipping them in the ethanol and then running them through the lamp to burn the ethanol off. Be careful not to let the ethanol run down the handles of any equipment, or the flame will catch there too and you could burn yourself. 
 
-7.  Carefully remove tissue from 2mL tube using sterilized forceps. Place the tissue on a weigh boat to cut. Use a sterile scalpel blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+7.  Tare piece of weighing paper on scale.
 
-8.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube, using the plastic sheet over the tube rack to only expose the tube you're working with. If the tissue is not the correct weight, either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
+8.  Carefully remove tissue from 2mL tube using sterilized forceps. Place the tissue on a weigh boat to cut. Use a sterile scalpel blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+
+9.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube, using the plastic sheet over the tube rack to only expose the tube you're working with. If the tissue is not the correct weight, either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
 
 ::: {.callout-important}
 **Note:** Make sure tissue is all the way at the bottom of the well. 
@@ -125,26 +125,28 @@ See page on [Pipettes and Pipetting Tips](https://drk-lo.github.io/lotterhoslabp
 
 ::: {.callout-important}
 ## Important: Prevent cross-contamination
-Between samples, the scalpel & forceps should be sterilized by spraying with EtoH, wiping with a Kim wipe, and using a flame to burn off any residual EtoH and tissue. **Scalpels are very sharp, be very careful when wiping with a Kim wipe, as it's very easy to cut yourself.** Consider placing the Kim wipe on the counter, and wiping the scalpel off on it there. Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates.
+Between samples, the scalpel & forceps should be sterilized by wiping them off with a Kimwipe to remove any remaining tissue, dipping them in 70% EtoH, and using a flame to burn off any residual EtoH and tissue. **Scalpels are very sharp, be very careful when wiping with a Kim wipe, as it's very easy to cut yourself.** Consider placing the Kim wipe on the counter, and wiping the scalpel off on it there. Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates.
 :::
 
-9.  Record weight in lab notebook or app by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
-
-10. Add 2 mL **Proteinase K** to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL **Proteinase K** into each sample tube. 
-
-11.  Seal wells with collection microtube caps from Qiagen kit, then place clear rack lid back on the tube rack. Use vortexer  with plate attachment (shown below) to mix samples, then centrifuge using Hughes lab centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
-
-Vortexer plate attachment:
-![IMG_AD4161720A95-1](https://user-images.githubusercontent.com/122108419/227262189-0e2897c9-f374-4f67-8466-d486a99eb196.jpeg)
-
-12.  Place entire tube rack with individual tube caps and rack lid on Thermomixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the Thermomixer lid fully sealed. Still place the Thermomixer lid on the tube rack, it just won't close all the way, and that's okay). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
-
-13.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed. Samples can be in thermomixer from the time the tissue prep is finished until you are ready to start the extraction first thing the following morning (usually ~ 2pm to 9am the following day).
+10.  Record weight in lab notebook or app by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
 
 ::: {.callout-note}
 ## Entering sample weights into the app
 Open the Seascape Samples Extractions app on your laptop or lab iPad (passcode is 0156). Select the plate you are extracting from on the home page, then select the extraction entry for the current extraction. Scroll down to Extraction_mg_tissue and click "Add." Enter data into all fields as prompted.
 :::
+
+11. Once you are nearly finished with tissue cutting, preheat thermo-mixer to 56 degrees C. Make sure the plate attachment is on and not the tube attachment.
+
+12. Add 2 mL **Proteinase K** to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL **Proteinase K** into each sample tube. 
+
+13.  Seal wells with collection microtube caps from Qiagen kit, then place clear rack lid back on the tube rack. Use vortexer  with plate attachment (shown below) to mix samples, then centrifuge using Hughes lab centrifuge for 20-30s at 4500 rpm, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
+
+Vortexer plate attachment:
+![IMG_AD4161720A95-1](https://user-images.githubusercontent.com/122108419/227262189-0e2897c9-f374-4f67-8466-d486a99eb196.jpeg)
+
+14.  Place entire tube rack with individual tube caps and rack lid on Thermomixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the Thermomixer lid fully sealed. Still place the Thermomixer lid on the tube rack, it just won't close all the way, and that's okay). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
+
+15.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed. Samples can be in thermomixer from the time the tissue prep is finished until you are ready to start the extraction first thing the following morning (usually ~ 2pm to 9am the following day).
 
 ### **Extraction** {.unnumbered}
 
