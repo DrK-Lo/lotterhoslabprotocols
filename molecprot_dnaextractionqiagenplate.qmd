@@ -61,6 +61,11 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   Multichannel Pipettes (100 and 300uL) 
 
+::: {.callout-important}
+## Chemical Safety
+Please refer to this [safety data sheet](https://www.qiagen.com/us/knowledge-and-support/product-and-technical-support/quality-and-safety-data/sds-search?l=US&q=69582%20-%20DNeasy%2096%20Blood%20%26%20Tissue%20Kit%20(12)) from Qiagen for detailed information on hazardous chemicals used for this protocol. Hazardous chemicals are noted in this protocol as well when they are called for.
+:::
+
 ## **Protocol** {.unnumbered}
 
 Wear gloves for all steps in this process. Do not touch door handles or computers with gloves on (unless the keyboard says "gloves only").
@@ -104,7 +109,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 
 4.  Get a tissue collection tube rack from Qiagen kit box. The clear tubes are already in a clear blue rack and have a clear lid over them. 
 
-5.  Add 18 mL **Buffer ATL** to a 25 mL liquid boat (enough for 100 samples). Add 180uL **Buffer ATL** to each tissue collection tube using the P300 multichannel pipette.
+5.  Add 18 mL **Buffer ATL** (note: hazardous if inhaled) to a 25 mL liquid boat (enough for 100 samples). Add 180uL **Buffer ATL** to each tissue collection tube using the P300 multichannel pipette.
 
 ::: {.callout-tip}
 ## Tips for pipetting
@@ -150,28 +155,31 @@ Vortexer plate attachment:
 
 ### **Extraction** {.unnumbered}
 
+::: {.callout-important}
+## No Stop Points
+Once you start the extraction process, there aren't any good stopping points mid-protocol. Letting the DNA sit out for too long outside of incubation steps could lead to DNA degradation, so it's important to keep the process moving once you start.
+:::
+
 1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by DI H2O, then 70% EtoH.
 
 2.  After removing entire tube rack with the samples from the thermomixer, ensure microtubes in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid are properly sealed, cover racks  and shake vigorously by hand for 15 seconds. Centrifuge in the Hughes lab centrifuge for 30s at 4500 rpm to collect any solution from the caps. Hold down short spin button.
 
 ::: {.callout-important}
 ## Buffer AL prep
-Ensure ethanol has been added to **Buffer AL** according to instructions on the container
+Note that buffer AL is a hazardous chemical (causes skin irritation and serious eye irritation). Ensure ethanol has been added to **Buffer AL** according to instructions on the container.
 :::
 
 3.  Carefully remove caps and add 410 μl **Buffer AL** using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use 25 mL serological pipette tips with the E-Pet pipette to transfer 45 mL Buffer AL in a 50mL liquid boat. If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
 
 4.  Place clear cover over the rack and shake vigorously for 15s by hand, then centrifuge in the Hughes Lab centrifuge for 30s at 4500 rpm to collect any solution from the caps.
 
-5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key.
+5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key. Note that the DNeasy plate on the s-block is very prone to tipping, especially when applying tape sheets. Be careful not to let them tip or lysate may slosh out and lead to cross-contamination between samples.
 
-6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the corresponding wells on the DNeasy 96 plate. Set the P300 multichannel pipette to 290 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. There's usually about 600 uL total lysate in each sample. Pop any bubbles using a  pipette tip. Dispose of empty collection microtubes and blue tube rack in the mayo jar. 
-
-<span style="color:red"> I THINK MOST OF THESE STEPS CAN BE USED WITH UNFILTERED TIPS BECAUSE LIQUID IS JUST BEING TRANSFERED INTO THE SAMPLES, BUT I WONDER WITH STEP 6 ABOVE IF WE SHOULDN'T USE FILTERED TIPS BECAUSE TRANFERING THE SAMPLES COULD CAUSE CROSS-CONTAMINATION IF ASPIRATION OCCURS </span>
+6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the corresponding wells on the DNeasy 96 plate using filtered tips. Our P200 filtered tips only fit on the P100 multichannel, so set the P100 multichannel pipette to 100 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. The lysate can get super bubbly, so be careful not to get any sample up into the actual pipette. There's usually about 600 uL total lysate in each sample. Pop any bubbles using a pipette tip. Dispose of empty collection microtubes and blue tube rack in the mayo jar. 
 
 7.  Seal the plate with an AirPore tape sheet which comes with the Qiagen kit and centrifuge at 4500 rpm for 13 min in the Hughes centrifuge.
 
-8.  Remove tape and carefully add 500μl of **Buffer AW1** to each sample. Use the 300μl multichannel pipette and add 250μl **Buffer AW1** twice. This will require ~55mL of **Buffer AW1** in a liquid boat.
+8.  Remove tape and carefully add 500μl of **Buffer AW1** to each sample. **AW1 is harmful if ingested or inhaled (acutely toxic), and can cause skin and eye irritation.** Use the 300μl multichannel pipette and add 250μl **Buffer AW1** twice. This will require ~55mL of **Buffer AW1** in a liquid boat.
 
 9.  Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 7 min. 
 
@@ -194,5 +202,5 @@ Spin column membrane should be dry after this step. Spin for an additional 1 min
 
 ::: {.callout-important}
 ## **Extraction waste disposal**
-Extraction buffers should be disposed of in their own hazardous waste container (not combined with ethanol, other liquid waste, etc.). Buffers AL/E, Proteinase K, and AW1 are hazardous. If you have leftovers of these, dispose of them in the hazardous waste container. Buffers ATL, AE, and AW2 are not hazardous and can be disposed of in the sink if they are uncontaminated leftovers and not used for extraction. At the end of the extraction, pour all of the liquid out of the S-Block into an 1000mL beaker and dispose of the contents in the dedicated hazardous waste container for extraction buffers. Check Qiagen [material safety data sheets](https://www.qiagen.com/us/knowledge-and-support/product-and-technical-support/quality-and-safety-data/sds-search?l=US&q=69582%20-%20DNeasy%2096%20Blood%20%26%20Tissue%20Kit%20(12)) and type in catalog number 69581 for the plate extraciton kit. 
+Extraction buffers should be disposed of in their own hazardous waste container (not combined with ethanol, other liquid waste, etc.). Buffers AL/E, Proteinase K, and AW1 are hazardous. If you have leftovers of these, dispose of them in the hazardous waste container. Buffers ATL, AE, and AW2 are not hazardous and can be disposed of in the sink if they are uncontaminated leftovers and not used for extraction. At the end of the extraction, pour all of the liquid out of the S-Block into an 1000mL beaker and dispose of the contents in the dedicated hazardous waste container for extraction buffers. Check Qiagen [material safety data sheets](https://www.qiagen.com/us/knowledge-and-support/product-and-technical-support/quality-and-safety-data/sds-search?l=US&q=69582%20-%20DNeasy%2096%20Blood%20%26%20Tissue%20Kit%20(12)) and type in catalog number 69581 for the plate extraction kit. 
 :::
