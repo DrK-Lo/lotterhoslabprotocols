@@ -43,3 +43,6 @@ The app usually opens on the "plate" page. You can switch pages by clicking the 
 
 ![](img/89F7BFA6-77B0-4732-B85C-8B61CA4EF7C6.png)
 
+- Fill in the boxes with the requested info. You won't be able to fill in any information past "Time lysis start" on the first day. **Remember to come back to this page and fill in the rest of the info as the extraction moves forward.**
+
+- Click save when finished. You should be taken back to the overview page of whatever plate you're working with.
