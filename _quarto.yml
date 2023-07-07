@@ -53,6 +53,7 @@ website:
           - molecprot_qPCRandBioRAD.qmd
           - molecprot_pipettesandpipettingtips.qmd
           - molecprot_pipettedecontamination.qmd
+          - molecprot_SSEapp.qmd
           - molecprot_outdated.qmd
       - section: "Professional Development"
         contents: 
