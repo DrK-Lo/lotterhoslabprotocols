@@ -20,11 +20,13 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 ### **Additional Reagents and Consumables** {.unnumbered}
 
--   Sterile Scalpel blades + blue plastic disposal container blade #22, fits handle #4
+-   Sterile Scalpel blades + blue plastic disposal container. Blade #22, fits handle #4
 
--   Alcohol lamp (requires minimum 90% ethanol)
+-   Forceps
 
--   Flame (sterilization)
+-   Alcohol lamp for sterilization (requires minimum 90% ethanol)
+
+-   Lighter
 
 -   Weigh paper
 
@@ -34,22 +36,23 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   Easy Pet + Serological Tips size: 25mL tips, catalog #170357N
 
--   Liquid boats 25mL
+-   Liquid boats 50mL
 
 -   95% pure EtOH for sample rinsing, diluted from molecular grade absolute ethanol 200 proof
     - Different types of ethanol and how to dilute [guide](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_etoh.html)
 
 -   70% pure EtOH for cleaning, diluted from molecular grade absolute ethanol 200 proof
+    - Pour into a 50mL Falcon tube and dip tools in for sterlization
 
 -   EtoH (100% - molecular grade)
     - Use for 95% and 70% dilutions only, product ID: A409-4, green 'Molecular' label
 
--   Plastic sheet half of a 8x11in sheet protector with a hole punched out in the middle. Sheet protectors can be found in office supplies drawer.
+-   Plastic sheet: half of a 8x11in sheet protector with a hole punched out in the middle. Sheet protectors can be found in office supplies drawer.
 ![IMG_1919](https://user-images.githubusercontent.com/122108419/227256130-8bff04d2-0d0e-4ab2-878f-d85292b72be4.jpg)
 
--   10% bleach solution for cleaning [solution recipe](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_solutionrecipes.html)
+-  10% bleach solution for cleaning [solution recipe](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_solutionrecipes.html)
 
-- Low TE buffer for elutions (in glass bottle)
+- Low TE buffer for elutions (in 1L glass bottle)
 
 ### **Equipment** {.unnumbered}
 
@@ -60,6 +63,8 @@ This protocol is for oysters (_Crassostrea virginica_)
 -   Large centrifuge (Hughes lab centrifuge) <span style="color:red"> ADD MODEL FOR METHODS </span>
 
 -   Multichannel Pipettes (100 and 300uL) 
+
+-   Vortexer with plate attachment
 
 ::: {.callout-important}
 ## Chemical Safety
@@ -74,9 +79,9 @@ Wear gloves for all steps in this process. Do not touch door handles or computer
 
 -   Sample transfer: Samples will be in multiple boxes in freezer, but we only want to take a box out once to minimize sample degradation.
     - First, develop a sample transfer plan which lists which samples in a given box will be going into which places on the tray. Work with Dr. Lotterhos to develop the plan.
-    - Take one box out of the freezer, transfer samples to its appropriate location on the ordered trays.
+    - Take one box out of the freezer, transfer samples to appropriate location on the ordered trays.
 
--   Ensure that if you are reusing S-blocks that they have been sterilized in an HCl bath and autoclaved prior to use. If they have not been or if you are unsure, follow [this protocol](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_Acid_Washes.html). If you are using a kit for the first time, you do not need to sterilize/HCl bath the block, as it is already sterile.
+-   If you are reusing S-blocks, ensure that they have been sterilized in an HCl bath and autoclaved prior to use. If they have not been or if you are unsure, follow [this protocol](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_Acid_Washes.html). If you are using a kit for the first time, you do not need to sterilize/HCl bath the S-block, as it is already sterile.
 
 ::: {.callout-note}
 
@@ -91,25 +96,25 @@ Ordered tray according to sample organization above
 ![image](https://user-images.githubusercontent.com/122108419/227250019-f5afe2c6-af53-494f-b5fb-dbf393c279f5.png)
 :::
 
--   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C on the Isotemp until precipitates have fully dissolved. The Isotemp is in the left corner of the pre-PCR counter.
+-   If any precipitate has formed in either the Buffer ATL or Buffer AL, warm solution(s) to 56 degrees C on the Isotemp or Thermomixer until precipitates have fully dissolved. The Isotemp is in the left corner of the pre-PCR counter.
 
 ### **Tissue Lysing** {.unnumbered}
 
 ::: {.callout-tip}
 ## Lab member roles during tissue lysis
 
-This process goes smoothest with three lab members working at once. Two lab members should cut and weigh tissue samples, and read out weights to the third lab member who will record them in the spreadsheet or app and place samples into corresponding collection tubes. It's very easy to put tissue into the wrong collection tubes, so having one person committed to placing the samples into tubes is good.
+This process goes smoothest with three lab members working at once. Two lab members should cut and weigh tissue samples, and read out or write down weights to the third lab member who will record them in the spreadsheet or app and place samples into corresponding collection tubes. It's very easy to put tissue into the wrong collection tubes, so having one person committed to placing the samples into tubes is good. That person should also use the plastic sheet to avoid contamination.
 :::
 
-1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by DI H2O.
+1.  Prep surfaces and area around the scale. First clean with bleach solution, followed by DI H2O, then 70% EtOH.
 
 2.  Get a styrofoam container with ice to keep tissue samples cool while prepping for extraction. Ice is located to the right of the sink in the gel room.
 
-3.  Remove one plate of tissue from freezer and let thaw on counter (do not let them sit any longer than necessary). Once thawed they can be placed on ice (this generally won't cause them to re-freeze).
+3.  Remove one plate of tissue from freezer and briefly thaw on counter (do not let them sit any longer than necessary). Once thawed they can be placed on ice (this generally won't cause them to re-freeze).
 
 4.  Get a tissue collection tube rack from Qiagen kit box. The clear tubes are already in a clear blue rack and have a clear lid over them. 
 
-5.  Add 18 mL **Buffer ATL** (note: hazardous if inhaled) to a 25 mL liquid boat (enough for 100 samples). Add 180uL **Buffer ATL** to each tissue collection tube using the P300 multichannel pipette.
+5.  Use the EasyPet to add 18 mL **Buffer ATL** (note: hazardous if inhaled) to a 25 mL liquid boat (enough for 100 samples). Then add 180uL **Buffer ATL** to each tissue collection tube using the P300 multichannel pipette.
 
 ::: {.callout-tip}
 ## Tips for pipetting
@@ -120,9 +125,9 @@ See page on [Pipettes and Pipetting Tips](https://drk-lo.github.io/lotterhoslabp
 
 7.  Tare piece of weighing paper on scale.
 
-8.  Carefully remove tissue from 2mL tube using sterilized forceps. Place the tissue on a weigh boat to cut. Use a sterile scalpel blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean kim wipe, so that the tissue appears nearly dry.
+8.  Carefully remove tissue from 2mL tube using sterilized forceps. Place the tissue on a weigh boat to cut. Use a sterile scalpel blade to cut a piece of tissue roughly 20mg in weight (cut on weigh boat). Using 95% pure EtoH, gently rinse tissue in weigh boat and pat dry with clean Kim wipe, so that the tissue appears nearly dry.
 
-9.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube, using the plastic sheet over the tube rack to only expose the tube you're working with. If the tissue is not the correct weight, either remove tissue as necessary or add more from sample tissue. Make sure the tissue is pushed all the way down into the solution at the bottom of the tube.
+9.  Place tissue on weigh paper and measure the weight. If the tissue weighs 20mg+/-2mg place it in extraction tube, using the plastic sheet over the tube rack to only expose the tube you're working with. If the tissue is not the correct weight, either remove tissue as necessary or add more from sample tissue. If adding more, make sure to rinse with EtOH and dry the new tissue. Then make sure the tissue is pushed all the way down into the buffer at the bottom of the collection tube.
 
 ::: {.callout-important}
 **Note:** Make sure tissue is all the way at the bottom of the well. 
@@ -130,28 +135,28 @@ See page on [Pipettes and Pipetting Tips](https://drk-lo.github.io/lotterhoslabp
 
 ::: {.callout-important}
 ## Important: Prevent cross-contamination
-Between samples, the scalpel & forceps should be sterilized by wiping them off with a Kimwipe to remove any remaining tissue, dipping them in 70% EtoH, and using a flame to burn off any residual EtoH and tissue. **Scalpels are very sharp, be very careful when wiping with a Kim wipe, as it's very easy to cut yourself.** Consider placing the Kim wipe on the counter, and wiping the scalpel off on it there. Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates.
+Between samples, the scalpel & forceps should be sterilized by wiping with a Kimwipe to remove any remaining tissue, dipping in 70% EtoH, and using a flame to burn off any residual EtoH and tissue. **Scalpels are very sharp, be very careful when wiping with a Kim wipe, as it's very easy to cut yourself.** Consider placing the Kim wipe on the counter, and wiping the scalpel off on it there. Sterilize plastic sheet between samples by spraying with 70% EtOH and wiping with a Kim wipe. Make sure to carefully clean the hole punch where samples may contact. Remake plastic sheet between plates.
 :::
 
-10.  Record weight in lab notebook or app by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
+10.  Record tissue weight in lab notebook or app by well location, **not** by vial ID. Place sample into appropriate collection well plate (cyan plates). Keep plate covered with plastic sheet that has a hole in the center. This hole will expose one well at a time for tissue transfer. Sterilize plastic sheet between samples.
 
 ::: {.callout-note}
 ## Entering sample weights into the app
 Open the Seascape Samples Extractions app on your laptop or lab iPad (passcode is 0156). Select the plate you are extracting from on the home page, then select the extraction entry for the current extraction. Scroll down to Extraction_mg_tissue and click "Add." Enter data into all fields as prompted.
 :::
 
-11. Once you are nearly finished with tissue cutting, preheat thermo-mixer to 56 degrees C. Make sure the plate attachment is on and not the tube attachment.
+11. When you are nearly finished with tissue cutting, preheat Thermo-mixer to 56°C. Make sure the plate attachment is on and not the tube attachment. If you need to switch attachments, push the blue button down to release the attachment. 
 
 12. Add 2 mL **Proteinase K** to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL **Proteinase K** into each sample tube. 
 
-13.  Seal wells with collection microtube caps from Qiagen kit, then place clear rack lid back on the tube rack. Use vortexer  with plate attachment (shown below) to mix samples, then centrifuge using Hughes lab centrifuge or the large centrifuge in the shared molecular space for 20-30s at 4500 rpm if using Hughes centrifuge or 4400 rpm if using shared molecular space centrifuge, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
+13.  Seal wells with collection microtube caps from Qiagen kit, then place clear rack lid back on the tube rack. Use vortexer with plate attachment (shown below) to mix samples, then centrifuge using Hughes lab centrifuge or the large centrifuge in the shared molecular space for 20-30s at 4500 rpm if using Hughes centrifuge or 4400 rpm if using shared molecular space centrifuge, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
 
 Vortexer plate attachment:
 ![IMG_AD4161720A95-1](https://user-images.githubusercontent.com/122108419/227262189-0e2897c9-f374-4f67-8466-d486a99eb196.jpeg)
 
-14.  Place entire tube rack with individual tube caps and rack lid on Thermomixer set at 56 degrees at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the Thermomixer lid fully sealed. Still place the Thermomixer lid on the tube rack, it just won't close all the way, and that's okay). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
+14.  Place entire tube rack with individual tube caps and rack lid on Thermomixer set at 56°C at 600 rpm (we have plate attachment, but plates are too tall, so just put the sample plate on the mixer without the Thermomixer lid fully sealed. Still place the Thermomixer lid on the tube rack, it just won't close all the way, and that's okay). **BEFORE STARTING THE MIXER**: Make sure all tube caps are securely fastened. In addition, after 2 minutes on the thermo-mixer confirm the tube caps haven't popped open.
 
-15.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed. Samples can be in thermomixer from the time the tissue prep is finished until you are ready to start the extraction first thing the following morning (usually ~ 2pm to 9am the following day).
+15.  Samples can be left for at least 2 hours or overnight to allow for all tissue to be completely lysed. Samples can be in Thermomixer from the time the tissue prep is finished until you are ready to start the extraction first thing the following morning (usually ~ 2pm to 9am the following day).
 
 ### **Extraction** {.unnumbered}
 
@@ -162,18 +167,23 @@ Once you start the extraction process, there aren't any good stopping points mid
 
 1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by DI H2O, then 70% EtoH.
 
-2.  After removing entire tube rack with the samples from the thermomixer, ensure microtubes in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid are properly sealed, cover racks  and shake vigorously by hand for 15 seconds.  Secure the lid to the rack with lab tape. Centrifuge in the Hughes lab centrifuge (30s at 4500 rpm) or the shared molecular space centrifuge (45s at 4400 rpm) to collect any solution from the caps. Hold down short spin button.
+2.  Remove the entire sample tube rack from the Thermomixer and ensure microtubes in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid and shake the tube rack vigorously by hand for 15 seconds. Then secure the lid to the rack with lab tape. Centrifuge in the Hughes lab centrifuge (30s at 4500 rpm) or the shared molecular space centrifuge (45s at 4400 rpm) to collect any solution from the caps. Hold down short spin button.
 
 ::: {.callout-important}
 ## Buffer AL prep
-Note that buffer AL is a hazardous chemical (causes skin irritation and serious eye irritation). Ensure ethanol has been added to **Buffer AL** according to instructions on the container.
+Note that buffer AL is a hazardous chemical (causes skin irritation and serious eye irritation). Ensure ethanol has been added to **Buffer AL** according to instructions on the container. The cap should be marked if ethanol has been added. 
 :::
 
-3.  Carefully remove caps and add 410 μl **Buffer AL** using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). For a full plate of 96 samples, use 25 mL serological pipette tips with the E-Pet pipette to transfer 45 mL Buffer AL in a 50mL liquid boat. If you are careful not to touch the pipette tip to any surfaces outside of the buffer, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
+3.  Use 25 mL serological pipette tips with the Easy-Pet pipette to transfer 45 mL Buffer AL to a 50mL liquid boat (enough for a full plate of samples). Carefully remove sample caps and add 410 μl **Buffer AL** using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). If you are careful not to touch the pipette tip to the sample tubes or another contaminated surface, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
 
-4.  Place clear cover over the rack and shake vigorously for 15s by hand. Secure the lid to the rack with lab tape, then centrifuge in the Hughes Lab centrifuge (30s at 4500 rpm) or shared lab space centrifuge (45s at 4400 rpm) to collect any solution from the caps.
+4.  Place clear cover over the rack and shake vigorously for 15s by hand. Secure the lid to the rack with lab tape, then centrifuge in the Hughes Lab centrifuge (30s at 4500 rpm) or shared lab space centrifuge (45s at 4400 rpm) to collect any solution from the caps. Make sure to add water to the counterweight. 
 
-5.  Place DNeasy 96 plate on the S-Block, ensuring placement lines up correctly with the sample key. Note that the DNeasy plate on the S-block is very prone to tipping, especially when applying tape sheets. Be careful not to let them tip or lysate may slosh out and lead to cross-contamination between samples.
+::: {.callout-note}
+## Preparing counterweights
+For every centrifuge step, you need a counterweight that is equal in weight and height to whatever sample plate you are spinning. We have an extra of almost every plate to use as a counterweight. When you add a new buffer to the sample plate, make sure to add the same volume of tap water to the counterweight to even out the weights. Use the scale to check the weights of the sample plate and counterweight before going over to the Hughes lab. They should be within a few grams of each other and the same height.
+::: 
+
+5.  Place DNeasy 96 plate on the S-Block. Make sure well A1 is directly on top of well A1, etc. Note that the DNeasy plate on the S-block is very prone to tipping, especially when applying tape sheets. Be careful not to let them tip or lysate may slosh out and cause contamination between samples.
 
 6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the corresponding wells on the DNeasy 96 plate using filtered tips. Our P200 filtered tips only fit on the P100 multichannel, so set the P100 multichannel pipette to 100 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. The lysate can get super bubbly, so be careful not to get any sample up into the actual pipette. There's usually about 600 uL total lysate in each sample. Pop any bubbles using a pipette tip. Dispose of empty collection microtubes and blue tube rack in the mayo jar. 
 
@@ -192,9 +202,9 @@ Note that buffer AL is a hazardous chemical (causes skin irritation and serious 
 Spin column membrane should be dry after this step. Spin for an additional 1 min if not.
 :::
 
-12.  Transfer the DNeasy 96 plate on a rack of Elution Microtubes RS.
+12.  Transfer the DNeasy 96 plate to a rack of Elution Microtubes RS.
 
-13.  Elute the DNA by adding 200μl of **Low TE Buffer** to each sample using the 300μl multichannel pipette. We have found **Low TE Buffer** gives better yields than kit Buffer AE. For a full plate, this will require ~20mL of **low TE**. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Secure the DNeasy plate to the S-block with lab tape, and centrifuge in the Hughes centrifuge (3 min at 4500 rpm) or shared lab space centrifuge (4 min at 4400 rpm). Seal elution microtubes with new caps. 
+13.  Elute the DNA by adding 200μl of **Low TE Buffer** to each sample using the 300μl multichannel pipette. We have found **Low TE Buffer** gives better yields than kit Buffer AE. For a full plate, this will require ~20mL of **low TE**. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Secure the DNeasy plate to the Elution Microtubes with lab tape, and centrifuge in the Hughes centrifuge (3 min at 4500 rpm) or shared lab space centrifuge (4 min at 4400 rpm). Seal elution microtubes with new caps. 
 
 14. Add the elution buffer data to the app/database.
 
