@@ -29,3 +29,17 @@ The image below shows your app gallery, or all the Appsheet programs you have ac
 
 ![](img/7DF9D307-C481-4E69-8B0A-0008DDF1FF81.png)
 
+The app usually opens on the "plate" page. You can switch pages by clicking the icons at the bottom. See also the menu icon and the app refresh button, which you will need to click if any updates are made to the app structure. 
+
+![](img/7DA7A498-2BA4-4888-B504-0C7E98CD41AA_1_201_a.jpeg)
+
+## Data Entry
+
+### Extraction Dates
+
+- At the start of an extraction, you will need to enter it as a new extraction date. Click on the plate you're extracting DNA from on the "plates" page shown above. 
+
+- On the next page that comes up, you'll see a section called "Extraction_plans", which contains the plan label for every sample being extracted in that plate. Scroll down to the "Extraction_Dates" section. Click "Add" to input a new date.
+
+![](img/89F7BFA6-77B0-4732-B85C-8B61CA4EF7C6.png)
+
