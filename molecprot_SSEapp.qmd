@@ -1,1 +1,31 @@
-## Seascape Sample Extractions App Use
+# Seascape Sample Extractions App Use
+
+[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_SSEapp.qmd)
+
+The Seascape Sample Extractions (SSE) app is an app designed by Katie Lotterhos through Appsheet. It helps keep track of all data relating to the oyster DNA extracted as part of the Model Validation Program experiment. The app connects to this [Google sheet](https://docs.google.com/spreadsheets/d/1nLMK4ucERX90T4lV7ivLZ0HEBaGvwawnA3XHPsKt9Uk/edit) and all data entered in the app shows up in the sheet. As of 07/07/2023, data added to the app will show up in the sheet, but data entered into the sheet will not necessarily populate in the app.
+
+## Accessing the SSE App
+
+To access SSE, Katie will need to send an invite to your Google account. Once you have accepted the invite, you can access the app in the following ways:
+
+- By downloading the Appsheet app to your personal device (phone, tablet, etc)
+- Through the [web version](https://www.appsheet.com/start/f58f8dbb-1d41-4d2d-a917-dfe554b1144f#appName=SeascapeSamplesExtractions-6377443&group=%5B%7B%22Column%22%3A%22Date_SentSequencing%22%2C%22Order%22%3A%22Ascending%22%7D%5D&page=deck&sort=%5B%5D&table=1_Plate&view=plate) on a computer
+
+You will need to be signed into an invited Google account to use SSE. We have a lab iPad with the app downloaded and signed into that you are welcome to use.
+
+## App Overview
+
+Use SSE during DNA extractions to enter the following data:
+
+- Extraction dates
+- Lysis start and end times
+- Weights of tissues before lysis
+- Elution buffer info
+- DNA quantification data
+- Gel images of extracted DNA
+- Additional extraction plans for replacement samples
+
+The image below shows your app gallery, or all the Appsheet programs you have access to. Select the Seascape Sample Extractions App.
+
+![](img/7DF9D307-C481-4E69-8B0A-0008DDF1FF81.png)
+
