@@ -12,19 +12,21 @@ You can make either a 1% or 2% agarose gel. We have been using 2% gels because o
 
 **Materials**
 
-- Agarose
+- Agarose (chemical shelf)
 
-- 1X TAE
+- 1X TAE (reagent shelf)
 
-- Scoop
+- Scoop (near sink)
 
-- Erlenmeyer flask
+- Erlenmeyer flask (glassware cabinet)
 
-- Stir bar
+- Stir bar (drawer under stir plate)
 
-- Gel rig and combs
+- Gel rig and combs (gel room)
 
 - Masking tape
+
+- Weigh boat 
 
 - Parafilm
 
@@ -32,13 +34,21 @@ You can make either a 1% or 2% agarose gel. We have been using 2% gels because o
 
 - 6X loading dye (-20 freezer)
 
+- TriTrack loading dye (-20 freezer)
+
+- DI water (near sink)
+
+- MilliQ water (OGL)
+
 - P2.5 and P10 pipettes
 
 - Styrofoam box with ice
 
 **Equipment**
 
-- Magnetic stir plate (to the left of the -20 fridge)
+- Magnetic stir plate (left of the -20 fridge)
+
+- Microwave (gel room)
 
 - Power supply- PowerEase™ Touch 120W Power Supply (115 VAC) or Hoefer PS300-B (in gel room)
 
@@ -51,7 +61,7 @@ You can make either a 1% or 2% agarose gel. We have been using 2% gels because o
 See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipettesandpipettingtips.html) for pipette guidelines and best practices for precise and accurate pipetting.
 :::
 
-1. Dilute 10X TAE Buffer to 1X. Measure 900mL MilliQ H20 and 100mL 10X TAE in the large plastic graduated cyliner. Combine and store in a 1L labelled glass bottle. The recipe for making more 10X TAE Buffer is below and [here](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) 
+1. Dilute 10X TAE Buffer to 1X. Pour 100mL 10X TAE in the large plastic graduated cyliner. Add 900mL MilliQ water until the mixture reaches the 1000mL mark. Pour and store in a 1L labelled glass bottle. The recipe for making more 10X TAE Buffer is below and [here](http://cshprotocols.cshlp.org/content/2006/1/pdb.rec8644.full) 
 
 2. Mix the gel components.  
     a. For a 1% agarose gel:
@@ -62,9 +72,9 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
     	    i. Small gel: 1.2g agarose + 60 mL 1X TAE Buffer 
 	    ii. Medium gel: 2g agarose + 100 mL 1X TAE Buffer
 	    
-    c.	Add agarose, then 1X TAE to an Erlenmeyer flask.
+    c.	Weigh agarose using a plastic small weigh boat. Pour into Erlenmeyer flask. Measure 1X TAE using an 100mL graduated cyliner. Pour into Erlenmeyer flask and swirl gently. 
     
-    d.	Use the magnetic stirring plate (put a magnet inside the Erlenmeyer flask) to mix. Turn the RPM into the 500s until all the clumps are gone. 
+    d.	Use the magnetic stirring plate (put a stir bar inside the Erlenmeyer flask) to mix. Turn the RPM into the 500s until all the clumps are gone. Remove the stir bar with forceps. 
     
 3. Melt the gel.
     a.	Microwave the flask with agarose mixture for ~30 seconds. 
@@ -86,10 +96,10 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
     a.	Use masking tape to create walls on either side of the tray to contain the solution when poured. Test tape by filling tray with water first. Use multiple layers of tape to make sure it doesn’t leak.
     <img width="457" alt="Screen Shot 2023-03-24 at 2 54 06 PM" src="https://user-images.githubusercontent.com/122108419/227614768-6b639160-04ff-4606-80b6-7f9fb6bc8161.png">
     
-        i. If you are having issues with this method, you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set.
+        i. If you are having issues with this method (leaks), you can set the gel in the rig if you flip the orientation of the tray so that it is confined.  Make sure to wet the red rubber gaskets so that it is easier to take out after it has set. The rig needs to be empty for this method (no buffer in it). 
 	<img width="329" alt="Screen Shot 2023-03-27 at 10 13 46 AM" src="https://user-images.githubusercontent.com/122108419/227965749-c42c0fae-27ca-400f-b826-46acb3d169e2.png">
     b.	Pour gel slowly to avoid bubbles.
-        i. If bubbles form, you can remove or pop them using the casting combs.
+        i. If bubbles form, you can pop them using a pipette tip.
     c.	Add casting combs into the slots.
         i. There are 2 pairs of combs for each size gel; one will create wider wells than the other. You can use either set of combs. 
     d.	Rinse out the flask and hang on drying rack in Lotterhos lab.
@@ -97,7 +107,7 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
 7. Let the gel set for ~40 minutes.
     a.	The gel should be solid, cool to the touch, and opaque.
     b.	Once gel is set, remove the tape and combs.
-        i. Remove combs slowly, pulling straight up.
+        i. Remove combs slowly, pulling straight up. It might be easier to do this if the gel is in the buffer. 
         
 8. Make sure that the power source is off, and the gel rig is unplugged from the power source before removing the top.
 
@@ -110,14 +120,14 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
     a.	The rig doesn’t need to be filled all the way to the line, just enough to cover the gel.
     
 11. Add ladder into the first well. 
-    a.	Mix 1ul ladder, 1ul TriTrack loading dye, and 4ul DI H20. Mix on parafilm or in a Qubit tube. Fill ladder wells with 3ul (half) of this mixture. 
+    a.	Mix 1ul ladder, 1ul TriTrack loading dye, and 4ul DI H20. Mix on parafilm or in a Qubit tube. Fill ladder wells with 3ul (half) of this mixture. Repeat or make a double batch depending on how many ladders you have.
         i. We use the Generuler 1kb Plus DNA. Before pipetting, centrifuge the ladder briefly with the loading dye (for balance) so that there are no drips on the sides of the tubes.
-        ii. Aliquots of ladder can be found in the  -20 freezer. 
+        ii. Aliquots of ladder can be found in the  -20 freezer. (we don't have an aliquot right now, you might have to mix ladder/TriTrack/DIH20 yourself. 
 
 12. Load the gel.
     a. Place the DNA samples on ice in the styrofoam box once they have defrosted.
     b.	If there is any gel inside the wells, clean them out by pipetting up TAE and expelling it into the wells
-    c.	Cut a piece of parafilm and tape to benchtop.
+    c.	Cut a piece of parafilm and tape to benchtop. You can label it with sample names or well numbers if that's helpful. 
     d.	Using a pipette, add dots of 6X loading dye (1 for each sample) to parafilm.
     <img width="456" alt="Screen Shot 2023-03-24 at 2 54 47 PM" src="https://user-images.githubusercontent.com/122108419/227614901-02cf7032-314f-4d5d-809b-4f24198516b0.png">
 
@@ -129,7 +139,7 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
 	 
     e.	Mix by pipetting up and down slowly 3+ times.
     
-    f.	Pipette 3 ul of the dye/sample solution into the proper well of the gel.
+    f.	Keep the same tip and pipette 3 ul of the dye/sample solution into the proper well of the gel.
     
     g.	Repeat for each sample
         i. Change your pipette tip for each sample.
@@ -159,7 +169,7 @@ Gel 3:
 13. Run the gel.
     a. Put the gel box cover into place.
         i. Make sure the wires are plugged in correctly (wire colors match plug colors).
-        ii. Turn on the power supply and set timer. For a 1% gel, set it for 130V for 30 minutes. For a 2% gel, we found that 90V for 30 to 40 minutes works better.
+        ii. Turn on the power supply and set timer. For a 1% gel, set it for 130V for 30 minutes. For a 2% gel, we found that 90V for 35 minutes works better.
 
 :::{.callout-important}
 ## Important Power Supply Safety Notes
@@ -198,7 +208,7 @@ Gel 3:
     d. The gel doc (for visualizing the gel) is in OGL, in the room you walk through right before the autoclave room. The gel doc is a large grey machine on the benchtop next to a black computer. Open the gel doc tray and wipe it clean using MilliQ water and KimWipes.
         i. A small volume of water (<10ml) is sufficient. 
 	
-    e. Slide the gel onto the gel doc tray.
+    e. Slide the gel onto the gel doc tray. You can also keep the gel in its plastic tray and put the whole thing on the gel doc. 
         i. Do so slowly to avoid creating bubbles under the gel.
         ii. If you’re unsure if your gel has run long enough, you can leave gel in tray and visualize it. You can then return the gel to the rig and run it for longer if necessary.
 	
@@ -234,9 +244,10 @@ Gel 3:
         ii. Change file type to .jpg.
         iii. Name file and save in appropriate folder. We have a Lotterhos folder on the OGL laptop.
         
-15. Always clean the gel doc tray after use. You can use DI water from the squirt bottle near the gel doc and a Kimwipe to clean the tray of any remaining gel or TAE. Make sure the tray is dry before you leave.
+15. Always clean the gel doc tray after use. You can use MilliQ water from the squirt bottle near the gel doc and a Kimwipe to clean the tray of any remaining gel or TAE. Make sure the tray is dry before you leave.
 
 16. Dispose of the gel in the mayo jar in the gel room labeled 'Gel waste.'
+
 :::{.callout-important}
 ## Gel waste 
 - If the gel waste mayo jar is labelled with Lotterhos, ensure that the label is filled out correctly. GelRed and Bromophenol blue are not hazardous, and the label should be filled out as such if those are the only constituents. You should also ask others who use the gel mayo jar about what chemicals are in their gels. 
