@@ -1841,6 +1841,27 @@
     "text": "Celebrate!"
   },
   {
+    "objectID": "molecprot_SSEapp.html",
+    "href": "molecprot_SSEapp.html",
+    "title": "Seascape Sample Extractions App Use",
+    "section": "",
+    "text": "Edit this page\nThe Seascape Sample Extractions (SSE) app is an app designed by Katie Lotterhos through Appsheet. It helps keep track of all data relating to the oyster DNA extracted as part of the Model Validation Program experiment. The app connects to this Google sheet and all data entered in the app shows up in the sheet. As of 07/07/2023, data added to the app will show up in the sheet, but data entered into the sheet will not necessarily populate in the app.\n\n\nTo access SSE, Katie will need to send an invite to your Google account. Once you have accepted the invite, you can access the app in the following ways:\n\nBy downloading the Appsheet app to your personal device (phone, tablet, etc)\nThrough the web version on a computer\n\nYou will need to be signed into an invited Google account to use SSE. We have a lab iPad with the app downloaded and signed into that you are welcome to use.\n\n\n\nUse SSE during DNA extractions to enter the following data:\n\nExtraction dates\nLysis start and end times\nWeights of tissues before lysis\nElution buffer info\nDNA quantification data\nGel images of extracted DNA\nAdditional extraction plans for replacement samples\n\nThe image below shows your app gallery, or all the Appsheet programs you have access to. Select the Seascape Sample Extractions App."
+  },
+  {
+    "objectID": "molecprot_SSEapp.html#accessing-the-sse-app",
+    "href": "molecprot_SSEapp.html#accessing-the-sse-app",
+    "title": "Seascape Sample Extractions App Use",
+    "section": "",
+    "text": "To access SSE, Katie will need to send an invite to your Google account. Once you have accepted the invite, you can access the app in the following ways:\n\nBy downloading the Appsheet app to your personal device (phone, tablet, etc)\nThrough the web version on a computer\n\nYou will need to be signed into an invited Google account to use SSE. We have a lab iPad with the app downloaded and signed into that you are welcome to use."
+  },
+  {
+    "objectID": "molecprot_SSEapp.html#app-overview",
+    "href": "molecprot_SSEapp.html#app-overview",
+    "title": "Seascape Sample Extractions App Use",
+    "section": "",
+    "text": "Use SSE during DNA extractions to enter the following data:\n\nExtraction dates\nLysis start and end times\nWeights of tissues before lysis\nElution buffer info\nDNA quantification data\nGel images of extracted DNA\nAdditional extraction plans for replacement samples\n\nThe image below shows your app gallery, or all the Appsheet programs you have access to. Select the Seascape Sample Extractions App."
+  },
+  {
     "objectID": "outreach_oysterworkshop.html",
     "href": "outreach_oysterworkshop.html",
     "title": "All About Oysters: Outreach Workshop",
