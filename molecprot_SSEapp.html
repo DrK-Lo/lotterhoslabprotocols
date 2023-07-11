@@ -796,6 +796,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#entering-tissue-weights" id="toc-entering-tissue-weights" class="nav-link" data-scroll-target="#entering-tissue-weights">Entering Tissue Weights</a></li>
   <li><a href="#entering-quantification-data-and-gels" id="toc-entering-quantification-data-and-gels" class="nav-link" data-scroll-target="#entering-quantification-data-and-gels">Entering Quantification Data and Gels</a></li>
   </ul></li>
+  <li><a href="#replacement-samples" id="toc-replacement-samples" class="nav-link" data-scroll-target="#replacement-samples">Replacement Samples</a>
+  <ul class="collapse">
+  <li><a href="#replacement-sample-selection" id="toc-replacement-sample-selection" class="nav-link" data-scroll-target="#replacement-sample-selection">Replacement Sample Selection</a></li>
+  <li><a href="#entering-replacements-in-the-app" id="toc-entering-replacements-in-the-app" class="nav-link" data-scroll-target="#entering-replacements-in-the-app">Entering Replacements in the App</a></li>
+  </ul></li>
+  <li><a href="#exporting-final-data-to-a-csv-for-shipment" id="toc-exporting-final-data-to-a-csv-for-shipment" class="nav-link" data-scroll-target="#exporting-final-data-to-a-csv-for-shipment">Exporting Final Data to a CSV for Shipment</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_SSEapp.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
@@ -898,9 +904,30 @@ Explanation of the corr_conc_ng_uL_auto box
 <li><p>Go back to the quant section and select the sample you want to include gel data for. Scroll down past the concentration data entry section until you reach the gel section. Select the gel image for that sample and its quality.</p></li>
 <li><p>Click save.</p></li>
 </ul>
-
-
 </section>
+</section>
+<section id="replacement-samples" class="level2">
+<h2 class="anchored" data-anchor-id="replacement-samples">Replacement Samples</h2>
+<ul>
+<li>If for some reason a sample in the original extraction plan is unable to be extracted (not enough tissue, unable to locate sample, etc.), you will need to find a replacement sample, and create an extraction plan for it in the app.</li>
+</ul>
+<section id="replacement-sample-selection" class="level3">
+<h3 class="anchored" data-anchor-id="replacement-sample-selection">Replacement Sample Selection</h3>
+<ul>
+<li><p>In the <a href="https://docs.google.com/spreadsheets/d/1nLMK4ucERX90T4lV7ivLZ0HEBaGvwawnA3XHPsKt9Uk/edit#gid=1504845155">Seascape Sample Extraction Google sheet</a>, find the sample that needs replacing in the “plan” tab. Take note of the Label_ind, which is usually SG_####.</p></li>
+<li><p>Search the plan tab for individual labels that come numerically before and after the sample needing replacing. If you want to replace sample SG_1456, search for samples SG_1454, SG_1455, SG_1457, etc. You don’t want to replace a sample with another that has already been or will be extracted. There may be extraction plans outside of those listed in the Seascape Sample Extractions sheet, so be sure to check those as well.</p></li>
+<li><p>Once you find a sample that does not turn up in any existing extraction plans, open the <a href="https://docs.google.com/spreadsheets/d/1jK4Qhd8_yIoEntUfu2XR2Ul9OdKDfrOf7Ehc7ULwS3E/edit#gid=1863221382">Seascape Samples Google sheet</a> (different from the extraction sheet). In the “tissue” tab, use Ctrl + F to search for the label_ind of the sample needing replacing. Take note of its location origin under ID_SiteDate.</p></li>
+<li><p>Each individual should have 3 entries</p></li>
+</ul>
+</section>
+<section id="entering-replacements-in-the-app" class="level3">
+<h3 class="anchored" data-anchor-id="entering-replacements-in-the-app">Entering Replacements in the App</h3>
+</section>
+</section>
+<section id="exporting-final-data-to-a-csv-for-shipment" class="level2">
+<h2 class="anchored" data-anchor-id="exporting-final-data-to-a-csv-for-shipment">Exporting Final Data to a CSV for Shipment</h2>
+
+
 </section>
 </section>
 
