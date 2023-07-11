@@ -31,7 +31,7 @@ The image below shows your app gallery, or all the Appsheet programs you have ac
 
 The app usually opens on the "plate" page. You can switch pages by clicking the icons at the bottom. See also the menu icon and the app refresh button, which you will need to click if any updates are made to the app structure. 
 
-![](img/7DA7A498-2BA4-4888-B504-0C7E98CD41AA_1_201_a.jpeg)
+![](img/7DA7A498-2BA4-4888-B504-0C7E98CD41AA_1_201_a.jpeg){height=10%}
 
 ## Data Entry
 
