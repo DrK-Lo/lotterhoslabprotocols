@@ -27,7 +27,7 @@ Use SSE during DNA extractions to enter the following data:
 
 The image below shows your app gallery, or all the Appsheet programs you have access to. Select the Seascape Sample Extractions App.
 
-![](img/7DF9D307-C481-4E69-8B0A-0008DDF1FF81.png){height=50%}
+![](img/7DF9D307-C481-4E69-8B0A-0008DDF1FF81.png){height=150%}
 
 The app usually opens on the "plate" page. You can switch pages by clicking the icons at the bottom. See also the menu icon and the app refresh button, which you will need to click if any updates are made to the app structure. 
 
