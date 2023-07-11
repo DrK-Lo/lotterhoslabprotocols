@@ -27,11 +27,7 @@ Use SSE during DNA extractions to enter the following data:
 
 The image below shows your app gallery, or all the Appsheet programs you have access to. Select the Seascape Sample Extractions App.
 
-![](img/7DF9D307-C481-4E69-8B0A-0008DDF1FF81.png){height=1%}
-
 The app usually opens on the "plate" page. You can switch pages by clicking the icons at the bottom. See also the menu icon and the app refresh button, which you will need to click if any updates are made to the app structure. 
-
-![](img/7DA7A498-2BA4-4888-B504-0C7E98CD41AA_1_201_a.jpeg){height=.01%}
 
 ## Data Entry
 
@@ -40,8 +36,6 @@ The app usually opens on the "plate" page. You can switch pages by clicking the 
 - At the start of an extraction, you will need to enter it as a new extraction date. Click on the plate you're extracting DNA from on the "plates" page shown above. 
 
 - On the next page that comes up, you'll see a section called "Extraction_plans", which contains the plan label for every sample being extracted in that plate. Scroll down to the "Extraction_Dates" section. Click "Add" to input a new date.
-
-![](img/89F7BFA6-77B0-4732-B85C-8B61CA4EF7C6.png)
 
 - Fill in the boxes with the requested info. You won't be able to fill in any information past "Time lysis start" on the first day. 
 
@@ -65,9 +59,11 @@ Remember to come back to this page and fill in the rest of the info as the extra
 
 - In the extraction date you're entering quant data for, scroll down to "plate_standards" and click "Add."
 
-- Click on the extraction date you want to enter quant data for. Scroll down to "DNA_quantifications" and click "Add" to enter data.
+- Enter the standard line equation slope and intercept. Give the standard entry a descriptive label that includes the plate label and the columns of that plate that the standard represents (ex. CviMVP_PlDNA_3_cols1_6). Click save when finished.
 
-- 
+- Go back to the page for the extraction date you want to enter quant data for. Scroll down to "DNA_quantifications" and click "Add" to enter data.
+
+- Enter the info as prompted. If you are entering quant data from PicoGreen, make sure to select the right plate_standards_key. You can leave this entry blank if entering Qubit 
 
 
 
