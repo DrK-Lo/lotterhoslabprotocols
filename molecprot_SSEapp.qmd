@@ -85,4 +85,20 @@ No correction factors are applied to Qubit concentrations, so the concentration 
 
 - Click save.
 
+## Replacement Samples
 
+- If for some reason a sample in the original extraction plan is unable to be extracted (not enough tissue, unable to locate sample, etc.), you will need to find a replacement sample, and create an extraction plan for it in the app.
+
+### Replacement Sample Selection
+
+- In the [Seascape Sample Extraction Google sheet](https://docs.google.com/spreadsheets/d/1nLMK4ucERX90T4lV7ivLZ0HEBaGvwawnA3XHPsKt9Uk/edit#gid=1504845155), find the sample that needs replacing in the "plan" tab. Take note of the Label_ind, which is usually SG_####.
+
+- Search the plan tab for individual labels that come numerically before and after the sample needing replacing. If you want to replace sample SG_1456, search for samples SG_1454, SG_1455, SG_1457, etc. You don't want to replace a sample with another that has already been or will be extracted. There may be extraction plans outside of those listed in the Seascape Sample Extractions sheet, so be sure to check those as well.
+
+- Once you find a sample that does not turn up in any existing extraction plans, open the [Seascape Samples Google sheet](https://docs.google.com/spreadsheets/d/1jK4Qhd8_yIoEntUfu2XR2Ul9OdKDfrOf7Ehc7ULwS3E/edit#gid=1863221382) (different from the extraction sheet). In the "tissue" tab, use Ctrl + F to search for the label_ind of the sample needing replacing. Take note of its location origin under ID_SiteDate.
+
+-  Each individual should have 3 entries 
+
+### Entering Replacements in the App
+
+## Exporting Final Data to a CSV for Shipment
