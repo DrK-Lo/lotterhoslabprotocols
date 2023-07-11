@@ -27,6 +27,8 @@ Use SSE during DNA extractions to enter the following data:
 
 The image below shows your app gallery, or all the Appsheet programs you have access to. Select the Seascape Sample Extractions App.
 
+<img src="img/appgal.png"> height="50"
+
 The app usually opens on the "plate" page. You can switch pages by clicking the icons at the bottom. See also the menu icon and the app refresh button, which you will need to click if any updates are made to the app structure. 
 
 ## Data Entry
@@ -82,17 +84,5 @@ No correction factors are applied to Qubit concentrations, so the concentration 
 - Go back to the quant section and select the sample you want to include gel data for. Scroll down past the concentration data entry section until you reach the gel section. Select the gel image for that sample and its quality.
 
 - Click save.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
