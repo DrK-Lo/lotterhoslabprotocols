@@ -27,11 +27,11 @@ Use SSE during DNA extractions to enter the following data:
 
 The image below shows your app gallery, or all the Appsheet programs you have access to. Select the Seascape Sample Extractions App.
 
-![](img/7DF9D307-C481-4E69-8B0A-0008DDF1FF81.png){height=150%}
+![](img/7DF9D307-C481-4E69-8B0A-0008DDF1FF81.png){height=1%}
 
 The app usually opens on the "plate" page. You can switch pages by clicking the icons at the bottom. See also the menu icon and the app refresh button, which you will need to click if any updates are made to the app structure. 
 
-![](img/7DA7A498-2BA4-4888-B504-0C7E98CD41AA_1_201_a.jpeg){height=10%}
+![](img/7DA7A498-2BA4-4888-B504-0C7E98CD41AA_1_201_a.jpeg){height=.01%}
 
 ## Data Entry
 
@@ -52,4 +52,35 @@ Remember to come back to this page and fill in the rest of the info as the extra
 - Click save when finished. You should be taken back to the overview page of whatever plate you're working with.
 
 ### Entering Tissue Weights
+
+- Click on the extraction date that you want to enter tissue weights for. Scroll down to "Extraction_mg_tissues" and click "Add."
+
+- Fill in the data as prompted. Extraction plan keys come from pre-filled dropdown lists of plans for only the plate you're working with, so you don't need to worry about scrolling through plans for all plates. You can find both extraction plan keys and wells by searching for them by well in the search bar.
+
+- Click save when finished.
+
+### Entering Quantification Data
+
+- If you are entering quantification data that was obtained using a PicoGreen assay, you will first need to enter the assay standard data.
+
+- In the extraction date you're entering quant data for, scroll down to "plate_standards" and click "Add."
+
+- Click on the extraction date you want to enter quant data for. Scroll down to "DNA_quantifications" and click "Add" to enter data.
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
