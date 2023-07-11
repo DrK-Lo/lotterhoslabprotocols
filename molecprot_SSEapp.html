@@ -916,12 +916,35 @@ Explanation of the corr_conc_ng_uL_auto box
 <ul>
 <li><p>In the <a href="https://docs.google.com/spreadsheets/d/1nLMK4ucERX90T4lV7ivLZ0HEBaGvwawnA3XHPsKt9Uk/edit#gid=1504845155">Seascape Sample Extraction Google sheet</a>, find the sample that needs replacing in the “plan” tab. Take note of the Label_ind, which is usually SG_####.</p></li>
 <li><p>Search the plan tab for individual labels that come numerically before and after the sample needing replacing. If you want to replace sample SG_1456, search for samples SG_1454, SG_1455, SG_1457, etc. You don’t want to replace a sample with another that has already been or will be extracted. There may be extraction plans outside of those listed in the Seascape Sample Extractions sheet, so be sure to check those as well.</p></li>
-<li><p>Once you find a sample that does not turn up in any existing extraction plans, open the <a href="https://docs.google.com/spreadsheets/d/1jK4Qhd8_yIoEntUfu2XR2Ul9OdKDfrOf7Ehc7ULwS3E/edit#gid=1863221382">Seascape Samples Google sheet</a> (different from the extraction sheet). In the “tissue” tab, use Ctrl + F to search for the label_ind of the sample needing replacing. Take note of its location origin under ID_SiteDate.</p></li>
-<li><p>Each individual should have 3 entries</p></li>
+<li><p>Once you find a sample that does not turn up in any existing extraction plans, open the <a href="https://docs.google.com/spreadsheets/d/1jK4Qhd8_yIoEntUfu2XR2Ul9OdKDfrOf7Ehc7ULwS3E/edit#gid=1863221382">Seascape Samples Google sheet</a> (different from the extraction sheet). In the “tissue” tab, use Ctrl + F to search for the label_ind of the new sample. Check to make sure its location origin is the same as that of the original sample by looking at ID_SiteDate.</p></li>
+<li><p>Each individual should have 3 entries in the tissue tab: mantle, gonad, and gill. Look for the vial number that has the gill of the selected individual.</p></li>
+<li><p>Now you’re ready to enter the new replacement sample in the app</p></li>
 </ul>
 </section>
 <section id="entering-replacements-in-the-app" class="level3">
 <h3 class="anchored" data-anchor-id="entering-replacements-in-the-app">Entering Replacements in the App</h3>
+<ul>
+<li><p>On the plate page, click the + symbol to add a new plate. Name it as the name of the plate the replacement sample is for and “replace.”</p>
+<ul>
+<li>Ex. CviMVP_PlDNA_4_Replace</li>
+</ul></li>
+<li><p>Click on the replacement plate and under “extraction_plans,” click Add.</p></li>
+<li><p>Follow the prompts to enter the data needed to make a new extraction plan for the replacement sample. The majority of this info can be found in the “tissue” tab in the Seascape Samples datasheet. You will need to look at the “date” tab to find the SiteDate_key. Click save when finished.</p></li>
+<li><p>You can add as many replacements as you need for any given plate. We (Nicole and Kiran) and have found that if you are extracting several replacements at the same time, it’s easiest to create one extraction date for all of them and proceed as you normally would with data entry for a plate extraction.</p></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Original samples that have been replaced
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You <strong>do not</strong> need to delete original samples from the extraction plan sheet or from past data if you replace it with a new one. It’s important to keep a record of when we replaced samples and what we replaced them with, and keeping everything in the data like this lets us have that track record.</p>
+</div>
+</div>
 </section>
 </section>
 <section id="exporting-final-data-to-a-csv-for-shipment" class="level2">
