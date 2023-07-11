@@ -95,10 +95,28 @@ No correction factors are applied to Qubit concentrations, so the concentration 
 
 - Search the plan tab for individual labels that come numerically before and after the sample needing replacing. If you want to replace sample SG_1456, search for samples SG_1454, SG_1455, SG_1457, etc. You don't want to replace a sample with another that has already been or will be extracted. There may be extraction plans outside of those listed in the Seascape Sample Extractions sheet, so be sure to check those as well.
 
-- Once you find a sample that does not turn up in any existing extraction plans, open the [Seascape Samples Google sheet](https://docs.google.com/spreadsheets/d/1jK4Qhd8_yIoEntUfu2XR2Ul9OdKDfrOf7Ehc7ULwS3E/edit#gid=1863221382) (different from the extraction sheet). In the "tissue" tab, use Ctrl + F to search for the label_ind of the sample needing replacing. Take note of its location origin under ID_SiteDate.
+- Once you find a sample that does not turn up in any existing extraction plans, open the [Seascape Samples Google sheet](https://docs.google.com/spreadsheets/d/1jK4Qhd8_yIoEntUfu2XR2Ul9OdKDfrOf7Ehc7ULwS3E/edit#gid=1863221382) (different from the extraction sheet). In the "tissue" tab, use Ctrl + F to search for the label_ind of the new sample. Check to make sure its location origin is the same as that of the original sample by looking at ID_SiteDate.
 
--  Each individual should have 3 entries 
+-  Each individual should have 3 entries in the tissue tab: mantle, gonad, and gill. Look for the vial number that has the gill of the selected individual.
+
+- Now you're ready to enter the new replacement sample in the app
 
 ### Entering Replacements in the App
+
+- On the plate page, click the + symbol to add a new plate. Name it as the name of the plate the replacement sample is for and "replace." 
+
+  - Ex. CviMVP_PlDNA_4_Replace
+
+- Click on the replacement plate and under "extraction_plans," click Add.
+
+- Follow the prompts to enter the data needed to make a new extraction plan for the replacement sample. The majority of this info can be found in the "tissue" tab in the Seascape Samples datasheet. You will need to look at the "date" tab to find the SiteDate_key. Click save when finished.
+
+- You can add as many replacements as you need for any given plate. We (Nicole and Kiran) and have found that if you are extracting several replacements at the same time, it's easiest to create one extraction date for all of them and proceed as you normally would with data entry for a plate extraction.
+
+:::{.callout-important}
+## Original samples that have been replaced
+You **do not** need to delete original samples from the extraction plan sheet or from past data if you replace it with a new one. It's important to keep a record of when we replaced samples and what we replaced them with, and keeping everything in the data like this lets us have that track record.
+:::
+
 
 ## Exporting Final Data to a CSV for Shipment
