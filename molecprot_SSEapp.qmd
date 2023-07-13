@@ -116,5 +116,8 @@ No correction factors are applied to Qubit concentrations, so the concentration 
 You **do not** need to delete original samples from the extraction plan sheet or from past data if you replace it with a new one. It's important to keep a record of when we replaced samples and what we replaced them with, and keeping everything in the data like this lets us have that track record.
 :::
 
+## Re-extractions
+
+- If certain samples do not have a high enough DNA concentration or have poor gel quality, you will need to re-extract them using the Qiagen individual extraction kit
 
 ## Exporting Final Data to a CSV for Shipment
