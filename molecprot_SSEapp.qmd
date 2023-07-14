@@ -112,12 +112,29 @@ No correction factors are applied to Qubit concentrations, so the concentration 
 - You can add as many replacements as you need for any given plate. We (Nicole and Kiran) and have found that if you are extracting several replacements at the same time, it's easiest to create one extraction date for all of them and proceed as you normally would with data entry for a plate extraction.
 
 :::{.callout-important}
-## Original samples that have been replaced
+## Don't Delete Original Samples
 You **do not** need to delete original samples from the extraction plan sheet or from past data if you replace it with a new one. It's important to keep a record of when we replaced samples and what we replaced them with, and keeping everything in the data like this lets us have that track record.
 :::
 
 ## Re-extractions
 
-- If certain samples do not have a high enough DNA concentration or have poor gel quality, you will need to re-extract them using the Qiagen individual extraction kit
+- If certain samples do not have a high enough DNA concentration or have poor gel quality, you will need to re-extract them using the Qiagen individual extraction kit.
+
+- When doing re-extractions, go into the plate that the samples are part of. Make a new extraction date for each single re-extraction you're doing. For example, if you need to re-extract samples B4 and G6 from plate 4 on August 5, 2023, you would make 2 new extraction dates labeled:
+  - CviMVP_PlDNA_4_20230805_B4
+  - CviMVP_PlDNA_4_20230805_G6
+
+:::{.callout-note}
+## Replacements vs. Re-extractions
+Unlike with replacement samples, you do not need to make a whole new plate for re-extractions, nor do you need to create new extraction plans for re-extractions.
+:::
+
+- Once you create the new extraction dates, you can continue entering data into the app as you normally would for any other extraction. In this case, each re-extraction replacement date will only include one sample. 
+
+## Transferring DNA Volumes to the Final Shipment Plate
+
+- Once all extractions and re-extractions have been completed for a plate and all the samples are marked as "Final" 
 
 ## Exporting Final Data to a CSV for Shipment
+
+- 
