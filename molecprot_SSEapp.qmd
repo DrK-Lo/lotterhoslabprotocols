@@ -133,7 +133,11 @@ Unlike with replacement samples, you do not need to make a whole new plate for r
 
 ## Transferring DNA Volumes to the Final Shipment Plate
 
-- Once all extractions and re-extractions have been completed for a plate and all the samples are marked as "Final" 
+- Once all extractions and re-extractions have been completed for a plate and all the samples are marked as "Final," you can use the quant table in the app and spreadsheet to help when transferring DNA to your final plate. 
+
+- For each well, the spreadsheet will automatically calculate the volume of DNA needed to get 400ng of DNA into your final plate. This calculation is done based on the corr_conc_ng_ul_auto column (DNA concentration).  Transfer this volume into your final plate well. 
+
+- The spreadsheet will also calculate the volume of molecular grade water needed for each well in the final plate to reach a total volume of 30ul. Add this volume to your final plate as well. 
 
 ## Exporting Final Data to a CSV for Shipment
 
