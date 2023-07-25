@@ -20,39 +20,39 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 ### **Additional Reagents and Consumables** {.unnumbered}
 
--   Sterile Scalpel blades + blue plastic disposal container. Blade #22, fits handle #4
+-   Sterile Scalpel blades + blue plastic disposal container. Blade #22, fits handle #4 (drawer under scale)
 
--   Forceps
+-   Forceps (drawer under scale)
 
 -   Alcohol lamp for sterilization (requires minimum 90% ethanol)
 
--   Lighter
+-   Lighter (drawer under scale)
 
--   Weigh paper
+-   Weigh paper (drawer under scale)
 
--   Kim wipes
+-   Kim wipes 
 
 -   Pipette Tips (300uL, 200uL). Info for ordering: Pipetman E300 TowerPack Reload System P/N:F1736051, Pipetman E200 TowerPack Reload System P/N:F1733051
 
--   Easy Pet + Serological Tips size: 25mL tips, catalog #170357N
+-   Easy Pet + Serological Tips size: 25mL tips, catalog #170357N (next to Isotemp in the corner of the benches)
 
--   Liquid boats 50mL
+-   Liquid boats 50mL (cabinet under pre/post PCR spray bottles)
 
--   95% pure EtOH for sample rinsing, diluted from molecular grade absolute ethanol 200 proof
+-   95% pure EtOH for sample rinsing, diluted from molecular grade absolute ethanol 200 proof (pre-PCR spray bottle)
     - Different types of ethanol and how to dilute [guide](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_etoh.html)
 
--   70% pure EtOH for cleaning, diluted from molecular grade absolute ethanol 200 proof
+-   70% pure EtOH for cleaning, diluted from molecular grade absolute ethanol 200 proof (pre-PCR spray bottle)
     - Pour into a 50mL Falcon tube and dip tools in for sterlization
 
--   EtoH (100% - molecular grade)
+-   EtoH (100% - molecular grade) (in flammables cabinet)
     - Use for 95% and 70% dilutions only, product ID: A409-4, green 'Molecular' label
 
--   Plastic sheet: half of a 8x11in sheet protector with a hole punched out in the middle. Sheet protectors can be found in office supplies drawer.
+-   Plastic sheet: half of a 8x11in sheet protector with a hole punched out in the middle (office supplies drawer)
 ![IMG_1919](https://user-images.githubusercontent.com/122108419/227256130-8bff04d2-0d0e-4ab2-878f-d85292b72be4.jpg)
 
--  10% bleach solution for cleaning [solution recipe](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_solutionrecipes.html)
+-  10% bleach solution for cleaning [solution recipe](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_solutionrecipes.html) (pre-PCR spray bottle)
 
-- Low TE buffer for elutions (in 1L glass bottle)
+- Low TE buffer for elutions (1L glass bottle on reagent shelf)
 
 ### **Equipment** {.unnumbered}
 
