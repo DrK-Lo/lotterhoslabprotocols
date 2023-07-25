@@ -170,6 +170,12 @@ Gel 3:
     a. Put the gel box cover into place.
         i. Make sure the wires are plugged in correctly (wire colors match plug colors).
         ii. Turn on the power supply and set timer. For a 1% gel, set it for 130V for 30 minutes. For a 2% gel, we found that 90V for 35 minutes works better.
+    b. Check for bubbles rising at cathode (black plug) side to ensure the rig is working. If you do not see bubbles rising, the gel is not running.
+    ![](/img/Gel_bubbles.MOV)https://user-images.githubusercontent.com/122108419/227600188-434bad92-3efc-433a-9fe5-2f391d6d55d0.MOV
+    
+    c. When the gel is done running, turn the off power. 
+        i. Never open the rig when the power is on.
+        
 
 :::{.callout-important}
 ## Important Power Supply Safety Notes
@@ -189,14 +195,6 @@ Gel 3:
 - Information based on Appendix D of the [safety manual](https://www.thermofisher.com/document-connect/document-connect.html?url=https://assets.thermofisher.com/TFS-Assets%2FLSG%2Fmanuals%2FMAN0019502_PowerEaseTouch120WPowerSupply_UG.pdf)
 :::
 	
-<span style="color:red"> If we have a 300 V power supply, can it handle 3 units running at 130 V at the same time? add saftey info. I wonder if this is why power supplies are breaking... </span>
-	
-    b. Check for bubbles rising at cathode (black plug) side to ensure the rig is working. If you do not see bubbles rising, the gel is not running.
-    ![](/img/Gel_bubbles.MOV)https://user-images.githubusercontent.com/122108419/227600188-434bad92-3efc-433a-9fe5-2f391d6d55d0.MOV
-    
-    c. When the gel is done running, turn the off power. 
-        i. Never open the rig when the power is on.
-        
 14. Visualize the gel.
     a. Turn the power supply off.
   
