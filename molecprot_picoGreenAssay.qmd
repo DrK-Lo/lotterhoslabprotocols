@@ -17,17 +17,17 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 ## **Materials & Reagents** {.unnumbered}
 
--   Flat bottom black Costar 96-well plate (Fisher Cat #: 07-200-627)
+-   Flat bottom black Costar 96-well plate (Fisher Cat #: 07-200-627) (long drawer under microscopes)
 
--   PCR plate, 96-well, 0.3 mL, semi-skirted (Fisher Brand, Cat#: 14230244)
+-   PCR plate, 96-well, 0.3 mL, semi-skirted (Fisher Brand, Cat#: 14230244) (shelf above post-PCR pipettes_
 
--   Two 15 mL Falcon tubes
+-   Two 15 mL Falcon tubes (box under corner of lab benches)
 
--   Two 0.2 mL snap cap tubes for ladder dilutions (you can use Qubit tubes for this)
+-   Two 0.2 mL snap cap tubes for ladder dilutions, you can use Qubit tubes (in boxes on shelf above PCR machines)
 
--   Samples diluted to appropriate concentration to be read on the plate reader
+-   Samples diluted to appropriate concentration to be read on the plate reader 
 
--   Materials from Invitrogen Quant-It PicoGreen dsDNA Assay Kit, cat #P7589
+-   Materials from Invitrogen Quant-It PicoGreen dsDNA Assay Kit, cat #P7589 (in no animals fridge)
  
   - 20X TE Buffer 
  
@@ -35,7 +35,7 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
   - DNA Ladder 100 ug/mL
  
--   Molecular grade H2O (Fisher Scientific: Water, Molecular Grade Biology, cat#: BP2819-10)
+-   Molecular grade H2O (Fisher Scientific: Water, Molecular Grade Biology, cat#: BP2819-10) 
 
 -   MilliQ H20 (get this from OGL lab space)
 
