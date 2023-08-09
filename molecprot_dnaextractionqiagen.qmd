@@ -113,8 +113,6 @@ This protocol has proven successful for rockfish (Sebastes), cod (Gadus morhua),
 The Qiagen protocol suggests performing 2 elutions, but 1 elution is typically enough to elute DNA with concentrations in the hundreds. If performing only one elution, perform the longer incubation (10 min) at room temperature, which is done for the second elution in the Qiagen protocol.
 :::
 
-2.  Elute the DNA by adding 200 μl Buffer AE or (low TE buffer if working with CviMVP samples) to the center of the spin column membrane. Incubate for 1 min at room temperature (15--25°C). Centrifuge for 1 min at ≥6000 x g.
+2.  Elute the DNA by adding 200 μl Buffer AE or (low TE buffer if working with CviMVP samples) to the center of the spin column membrane. Incubate for 10 min at room temperature (15--25°C). Centrifuge for 1 min at ≥6000 x g.
 
-3.  Perform second elution by adding 200 μl Buffer AE to the center of the spin column membrane. Incubate for 10 min at room temperature (15--25°C). Centrifuge for 1 min at ≥6000 x g.
-
-4.  Extracted DNA can be place in fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.\
+3.  Extracted DNA can be place in fridge for a few days, or store at -20 or -80 for long term storage. **AVOID** numerous freeze-thaw cycles.\
