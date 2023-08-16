@@ -79,7 +79,7 @@ See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecpro
 
 - Dilute your DNA samples. Use the Easy-Pet with a 2mL tip to transfer 2mL of MilliQ H20 into a liquid boat. Using the P100 multichannel pipette, add 20uL of MilliQ H20 to all wells of a 96 well PCR plate. Using the P10 multichannel pipette **with filtered tips**, add 2uL of your DNA to the corresponding wells of the PCR plate. Keep the PCR plate of diluted samples on ice. 
 
-- Seal the PCR plate with a plastic sticky cover, vortex with the plate attachment, and centrifuge with 'short' setting, using a tip wafer as a counterweight. This is a 1:10 dilution as required to be read by PicoGreen.
+- Seal the PCR plate with a plastic tape sheet, vortex with the plate attachment, and centrifuge with 'short' setting, using a tip wafer as a counterweight. This is a 1:10 dilution as required to be read by PicoGreen.
 
 - If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6, and put the Picogreen standards in column 12. Use the second one for your samples from columns 7-12, and add the standards to column 1. If you are using two plates, you will need to create double the amounts of ladder standards. 
 
@@ -115,7 +115,7 @@ See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecpro
 - Diagram of volumes of ladders and 1X TE required for each plate standard
 <img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png">
 
-- Prepare the sample wells according to Table 3. Use the P10 multichannel pipette to add 1 uL of the diluted DNA to each of the sample wells. Use the P100  multichannel to pipette 49 uL 1X TE into each sample well.
+- Prepare the sample wells according to Table 3. Use the P10 multichannel pipette to add 1 uL of the diluted DNA to each of the sample wells.
 
 ### TABLE 3 - Sample Wells {.unnumbered}
 
@@ -142,9 +142,9 @@ $$
 
 $$ 199 * \textrm{vol of Stock PicoGreen} = \textrm{vol of 1x TE}$$ {#eq-Pico2}
 
-- Pipette 50ul of the diluted PicoGreen into each well. When adding the diluted PicoGreen, pipette up and down at least 20 times to mix sample, TE and PicoGreen together.
+- Pipette 50ul of the diluted PicoGreen into each well. When adding the diluted PicoGreen, pipette up and down at least 20 times to mix sample, 1X TE and PicoGreen together.
 
-- Cover the plate with a plastic sticker cover and briefly spin down the plate to get all liquid to the bottom of the well. Use the Lotterhos lab centrifuge and a pipette tip wafer as a counterweight.
+- Cover the plate with a plastic tape sheet and briefly spin down the plate to get all liquid to the bottom of the well. Use the Lotterhos lab centrifuge and a pipette tip wafer as a counterweight.
 
 ###  Run Plate on Reader using Gen5 Software
 
