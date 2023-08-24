@@ -80,6 +80,7 @@ website:
           - molecprot_solutionrecipes.qmd
           - molecprot_gonad_buffer.qmd
           - molecprot_Acid_Washes.qmd
+          - molecprot_stableisotope.qmd
       - section: "Field and Sampling Protocols"
         contents:
           - field_collectsampdna.qmd
