@@ -2,19 +2,19 @@
 
 ## Materials
 
-- [x] Microbalance (Lotterhos Lab)
-- [x] Muffin trays (Grabowski Lab)
-- [x] Lots of aluminum foil (Lotterhos Lab)
-- [x] Aluminum weighing dishes [Cole-Parmer 0101751](https://www.fishersci.com/shop/products/weighing-dishes-3/NC9597511?emb_id=pp_usorderconfirmation_producttitle) (Lotterhos Lab)
-- [x] Mortar and pestle (1x Lotterhos Lab, 1x Grabowski Lab)
-- [x] Small metal spatula (Lotterhos Lab)
-- [x] Desiccation chamber (Gatins Lab)
-- [x] 96-well plates (can take extra from Grabowski Lab if needed) (4 plates)
-- [x] Tin capsules 6x4mm [Costech Analytical Technologies Inc 041070](https://www.fishersci.com/shop/products/tin-capsules-4-x-6-mm-250-pk/NC9601238?emb_id=pp_usorderconfirmation_producttitle) (Lotterhos Lab)
-- [x] Kimwipes (Lotterhos Lab)
-- [x] Microcentrifuge tubes (Lotterhos Lab)
-- [x] Forceps (Lotterhos Lab)
-- [x] Parafilm (Lotterhos Lab)
+- [ ] Microbalance (Gatins Lab)
+- [ ] Muffin trays (Grabowski Lab)
+- [ ] Lots of aluminum foil (Lotterhos Lab)
+- [ ] Aluminum weighing dishes [Cole-Parmer 0101751](https://www.fishersci.com/shop/products/weighing-dishes-3/NC9597511?emb_id=pp_usorderconfirmation_producttitle) (Lotterhos Lab)
+- [ ] Mortar and pestle (1x Lotterhos Lab, 1x Grabowski Lab)
+- [ ] Small metal spatula (Lotterhos Lab)
+- [ ] Desiccation chamber (Gatins Lab)
+- [ ] 96-well plates (can take extra from Grabowski Lab if needed) (4 plates)
+- [ ] Tin capsules 6x4mm [Costech Analytical Technologies Inc 041070](https://www.fishersci.com/shop/products/tin-capsules-4-x-6-mm-250-pk/NC9601238?emb_id=pp_usorderconfirmation_producttitle) (Lotterhos Lab)
+- [ ] Kimwipes (Lotterhos Lab)
+- [ ] Microcentrifuge tubes (Lotterhos Lab)
+- [ ] Forceps (Lotterhos Lab)
+- [ ] Parafilm (Lotterhos Lab)
 
 
 ## Protocol 
