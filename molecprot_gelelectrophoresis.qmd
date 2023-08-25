@@ -151,6 +151,8 @@ When pipetting into gel wells, be careful not to break the agarose or stick the 
 :::	
 
 ::: {.callout-note}
+# Use a 2- or 3-gel layout for a 96-well plate of samples
+
 ## 3 Gel layout for a 96-well plate of samples
 Here is a sample gel layout for how you could organize your samples into gels if you have a plate of 96. This layout uses 3 medium gels with 2 20-well combs each. Because there are so many wells in each row, it may be useful to have one member keeping track of which well is the next to load and another member to actually load the gel. 
 
@@ -164,11 +166,14 @@ Gel 2:
 	
 Gel 3:
 <img width="820" alt="Screen Shot 2023-03-27 at 1 11 36 PM" src="https://user-images.githubusercontent.com/122108419/228015830-d75c9698-59cf-4277-b586-9fff868c495d.png">
-:::
 
-::: {.callout-note}
 ## 2 Gel Layout for a 96-well plate of samples
+
+Gel 1:
 ![](img/2-gel-layout-protocol.png)
+
+Gel 2:
+![](img/2-gel-layout-protocol.2.png)
 :::
 
 13. Run the gel.
