@@ -166,9 +166,11 @@ Gel 3:
 <img width="820" alt="Screen Shot 2023-03-27 at 1 11 36 PM" src="https://user-images.githubusercontent.com/122108419/228015830-d75c9698-59cf-4277-b586-9fff868c495d.png">
 :::
 
+::: {.callout-note}
 ## 2 Gel Layout for a 96-well plate of samples
-![](2-gel-layout-protocol.png)https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/2-gel-layout-protocol.png
-       
+![](img/2-gel-layout-protocol.png)
+:::
+
 13. Run the gel.
     a. Put the gel box cover into place.
         i. Make sure the wires are plugged in correctly (wire colors match plug colors).
