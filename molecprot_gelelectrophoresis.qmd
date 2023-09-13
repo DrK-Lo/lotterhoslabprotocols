@@ -170,10 +170,10 @@ Gel 3:
 ## 2 Gel Layout for a 96-well plate of samples
 
 Gel 1:
-![](img/2-gel-layout-protocol.png)
+![](img/2-gel-layout-protocol.png) 
 
 Gel 2:
-![](img/2-gel-layout-protocol.2.png)
+![](img/2-gel-layout-protocol.2.png) 
 :::
 
 13. Run the gel.
