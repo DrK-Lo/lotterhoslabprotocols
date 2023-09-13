@@ -78,7 +78,7 @@ This protocol has proven successful for rockfish (Sebastes), cod (Gadus morhua),
 
 1.  Record weight in lab notebook.
 
-2.  After tissues have been processed and place into new clean 1.5mL tubes, add 180 uL of Buffer ATL and 20 uL of Proteinase K to each sample tube (same as standard Qiagen kit).
+2.  After tissues have been processed and place into new clean 1.5mL tubes, add 180 uL of Buffer ATL and 20 uL of Proteinase K to each sample tube (same as standard Qiagen kit). Also, turn on Thermomixer and preheat it to 56 degrees. (For MVP project, add the Buffer ATL into tubes before tissue cutting for consistency with plate protocol). 
 
 3.  Seal tubes, confirm all tube labels, then vortex for 15 seconds.
 
