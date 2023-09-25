@@ -132,7 +132,12 @@ See [this link](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipette
     <img width="456" alt="Screen Shot 2023-03-24 at 2 54 47 PM" src="https://user-images.githubusercontent.com/122108419/227614901-02cf7032-314f-4d5d-809b-4f24198516b0.png">
 
         i. The loading dye is blue and can be found in the -20 freezer. 
-       	
+
+::: {.callout-important}
+## Loading DNA into gel wells
+Right before taking your 3ul of DNA, make sure to vortex the sample to ensure DNA is evenly dispersed throughout the tube. Forgetting to vortex can result in gels where no band is visible, or super streaky, as DNA may be stuck on the bottom of the sample well rather than suspended in the buffer.
+:::	
+
     d.	Using a pipette **with filtered tips**, add DNA sample to a dot of loading dye.
     <img width="460" alt="Screen Shot 2023-03-24 at 2 55 12 PM" src="https://user-images.githubusercontent.com/122108419/227614980-fc8435a5-46c8-47be-9839-8136d1aa8c28.png">
    	 i. We use 3ul DNA + 1ul loading dye.
