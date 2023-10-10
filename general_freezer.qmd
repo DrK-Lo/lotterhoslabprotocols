@@ -125,11 +125,13 @@ October 2021 defrost (Thais, Sara and Alan):
 
 -   Took about 2h for the temp to go back down to -80oC (freezer alarm went off once).
 
-## **Freezer maintenance** {.unnumbered}
+## **Freezer maintenance and emergency repair** {.unnumbered}
 
 Maintenance has been done with: https://alertscientific.com/
 
 ![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_alert_sci.jpg)
+
+OGL has used Shon Scientific http://shonsscientific.com/
 
 ## -80C Serial Number 
 
@@ -139,5 +141,5 @@ Maintenance has been done with: https://alertscientific.com/
 
 Look at the error on the freezer and check the freezer manual (on the shelf in the lab with other manuals) for the troubleshooting code
 
-![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_error.jpg)
+![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_error.jpg) 
 
