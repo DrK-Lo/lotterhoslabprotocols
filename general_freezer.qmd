@@ -1,4 +1,4 @@
-# Freezer Alarm System
+# Freezers and Freezer Alarm System
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_freezer.qmd)
 
@@ -10,7 +10,9 @@ Here is the link for the Rees system: http://NOR926.ReesCloud.net
 
 Your logins are first initial, last name/names. All lowercase with no spaces or extra characters, just letters.
 
-## [**Phone alarm handling instructions**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/6ec4f70e2ace782d7a004a869a0caa5432cf9d74/img/PhoneAlarmHandlingInstructionsCentronNUcontactDennisTodd.pdf) {.unnumbered}
+## [**Phone alarm handling instructions**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_Phone_Alarm.pdf) {.unnumbered}
+
+## [**Instructions for inhibiting the alarm**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_InhibitAlarm.pdf) {.unnumbered}
 
 -   Your pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers
 
@@ -19,6 +21,8 @@ Your logins are first initial, last name/names. All lowercase with no spaces or 
 -   When you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)
 
 **The alarm will go off when the freezer rises above -70C**
+
+
 
 ## **If you plan on loading samples in the freezer** {.unnumbered}
 
@@ -124,3 +128,16 @@ October 2021 defrost (Thais, Sara and Alan):
 ## **Freezer maintenance** {.unnumbered}
 
 Maintenance has been done with: https://alertscientific.com/
+
+![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_alert_sci.jpg)
+
+## -80C Serial Number 
+
+![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_80serial.jpg)
+
+## Freezer Trouble Shooting
+
+Look at the error on the freezer and check the freezer manual (on the shelf in the lab with other manuals) for the troubleshooting code
+
+![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_error.jpg)
+
