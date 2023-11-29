@@ -2,6 +2,9 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_freezer.qmd)
 
+## -80C Serial Number 
+
+![](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/main/img/freezer_80serial.jpg)
 ------------------------------------------------------------------------
 
 **NU contact**: Dennis Todd. Email Dennis to update the list of users who have access and are on the call list.
@@ -133,9 +136,7 @@ We have also used Shon Scientific http://shonsscientific.com/ - THEY RESPOND FAS
 
 Ryan also recommends www.minuseleven.com
 
-## -80C Serial Number 
 
-![](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/main/img)
 
 ## Freezer Trouble Shooting
 
