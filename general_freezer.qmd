@@ -127,17 +127,15 @@ October 2021 defrost (Thais, Sara and Alan):
 
 ## **Freezer maintenance and emergency repair** {.unnumbered}
 
-Maintenance has been done with: https://alertscientific.com/
+Maintenance has been done with: https://alertscientific.com/ - THEY DO NOT RESPOND FAST
 
-![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_alert_sci.jpg)
-
-OGL has used Shon Scientific http://shonsscientific.com/
+We have also used Shon Scientific http://shonsscientific.com/ - THEY RESPOND FAST
 
 Ryan also recommends www.minuseleven.com
 
 ## -80C Serial Number 
 
-![](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_80serial.jpg)
+![](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/main/img)
 
 ## Freezer Trouble Shooting
 
