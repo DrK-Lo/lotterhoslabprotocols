@@ -1,12 +1,10 @@
-# Oyster Sampling
+# Oyster Phenotypic Data Gathering 
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/field_oystersampling.qmd)
 
 ------------------------------------------------------------------------
 
-## Gathering Phenotypic Data In the Lab 
-
-### **Materials ** {.unnumbered}
+## **Materials ** {.unnumbered}
 
 -   ** trays 
 
@@ -20,7 +18,7 @@
 
 -   ** brown paper bags 
 
-### Pre-Dry 
+## Pre-Dry 
 
 1.  defrost oysters on counter 
 
@@ -40,7 +38,7 @@
 
     -   ** the temperature and length depends on size of oyster - these settings worked for oysters with wet tissue weight within the range of 0.05 - 3.00 g 
 
-### During Dry 
+## During Dry 
 
 1. pre-label all mini Whirl-Paks needed to store the dry oyster shells 
 
