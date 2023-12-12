@@ -975,10 +975,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><input type="checkbox">Insert tape in the appropriate slot</p></li>
 </ul>
 <p><a href="https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/pub?w=465&amp;h=336">https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/pub?w=465&amp;h=336</a></p>
-<ul>
-<li><p>Tapes have a barcode that needs to be read by the machine. Look at the barcode inside the machine and match the direction to the barcode on the tape</p></li>
-<li><p>If in the wrong orientation, the computer will spit back an error</p></li>
-<li><p>Save the wrapping if you aren’t using all the lanes to place tape back in for storage after run</p></li>
+<pre><code>-   Tapes have a barcode that needs to be read by the machine. Look at the barcode inside the machine and match the direction to the barcode on the tape
+-   If in the wrong orientation, the computer will spit back an error
+-   Save the wrapping if you aren't using all the lanes to place tape back in for storage after run  </code></pre>
+<ul class="task-list">
 <li><p><input type="checkbox">Highlight where your samples are and name them via the spreadsheet on the right</p>
 <ul>
 <li>Otherwise, a CSV file with names can be uploaded</li>
@@ -996,7 +996,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="download-results" class="level3">
 <h3 class="anchored" data-anchor-id="download-results">Download results</h3>
-<ul>
+<ul class="task-list">
 <li><p><input type="checkbox">Once complete File Open your file</p>
 <ul>
 <li>You can view the results as both a gel image and an electropherogram</li>
@@ -1007,13 +1007,15 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p><input type="checkbox">Set upper and lower markers by right clicking on peaks</p></li>
 <li><p><input type="checkbox">To zoom into a peak, highlight the region on the electropharogram</p></li>
-<li><p>You can also compare results between different files by clicking the comparison tab</p></li>
-<li><p>Open the files that you wish to compare</p>
+<li><p><input type="checkbox">Compare results between different files by clicking the comparison tab</p>
 <ul>
-<li>NOTE you can only compare those DNA to DNA or RNA to RNA AND they must be from the same kit</li>
+<li><p>Open the files that you wish to compare</p></li>
+<li><p>NOTE you can only compare those DNA to DNA or RNA to RNA AND they must be from the same kit</p></li>
 </ul></li>
-<li><p>You can make a report of all of your data by clicking File Make a report</p>
+<li><p><input type="checkbox"><strong>Export Report</strong></p>
 <ul>
+<li>You can make a report of all of your data by clicking ‘File Make a report’<br>
+</li>
 <li>Check off the items you want in the report and change the order you want them to appear by using the arrows</li>
 </ul></li>
 </ul>
