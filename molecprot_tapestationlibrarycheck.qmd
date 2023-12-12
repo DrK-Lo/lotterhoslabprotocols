@@ -128,7 +128,7 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 
 -   Tapes have a barcode that needs to be read by the machine. Look at the barcode inside the machine and match the direction to the barcode on the tape
 -   If in the wrong orientation, the computer will spit back an error
--   Save the wrapping if you aren't using all the lanes to place tape back in for storage after run
+-   Save the wrapping if you aren't using all the lanes to place tape back in for storage after run  
 
 - [ ]  Highlight where your samples are and name them via the spreadsheet on the right
 
@@ -142,26 +142,26 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
     - The TapeStation does not show a time approximation
 
 
-### Download results
+### Download results  
 
-- [ ]  Once complete File Open your file
+- [ ] Once complete File Open your file
 
-    - You can view the results as both a gel image and an electropherogram
+    - You can view the results as both a gel image and an electropherogram  
 
 -  [ ] Click the electropherogram button and then scale to sample
 
-    -   All concentrations are outputted as a table below the electropherogram
+    - All concentrations are outputted as a table below the electropherogram  
 
 - [ ] Set upper and lower markers by right clicking on peaks
 
 - [ ] To zoom into a peak, highlight the region on the electropharogram
 
--   You can also compare results between different files by clicking the comparison tab
+- [ ] Compare results between different files by clicking the comparison tab
 
--   Open the files that you wish to compare
+    - Open the files that you wish to compare
 
-    -   NOTE you can only compare those DNA to DNA or RNA to RNA AND they must be from the same kit
+    - NOTE you can only compare those DNA to DNA or RNA to RNA AND they must be from the same kit
 
--   You can make a report of all of your data by clicking File Make a report
-
-    -   Check off the items you want in the report and change the order you want them to appear by using the arrows
+- [ ] **Export Report**
+    - You can make a report of all of your data by clicking 'File Make a report'  
+    - Check off the items you want in the report and change the order you want them to appear by using the arrows
