@@ -126,9 +126,9 @@ The Agilent TapeStation provides an accurate, efficient quantification and quali
 
 [https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/pub?w=465&h=336](https://docs.google.com/drawings/d/1ajGI6Yz1gpO-WCYh8056qCoPAlh_n4mYoNaOQg73TOc/pub?w=465&h=336)
 
--   Tapes have a barcode that needs to be read by the machine. Look at the barcode inside the machine and match the direction to the barcode on the tape
--   If in the wrong orientation, the computer will spit back an error
--   Save the wrapping if you aren't using all the lanes to place tape back in for storage after run  
+    -   Tapes have a barcode that needs to be read by the machine. Look at the barcode inside the machine and match the direction to the barcode on the tape
+    -   If in the wrong orientation, the computer will spit back an error
+    -   Save the wrapping if you aren't using all the lanes to place tape back in for storage after run  
 
 - [ ]  Highlight where your samples are and name them via the spreadsheet on the right
 
