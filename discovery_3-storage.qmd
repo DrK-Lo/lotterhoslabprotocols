@@ -18,6 +18,10 @@
 
 ## **Working with github:** {.unnumbered}
 
+
+(The following may be outdated - to see what recently worked for KL go to https://github.com/ModelValidationProgram/MVP_Genotypes_DataMerge/blob/main/notebook/20240208_KEL_SyncGitToDiscovery.md)
+
+
 It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo's Bioinformatics book to work with git on linux.
 
 In addition, you may want to collaborate on Discovery through your git repo.
