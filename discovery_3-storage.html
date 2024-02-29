@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.550">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Discovery</a></li><li class="breadcrumb-item"><a href="./discovery_3-storage.html">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Discovery</a></li><li class="breadcrumb-item"><a href="./discovery_3-storage.html">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery and GitHub</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -689,7 +689,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./discovery_3-storage.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery</span></a>
+ <span class="menu-text">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery and GitHub</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -798,11 +798,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lotterhos-lab-vs.-personal-storage-on-discovery" id="toc-lotterhos-lab-vs.-personal-storage-on-discovery" class="nav-link active" data-scroll-target="#lotterhos-lab-vs.-personal-storage-on-discovery">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery</a>
+  <li><a href="#lotterhos-lab-vs.-personal-storage-on-discovery-and-github" id="toc-lotterhos-lab-vs.-personal-storage-on-discovery-and-github" class="nav-link active" data-scroll-target="#lotterhos-lab-vs.-personal-storage-on-discovery-and-github">Lotterhos Lab vs.&nbsp;Personal Storage on Discovery and GitHub</a>
   <ul class="collapse">
   <li><a href="#storage-unix-tricks" id="toc-storage-unix-tricks" class="nav-link" data-scroll-target="#storage-unix-tricks">Storage unix tricks</a></li>
   <li><a href="#working-with-github" id="toc-working-with-github" class="nav-link" data-scroll-target="#working-with-github"><strong>Working with github:</strong></a>
   <ul class="collapse">
+  <li><a href="#giving-someone-access-to-a-folder" id="toc-giving-someone-access-to-a-folder" class="nav-link" data-scroll-target="#giving-someone-access-to-a-folder">Giving someone access to a folder</a></li>
   <li><a href="#your-home-directory-on-discovery." id="toc-your-home-directory-on-discovery." class="nav-link" data-scroll-target="#your-home-directory-on-discovery."><strong>Your home directory on Discovery**.</strong></a></li>
   <li><a href="#your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up." id="toc-your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up." class="nav-link" data-scroll-target="#your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up."><strong>Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up.</strong></a></li>
   <li><a href="#lotterhos-shared-storage-on-discovery" id="toc-lotterhos-shared-storage-on-discovery" class="nav-link" data-scroll-target="#lotterhos-shared-storage-on-discovery"><strong>Lotterhos shared storage on Discovery</strong></a></li>
@@ -822,8 +823,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="lotterhos-lab-vs.-personal-storage-on-discovery" class="level1">
-<h1>Lotterhos Lab vs.&nbsp;Personal Storage on Discovery</h1>
+<section id="lotterhos-lab-vs.-personal-storage-on-discovery-and-github" class="level1">
+<h1>Lotterhos Lab vs.&nbsp;Personal Storage on Discovery and GitHub</h1>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_3-storage.qmd">Edit this page</a></p>
 <hr>
 <ul>
@@ -838,24 +839,26 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="working-with-github" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="working-with-github"><strong>Working with github:</strong></h2>
-<p>(The following may be outdated - to see what recently worked for KL go to https://github.com/ModelValidationProgram/MVP_Genotypes_DataMerge/blob/main/notebook/20240208_KEL_SyncGitToDiscovery.md)</p>
+<p>In Github Settings, go down to “Developer settings” and create a personal access token:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://github.com/ModelValidationProgram/MVP_Genotypes_DataMerge/assets/6870125/80dd6127-1d97-4b4f-b091-3270db5ce8a1.png" class="img-fluid figure-img"></p>
+<figcaption>image</figcaption>
+</figure>
+</div>
+<p>Make sure it is “Classic” and then “configure SSO”.</p>
+<p>More information here:</p>
+<p>https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on</p>
+<p>Then in the command line in Discovery use your token when it asks for a password.</p>
 <p>It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo’s Bioinformatics book to work with git on linux.</p>
 <p>In addition, you may want to collaborate on Discovery through your git repo.</p>
-<p>example: When person A started working on his git branch in Discovery, he cloned that branch to Discovery (e.g in the folder and repo /work/lotterhos/MVP-NonClinalAF). To give person B access,</p>
-<pre><code>1. Person-B Go to the terminal and copy your public key file content.
-cat ~/.ssh/id_rsa.pub
-(If you don't have a key pair generated already, generate a new one using command "ssh-keygen" )
-2. Go to the github website and login with Person-B credentials.
-3. In the upper-right corner of the github page, click Person-B profile photo, then click Settings.
-4. Click New SSH key or Add SSH key.
-5. Paste your key into the "Key" field.
-6. Click Add SSH key.
-7. Test the connection by running the following command in the terminal on person B Discovery:
-ssh -T git@github.com </code></pre>
-<p>Get message: “Hi ModelValidationProgram/MVP-NonClinalAF! You’ve successfully authenticated, but GitHub does not provide shell access.”</p>
-<p>Then, Person-B navigated to the folder on Discovery</p>
-<pre><code>cd /work/lotterhos/MVP-NonClinalAF</code></pre>
-<p>This seemed to work</p>
+<section id="giving-someone-access-to-a-folder" class="level3">
+<h3 class="anchored" data-anchor-id="giving-someone-access-to-a-folder">Giving someone access to a folder</h3>
+<p>General code:</p>
+<p><code>setfacl -m u:username:rwx myfolder</code></p>
+<p>Example for user <code>rumberger.c</code> in folder <code>MVP_Genotypes_DataMerge</code>:</p>
+<p><code>setfacl -m u:rumberger.c:rwx MVP_Genotypes_DataMerge</code></p>
+</section>
 <section id="your-home-directory-on-discovery." class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="your-home-directory-on-discovery."><strong>Your home directory on Discovery**.</strong></h3>
 <ul>
@@ -1332,7 +1335,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./discovery_2-globus.html" class="pagination-link  aria-label=" globus="" file="" transfer"="">
+      <a href="./discovery_2-globus.html" class="pagination-link" aria-label="Globus File Transfer">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Globus File Transfer</span>
       </a>          
   </div>
