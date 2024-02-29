@@ -1,4 +1,4 @@
-# Lotterhos Lab vs. Personal Storage on Discovery
+# Lotterhos Lab vs. Personal Storage on Discovery and GitHub
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_3-storage.qmd)
 
@@ -18,34 +18,31 @@
 
 ## **Working with github:** {.unnumbered}
 
+In Github Settings, go down to "Developer settings" and create a personal access token:
 
-(The following may be outdated - to see what recently worked for KL go to https://github.com/ModelValidationProgram/MVP_Genotypes_DataMerge/blob/main/notebook/20240208_KEL_SyncGitToDiscovery.md)
+![image](https://github.com/ModelValidationProgram/MVP_Genotypes_DataMerge/assets/6870125/80dd6127-1d97-4b4f-b091-3270db5ce8a1)
 
+Make sure it is "Classic" and then "configure SSO".
+
+More information here:
+
+https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on 
+
+Then in the command line in Discovery use your token when it asks for a password.
 
 It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo's Bioinformatics book to work with git on linux.
 
 In addition, you may want to collaborate on Discovery through your git repo.
 
-example: When person A started working on his git branch in Discovery, he cloned that branch to Discovery (e.g in the folder and repo /work/lotterhos/MVP-NonClinalAF). To give person B access,
+### Giving someone access to a folder
 
-    1. Person-B Go to the terminal and copy your public key file content.
-    cat ~/.ssh/id_rsa.pub
-    (If you don't have a key pair generated already, generate a new one using command "ssh-keygen" )
-    2. Go to the github website and login with Person-B credentials.
-    3. In the upper-right corner of the github page, click Person-B profile photo, then click Settings.
-    4. Click New SSH key or Add SSH key.
-    5. Paste your key into the "Key" field.
-    6. Click Add SSH key.
-    7. Test the connection by running the following command in the terminal on person B Discovery:
-    ssh -T git@github.com 
+General code:
 
-Get message: "Hi ModelValidationProgram/MVP-NonClinalAF! You've successfully authenticated, but GitHub does not provide shell access."
+`setfacl -m u:username:rwx myfolder`
 
-Then, Person-B navigated to the folder on Discovery
+Example for user `rumberger.c` in folder `MVP_Genotypes_DataMerge`:
 
-    cd /work/lotterhos/MVP-NonClinalAF
-
-This seemed to work
+`setfacl -m u:rumberger.c:rwx MVP_Genotypes_DataMerge`
 
 ### **Your home directory on Discovery\*\*.** {.unnumbered}
 
