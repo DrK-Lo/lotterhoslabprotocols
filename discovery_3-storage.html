@@ -852,6 +852,18 @@ ul.task-list li input[type="checkbox"] {
 <p>Then in the command line in Discovery use your token when it asks for a password.</p>
 <p>It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo’s Bioinformatics book to work with git on linux.</p>
 <p>In addition, you may want to collaborate on Discovery through your git repo.</p>
+<p>You may also need to set up ssh keys:</p>
+<p>example: When person A started working on his git branch in Discovery, he cloned that branch to Discovery (e.g in the folder and repo /work/lotterhos/MVP-NonClinalAF). To give person B access,</p>
+<pre><code>1. Person-B Go to the terminal and copy your public key file content.
+cat ~/.ssh/id_rsa.pub
+(If you don't have a key pair generated already, generate a new one using command "ssh-keygen" )
+2. Go to the github website and login with Person-B credentials.
+3. In the upper-right corner of the github page, click Person-B profile photo, then click Settings.
+4. Click New SSH key or Add SSH key.
+5. Paste your key into the "Key" field.
+6. Click Add SSH key.
+7. Test the connection by running the following command in the terminal on person B Discovery:
+ssh -T git@github.com </code></pre>
 <section id="giving-someone-access-to-a-folder-and-all-containing-folders" class="level3">
 <h3 class="anchored" data-anchor-id="giving-someone-access-to-a-folder-and-all-containing-folders">Giving someone access to a folder and all containing folders</h3>
 <p>General code:</p>
