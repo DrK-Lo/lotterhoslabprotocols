@@ -26,7 +26,7 @@ Make sure it is "Classic" and then "configure SSO".
 
 More information here:
 
-https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on 
+[Authorizing personal access token](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)
 
 Then in the command line in Discovery use your token when it asks for a password.
 
@@ -34,15 +34,15 @@ It is good practice to create a repo on Github and then clone it to Discovery to
 
 In addition, you may want to collaborate on Discovery through your git repo.
 
-### Giving someone access to a folder
+### Giving someone access to a folder and all containing folders
 
 General code:
 
-`setfacl -m u:username:rwx myfolder`
+`setfacl -R -m u:username:rwx myfolder`
 
 Example for user `rumberger.c` in folder `MVP_Genotypes_DataMerge`:
 
-`setfacl -m u:rumberger.c:rwx MVP_Genotypes_DataMerge`
+`setfacl -R -m u:rumberger.c:rwx MVP_Genotypes_DataMerge`
 
 ### **Your home directory on Discovery\*\*.** {.unnumbered}
 
