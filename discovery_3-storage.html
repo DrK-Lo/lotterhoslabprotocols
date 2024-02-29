@@ -803,7 +803,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#storage-unix-tricks" id="toc-storage-unix-tricks" class="nav-link" data-scroll-target="#storage-unix-tricks">Storage unix tricks</a></li>
   <li><a href="#working-with-github" id="toc-working-with-github" class="nav-link" data-scroll-target="#working-with-github"><strong>Working with github:</strong></a>
   <ul class="collapse">
-  <li><a href="#giving-someone-access-to-a-folder" id="toc-giving-someone-access-to-a-folder" class="nav-link" data-scroll-target="#giving-someone-access-to-a-folder">Giving someone access to a folder</a></li>
+  <li><a href="#giving-someone-access-to-a-folder-and-all-containing-folders" id="toc-giving-someone-access-to-a-folder-and-all-containing-folders" class="nav-link" data-scroll-target="#giving-someone-access-to-a-folder-and-all-containing-folders">Giving someone access to a folder and all containing folders</a></li>
   <li><a href="#your-home-directory-on-discovery." id="toc-your-home-directory-on-discovery." class="nav-link" data-scroll-target="#your-home-directory-on-discovery."><strong>Your home directory on Discovery**.</strong></a></li>
   <li><a href="#your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up." id="toc-your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up." class="nav-link" data-scroll-target="#your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up."><strong>Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up.</strong></a></li>
   <li><a href="#lotterhos-shared-storage-on-discovery" id="toc-lotterhos-shared-storage-on-discovery" class="nav-link" data-scroll-target="#lotterhos-shared-storage-on-discovery"><strong>Lotterhos shared storage on Discovery</strong></a></li>
@@ -848,16 +848,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>Make sure it is “Classic” and then “configure SSO”.</p>
 <p>More information here:</p>
-<p>https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on</p>
+<p><a href="https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on">Authorizing personal access token</a></p>
 <p>Then in the command line in Discovery use your token when it asks for a password.</p>
 <p>It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo’s Bioinformatics book to work with git on linux.</p>
 <p>In addition, you may want to collaborate on Discovery through your git repo.</p>
-<section id="giving-someone-access-to-a-folder" class="level3">
-<h3 class="anchored" data-anchor-id="giving-someone-access-to-a-folder">Giving someone access to a folder</h3>
+<section id="giving-someone-access-to-a-folder-and-all-containing-folders" class="level3">
+<h3 class="anchored" data-anchor-id="giving-someone-access-to-a-folder-and-all-containing-folders">Giving someone access to a folder and all containing folders</h3>
 <p>General code:</p>
-<p><code>setfacl -m u:username:rwx myfolder</code></p>
+<p><code>setfacl -R -m u:username:rwx myfolder</code></p>
 <p>Example for user <code>rumberger.c</code> in folder <code>MVP_Genotypes_DataMerge</code>:</p>
-<p><code>setfacl -m u:rumberger.c:rwx MVP_Genotypes_DataMerge</code></p>
+<p><code>setfacl -R -m u:rumberger.c:rwx MVP_Genotypes_DataMerge</code></p>
 </section>
 <section id="your-home-directory-on-discovery." class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="your-home-directory-on-discovery."><strong>Your home directory on Discovery**.</strong></h3>
