@@ -20,7 +20,7 @@
 
 In Github Settings, go down to "Developer settings" and create a personal access token:
 
-![image](https://github.com/ModelValidationProgram/MVP_Genotypes_DataMerge/assets/6870125/80dd6127-1d97-4b4f-b091-3270db5ce8a1)
+![image](img/discovery_PAH.png)
 
 Make sure it is "Classic" and then "configure SSO".
 
