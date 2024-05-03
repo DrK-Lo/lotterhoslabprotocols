@@ -2,6 +2,9 @@
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_freezer.qmd)
 
+## Freezer label templates
+[Freezer label templates](https://docs.google.com/document/d/1y95bF5IQMGFSCfTUCk1OnI5jtjNqxD5a/edit?usp=drive_web&ouid=101963378098496858465&rtpof=true)
+
 ## -80C Serial Number 
 
 ![](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/main/img/freezer_80serial.jpg)
