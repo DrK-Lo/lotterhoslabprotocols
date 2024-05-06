@@ -75,7 +75,7 @@ In Fed Ex make sure to use the legacy editor and click the "small quantity excep
 
 ![](img/FedExETHANOLSAMPLESsmallquantityexception.png)
 
-Make sure to use GROUND shipping
+Make sure to use GROUND shipping. For ethanol make sure there is less than 5 L total.
 
 On the outside of the box include the following label for small quantity exception:
 
