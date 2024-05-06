@@ -73,13 +73,13 @@ https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C
 
 In Fed Ex make sure to use the legacy editor and click the "small quantity exception" box
 
-![img/FedExETHANOLSAMPLESsmallquantityexception.png]
+![](img/FedExETHANOLSAMPLESsmallquantityexception.png)
 
 Make sure to use GROUND shipping
 
 On the outside of the box include the following label for small quantity exception:
 
-![img/fexdexsmallquantityexception.png]
+![](img/fexdexsmallquantityexception.png)
 
 On the outside of the box in a sleeve and on the inside of the box include the following letter:
 
