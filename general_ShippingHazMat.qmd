@@ -65,3 +65,29 @@ Example of the combined letter/statement:
 -   Must be filled out with DOT hazmat class and your full name (class 3 for DOT for flammable ignitable liquids in this example; see lab manager)
 
 2. The shipping label (from FedEx, UPS, etc) -- you do not need to inform the carrier that you are shipping hazmats as long as the package is labeled correctly (see front desk associate to create shipping label and schedule pickup)
+
+
+## Hazardous shipping laws for small quanitities
+
+https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C 
+
+In Fed Ex make sure to use the legacy editor and click the "small quantity exception" box
+
+![img/FedExETHANOLSAMPLESsmallquantityexception.png]
+
+Make sure to use GROUND shipping
+
+On the outside of the box include the following label for small quantity exception:
+
+![img/fexdexsmallquantityexception.png]
+
+On the outside of the box in a sleeve and on the inside of the box include the following letter:
+
+This package contains individual oyster tissue samples for research stored in vials with 1-2mL 95% ethanol. 
+Each vial has an o-ring to prevent leakage. There is a total of 1.1 L of ethanol across all the vials.
+
+The package conforms to the Department of Transportation small quantity exception 49 CFR 173.4
+
+<add your contact information>
+
+
