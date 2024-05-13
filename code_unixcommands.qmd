@@ -79,7 +79,7 @@ The -i argument says to use in-place editing (edit and return file without makin
 
 **Want to change permissions to a directory and all subdirectories, but are not sure which `chmod` arguments to use to do so recursively?**
 
-Use mac GUI: (https://github.com/DrK-Lo/lotterhoslabprotocols/blob/775c1810a304763a7f457893654f2aff233f08ca/img/changepermissions.gif)
+Use mac GUI: ![Change Permissions](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/775c1810a304763a7f457893654f2aff233f08ca/img/changepermissions.gif)
 
 ## **Counting words or lines - `wc`** {.unnumbered}
 
