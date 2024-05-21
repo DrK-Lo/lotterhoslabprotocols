@@ -18,7 +18,7 @@
 
 2.  Generate info about your box. The BoxID should follow the template Box80_XXXX. Use the printed freezer labels (available in a ziploc bag on the front door of the -80) to attach information to each box as a sticker. Fill out the label according to the following template and update all fields in the app. 
 
-![All data about the freezer box should be written on the sticky label and added to the app](img/freezer_labels.jpeg){alt=""}
+![All data about the freezer box should be written on the sticky label and added to the app](img/freezer_labels.jpeg){width=70%}
 
 3.  Before you open the freezer, use the -80 map to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box!   
 
@@ -31,20 +31,20 @@
 
 2.  When we first opened the freezer, Katie scraped the ice from all of the shelf doors and handles. We had some ice build up around the seal, so we brushed it gently. When removing ice from the seal, do NOT use the sharp edge of the blade, this can cause nicks in the seal. We removed as much excess frost as possible. 
 
-![Katie scraping ice off of the shelf doors](img/scraping_ice.jpeg){alt=""}
+![Katie scraping ice off of the shelf doors](img/scraping_ice.jpeg){width=70%}
 
-![Scrape the ice fully off of the doors](img/remove_ice.jpeg){alt=""}
+![Scrape the ice fully off of the doors](img/remove_ice.jpeg){width=70%}
 
-![Make sure to be very careful near the seals, do not make nicks with the sharp edge](img/frost_near_seal.jpeg){alt=""}
+![Make sure to be very careful near the seals, do not make nicks with the sharp edge](img/frost_near_seal.jpeg){width=70%}
 
 
 3.  Then we discarded boxes that we didn't have any data for (Unmapped Boxes section in app). One trick for opening shelves that are tightly sealed from the frost is to use the ice scraper like a crowbar (wiggle up and down, then pull the shelf out).
 
-![Use the ice scraper to help remove stubborn frozen drawers](img/frozen_drawer.jpeg){alt=""}
+![Use the ice scraper to help remove stubborn frozen drawers](img/frozen_drawer.jpeg){width=70%}
 
 4.   When we removed the boxes from the freezer, we removed all tape and labels, disposed of vials in the trash, and left the old boxes out to thaw. For this part, it was helpful to have one person on the data calling out the box numbers, one person at the freezer pulling out the shelves and placing them in a cooler on ice, and a third & fourth person emptying the vials, pulling off the tape, and stacking the boxes. Confirm each box was correctly removed from the app before tossing the vials. 
 
-![Let the empty boxes dry out after removing from freezer. Remove all tape labels.](img/empty_boxes.jpeg){alt=""}
+![Let the empty boxes dry out after removing from freezer. Remove all tape labels.](img/empty_boxes.jpeg){width=70%}
 
 5.   We consolidated bags as much as possible, changing the "Discard" status to TRUE for bags and boxes that no longer exist. This keeps a record of the boxes that were discarded. 
 
