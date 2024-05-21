@@ -21,6 +21,7 @@
 ![All data about the freezer box should be written on the sticky label and added to the app](img/freezer_labels.jpeg){alt=""}
 
 3.  Before you open the freezer, use the -80 map to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box!   
+
 4.  Make sure all data looks complete by checking the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). If so, you're good to go!
 
 
