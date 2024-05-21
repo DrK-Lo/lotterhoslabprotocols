@@ -5,9 +5,23 @@
 ## Freezer label templates
 [Freezer label templates](https://docs.google.com/document/d/1y95bF5IQMGFSCfTUCk1OnI5jtjNqxD5a/edit?usp=drive_web&ouid=101963378098496858465&rtpof=true)
 
-## -80C Serial Number 
+------------------------------------------------------------------------
+## Freezer Defrost Notes May 2024 (20240521)
 
-![](https://github.com/DrK-Lo/lotterhoslabprotocols/tree/main/img/freezer_80serial.jpg)
+- The first thing we did is review the new app and located any unmapped boxes or boxes that we want to discard. 
+- When we first opened the freezer, Katie scraped the ice from all of the shelf doors and handles. We had some ice build up around the seal, so we brushed it gently. When removing ice from the seal, do NOT use the sharp edge of the blade, this can cause nicks in the seal. We removed as much excess frost as possible. 
+
+![](img/scraping_ice.png){alt=""}
+![](img/remove_ice.png){alt=""}
+![](img/frost_near_seal.png){alt=""}
+
+
+------------------------------------------------------------------------
+
+
+## -80C Serial Number (Katie fix this later)
+
+![](img/freezer_80serial.jpg){alt=""}
 ------------------------------------------------------------------------
 
 **NU contact**: Dennis Todd. Email Dennis to update the list of users who have access and are on the call list.
