@@ -38,6 +38,15 @@
 
 2.  Fill out a new sticky label (found on the -80 door) with all of the same information. If you don't change any of the information on the box, there's no need to update the app. If you want to add a note (e.g. box is close to empty, samples are mostly used), add that new information to the app using the All Boxes list to locate your box. Add the new label to the dry lid. 
 
+### Adding a Freezer Box/Bag that takes up multiple locations
+
+Example scenario: You'd like to add some large plates to the database that are stored outside of the metal organizers and exist in "column 5" open space. 
+
+1.  Remove 'available' locations in the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210) to reflect only the "bottom drawer" rows of column 5. 
+
+2.  Add all of the "bottom drawer" locations to be affiliated with the one freezer box. You can add several location attributes to one freezer box or bag in the app. These locations should all appear as green colored text in the app, and the locations around that are 'not available' will be in black text. 
+
+
 ## Clean Out Notes, May 21 2024 (Katie, Madeline, Camille, Lee) {.unnumbered}
 
 1.  The first thing we did is review the [New Freezer App](https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&group=%5B%5D&page=fastTable&sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&table=boxlocations&view=Quick+add%2Fdelete) and located any unmapped boxes or boxes that we want to discard. We also checked the data [Freezer Database Spreadsheet](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). Katie can approve access to the Freezer App and Database.
@@ -60,6 +69,8 @@
 ![Let the empty boxes dry out after removing from freezer. Remove all tape labels.](img/empty_boxes.jpeg){width=50%}
 
 5.   We consolidated bags as much as possible, changing the "Discard" status to TRUE for bags and boxes that no longer exist. This keeps a record of the boxes that were discarded. 
+
+6.   We went through the freezer shelf-by-shelf and made sure that boxes were stored in their proper location. We found more boxes that we wanted to toss (any without data, some from old projects) and removed them from the freezer database, changing the "Discard" status to TRUE. We moved some boxes up to empty rows.
 
 ------------------------------------------------------------------------
 
