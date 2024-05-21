@@ -22,14 +22,15 @@
 
 ![Make sure to be very careful near the seals, do not make nicks with the sharp edge](img/frost_near_seal.jpeg){alt=""}
 
-3.  Then we discarded boxes that we didn't have any data for (Unmapped Boxes section in app). One trick for opening shelves that are tightly sealed from the frost is to use the ice scraper like a crowbar (wiggle up and down, then pull the shelf out). 
-
-4.   When we removed the boxes from the freezer, we removed all tape and labels, disposed of vials in the trash, and left the old boxes out to thaw. For this part, it was helpful to have one person on the data calling out the box numbers, one person at the freezer pulling out the shelves and placing them in a cooler on ice, and a third/fourth person emptying the vials, pulling off the tape, and stacking the boxes. Confirm each box was correctly removed before tossing the vials. 
+3.  Then we discarded boxes that we didn't have any data for (Unmapped Boxes section in app). One trick for opening shelves that are tightly sealed from the frost is to use the ice scraper like a crowbar (wiggle up and down, then pull the shelf out).
 
 ![](img/frozen_drawer.jpeg){alt=""}
 
+4.   When we removed the boxes from the freezer, we removed all tape and labels, disposed of vials in the trash, and left the old boxes out to thaw. For this part, it was helpful to have one person on the data calling out the box numbers, one person at the freezer pulling out the shelves and placing them in a cooler on ice, and a third & fourth person emptying the vials, pulling off the tape, and stacking the boxes. Confirm each box was correctly removed from the app before tossing the vials. 
+
 ![](img/empty_boxes.jpeg){alt=""}
 
+5.   We consolidated bags as much as possible, changing the "Discard" status to TRUE for bags and boxes that no longer exist. This keeps a record of the boxes that were discarded. 
 
 ------------------------------------------------------------------------
 
