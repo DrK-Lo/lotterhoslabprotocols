@@ -6,17 +6,19 @@
 [Freezer label templates](https://docs.google.com/document/d/1y95bF5IQMGFSCfTUCk1OnI5jtjNqxD5a/edit?usp=drive_web&ouid=101963378098496858465&rtpof=true)
 
 ------------------------------------------------------------------------
-## Freezer Defrost Notes May 2024 (20240521)
+## -80 Freezer Defrost Protocol & Notes, May 2024 (Katie, Madeline, Camille, Lee)
 
-1. The first thing we did is review the new app and located any unmapped boxes or boxes that we want to discard. 
-2. When we first opened the freezer, Katie scraped the ice from all of the shelf doors and handles. We had some ice build up around the seal, so we brushed it gently. When removing ice from the seal, do NOT use the sharp edge of the blade, this can cause nicks in the seal. We removed as much excess frost as possible. 
+1.  The first thing we did is review the new app and located any unmapped boxes or boxes that we want to discard. 
+2.  When we first opened the freezer, Katie scraped the ice from all of the shelf doors and handles. We had some ice build up around the seal, so we brushed it gently. When removing ice from the seal, do NOT use the sharp edge of the blade, this can cause nicks in the seal. We removed as much excess frost as possible. 
 
 ![](img/scraping_ice.png){alt=""}
+
 ![](img/remove_ice.png){alt=""}
+
 ![](img/frost_near_seal.png){alt=""}
 
-3. Then we discarded boxes that we didn't have any data for (Unmapped Boxes section in app). One trick for opening shelves that are tightly sealed from the frost is to use the ice scraper like a crowbar (wiggle up and down, then pull the shelf out). 
-4. When we removed the boxes from the freezer, we removed all tape and labels, disposed of vials in the trash, and left the old boxes out to thaw. For this part, it was helpful to have one person on the data calling out the box numbers, one person at the freezer pulling out the shelves and placing them in a cooler on ice, and a third/fourth person emptying the vials, pulling off the tape, and stacking the boxes. Confirm each box was correctly removed before tossing the vials. 
+3.  Then we discarded boxes that we didn't have any data for (Unmapped Boxes section in app). One trick for opening shelves that are tightly sealed from the frost is to use the ice scraper like a crowbar (wiggle up and down, then pull the shelf out). 
+4.   When we removed the boxes from the freezer, we removed all tape and labels, disposed of vials in the trash, and left the old boxes out to thaw. For this part, it was helpful to have one person on the data calling out the box numbers, one person at the freezer pulling out the shelves and placing them in a cooler on ice, and a third/fourth person emptying the vials, pulling off the tape, and stacking the boxes. Confirm each box was correctly removed before tossing the vials. 
 
 
 ------------------------------------------------------------------------
