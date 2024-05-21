@@ -32,6 +32,11 @@
 
 2.  Make sure all data looks updated by checking the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). If so, you're good to go!
 
+### Updating Old or Falling Off Labels on Freezer Boxes
+
+1.  The adhesive doesn't work well when the box is cold and/or wet. If you have a freezer box with a label that keeps falling off, remove the old label. Fully dry the lid with a towel and allow it to warm up as much as possible. 
+
+2.  Fill out a new sticky label (found on the -80 door) with all of the same information. If you don't change any of the information on the box, there's no need to update the app. If you want to add a note (e.g. box is close to empty, samples are mostly used), add that new information to the app using the All Boxes list to locate your box. Add the new label to the dry lid. 
 
 ## Clean Out Notes, May 21 2024 (Katie, Madeline, Camille, Lee) {.unnumbered}
 
