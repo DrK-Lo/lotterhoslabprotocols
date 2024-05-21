@@ -26,6 +26,12 @@
 
 4.  Make sure all data looks complete by checking the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). If so, you're good to go!
 
+### Deleting & Removing a Freezer Box
+
+1.  When deleting a freezer box, use the [Freezer App](https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&group=%5B%5D&page=fastTable&sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&table=boxlocations&view=Quick+add%2Fdelete) Quick Add/Delete menu to select and remove your box. Alternatively, you can locate the box through Minus80_Location or All Boxes menus, then change the "Discarded" option to TRUE AND remove the location affiliated with the box. 
+
+2.  Make sure all data looks updated by checking the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). If so, you're good to go!
+
 
 ## Clean Out Notes, May 21 2024 (Katie, Madeline, Camille, Lee) {.unnumbered}
 
