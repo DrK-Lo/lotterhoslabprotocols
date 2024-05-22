@@ -853,8 +853,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="making-a-new-freezer-box" class="level3">
 <h3 class="anchored" data-anchor-id="making-a-new-freezer-box">Making a New Freezer Box</h3>
 <ol type="1">
-<li><p>Use the <a href="https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&amp;group=%5B%5D&amp;page=fastTable&amp;sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&amp;table=boxlocations&amp;view=Quick+add%2Fdelete">Freezer App</a> to browse empty freezer locations. Choose the location you’d like to store your box.</p></li>
-<li><p>Generate info about your box. The BoxID should follow the template Box80_XXXX. Use the printed freezer labels (available in a ziploc bag on the front door of the -80) to attach information to each box as a sticker. Fill out the label according to the following template and update all fields in the app.</p></li>
+<li><p>Use the <a href="https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&amp;group=%5B%5D&amp;page=fastTable&amp;sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&amp;table=boxlocations&amp;view=Quick+add%2Fdelete">Freezer App</a> to add a box in the “All Boxes” table.</p></li>
+<li><p>Generate info about your box. The BoxID should follow the template Box80_XXXX. The last box label will come up in the app, so use the next number in line (e.g.&nbsp;if the last label was Box80_145, then label your box Box80_146). Use the printed freezer labels (available in a ziploc bag on the front door of the -80) to attach information to each box as a sticker. Fill out the label according to the following template and update all fields in the app.</p></li>
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -863,7 +863,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <ol start="3" type="1">
-<li>Before you open the freezer, use the -80 map to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box!</li>
+<li>Decide where to store your box - click on the “Open Locations” tab in the Freezer App and choose a location. Before you open the freezer, use the -80 map below to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box! Make sure to connect the box with the location in the Freezer App- there are different ways to do this. (1) You can click on “All Boxes” table, search for your box and click on it. Scroll down add “Add” a related box-location. (2) You can click on the “Open Locations” table and search for your location and click on it. Scroll down and “Add” a related box-location. (3) You can click on the “Quick Add/Delete” table and add the location and box - but be careful, if your box was in a different location before, if you add another location the box could be in two locations!</li>
 </ol>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -872,14 +872,15 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <ol start="4" type="1">
-<li>Make sure all data looks complete by checking the <a href="https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210">Freezer Database</a>. If so, you’re good to go!</li>
+<li><p>Make sure all data looks complete by checking the <a href="https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210">Freezer Database</a>. If so, you’re good to go!</p></li>
+<li><p>Large boxes or bags may have multiple locations associated with them. Conversely, a location might be associated with multiple items, such as really small plates.</p></li>
 </ol>
 </section>
 <section id="deleting-removing-a-freezer-box" class="level3">
 <h3 class="anchored" data-anchor-id="deleting-removing-a-freezer-box">Deleting &amp; Removing a Freezer Box</h3>
 <ol type="1">
-<li><p>When deleting a freezer box, use the <a href="https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&amp;group=%5B%5D&amp;page=fastTable&amp;sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&amp;table=boxlocations&amp;view=Quick+add%2Fdelete">Freezer App</a> Quick Add/Delete menu to select and remove your box. Alternatively, you can locate the box through Minus80_Location or All Boxes menus, then change the “Discarded” option to TRUE AND remove the location affiliated with the box.</p></li>
-<li><p>Make sure all data looks updated by checking the <a href="https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210">Freezer Database</a>. If so, you’re good to go!</p></li>
+<li><p>When deleting a freezer box, use the <a href="https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&amp;group=%5B%5D&amp;page=fastTable&amp;sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&amp;table=boxlocations&amp;view=Quick+add%2Fdelete">Freezer App</a> “All Boxes” table to find your box and do TWO ACTIONS: (1)Change the “Discarded” option to TRUE AND (2) delete the location affiliated with the box at the bottom under “related box-locations” (you can click on it and then click on the trash icon to delete it). This section action will make the location available for a new box.</p></li>
+<li><p>Make sure all data looks updated by checking the App (e.g., in most cases the box should only have one location associated with it) and the <a href="https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210">Freezer Database</a>. If so, you’re good to go!</p></li>
 </ol>
 </section>
 <section id="updating-old-or-falling-off-labels-on-freezer-boxes" class="level3">
