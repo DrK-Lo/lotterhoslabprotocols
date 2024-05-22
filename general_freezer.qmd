@@ -7,6 +7,48 @@
 
 ------------------------------------------------------------------------
 
+## -80C Serial Number 
+
+![](img/freezer_80serial.jpg){alt=""}
+------------------------------------------------------------------------
+
+
+## [**Phone alarm handling instructions**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_Phone_Alarm.pdf) {.unnumbered}
+
+**NU contact**: Dennis Todd. Email Dennis to update the list of users who have access and are on the call list.
+
+Here is the link for the Rees system: http://NOR926.ReesCloud.net
+
+Your logins are first initial, last name/names. All lowercase with no spaces or extra characters, just letters.
+
+## [**Instructions for inhibiting the alarm**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_InhibitAlarm.pdf) {.unnumbered}
+
+-   Your pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers
+
+-   Add the alarm phone to your list of contacts: the phone number that would be calling is Node 2 Phone 16176081423
+
+-   When you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)
+
+**The alarm will go off when the freezer rises above -70C**
+
+
+
+## **If you plan on loading samples in the freezer** {.unnumbered}
+
+-   Click on "Manage Alarm"
+
+-   Disable the alarm for an hour or so (there is a max that is allowable, but not sure what it is).
+
+-   Please be careful not to let the temperature drop while you are loading samples. If the temperature reaches -65C, wait until it gets back up to -75C before you load more samples. It puts a lot of stress on the freezer.
+
+## **If you plan to defrost the freezer** {.unnumbered}
+
+We need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
+
+![](img/freezerimage.png){alt=""}
+
+![](img/freezerinhibit.png){alt=""}
+-------------------------------------------------------------------------------
 
 # General -80 Freezer Organization Protocol & Clean Out Notes, May 2024
 
@@ -36,9 +78,7 @@
 
 ### Updating Old or Falling Off Labels on Freezer Boxes
 
-1.  The adhesive doesn't work well when the box is cold and/or wet. If you have a freezer box with a label that keeps falling off, remove the old label. Fully dry the lid with a towel and allow it to warm up as much as possible. 
-
-2.  Fill out a new sticky label (found on the -80 door) with all of the same information. If you don't change any of the information on the box, there's no need to update the app. If you want to add a note (e.g. box is close to empty, samples are mostly used), add that new information to the app using the All Boxes list to locate your box. Add the new label to the dry lid. 
+1.  The adhesive doesn't work well when the box is cold and/or wet. If you have a freezer box with a label that keeps falling off, replace the lid of the box with a new dry lid that has a new label on it. Fill out a new sticky label (found on the -80 door) with all of the same information. If you don't change any of the information on the box, there's no need to update the app. If you want to add a note (e.g. box is close to empty, samples are mostly used), add that new information to the app using the All Boxes list to locate your box. 
 
 ### Adding a Freezer Box/Bag that takes up multiple locations
 
@@ -79,46 +119,6 @@ Example scenario: You'd like to add some large plates to the database that are s
 ------------------------------------------------------------------------
 
 
-## -80C Serial Number (Katie fix this later)
-
-![](img/freezer_80serial.jpg){alt=""}
-------------------------------------------------------------------------
-
-**NU contact**: Dennis Todd. Email Dennis to update the list of users who have access and are on the call list.
-
-Here is the link for the Rees system: http://NOR926.ReesCloud.net
-
-Your logins are first initial, last name/names. All lowercase with no spaces or extra characters, just letters.
-
-## [**Phone alarm handling instructions**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_Phone_Alarm.pdf) {.unnumbered}
-
-## [**Instructions for inhibiting the alarm**](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/img/freezer_InhibitAlarm.pdf) {.unnumbered}
-
--   Your pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers
-
--   Add the alarm phone to your list of contacts: the phone number that would be calling is Node 2 Phone 16176081423
-
--   When you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)
-
-**The alarm will go off when the freezer rises above -70C**
-
-
-
-## **If you plan on loading samples in the freezer** {.unnumbered}
-
--   Click on "Manage Alarm"
-
--   Disable the alarm for an hour or so (there is a max that is allowable, but not sure what it is).
-
--   Please be careful not to let the temperature drop while you are loading samples. If the temperature reaches -65C, wait until it gets back up to -75C before you load more samples. It puts a lot of stress on the freezer.
-
-## **If you plan to defrost the freezer** {.unnumbered}
-
-We need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
-
-![](img/freezerimage.png){alt=""}
-
-![](img/freezerinhibit.png){alt=""}
 
 ## **Defrosting the -80C freezer** {.unnumbered}
 
