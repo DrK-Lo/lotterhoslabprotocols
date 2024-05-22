@@ -742,7 +742,7 @@
     "href": "general_freezer.html",
     "title": "Freezers and Freezer Alarm System",
     "section": "",
-    "text": "Edit this page\n\n\nFreezer label templates",
+    "text": "Edit this page\n\n\nFreezer label templates\n\n\n\n\n\n\n\n\n\n\nNU contact: Dennis Todd. Email Dennis to update the list of users who have access and are on the call list.\nHere is the link for the Rees system: http://NOR926.ReesCloud.net\nYour logins are first initial, last name/names. All lowercase with no spaces or extra characters, just letters.\n\n\n\n\nYour pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers\nAdd the alarm phone to your list of contacts: the phone number that would be calling is Node 2 Phone 16176081423\nWhen you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)\n\nThe alarm will go off when the freezer rises above -70C\n\n\n\n\nClick on “Manage Alarm”\nDisable the alarm for an hour or so (there is a max that is allowable, but not sure what it is).\nPlease be careful not to let the temperature drop while you are loading samples. If the temperature reaches -65C, wait until it gets back up to -75C before you load more samples. It puts a lot of stress on the freezer.\n\n\n\n\nWe need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.",
     "crumbs": [
       "Home",
       "General Equipment",
@@ -762,11 +762,59 @@
     ]
   },
   {
+    "objectID": "general_freezer.html#phone-alarm-handling-instructions",
+    "href": "general_freezer.html#phone-alarm-handling-instructions",
+    "title": "Freezers and Freezer Alarm System",
+    "section": "",
+    "text": "NU contact: Dennis Todd. Email Dennis to update the list of users who have access and are on the call list.\nHere is the link for the Rees system: http://NOR926.ReesCloud.net\nYour logins are first initial, last name/names. All lowercase with no spaces or extra characters, just letters.",
+    "crumbs": [
+      "Home",
+      "General Equipment",
+      "Freezers and Freezer Alarm System"
+    ]
+  },
+  {
+    "objectID": "general_freezer.html#instructions-for-inhibiting-the-alarm",
+    "href": "general_freezer.html#instructions-for-inhibiting-the-alarm",
+    "title": "Freezers and Freezer Alarm System",
+    "section": "",
+    "text": "Your pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers\nAdd the alarm phone to your list of contacts: the phone number that would be calling is Node 2 Phone 16176081423\nWhen you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)\n\nThe alarm will go off when the freezer rises above -70C",
+    "crumbs": [
+      "Home",
+      "General Equipment",
+      "Freezers and Freezer Alarm System"
+    ]
+  },
+  {
+    "objectID": "general_freezer.html#if-you-plan-on-loading-samples-in-the-freezer",
+    "href": "general_freezer.html#if-you-plan-on-loading-samples-in-the-freezer",
+    "title": "Freezers and Freezer Alarm System",
+    "section": "",
+    "text": "Click on “Manage Alarm”\nDisable the alarm for an hour or so (there is a max that is allowable, but not sure what it is).\nPlease be careful not to let the temperature drop while you are loading samples. If the temperature reaches -65C, wait until it gets back up to -75C before you load more samples. It puts a lot of stress on the freezer.",
+    "crumbs": [
+      "Home",
+      "General Equipment",
+      "Freezers and Freezer Alarm System"
+    ]
+  },
+  {
+    "objectID": "general_freezer.html#if-you-plan-to-defrost-the-freezer",
+    "href": "general_freezer.html#if-you-plan-to-defrost-the-freezer",
+    "title": "Freezers and Freezer Alarm System",
+    "section": "",
+    "text": "We need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.",
+    "crumbs": [
+      "Home",
+      "General Equipment",
+      "Freezers and Freezer Alarm System"
+    ]
+  },
+  {
     "objectID": "general_freezer.html#general-practices-for--80-freezer-organization",
     "href": "general_freezer.html#general-practices-for--80-freezer-organization",
     "title": "Freezers and Freezer Alarm System",
     "section": "General Practices for -80 Freezer Organization",
-    "text": "General Practices for -80 Freezer Organization\n\nMaking a New Freezer Box\n\nUse the Freezer App to add a box in the “All Boxes” table.\nGenerate info about your box. The BoxID should follow the template Box80_XXXX. The last box label will come up in the app, so use the next number in line (e.g. if the last label was Box80_145, then label your box Box80_146). Use the printed freezer labels (available in a ziploc bag on the front door of the -80) to attach information to each box as a sticker. Fill out the label according to the following template and update all fields in the app.\n\n\n\n\nAll data about the freezer box should be written on the sticky label and added to the app\n\n\n\nDecide where to store your box - click on the “Open Locations” tab in the Freezer App and choose a location. Before you open the freezer, use the -80 map below to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box! Make sure to connect the box with the location in the Freezer App- there are different ways to do this. (1) You can click on “All Boxes” table, search for your box and click on it. Scroll down add “Add” a related box-location. (2) You can click on the “Open Locations” table and search for your location and click on it. Scroll down and “Add” a related box-location. (3) You can click on the “Quick Add/Delete” table and add the location and box - but be careful, if your box was in a different location before, if you add another location the box could be in two locations!\n\n\n\n\n-80 Freezer map shows the location of shelves, columns, and drawers\n\n\n\nMake sure all data looks complete by checking the Freezer Database. If so, you’re good to go!\nLarge boxes or bags may have multiple locations associated with them. Conversely, a location might be associated with multiple items, such as really small plates.\n\n\n\nDeleting & Removing a Freezer Box\n\nWhen deleting a freezer box, use the Freezer App “All Boxes” table to find your box and do TWO ACTIONS: (1)Change the “Discarded” option to TRUE AND (2) delete the location affiliated with the box at the bottom under “related box-locations” (you can click on it and then click on the trash icon to delete it). This section action will make the location available for a new box.\nMake sure all data looks updated by checking the App (e.g., in most cases the box should only have one location associated with it) and the Freezer Database. If so, you’re good to go!\n\n\n\nUpdating Old or Falling Off Labels on Freezer Boxes\n\nThe adhesive doesn’t work well when the box is cold and/or wet. If you have a freezer box with a label that keeps falling off, remove the old label. Fully dry the lid with a towel and allow it to warm up as much as possible.\nFill out a new sticky label (found on the -80 door) with all of the same information. If you don’t change any of the information on the box, there’s no need to update the app. If you want to add a note (e.g. box is close to empty, samples are mostly used), add that new information to the app using the All Boxes list to locate your box. Add the new label to the dry lid.\n\n\n\nAdding a Freezer Box/Bag that takes up multiple locations\nExample scenario: You’d like to add some large plates to the database that are stored outside of the metal organizers and exist in “column 5” open space.\n\nRemove ‘available’ locations in the Freezer Database to reflect only the “bottom drawer” rows of column 5.\nAdd all of the “bottom drawer” locations to be affiliated with the one freezer box. You can add several location attributes to one freezer box or bag in the app. These locations should all appear as green colored text in the app, and the locations around that are ‘not available’ will be in black text.",
+    "text": "General Practices for -80 Freezer Organization\n\nMaking a New Freezer Box\n\nUse the Freezer App to add a box in the “All Boxes” table.\nGenerate info about your box. The BoxID should follow the template Box80_XXXX. The last box label will come up in the app, so use the next number in line (e.g. if the last label was Box80_145, then label your box Box80_146). Use the printed freezer labels (available in a ziploc bag on the front door of the -80) to attach information to each box as a sticker. Fill out the label according to the following template and update all fields in the app.\n\n\n\n\nAll data about the freezer box should be written on the sticky label and added to the app\n\n\n\nDecide where to store your box - click on the “Open Locations” tab in the Freezer App and choose a location. Before you open the freezer, use the -80 map below to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box! Make sure to connect the box with the location in the Freezer App- there are different ways to do this. (1) You can click on “All Boxes” table, search for your box and click on it. Scroll down add “Add” a related box-location. (2) You can click on the “Open Locations” table and search for your location and click on it. Scroll down and “Add” a related box-location. (3) You can click on the “Quick Add/Delete” table and add the location and box - but be careful, if your box was in a different location before, if you add another location the box could be in two locations!\n\n\n\n\n-80 Freezer map shows the location of shelves, columns, and drawers\n\n\n\nMake sure all data looks complete by checking the Freezer Database. If so, you’re good to go!\nLarge boxes or bags may have multiple locations associated with them. Conversely, a location might be associated with multiple items, such as really small plates.\n\n\n\nDeleting & Removing a Freezer Box\n\nWhen deleting a freezer box, use the Freezer App “All Boxes” table to find your box and do TWO ACTIONS: (1)Change the “Discarded” option to TRUE AND (2) delete the location affiliated with the box at the bottom under “related box-locations” (you can click on it and then click on the trash icon to delete it). This section action will make the location available for a new box.\nMake sure all data looks updated by checking the App (e.g., in most cases the box should only have one location associated with it) and the Freezer Database. If so, you’re good to go!\n\n\n\nUpdating Old or Falling Off Labels on Freezer Boxes\n\nThe adhesive doesn’t work well when the box is cold and/or wet. If you have a freezer box with a label that keeps falling off, replace the lid of the box with a new dry lid that has a new label on it. Fill out a new sticky label (found on the -80 door) with all of the same information. If you don’t change any of the information on the box, there’s no need to update the app. If you want to add a note (e.g. box is close to empty, samples are mostly used), add that new information to the app using the All Boxes list to locate your box.\n\n\n\nAdding a Freezer Box/Bag that takes up multiple locations\nExample scenario: You’d like to add some large plates to the database that are stored outside of the metal organizers and exist in “column 5” open space.\n\nRemove ‘available’ locations in the Freezer Database to reflect only the “bottom drawer” rows of column 5.\nAdd all of the “bottom drawer” locations to be affiliated with the one freezer box. You can add several location attributes to one freezer box or bag in the app. These locations should all appear as green colored text in the app, and the locations around that are ‘not available’ will be in black text.",
     "crumbs": [
       "Home",
       "General Equipment",
@@ -779,78 +827,6 @@
     "title": "Freezers and Freezer Alarm System",
     "section": "Clean Out Notes, May 21 2024 (Katie, Madeline, Camille, Lee)",
     "text": "Clean Out Notes, May 21 2024 (Katie, Madeline, Camille, Lee)\n\nThe first thing we did is review the New Freezer App and located any unmapped boxes or boxes that we want to discard. We also checked the data Freezer Database Spreadsheet. Katie can approve access to the Freezer App and Database.\nWhen we first opened the freezer, Katie scraped the ice from all of the shelf doors and handles. We had some ice build up around the seal, so we brushed it gently. When removing ice from the seal, do NOT use the sharp edge of the blade, this can cause nicks in the seal. We removed as much excess frost as possible.\n\n\n\n\nKatie scraping ice off of the shelf doors\n\n\n\n\n\nScrape the ice fully off of the doors\n\n\n\n\n\nMake sure to be very careful near the seals, do not make nicks with the sharp edge\n\n\n\nThen we discarded boxes that we didn’t have any data for (Unmapped Boxes section in app). One trick for opening shelves that are tightly sealed from the frost is to use the ice scraper like a crowbar (wiggle up and down, then pull the shelf out).\n\n\n\n\nUse the ice scraper to help remove stubborn frozen drawers\n\n\n\nWhen we removed the boxes from the freezer, we removed all tape and labels, disposed of vials in the trash, and left the old boxes out to thaw. For this part, it was helpful to have one person on the data calling out the box numbers, one person at the freezer pulling out the shelves and placing them in a cooler on ice, and a third & fourth person emptying the vials, pulling off the tape, and stacking the boxes. Confirm each box was correctly removed from the app before tossing the vials.\n\n\n\n\nLet the empty boxes dry out after removing from freezer. Remove all tape labels.\n\n\n\nWe consolidated bags as much as possible, changing the “Discard” status to TRUE for bags and boxes that no longer exist. This keeps a record of the boxes that were discarded.\nWe went through the freezer shelf-by-shelf and made sure that boxes were stored in their proper location. We found more boxes that we wanted to toss (any without data, some from old projects) and removed them from the freezer database, changing the “Discard” status to TRUE. We moved some boxes up to empty rows.\nKatie de-iced the internal temperature probes (located on shelf 2 & shelf 3 next to column 5) - be sure to do this regularly!!",
-    "crumbs": [
-      "Home",
-      "General Equipment",
-      "Freezers and Freezer Alarm System"
-    ]
-  },
-  {
-    "objectID": "general_freezer.html#c-serial-number-katie-fix-this-later",
-    "href": "general_freezer.html#c-serial-number-katie-fix-this-later",
-    "title": "Freezers and Freezer Alarm System",
-    "section": "-80C Serial Number (Katie fix this later)",
-    "text": "-80C Serial Number (Katie fix this later)",
-    "crumbs": [
-      "Home",
-      "General Equipment",
-      "Freezers and Freezer Alarm System"
-    ]
-  },
-  {
-    "objectID": "general_freezer.html#section",
-    "href": "general_freezer.html#section",
-    "title": "Freezers and Freezer Alarm System",
-    "section": "",
-    "text": "NU contact: Dennis Todd. Email Dennis to update the list of users who have access and are on the call list.\nHere is the link for the Rees system: http://NOR926.ReesCloud.net\nYour logins are first initial, last name/names. All lowercase with no spaces or extra characters, just letters.",
-    "crumbs": [
-      "Home",
-      "General Equipment",
-      "Freezers and Freezer Alarm System"
-    ]
-  },
-  {
-    "objectID": "general_freezer.html#phone-alarm-handling-instructions",
-    "href": "general_freezer.html#phone-alarm-handling-instructions",
-    "title": "Freezers and Freezer Alarm System",
-    "section": "Phone alarm handling instructions",
-    "text": "Phone alarm handling instructions",
-    "crumbs": [
-      "Home",
-      "General Equipment",
-      "Freezers and Freezer Alarm System"
-    ]
-  },
-  {
-    "objectID": "general_freezer.html#instructions-for-inhibiting-the-alarm",
-    "href": "general_freezer.html#instructions-for-inhibiting-the-alarm",
-    "title": "Freezers and Freezer Alarm System",
-    "section": "Instructions for inhibiting the alarm",
-    "text": "Instructions for inhibiting the alarm\n\nYour pin codes to acknowledge alarms received on your phone is last 4 digits of your contact numbers\nAdd the alarm phone to your list of contacts: the phone number that would be calling is Node 2 Phone 16176081423\nWhen you log in, our freezers are labeled 120 (the -20C in Edwards) and 121 (the -80C in Edwards)\n\nThe alarm will go off when the freezer rises above -70C",
-    "crumbs": [
-      "Home",
-      "General Equipment",
-      "Freezers and Freezer Alarm System"
-    ]
-  },
-  {
-    "objectID": "general_freezer.html#if-you-plan-on-loading-samples-in-the-freezer",
-    "href": "general_freezer.html#if-you-plan-on-loading-samples-in-the-freezer",
-    "title": "Freezers and Freezer Alarm System",
-    "section": "If you plan on loading samples in the freezer",
-    "text": "If you plan on loading samples in the freezer\n\nClick on “Manage Alarm”\nDisable the alarm for an hour or so (there is a max that is allowable, but not sure what it is).\nPlease be careful not to let the temperature drop while you are loading samples. If the temperature reaches -65C, wait until it gets back up to -75C before you load more samples. It puts a lot of stress on the freezer.",
-    "crumbs": [
-      "Home",
-      "General Equipment",
-      "Freezers and Freezer Alarm System"
-    ]
-  },
-  {
-    "objectID": "general_freezer.html#if-you-plan-to-defrost-the-freezer",
-    "href": "general_freezer.html#if-you-plan-to-defrost-the-freezer",
-    "title": "Freezers and Freezer Alarm System",
-    "section": "If you plan to defrost the freezer",
-    "text": "If you plan to defrost the freezer\nWe need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.",
     "crumbs": [
       "Home",
       "General Equipment",
