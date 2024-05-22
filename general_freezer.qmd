@@ -14,23 +14,25 @@
 
 ### Making a New Freezer Box
 
-1.  Use the [Freezer App](https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&group=%5B%5D&page=fastTable&sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&table=boxlocations&view=Quick+add%2Fdelete) to browse empty freezer locations. Choose the location you'd like to store your box. 
+1.  Use the [Freezer App](https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&group=%5B%5D&page=fastTable&sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&table=boxlocations&view=Quick+add%2Fdelete) to add a box in the "All Boxes" table.
 
-2.  Generate info about your box. The BoxID should follow the template Box80_XXXX. Use the printed freezer labels (available in a ziploc bag on the front door of the -80) to attach information to each box as a sticker. Fill out the label according to the following template and update all fields in the app. 
+2.  Generate info about your box. The BoxID should follow the template Box80_XXXX. The last box label will come up in the app, so use the next number in line (e.g. if the last label was Box80_145, then label your box Box80_146). Use the printed freezer labels (available in a ziploc bag on the front door of the -80) to attach information to each box as a sticker. Fill out the label according to the following template and update all fields in the app. 
 
 ![All data about the freezer box should be written on the sticky label and added to the app](img/freezer_labels.jpeg){width=50%}
 
-3.  Before you open the freezer, use the -80 map to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box! 
+3.  Decide where to store your box - click on the "Open Locations" tab in the Freezer App and choose a location. Before you open the freezer, use the -80 map below to familiarize yourself with the location. Do not allow the freezer door to hang open. Open the freezer and store your box! Make sure to connect the box with the location in the Freezer App- there are different ways to do this. (1) You can click on "All Boxes" table, search for your box and click on it. Scroll down add "Add" a related box-location. (2) You can click on the "Open Locations" table and search for your location and click on it. Scroll down and "Add" a related box-location. (3) You can click on the "Quick Add/Delete" table and add the location and box - but be careful, if your box was in a different location before, if you add another location the box could be in two locations!
 
 ![-80 Freezer map shows the location of shelves, columns, and drawers](img/freezer_map.jpeg){width=50%}
 
 4.  Make sure all data looks complete by checking the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). If so, you're good to go!
 
+5. Large boxes or bags may have multiple locations associated with them. Conversely, a location might be associated with multiple items, such as really small plates.
+
 ### Deleting & Removing a Freezer Box
 
-1.  When deleting a freezer box, use the [Freezer App](https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&group=%5B%5D&page=fastTable&sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&table=boxlocations&view=Quick+add%2Fdelete) Quick Add/Delete menu to select and remove your box. Alternatively, you can locate the box through Minus80_Location or All Boxes menus, then change the "Discarded" option to TRUE AND remove the location affiliated with the box. 
+1.  When deleting a freezer box, use the [Freezer App](https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&group=%5B%5D&page=fastTable&sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&table=boxlocations&view=Quick+add%2Fdelete) "All Boxes" table to find your box and do TWO ACTIONS: (1)Change the "Discarded" option to TRUE AND (2) delete the location affiliated with the box at the bottom under "related box-locations" (you can click on it and then click on the trash icon to delete it). This section action will make the location available for a new box.  
 
-2.  Make sure all data looks updated by checking the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). If so, you're good to go!
+2.  Make sure all data looks updated by checking the App (e.g., in most cases the box should only have one location associated with it) and the [Freezer Database](https://docs.google.com/spreadsheets/d/12TA0x9hPe6B8G34A2ID93ebjxdaGcEiMHAAajCyuQqo/edit?pli=1#gid=1549392210). If so, you're good to go!
 
 ### Updating Old or Falling Off Labels on Freezer Boxes
 
