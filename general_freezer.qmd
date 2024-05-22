@@ -74,6 +74,8 @@ Example scenario: You'd like to add some large plates to the database that are s
 
 6.   We went through the freezer shelf-by-shelf and made sure that boxes were stored in their proper location. We found more boxes that we wanted to toss (any without data, some from old projects) and removed them from the freezer database, changing the "Discard" status to TRUE. We moved some boxes up to empty rows.
 
+7.   Katie de-iced the internal temperature probes (located on shelf 2 & shelf 3 next to column 5) - be sure to do this regularly!!
+
 ------------------------------------------------------------------------
 
 
