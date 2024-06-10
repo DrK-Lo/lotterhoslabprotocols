@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -907,7 +907,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Genomic DNA is first digested with two restriction enzymes. This results in a pool of fragments that have the sticky- ended restriction cut sites on either end, and these ends provide a template for ligation of the customized adaptor sequences. The adaptor sequences contain the Illumina adaptors and primer sequences for multiplexing sequencing (and hence provide a binding site for the Illumina PCR primers), and the first barcodes of 5-8 base pairs are incorporated to the left adaptor. The bases at one of the end of each adaptor oligo correspond to the ligation site; that is, they match the restriction cut site. NOTE THAT WE MAKE SURE OUR BARCODE DESIGN DOES NOT RE-CREATE THE RESTRICTION SITE. This can be important when using MspI, which is not inactivated by heat. The ligation reaction is pooled and concentrated with a bead wash in preparation for the size selection step. Size selection allows the fragments that are too small or oversized to be removed. The fragments of the appropriate size are amplied through a Polymerase Chain Reaction where the fragments with the left and right adapters get amplied (fragments that carry the wrong combination of adapters won`t amplify due to the selectiveness of the right adapter). The amplied products now have 2 barcodes, and they can be pooled and concentrated with a bead wash. The nal library is good for paired-end sequencing. In January 2016 we ordered new adapters and made some modications. The rst modication was to use the Peterson protocol, instead of a mix of dierent protocols. The second modication was the adapters. Both the p5 and p7 adapters were designed to be oset by a 0-2 bp insertion. For both reads, this will oset the sequencer at the restriction site so that it is not blinded by the laser. The p7 adapter (right) was designed to also contain a 4-bp degenerate base sequence that we can use to identify PCR duplicates. This sequence was accompanied by another 4-bp that were designed to make sure the adapters anneal together well. FOR DDRAD, YOU SHOULD CHOOSE ENZYMES THAT ARE NOT SENSITIVE TO DNA METHYLATION.</p>
 <section id="restriction-enzymes" class="level2">
 <h2 class="anchored" data-anchor-id="restriction-enzymes">Restriction Enzymes</h2>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 44%">
 <col style="width: 55%">
@@ -946,7 +946,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="restriction-digest" class="level2">
 <h2 class="anchored" data-anchor-id="restriction-digest">Restriction Digest</h2>
 <p>From NEB website: There are several key factors to consider when setting up a restriction endonuclease digestion. Using the proper amounts of DNA, enzyme and buffer components in the correct reaction volume will allow you to achieve optimal digestion. By definition, 1 unit of restriction enzyme will completely digest 1 ug of substrate DNA in a 50 ul reaction in 60 minutes. This enzyme : DNA : reaction volume ratio can be used as a guide when designing reactions. However, most researchers follow the “typical” reaction conditions listed, where a 5:10 fold overdigestion is recommended to overcome variability in DNA source, quantity and purity. NEB offers the following tips to help you to achieve maximal success in your restriction endonuclease reactions. NEB recommends 10 units restriction enzyme, 1g DNA, 1X NEB Buer (5L), and 1 hour incubation time. DNA (measured with the Qubit) should ideally be at a minimum total amoung of 1.5 g and no more than 2.5 g. For example, you could use 10L of 150-250 ng/L of DNA. Keep on ice. Note that your DNA needs to be concentrated at least 125 ng/L for this protocol (2,500 ng desired/125ng/L = 20L + may need 5-7uL master mix depending on enzymes). For each sample prepare a master mix I (Table 1), mix by vortexing and then centrifuge. For these and all other reactions make sure to prepare an excess of mix to accommodate multiple rounds of pipetting, particularly if you are working with whole plates. Because the enzymes are stored in glycerol and other viscous solutions, a substantial volume is lost through adhesion to the outside of pipette tips. We suggest making more than what you think you will need (this may be overkill, if you have fewer columns than just do one extra per column).</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Reagent</th>
@@ -992,7 +992,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Transfer 2 uL of ” adapter to each reaction. PAY ATTENTION TO YOUR DESIGN.</li>
 <li>Create ligation master mix as follows:</li>
 </ol>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Reagent</th>
@@ -1036,7 +1036,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="targeted-index-pcr-ampli-cation-8-hours-including-checking-on-gel-and" class="level2">
 <h2 class="anchored" data-anchor-id="targeted-index-pcr-ampli-cation-8-hours-including-checking-on-gel-and">Targeted Index PCR Amplication (8 hours including checking on gel and</h2>
 <p>nal beadwash) Following Ligation, pooled groups of samples with individual left adapters are amplied with a unique right adapter. The right adapter would add a unique barcode to the right side that would allow all of the pools to be pooled in one lane for sequencing. To ameliorate stochastic dierences in PCR production of fragments in reactions, we run 3-8 replicate reactions per right barcode group, and later combine them. NOTE THAT WE USE IPROOF HF-TAQ, which is cheaper than the Phusion Taq that most people are using. There are alternative polymerases for ddRAD-seq libraries that may be equally or more eective than Iproof Taq. NEB has good alternatives. 1. Pool all the individuals that have individual left barcodes (the samples would most likely be already pooled from the size selection step). This protocol was original made to amplify a total of 10-72ng NEED TO DOUBLE CHECK THIS of DNA, so grab a representative amount of DNA within this size range. 2. Prepare the following Master Mix. Prepare an individual master mix for each individual right adapter according to the number of replicate PCRs that you want to run. WE SUGGEST 6 REPLICATES.</p>
-<table class="table">
+<table class="caption-top table">
 <thead>
 <tr class="header">
 <th>Reagent</th>
