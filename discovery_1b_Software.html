@@ -799,12 +799,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#software-on-discovery-for-lotterhos-lab" id="toc-software-on-discovery-for-lotterhos-lab" class="nav-link active" data-scroll-target="#software-on-discovery-for-lotterhos-lab"><strong>Software on Discovery for Lotterhos Lab</strong></a>
   <ul class="collapse">
   <li><a href="#part-0-running-an-installed-container" id="toc-part-0-running-an-installed-container" class="nav-link" data-scroll-target="#part-0-running-an-installed-container">Part 0: Running an installed container</a></li>
-  <li><a href="#part-1-find-a-container-online-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" id="toc-part-1-find-a-container-online-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" class="nav-link" data-scroll-target="#part-1-find-a-container-online-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab">Part 1: Find a container online for a program you want to run and installing it for the whole lab</a></li>
+  <li><a href="#part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" id="toc-part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" class="nav-link" data-scroll-target="#part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab">Part 1: Find a container on Dockerhub for a program you want to run and installing it for the whole lab</a></li>
   <li><a href="#part-2-building-your-own-containers" id="toc-part-2-building-your-own-containers" class="nav-link" data-scroll-target="#part-2-building-your-own-containers">Part 2: Building your own Containers</a>
   <ul class="collapse">
   <li><a href="#step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop." id="toc-step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop." class="nav-link" data-scroll-target="#step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop.">Step 1: Create the Dockerfile in a text editor on your laptop.</a></li>
   <li><a href="#step-2-create-the-container-in-podman-desktop-on-your-laptop." id="toc-step-2-create-the-container-in-podman-desktop-on-your-laptop." class="nav-link" data-scroll-target="#step-2-create-the-container-in-podman-desktop-on-your-laptop.">Step 2: Create the Container in PodMan Desktop on your laptop.</a></li>
-  <li><a href="#step-3-test-the-image-in-podman-desktop-on-your-laptop." id="toc-step-3-test-the-image-in-podman-desktop-on-your-laptop." class="nav-link" data-scroll-target="#step-3-test-the-image-in-podman-desktop-on-your-laptop.">Step 3: Test the Image in PodMan Desktop on your laptop.</a></li>
+  <li><a href="#step-3-test-the-container-in-podman-desktop-on-your-laptop." id="toc-step-3-test-the-container-in-podman-desktop-on-your-laptop." class="nav-link" data-scroll-target="#step-3-test-the-container-in-podman-desktop-on-your-laptop.">Step 3: Test the Container in PodMan Desktop on your laptop.</a></li>
+  <li><a href="#step-4-repeat-steps-1-3-until-you-finalize-the-container" id="toc-step-4-repeat-steps-1-3-until-you-finalize-the-container" class="nav-link" data-scroll-target="#step-4-repeat-steps-1-3-until-you-finalize-the-container">Step 4: Repeat Steps 1-3 until you finalize the container</a></li>
+  <li><a href="#step-5-push-the-image-to-containers.rc.northeastern.edulotterhos" id="toc-step-5-push-the-image-to-containers.rc.northeastern.edulotterhos" class="nav-link" data-scroll-target="#step-5-push-the-image-to-containers.rc.northeastern.edulotterhos">Step 5: Push the image to <code>containers.rc.northeastern.edu/lotterhos</code></a></li>
   </ul></li>
   <li><a href="#outdated-conda-environments" id="toc-outdated-conda-environments" class="nav-link" data-scroll-target="#outdated-conda-environments">** Outdated Conda environments**</a></li>
   <li><a href="#information-about-outdated-modules" id="toc-information-about-outdated-modules" class="nav-link" data-scroll-target="#information-about-outdated-modules"><strong>information about outdated modules</strong></a>
@@ -830,8 +832,8 @@ ul.task-list li input[type="checkbox"] {
 <p>And to run a container from anywhere type the following, but replace <name> with the actual name: <code>singularity run /work/lotterhos/Containers/&lt;NAME&gt;.sif</code></name></p>
 <p>For example: <code>singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif</code></p>
 </section>
-<section id="part-1-find-a-container-online-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" class="level2">
-<h2 class="anchored" data-anchor-id="part-1-find-a-container-online-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab">Part 1: Find a container online for a program you want to run and installing it for the whole lab</h2>
+<section id="part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab">Part 1: Find a container on Dockerhub for a program you want to run and installing it for the whole lab</h2>
 <ul>
 <li>Go to DockerHub https://hub.docker.com</li>
 <li>Use the search to find the program you need a container for
@@ -906,6 +908,13 @@ RUN wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.
     unzip fastqc_v0.12.1.zip &amp;&amp; \
     chmod 777 /opt/FastQC/fastqc &amp;&amp; rm /opt/fastqc_v0.12.1.zip
 
+# Fix language warning in FastQC
+ RUN apt-get update &amp;&amp; DEBIAN_FRONTEND=noninteractive apt-get install -y locales &amp;&amp; \
+     sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen &amp;&amp; \
+     dpkg-reconfigure --frontend=noninteractive locales &amp;&amp; \
+     update-locale LANG=en_US.UTF-8
+ ENV LANG en_US.UTF-8
+
 ENV PATH /opt:/opt/bcftools-1.19:/opt/plink2:/opt/console:/opt/pcangsd:/opt/angsd:/opt/angsd/misc:/opt/MultiQC:/opt/miniconda/bin:/opt/FastQC:/opt/vcftools/src/cpp:/opt/migrate-newest/src:/opt/ngsRelate:${PATH} 
 COPY startup.sh /opt
 RUN chmod 777 /opt/startup.sh</code></pre>
@@ -917,10 +926,29 @@ RUN chmod 777 /opt/startup.sh</code></pre>
 <p>When it is done, you will see at the bottom of the output: <code>Successfully built &lt;code&gt;</code> <code>Successfully tagged &lt;ImageName:tag&gt;</code></p>
 <p><strong>Troubleshooting (if you are unable to create a new container)</strong> If you are having trouble creating a new container, it may be because your PodMan Machine isn’t starting because it needs more memory or space than your computer can handle. In this case you would go to <code>Settings--&gt;Resources--&gt;Podman--&gt;Create new</code> and select about half of the CPUs, Memory, and a small amount of disk size for your container. If you ask for too much, it will just wait forever for those resources to be allocated!</p>
 </section>
-<section id="step-3-test-the-image-in-podman-desktop-on-your-laptop." class="level3">
-<h3 class="anchored" data-anchor-id="step-3-test-the-image-in-podman-desktop-on-your-laptop.">Step 3: Test the Image in PodMan Desktop on your laptop.</h3>
-<p>Next, go to the “Images” tab</p>
+<section id="step-3-test-the-container-in-podman-desktop-on-your-laptop." class="level3">
+<h3 class="anchored" data-anchor-id="step-3-test-the-container-in-podman-desktop-on-your-laptop.">Step 3: Test the Container in PodMan Desktop on your laptop.</h3>
+<p>Next, go to the “Images” tab. The container that you just created is at the top. You will see the <code>&lt;ImageName&gt;</code> with the <code>&lt;tag&gt;</code> below. Here is an example for the <code>test</code> with the tag <code>3</code> that I just created:</p>
 <p>![img/Podman-4.png]</p>
+<p>Click the “Play” button next to the container you want to test. It will create a container. You can leave all the fields blank. Click “Start Container”. It will open the command line. Try running commands for the programs you installed.</p>
+<p>To test <code>fastqc</code>, which is the program in the example Dockerfile above, type <code>fastqc</code>.</p>
+</section>
+<section id="step-4-repeat-steps-1-3-until-you-finalize-the-container" class="level3">
+<h3 class="anchored" data-anchor-id="step-4-repeat-steps-1-3-until-you-finalize-the-container">Step 4: Repeat Steps 1-3 until you finalize the container</h3>
+<p>Repeat Steps 1-3 until you finalize the container - edit the Dockerfile, remake the container, and create a test container from the image in Podman Desktop. It is an interative process.</p>
+</section>
+<section id="step-5-push-the-image-to-containers.rc.northeastern.edulotterhos" class="level3">
+<h3 class="anchored" data-anchor-id="step-5-push-the-image-to-containers.rc.northeastern.edulotterhos">Step 5: Push the image to <code>containers.rc.northeastern.edu/lotterhos</code></h3>
+<p>From the Image tab, click the vertical <code>...</code> and select <code>Push Image</code>. This will push it to our Harbor site.</p>
+<p>Then you would log into Discovery and type the following:</p>
+<pre><code>srun --pty bash
+module load singularity/3.10.3
+cd /work/lotterhos/Containers
+export SINGULARITY_CACHEDIR=$(pwd)/cache 
+export SINGULARITY_TMPDIR=$(pwd)/tmp
+singularity pull --docker-login docker://containers.rc.northeastern.edu/lotterhos/&lt;ImageName:version&gt;</code></pre>
+<p><code>ls</code> when you list files, you should see the <code>&lt;ImageName&gt;.sif</code> in the file list In practice, it’s not a good idea to save everything with the name <code>latest</code>, so if necessary rename it with the <code>mv</code> command and give it a version.</p>
+<p>And to run it from anywhere type: <code>singularity run /work/lotterhos/Containers/&lt;ImageName&gt;</code></p>
 </section>
 </section>
 <section id="outdated-conda-environments" class="level2 unnumbered">
