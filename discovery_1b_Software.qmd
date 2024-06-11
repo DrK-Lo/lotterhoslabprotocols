@@ -23,16 +23,26 @@ For example:
 Once you have the path to the container, on Discovery type the following commands: 
 
 `srun --constraint=ib -p lotterhos --pty /bin/bash` This takes you to a partition to run the code. The option ib = infiniband gives faster network connection, which you may need to download larger containers.
+
 `module load singularity/3.10.3` Singularity is the program that we will use to get the container from the web, download it, and run it
+
 `cd /work/lotterhos/Containers` Go to the shared folder in the Lotterhos Lab Storage on Discovery where we keep the containers
+
 `export SINGULARITY_CACHEDIR=$(pwd)/cache` set the cache directory. Singularity will cache files here when building the container.
+
 `export SINGULARITY_TMPDIR=$(pwd)/tmp`  set the tmp directory. Singularity will store tmp files here when building the container.
-`singularity pull docker://dceoy/lumpy:latest` Pull the container from DockerHub. In this case, we pull the program `lumpy` from the user `dceoy` and it has the tag `latest`. The `sif` is the image (Container) file that Singularity will create after it pulls, and we name the file `lumpy_latest.sif`. 
+
+`singularity pull docker://dceoy/lumpy:latest` Pull the container from DockerHub. In this case, we pull the program `lumpy` from the user `dceoy` and it has the tag `latest`. The `sif` is the image (Container) file that Singularity will create after it pulls, and we name the file 
+`lumpy_latest.sif`. 
+
 `ls` when you list files, you should see the `lumpy_latest.sif` in the file list
+
 In practice, it's not a good idea to save everything with the name `latest`, so it's good practice to give it a name with the version:
+
 `mv lumpy_latest.sif lumpy_0.2.13.sif`
 
 And to run it from anywhere type:
+
 `singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif`
 
 ## Part 2: Building your own Containers
@@ -116,7 +126,7 @@ RUN chmod 777 /opt/startup.sh
 
 ### Step 2: Create the Container in PodMan Desktop on your laptop.
 
-![img/Podman-1-create-container.png] 
+![](img/Podman-1-create-container.png)
 Click `+Create` and choose `Containerfile or Dockerfile`. 
 
 
@@ -126,7 +136,7 @@ VERY IMPORTANT: The Image Name needs a path to our containers on research comput
 They are seperated by a colon `:` and the program expects this naming system. 
 By keeping the `ImageName` the same and updating the `tag` every time you make an edit to the container, the program can build the container faster each time from the cache for `ImageName`.
 Make sure to click `Intel and AMD x86_64` because that is what you'll need to run the container on Discovery!
-![img/Podman-3.png]
+![](img/Podman-3.png)
 
 When it is done, you will see at the bottom of the output:
 `Successfully built <code>`
@@ -140,7 +150,7 @@ In this case you would go to `Settings-->Resources-->Podman-->Create new` and se
 
 Next, go to the "Images" tab. The container that you just created is at the top. You will see the `<ImageName>` with the `<tag>` below. Here is an example for the `test` with the tag `3` that I just created:
 
-![img/Podman-4.png]
+![](img/Podman-4.png)
 
 Click the "Play" button next to the container you want to test. It will create a container. You can leave all the fields blank. Click "Start Container". It will open the command line. Try running commands for the programs you installed.
 
@@ -153,6 +163,8 @@ Repeat Steps 1-3 until you finalize the container - edit the Dockerfile, remake 
 ### Step 5: Push the image to `containers.rc.northeastern.edu/lotterhos`
 
 From the Image tab, click the vertical `...` and select `Push Image`. This will push it to our Harbor site.
+
+![](img/Podman-5.png)
 
 Then you would log into Discovery and type the following:
 ```
