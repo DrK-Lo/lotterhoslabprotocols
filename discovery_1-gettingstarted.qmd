@@ -17,66 +17,43 @@ Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://r
 
     -   [Submit a ticket with Research Computing](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
 
-## **Software on Discovery for Lotterhos Lab** {.unnumbered}
+## **GET OFF THE LOGIN NODE!** {.unnumbered}
 
-### **Conda environments** {.unnumbered}
+When you sign into the cluster, you are on a login node! Don't run your code on the login node or else you will get an angry email from research computing.
 
-We use conda environments to load software on Discovery.
+To develop code and troubleshoot, you need to transfer over to another partition after you login. Use the `srun` command with the `--pty` option will output the results of your code on the screen
 
-See this site for more information on how to load environments and update the `yml` files.
+To run on the lotterhos partition:
 
-If you create a `yml` for your analysis, be sure to talk with Dr. L about sharing it with the group.
+`srun -p lotterhos -N 1 --pty /bin/bash`
 
-[Shared Lotterhos Group Environments with Research Computing](https://github.com/neu-rc-admin/lotterhos_group)
+Or if you are uploading and want a faster network connection:
+`srun --constraint=ib -p lotterhos --pty /bin/bash`
 
-        lotterhos_R.yml
-        lotterhos_RADseq.yml
-        lotterhos_RNAseq.yml
-        lotterhos_aligners.yml
-        lotterhos_gatk.yml
-        lotterhos_methylation.yml
-        lotterhos_popgen.yml
-        lotterhos_utils.yml
-        lotterhos_variantCallers.yml
+OR For 20 minutes on the debug partition:
 
-Use `conda deactivate` to change conda environments
+`srun -p debug -N 1 --pty /bin/bash`
 
-### **information about outdated modules** {.unnumbered}
+OR for a few 24? hours on the short partition:
 
-When we first started using Discovery, we had modules set up for our research
+`srun -p short -N 1 --pty /bin/bash`
 
--   We have a software module on Discovery for the lab's research
+[See this page for information about default times on different partitions](https://rc-docs.northeastern.edu/en/latest/hardware/partitions.html#introduction)
 
--   There are some programs loaded in modules, and others loaded in conda environments. If you are working in a conda environment, it won't detect programs loaded in the module outside that environment
+## **Overview presentation** {.unnumbered}
 
--   One conda environment is `lotterhos-py38`, which is running python 3.8. Note that many bioinformatics programs are not updated for this environment. Slim 3.3.2 is in this environment.
+Here is a presentation from Research Computing on terminology and optimizing workflows in the lab: [Optimization_Lotterhos_labmeeting_Sekar-V2.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/69299ebb2fa86d83667c2f5bf7fd6d9f960231e0/img/Optimization_Lotterhos_labmeeting_Sekar-V2.pdf)
 
--   Another conda environment is `ddocent2`, which is running python 3.7 and all of the ddocent dependencies
+## Brandon's recordings on how to set up RSA keys and run Jupyter Notebooks
 
-        module show lotterhos/2020-08-24
-        module load lotterhos/2020-08-24
-        source activate ddocent2
-        conda list
+[link to recording](https://northeastern.zoom.us/rec/share/6Dk1hHTMZkHi5xzATYImct7cEF93266l7zqqURsNu89qNSWIKCicqzfaw1VRMgbq.RBN-9ikQWzw6UEfc) Passcode: 0u?9rW&%
 
-    Use the `module avail` command to show a list of the most currently available software on Discovery.
-
-sratoolkit/2.10.8 was added as a seperate module that was then added to your module, while ddocent-2.7.8 was added to the conda environment "lotterhos-py38" within the anaconda3/L2020-03 module
-
-Old module: lotterhos/2019-11-15, lotterhos/2020-03-18, lotterhos/2020-07-21
-
--   In the future we hope to work on Docker containers for loading R packages and developing containers for specific projects. A container allows you to create the same environment that you were using when you analyzed the data.
-
-### **PackRat environments for R** {.unnumbered}
-
-PackRat environments can be great for using on OOD or Discovery
-
-[Create PackRat environments for R](https://rc-docs.northeastern.edu/en/latest/software/software.html)
 
 ## **Using Lotterhos nodes on Discovery** {.unnumbered}
 
 There is a lotterhos unix group, which you need to request Dr. L to add you to. It takes a day for the change to propagate so you should be able to see you are part of the 'lotterhos' group when typing `groups $USER` in the terminal. Once you confirm you are part of the unix group and have access to the nodes, you can submit regular jobs using the `--partition lotterhos`
 
-There are 2 nodes each with 36 cores, so we can run parallel programs with up to 36 cores, and serial on up to 72 cores. Our nodes are d3037 and d3038. Please communicate with Dr. L about your project and the best way to use resources, so that everyone in the lab has access if they need it.
+There are 2 nodes each with 36 cores, so we can run parallel programs with up to 36 cores, and serial on up to 72 cores. Our nodes are d3037 and d3038. EAch node has ~180Gb of memory (about 5Gb per CPU). Please communicate with Dr. L about your project and the best way to use resources, so that everyone in the lab has access if they need it.
 
 To get info on the nodes type `sinfo -p lotterhos`, which gives the node IDs, and `lscpu #####` to get info on the CPUs for that node.
 
@@ -88,24 +65,4 @@ There is 5GB of memory on each core, with 36 cores/node and 72 cores total acros
 
 If you are on campus, or offcampus using NU's VPN, you can use this webpage to view resources: https://xdmod.rc.northeastern.edu/
 
-## **Troubleshooting and trying code** {.unnumbered}
 
-To develop code and troubleshoot, there is a `debug` partition. You can also use the `lotterhos` partition. Use the `srun` command with the `--pty` option will output the results of your code on the screen
-
-To run on the lotterhos partition:
-
-`srun -p lotterhos -N 1 --pty /bin/bash`
-
-OR For 20 minutes on the debug partition:
-
-`srun -p debug -N 1 --pty /bin/bash`
-
-[See this page for information about default times on different partitions](https://rc-docs.northeastern.edu/en/latest/hardware/partitions.html#introduction)
-
-## **Overview presentation** {.unnumbered}
-
-Here is a presentation from Research Computing on terminology and optimizing workflows in the lab: [Optimization_Lotterhos_labmeeting_Sekar-V2.pdf](https://github.com/DrK-Lo/lotterhoslabprotocols/blob/69299ebb2fa86d83667c2f5bf7fd6d9f960231e0/img/Optimization_Lotterhos_labmeeting_Sekar-V2.pdf)
-
-## Brandon's recordings on how to set up RSA keys and run Jupyter Notebooks
-
-[link to recording](https://northeastern.zoom.us/rec/share/6Dk1hHTMZkHi5xzATYImct7cEF93266l7zqqURsNu89qNSWIKCicqzfaw1VRMgbq.RBN-9ikQWzw6UEfc) Passcode: 0u?9rW&%
