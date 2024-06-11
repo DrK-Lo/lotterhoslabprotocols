@@ -13,7 +13,7 @@ And to run a container from anywhere type the following, but replace <NAME> with
 For example:
 `singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif`
 
-## Part 1: Find a container online for a program you want to run and installing it for the whole lab
+## Part 1: Find a container on Dockerhub for a program you want to run and installing it for the whole lab
 
 - Go to DockerHub https://hub.docker.com
 - Use the search to find the program you need a container for
@@ -102,6 +102,13 @@ RUN wget https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.12.
     unzip fastqc_v0.12.1.zip && \
     chmod 777 /opt/FastQC/fastqc && rm /opt/fastqc_v0.12.1.zip
 
+# Fix language warning in FastQC
+ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y locales && \
+     sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
+     dpkg-reconfigure --frontend=noninteractive locales && \
+     update-locale LANG=en_US.UTF-8
+ ENV LANG en_US.UTF-8
+
 ENV PATH /opt:/opt/bcftools-1.19:/opt/plink2:/opt/console:/opt/pcangsd:/opt/angsd:/opt/angsd/misc:/opt/MultiQC:/opt/miniconda/bin:/opt/FastQC:/opt/vcftools/src/cpp:/opt/migrate-newest/src:/opt/ngsRelate:${PATH} 
 COPY startup.sh /opt
 RUN chmod 777 /opt/startup.sh
@@ -129,11 +136,38 @@ When it is done, you will see at the bottom of the output:
 If you are having trouble creating a new container, it may be because your PodMan Machine isn't starting because it needs more memory or space than your computer can handle.
 In this case you would go to `Settings-->Resources-->Podman-->Create new` and select about half of the CPUs, Memory, and a small amount of disk size for your container. If you ask for too much, it will just wait forever for those resources to be allocated!
 
-### Step 3: Test the Image in PodMan Desktop on your laptop.
+### Step 3: Test the Container in PodMan Desktop on your laptop.
 
-Next, go to the "Images" tab
+Next, go to the "Images" tab. The container that you just created is at the top. You will see the `<ImageName>` with the `<tag>` below. Here is an example for the `test` with the tag `3` that I just created:
 
 ![img/Podman-4.png]
+
+Click the "Play" button next to the container you want to test. It will create a container. You can leave all the fields blank. Click "Start Container". It will open the command line. Try running commands for the programs you installed.
+
+To test `fastqc`, which is the program in the example Dockerfile above, type `fastqc`.
+
+### Step 4: Repeat Steps 1-3 until you finalize the container
+
+Repeat Steps 1-3 until you finalize the container - edit the Dockerfile, remake the container, and create a test container from the image in Podman Desktop. It is an interative process.
+
+### Step 5: Push the image to `containers.rc.northeastern.edu/lotterhos`
+
+From the Image tab, click the vertical `...` and select `Push Image`. This will push it to our Harbor site.
+
+Then you would log into Discovery and type the following:
+```
+srun --pty bash
+module load singularity/3.10.3
+cd /work/lotterhos/Containers
+export SINGULARITY_CACHEDIR=$(pwd)/cache 
+export SINGULARITY_TMPDIR=$(pwd)/tmp
+singularity pull --docker-login docker://containers.rc.northeastern.edu/lotterhos/<ImageName:version>
+```
+`ls` when you list files, you should see the `<ImageName>.sif` in the file list
+In practice, it's not a good idea to save everything with the name `latest`, so if necessary rename it with the `mv` command and give it a version.
+
+And to run it from anywhere type:
+`singularity run /work/lotterhos/Containers/<ImageName>`
 
 ## ** Outdated Conda environments** {.unnumbered}
 
