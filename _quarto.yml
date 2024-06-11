@@ -110,6 +110,7 @@ website:
       - section: "Discovery"
         contents:
           - discovery_1-gettingstarted.qmd
+          - discovery_1b_Software.qmd
           - discovery_1a-OOD.qmd
           - discovery_2-globus.qmd
           - discovery_3-storage.qmd
