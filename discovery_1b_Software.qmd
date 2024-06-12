@@ -4,6 +4,8 @@ We currently use containers environments to run software on Discovery. Container
 
 ## Part 0: Running an installed container
 
+- You will need read access to `/work/lotterhos/Containers/`
+
 `cd /work/lotterhos/Containers` Go to the shared folder in the Lotterhos Lab Storage on Discovery where we keep the containers
 `ls` look at the list of containers. The containers will end with an `sif` extension, which is a singularity image.
 
