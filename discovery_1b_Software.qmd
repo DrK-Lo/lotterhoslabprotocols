@@ -13,7 +13,9 @@ And to run a container from anywhere type the following, but replace <NAME> with
 For example:
 `singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif`
 
-## Part 1: Find a container on Dockerhub for a program you want to run and installing it for the whole lab
+## Part 1: Find a container on Dockerhub for a program you want to run, and create the disk image in the Lotterhos Lab Containers Folder on Discovery
+
+- You will need write access to `/work/lotterhos/Containers/` on Discovery
 
 - Go to DockerHub https://hub.docker.com
 - Use the search to find the program you need a container for
@@ -45,7 +47,9 @@ And to run it from anywhere type:
 
 `singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif`
 
-## Part 2: Building your own Containers
+## Part 2: Building your own Containers and run the disk image on your laptop or in the Lotterhos Lab Containers Folder on Discovery
+
+- You will need write access to `/work/lotterhos/Containers/` on Discovery
 
 ### Step 1: Create the Dockerfile in a text editor on your laptop.
 
@@ -180,6 +184,17 @@ In practice, it's not a good idea to save everything with the name `latest`, so 
 
 And to run it from anywhere type:
 `singularity run /work/lotterhos/Containers/<ImageName>`
+
+## Part 3: Create the disk image in your own Containers folder on Discovery
+
+In your home, scratch, or work directory create your own folder for `Containers` with subfolders for `cache` and `tmp`
+```
+mkdir Containers
+cd Containers
+mkdir cache
+mkdir tmp
+```
+Then, you basically follow all the steps above, but replace `work/lotterhos/Containers` with the path to this folder.
 
 ## ** Outdated Conda environments** {.unnumbered}
 
