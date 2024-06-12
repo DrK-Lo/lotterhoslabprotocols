@@ -807,8 +807,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#software-on-discovery-for-lotterhos-lab" id="toc-software-on-discovery-for-lotterhos-lab" class="nav-link active" data-scroll-target="#software-on-discovery-for-lotterhos-lab"><strong>Software on Discovery for Lotterhos Lab</strong></a>
   <ul class="collapse">
   <li><a href="#part-0-running-an-installed-container" id="toc-part-0-running-an-installed-container" class="nav-link" data-scroll-target="#part-0-running-an-installed-container">Part 0: Running an installed container</a></li>
-  <li><a href="#part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" id="toc-part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" class="nav-link" data-scroll-target="#part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab">Part 1: Find a container on Dockerhub for a program you want to run and installing it for the whole lab</a></li>
-  <li><a href="#part-2-building-your-own-containers" id="toc-part-2-building-your-own-containers" class="nav-link" data-scroll-target="#part-2-building-your-own-containers">Part 2: Building your own Containers</a>
+  <li><a href="#part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-create-the-disk-image-in-the-lotterhos-lab-containers-folder-on-discovery" id="toc-part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-create-the-disk-image-in-the-lotterhos-lab-containers-folder-on-discovery" class="nav-link" data-scroll-target="#part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-create-the-disk-image-in-the-lotterhos-lab-containers-folder-on-discovery">Part 1: Find a container on Dockerhub for a program you want to run, and create the disk image in the Lotterhos Lab Containers Folder on Discovery</a></li>
+  <li><a href="#part-2-building-your-own-containers-and-run-the-disk-image-on-your-laptop-or-in-the-lotterhos-lab-containers-folder-on-discovery" id="toc-part-2-building-your-own-containers-and-run-the-disk-image-on-your-laptop-or-in-the-lotterhos-lab-containers-folder-on-discovery" class="nav-link" data-scroll-target="#part-2-building-your-own-containers-and-run-the-disk-image-on-your-laptop-or-in-the-lotterhos-lab-containers-folder-on-discovery">Part 2: Building your own Containers and run the disk image on your laptop or in the Lotterhos Lab Containers Folder on Discovery</a>
   <ul class="collapse">
   <li><a href="#step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop." id="toc-step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop." class="nav-link" data-scroll-target="#step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop.">Step 1: Create the Dockerfile in a text editor on your laptop.</a></li>
   <li><a href="#step-2-create-the-container-in-podman-desktop-on-your-laptop." id="toc-step-2-create-the-container-in-podman-desktop-on-your-laptop." class="nav-link" data-scroll-target="#step-2-create-the-container-in-podman-desktop-on-your-laptop.">Step 2: Create the Container in PodMan Desktop on your laptop.</a></li>
@@ -816,6 +816,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#step-4-repeat-steps-1-3-until-you-finalize-the-container" id="toc-step-4-repeat-steps-1-3-until-you-finalize-the-container" class="nav-link" data-scroll-target="#step-4-repeat-steps-1-3-until-you-finalize-the-container">Step 4: Repeat Steps 1-3 until you finalize the container</a></li>
   <li><a href="#step-5-push-the-image-to-containers.rc.northeastern.edulotterhos" id="toc-step-5-push-the-image-to-containers.rc.northeastern.edulotterhos" class="nav-link" data-scroll-target="#step-5-push-the-image-to-containers.rc.northeastern.edulotterhos">Step 5: Push the image to <code>containers.rc.northeastern.edu/lotterhos</code></a></li>
   </ul></li>
+  <li><a href="#part-3-create-the-disk-image-in-your-own-containers-folder-on-discovery" id="toc-part-3-create-the-disk-image-in-your-own-containers-folder-on-discovery" class="nav-link" data-scroll-target="#part-3-create-the-disk-image-in-your-own-containers-folder-on-discovery">Part 3: Create the disk image in your own Containers folder on Discovery</a></li>
   <li><a href="#outdated-conda-environments" id="toc-outdated-conda-environments" class="nav-link" data-scroll-target="#outdated-conda-environments">** Outdated Conda environments**</a></li>
   <li><a href="#information-about-outdated-modules" id="toc-information-about-outdated-modules" class="nav-link" data-scroll-target="#information-about-outdated-modules"><strong>information about outdated modules</strong></a>
   <ul class="collapse">
@@ -836,26 +837,42 @@ ul.task-list li input[type="checkbox"] {
 <p>We currently use containers environments to run software on Discovery. Containers contain all the dependencies you need to run a program, so in theory they make getting started a lot easier!</p>
 <section id="part-0-running-an-installed-container" class="level2">
 <h2 class="anchored" data-anchor-id="part-0-running-an-installed-container">Part 0: Running an installed container</h2>
+<ul>
+<li>You will need read access to <code>/work/lotterhos/Containers/</code></li>
+</ul>
 <p><code>cd /work/lotterhos/Containers</code> Go to the shared folder in the Lotterhos Lab Storage on Discovery where we keep the containers <code>ls</code> look at the list of containers. The containers will end with an <code>sif</code> extension, which is a singularity image.</p>
 <p>And to run a container from anywhere type the following, but replace <name> with the actual name: <code>singularity run /work/lotterhos/Containers/&lt;NAME&gt;.sif</code></name></p>
 <p>For example: <code>singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif</code></p>
 </section>
-<section id="part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab" class="level2">
-<h2 class="anchored" data-anchor-id="part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-installing-it-for-the-whole-lab">Part 1: Find a container on Dockerhub for a program you want to run and installing it for the whole lab</h2>
+<section id="part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-create-the-disk-image-in-the-lotterhos-lab-containers-folder-on-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-find-a-container-on-dockerhub-for-a-program-you-want-to-run-and-create-the-disk-image-in-the-lotterhos-lab-containers-folder-on-discovery">Part 1: Find a container on Dockerhub for a program you want to run, and create the disk image in the Lotterhos Lab Containers Folder on Discovery</h2>
 <ul>
-<li>Go to DockerHub https://hub.docker.com</li>
-<li>Use the search to find the program you need a container for
+<li><p>You will need write access to <code>/work/lotterhos/Containers/</code> on Discovery</p></li>
+<li><p>Go to DockerHub https://hub.docker.com</p></li>
+<li><p>Use the search to find the program you need a container for</p>
 <ul>
 <li>for example, you could search for <code>samtools</code>. There are a lot of results but this one looks promising! https://hub.docker.com/r/biocontainers/samtools</li>
 <li>check the version of the program compared to the latest version. You may not be able to find out the version until you install it.</li>
 </ul></li>
 </ul>
 <p>Once you have the path to the container, on Discovery type the following commands:</p>
-<p><code>srun --constraint=ib -p lotterhos --pty /bin/bash</code> This takes you to a partition to run the code. The option ib = infiniband gives faster network connection, which you may need to download larger containers. <code>module load singularity/3.10.3</code> Singularity is the program that we will use to get the container from the web, download it, and run it <code>cd /work/lotterhos/Containers</code> Go to the shared folder in the Lotterhos Lab Storage on Discovery where we keep the containers <code>export SINGULARITY_CACHEDIR=$(pwd)/cache</code> set the cache directory. Singularity will cache files here when building the container. <code>export SINGULARITY_TMPDIR=$(pwd)/tmp</code> set the tmp directory. Singularity will store tmp files here when building the container. <code>singularity pull docker://dceoy/lumpy:latest</code> Pull the container from DockerHub. In this case, we pull the program <code>lumpy</code> from the user <code>dceoy</code> and it has the tag <code>latest</code>. The <code>sif</code> is the image (Container) file that Singularity will create after it pulls, and we name the file <code>lumpy_latest.sif</code>. <code>ls</code> when you list files, you should see the <code>lumpy_latest.sif</code> in the file list In practice, it’s not a good idea to save everything with the name <code>latest</code>, so it’s good practice to give it a name with the version: <code>mv lumpy_latest.sif lumpy_0.2.13.sif</code></p>
-<p>And to run it from anywhere type: <code>singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif</code></p>
+<p><code>srun --constraint=ib -p lotterhos --pty /bin/bash</code> This takes you to a partition to run the code. The option ib = infiniband gives faster network connection, which you may need to download larger containers.</p>
+<p><code>module load singularity/3.10.3</code> Singularity is the program that we will use to get the container from the web, download it, and run it</p>
+<p><code>cd /work/lotterhos/Containers</code> Go to the shared folder in the Lotterhos Lab Storage on Discovery where we keep the containers</p>
+<p><code>export SINGULARITY_CACHEDIR=$(pwd)/cache</code> set the cache directory. Singularity will cache files here when building the container.</p>
+<p><code>export SINGULARITY_TMPDIR=$(pwd)/tmp</code> set the tmp directory. Singularity will store tmp files here when building the container.</p>
+<p><code>singularity pull docker://dceoy/lumpy:latest</code> Pull the container from DockerHub. In this case, we pull the program <code>lumpy</code> from the user <code>dceoy</code> and it has the tag <code>latest</code>. The <code>sif</code> is the image (Container) file that Singularity will create after it pulls, and we name the file <code>lumpy_latest.sif</code>.</p>
+<p><code>ls</code> when you list files, you should see the <code>lumpy_latest.sif</code> in the file list</p>
+<p>In practice, it’s not a good idea to save everything with the name <code>latest</code>, so it’s good practice to give it a name with the version:</p>
+<p><code>mv lumpy_latest.sif lumpy_0.2.13.sif</code></p>
+<p>And to run it from anywhere type:</p>
+<p><code>singularity run /work/lotterhos/Containers/lumpy_0.2.13.sif</code></p>
 </section>
-<section id="part-2-building-your-own-containers" class="level2">
-<h2 class="anchored" data-anchor-id="part-2-building-your-own-containers">Part 2: Building your own Containers</h2>
+<section id="part-2-building-your-own-containers-and-run-the-disk-image-on-your-laptop-or-in-the-lotterhos-lab-containers-folder-on-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-building-your-own-containers-and-run-the-disk-image-on-your-laptop-or-in-the-lotterhos-lab-containers-folder-on-discovery">Part 2: Building your own Containers and run the disk image on your laptop or in the Lotterhos Lab Containers Folder on Discovery</h2>
+<ul>
+<li>You will need write access to <code>/work/lotterhos/Containers/</code> on Discovery</li>
+</ul>
 <section id="step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop." class="level3">
 <h3 class="anchored" data-anchor-id="step-1-create-the-dockerfile-in-a-text-editor-on-your-laptop.">Step 1: Create the Dockerfile in a text editor on your laptop.</h3>
 <p>Create a Dockerfile and test it in PodMan Desktop.</p>
@@ -929,15 +946,15 @@ RUN chmod 777 /opt/startup.sh</code></pre>
 </section>
 <section id="step-2-create-the-container-in-podman-desktop-on-your-laptop." class="level3">
 <h3 class="anchored" data-anchor-id="step-2-create-the-container-in-podman-desktop-on-your-laptop.">Step 2: Create the Container in PodMan Desktop on your laptop.</h3>
-<p>![img/Podman-1-create-container.png] Click <code>+Create</code> and choose <code>Containerfile or Dockerfile</code>.</p>
-<p>If the program proceeds normally, you should be prompted to specify the path to the Dockerfile that you just created on your laptop (first entry in figure below) and the Image Name. VERY IMPORTANT: The Image Name needs a path to our containers on research computing’s Harbor site: <code>containers.rc.northeastern.edu/lotterhos/&lt;ImageName:tag&gt;</code>. For example: <code>containers.rc.northeastern.edu/lotterhos/test:3</code>. The <code>ImageName</code> is a description, while the <code>tag</code> is the version of the container. They are seperated by a colon <code>:</code> and the program expects this naming system. By keeping the <code>ImageName</code> the same and updating the <code>tag</code> every time you make an edit to the container, the program can build the container faster each time from the cache for <code>ImageName</code>. Make sure to click <code>Intel and AMD x86_64</code> because that is what you’ll need to run the container on Discovery! ![img/Podman-3.png]</p>
+<p><img src="img/Podman-1-create-container.png" class="img-fluid"> Click <code>+Create</code> and choose <code>Containerfile or Dockerfile</code>.</p>
+<p>If the program proceeds normally, you should be prompted to specify the path to the Dockerfile that you just created on your laptop (first entry in figure below) and the Image Name. VERY IMPORTANT: The Image Name needs a path to our containers on research computing’s Harbor site: <code>containers.rc.northeastern.edu/lotterhos/&lt;ImageName:tag&gt;</code>. For example: <code>containers.rc.northeastern.edu/lotterhos/test:3</code>. The <code>ImageName</code> is a description, while the <code>tag</code> is the version of the container. They are seperated by a colon <code>:</code> and the program expects this naming system. By keeping the <code>ImageName</code> the same and updating the <code>tag</code> every time you make an edit to the container, the program can build the container faster each time from the cache for <code>ImageName</code>. Make sure to click <code>Intel and AMD x86_64</code> because that is what you’ll need to run the container on Discovery! <img src="img/Podman-3.png" class="img-fluid"></p>
 <p>When it is done, you will see at the bottom of the output: <code>Successfully built &lt;code&gt;</code> <code>Successfully tagged &lt;ImageName:tag&gt;</code></p>
 <p><strong>Troubleshooting (if you are unable to create a new container)</strong> If you are having trouble creating a new container, it may be because your PodMan Machine isn’t starting because it needs more memory or space than your computer can handle. In this case you would go to <code>Settings--&gt;Resources--&gt;Podman--&gt;Create new</code> and select about half of the CPUs, Memory, and a small amount of disk size for your container. If you ask for too much, it will just wait forever for those resources to be allocated!</p>
 </section>
 <section id="step-3-test-the-container-in-podman-desktop-on-your-laptop." class="level3">
 <h3 class="anchored" data-anchor-id="step-3-test-the-container-in-podman-desktop-on-your-laptop.">Step 3: Test the Container in PodMan Desktop on your laptop.</h3>
 <p>Next, go to the “Images” tab. The container that you just created is at the top. You will see the <code>&lt;ImageName&gt;</code> with the <code>&lt;tag&gt;</code> below. Here is an example for the <code>test</code> with the tag <code>3</code> that I just created:</p>
-<p>![img/Podman-4.png]</p>
+<p><img src="img/Podman-4.png" class="img-fluid"></p>
 <p>Click the “Play” button next to the container you want to test. It will create a container. You can leave all the fields blank. Click “Start Container”. It will open the command line. Try running commands for the programs you installed.</p>
 <p>To test <code>fastqc</code>, which is the program in the example Dockerfile above, type <code>fastqc</code>.</p>
 </section>
@@ -948,6 +965,7 @@ RUN chmod 777 /opt/startup.sh</code></pre>
 <section id="step-5-push-the-image-to-containers.rc.northeastern.edulotterhos" class="level3">
 <h3 class="anchored" data-anchor-id="step-5-push-the-image-to-containers.rc.northeastern.edulotterhos">Step 5: Push the image to <code>containers.rc.northeastern.edu/lotterhos</code></h3>
 <p>From the Image tab, click the vertical <code>...</code> and select <code>Push Image</code>. This will push it to our Harbor site.</p>
+<p><img src="img/Podman-5.png" class="img-fluid"></p>
 <p>Then you would log into Discovery and type the following:</p>
 <pre><code>srun --pty bash
 module load singularity/3.10.3
@@ -958,6 +976,15 @@ singularity pull --docker-login docker://containers.rc.northeastern.edu/lotterho
 <p><code>ls</code> when you list files, you should see the <code>&lt;ImageName&gt;.sif</code> in the file list In practice, it’s not a good idea to save everything with the name <code>latest</code>, so if necessary rename it with the <code>mv</code> command and give it a version.</p>
 <p>And to run it from anywhere type: <code>singularity run /work/lotterhos/Containers/&lt;ImageName&gt;</code></p>
 </section>
+</section>
+<section id="part-3-create-the-disk-image-in-your-own-containers-folder-on-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="part-3-create-the-disk-image-in-your-own-containers-folder-on-discovery">Part 3: Create the disk image in your own Containers folder on Discovery</h2>
+<p>In your home, scratch, or work directory create your own folder for <code>Containers</code> with subfolders for <code>cache</code> and <code>tmp</code></p>
+<pre><code>mkdir Containers
+cd Containers
+mkdir cache
+mkdir tmp</code></pre>
+<p>Then, you basically follow all the steps above, but replace <code>work/lotterhos/Containers</code> with the path to this folder.</p>
 </section>
 <section id="outdated-conda-environments" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="outdated-conda-environments">** Outdated Conda environments**</h2>
