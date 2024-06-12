@@ -132,6 +132,10 @@ RUN chmod 777 /opt/startup.sh
 
 ### Step 2: Create the Container in PodMan Desktop on your laptop.
 
+When you open Podman Desktop, make sure that you have `containers.rc.northeastern.edu` listed in your registries. To add it, just use the address and log in with your NU ID and password.
+![](img/Podman-0.png)
+
+Then, go to the `Container` Icon.
 ![](img/Podman-1-create-container.png)
 Click `+Create` and choose `Containerfile or Dockerfile`. 
 
