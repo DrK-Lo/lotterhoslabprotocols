@@ -1,6 +1,8 @@
-# **Software on Discovery for Lotterhos Lab** 
+# **Software and Containers on Discovery for Lotterhos Lab** 
 
 We currently use containers environments to run software on Discovery. Containers contain all the dependencies you need to run a program, so in theory they make getting started a lot easier!
+
+First, read the research computing documentation: https://rc-docs.northeastern.edu/en/latest/containers/singularity.html
 
 ## Part 0: Running an installed container
 
@@ -129,6 +131,32 @@ ENV PATH /opt:/opt/bcftools-1.19:/opt/plink2:/opt/console:/opt/pcangsd:/opt/angs
 COPY startup.sh /opt
 RUN chmod 777 /opt/startup.sh
 ```
+
+#### Notes
+
+Some notes on how to take instructions from a website and customize them for a container - for example let's take the instructions from the website:
+```
+git clone --recursive git@github.com:arq5x/lumpy-sv.git
+cd lumpy-sv
+make
+cp bin/* /usr/local/bin/.
+```
+ 
+You would need to change this to:
+
+```
+RUN git clone --recursive https://github.com/arq5x/lumpy-sv.git /opt/lumpy-sv && \
+    cd /opt/lumpy-sv && make && cp bin/* /usr/local/bin/
+```
+
+Make sure to change the `git@github` to `https://` because the former will require you to set up key authentication.
+
+When the instructions say to `export PATH="$PATH:/opt/bin/htslib-1.9"`, you would convert this to:
+ 
+`ENV PATH="${PATH}:/opt/bin/htslib-1.9"` OR `ENV PATH="/opt/bin/htslib-1.9:${PATH}"`. It doesn’t really matter if the ${PATH} is at the beginning or end. Probably just a matter of preference or convention where you decide to put it.
+It does need to be somewhere though to include the other paths that are stored in ${PATH}. So when you run the ENV command it is appending ${PATH} instead of overwriting path.
+
+For setting channels in conda, for my personal use I prefer to not have them set to my .condarc and just specify them when I run “conda install”. This is mainly because I don’t want any channel priority in case the same package is found in multiple channels. But this may just be a personal preference.
 
 ### Step 2: Create the Container in PodMan Desktop on your laptop.
 
