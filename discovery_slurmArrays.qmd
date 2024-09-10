@@ -105,6 +105,8 @@ Script performs bismark mapping, `bismark` on list of files based on the file na
         -2 2018OALarvae_DNAm/trimmed_files/${j} \
         -o 2018OALarvae_DNAm/mapped_files
 
+
+### **Additional Example** {.unnumbered}
 Below are some examples of scripts written to progress to using an Array
 
 ## **Script 1: Running one job as you would in the cluster** {.unnumbered}
