@@ -222,6 +222,6 @@ In this script, I have now added a separate text file containing the names of mo
 	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss -r ${REFERENCE}.fna -o /home/curtis.lei/gridss/gridssDelly.${Cod_ID}.vcf ${Cod_ID}.sorted.f.rg.bam.targeted.bam
 	echo "GRIDSS complete"
 
-	**Text file: Cod_ID_Variables_2-3.txt**
-	Pop1_16220
-	Pop1_16224
+**Text file: Cod_ID_Variables_2-3.txt**
+Pop1_16220
+Pop1_16224
