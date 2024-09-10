@@ -104,3 +104,124 @@ Script performs bismark mapping, `bismark` on list of files based on the file na
         -1 2018OALarvae_DNAm/trimmed_files/${i} \
         -2 2018OALarvae_DNAm/trimmed_files/${j} \
         -o 2018OALarvae_DNAm/mapped_files
+
+Below are some examples of scripts written to progress to using an Array
+
+## **Script 1: Running one job as you would in the cluster** {.unnumbered}
+
+In this script, I copied the exact same lines of codes that I would use to run these processes in the Discovery Cluster into a batch script.
+
+	#!/bin/bash
+	#SBATCH --job-name=Pop1_16220DellyGridss
+	#SBATCH --mail-user=curtis.lei@northeastern.edu
+	#SBATCH --partition=lotterhos
+	#SBATCH --mem=25Gb
+	#SBATCH --nodes=1
+	#SBATCH --cpus-per-task=5
+	#SBATCH --output=/home/curtis.lei/2024Cod_Inversions/slurm_log/Pop1_16220DellyGridss.out
+	#SBATCH --error=/home/curtis.lei/2024Cod_Inversions/slurm_log/Pop1_16220DellyGridss.err
+
+	## Load the necessary modules
+	module load singularity/3.10.3
+	module load samtools/1.19.2
+	echo "module load complete"
+
+	## Sort and Index the BAM File in GRIDSS Cod Data folder
+	cd /home/curtis.lei/gridss/cod_data
+	cp /work/lotterhos/2020_CodGenomes/labeled_bam_Out/Pop1_16220.f.rg.bam /home/curtis.lei/cod_data
+	samtools sort -m 40G Pop1_16220.f.rg.bam > Pop1_16220.sorted.f.rg.bam
+	samtools index Pop1_16220.sorted.f.rg.bam
+	echo "sort and index complete"
+
+	## Run Delly
+	singularity run /home/curtis.lei/Containers/delly_v1.2.6.sif delly call -g /home/curtis.lei/gridss/cod_data/GCF_902167405.1_gadMor3.0_genomic.fna /home/curtis.lei/gridss/cod_data/Pop1_16220.sorted.f.rg.bam > /home/curtis.lei/delly/delly.Pop1_16220.vcf
+	echo "delly complete"
+
+	## Run GRIDSS on generated Delly VCF
+	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss_extract_overlapping_fragments --targetvcf /home/curtis.lei/delly/delly.Pop1_16220.vcf Pop1_16220.sorted.f.rg.bam
+	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss -r GCF_902167405.1_gadMor3.0_genomic.fna -o /home/curtis.lei/gridss/gridssDelly.Pop1_16220.vcf Pop1_16220.sorted.f.rg.bam.targeted.bam
+	echo "GRIDSS complete"
+
+
+## **Script 2: Running one job using variables** {.unnumbered}
+
+In this script, I slightly modified *Script 1*. Instead of using the name of the individual's file, I made a variable to define the name of the individual as well as the name of the reference genome.
+
+	#!/bin/bash
+	#SBATCH --job-name=Pop1_16220_Variables
+	#SBATCH --mail-user=curtis.lei@northeastern.edu
+	#SBATCH --partition=lotterhos
+	#SBATCH --mem=25Gb
+	#SBATCH --nodes=1
+	#SBATCH --cpus-per-task=4
+	#SBATCH --output=/home/curtis.lei/2024Cod_Inversions/slurm_log/Pop1_16220_Variables.out
+	#SBATCH --error=/home/curtis.lei/2024Cod_Inversions/slurm_log/Pop1_16220_Variables.err
+
+	## Define Variables
+	REFERENCE="GCF_902167405.1_gadMor3.0_genomic"
+	ALPHA_2="Pop1_16220"
+
+	## Load the necessary modules
+	module load singularity/3.10.3
+	module load samtools/1.19.2
+	echo "module load complete"
+
+	## Sort and Index the BAM File in GRIDSS Cod Data folder
+	cd /home/curtis.lei/gridss/cod_data
+	samtools sort -m 40G /work/lotterhos/2020_CodGenomes/labeled_bam_Out/${ALPHA_2}.f.rg.bam > ${ALPHA_2}.sorted.f.rg.bam
+	samtools index ${ALPHA_2}.sorted.f.rg.bam
+	echo "sort and index complete"
+
+	## Run Delly
+	singularity run /home/curtis.lei/Containers/delly_v1.2.6.sif delly call -g /home/curtis.lei/gridss/cod_data/${REFERENCE}.fna /home/curtis.lei/gridss/cod_data/${ALPHA_2}.sorted.f.rg.bam > /home/curtis.lei/delly/delly.${ALPHA_2}.vcf
+	echo "delly complete"
+
+	## Run GRIDSS on generated Delly VCF
+	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss_extract_overlapping_fragments --targetvcf /home/curtis.lei/delly/delly.${ALPHA_2}.vcf ${ALPHA_2}.sorted.f.rg.bam
+	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss -r ${REFERENCE}.fna -o /home/curtis.lei/gridss/gridssDelly.${ALPHA_2}.vcf ${ALPHA_2}.sorted.f.rg.bam.targeted.bam
+	echo "GRIDSS complete"
+
+
+## **Script 3: Running more than one job using a text file with the variable names** {.unnumbered}
+
+In this script, I have now added a separate text file containing the names of more than one individual that will now be stored into an array. Now, rather than a single variable, the array will be called and run. The '%j' allows an output and error file to be made for each job within the array.
+
+	#!/bin/bash
+	#SBATCH --job-name=Pop1_16220-24
+	#SBATCH --mail-user=curtis.lei@northeastern.edu
+	#SBATCH --partition=lotterhos
+	#SBATCH --mem=25Gb
+	#SBATCH --nodes=1
+	#SBATCH --cpus-per-task=4
+	#SBATCH --array=1-2%2
+	#SBATCH --output=/home/curtis.lei/2024Cod_Inversions/slurm_log/Pop1_16220-24%j.out
+	#SBATCH --error=/home/curtis.lei/2024Cod_Inversions/slurm_log/Pop1_16220-24%j.err
+
+	## Define Variables
+	Cod_ID=`sed -n ${SLURM_ARRAY_TASK_ID}p /home/curtis.lei/2024Cod_Inversions/src/Cod_ID_Variables_2-3.txt`
+	echo ${Cod_ID}
+	REFERENCE="GCF_902167405.1_gadMor3.0_genomic"
+
+	## Load the necessary modules
+	module load singularity/3.10.3
+	module load samtools/1.19.2
+	echo "module load complete"
+
+	## Sort and Index the BAM File in GRIDSS Cod Data folder
+	cd /home/curtis.lei/gridss/cod_data
+	samtools sort -m 40G /work/lotterhos/2020_CodGenomes/labeled_bam_Out/${Cod_ID}.f.rg.bam > ${Cod_ID}.sorted.f.rg.bam
+	samtools index ${Cod_ID}.sorted.f.rg.bam
+	echo "sort and index complete"
+
+	## Run Delly
+	singularity run /home/curtis.lei/Containers/delly_v1.2.6.sif delly call -g /home/curtis.lei/gridss/cod_data/${REFERENCE}.fna /home/curtis.lei/gridss/cod_data/${Cod_ID}.sorted.f.rg.bam > /home/curtis.lei/delly/delly.${Cod_ID}.vcf
+	echo "delly complete"
+
+	## Run GRIDSS on generated Delly VCF
+	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss_extract_overlapping_fragments --targetvcf /home/curtis.lei/delly/delly.${Cod_ID}.vcf ${Cod_ID}.sorted.f.rg.bam
+	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss -r ${REFERENCE}.fna -o /home/curtis.lei/gridss/gridssDelly.${Cod_ID}.vcf ${Cod_ID}.sorted.f.rg.bam.targeted.bam
+	echo "GRIDSS complete"
+
+	**Text file: Cod_ID_Variables_2-3.txt**
+	Pop1_16220
+	Pop1_16224
