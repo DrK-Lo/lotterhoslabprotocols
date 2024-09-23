@@ -14,6 +14,12 @@ Writing has two facets: building good writing habits and actually putting words 
 
 -   Check out this Nature article ["Kick-Start Writing"](https://www.nature.com/articles/d41586-020-00917-5)
 
+## Authorship
+
+On our Professional Development page there is some information on how we use the Vancouver Protocol to determine authorship.
+
+See also [https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement](https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement)
+
 ### **Building good writing habits** {.unnumbered}
 
 -   Writing Your Dissertation in 15min/day
@@ -154,7 +160,9 @@ The final stages prior to submission can take about a month or more.
 
 -   Attention to detail is paramount. Every error that a reviewer finds is a mental check that other important details may have been overlooked in the research.
 
--   **Writing Author Contributions.** Communication here is paramount. It can help to send this list to each author and let them tell you where they think they should have their initials by. Who:
+-   **Writing Author Contributions.** Communication here is paramount. It can help to send this list to each author and let them tell you where they think they should have their initials by.
+See also [https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement](https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement)
+Who:
 
     -   Conceptualized and administered the project,
 
