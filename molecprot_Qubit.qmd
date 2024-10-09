@@ -1,10 +1,11 @@
 # Qubit dsDNA Quantification
+Last updated by M.G.E 10/9/2024
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_Qubit.qmd)
 
 The Qubit machine is located on the post-PCR (blue tape) lab bench. Qubit boxes with assay tubes are located on the top shelp above the Mastercyclers. Working solutions are on the shelf below in Invitrogen bags. Standards are located in the small "No Animals" fridge. Qubit can run broad range (BR) or high-sensitivity (HS) assays to quantify DNA. DNA concentration outputs are typically in ng/uL.
 
-Note that working solutions are light sensitive, so try not to leave the caps off the stock solutions for too long, and run samples relatively quickly after making them.
+Note that working solutions are light sensitive, so try not to leave the caps off the stock solutions for too long, and run samples relatively quickly after making them. Close all boxes/bags when solutions are not in use. 
 
 ## Picking the Right Qubit Assay
 
@@ -14,8 +15,17 @@ Note that working solutions are light sensitive, so try not to leave the caps of
 | **DNA mass detection range**      | 4-2000 ng                                      | 0.1-120 ng                                          |
 | **Best accuracy**                 | With higher range samples                      | With lower range samples                            |
 | **Ideal use**                     | Unsure of DNA concentrations                   | Know low DNA concentrations                         |
+| **Standard Ranges**               | 1: upper 80s-low 100s. 2: approx. 6000-8000    | 1: upper 80s - low 100s 2: approx. 18,000 - 22,000  |
 
 ## Assay Prep
+
+### Making Working Solution
+**Note** Some kits contain pre-made "working solution" other kits contain the working solution constituents and you must make a portion of the working solution yourself. Pay attention to the labels on the large brown bottles of the kit!
+
+**Make sure you use the appropriate working solution for the assay you're running (BR or HS).** 
+
+If you must make working solution, the kit will contain dsDNA "Buffer" and dsDNA "Reagent" (typically an orange-red colored fluid in a small tube). To make the standard, multiply the number of samples that you are running x 198 or 199 (depending on if you will do 2 uL or 1 uL of sample). Then see the sample math for a 2 uL sample (also in M.G.E's lab notebook, page 67). Prepare the total volume of working solution needed once. 
+
 
 ### Making Standards
 
@@ -23,11 +33,12 @@ Qubit stores standard readings until new standards are read. The same standard r
 
 - Set up two Qubit assay tubes in a tube rack. Label them ST1 (standard 1) and ST2 (standard 2)
 
-- Pipette 190 uL working solution into each tube. **Make sure you use the appropriate working solution for the assay you're running (BR or HS).** Although the laminated instructions card says you need to make your own working solution, this is not true. Use the ones in the Invitrogen bags.
+- Pipette 190 uL working solution into each tube.
 
 - Pipette 10 uL standard 1 (red cap tube) into ST1 tube and 10 uL standard 2 (yellow cap) into ST2 tube.
 
 - Vortex each tube for 2-3 seconds, then spin in the microcentrifuge for ~5 seconds, or until all liquid has collected at the bottom of the tube.
+
 
 ### Making Samples
 
@@ -49,6 +60,7 @@ Qubit stores standard readings until new standards are read. The same standard r
 
 - Run samples in Qubit
 
+
 ## Running Samples
 
 - Tap the Qubit screen to wake it up. Select dsDNA, then the assay you're running. If a protocol comes up when the machine wakes up, just hit home until you get to the protocol selection page.
@@ -57,11 +69,11 @@ Qubit stores standard readings until new standards are read. The same standard r
 
 - Check to make sure the standard reads look correct
 
-  - Standard 1: upper 80s-low 100s.
+  - If standards look incorrect, troubleshoot by allowing standards to sit on the benchtop for 5 minutes. Then re-read each as a "sample" under their set of standard readings.
 
-  - Standard 2: approx. 6000-8000
+  - Standard 1 should be "out of range" - aka 0. Standard 2 should be 10 ng/ul. This is because the standards are set to be 0 and 10 ng/ul. If the values vary, re-make your standards, be sure to vortex and centrifuge them before starting again. 
 
-- If reads look correct, select "Run samples"
+- If standards look correct, select "Run samples"
 
 - Set the amount of sample in uL you're using for the read.
 
@@ -73,7 +85,7 @@ Qubit stores standard readings until new standards are read. The same standard r
 
 - Make sure to place a tube back into the tube slot and close the lid on the machine when finished.
 
-**Note**: You can only read the same sample tube once because of the sensitivity of the working solution.
+**Note**: You can only read the same sample tube once because of the sensitivity of the working solution. This is not an issue if you are double-checking your standards to ensure that they read as 0 ng/ul & 10 ng/ul. 
 
 ## Troubleshooting
 | Problem                                                      | Possible solutions                                                                                                                                                |
