@@ -1,5 +1,5 @@
 # Qubit dsDNA Quantification
-Last updated by M.G.E 10/9/2024
+Last updated by M.G.E. on 10/9/2024
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_Qubit.qmd)
 
@@ -25,7 +25,7 @@ Note that working solutions are light sensitive, so try not to leave the caps of
 
 ::: {.callout-note}
 ### Do I need to make working solution?!
-Some kits contain pre-made "working solution" other kits contain the working solution constituents and you must make a portion of the working solution yourself. Pay attention to the labels on the large brown bottles of the kit! If you must make working solution, the kit will contain dsDNA "Buffer" and dsDNA "Reagent" (typically an orange-red colored fluid in a small tube).
+Some kits contain pre-made "working solution". Other kits contain the working solution constituents and you must make a portion of the working solution yourself. We have both types of kits in the lab, so pay attention to the labels on the large brown bottles of the kit! If you must make working solution, the kit will contain dsDNA "Buffer" and dsDNA "Reagent", typically an orange-red colored fluid in a small tube. If the kit contains pre-made working solution, the brown bottle will simply say "working solution" and you can skip to prepping the standards. 
 :::
 
 ::: {.callout-note}
@@ -35,17 +35,17 @@ Qubit working soluiton is 199 uL Buffer:1 uL Reagent ratio.
 To make the working solution, decide if you are running  2 uL or 1 uL of sample. See the sample math for a 2 uL sample below (also in M.G.E's lab notebook, page 67). Prepare the total volume of working solution needed once. 
 
 **Remember**
-  - You must make 380 uL working solution for your two standards (190 uL per standard x 2)
-  - You must make 198 uL working solution for each of your samples (in the example below, we are prepping for 18 samples to be run on the Qubit)
+- You must make 380 uL working solution for your two standards (190 uL per standard x 2)
+- You must make 198 uL working solution for each of your samples (in the example below, we are prepping for 18 samples to be run on the Qubit)
 
 **Calculation**
-  - Multiply your # of samples by 198
-  - Add your sample working solution volume + 380 (for standards) to get your total working solution volume
-  - Divide your total working solution needed by 200, which is the ratio of 199 Buffer for every 1 uL of reagent (200 uL total). 
-  - This gives you the number of "batches" that you are making. It should be slightly more than your # of samples (here, we are making 19.5 "batches" for 18 samples. 
-  - For each batch, you need 1 uL of reagent. This is your reagent volume. So, we need 19.5 uL of reagent. 
-  - The remaining volume (total working solution - reagent volume) is your buffer amount. So here, we need 3,880.5 uL of buffer. 
-  - Make sure your math checks back out to be a 199:1 ratio of buffer to reagent. 
+- Multiply your # of samples by 198
+- Add your sample working solution volume + 380 (for standards) to get your total working solution volume
+- Divide your total working solution needed by 200, which is the ratio of 199 Buffer for every 1 uL of reagent (200 uL total). 
+- This gives you the number of "batches" that you are making. It should be slightly more than your # of samples (here, we are making 19.5 "batches" for 18 samples. 
+- For each batch, you need 1 uL of reagent. This is your reagent volume. So, we need 19.5 uL of reagent. 
+- The remaining volume (total working solution - reagent volume) is your buffer amount. So here, we need 3,880.5 uL of buffer. 
+- Make sure your math checks back out to be a 199:1 ratio of buffer to reagent. 
 
 ![Math to calculate working solution for a 2 uL sample](img/1_qubit_math.png)
 :::
