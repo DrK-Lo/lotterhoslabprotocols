@@ -30,15 +30,17 @@ Some kits contain pre-made "working solution". Other kits contain the working so
 
 ::: {.callout-note}
 ### Math to calculate working solution
-Qubit working soluiton is 199 uL Buffer:1 uL Reagent ratio. 
+Qubit working solution is 199 uL Buffer:1 uL Reagent ratio. 
 
 To make the working solution, decide if you are running  2 uL or 1 uL of sample. See the sample math for a 2 uL sample below (also in M.G.E's lab notebook, page 67). Prepare the total volume of working solution needed once. 
 
 **Remember**
+
 - You must make 380 uL working solution for your two standards (190 uL per standard x 2)
 - You must make 198 uL working solution for each of your samples (in the example below, we are prepping for 18 samples to be run on the Qubit)
 
 **Calculation**
+
 - Multiply your # of samples by 198
 - Add your sample working solution volume + 380 (for standards) to get your total working solution volume
 - Divide your total working solution needed by 200, which is the ratio of 199 Buffer for every 1 uL of reagent (200 uL total). 
