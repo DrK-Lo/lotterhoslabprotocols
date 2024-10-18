@@ -842,11 +842,12 @@ window.Quarto = {
   <li><a href="#picogreen-assay" id="toc-picogreen-assay" class="nav-link active" data-scroll-target="#picogreen-assay">PicoGreen Assay</a>
   <ul class="collapse">
   <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background"><strong>Background</strong></a></li>
-  <li><a href="#materials-reagents" id="toc-materials-reagents" class="nav-link" data-scroll-target="#materials-reagents"><strong>Materials &amp; Reagents</strong></a></li>
+  <li><a href="#materials-reagents-for-running-a-full-plate-of-samples-96" id="toc-materials-reagents-for-running-a-full-plate-of-samples-96" class="nav-link" data-scroll-target="#materials-reagents-for-running-a-full-plate-of-samples-96"><strong>Materials &amp; Reagents for running a full plate of samples (96) </strong></a></li>
   <li><a href="#equipment" id="toc-equipment" class="nav-link" data-scroll-target="#equipment"><strong>Equipment</strong></a></li>
   <li><a href="#important-notes" id="toc-important-notes" class="nav-link" data-scroll-target="#important-notes"><strong>Important Notes</strong></a></li>
   <li><a href="#protocol" id="toc-protocol" class="nav-link" data-scroll-target="#protocol"><strong>Protocol</strong></a>
   <ul class="collapse">
+  <li><a href="#prep-the-plates" id="toc-prep-the-plates" class="nav-link" data-scroll-target="#prep-the-plates">Prep the plates</a></li>
   <li><a href="#table-1---standard-dilutions" id="toc-table-1---standard-dilutions" class="nav-link" data-scroll-target="#table-1---standard-dilutions">TABLE 1 - Standard Dilutions</a></li>
   <li><a href="#table-2---standard-wells" id="toc-table-2---standard-wells" class="nav-link" data-scroll-target="#table-2---standard-wells">TABLE 2 - Standard Wells</a></li>
   <li><a href="#table-3---sample-wells" id="toc-table-3---sample-wells" class="nav-link" data-scroll-target="#table-3---sample-wells">TABLE 3 - Sample Wells</a></li>
@@ -867,6 +868,7 @@ window.Quarto = {
 
 <section id="picogreen-assay" class="level1">
 <h1>PicoGreen Assay</h1>
+<p>Last updated by M.G.E. on 10/18/24</p>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd">Edit this page</a></p>
 <p>The protocol for checking quantification of DNA using the PicoGreen Assay on the Synergy HTX Plate Reader.</p>
 <div class="callout callout-style-default callout-important callout-titled">
@@ -875,33 +877,34 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Important: PicoGreen vs.&nbsp;Quibit
+Important: PicoGreen vs.&nbsp;Qubit
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Although the PicoGreen and Qubit both use flourescence to quantify DNA, in our experience the amounts reported by PicoGreen are about twice the amounts reported by Qubit. Therefore, we recommend dividing the Picogreen amounts by 2 and using that number in your calculations. <a href="https://github.com/ModelValidationProgram/MVP_ProjectManagement/blob/main/meetings/20230321_meeting_drying.md">Meeting notes</a></p>
+<p>When running a full plate of samples, the PicoGreen is more time-efficient than running the Qubit since you can run a 1/2 plate - 3/4 of a plate at once. However, if your standards do not pass quality control, you will need to re-run the entire assay. If this is your first time running the PicoGreen, consider doing a practice run with just standards to ensure that you can make the dilution series. Always keep the plate of your 1:10 DNA dilution in the fridge in case you have to re-run the assay, and then you will not waste eluted DNA!</p>
+<p>However, although the PicoGreen and Qubit both use flourescence to quantify DNA, in our experience the amounts reported by PicoGreen are about twice the amounts reported by Qubit. Therefore, we recommend dividing the Picogreen amounts by 2 and using that number in your calculations. <a href="https://github.com/ModelValidationProgram/MVP_ProjectManagement/blob/main/meetings/20230321_meeting_drying.md">Meeting notes</a></p>
 </div>
 </div>
 <hr>
 <section id="background" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="background"><strong>Background</strong></h2>
-<p>PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic acid stain for quantitating double-stranded DNA (dsDNA) in molecular biological procedures such as cDNA synthesis for library production and DNA fragment purification for subcloning, as well as diagnostic applications, such as quantitating DNA amplification products and primer extension assays. The most commonly used technique for measuring nucleic acid concentration is the determination of absorbance at 260 nm (A260).</p>
+<p>PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic acid stain for measuring the amount of double-stranded DNA in your eluted product using a flourescent dye. The most commonly used technique for measuring nucleic acid concentration is the determination of absorbance at 260 nm (A260).</p>
 </section>
-<section id="materials-reagents" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="materials-reagents"><strong>Materials &amp; Reagents</strong></h2>
+<section id="materials-reagents-for-running-a-full-plate-of-samples-96" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="materials-reagents-for-running-a-full-plate-of-samples-96"><strong>Materials &amp; Reagents for running a full plate of samples (96) </strong></h2>
 <ul>
-<li><p>Flat bottom black Costar 96-well plate (Fisher Cat #: 07-200-627) (long drawer under microscopes)</p></li>
+<li><p>2 flat bottom black Costar 96-well plates (Fisher Cat #: 07-200-627) (long drawer under microscopes)</p></li>
 <li><p>PCR plate, 96-well, 0.3 mL, semi-skirted (Fisher Brand, Cat#: 14230244) (shelf above post-PCR pipettes)</p></li>
 <li><p>Two 15 mL Falcon tubes (box under corner of lab benches)</p></li>
 <li><p>Two 0.2 mL snap cap tubes for ladder dilutions, you can use Qubit tubes (in boxes on shelf above PCR machines)</p></li>
-<li><p>Samples diluted to appropriate concentration to be read on the plate reader</p></li>
+<li><p>Eluted DNA samples diluted to a 1:10 concentration</p></li>
 <li><p>Materials from Invitrogen Quant-It PicoGreen dsDNA Assay Kit, cat #P7589 (in No Animals fridge)</p></li>
 <li><p>20X TE Buffer</p></li>
 <li><p>PicoGreen Dye</p></li>
 <li><p>DNA Ladder 100 ug/mL</p></li>
 <li><p>Molecular grade H2O (Fisher Scientific: Water, Molecular Grade Biology, cat#: BP2819-10)</p></li>
-<li><p>MilliQ H20 (get this from OGL lab space)</p></li>
-<li><p>Styrofoam box with ice and lid</p></li>
+<li><p>MilliQ H20 (from OGL lab space)</p></li>
+<li><p>Ice in rubber lab container</p></li>
 </ul>
 </section>
 <section id="equipment" class="level2 unnumbered">
@@ -929,9 +932,8 @@ Note
 <div class="callout-body-container callout-body">
 <ul>
 <li><p>Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL.</p></li>
-<li><p>Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (<a href="#sec-CalculatingConcs" class="quarto-xref">Section&nbsp;1.1</a>) for more info.</p></li>
-<li><p>PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid. You can pipette TE and samples while it is coming to room temp.</p></li>
-<li><p>The first or last column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards and 2 empty wells as recommended in this protocol, the most samples you could run on a plate is 88. To remedy this, for a full plate of 96 samples you should prepare two plates for reading. Run samples in columns 1-6 on one plate and samples 7-12 on the other plate. For the first plate, run the standards in column 12, and for the second plate, run the standards in column 1. This will account for all 96 samples between the two plates.</p></li>
+<li><p>Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod or eastern oyster DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (<a href="#sec-CalculatingConcs" class="quarto-xref">Section&nbsp;1.1</a>) for more info.</p></li>
+<li><p>PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid.</p></li>
 </ul>
 </div>
 </div>
@@ -951,16 +953,20 @@ Tips for pipetting
 </section>
 <section id="protocol" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="protocol"><strong>Protocol</strong></h2>
+<section id="prep-the-plates" class="level3">
+<h3 class="anchored" data-anchor-id="prep-the-plates">Prep the plates</h3>
 <ul>
+<li><p>If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. tTe Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The standards to column 1. Label both plates with lab tape. If you are using two plates, you will need to create double the amounts of ladder standards.</p></li>
+<li><p>The first or last column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards and 2 empty wells as recommended in this protocol, the most samples you could run on a plate is 88. To remedy this, for a full plate of 96 samples you should prepare two plates for reading. Run samples in columns 1-6 on one plate and samples 7-12 on the other plate. For the first plate, run the standards in column 12, and for the second plate, run the standards in column 1. This will account for all 96 samples between the two plates.</p></li>
 <li><p>Fill a styrofoam box with ice. Place your samples on ice and keep them there the whole time they’re out of the fridge to prevent degradation.</p></li>
 <li><p>Once samples have thawed, vortex and centrifuge the plate to make sure DNA is spread evenly throughout the sample. There are plates of practice DNA in the -20 freezer that you can use as a counterweight.</p></li>
 <li><p>Dilute your DNA samples. Use the Easy-Pet with a 2mL tip to transfer 2mL of MilliQ H20 into a liquid boat. Using the P100 multichannel pipette, add 20uL of MilliQ H20 to all wells of a 96 well PCR plate. Using the P10 multichannel pipette <strong>with filtered tips</strong>, add 2uL of your DNA to the corresponding wells of the PCR plate. Keep the PCR plate of diluted samples on ice.</p></li>
 <li><p>Seal the PCR plate with a plastic tape sheet, vortex with the plate attachment, and centrifuge with ‘short’ setting, using a tip wafer as a counterweight. This is a 1:10 dilution as required to be read by PicoGreen.</p></li>
-<li><p>If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6, and put the Picogreen standards in column 12. Use the second one for your samples from columns 7-12, and add the standards to column 1. Label both plates with lab tape. If you are using two plates, you will need to create double the amounts of ladder standards.</p></li>
 <li><p>Find the 20X TE in the Picogreen kit. To dilute it to 1X TE, use a 25mL Easy-Pet tip to pipette 9.5 mL of Molecular Grade H2O into a 15mL Falcon tube. Using the p1000 single channel pipette and unfiltered tips, add 500ul of 20X TE to the Falcon tube. This solution is stable long term so you can make more than you will need and store for later use. For example, for two plates, you can double these quantities. If you will not be using it frequently, you can also calculate exactly how much you need and just make enough for that use.</p></li>
 <li><p>Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap (Qubit) tube. Vortex and spin Dilution 1 in the mini centrifuge.</p></li>
 <li><p>To make Dilution 2, use the P2.5 and P10 single channel pipettes to combine 1uL of Dilution 1 and 9uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. Double these quantities if you are preparing two Picogreen plates for a full plate of samples.</p></li>
 </ul>
+</section>
 <section id="table-1---standard-dilutions" class="level3">
 <h3 class="anchored" data-anchor-id="table-1---standard-dilutions">TABLE 1 - Standard Dilutions</h3>
 <table class="caption-top table">
