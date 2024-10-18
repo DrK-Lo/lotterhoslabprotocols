@@ -66,23 +66,25 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 - 1000ul single channel, 2.5ul single channel, 10ul single channel, 100ul single channel, 100ul multichannel, and 10ul multichannel pipettes and tips
 
 ## **Important Notes** {.unnumbered}
+
 ::: {.callout-note}
-
--   Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod or eastern oyster DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (@sec-CalculatingConcs) for more info.
-
 -   PicoGreen dye is a solid when stored at 4C. Allow the dye to come to room temperature before use. Take out the kit and leave on the counter before starting protocol to ensure it becomes a liquid.
-
 :::
 
 
 ## **Protocol** {.unnumbered}
 
+::: {.callout-important}
+This protocol order is optimized to reduce DNA degredation and be as efficient as possible. It's recommended that you follow the steps in the exact order they're detailed here!
+:::
+
 ### Step 1: Prep the plates
+
 - The first or last column of your plate needs to be saved for the ladder standards. Therefore, if you are running 96 samples, they will not fall fit on one plate (max on one plate with standards is 88). So, If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. The Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The PicoGreen standards will go in column 1. Label both plates with lab tape (see example picture).
 
 
-
 ### Step 2: Dilute 20x TE to 1x TE
+
 - The Picogreen kit comes with a 20x concentration of TE (largest bottle in the kit). Dilute this to a 1x concentration in a 15 mL falcon tube by using the 25mL Easy-Pet tip to add 9.5 mL of molecular grade water and using the p1000 single channel pipette add 500 uL of 20x TE. (1 batch = 9.5 mL H20, 500 uL 20x TE; 2 batches = 19 mL H20, 1000 uL 20x TE). 1x TE is stable long-term, so feel free to make a double batch if you know you'll run PicoGreen again soon!
 
 
@@ -107,60 +109,44 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 :::
 
 
-- Fill a styrofoam box with ice. Place your samples on ice and keep them there the whole time they're out of the fridge to prevent degradation.
+### Step 5: Make ladders D1 and D2
 
-- Once samples have thawed, vortex and centrifuge the plate to make sure DNA is spread evenly throughout the sample. There are plates of practice DNA in the -20 freezer that you can use as a counterweight. 
+- This recipe will make enough to run 2 plates with a little extra left over for pipetting error. 
 
-- Dilute your DNA samples. Use the Easy-Pet with a 2mL tip to transfer 2mL of MilliQ H20 into a liquid boat. Using the P100 multichannel pipette, add 20uL of MilliQ H20 to all wells of a 96 well PCR plate. Using the P10 multichannel pipette **with filtered tips**, add 2uL of your DNA to the corresponding wells of the PCR plate. Keep the PCR plate of diluted samples on ice. 
-
-- Seal the PCR plate with a plastic tape sheet, vortex with the plate attachment, and centrifuge with 'short' setting, using a tip wafer as a counterweight. This is a 1:10 dilution as required to be read by PicoGreen.
-
-
-
-
--   Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap (Qubit) tube. Vortex and spin Dilution 1 in the mini centrifuge. 
+- Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 2 uL of stock ladder with 98 uL of 1X TE in a 0.2 mL snap cap (Qubit) tube. Vortex and spin Dilution 1 in the mini centrifuge. 
  
-- To make Dilution 2, use the P2.5 and P10 single channel pipettes to combine 1uL of Dilution 1 and 9uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. Double these quantities if you are preparing two Picogreen plates for a full plate of samples. 
+- To make Dilution 2, use the P2.5 and P10 single channel pipettes to combine 2 uL of Dilution 1 and 18 uL of 1X TE in another 0.2 mL snap cap tube. Vortex and spin Dilution 2 in the mini centrifuge. 
 
 ### TABLE 1 - Standard Dilutions
 
 | **Ladder Type** | **Concentration (ug/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** |
 |:----------------|:--------------------------|:----------------|:--------------------|:-------------------|
-| D1              | 2                         | Stock           | 1                   | 49                 |
-| D2              | 0.2                       | D1              | 1                   | 9                  |
+| D1              | 2                         | Stock           | 2                   | 98                 |
+| D2              | 0.2                       | D1              | 2                   | 18                 |
 
 
-- Pour the 1X TE from the Falcon tube into a liquid boat. Using the P100 multichannel, pipette 49 uL of 1X TE in all **sample** wells. If you are using two plates, this will be columns 1-6 on one plate, and columns 7-12 on the other plate.
 
-- Using the correct pipette, add the appropriate volume of 1X TE into each standard well according to Table 2. For example, for standard 1, use the P100 single channel and pipette 25 uL of 1X TE in the appropriate well. If you are using two plates, make sure to prepare standards for each plate. 
+### Step 6: Add ladders to your standard wells
 
-### TABLE 2 - Standard Wells
+- Now, add the required amounts of D1 or D2 to each of your standard wells. They already have the 1x TE added from step 4. 
 
-| **Standards** | **Concentration (ng/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** | **Diluted PicoGreen Vol (uL)** |
-|:--------------|:--------------------------|:----------------|:--------------------|:-------------------|:-------------------------------|
-| 1             | 500                       | D1              | 25                  | 25                 | 50                             |
-| 2             | 250                       | D1              | 12.5                | 37.5               | 50                             |
-| 3             | 100                       | D1              | 5                   | 45                 | 50                             |
-| 4             | 10                        | D2              | 5                   | 45                 | 50                             |
-| 5             | 4                         | D2              | 2                   | 48                 | 50                             |
-| blank         | 0                         | \-              | \-                  | 50                 | 50                             |
+| **Standards** | **Concentration (ng/mL)** | **Ladder Type** | **Ladder Vol (uL)** | **1X TE Vol (uL)** |
+|:--------------|:--------------------------|:----------------|:--------------------|:-------------------|
+| well 1, A     | 500                       | D1              | 25                  | 25                 |
+| well 2, B     | 250                       | D1              | 12.5                | 37.5               |
+| well 3, C     | 100                       | D1              | 5                   | 45                 |
+| well 4, D     | 10                        | D2              | 5                   | 45                 |
+| well 5, E     | 4                         | D2              | 2                   | 48                 |
+| blank, F      | 0                         | \-              | \-                  | 50                 |
 
-- Diagram of volumes of ladders and 1X TE required for each plate standard
-<img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png">
 
-- The sample wells are prepared according to Table 3. Use the P10 multichannel pipette to add 1 uL of the diluted DNA to each of the sample wells.
+### Step 7: Create your PicoGreen
+- Your PicoGreen should be at room temperature, but if it's not, hold it in your hand to help it liquify. 
 
-### TABLE 3 - Sample Wells {.unnumbered}
+- If you are running 96 samples over 2 plates (standard amount), make the PicoGreen by combinging 29.7 uL of PicoGreen and 5910.3 uL of 1x TE into a 15 mL falcon tube. (see eq. below for calculation or on pg. 17 of M.G.E.'s lab notebook)
 
-| **Reagent**      | **Volume (uL)** |
-|:-----------------|:----------------|
-| 1X TE            | 49              |
-| 1:10 dil. DNA    | 1               |
-| dil PG           | 50              |
 
-- At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. 
-
-- Your PicoGreen should be at room temperature, but if it's not, hold it in your hand to help it liquify. To create your diluted PicoGreen, use @eq-Pico1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using @eq-Pico2.
+If you need to make a custom amount of PicoGreen (other than the exact amount for 1 plate above), use @eq-Pico1 to determine how much stock PicoGreen dye you need for the number of samples/standards you are running. Then use that value to calculate the amount of 1X TE this should be added to for a 200 times dilution using @eq-Pico2.
 
 ### Equation 1 {.unnumbered}
 
@@ -175,9 +161,63 @@ $$
 
 $$ 199 * \textrm{vol of Stock PicoGreen} = \textrm{vol of 1x TE}$$ {#eq-Pico2}
 
-- Pipette 50ul of the diluted PicoGreen into each well. When adding the diluted PicoGreen, pipette up and down at least 20 times to mix sample, 1X TE and PicoGreen together. To keep track of which columns you added PicoGreen to, you can write down the column labels and cross them out as you go. 
 
-- Cover the plate with a plastic tape sheet and briefly spin down the plate to get all liquid to the bottom of the well. Use the Lotterhos lab centrifuge and a pipette tip wafer as a counterweight. Spin both plates together if you have two. 
+### Step 8: Prep your 1:10 DNA dilution
+
+::: {.callout-important}
+Why do we do a 1:10 dilution? For example, typical quantifications for Atlantic cod or eastern oyster DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (@sec-CalculatingConcs) for more info.
+:::
+
+- Fill a styrofoam box with ice. Place your samples on ice and keep them there the whole time they're out of the fridge to prevent degradation.
+
+- Once samples have thawed, vortex and centrifuge the plate to make sure DNA is spread evenly throughout the sample. There are plates of practice DNA in the -20 freezer that you can use as a counterweight. 
+
+-  Use the Easy-Pet with a 2mL tip to transfer 2mL of MilliQ H20 into a liquid boat. Using the P100 multichannel pipette, add 20uL of MilliQ H20 to all wells of a 96 well PCR plate. Using the P10 multichannel pipette **with filtered tips**, add 2uL of your DNA to the corresponding wells of the PCR plate. Keep the PCR plate of diluted samples on ice. 
+
+- Seal the PCR plate with a plastic tape sheet, vortex with the plate attachment, and centrifuge with 'short' setting, using a tip wafer as a counterweight. You now have a 1:10 dilution. 
+
+
+### Step 9: Add DNA to all sample wells
+
+- Use the P10 multichannel pipette to add 1 uL of the diluted DNA to each of the sample wells (cols 1-6 on plate 1, cols 7-12 on plate 2). Table 3 now reflects the contents of what is inside each of your sample wells. 
+
+### TABLE 3 - Sample Wells {.unnumbered}
+
+| **Reagent**      | **Volume (uL)** |
+|:-----------------|:----------------|
+| 1X TE            | 49              |
+| 1:10 dil. DNA    | 1               |
+
+
+### Step 10: Add PicoGreen to ALL wells
+
+- The PicoGreen mixture that you made in Step 9 can be poured into a liquid boat. Use the p100 multichannel to add 50 uL of PicoGreen to each well that contains a sample or standard. When adding the diluted PicoGreen, pipette up and down at least 20 times to mix sample, 1X TE and PicoGreen together. To keep track of which columns you added PicoGreen to, you can write down the column labels and cross them out as you go.
+
+- At this point, any wells not being used for samples or standards can remain empty. You do not need to add anything to unused wells. 
+
+
+
+### Double Check: What ended up in each well? 
+
+#### All of the components within the standard wells 
+
+- Diagram of volumes of ladders and 1X TE required for each plate standard
+<img width="175" alt="Screen Shot 2023-03-23 at 3 27 36 PM" src="https://user-images.githubusercontent.com/122108419/227327495-050c03f4-65b0-4561-9352-01cdce838b31.png">
+
+
+#### All components within sample wells
+
+| **Reagent**      | **Volume (uL)** |
+|:-----------------|:----------------|
+| 1X TE            | 49              |
+| 1:10 dil. DNA    | 1               |
+| dil PG           | 50              |
+
+
+
+### Step 11: Prepare to run the plates
+
+- Cover the plates with a plastic tape sheet and briefly spin down the plate to get all liquid to the bottom of the well. You can use the two plates as a counterweight for each other. If you only prepared one plate, find a counterweight on the shelf above the mini-centrifuge in the Lotterhos Lab.  
 
 ###  Run Plate on Reader using Gen5 Software
 
