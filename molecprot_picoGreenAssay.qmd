@@ -80,8 +80,11 @@ This protocol order is optimized to reduce DNA degredation and be as efficient a
 
 ### Step 1: Prep the plates
 
-- The first or last column of your plate needs to be saved for the ladder standards. Therefore, if you are running 96 samples, they will not fall fit on one plate (max on one plate with standards is 88). So, If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. The Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The PicoGreen standards will go in column 1. Label both plates with lab tape (see example picture).
+- The first or last column of your plate needs to be saved for the ladder standards. Therefore, if you are running 96 samples, they will not all fit on one plate (the max on one plate with standards is 88). 
 
+- So, If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. The Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The PicoGreen standards will go in column 1. Label both plates with lab tape (see example picture).
+
+![](img/1_picoplate_setup.png)
 
 ### Step 2: Dilute 20x TE to 1x TE
 
@@ -90,6 +93,8 @@ This protocol order is optimized to reduce DNA degredation and be as efficient a
 
 ### Step 3: Add 49 uL of 1x TE to all *sample* wells
 - Using the p100 multichannel, add 49 uL of your diluted 1x TE to each of the sample wells (cols 1-6 in plate 1, cols 7-12 in plate 2). Don't add anything to your standard wells yet. 
+
+![](img/2_pico_materials.png)
 
 
 ### Step 4: Add 1x TE into the *standard* wells
@@ -126,7 +131,7 @@ This protocol order is optimized to reduce DNA degredation and be as efficient a
 
 
 
-### Step 6: Add ladders to your standard wells
+### Step 6: Add ladders to your *standard* wells
 
 - Now, add the required amounts of D1 or D2 to each of your standard wells. They already have the 1x TE added from step 4. 
 
@@ -177,7 +182,7 @@ Why do we do a 1:10 dilution? For example, typical quantifications for Atlantic 
 - Seal the PCR plate with a plastic tape sheet, vortex with the plate attachment, and centrifuge with 'short' setting, using a tip wafer as a counterweight. You now have a 1:10 dilution. 
 
 
-### Step 9: Add DNA to all sample wells
+### Step 9: Add DNA to all *sample* wells
 
 - Use the P10 multichannel pipette to add 1 uL of the diluted DNA to each of the sample wells (cols 1-6 on plate 1, cols 7-12 on plate 2). Table 3 now reflects the contents of what is inside each of your sample wells. 
 
@@ -189,7 +194,7 @@ Why do we do a 1:10 dilution? For example, typical quantifications for Atlantic 
 | 1:10 dil. DNA    | 1               |
 
 
-### Step 10: Add PicoGreen to ALL wells
+### Step 10: Add PicoGreen to *sample AND standard* wells
 
 - The PicoGreen mixture that you made in Step 9 can be poured into a liquid boat. Use the p100 multichannel to add 50 uL of PicoGreen to each well that contains a sample or standard. When adding the diluted PicoGreen, pipette up and down at least 20 times to mix sample, 1X TE and PicoGreen together. To keep track of which columns you added PicoGreen to, you can write down the column labels and cross them out as you go.
 
