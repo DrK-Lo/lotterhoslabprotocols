@@ -1,6 +1,6 @@
 # PicoGreen Assay
 
-Last updated by M.G.E. on 10/18/24
+### Last updated by M.G.E. on 10/18/24
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/molecprot_picoGreenAssay.qmd)
 
@@ -90,11 +90,11 @@ This protocol order is optimized to reduce DNA degredation and be as efficient a
 
 - The Picogreen kit comes with a 20x concentration of TE (largest bottle in the kit). Dilute this to a 1x concentration in a 15 mL falcon tube by using the 25mL Easy-Pet tip to add 9.5 mL of molecular grade water and using the p1000 single channel pipette add 500 uL of 20x TE. (1 batch = 9.5 mL H20, 500 uL 20x TE; 2 batches = 19 mL H20, 1000 uL 20x TE). 1x TE is stable long-term, so feel free to make a double batch if you know you'll run PicoGreen again soon!
 
+![](img/2_pico_materials.jpeg)
+
 
 ### Step 3: Add 49 uL of 1x TE to all *sample* wells
 - Using the p100 multichannel, add 49 uL of your diluted 1x TE to each of the sample wells (cols 1-6 in plate 1, cols 7-12 in plate 2). Don't add anything to your standard wells yet. 
-
-![](img/2_pico_materials.jpeg)
 
 
 ### Step 4: Add 1x TE into the *standard* wells
