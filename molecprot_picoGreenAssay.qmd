@@ -13,11 +13,17 @@ When running a full plate of samples, the PicoGreen is more time-efficient than 
 
 However, although the PicoGreen and Qubit both use flourescence to quantify DNA, in our experience the amounts reported by PicoGreen are about twice the amounts reported by Qubit. Therefore, we recommend dividing the Picogreen amounts by 2 and using that number in your calculations. [Meeting notes](https://github.com/ModelValidationProgram/MVP_ProjectManagement/blob/main/meetings/20230321_meeting_drying.md)
 :::
+
+::: {.callout-tip}
+## Tips for pipetting
+See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipettesandpipettingtips.html) page for advice on good pipetting practice and troubleshooting.
+:::
+
 ------------------------------------------------------------------------
 
 ## **Background** {.unnumbered}
 
-PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic acid stain for measuring the amount of double-stranded DNA in your eluted product using a flourescent dye. The most commonly used technique for measuring nucleic acid concentration is the determination of absorbance at 260 nm (A260).
+PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic acid stain for measuring the amount of double-stranded DNA in your eluted product using a flourescent dye. The most commonly used technique for measuring nucleic acid concentration is absorbance at 260 nm (A260).
 
 ## **Materials & Reagents for running a full plate of samples (96) ** {.unnumbered}
 
@@ -61,7 +67,6 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 ## **Important Notes** {.unnumbered}
 ::: {.callout-note}
--   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL. 
 
 -   Samples should be diluted to be read within this range. For example, typical quantifications for Atlantic cod or eastern oyster DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (@sec-CalculatingConcs) for more info.
 
@@ -69,18 +74,37 @@ PicoGreen dsDNA Quantitation Reagent is an ultra-sensitive fluorescent nucleic a
 
 :::
 
-::: {.callout-tip}
-## Tips for pipetting
-See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecprot_pipettesandpipettingtips.html) page for advice on good pipetting practice and troubleshooting.
-:::
 
 ## **Protocol** {.unnumbered}
 
-### Prep the plates
-- If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. tTe Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The standards to column 1. Label both plates with lab tape. If you are using two plates, you will need to create double the amounts of ladder standards. 
+### Step 1: Prep the plates
+- The first or last column of your plate needs to be saved for the ladder standards. Therefore, if you are running 96 samples, they will not fall fit on one plate (max on one plate with standards is 88). So, If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. The Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The PicoGreen standards will go in column 1. Label both plates with lab tape (see example picture).
 
--   The first or last column of your plate needs to be saved for the ladder standards. Therefore if you are using 6 standards and 2 empty wells as recommended in this protocol, the most samples you could run on a plate is 88. To remedy this, for a full plate of 96 samples you should prepare two plates for reading. Run samples in columns 1-6 on one plate and samples 7-12 on the other plate. For the first plate, run the standards in column 12, and for the second plate, run the standards in column 1. This will account for all 96 samples between the two plates.
 
+
+### Step 2: Dilute 20x TE to 1x TE
+- The Picogreen kit comes with a 20x concentration of TE (largest bottle in the kit). Dilute this to a 1x concentration in a 15 mL falcon tube by using the 25mL Easy-Pet tip to add 9.5 mL of molecular grade water and using the p1000 single channel pipette add 500 uL of 20x TE. (1 batch = 9.5 mL H20, 500 uL 20x TE; 2 batches = 19 mL H20, 1000 uL 20x TE). 1x TE is stable long-term, so feel free to make a double batch if you know you'll run PicoGreen again soon!
+
+
+### Step 3: Add 49 uL of 1x TE to all *sample* wells
+- Using the p100 multichannel, add 49 uL of your diluted 1x TE to each of the sample wells (cols 1-6 in plate 1, cols 7-12 in plate 2). Don't add anything to your standard wells yet. 
+
+
+### Step 4: Add 1x TE into the *standard* wells
+- The standard wells are going to increase in volume of TE as the volume of ladder decreases. Follow this dilution series and add just the 1x TE to each of the stanard wells (col 12 only in plate 1; col 1 only in plate 2). 
+
+| **Standards** | **Concentration (ng/mL)** | **1X TE Vol (uL)** |
+|:--------------|:--------------------------|:-------------------|
+| well 1, A     | 500                       | 25                 |
+| well 2, B     | 250                       | 37.5               |
+| well 3, C     | 100                       | 45                 |
+| well 4, D     | 10                        | 45                 |
+| well 5, E     | 4                         | 48                 |
+| blank, F      | 0                         | 50                 |
+
+::: {.callout-note}
+-   Plate reader can read samples between 25 pg/mL - 1,000 ng/mL (or 0.000025 - 1 ng/uL). To be conservative we make the highest concentration for our ladder 500 ng/mL. 
+:::
 
 
 - Fill a styrofoam box with ice. Place your samples on ice and keep them there the whole time they're out of the fridge to prevent degradation.
@@ -93,7 +117,6 @@ See the [Pipetting Tips](https://drk-lo.github.io/lotterhoslabprotocols/molecpro
 
 
 
-- Find the 20X TE in the Picogreen kit. To dilute it to 1X TE, use a 25mL Easy-Pet tip to pipette 9.5 mL of Molecular Grade H2O into a 15mL Falcon tube. Using the p1000 single channel pipette and unfiltered tips, add 500ul of 20X TE to the Falcon tube. This solution is stable long term so you can make more than you will need and store for later use. For example, for two plates, you can double these quantities. If you will not be using it frequently, you can also calculate exactly how much you need and just make enough for that use.
 
 -   Create your ladder standards using Table 1. The stock ladder is at 100 ug/mL. To make Dilution 1 at 2 ug/mL, use the P2.5 and P100 single channel pipettes to combine 1 uL of stock ladder with 49 uL of 1X TE in a 0.2 mL snap cap (Qubit) tube. Vortex and spin Dilution 1 in the mini centrifuge. 
  
