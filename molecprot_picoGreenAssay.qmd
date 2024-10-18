@@ -84,7 +84,7 @@ This protocol order is optimized to reduce DNA degredation and be as efficient a
 
 - So, If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. The Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The PicoGreen standards will go in column 1. Label both plates with lab tape (see example picture).
 
-![](img/1_picoplate_setup.jpeg)
+![](img/1_picoplate_steup.jpeg)
 
 ### Step 2: Dilute 20x TE to 1x TE
 
