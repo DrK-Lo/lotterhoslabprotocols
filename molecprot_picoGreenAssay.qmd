@@ -170,7 +170,7 @@ $$ 199 * \textrm{vol of Stock PicoGreen} = \textrm{vol of 1x TE}$$ {#eq-Pico2}
 ### Step 8: Prep your 1:10 DNA dilution
 
 ::: {.callout-important}
-Why do we do a 1:10 dilution? For example, typical quantifications for Atlantic cod or eastern oyster DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay. The steps below will explain this in more detail. See Calculating Concentrations (@sec-CalculatingConcs) for more info.
+Why do we do a 1:10 dilution? For example, typical quantifications for Atlantic cod or eastern oyster DNA extractions using a spin column plate is between 10 - 200 ng/uL. Therefore, you should do a 1:10 dilution because the reaction does a 1:100 dilution in the reaction itself. This brings the final DNA concentration to 10 - 200 ng/mL which is well within the range of the assay.
 :::
 
 - Fill a styrofoam box with ice. Place your samples on ice and keep them there the whole time they're out of the fridge to prevent degradation.
