@@ -84,7 +84,7 @@ This protocol order is optimized to reduce DNA degredation and be as efficient a
 
 - So, If you are quantifying a full plate of samples, set up 2 black flat-bottom 96-well plates. Use the first one for your samples from columns 1-6. The Picogreen standards will go in column 12. Use the second plate for your samples from columns 7-12. The PicoGreen standards will go in column 1. Label both plates with lab tape (see example picture).
 
-![](img/1_picoplate_setup.png)
+![](img/1_picoplate_setup.jpeg)
 
 ### Step 2: Dilute 20x TE to 1x TE
 
@@ -94,7 +94,7 @@ This protocol order is optimized to reduce DNA degredation and be as efficient a
 ### Step 3: Add 49 uL of 1x TE to all *sample* wells
 - Using the p100 multichannel, add 49 uL of your diluted 1x TE to each of the sample wells (cols 1-6 in plate 1, cols 7-12 in plate 2). Don't add anything to your standard wells yet. 
 
-![](img/2_pico_materials.png)
+![](img/2_pico_materials.jpeg)
 
 
 ### Step 4: Add 1x TE into the *standard* wells
