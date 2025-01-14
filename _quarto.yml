@@ -108,6 +108,7 @@ website:
           - code_unixcommands.qmd
           - code_versioncontrol.qmd
           - code_quarto.qmd
+          - code_annotation.qmd
       - section: "Discovery"
         contents:
           - discovery_1-gettingstarted.qmd
