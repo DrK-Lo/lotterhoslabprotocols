@@ -1,0 +1,19 @@
+# Annotation and GO Enrichment
+
+recommended process for annotating genes for Roberts Lab UW:
+https://robertslab.github.io/resources/bio-Annotation/
+If you look at the GO and GOslim sections, the process is like this:
+Use SwissProt IDs to query UniProt, via Python script.
+Map GO IDs to GOslims using packages available in the R programming language (specifically, GSEAbase and GO.db).
+This process uses the most up-to-date GO/GOslim info, since it's utilizing the GO Consortium generic goslim obo file.
+
+If applicable but if you have unannotated reference genomes (or perhaps genomes that need an updated annotation) easel (https://gitlab.com/PlantGenomicsLab/easel) and maybe EnTAP (https://gitlab.com/PlantGenomicsLab/EnTAP) might be good to look at.
+These software are from a UConn lab, and they’ve built a program around reference genomes and annotation. GOs could be pulled from the annotation. (edited) 
+
+GitLabGitLab
+PlantGenomicsLab / EASEL · GitLab
+GitLab.com
+
+GitLabGitLab
+PlantGenomicsLab / EnTAP · GitLab
+GitLab.com
