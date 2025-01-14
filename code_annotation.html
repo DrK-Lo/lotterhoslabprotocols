@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>profdev_knowledge – Lotterhos Lab Protocols</title>
+<title>code_annotation – Lotterhos Lab Protocols</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./discovery_1-gettingstarted.html" rel="next">
+<link href="./code_versioncontrol.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -106,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_annotation.html">Annotation and GO Enrichment</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -576,13 +578,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
  <span class="menu-text">Coding Protocols</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./code_bioinformatics.html" class="sidebar-item-text sidebar-link">
@@ -663,7 +665,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code_annotation.html" class="sidebar-item-text sidebar-link">
+  <a href="./code_annotation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Annotation and GO Enrichment</span></a>
   </div>
 </li>
@@ -814,33 +816,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#knowledge" id="toc-knowledge" class="nav-link active" data-scroll-target="#knowledge">Knowledge</a>
-  <ul class="collapse">
-  <li><a href="#models" id="toc-models" class="nav-link" data-scroll-target="#models">Models</a></li>
-  </ul></li>
+  <li><a href="#annotation-and-go-enrichment" id="toc-annotation-and-go-enrichment" class="nav-link active" data-scroll-target="#annotation-and-go-enrichment">Annotation and GO Enrichment</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_knowledge.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_annotation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_annotation.html">Annotation and GO Enrichment</a></li></ol></nav></header>
 
 
 
 
-<section id="knowledge" class="level1">
-<h1>Knowledge</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_knowledge.qmd">Edit this page</a></p>
-<hr>
-<section id="models" class="level2">
-<h2 class="anchored" data-anchor-id="models">Models</h2>
-<p><a href="file:///Volumes/Google%20Drive/My%20Drive/_LotterhosLab2021/LotLab_projects/0-grants_or_active/2017-2021-TestTheTests/2020%20AREES%20test%20the%20tests/Modeling%20papers%20for%20AREES/A%20pragmatic%20approach%20to%20modeling.pdf">Starfield 1997 - A pragmatic approach to modeling</a></p>
-<p><a href="https://harvardforest1.fas.harvard.edu/sites/harvardforest.fas.harvard.edu/files/publications/pdfs/Aber_BulletinEcoSocAmerica_1997.pdf">Abbel 1997 1-why don’t we believe the models</a></p>
-<p><a href="https://af.booksc.eu/book/60364828/705821">Dale 1997 2-models provide understanding not belief</a></p>
-<p><a href="https://harvardforest1.fas.harvard.edu/sites/harvardforest.fas.harvard.edu/files/publications/pdfs/Aber_BulletinEcoSocAmerica_1998.pdf">Aber 1997 3-mostly a misunderstanding</a></p>
-<p><a href="https://www.jstor.org/stable/20168284?seq=1#metadata_info_tab_contents">Van Winkle 4 -model interactions - reply to Aber</a></p>
+<section id="annotation-and-go-enrichment" class="level1">
+<h1>Annotation and GO Enrichment</h1>
+<p>recommended process for annotating genes for Roberts Lab UW: https://robertslab.github.io/resources/bio-Annotation/ If you look at the GO and GOslim sections, the process is like this: Use SwissProt IDs to query UniProt, via Python script. Map GO IDs to GOslims using packages available in the R programming language (specifically, GSEAbase and GO.db). This process uses the most up-to-date GO/GOslim info, since it’s utilizing the GO Consortium generic goslim obo file.</p>
+<p>If applicable but if you have unannotated reference genomes (or perhaps genomes that need an updated annotation) easel (https://gitlab.com/PlantGenomicsLab/easel) and maybe EnTAP (https://gitlab.com/PlantGenomicsLab/EnTAP) might be good to look at. These software are from a UConn lab, and they’ve built a program around reference genomes and annotation. GOs could be pulled from the annotation. (edited)</p>
+<p>GitLabGitLab PlantGenomicsLab / EASEL · GitLab GitLab.com</p>
+<p>GitLabGitLab PlantGenomicsLab / EnTAP · GitLab GitLab.com</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -1261,9 +1254,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./code_versioncontrol.html" class="pagination-link" aria-label="Version Control with GitHub">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Version Control with GitHub</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./discovery_1-gettingstarted.html" class="pagination-link" aria-label="Connecting to the Discovery Cluster">
+        <span class="nav-page-text">Connecting to the Discovery Cluster</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_knowledge.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_annotation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
