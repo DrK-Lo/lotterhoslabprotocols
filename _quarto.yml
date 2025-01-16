@@ -109,6 +109,7 @@ website:
           - code_versioncontrol.qmd
           - code_quarto.qmd
           - code_annotation.qmd
+          - code_mixedmodels.qmd
       - section: "Discovery"
         contents:
           - discovery_1-gettingstarted.qmd
