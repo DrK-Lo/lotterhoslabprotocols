@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>profdev_reducingcognitiveload – Lotterhos Lab Protocols</title>
+<title>code_mixedmodels – Lotterhos Lab Protocols</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./profdev_How-to-publish-a-paper.html" rel="next">
-<link href="./profdev.html" rel="prev">
+<link href="./discovery_1-gettingstarted.html" rel="next">
+<link href="./code_annotation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -108,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./profdev.html">Professional Development</a></li><li class="breadcrumb-item"><a href="./profdev_ReducingCognitiveLoad.html">Reducing Cognitive Load</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_mixedmodels.html">Linear Mixed Effect Models</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -353,13 +382,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
  <span class="menu-text">Professional Development</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./profdev.html" class="sidebar-item-text sidebar-link">
@@ -368,7 +397,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./profdev_ReducingCognitiveLoad.html" class="sidebar-item-text sidebar-link active">
+  <a href="./profdev_ReducingCognitiveLoad.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reducing Cognitive Load</span></a>
   </div>
 </li>
@@ -578,13 +607,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
  <span class="menu-text">Coding Protocols</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./code_bioinformatics.html" class="sidebar-item-text sidebar-link">
@@ -671,7 +700,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code_mixedmodels.html" class="sidebar-item-text sidebar-link">
+  <a href="./code_mixedmodels.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Linear Mixed Effect Models</span></a>
   </div>
 </li>
@@ -822,148 +851,90 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#reducing-cognitive-load" id="toc-reducing-cognitive-load" class="nav-link active" data-scroll-target="#reducing-cognitive-load">Reducing Cognitive Load</a>
+  <li><a href="#linear-mixed-effect-models" id="toc-linear-mixed-effect-models" class="nav-link active" data-scroll-target="#linear-mixed-effect-models">Linear Mixed Effect Models</a>
   <ul class="collapse">
-  <li><a href="#reducing-load-on-ourselves" id="toc-reducing-load-on-ourselves" class="nav-link" data-scroll-target="#reducing-load-on-ourselves"><strong>Reducing load on ourselves</strong></a></li>
-  <li><a href="#unsuscribe-glei" id="toc-unsuscribe-glei" class="nav-link" data-scroll-target="#unsuscribe-glei"><strong>Unsuscribe (Glei)</strong></a></li>
-  <li><a href="#reducing-the-load-we-impose-on-others" id="toc-reducing-the-load-we-impose-on-others" class="nav-link" data-scroll-target="#reducing-the-load-we-impose-on-others"><strong>Reducing the load we impose on others</strong></a></li>
+  <li><a href="#learn-about-lme" id="toc-learn-about-lme" class="nav-link" data-scroll-target="#learn-about-lme">Learn about <code>lme</code></a></li>
+  <li><a href="#learn-lme4" id="toc-learn-lme4" class="nav-link" data-scroll-target="#learn-lme4">Learn <code>lme4</code></a></li>
+  <li><a href="#learn-about-approximating-degrees-of-freedom-getting-p-values-and-model-selection-from-lme4-with-lmertest" id="toc-learn-about-approximating-degrees-of-freedom-getting-p-values-and-model-selection-from-lme4-with-lmertest" class="nav-link" data-scroll-target="#learn-about-approximating-degrees-of-freedom-getting-p-values-and-model-selection-from-lme4-with-lmertest">Learn about approximating degrees of freedom, getting P-values, and model selection from lme4 with <code>lmertest</code></a></li>
+  <li><a href="#good-online-tutorials" id="toc-good-online-tutorials" class="nav-link" data-scroll-target="#good-online-tutorials">Good online tutorials</a></li>
+  <li><a href="#learn-about-bayesian-regression-models-brms" id="toc-learn-about-bayesian-regression-models-brms" class="nav-link" data-scroll-target="#learn-about-bayesian-regression-models-brms">Learn about Bayesian Regression Models <code>brms</code></a></li>
+  <li><a href="#how-to-write-about-mixed-models" id="toc-how-to-write-about-mixed-models" class="nav-link" data-scroll-target="#how-to-write-about-mixed-models">How to write about mixed models</a></li>
+  <li><a href="#frequently-asked-questions" id="toc-frequently-asked-questions" class="nav-link" data-scroll-target="#frequently-asked-questions">Frequently asked questions</a></li>
   </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_ReducingCognitiveLoad.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_mixedmodels.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./profdev.html">Professional Development</a></li><li class="breadcrumb-item"><a href="./profdev_ReducingCognitiveLoad.html">Reducing Cognitive Load</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_mixedmodels.html">Linear Mixed Effect Models</a></li></ol></nav></header>
 
 
 
 
-<section id="reducing-cognitive-load" class="level1">
-<h1>Reducing Cognitive Load</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_ReducingCognitiveLoad.qmd">Edit this page</a></p>
-<hr>
-<section id="reducing-load-on-ourselves" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="reducing-load-on-ourselves"><strong>Reducing load on ourselves</strong></h2>
+<section id="linear-mixed-effect-models" class="level1">
+<h1>Linear Mixed Effect Models</h1>
+<p>Here are some of Lotterhos’ notes on learning how to mix model</p>
+<p>We have a private <a href="https://drive.google.com/drive/folders/1L70xzfNel7eTYSbX0ZnmmvmBOL0iC4bO?usp=sharing">google drive with many of the resources</a></p>
+<section id="learn-about-lme" class="level3">
+<h3 class="anchored" data-anchor-id="learn-about-lme">Learn about <code>lme</code></h3>
+<p><a href="https://drive.google.com/file/d/1wmcZeZPiNoUtrrImV72fRI73MbVaD2gZ/view?usp=sharing">Mixed Effects Models and Extensions in Ecology with R - Zuur</a> * If you have taken intro Biostats, review lectures on general linear models, simple linear and multiple regression, ANCOVA, and their assumptions, and likelihood before starting in with this book. Then review and learn new ways to test for assumptions in Chapter 2. You should also review matrix algebra. * This is an older book published in 2008, but much of which is still relevant. * Testing assumptions - Chapter 2 * Learn about dealing with heterogeneity of variance in Chapter 4 * Mixed effects models and additive mixed effects models in Chapters 5,6,and7. * This book uses the <code>nlme</code> packages and the <code>lme</code> function, which has different syntax than lme4. However, the introduction to mixed modeling in Chapter 5 is an excellent place to start learning. Note that <code>lme</code> gives P-values for model effects, but we recommend using <code>lme4</code> with <code>lmertest</code> to generate these, or the package <code>brms</code> to take a Bayesian approach. * Chapter 5 exlplains the difference between the random intercept model, the random intercept and slope model, and the random affection model. * Section 5.7 talks about model selection and should be read, but <code>lmertest</code> offers better options for this * Chapter 6 - dealing with autocorrelation in regularly spaced time series intervals. * Generalized GLM and GAMs (Chap 8-11) * Chap 8 is a good introduction to different distributions that you can assume your data follow, and distributions to use if your response variable does not include 0 (zero-truncated) * Chapter 9 has a good section on overdispersion * Chap 10 dedicated to proportional and presence/absence data * Chap 11 zero-truncated and inflated models * Chapter 12-13 GEEs (generalized estimating equations) for repeated measures and longitudinal data * In Chapters 12 and 13, we concentrated on mod- els that allow for correlation and random effects in Poisson and binomial GLMs and GAMs. These models are called generalised estimation equations (GEE), gener- alised linear mixed modelling (GLMM), and generalised additive mixed modelling (GAMM).</p>
+</section>
+<section id="learn-lme4" class="level3">
+<h3 class="anchored" data-anchor-id="learn-lme4">Learn <code>lme4</code></h3>
 <ul>
-<li><p><a href="https://hamberg.no/gtd/">GTD Getting Things Done</a></p>
+<li><a href="https://cran.r-project.org/web/packages/lme4/vignettes/lmer.pdf">lme4 paper</a>
 <ul>
-<li>How to organize your lists - see website for details</li>
+<li>good explanations of the form of the models and syntax</li>
+<li>this paper has several sections on the mathematical details of the implementation, which can be skimmed, but be sure to pay attention again starting at 5.2</li>
+<li>for the sections “… and model comparison” and “Computing P-values” here on page 34+, be sure to read <code>lmertest</code>for a better alternative</li>
 </ul></li>
-<li><p>Organize tasks into short term critical, short term not critical, long term less critical, not critical</p></li>
-<li><p><a href="https://www.fastcompany.com/40507663/the-7-step-guide-to-achieving-inbox-zero-and-staying-there-in-2018">Declutter your inbox</a></p>
+<li><a href="https://cran.r-project.org/web/packages/lme4/vignettes/Theory.pdf">Mixed model theory</a>
 <ul>
-<li><p>Archive immediately no action items</p></li>
-<li><p>Do it if one minute or less</p></li>
-<li><p>If need more time, set a “snooze” to get it later</p></li>
-<li><p>Keep emails 5 sentences or less</p></li>
-<li><p>Make templates</p></li>
-<li><p>Unsubscribe from all lists or bundle promos</p></li>
-<li><p>Stop organizing your email</p></li>
-<li><p>Turn off notifications and create custom notifications for specific people</p>
-<ul>
-<li>Only check a few times a day</li>
+<li>This can be skimmed</li>
 </ul></li>
-</ul></li>
-<li><p><a href="https://productivityist.com/efficient-thinking/">Art of efficient thinking</a></p>
+<li><a href="https://cran.r-project.org/web/packages/lme4/vignettes/PLSvGLS.pdf">PLS vs GLS for linear mixed models</a>
 <ul>
-<li><p>Download your mind</p>
-<ul>
-<li><p>Dictation service, voice recording, copytalk</p></li>
-<li><p>Idea journal - storage space for ideas - not time sensitive</p></li>
-<li><p>Google keep - writing things down</p></li>
-<li><p>Avoid straining your brain by reducing decisions made each day (prepare lunch/clothes day before). Reduce amount of unimportant information.</p></li>
-</ul></li>
-</ul></li>
-<li><p>Bullet Journals</p>
-<ul>
-<li><p>Lots of You Tube videos</p></li>
-<li><p>We discussed whether this would actually reduce cognitive load because it takes so much time</p></li>
-</ul></li>
-<li><p><a href="https://hackernoon.com/minimizing-the-cognitive-load-in-your-life-bc14f4309fb2">Hacker Noon</a></p>
-<ul>
-<li><p>If something is incomplete, it’s in your mind</p></li>
-<li><p>Slight positive things have a small mental positive effect, while slight negative things have a large negative effect</p></li>
-<li><p>Read books over articles, avoid newspapers, facebook, etc.</p></li>
-<li><p>Writing alot reduces cognitive load</p></li>
-<li><p>“Decision exhaustion” has not held up in replicated studies</p></li>
-<li><p><code>Deep work</code> and <code>flow states</code> - as you do something more often, you need a shorter buildup to the point to become super productive</p></li>
+<li>This can be skimmed</li>
 </ul></li>
 </ul>
+<p><a href="https://cran.r-project.org/web/packages/lme4/vignettes/lmerperf.html">Performance tips</a> * This can be skimmed</p>
+<p><a href="http://www.bodowinter.com/tutorial/bw_LME_tutorial.pdf">tutorial with nested random effects</a></p>
 </section>
-<section id="unsuscribe-glei" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="unsuscribe-glei"><strong>Unsuscribe (Glei)</strong></h2>
+<section id="learn-about-approximating-degrees-of-freedom-getting-p-values-and-model-selection-from-lme4-with-lmertest" class="level3">
+<h3 class="anchored" data-anchor-id="learn-about-approximating-degrees-of-freedom-getting-p-values-and-model-selection-from-lme4-with-lmertest">Learn about approximating degrees of freedom, getting P-values, and model selection from lme4 with <code>lmertest</code></h3>
+<p>If <code>lme4</code> and REML offers good convergence for your model, then you may want to consider testing the significance of fixed and random effects with the <code>lmertest</code> package.</p>
+<p><a href="https://www.jstatsoft.org/article/view/v082i13">lmertest paper</a></p>
+<p><a href="http://www2.compute.dtu.dk/courses/02930/SummerschoolMaterialWeb/Readingmaterial/MixedModels-TuesdayandFriday/Packageandtutorialmaterial/lmerTestTutorial.pdf">vignette</a></p>
+</section>
+<section id="good-online-tutorials" class="level3">
+<h3 class="anchored" data-anchor-id="good-online-tutorials">Good online tutorials</h3>
 <ul>
-<li><p><em>Negativity bias</em> (Goleman research)</p>
-<ul>
-<li><p>If we perceive our email as positive, the receiver perceives it as neutral</p></li>
-<li><p>If we perceive our email as neutral, the receiver perceives it as negative</p></li>
-<li><p>This happens because of absence of normal social cues</p></li>
-<li><p>Play close attention to phrasing</p></li>
-</ul></li>
-<li><p><em>Busy bias</em></p>
-<ul>
-<li><p>Every email is colored by how busy we are and if we feel we have time for it</p></li>
-<li><p>10 years ago we spent 0 time on social media because it didn’t exist. Now we spend 1.72 hours a day.</p></li>
-<li><p>Corrosive choice anxiety</p></li>
-</ul></li>
-<li><p>Map work onto your calendar</p>
-<ul>
-<li><p>Start your day with meaningful work</p></li>
-<li><p>Daily routine - check email once at noon and once at end of day</p>
-<ul>
-<li><em>Switching cost</em> - creative work requires at least 25 minutes to get into the task after an interruption</li>
-</ul></li>
-<li><p>Outline your goals</p></li>
-<li><p>Signal to noise - thinking on the decade span instead of the day span “Days are long but the decades are short”</p></li>
-</ul></li>
-<li><p><em>Close the loop</em> - if you are asking a question, propose an answer</p></li>
-<li><p>Attention to detail:</p>
-<ul>
-<li><p>Compose first, add address later</p></li>
-<li><p>Any grammatical errors show lack of attention to detail</p></li>
-<li><p>To remove someone from a chain, bcc them and make sure to mention it in the email</p></li>
-</ul></li>
+<li><p><a href="http://www.bodowinter.com/tutorial/bw_LME_tutorial1.pdf">LM Tutorial 1</a> This is a good intro to basic linear models output and assumptions.</p></li>
+<li><p><a href="http://www.bodowinter.com/tutorial/bw_LME_tutorial.pdf">LME Tutorial</a> Good intro to mixed effect models. Uses likelihood ratio tests to compare models. Has a good section on random slopes vs.&nbsp;random intercepts. Has some citations “Moreover, researchers in ecology (Schielzeth &amp; Forstmeier, 2009), psycholinguistics (Barr, Levy, Scheepers, &amp; Tilly, 2013) and other fields have shown via simulations that mixed models without random slopes are anticonservative or, in other words, they have a relatively high Type I error rate (they tend to find a lot of significant results which are actually due to chance).”</p></li>
 </ul>
 </section>
-<section id="reducing-the-load-we-impose-on-others" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="reducing-the-load-we-impose-on-others"><strong>Reducing the load we impose on others</strong></h2>
+<section id="learn-about-bayesian-regression-models-brms" class="level3">
+<h3 class="anchored" data-anchor-id="learn-about-bayesian-regression-models-brms">Learn about Bayesian Regression Models <code>brms</code></h3>
+<p>The <code>brms</code> package offers the most versatility for modeling data, and can accommodate a whole family of different distributions. It even allows you to define your own functions and estimate parameters on those, and has a framework for hypothesis comparison of different effects with Bayes Factors. We’ve found this package is able to more accurately estimate parameters on methylation data than other packages.</p>
+<p>For example in Alan’s 2017 oyster exposure experiment: methylation data is binomially distributed (e.g., read counts for methylated or unmethylated) and in our case, we wanted to make sure to account for the random effect of tank in the experiment (see results). For some loci, we found with preliminary analyses that some approaches to generalized linear modeling failed to converge (when parameters were estimated via restricted maximum likelihood as implemented in lme4, or when the posterior distributions of the parameters were estimated via MCMC with Gibbs sampling as implemented in MCMCglmm). We traced this issue of convergence to loci in which all individuals within a treatment combination had 100% or 0% methylation, and with diverse levels of methylation in other treatments, making them biologically interesting and desirable to model correctly. As pointed out by Burkner, the approaches used by MCMCglmm can be slow to converge in high-dimensional models with correlated parameters and may depend on conjugate priors. We therefore took a robust approach to analyzing methylation data with Bayesian Regression Models (BRMs) in which the sampling on the posterior distributions on the parameters was accomplished with the No-U-Turn-Sampler (NUTS). This algorithm converges much more quickly for high-dimensional models regardless of whether the priors are conjugate or not.</p>
+</section>
+<section id="how-to-write-about-mixed-models" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-write-about-mixed-models">How to write about mixed models</h2>
 <ul>
-<li><p><a href="http://theelearningcoach.com/learning/reduce-cognitive-load/">Six strategies</a></p>
+<li><p>We had a <a href="https://docs.google.com/document/d/1jQZkbZbZuWnElYmLUntg5qgh1NG2-yAbsT3zzvmbkZ0/edit#heading=h.btb80w3ha1pf">lab professional development discussion on this</a></p></li>
+<li><p><strong>What to write in a paper?</strong> Check out Zuur and <a href="http://www.bodowinter.com/tutorial/bw_LME_tutorial.pdf">LME Tutorial</a> for examples.</p></li>
+</ul>
+</section>
+<section id="frequently-asked-questions" class="level2">
+<h2 class="anchored" data-anchor-id="frequently-asked-questions">Frequently asked questions</h2>
 <ul>
-<li><p>Maintain signal to noise ratio - get rid of all the noise</p></li>
-<li><p>Promote generative strategies - get learner to interact and generate their own ideas</p></li>
-<li><p>Write concisely</p></li>
-<li><p>Supplantive strategies - small steps to bigger problem/tasks</p></li>
-<li><p>Collaborative learning - divide cognitive process across several individuals</p></li>
-<li><p>Provide cognitive aids - lists, tools, strategies to offload task complexity</p>
+<li><p><strong>How do you know you want to model an explanatory variable as fixed or random?</strong> If the levels of your explanatory variable represent a subset of an entire population of levels of that variable, then this should be modeled as random.</p>
 <ul>
-<li>Mindmap on kumu.com</li>
+<li>For more information see <a href="https://cran.r-project.org/web/packages/lme4/vignettes/lmer.pdf">lme4 paper</a> page 6.</li>
 </ul></li>
-</ul></li>
-<li><p><a href="https://blog.bananatag.com/internal-comms/cognitive-load-impact-on-internal-emails">Use F-pattern emails</a></p>
-<ul>
-<li><p>5-second test - can someone else understand it in 5 sec?</p></li>
-<li><p>Predictability - email templates</p></li>
-<li><p>Visible flow - heading organization and white space</p></li>
-<li><p>Ease of skimming/scanning -</p>
-<ul>
-<li><p>people skim emails in an F pattern - use pointed headings to convey message and short paragraphs</p></li>
-<li><p>most important information at the top</p></li>
-</ul></li>
-</ul></li>
-<li><p><a href="https://hbr.org/2016/11/how-to-write-email-with-military-precision">Write an email with military precision</a></p>
-<ul>
-<li><p>Informative subject line with keywords</p>
-<ul>
-<li>What do I want by emailing this person and distill it to one word</li>
-</ul></li>
-<li><p>Bottom line up front (BLUF)</p>
-<ul>
-<li>Most important information at the top</li>
-</ul></li>
-<li><p>Don’t make recipient scroll - keep it short</p></li>
-<li><p>Use active voice<br>
-</p></li>
-</ul></li>
+<li><p><strong>Do your random effects or subjects appear to vary in the slopes AND intercepts relationships?</strong> Use data visualization to explore the linear relationship across levels of the random explanatory variable(s). An example is shown in <a href="https://cran.r-project.org/web/packages/lme4/vignettes/lmer.pdf">lme4 paper</a> page 4. If so, this suggests a model with random slopes and intercepts.</p></li>
+<li><p><strong>What are the dimensions of linear models (e.g.&nbsp;p, q, n, etc.)?</strong> See <a href="https://cran.r-project.org/web/packages/lme4/vignettes/lmer.pdf">lme4 paper</a> page 8</p></li>
+<li><p><strong>What does <span class="math inline">\(X^TX\)</span> do?</strong> This is a common approach seen in statistics. (WILL ADD MORE)</p></li>
+<li><p><strong>What is REML?</strong> See section 5.6 of Zuur for a great explanation.</p></li>
 </ul>
 
 
@@ -1390,13 +1361,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./profdev.html" class="pagination-link" aria-label="Professional Development Resources">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Professional Development Resources</span>
+      <a href="./code_annotation.html" class="pagination-link" aria-label="Annotation and GO Enrichment">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Annotation and GO Enrichment</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./profdev_How-to-publish-a-paper.html" class="pagination-link" aria-label="How to Publish a Paper">
-        <span class="nav-page-text">How to Publish a Paper</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./discovery_1-gettingstarted.html" class="pagination-link" aria-label="Connecting to the Discovery Cluster">
+        <span class="nav-page-text">Connecting to the Discovery Cluster</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1405,4 +1376,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/profdev_ReducingCognitiveLoad.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_mixedmodels.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
