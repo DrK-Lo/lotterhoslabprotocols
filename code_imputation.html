@@ -834,9 +834,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#background-on-lea-and-impute" id="toc-background-on-lea-and-impute" class="nav-link" data-scroll-target="#background-on-lea-and-impute">Background on LEA and impute()</a></li>
   <li><a href="#full-vs-thinned-snp-sets" id="toc-full-vs-thinned-snp-sets" class="nav-link" data-scroll-target="#full-vs-thinned-snp-sets">Full vs thinned SNP sets</a></li>
   <li><a href="#general-imputation-workflow" id="toc-general-imputation-workflow" class="nav-link" data-scroll-target="#general-imputation-workflow">General imputation workflow</a></li>
-  <li><a href="#preparing-your-snp-matrix" id="toc-preparing-your-snp-matrix" class="nav-link" data-scroll-target="#preparing-your-snp-matrix">Preparing your SNP matrix</a></li>
-  <li><a href="#imputing-and-producing-the-full-snp-set" id="toc-imputing-and-producing-the-full-snp-set" class="nav-link" data-scroll-target="#imputing-and-producing-the-full-snp-set">Imputing and producing the full SNP set</a></li>
-  <li><a href="#filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" id="toc-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="nav-link" data-scroll-target="#filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Filtering for linkage disequilibrium and producing the thinned SNP set</a></li>
+  <li><a href="#step-1-preparing-your-snp-matrix" id="toc-step-1-preparing-your-snp-matrix" class="nav-link" data-scroll-target="#step-1-preparing-your-snp-matrix">Step 1: Preparing your SNP matrix</a></li>
+  <li><a href="#step-2-filter-for-missing-data" id="toc-step-2-filter-for-missing-data" class="nav-link" data-scroll-target="#step-2-filter-for-missing-data">Step 2: Filter for missing data</a></li>
+  <li><a href="#step-3-filter-for-maf" id="toc-step-3-filter-for-maf" class="nav-link" data-scroll-target="#step-3-filter-for-maf">Step 3: Filter for MAF</a></li>
+  <li><a href="#step-4-imputing-and-producing-the-full-snp-set" id="toc-step-4-imputing-and-producing-the-full-snp-set" class="nav-link" data-scroll-target="#step-4-imputing-and-producing-the-full-snp-set">Step 4: Imputing and producing the full SNP set</a></li>
+  <li><a href="#step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" id="toc-step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="nav-link" data-scroll-target="#step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set</a></li>
   <li><a href="#other-imputation-methods" id="toc-other-imputation-methods" class="nav-link" data-scroll-target="#other-imputation-methods">Other imputation methods</a></li>
   </ul></li>
   </ul>
@@ -892,12 +894,40 @@ ul.task-list li input[type="checkbox"] {
 <li>THIS STEP PRODUCES YOUR THINNED SNP DATASET</li>
 </ol>
 </section>
-<section id="preparing-your-snp-matrix" class="level2">
-<h2 class="anchored" data-anchor-id="preparing-your-snp-matrix">Preparing your SNP matrix</h2>
+<section id="step-1-preparing-your-snp-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-preparing-your-snp-matrix">Step 1: Preparing your SNP matrix</h2>
 <p>To prepare to use the <code>impute()</code> function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you’re starting with a VCF file of genotypes from the sequencing facility, use the <code>extract.gt()</code> function to extract the genotype values into a data frame from the VCF. For an example on how to do this, ask for access to the <code>genotypes_experimental.R</code> script that was used for the Cvi MVP H2F project.</p>
 </section>
-<section id="imputing-and-producing-the-full-snp-set" class="level2">
-<h2 class="anchored" data-anchor-id="imputing-and-producing-the-full-snp-set">Imputing and producing the full SNP set</h2>
+<section id="step-2-filter-for-missing-data" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-filter-for-missing-data">Step 2: Filter for missing data</h2>
+<p>The threshold of missing data can change depending on your dataset. For our Cvi MVP samples, we decided to use a 10% missingness threshold (e.g.&nbsp;any individual or loci that has more than 10% missing data across the entire data set will be removed). Here in this example, our SNP matrix is called <code>exp_ordered</code> and contains sequenced individuals in rows, SNPs in columns. We detect 2.9k SNPs that are above the threshold of 0.10 and remove them, producing a reduced data frame called <code>exp_cleaned_columns</code>. The same is repeated with the rows, but no individuals are detected that exceed the missingness threshold (yay, good data!). We also have a separate mutations dataframe that stores some functional annotations of the SNPs, so I also subset that <code>muts_filtered</code> to produce an equal number of retained SNPs as my genotype matrix.</p>
+<pre><code># look at where our data is missing in rows
+hist_rows &lt;- rowSums(is.na(exp_ordered))
+hist(hist_rows)
+
+# look at where our data is missing in columns
+cols_hist &lt;- colSums(is.na(exp_ordered))
+hist(cols_hist)
+
+# Filter out cols with missing data
+missing_threshold &lt;- 0.10  #10%
+snp_missing_prop &lt;- colMeans(is.na(exp_ordered))
+exp_cleaned_columns &lt;- exp_ordered[, snp_missing_prop &lt;= missing_threshold]
+dim(exp_cleaned_columns) # removed 2976 SNPs
+
+# Filter out the rows with missing data
+ind_missing_prop &lt;- rowMeans(is.na(exp_ordered))
+inds_missing &lt;- which(ind_missing_prop &gt; missing_threshold) # length 0, all inds pass
+
+# filter the muts database to just keep our SNPs that meet the missingness threshold
+muts_filtered &lt;- muts[snp_missing_prop &lt;= missing_threshold, ]
+dim(muts_filtered) #191994 SNPs</code></pre>
+</section>
+<section id="step-3-filter-for-maf" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-filter-for-maf">Step 3: Filter for MAF</h2>
+</section>
+<section id="step-4-imputing-and-producing-the-full-snp-set" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-imputing-and-producing-the-full-snp-set">Step 4: Imputing and producing the full SNP set</h2>
 <p>Here we have our filtered SNP matrix called <code>GEN_filtered</code>. This matrix has been filtered for MAF and missingness.</p>
 <pre><code># Impute #####################################################################
 # use snmf on our genotype matrix with 154k SNPs
@@ -913,8 +943,8 @@ impute(exp.project.snmf, "merged_data/genotypes/20250203_genotypes_exp.lfmm", me
 GEN_imputed &lt;- as.data.frame(read.table("merged_data/genotypes/20250203_genotypes_exp.lfmm_imputed.lfmm", header = FALSE))
 saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set</code></pre>
 </section>
-<section id="filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="level2">
-<h2 class="anchored" data-anchor-id="filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Filtering for linkage disequilibrium and producing the thinned SNP set</h2>
+<section id="step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="level2">
+<h2 class="anchored" data-anchor-id="step-5-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set</h2>
 <p>Here, we read in the thinned SNP set and use the <code>bigsnpr</code> and <code>bigstatsr</code> packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of <code>thr.r2 = 0.2</code>, but this can be explored for your data.</p>
 <pre><code>GEN_imputed &lt;- readRDS("/Users/madelineeppley/Desktop/20250203_FULLSNPs_exp.rds")
 gen_impute &lt;- add_code256(big_copy(GEN_imputed,type="raw"),code=bigsnpr:::CODE_012)
