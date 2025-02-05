@@ -25,8 +25,8 @@ It is important to understand what type of SNPs you want to retain in your datas
 3. Filter for minor allele frequency (MAF)
 4. Impute 
   i. THIS STEP PRODUCES YOUR FULL SNP DATASET  
-5. Filter for linkage disequilibrium 
-  i. THIS STEP PRODUCES YORU THINNED SNP DATASET
+5. Filter your full SNP dataset for linkage disequilibrium 
+  i. THIS STEP PRODUCES YOUR THINNED SNP DATASET
 
 
 ## Preparing your SNP matrix
@@ -35,7 +35,7 @@ To prepare to use the `impute()` function, you should arrage your SNP data in a 
 ## Imputing and producing the full SNP set
 Here we have our filtered SNP matrix called `GEN_filtered`. This matrix has been filtered for MAF and missingness.
 
-```
+```{r}
 # Impute #####################################################################
 # use snmf on our genotype matrix with 154k SNPs
 write.lfmm(GEN_filtered, "merged_data/genotypes/20250203_genotypes_exp.lfmm")
@@ -54,7 +54,7 @@ saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") #
 ## Filtering for linkage disequilibrium and producing the thinned SNP set 
 Here, we read in the thinned SNP set and use the `bigsnpr` and `bigstatsr` packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of `thr.r2 = 0.2`, but this can be explored for your data.  
 
-```
+```{r}
 GEN_imputed <- readRDS("/Users/madelineeppley/Desktop/20250203_FULLSNPs_exp.rds")
 gen_impute <- add_code256(big_copy(GEN_imputed,type="raw"),code=bigsnpr:::CODE_012)
 
@@ -76,3 +76,8 @@ thinned_snps <- attr(pca_inv, which="subset") # SNPs n=104958, this step outputs
 gen_filtered_subset <- GEN_imputed[, thinned_snps] # subset the full imputed dataset by the thinned SNP positions
 saveRDS(gen_filtered_subset, file = "/Users/madelineeppley/Desktop/20250203_THINNEDSNPs_exp.rds")
 ```
+
+## Other imputation methods
+I've tried several different imputation methods before deciding on using LEA. Since the rest of the scripting was done in R for the Cvi MVP project, we elected to use LEA for ease of use. However, other imputation methods, such as BEAGLE, snpStats, and bigsnpr. I was unsuccessful with getting bigsnpr to work on our data, but it did sound promising. Here are my notes: 
+
+[bigsnpr](https://privefl.github.io/bigsnpr/reference/snp_fastImputeSimple.html) is good for large datasets and will already work with the genotype matrix in its current format. This method will reduce chances of introducing structure because it compares each individual with missing SNPs to a generated “reference panel” based on the input data.  It will automatically compute a reference panel based on the input genotype matrix, then each individual will be imputed based on the comparison to the reference panel. I assume it is averages across all inds in the dataset (“mean” type of approach) although you can specify method as well (mode, mean0, mean2, or random). It will output a new imputed genotype matrix in a .rds file format.
