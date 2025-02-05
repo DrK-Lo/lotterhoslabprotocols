@@ -932,13 +932,8 @@ pca_inv &lt;- snp_autoSVD(gen_impute,
                        size= 100/thr.r2, # explore
 )
 
-thinned_snps &lt;- attr(pca_inv, which="subset") # SNPs n=104958
-gen_filtered_subset &lt;- GEN_imputed[, thinned_snps]
-muts_maf_thinned_filtered &lt;- muts_maf_filtered[thinned_snps, ]
-snp_names &lt;- muts_maf_thinned_filtered$Affx.ID
-colnames(gen_filtered_subset) &lt;- snp_names
-ind_names &lt;- samp_full_subset$merge_ID_inds
-rownames(gen_filtered_subset) &lt;- ind_names
+thinned_snps &lt;- attr(pca_inv, which="subset") # SNPs n=104958, this step outputs the integer positions of your SNPs that should be retained in the thinned set
+gen_filtered_subset &lt;- GEN_imputed[, thinned_snps] # subset the full imputed dataset by the thinned SNP positions
 saveRDS(gen_filtered_subset, file = "/Users/madelineeppley/Desktop/20250203_THINNEDSNPs_exp.rds")</code></pre>
 
 
