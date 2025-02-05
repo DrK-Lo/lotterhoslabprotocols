@@ -50,3 +50,34 @@ impute(exp.project.snmf, "merged_data/genotypes/20250203_genotypes_exp.lfmm", me
 GEN_imputed <- as.data.frame(read.table("merged_data/genotypes/20250203_genotypes_exp.lfmm_imputed.lfmm", header = FALSE))
 saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set
 ```
+
+## Filtering for linkage disequilibrium and producing the thinned SNP set 
+Here, we read in the thinned SNP set and use the `bigsnpr` and `bigstatsr` packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of `thr.r2 = 0.2`, but this can be explored for your data.  
+
+```
+GEN_imputed <- readRDS("/Users/madelineeppley/Desktop/20250203_FULLSNPs_exp.rds")
+gen_impute <- add_code256(big_copy(GEN_imputed,type="raw"),code=bigsnpr:::CODE_012)
+
+# double check our dimensions
+muts_maf_filtered <- readRDS("/Users/madelineeppley/Desktop/20250203_FULLmuts_exp.rds")
+dim(GEN_imputed)
+dim(muts_maf_filtered) # matches
+
+thr.r2 <- 0.2
+# create the thinned SNP set 
+pca_inv <- snp_autoSVD(gen_impute,
+                       infos.chr= muts_maf_filtered$Chromosome,
+                       infos.pos = muts_maf_filtered$Position,
+                       thr.r2=thr.r2,  # correlation LD
+                       size= 100/thr.r2, # explore
+)
+
+thinned_snps <- attr(pca_inv, which="subset") # SNPs n=104958
+gen_filtered_subset <- GEN_imputed[, thinned_snps]
+muts_maf_thinned_filtered <- muts_maf_filtered[thinned_snps, ]
+snp_names <- muts_maf_thinned_filtered$Affx.ID
+colnames(gen_filtered_subset) <- snp_names
+ind_names <- samp_full_subset$merge_ID_inds
+rownames(gen_filtered_subset) <- ind_names
+saveRDS(gen_filtered_subset, file = "/Users/madelineeppley/Desktop/20250203_THINNEDSNPs_exp.rds")
+```
