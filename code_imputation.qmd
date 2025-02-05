@@ -1,14 +1,21 @@
 # Imputing SNP datasets 
 #### Written by M.G.E 2/5/2025
+https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/code_imputation.qmd
 
-### Recommended pre-reading
-Before starting the SNP imputation and filtering process, I recommend reading the following: 
+## Recommended pre-reading
+Before starting the SNP imputation and filtering process, I recommend reading the following:
+
 1. [LEA 3: Factor models in population genetics and ecological genomics with R](https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13366), Gain et al 2021 
+
 2. [These aren’t the loci you're looking for: Principles of effective SNP filtering for molecular ecologists](https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14792), O'Leary et al 2018
+
 3. [Fast and Efficient Estimation of Individual Ancestry Coefficients](https://pmc.ncbi.nlm.nih.gov/articles/PMC3982712/), Frichot et al 2014
 
 If you're short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation. 
 
-### Background on LEA and impute()
+## Background on LEA and impute()
 We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an '_imputed.lfmm' suffix. The function takes the follwing arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). 
+
+## Preparing your SNP matrix
+To prepare to use the impute() function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you're starting with a VCF file of genotypes from the sequencing facility, use the extract.gt() function to extract the genotype values into a data frame from the VCF. Here's an example of how this was done for some eastern oyster (C. virginica) genotypes. 
 
