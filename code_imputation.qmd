@@ -14,13 +14,13 @@ Before starting the SNP imputation and filtering process, I recommend reading th
 If you're short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation. 
 
 ## Background on LEA and impute()
-We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an '_imputed.lfmm' suffix. The function takes the follwing arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). 
+We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an `_imputed.lfmm` suffix. The function takes the follwing arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). 
 
-## FULL vs THINNED SNP sets
+## Full vs thinned SNP sets
 It is important to understand what type of SNPs you want to retain in your dataset for downstream anaylses. 
 
 ## General imputation workflow
-1. Transfer your data into a genotype matrix format. We have developed code for extracting genotype values from a VCF using the `extract.gt()` function (see 'Preparing SNP matrix' section below).  
+1. Transfer your data into a genotype matrix format. We have developed code for extracting genotype values from a VCF using the `extract.gt()` function (see [Preparing SNP matrix](https://drk-lo.github.io/lotterhoslabprotocols/code_imputation.html#preparing-your-snp-matrix) section below).  
 2. Filter for missing data. This typically includes: removing low-quality calls (often done by the sequencing facility, but double-check), removing individuals with >10% missing data across all loci, and removing SNPs with >10% missing data across all individuals. 
 3. Filter for minor allele frequency (MAF)
 4. Impute 
@@ -30,10 +30,13 @@ It is important to understand what type of SNPs you want to retain in your datas
 
 
 ## Preparing your SNP matrix
-To prepare to use the impute() function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you're starting with a VCF file of genotypes from the sequencing facility, use the `extract.gt()` function to extract the genotype values into a data frame from the VCF. For an example on how to do this, ask for access to the `genotypes_experimental.R` script that was used for the Cvi MVP H2F project. 
+To prepare to use the `impute()` function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you're starting with a VCF file of genotypes from the sequencing facility, use the `extract.gt()` function to extract the genotype values into a data frame from the VCF. For an example on how to do this, ask for access to the `genotypes_experimental.R` script that was used for the Cvi MVP H2F project. 
 
+## Imputing and producing the full SNP set
+Here we have our filtered SNP matrix called `GEN_filtered`. This matrix has been filtered for MAF and missingness.
 
-`# Impute #####################################################################
+```
+# Impute #####################################################################
 # use snmf on our genotype matrix with 154k SNPs
 write.lfmm(GEN_filtered, "merged_data/genotypes/20250203_genotypes_exp.lfmm")
 
@@ -45,4 +48,5 @@ impute(exp.project.snmf, "merged_data/genotypes/20250203_genotypes_exp.lfmm", me
 
 # store the imputed SNP set as a matrix 
 GEN_imputed <- as.data.frame(read.table("merged_data/genotypes/20250203_genotypes_exp.lfmm_imputed.lfmm", header = FALSE))
-saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set`
+saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set
+```
