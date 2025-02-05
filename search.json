@@ -100,7 +100,43 @@
     "href": "code_imputation.html",
     "title": "Imputing SNP datasets",
     "section": "",
-    "text": "Imputing SNP datasets\n\nWritten by M.G.E 2/5/2025\n\n\nRecommended pre-reading\nBefore starting the SNP imputation and filtering process, I recommend reading the following: 1. LEA 3: Factor models in population genetics and ecological genomics with R, Gain et al 2021 2. These aren’t the loci you’re looking for: Principles of effective SNP filtering for molecular ecologists, O’Leary et al 2018 3. Fast and Efficient Estimation of Individual Ancestry Coefficients, Frichot et al 2014\nIf you’re short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation.\n\n\nBackground on LEA and impute()\nWe will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an ’_imputed.lfmm’ suffix. The function takes the follwing arguments: impute (object, input.file, method, K, run). See more details here.",
+    "text": "https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/code_imputation.qmd\n\n\n\nBefore starting the SNP imputation and filtering process, I recommend reading the following:\n\nLEA 3: Factor models in population genetics and ecological genomics with R, Gain et al 2021\nThese aren’t the loci you’re looking for: Principles of effective SNP filtering for molecular ecologists, O’Leary et al 2018\nFast and Efficient Estimation of Individual Ancestry Coefficients, Frichot et al 2014\n\nIf you’re short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation.\n\n\n\nWe will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an ’_imputed.lfmm’ suffix. The function takes the follwing arguments: impute (object, input.file, method, K, run). See more details here.\n\n\n\nTo prepare to use the impute() function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you’re starting with a VCF file of genotypes from the sequencing facility, use the extract.gt() function to extract the genotype values into a data frame from the VCF. Here’s an example of how this was done for some eastern oyster (C. virginica) genotypes.",
+    "crumbs": [
+      "Home",
+      "Coding Protocols",
+      "Imputing SNP datasets"
+    ]
+  },
+  {
+    "objectID": "code_imputation.html#recommended-pre-reading",
+    "href": "code_imputation.html#recommended-pre-reading",
+    "title": "Imputing SNP datasets",
+    "section": "",
+    "text": "Before starting the SNP imputation and filtering process, I recommend reading the following:\n\nLEA 3: Factor models in population genetics and ecological genomics with R, Gain et al 2021\nThese aren’t the loci you’re looking for: Principles of effective SNP filtering for molecular ecologists, O’Leary et al 2018\nFast and Efficient Estimation of Individual Ancestry Coefficients, Frichot et al 2014\n\nIf you’re short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation.",
+    "crumbs": [
+      "Home",
+      "Coding Protocols",
+      "Imputing SNP datasets"
+    ]
+  },
+  {
+    "objectID": "code_imputation.html#background-on-lea-and-impute",
+    "href": "code_imputation.html#background-on-lea-and-impute",
+    "title": "Imputing SNP datasets",
+    "section": "",
+    "text": "We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an ’_imputed.lfmm’ suffix. The function takes the follwing arguments: impute (object, input.file, method, K, run). See more details here.",
+    "crumbs": [
+      "Home",
+      "Coding Protocols",
+      "Imputing SNP datasets"
+    ]
+  },
+  {
+    "objectID": "code_imputation.html#preparing-your-snp-matrix",
+    "href": "code_imputation.html#preparing-your-snp-matrix",
+    "title": "Imputing SNP datasets",
+    "section": "",
+    "text": "To prepare to use the impute() function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you’re starting with a VCF file of genotypes from the sequencing facility, use the extract.gt() function to extract the genotype values into a data frame from the VCF. Here’s an example of how this was done for some eastern oyster (C. virginica) genotypes.",
     "crumbs": [
       "Home",
       "Coding Protocols",

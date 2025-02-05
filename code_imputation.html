@@ -832,6 +832,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#recommended-pre-reading" id="toc-recommended-pre-reading" class="nav-link" data-scroll-target="#recommended-pre-reading">Recommended pre-reading</a></li>
   <li><a href="#background-on-lea-and-impute" id="toc-background-on-lea-and-impute" class="nav-link" data-scroll-target="#background-on-lea-and-impute">Background on LEA and impute()</a></li>
+  <li><a href="#preparing-your-snp-matrix" id="toc-preparing-your-snp-matrix" class="nav-link" data-scroll-target="#preparing-your-snp-matrix">Preparing your SNP matrix</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_imputation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -846,15 +847,25 @@ ul.task-list li input[type="checkbox"] {
 <h1>Imputing SNP datasets</h1>
 <section id="written-by-m.g.e-252025" class="level4">
 <h4 class="anchored" data-anchor-id="written-by-m.g.e-252025">Written by M.G.E 2/5/2025</h4>
+<p>https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/code_imputation.qmd</p>
 </section>
-<section id="recommended-pre-reading" class="level3">
-<h3 class="anchored" data-anchor-id="recommended-pre-reading">Recommended pre-reading</h3>
-<p>Before starting the SNP imputation and filtering process, I recommend reading the following: 1. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13366">LEA 3: Factor models in population genetics and ecological genomics with R</a>, Gain et al 2021 2. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14792">These aren’t the loci you’re looking for: Principles of effective SNP filtering for molecular ecologists</a>, O’Leary et al 2018 3. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3982712/">Fast and Efficient Estimation of Individual Ancestry Coefficients</a>, Frichot et al 2014</p>
+<section id="recommended-pre-reading" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-pre-reading">Recommended pre-reading</h2>
+<p>Before starting the SNP imputation and filtering process, I recommend reading the following:</p>
+<ol type="1">
+<li><p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13366">LEA 3: Factor models in population genetics and ecological genomics with R</a>, Gain et al 2021</p></li>
+<li><p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14792">These aren’t the loci you’re looking for: Principles of effective SNP filtering for molecular ecologists</a>, O’Leary et al 2018</p></li>
+<li><p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3982712/">Fast and Efficient Estimation of Individual Ancestry Coefficients</a>, Frichot et al 2014</p></li>
+</ol>
 <p>If you’re short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation.</p>
 </section>
-<section id="background-on-lea-and-impute" class="level3">
-<h3 class="anchored" data-anchor-id="background-on-lea-and-impute">Background on LEA and impute()</h3>
+<section id="background-on-lea-and-impute" class="level2">
+<h2 class="anchored" data-anchor-id="background-on-lea-and-impute">Background on LEA and impute()</h2>
 <p>We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an ’_imputed.lfmm’ suffix. The function takes the follwing arguments: <code>impute (object, input.file, method, K, run)</code>. See more details <a href="https://rdrr.io/bioc/LEA/man/impute.html">here</a>.</p>
+</section>
+<section id="preparing-your-snp-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="preparing-your-snp-matrix">Preparing your SNP matrix</h2>
+<p>To prepare to use the impute() function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you’re starting with a VCF file of genotypes from the sequencing facility, use the extract.gt() function to extract the genotype values into a data frame from the VCF. Here’s an example of how this was done for some eastern oyster (C. virginica) genotypes.</p>
 
 
 </section>
