@@ -870,7 +870,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="full-vs-thinned-snp-sets" class="level2">
 <h2 class="anchored" data-anchor-id="full-vs-thinned-snp-sets">Full vs thinned SNP sets</h2>
-<p>It is important to understand what type of SNPs you want to retain in your dataset for downstream anaylses.</p>
+<p>It is important to understand what type of SNPs you want to retain in your dataset for downstream anaylses. Your full SNP set will be all SNPs that are retained after filtering for missingness and MAF and imputed. Your thinned SNP set will be a subsetted version of the full SNP set that removes SNPs in LD. Generally, you want to use a full SNP set for detecing selection and functional loci detection (e.g.&nbsp;gene ontology), and use a thinned SNP set for population structure (e.g.&nbsp;PCA, ancestry/structure).</p>
 </section>
 <section id="general-imputation-workflow" class="level2">
 <h2 class="anchored" data-anchor-id="general-imputation-workflow">General imputation workflow</h2>
@@ -939,7 +939,7 @@ saveRDS(gen_filtered_subset, file = "/Users/madelineeppley/Desktop/20250203_THIN
 </section>
 <section id="other-imputation-methods" class="level2">
 <h2 class="anchored" data-anchor-id="other-imputation-methods">Other imputation methods</h2>
-<p>I’ve tried several different imputation methods before deciding on using LEA. Since the rest of the scripting was done in R for the Cvi MVP project, we elected to use LEA for ease of use. However, other imputation methods, such as BEAGLE, snpStats, and bigsnpr. I was unsuccessful with getting bigsnpr to work on our data, but it did sound promising. Here are my notes:</p>
+<p>I’ve tried several different imputation methods before deciding on using LEA. Since the rest of the scripting was done in R for the Cvi MVP project, we elected to use LEA for ease of use. However, other imputation methods, such as BEAGLE, snpStats, and bigsnpr are also often used in pop gen studies. I was unsuccessful with getting bigsnpr to work on our data, but it did sound promising. Here are my notes:</p>
 <p><a href="https://privefl.github.io/bigsnpr/reference/snp_fastImputeSimple.html">bigsnpr</a> is good for large datasets and will already work with the genotype matrix in its current format. This method will reduce chances of introducing structure because it compares each individual with missing SNPs to a generated “reference panel” based on the input data. It will automatically compute a reference panel based on the input genotype matrix, then each individual will be imputed based on the comparison to the reference panel. I assume it is averages across all inds in the dataset (“mean” type of approach) although you can specify method as well (mode, mean0, mean2, or random). It will output a new imputed genotype matrix in a .rds file format.</p>
 
 
