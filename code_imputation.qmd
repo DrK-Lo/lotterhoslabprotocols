@@ -29,10 +29,39 @@ It is important to understand what type of SNPs you want to retain in your datas
   i. THIS STEP PRODUCES YOUR THINNED SNP DATASET
 
 
-## Preparing your SNP matrix
+## Step 1: Preparing your SNP matrix
 To prepare to use the `impute()` function, you should arrage your SNP data in a matrix with individuals in rows and your SNPs in columns. If you're starting with a VCF file of genotypes from the sequencing facility, use the `extract.gt()` function to extract the genotype values into a data frame from the VCF. For an example on how to do this, ask for access to the `genotypes_experimental.R` script that was used for the Cvi MVP H2F project. 
 
-## Imputing and producing the full SNP set
+## Step 2: Filter for missing data
+The threshold of missing data can change depending on your dataset. For our Cvi MVP samples, we decided to use a 10% missingness threshold (e.g. any individual or loci that has more than 10% missing data across the entire data set will be removed). Here in this example, our SNP matrix is called `exp_ordered` and contains sequenced individuals in rows, SNPs in columns. We detect 2.9k SNPs that are above the threshold of 0.10 and remove them, producing a reduced data frame called `exp_cleaned_columns`. The same is repeated with the rows, but no individuals are detected that exceed the missingness threshold (yay, good data!). We also have a separate mutations dataframe that stores some functional annotations of the SNPs, so I also subset that `muts_filtered` to produce an equal number of retained SNPs as my genotype matrix. 
+
+```
+# look at where our data is missing in rows
+hist_rows <- rowSums(is.na(exp_ordered))
+hist(hist_rows)
+
+# look at where our data is missing in columns
+cols_hist <- colSums(is.na(exp_ordered))
+hist(cols_hist)
+
+# Filter out cols with missing data
+missing_threshold <- 0.10  #10%
+snp_missing_prop <- colMeans(is.na(exp_ordered))
+exp_cleaned_columns <- exp_ordered[, snp_missing_prop <= missing_threshold]
+dim(exp_cleaned_columns) # removed 2976 SNPs
+
+# Filter out the rows with missing data
+ind_missing_prop <- rowMeans(is.na(exp_ordered))
+inds_missing <- which(ind_missing_prop > missing_threshold) # length 0, all inds pass
+
+# filter the muts database to just keep our SNPs that meet the missingness threshold
+muts_filtered <- muts[snp_missing_prop <= missing_threshold, ]
+dim(muts_filtered) #191994 SNPs
+```
+
+## Step 3: Filter for MAF
+
+## Step 4: Imputing and producing the full SNP set
 Here we have our filtered SNP matrix called `GEN_filtered`. This matrix has been filtered for MAF and missingness.
 
 ```
@@ -51,7 +80,7 @@ GEN_imputed <- as.data.frame(read.table("merged_data/genotypes/20250203_genotype
 saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set
 ```
 
-## Filtering for linkage disequilibrium and producing the thinned SNP set 
+## Step 5: Filtering for linkage disequilibrium and producing the thinned SNP set 
 Here, we read in the thinned SNP set and use the `bigsnpr` and `bigstatsr` packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of `thr.r2 = 0.2`, but this can be explored for your data.  
 
 ```
