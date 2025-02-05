@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>code_troubleshootingcellprofiler – Lotterhos Lab Protocols</title>
+<title>code_imputation – Lotterhos Lab Protocols</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./code_unixcommands.html" rel="next">
-<link href="./code_setseeds.html" rel="prev">
+<link href="./discovery_1-gettingstarted.html" rel="next">
+<link href="./code_mixedmodels.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_TroubleshootingCellprofiler.html">Troubleshooting CellProfiler Installation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_imputation.html">code_imputation.html</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -641,7 +641,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code_TroubleshootingCellprofiler.html" class="sidebar-item-text sidebar-link active">
+  <a href="./code_TroubleshootingCellprofiler.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Troubleshooting CellProfiler Installation</span></a>
   </div>
 </li>
@@ -677,7 +677,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./code_imputation.html" class="sidebar-item-text sidebar-link">
+  <a href="./code_imputation.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">code_imputation.html</span></a>
   </div>
 </li>
@@ -823,77 +823,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#troubleshooting-cellprofiler-installation" id="toc-troubleshooting-cellprofiler-installation" class="nav-link active" data-scroll-target="#troubleshooting-cellprofiler-installation">Troubleshooting CellProfiler Installation</a>
-  <ul class="collapse">
-  <li><a href="#pay-attention-to-pip-version" id="toc-pay-attention-to-pip-version" class="nav-link" data-scroll-target="#pay-attention-to-pip-version"><strong>Pay attention to pip version</strong></a></li>
-  <li><a href="#permission-errors" id="toc-permission-errors" class="nav-link" data-scroll-target="#permission-errors"><strong>Permission Errors</strong></a></li>
-  <li><a href="#libraries-having-been-installed-incorrectly-or-in-an-incompatible-manner" id="toc-libraries-having-been-installed-incorrectly-or-in-an-incompatible-manner" class="nav-link" data-scroll-target="#libraries-having-been-installed-incorrectly-or-in-an-incompatible-manner"><strong>Libraries having been installed incorrectly or in an incompatible manner</strong></a></li>
-  </ul></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_TroubleshootingCellprofiler.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_TroubleshootingCellprofiler.html">Troubleshooting CellProfiler Installation</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_imputation.html">code_imputation.html</a></li></ol></nav></header>
 
 
 
 
-<section id="troubleshooting-cellprofiler-installation" class="level1">
-<h1>Troubleshooting CellProfiler Installation</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_TroubleshootingCellprofiler.qmd">Edit this page</a></p>
-<p>Steps to take if errors occur during installation</p>
-<hr>
-<p>When initially trying to use CellProfiler, I had some issues during the installation process. This was primarily due to the fact that CellProfiler only uses Python 2.7 (They are developing a new version that will be built on Python 3) and is fairly sensitive to versions of libraries it needs. Also, I was having some issues with permissions as well. I will walk through these issues here.</p>
-<section id="pay-attention-to-pip-version" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="pay-attention-to-pip-version"><strong>Pay attention to pip version</strong></h2>
-<p>One subtle mistake that person could make during the installation process is not using the correct version of pip. Given that there are separate versions of pip for Python 2.7 and for Python 3, you could just be mistakenly trying to install CellProfiler with the wrong version of pip. I say this because the command install CellProfiler is this:</p>
-<pre><code>user@comp5:~/Cellprofiler$ pip install -e .</code></pre>
-<p>Seems pretty straightforward but that assumption could lead to some trouble. The <code>pip</code> command could be specifying either pip for python 2.7 or some version of python3. There should be a <code>pip2.7</code> command to specify which of the two versions you are trying to use. Use this command. If you do not do this, you will likely get an error saying that you do not have the correct version of Python and you will be confused.</p>
-<p>This also applies to prerequisite libraries you are installing as well.</p>
-</section>
-<section id="permission-errors" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="permission-errors"><strong>Permission Errors</strong></h2>
-<p>Another issue that you might run into when installing is permission errors. Here is what I got when I ran the command for installation suggested by CellProfiler documentation:</p>
-<pre><code>user@comp5:~/Cellprofiler$ pip2.7 install -e .
-
-ERROR: Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/bin/cellprofiler'
-Consider using the `--user` option or check the permissions.</code></pre>
-<p>You can try to run it with the <code>--user</code> flag as suggested but this is what I got when I did that:</p>
-<pre><code>user@comp5:~/Cellprofiler$ pip2.7 install -e . --user
-
-ERROR: Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/bin/cellprofiler'
-Check the permissions.</code></pre>
-<p>The only way that I was able to get by these permission errors was to install it using sudo:</p>
-<pre><code>user@comp5:~/Cellprofiler$ sudo pip2.7 install -e .</code></pre>
-</section>
-<section id="libraries-having-been-installed-incorrectly-or-in-an-incompatible-manner" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="libraries-having-been-installed-incorrectly-or-in-an-incompatible-manner"><strong>Libraries having been installed incorrectly or in an incompatible manner</strong></h2>
-<p>Now this is where a installation complication lies. Proper installation of certain libraries and packages is incredibly important on RedHat systems and it really matters here. If you do not so this you will get an error that looks like this:</p>
-<pre><code>Notice: /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]/returns: ImportError: cannot import name UnrewindableBodyError Error: /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]: Failed to call refresh: neutron-db-manage upgrade heads returned 1 instead of one of [0] Error: /Stage[main]/Neutron::Db::Sync/Exec[neutron-db-sync]: neutron-db-manage upgrade heads returned 1 instead of one of [0] Notice: /Stage[main]/Neutron::Deps/Anchor[neutron::service::begin]: Triggered 'refresh' from 1 events Error: Failed to apply catalog: Execution of '/usr/bin/nova-manage cell_v2 list_cells --verbose' returned 1: Traceback (most recent call last): File "/usr/bin/nova-manage", line 6, in &lt;module&gt; from nova.cmd.manage import main File "/usr/lib/python2.7/site-packages/nova/cmd/manage.py", line 77, in &lt;module&gt; from nova.api.ec2 import ec2utils File "/usr/lib/python2.7/site-packages/nova/api/ec2/ec2utils.py", line 25, in &lt;module&gt; from nova import cache_utils File "/usr/lib/python2.7/site-packages/nova/cache_utils.py", line 22, in &lt;module&gt; import nova.conf File "/usr/lib/python2.7/site-packages/nova/conf/__init__.py", line 27, in &lt;module&gt; from nova.conf import cinder File "/usr/lib/python2.7/site-packages/nova/conf/cinder.py", line 16, in &lt;module&gt; from keystoneauth1 import loading as ks_loading File "/usr/lib/python2.7/site-packages/keystoneauth1/loading/__init__.py", line 13, in &lt;module&gt; from keystoneauth1.loading import adapter File "/usr/lib/python2.7/site-packages/keystoneauth1/loading/adapter.py", line 13, in &lt;module&gt; from keystoneauth1 import adapter File "/usr/lib/python2.7/site-packages/keystoneauth1/adapter.py", line 18, in &lt;module&gt; from keystoneauth1 import session File "/usr/lib/python2.7/site-packages/keystoneauth1/session.py", line 26, in &lt;module&gt; import requests File "/usr/lib/python2.7/site-packages/requests/__init__.py", line 43, in &lt;module&gt; import urllib3 File "/usr/lib/python2.7/site-packages/urllib3/__init__.py", line 8, in &lt;module&gt; from .connectionpool import ( File "/usr/lib/python2.7/site-packages/urllib3/connectionpool.py", line 35, in &lt;module&gt; from .connection import ( File "/usr/lib/python2.7/site-packages/urllib3/connection.py", line 44, in &lt;module&gt; from .util.ssl_ import ( File "/usr/lib/python2.7/site-packages/urllib3/util/__init__.py", line 4, in &lt;module&gt; from .request import make_headers File "/usr/lib/python2.7/site-packages/urllib3/util/request.py", line 5, in &lt;module&gt; from ..exceptions import UnrewindableBodyError ImportError: cannot import name UnrewindableBodyError</code></pre>
-<p>If you have <code>urllib3</code> installed via pip, and <code>requests</code> installed via yum you will have this issue, even if you have the correct packages installed. The same will apply if you have <code>urllib3</code> installed via yum, and <code>requests</code> installed via pip. Here’s what I did to fix the issue (<strong>Again, Make sure that you are installing for the correct version of Python</strong>):</p>
-<pre><code>sudo pip2.7 uninstall requests
-
-sudo pip2.7 uninstall urllib3
-
-sudo yum remove python-urllib3
-
-sudo yum remove python-requests
-
-# confirm that all those libraries have been removed
-
-sudo yum install python-urllib3
-
-sudo yum install python-requests</code></pre>
-<p>Just be aware that this will only work for systems that are running Fedora, Redhat, or CentOS.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1315,13 +1255,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./code_setseeds.html" class="pagination-link" aria-label="Setting Seeds for Reproducibility">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Setting Seeds for Reproducibility</span>
+      <a href="./code_mixedmodels.html" class="pagination-link" aria-label="Linear Mixed Effect Models">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Linear Mixed Effect Models</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./code_unixcommands.html" class="pagination-link" aria-label="Basic Unix Commands">
-        <span class="nav-page-text">Basic Unix Commands</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./discovery_1-gettingstarted.html" class="pagination-link" aria-label="Connecting to the Discovery Cluster">
+        <span class="nav-page-text">Connecting to the Discovery Cluster</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -1330,4 +1270,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_TroubleshootingCellprofiler.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_imputation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
