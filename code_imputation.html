@@ -836,6 +836,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#general-imputation-workflow" id="toc-general-imputation-workflow" class="nav-link" data-scroll-target="#general-imputation-workflow">General imputation workflow</a></li>
   <li><a href="#preparing-your-snp-matrix" id="toc-preparing-your-snp-matrix" class="nav-link" data-scroll-target="#preparing-your-snp-matrix">Preparing your SNP matrix</a></li>
   <li><a href="#imputing-and-producing-the-full-snp-set" id="toc-imputing-and-producing-the-full-snp-set" class="nav-link" data-scroll-target="#imputing-and-producing-the-full-snp-set">Imputing and producing the full SNP set</a></li>
+  <li><a href="#filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" id="toc-filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="nav-link" data-scroll-target="#filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Filtering for linkage disequilibrium and producing the thinned SNP set</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_imputation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -910,6 +911,35 @@ impute(exp.project.snmf, "merged_data/genotypes/20250203_genotypes_exp.lfmm", me
 # store the imputed SNP set as a matrix 
 GEN_imputed &lt;- as.data.frame(read.table("merged_data/genotypes/20250203_genotypes_exp.lfmm_imputed.lfmm", header = FALSE))
 saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") # this is the FULL SNP set</code></pre>
+</section>
+<section id="filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set" class="level2">
+<h2 class="anchored" data-anchor-id="filtering-for-linkage-disequilibrium-and-producing-the-thinned-snp-set">Filtering for linkage disequilibrium and producing the thinned SNP set</h2>
+<p>Here, we read in the thinned SNP set and use the <code>bigsnpr</code> and <code>bigstatsr</code> packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of <code>thr.r2 = 0.2</code>, but this can be explored for your data.</p>
+<pre><code>GEN_imputed &lt;- readRDS("/Users/madelineeppley/Desktop/20250203_FULLSNPs_exp.rds")
+gen_impute &lt;- add_code256(big_copy(GEN_imputed,type="raw"),code=bigsnpr:::CODE_012)
+
+# double check our dimensions
+muts_maf_filtered &lt;- readRDS("/Users/madelineeppley/Desktop/20250203_FULLmuts_exp.rds")
+dim(GEN_imputed)
+dim(muts_maf_filtered) # matches
+
+thr.r2 &lt;- 0.2
+# create the thinned SNP set 
+pca_inv &lt;- snp_autoSVD(gen_impute,
+                       infos.chr= muts_maf_filtered$Chromosome,
+                       infos.pos = muts_maf_filtered$Position,
+                       thr.r2=thr.r2,  # correlation LD
+                       size= 100/thr.r2, # explore
+)
+
+thinned_snps &lt;- attr(pca_inv, which="subset") # SNPs n=104958
+gen_filtered_subset &lt;- GEN_imputed[, thinned_snps]
+muts_maf_thinned_filtered &lt;- muts_maf_filtered[thinned_snps, ]
+snp_names &lt;- muts_maf_thinned_filtered$Affx.ID
+colnames(gen_filtered_subset) &lt;- snp_names
+ind_names &lt;- samp_full_subset$merge_ID_inds
+rownames(gen_filtered_subset) &lt;- ind_names
+saveRDS(gen_filtered_subset, file = "/Users/madelineeppley/Desktop/20250203_THINNEDSNPs_exp.rds")</code></pre>
 
 
 </section>
