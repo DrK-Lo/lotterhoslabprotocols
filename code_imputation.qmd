@@ -14,7 +14,7 @@ Before starting the SNP imputation and filtering process, I recommend reading th
 If you're short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation. 
 
 ## Background on LEA and impute()
-We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an `_imputed.lfmm` suffix. The function takes the follwing arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). 
+We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an `_imputed.lfmm` suffix. The function takes the follwing arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). Since LEA is imputing using a K = n specified number of ancestral groups, it can potentially introduce structure into the dataset. If you are concerned about this potential introduction of strucutre, compare the Fst values pre- and post- imputation (using a complete set of filtered SNPs for the 'pre-imputation' SNP set) if 
 
 ## Full vs thinned SNP sets
 It is important to understand what type of SNPs you want to retain in your dataset for downstream anaylses. 
