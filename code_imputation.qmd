@@ -2,6 +2,9 @@
 #### Written by M.G.E 2/5/2025
 https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/code_imputation.qmd
 
+## Why impute? 
+When you receive genotype data from the sequencing facility, it will be incomplete. That is, each individual will be missing some genotype calls at SNPs. However, many downstream analyses require complete data. If you reduce your data to just complete SNPs for all individuals, you'll likely end up with a very small number of useable SNPs. For example, in the CviMVP project, the seascape dataset is returned from the sequencing facility wiht 194k SNPs, but only 14k of those are complete across all individuals. We definitely don't want to reduce our data by that amount! So, we impute data using methods that calculate the most frequent genotype at each SNP for a designated group of samples (typically by ancestral groups) or across all individuals. 
+
 ## Recommended pre-reading
 Before starting the SNP imputation and filtering process, I recommend reading the following:
 
@@ -13,8 +16,8 @@ Before starting the SNP imputation and filtering process, I recommend reading th
 
 If you're short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation. 
 
-## Background on LEA and impute()
-We will be using the impute() function in the LEA package to impute our missing genotypes. impute() requires an .lfmm file as input, and will return a new .lfmm file with an `_imputed.lfmm` suffix. The function takes the follwing arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). Since LEA is imputing using a K = n specified number of ancestral groups, it can potentially introduce structure into the dataset. If you are concerned about this potential introduction of strucutre, compare the Fst values pre- and post- imputation (using a complete set of filtered SNPs for the 'pre-imputation' SNP set) if 
+## LEA and `impute()`
+We will be using the impute() function in the LEA package to impute our missing genotypes with the output of an snmf object (.lfmm file). The function takes the following arguments: `impute (object, input.file, method, K, run)`. See more details [here](https://rdrr.io/bioc/LEA/man/impute.html). The imputation works by using ancestry and genotype frequency estimates from an snmf run and using the mode for each genotype within the assigned ancestral group. the method of imputation is either set to mode or random. With "random", imputation is performed by using the genotype probabilities. With "mode", the most likely genotype is used for matrix completion. Since LEA is imputing using a K = n specified number of ancestral groups, it can potentially introduce structure into the dataset. If you are concerned about this potential introduction of structure, compare Fst values pre- and post- imputation (using a complete set of filtered SNPs for the 'pre-imputation' SNP set). 
 
 ## Full vs thinned SNP sets
 It is important to understand what type of SNPs you want to retain in your dataset for downstream anaylses. Your full SNP set will be all SNPs that are retained after filtering for missingness and MAF and imputed. Your thinned SNP set will be a subsetted version of the full SNP set that removes SNPs in LD. Generally, you want to use a full SNP set for detecing selection and functional loci detection (e.g. gene ontology), and use a thinned SNP set for population structure (e.g. PCA, ancestry/structure).  
