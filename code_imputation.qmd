@@ -35,7 +35,7 @@ To prepare to use the `impute()` function, you should arrage your SNP data in a 
 ## Imputing and producing the full SNP set
 Here we have our filtered SNP matrix called `GEN_filtered`. This matrix has been filtered for MAF and missingness.
 
-```{r}
+```
 # Impute #####################################################################
 # use snmf on our genotype matrix with 154k SNPs
 write.lfmm(GEN_filtered, "merged_data/genotypes/20250203_genotypes_exp.lfmm")
@@ -54,7 +54,7 @@ saveRDS(GEN_imputed, file = "merged_data/genotypes/20250203_FULLSNPs_exp.rds") #
 ## Filtering for linkage disequilibrium and producing the thinned SNP set 
 Here, we read in the thinned SNP set and use the `bigsnpr` and `bigstatsr` packages to calculate a PCA while filtering for LD. The LD correlation argument is set of a default of `thr.r2 = 0.2`, but this can be explored for your data.  
 
-```{r}
+```
 GEN_imputed <- readRDS("/Users/madelineeppley/Desktop/20250203_FULLSNPs_exp.rds")
 gen_impute <- add_code256(big_copy(GEN_imputed,type="raw"),code=bigsnpr:::CODE_012)
 
