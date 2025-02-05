@@ -110,6 +110,7 @@ website:
           - code_quarto.qmd
           - code_annotation.qmd
           - code_mixedmodels.qmd
+          - code_imputation.qmd
       - section: "Discovery"
         contents:
           - discovery_1-gettingstarted.qmd
