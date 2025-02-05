@@ -96,6 +96,18 @@
     ]
   },
   {
+    "objectID": "code_imputation.html",
+    "href": "code_imputation.html",
+    "title": "Imputing SNP datasets",
+    "section": "",
+    "text": "Imputing SNP datasets\n\nWritten by M.G.E 2/5/2025\n\n\nRecommended pre-reading\nBefore starting the SNP imputation and filtering process, I recommend reading the following: 1. LEA 3: Factor models in population genetics and ecological genomics with R, Gain et al 2021 2. These aren’t the loci you’e looking for: Principles of effective SNP filtering for molecular ecologists, O’Leary et al 2018 3. Fast and Efficient Estimation of Individual Ancestry Coefficients, Frichot et al 2014\nIf you’re short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation.\n\n\nPreparing your SNP dataset for imputation",
+    "crumbs": [
+      "Home",
+      "Coding Protocols",
+      "Imputing SNP datasets"
+    ]
+  },
+  {
     "objectID": "molecprot_SSEapp.html",
     "href": "molecprot_SSEapp.html",
     "title": "Seascape Sample Extractions App Use",

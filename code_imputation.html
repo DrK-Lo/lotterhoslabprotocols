@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_imputation.html">code_imputation.html</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_imputation.html">Imputing SNP datasets</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -678,7 +678,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./code_imputation.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">code_imputation.html</span></a>
+ <span class="menu-text">Imputing SNP datasets</span></a>
   </div>
 </li>
       </ul>
@@ -823,17 +823,41 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#imputing-snp-datasets" id="toc-imputing-snp-datasets" class="nav-link active" data-scroll-target="#imputing-snp-datasets">Imputing SNP datasets</a>
+  <ul class="collapse">
+  <li><a href="#recommended-pre-reading" id="toc-recommended-pre-reading" class="nav-link" data-scroll-target="#recommended-pre-reading">Recommended pre-reading</a></li>
+  <li><a href="#preparing-your-snp-dataset-for-imputation" id="toc-preparing-your-snp-dataset-for-imputation" class="nav-link" data-scroll-target="#preparing-your-snp-dataset-for-imputation">Preparing your SNP dataset for imputation</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_imputation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_imputation.html">code_imputation.html</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./code_bioinformatics.html">Coding Protocols</a></li><li class="breadcrumb-item"><a href="./code_imputation.html">Imputing SNP datasets</a></li></ol></nav></header>
 
 
 
 
+<section id="imputing-snp-datasets" class="level1">
+<h1>Imputing SNP datasets</h1>
+<section id="written-by-m.g.e-252025" class="level4">
+<h4 class="anchored" data-anchor-id="written-by-m.g.e-252025">Written by M.G.E 2/5/2025</h4>
+</section>
+<section id="recommended-pre-reading" class="level3">
+<h3 class="anchored" data-anchor-id="recommended-pre-reading">Recommended pre-reading</h3>
+<p>Before starting the SNP imputation and filtering process, I recommend reading the following: 1. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.13366">LEA 3: Factor models in population genetics and ecological genomics with R</a>, Gain et al 2021 2. <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14792">These aren’t the loci you’e looking for: Principles of effective SNP filtering for molecular ecologists</a>, O’Leary et al 2018 3. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3982712/">Fast and Efficient Estimation of Individual Ancestry Coefficients</a>, Frichot et al 2014</p>
+<p>If you’re short on time, readings 1 and 2 are the most important. The third reading dives further into the ancestry calculations in snmf that we will use for imputation.</p>
+</section>
+<section id="preparing-your-snp-dataset-for-imputation" class="level3">
+<h3 class="anchored" data-anchor-id="preparing-your-snp-dataset-for-imputation">Preparing your SNP dataset for imputation</h3>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1270,4 +1294,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_imputation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/code_imputation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
