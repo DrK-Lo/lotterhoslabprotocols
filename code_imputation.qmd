@@ -3,7 +3,7 @@
 https://github.com/DrK-Lo/lotterhoslabprotocols/blob/main/code_imputation.qmd
 
 ## Why impute? 
-When you receive genotype data from the sequencing facility, it will be incomplete. That is, each individual will be missing some genotype calls at SNPs. However, many downstream analyses require complete data. If you reduce your data to just complete SNPs for all individuals, you'll likely end up with a very small number of useable SNPs. For example, in the CviMVP project, the seascape dataset is returned from the sequencing facility wiht 194k SNPs, but only 14k of those are complete across all individuals. We definitely don't want to reduce our data by that amount! So, we impute data using methods that calculate the most frequent genotype at each SNP for a designated group of samples (typically by ancestral groups) or across all individuals. 
+When you receive genotype data from the sequencing facility it will be incomplete. That is, each individual will be missing some genotype calls at SNPs. However, many downstream analyses require complete data. If you reduce your data to just complete SNPs for all individuals you'll likely end up with a very small number of useable SNPs. For example, the seascape oysters from the CviMVP project were returned from the sequencing facility with 194k SNPs, but only 14k of those are complete across all individuals. We definitely don't want to reduce our data by that amount! So, we impute data using methods that calculate the most frequent genotype at each SNP for a designated group of samples (typically by ancestral groups) or across all individuals. 
 
 ## Recommended pre-reading
 Before starting the SNP imputation and filtering process, I recommend reading the following:
