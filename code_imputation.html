@@ -930,10 +930,37 @@ dim(muts_filtered) #191994 SNPs</code></pre>
 </section>
 <section id="step-3-filter-for-maf" class="level2">
 <h2 class="anchored" data-anchor-id="step-3-filter-for-maf">Step 3: Filter for MAF</h2>
+<p>This step shows how to filter for MAF. Our genotype matrix <code>exp_cleaned_columns_sort</code> has been filtered for missingness and now sorted to have the rows and columns in the exact same order as our mutation matrix and individual matrix. We use a custom function to calculate the allele frequency (af) within each column, and then apply that custom function to each column in the genotype matrix. The <code>maf_threshold</code> can be set to whatever threshold you’d like for your data, here we use 0.05, meaning SNPs that appear in less than 5% of individuals are filtered out. These are “minor alleles” and because of their rarity across the dataset, could bias population estimates. Once we complete this filtering, we are left with n = 154k SNPs, and this will be the dataset that we impute.</p>
+<pre><code># The geno matrix has individuals in rows and mutations in columns, with a 0, 1, or 2 entered for the number of alternate alleles in the diploid
+
+GEN &lt;- exp_cleaned_columns_sort
+
+# function to calculate the allele frequency of a column
+af &lt;- function(i, GEN){
+  sum(GEN[,i], na.rm=TRUE)/(2*sum(!is.na(GEN[,i])))
+}
+# af(1, GEN)
+
+# calculate the allele freq of SNPs in the geno mat
+snp_afs &lt;- apply(GEN, 2, function(i){
+  sum(i, na.rm=TRUE)/(2*sum(!is.na(i)))})
+
+# calculate MAF 
+maf_threshold &lt;- 0.05
+keep_snps &lt;- names(snp_afs[snp_afs &gt;= maf_threshold &amp; snp_afs &lt;= (1 - maf_threshold)]) # vector with SNPs above 0.05
+
+# now filter the GEN matrix for MAF
+GEN_filtered &lt;- GEN[, keep_snps]
+dim(GEN_filtered) #154609 SNPs
+
+# filter the muts data frame to just keep our SNPs with full data
+muts_maf_filtered &lt;- muts_filt_ord[muts_filt_ord$Affx.ID %in% keep_snps, ]
+dim(muts_maf_filtered) #154609 SNPs
+saveRDS(muts_maf_filtered, file = "merged_data/genotypes/20250203_FULLmuts_exp.rds")</code></pre>
 </section>
 <section id="step-4-imputing-and-producing-the-full-snp-set" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-imputing-and-producing-the-full-snp-set">Step 4: Imputing and producing the full SNP set</h2>
-<p>Here we have our filtered SNP matrix called <code>GEN_filtered</code>. This matrix has been filtered for MAF and missingness.</p>
+<p>Here we have our filtered SNP matrix called <code>GEN_filtered</code>. This matrix has been filtered for MAF and missingness and contains 154k SNPs. In this example, we impute for a value of K = 2.</p>
 <pre><code># Impute #####################################################################
 # use snmf on our genotype matrix with 154k SNPs
 write.lfmm(GEN_filtered, "merged_data/genotypes/20250203_genotypes_exp.lfmm")
