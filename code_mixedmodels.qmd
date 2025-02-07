@@ -4,6 +4,14 @@ Here are some of Lotterhos' notes on learning how to mix model
 
 We have a private [google drive with many of the resources](https://drive.google.com/drive/folders/1L70xzfNel7eTYSbX0ZnmmvmBOL0iC4bO?usp=sharing)
 
+### How to understand random effects
+
+What are random effects? These are factors that may influence the values you observe, but are not factors that are being manipulated in an experiment. In other words, they are not effects that you care about the particular direction of and that you assume arise from a larger distribution, and you just need to control for in the experiment because they cause non-independence among datapoints within that level of teh factor. For example, in our oyster field experiment, we had oysters from each population deployed in 3 replicate bags per site. Each bag would have experienced slightly different conditions that would influence oyster depending on where they were deployed and sedimentation, water flow, and fouling of the bags. 
+ 
+To understand random effects in your data, first run a model without the factor(s) you are thinking about incorporating into the model as random effects. Then, boxplot the residuals from that model (`resids()`) as a function of the factor(s) you are thinking about incorporating into the model as random effects. If the mean of the residuals varies a lot from level to level of the factor, then you should definitely include it as a random effect in the model. 
+
+[To do add an example]
+
 ### Learn about `lme`
 
 [Mixed Effects Models and Extensions in Ecology with R - Zuur](https://drive.google.com/file/d/1wmcZeZPiNoUtrrImV72fRI73MbVaD2gZ/view?usp=sharing)
