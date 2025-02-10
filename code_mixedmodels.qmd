@@ -83,6 +83,56 @@ The `brms` package offers the most versatility for modeling data, and can accomm
 
 For example in Alan's 2017 oyster exposure experiment: methylation data is binomially distributed (e.g., read counts for methylated or unmethylated) and in our case, we wanted to make sure to account for the random effect of tank in the experiment (see results). For some  loci, we found with preliminary analyses that some approaches to generalized linear modeling failed to converge (when parameters were estimated via restricted maximum likelihood as implemented in lme4, or when the posterior distributions of the parameters were estimated via MCMC with Gibbs sampling as implemented in MCMCglmm). We traced this issue of convergence to loci in which all individuals within a treatment combination had 100\% or 0\% methylation, and with diverse levels of methylation in other treatments, making them biologically interesting and desirable to model correctly. As pointed out by Burkner, the approaches used by MCMCglmm can be slow to converge in high-dimensional models with correlated parameters and may depend on conjugate priors. We therefore took a robust approach to analyzing methylation data with Bayesian Regression Models (BRMs) in which the sampling on the posterior distributions on the parameters was accomplished with the No-U-Turn-Sampler (NUTS). This algorithm converges much more quickly for high-dimensional models regardless of whether the priors are conjugate or not.
 
+
+## Generalized Linear Mixed Models (GLMMs)
+
+Generalized Linear Mixed Models (GLMMs) are an extension to Generalized Linear Models (GLMs) where linear predictors contain random effects. Similar to GLMs, these models can be used form non-normal data as long as the response data comes from a known distribution from the exponential family (including but not limited to normal, poisson, binomial, negative binomial, gamma, beta, and exponential.) GLMMs differ from Linear Mixed Models (LMMs) because they do not require that explanatory variables are related linearly to the response variable, i.e. we can use GLMMs to model nonlinear relationships. Instead, much like a GLM, the outcomes and predictors are linked via some link function g(.) (INPUT RESOURCE??), but unlike GLMs, each linear predictor is a combination of both fixed and random effects (excluding residuals). 
+
+In R, GLMMs are still implemented using the `lme4` package, but using the function `glmer` instead of `lmer.` More in depth tutorials for implementing using `lme4` are listed in the GLMM resources section of this page. 
+
+### Assumptions of GLMMs
+
+* Conditional independence: Oberved data are independent, conditional on some predictors
+* Response data come from a known from the exponential family with a known mean variance relationship
+* Straight line relationship between some link function of the mean of data and the predictors and random effects
+* Random effects are independent of data
+* Random effects are normally distributed
+
+### Common Problems with GLMMs - Dispersion
+
+Overdispersion and underdispersion can both be problems when working with GLMMs. Dispersion can be checked using the R package `performance` using the function `check_overdispersion()`. Overdispersion is when data has more variability than a statistical model would predict, while underdispersion happens when data has less variability.
+* Overdispersion
+	* Overdispersion is a common issue for count data
+	* Can be caused by positive correlation, excess variance, and/or distributional assumption violations
+	* Can lead to underestimating standard errors of estimates, making a predictor appear significant when it isn't
+	* To check for overdispersion, check if the ratio of Pearson's chi-square statistic to it's degrees of freedom is greater than 1
+* Underdispersion
+	* ADD INFO HERE
+
+### GLMM resources
+
+* [Intro to GLMM](https://stats.oarc.ucla.edu/other/mult-pkg/introduction-to-generalized-linear-mixed-models/)
+
+This resource comes from UCLA's Advanced Research Computing group. It's a quick introduction to GLMMs and a good place to start.
+
+* [GLMMs FAQ](https://bbolker.github.io/mixedmodels-misc/glmmFAQ.html)
+
+This page has a ton of information about GLMMs, starting with a more general introduction to GLMMs but also getting into the weeds of different distribution types, model diagnostics and selection, packages for implementing GLMMs, and more.
+
+* [GLMM in R](https://r.qcbs.ca/workshop07/book-en/introduction-to-glmm.html)
+
+This has an introduction to GLMM analysis in R, including information about choosing error distributions and worked examples of fitting Poisson, Negative Binomial, and Poisson-lognormal GLMMs.
+
+* [R Video Tutorial](https://www.youtube.com/watch?v=EibODFjUtqs)
+
+This is a video that also walks through the process of fitting GLMMs in R
+
+
+### Interpreting GLMMs
+
+* ADD INFORMATION HERE
+
+
 ## How to write about mixed models
 
 * We had a [lab professional development discussion on this](https://docs.google.com/document/d/1jQZkbZbZuWnElYmLUntg5qgh1NG2-yAbsT3zzvmbkZ0/edit#heading=h.btb80w3ha1pf)
