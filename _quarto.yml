@@ -55,6 +55,7 @@ website:
           - molecprot_pipettedecontamination.qmd
           - molecprot_SSEapp.qmd
           - molecprot_outdated.qmd
+          - molecprot_qPCRdisease.qmd
       - section: "Professional Development"
         contents: 
           - profdev.qmd
