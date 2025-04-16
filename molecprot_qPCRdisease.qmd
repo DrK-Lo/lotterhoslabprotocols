@@ -1,2 +1,11 @@
 # qPCR For Oyster Disease Detection - MSX and Dermo
 
+This is a protocol to assess prevalence and intensity of Perkinsus marinus (Dermo) and Haplosporidium nelsoni (MSX) in oyster samples using a multiplex qPCR assay. This has been tested and optimized for DNA extracted from gill and mantle tissue using the Omega Bio-Tek EZ 96 Tissue DNA Kit.
+
+Steps
+1. To make combined standards (Dermo+MSX) for multiplex qPCR assay, use recipe below. This makes 0.1 ng/µl combined standard, which will be the top point. 
+  10 µl of 1 ng/µl Dermo gBlock standard
+  10 µl of 1 ng/µl MSX gBlock standard
+  80 µl of 1X TE Buffer (pH 8.0)
+
+2. To make remaining combined standards, do a serial dilution of 0.1 ng/µl combined standard (10 µl standard + 90 µl 1X TE Buffer). qPCR standards range from 0.1 ng/µl to 0.0001 pg/µl. 
