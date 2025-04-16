@@ -55,7 +55,6 @@ website:
           - molecprot_pipettedecontamination.qmd
           - molecprot_SSEapp.qmd
           - molecprot_outdated.qmd
-          - molecprot_qPCRdisease.qmd
       - section: "Professional Development"
         contents: 
           - profdev.qmd
@@ -82,6 +81,7 @@ website:
           - molecprot_gonad_buffer.qmd
           - molecprot_Acid_Washes.qmd
           - molecprot_stableisotope.qmd
+          - molecprot_qPCRdisease.qmd
       - section: "Field and Sampling Protocols"
         contents:
           - field_collectsampdna.qmd
