@@ -16,9 +16,22 @@ Writing has two facets: building good writing habits and actually putting words 
 
 ## Authorship
 
-On our Professional Development page there is some information on how we use the Vancouver Protocol to determine authorship.
+Lab Authorship policies:
 
-See also [https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement](https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement)
+- We use the Vancouver Criteria for co-authorship https://i.ntnu.no/wiki/-/wiki/English/Co-authorship
+- We also use CREDIT https://www.elsevier.com/researcher/author/policies-and-guidelines/credit-author-statement
+
+Tips for planning papers and discussing authorship
+
+- Always evaluate the rationale for a paper with a literature review before creating a plan or outline. It may be the case that what you are proposing has already been done in your species, or if not, it has been done in another species/context and then your paper basically becomes a copy of that.
+- Usually the first author(s) and senior author (PI) are determined at the outset, and work together to pull the paper together.
+- Although the senior author can have a busy schedule, always include the senior author on conversations about the paper and planning
+- Approach shared first authorship cautiously - Questions to ask before you agree to share first authorship with another person: What is your timeline on other projects? Where will this project be in your list of priorities? How will the writing be split between us? What if you do not uphold your end of the bargain?
+- Beware of collaborators who provide unrealistic timelines
+- Decide on criteria for author order before deciding on author order. Clarify what is expected for author order and then wait to see how people contribute to the manuscripts before making any decisions. Usually, the senior author and lead authors should discuss author order privately before making any decisions. A good approach is to ask each co-author to fill out the CREDIT criteria. This can be a good set of information to use for determining author order.
+- Try to avoid the situation in which one paper is dependent on another one. Timelines almost never go according to plan, life also gets in the way. Be especially cautious if you will be leading the second paper, your success is dependent on other people
+- Time is a finite resource, so prioritize which products will be completed first. Splitting what was one paper into two papers will take twice the work and twice the time.
+
 
 ### **Building good writing habits** {.unnumbered}
 
