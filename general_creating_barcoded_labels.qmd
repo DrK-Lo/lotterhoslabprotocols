@@ -29,7 +29,11 @@ ADD IMAGE
 - For the MSC color printer (HP M553), the label side should be face up. For the MSC B&W printer (HP laser jet 600), the label side should be face down.
 - **copier technique** If you run into issues with the printer (e.g. label paper gets stuck or smearing when printing), try printing to paper and then using the copier to print onto the label paper. Put the paper template in the copier. Then put the label paper on the feed on top of the copier with the label side face up. Copy.
 
-ADD IMAGE
+# Tips for slicing
+- The slicer has a trick of the wrist - you really need to apply pressure by pushing it inward toward the side of the plate
+- You don't want to slice all the way through - once you do that it becomes hard to keep track of the order of everything. If you slice "most" of the way through but leave a bit at the bottom, it will be easy to go through the labels in order and cut them off one-by-one.
+
+![](img/slicer.MP.jpg)
 
 # [Neato Labels Matte Finish Waterproof White - Vinyl Labels](https://www.amazon.com/gp/product/B07P1DJTDT/ref=ox_sc_act_title_1?smid=A1VRSUPS48P6AA&th=1)
 - The nice thing about these is that you can print to whatever size works for you and then cut them with scissors (it doesn't work to slice it)
@@ -39,6 +43,7 @@ ADD IMAGE
 - Take all paper out of the MSC B&W printer and put in one piece of label paper with the sticker side UPSIDE DOWN
 - Let the B&W printer cool off for a minute between printing sheets.
 - If the B&W printer is failing, try the **copier techinque**
+- The slicer works following the recommended techniques
 
 ### Notes on this paper
 - Camille tested these in the freezer over the weekend and they worked well, as long as the labels are wrapped all the way around and the sticky ends are sandwiched
