@@ -1,8 +1,5 @@
 # Creating Barcoded Labels
 
-# Tips for making your own QR codes cheaply
-:::
-{.callout-note}
 
 # QR Code Template
 See [this link](https://docs.google.com/spreadsheets/d/1nHdGgG5RP_mz7KuAI_e7l-nRvl1O6B4K33N7Kh1AFjA/edit?usp=sharing) for the template for May 2023 CviMVPe QR code labels. Please look over the README tab before making any edits to the page. 
@@ -14,7 +11,7 @@ See [this link](https://docs.google.com/spreadsheets/d/1nHdGgG5RP_mz7KuAI_e7l-nR
 - Sometimes the labels near the top and bottom can be cut off if the label paper feeds into the printer too slowly because it is thicker. Make sure the text is centered vertically within the cell for printing.
 
 - To arrange printing quickly in Sheets, select the cells you want to print. Then go to File --> Print --> Print [Selected Cells in Dropdown] --> Fit to page
-:::
+
 
 # Tips for getting labels to stay:
 - make sure the label is at least 1.5 inches long, so it can wrap all the way around and then the two sticky ends can sandwich together. Most labels do not stick when they are overlapped, but if you sandwich the sticky ends, they will stick on really well.
