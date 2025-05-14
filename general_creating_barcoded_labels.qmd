@@ -32,10 +32,10 @@ ADD IMAGE
 # [Neato Labels Matte Finish Waterproof White - Vinyl Labels](https://www.amazon.com/gp/product/B07P1DJTDT/ref=ox_sc_act_title_1?smid=A1VRSUPS48P6AA&th=1)
 - The nice thing about these is that you can print to whatever size works for you and then cut them with scissors (it doesn't work to slice it)
 - Calculate how many labels per sheet - about 4 columns by 17-20 rows works well
-- Use the QR code template for 
+- Use the QR code template to create the labels
 - Test printing on a regular piece of paper and make sure the arrangement is good
 - Take all paper out of the MSC B&W printer and put in one piece of label paper with the sticker side UPSIDE DOWN
-- Let the  B&W printer cool off between printing
+- Let the B&W printer cool off for a minute between printing sheets.
 - If the B&W printer is failing, try the **copier techinque**
 
 ### Notes on this paper
