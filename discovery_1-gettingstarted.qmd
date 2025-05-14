@@ -4,6 +4,13 @@
 
 ------------------------------------------------------------------------
 
+Our lab's nodes have been transferred from Discovery to Explorer. This means that the following instructions are still relevant at large, but the details are slightly different.
+Checkout NURC's announcement about the transition [here](https://rc-docs.northeastern.edu/en/explorer-main/best-practices/transition.html).
+Two main updates are 
+
+1) ssh to Explorer not Discovery 
+2) our lab storage `/projects/lotterhos` instead of `/work/lotterhos`.
+
 Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://rc.northeastern.edu/support/training/
 
 -   Discovery account. Apply by opening a Service-Now ticket with an access request at https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket
