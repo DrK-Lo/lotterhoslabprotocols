@@ -1,7 +1,53 @@
 # Creating Barcoded Labels
 
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/general_creating_barcoded_labels.qmd)
+# Tips for making your own QR codes cheaply
+:::
+{.callout-note}
 
+# QR Code Template
+See [this link](https://docs.google.com/spreadsheets/d/1nHdGgG5RP_mz7KuAI_e7l-nRvl1O6B4K33N7Kh1AFjA/edit?usp=sharing) for the template for May 2023 CviMVPe QR code labels. Please look over the README tab before making any edits to the page. 
+
+- We have had issues with the QR codes not matching the labels, which may happen when someone makes new labels but forgets to update the QR codes. Make sure to spot check all QR codes match the labels! When in doubt, we go with the written label and not the QR codes
+
+- Test the labels on the QR screen before you print!
+
+- To arrange printing quickly in Sheets, select the cells you want to print. Then go to File --> Print --> Print [Selected Cells in Dropdown] --> Fit to page
+:::
+
+# Tips for getting labels to stay:
+- make sure the label is at least 1.5 inches long, so it can wrap all the way around and then the two sticky ends can sandwich together. Most labels do not stick when they are overlapped, but if you sandwich the sticky ends, they will stick on really well.
+
+- Make sure if you are printing barcodes that they are at the far right side of the label, so when they are wrapped around they are flat for reading into a phone
+
+ADD IMAGE
+
+
+# Tips for printing:
+- take out all the paper from the printer
+- For the MSC color printer (HP M553), the label side should be face up. For the MSC B&W printer (HP laser jet 600), the label side should be face down.
+- **copier technique** If you run into issues with the printer (e.g. label paper gets stuck or smearing when printing), try printing to paper and then using the copier to print onto the label paper. Put the paper template in the copier. Then put the label paper on the feed on top of the copier with the label side face up. Copy.
+
+ADD IMAGE
+
+# [Neato Labels Matte Finish Waterproof White - Vinyl Labels](https://www.amazon.com/gp/product/B07P1DJTDT/ref=ox_sc_act_title_1?smid=A1VRSUPS48P6AA&th=1)
+- The nice thing about these is that you can print to whatever size works for you and then cut them with scissors (it doesn't work to slice it)
+- Calculate how many labels per sheet - about 4 columns by 17-20 rows works well
+- Use the QR code template for 
+- Test printing on a regular piece of paper and make sure the arrangement is good
+- Take all paper out of the MSC B&W printer and put in one piece of label paper with the sticker side UPSIDE DOWN
+- Let the  B&W printer cool off between printing
+- If the B&W printer is failing, try the **copier techinque**
+
+### Notes on this paper
+- Camille tested these in the freezer over the weekend and they worked well, as long as the labels are wrapped all the way around and the sticky ends are sandwiched
+- We tested this in the color printer and the paper gets too hot and gets stuck!
+- We have tested if the labels smear with ethanol following the above protocol and do they not!
+
+
+
+## Don't try again:
+- Cryo-Babies CRYO tags - Cat 9187-1700 - these don't stick to the vials
+- Microtube tough-tags - TTSW 2240 0.5 in by 0.94 in - from MidSci - these can work if they were longer - there are ones that are 2.5 inches long but the company has a 2 week lead time on ordering them!
 ------------------------------------------------------------------------
 
 **Note:** TSC printer is in the shared equipment lab, hooked up to the Plate Reader laptop.
@@ -54,8 +100,4 @@
 
 ## QR Code Labels
 
-:::
-{.callout-note}
-## CviMVPe QR Code Template
-See [this link](https://docs.google.com/spreadsheets/d/1nHdGgG5RP_mz7KuAI_e7l-nRvl1O6B4K33N7Kh1AFjA/edit?usp=sharing) for the template for May 2023 CviMVPe QR code labels. Please look over the README tab before making any edits to the page. 
-:::
+
