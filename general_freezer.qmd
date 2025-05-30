@@ -54,6 +54,8 @@ We need to contact Dennis Todd to request a 24hr+ freezer alarm shutoff.
 
 ## General Practices for -80 Freezer Organization {.unnumbered}
 
+Read the instructions below and also read this presentation on [Using the Freezer App](https://docs.google.com/presentation/d/1x_fRzDgdg_fHOCj-TtJf-fe_AYDHv43JUAv6RL-CayU/edit?slide=id.p#slide=id.p)
+
 ### Making a New Freezer Box
 
 1.  Use the [Freezer App](https://www.appsheet.com/start/e6f5dbe8-90f2-464a-833f-2781c5adee2b#appName=LotterhosLabFreezerDatabase-6377443&group=%5B%5D&page=fastTable&sort=%5B%7B%22Column%22%3A%22Minus80_Location%22%2C%22Order%22%3A%22Ascending%22%7D%5D&table=boxlocations&view=Quick+add%2Fdelete) to add a box in the "All Boxes" table.
