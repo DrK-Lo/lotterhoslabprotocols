@@ -69,25 +69,46 @@ Example of the combined letter/statement:
 
 ## Hazardous shipping laws for small quanitities
 
+This law covers hazardous shipping:
+
 https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C 
 
-In Fed Ex make sure to use the legacy editor and click the "small quantity exception" box
+The law for small quantity exception is described here:
+
+https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-A/section-173.4
+
+A flammable liquid is Class 3 (https://www.ecfr.gov/current/title-49/subtitle-B/chapter-I/subchapter-C/part-173/subpart-D/section-173.120)
+
+Basically, if each inner receptical holds less than 30mL and the total box weight is less than 64 pounds, we can ship small quantity exception.
+To do so, the package has to be shipped GROUND and the package has to be clearly labeled as described below.
+
+In Fed Ex make sure to click the "small quantity exception" box.
+
+In the legacy editor:
 
 ![](img/FedExETHANOLSAMPLESsmallquantityexception.png)
 
-Make sure to use GROUND shipping. For ethanol make sure there is less than 5 L total.
+In the new editor:
+
+![](img/FedExETHANOLSAMPLESsmallquantityexcpetion2.png)
+
+Make sure to use GROUND shipping. For ethanol make sure there is less than 5 L total across al the vials.
 
 On the outside of the box include the following label for small quantity exception:
 
 ![](img/fexdexsmallquantityexception.png)
 
-On the outside of the box in a sleeve and on the inside of the box include the following letter:
+**On the outside of the box in a sleeve and on the inside of the box include the following letter:**
 
-This package contains individual oyster tissue samples for research stored in vials with 1-2mL 95% ethanol. 
-Each vial has an o-ring to prevent leakage. There is a total of 1.1 L of ethanol across all the vials.
+```
+This package contains individual oyster tissue samples for research stored in
+vials with 1-2mL 95% ethanol. Each vial has an o-ring to prevent leakage.
 
-The package conforms to the Department of Transportation small quantity exception 49 CFR 173.4
+This package conforms to 49 CFR 173.4 for domestic highway or rail transport
+only.
 
 <add your contact information>
+```
+
 
 
