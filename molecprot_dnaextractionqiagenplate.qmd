@@ -32,7 +32,7 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   Kim wipes 
 
--   Pipette Tips (300uL, 200uL). Info for ordering: Pipetman E300 TowerPack Reload System P/N:F1736051, Pipetman E200 TowerPack Reload System P/N:F1733051
+-   Pipette Tips (300uL, 200uL, and 1000uL). Info for ordering: Pipetman E300 TowerPack Reload System P/N:F1736051, Pipetman E200 TowerPack Reload System P/N:F1733051
 
 -   Easy Pet + Serological Tips size: 25mL tips, catalog #170357N (next to Isotemp in the corner of the benches)
 
@@ -62,7 +62,7 @@ This protocol is for oysters (_Crassostrea virginica_)
 
 -   Large centrifuge (Hughes lab centrifuge) <span style="color:red"> ADD MODEL FOR METHODS </span>
 
--   Multichannel Pipettes (100 and 300uL) 
+-   Multichannel Pipettes (1000 and 300uL) 
 
 -   Vortexer with plate attachment
 
@@ -114,7 +114,7 @@ This process goes smoothest with three lab members working at once. Two lab memb
 
 4.  Get a tissue collection tube rack from Qiagen kit box. The clear tubes are already in a clear blue rack and have a clear lid over them. 
 
-5.  Use the EasyPet to add 18 mL **Buffer ATL** (note: hazardous if inhaled) to a 25 mL liquid boat (enough for 100 samples). Then add 180uL **Buffer ATL** to each tissue collection tube using the P300 multichannel pipette.
+5.  Use the EasyPet to add 18 mL **Buffer ATL** (note: hazardous if inhaled) to a 25 mL liquid boat (enough for 100 samples). Then add 180uL **Buffer ATL** to each tissue collection tube using the P1000 multichannel pipette.
 
 ::: {.callout-tip}
 ## Tips for pipetting
@@ -149,7 +149,7 @@ Open the Seascape Samples Extractions app on your laptop or lab iPad (passcode i
 
 12. Add 2 mL **Proteinase K** to a 25 mL liquid boat (enough for 100 samples). Once all samples have been cut and placed in collection tubes, pipette 20 uL **Proteinase K** into each sample tube. 
 
-13.  Seal wells with collection microtube caps from Qiagen kit, then place clear rack lid back on the tube rack. Use vortexer with plate attachment (shown below) to mix samples, then centrifuge using Hughes lab centrifuge or the large centrifuge in the shared molecular space for 20-30s at 4500 rpm if using Hughes centrifuge or 4400 rpm if using shared molecular space centrifuge, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
+13.  Seal wells with collection microtube caps from Qiagen kit, then place clear rack lid back on the tube rack. Use vortexer with plate attachment (shown below) to mix samples, then centrifuge using the large centrifuge in the shared molecular space for 20-30s at 4400 rpm, ensuring that a counter weight is placed into the centrifuge before starting. Add water to counter weight to account for differences in weight if necessary (Use practice extraction plate as counter weight.)
 
 Vortexer plate attachment:
 ![IMG_AD4161720A95-1](https://user-images.githubusercontent.com/122108419/227262189-0e2897c9-f374-4f67-8466-d486a99eb196.jpeg)
@@ -167,35 +167,35 @@ Once you start the extraction process, there aren't any good stopping points mid
 
 1.  Prep surfaces and area around the work bench. First clean with bleach solution, followed by DI H2O, then 70% EtoH.
 
-2.  Remove the entire sample tube rack from the Thermomixer and ensure microtubes in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid and shake the tube rack vigorously by hand for 15 seconds. Then secure the lid to the rack with lab tape. Centrifuge in the Hughes lab centrifuge (30s at 4500 rpm) or the shared molecular space centrifuge (45s at 4400 rpm) to collect any solution from the caps. Hold down short spin button.
+2.  Remove the entire sample tube rack from the Thermomixer and ensure microtubes in the tube rack are properly sealed with their individual caps. Cover again with clear plastic lid and shake the tube rack vigorously by hand for 15 seconds. Then secure the lid to the rack with lab tape. Centrifuge in the shared molecular space centrifuge (45s at 4400 rpm) to collect any solution from the caps. Hold down short spin button.
 
 ::: {.callout-important}
 ## Buffer AL prep
 Note that buffer AL is a hazardous chemical (causes skin irritation and serious eye irritation). Ensure ethanol has been added to **Buffer AL** according to instructions on the container. The cap should be marked if ethanol has been added. 
 :::
 
-3.  Use 25 mL serological pipette tips with the Easy-Pet pipette to transfer 45 mL Buffer AL to a 50mL liquid boat (enough for a full plate of samples). Carefully remove sample caps and add 410 μl **Buffer AL** using the 300μL multichannel pipette (split this into two rounds of pipetting 205μl of Buffer AL, only go to the first stop to avoid bubbles). If you are careful not to touch the pipette tip to the sample tubes or another contaminated surface, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
+3.  Use 25 mL serological pipette tips with the Easy-Pet pipette to transfer 45 mL Buffer AL to a 50mL liquid boat (enough for a full plate of samples). Carefully remove sample caps and add 410 μl **Buffer AL** using the 1000μL multichannel pipette (only go to the first stop to avoid bubbles). If you are careful not to touch the pipette tip to the sample tubes or another contaminated surface, you can put the same tip into the buffer multiple times to transfer the full volume. Tightly reseal with new caps.
 
-4.  Place clear cover over the rack and shake vigorously for 15s by hand. Secure the lid to the rack with lab tape, then centrifuge in the Hughes Lab centrifuge (30s at 4500 rpm) or shared lab space centrifuge (45s at 4400 rpm) to collect any solution from the caps. Make sure to add water to the counterweight. 
+4.  Place clear cover over the rack and shake vigorously for 15s by hand. Secure the lid to the rack with lab tape, then centrifuge in the shared lab space centrifuge (45s at 4400 rpm) to collect any solution from the caps. Make sure to add water to the counterweight. 
 
 ::: {.callout-note}
 ## Preparing counterweights
-For every centrifuge step, you need a counterweight that is equal in weight and height to whatever sample plate you are spinning. We have an extra of almost every plate to use as a counterweight. When you add a new buffer to the sample plate, make sure to add the same volume of tap water to the counterweight to even out the weights. Use the scale to check the weights of the sample plate and counterweight before going over to the Hughes lab. They should be within a few grams of each other and the same height.
+For every centrifuge step, you need a counterweight that is equal in weight and height to whatever sample plate you are spinning. We have an extra of almost every plate to use as a counterweight. When you add a new buffer to the sample plate, make sure to add the same volume of tap water to the counterweight to even out the weights. Use the scale to check the weights of the sample plate and counterweight before going over to the shared molecular space. They should be within a few grams of each other and the same height.
 ::: 
 
 5.  Place DNeasy 96 plate on the S-Block. Make sure well A1 is directly on top of well A1, etc. Note that the DNeasy plate on the S-block is very prone to tipping, especially when applying tape sheets. Be careful not to let them tip or lysate may slosh out and cause contamination between samples.
 
-6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the corresponding wells on the DNeasy 96 plate using filtered tips. Our P200 filtered tips only fit on the P100 multichannel, so set the P100 multichannel pipette to 100 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. The lysate can get super bubbly, so be careful not to get any sample up into the actual pipette. There's usually about 600 uL total lysate in each sample. Pop any bubbles using a pipette tip. Dispose of empty collection microtubes and blue tube rack in the mayo jar. 
+6.  Carefully remove caps from the collection microtubes & transfer all lysate of each sample to the corresponding wells on the DNeasy 96 plate using filtered tips. Set the P1000 multichannel pipette to 600 uL, and transfer all lysate in as many rounds as necessary to get as much as possible into the DNeasy plate. The lysate can get super bubbly, so be careful not to get any sample up into the actual pipette. There's usually about 600 uL total lysate in each sample. Pop any bubbles using a pipette tip. Dispose of empty collection microtubes and blue tube rack in the mayo jar. 
 
-7.  Seal the plate with an AirPore tape sheet which comes with the Qiagen kit, then secure the DNeasy plate to the S-block with lab tape. Centrifuge in the Hughes centrifuge (13 min at 4500 rpm).
+7.  Seal the plate with an AirPore tape sheet which comes with the Qiagen kit, then secure the DNeasy plate to the S-block with lab tape. Centrifuge in the shared molecular space centrifuge (13 min at 4500 rpm).
 
-8.  Remove tape and carefully add 500μl of **Buffer AW1** to each sample. **AW1 is harmful if ingested or inhaled (acutely toxic), and can cause skin and eye irritation.** Use the 300μl multichannel pipette and add 250μl **Buffer AW1** twice. This will require ~55mL of **Buffer AW1** in a liquid boat.
+8.  Remove tape and carefully add 500μl of **Buffer AW1** to each sample. **AW1 is harmful if ingested or inhaled (acutely toxic), and can cause skin and eye irritation.** Use the 1000μl multichannel pipette. This will require ~55mL of **Buffer AW1** in a liquid boat.
 
-9.  Seal the plate with a new AirPore tape sheet. Secure the DNeasy plate to the S-block with lab tape, and centrifuge in the Hughes centrifuge (7 min at 4500 rpm).
+9.  Seal the plate with a new AirPore tape sheet. Secure the DNeasy plate to the S-block with lab tape, and centrifuge in the shared molecular space (7 min at 4500 rpm).
 
-10.  Remove tape and carefully add 500μl of **Buffer AW2** to each sample. Use the 300μl multichannel pipette and add 250μl twice. This will require ~55mL of **Buffer AW2** in a liquid boat.
+10.  Remove tape and carefully add 500μl of **Buffer AW2** to each sample. Use the 1000μl multichannel pipette. This will require ~55mL of **Buffer AW2** in a liquid boat.
 
-11. Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 20 min in the Hughes centrifuge. 
+11. Seal the plate with a new AirPore tape sheet and centrifuge at 4500 rpm for 20 min in the shared molecular space. 
 
 ::: {.callout-note}
 ## Check spin column membrane
@@ -204,7 +204,7 @@ Spin column membrane should be dry after this step. Spin for an additional 1 min
 
 12.  Transfer the DNeasy 96 plate to a rack of Elution Microtubes RS.
 
-13.  Elute the DNA by adding 200μl of **Low TE Buffer** to each sample using the 300μl multichannel pipette. We have found **Low TE Buffer** gives better yields than kit Buffer AE. For a full plate, this will require ~20mL of **low TE**. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Secure the DNeasy plate to the Elution Microtubes with lab tape, and centrifuge in the Hughes centrifuge (3 min at 4500 rpm) or shared lab space centrifuge (4 min at 4400 rpm). Seal elution microtubes with new caps. 
+13.  Elute the DNA by adding 200μl of **Low TE Buffer** OR molecular grade DiH2O to each sample using the 1000μl multichannel pipette. We have found **Low TE Buffer** gives better yields than kit Buffer AE. For a full plate, this will require ~20mL of **low TE** OR molecular grade DiH2O. Seal with a new AirPore tape sheet & incubate for 10 min at room temperature (15--25°C). Secure the DNeasy plate to the Elution Microtubes with lab tape, and centrifuge in the shared lab space centrifuge (4 min at 4400 rpm). Seal elution microtubes with new caps. 
 
 14. Add the elution buffer data to the app/database.
 
