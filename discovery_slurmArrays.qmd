@@ -222,6 +222,44 @@ In this script, I have now added a separate text file containing the names of mo
 	singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss -r ${REFERENCE}.fna -o /home/curtis.lei/gridss/gridssDelly.${Cod_ID}.vcf ${Cod_ID}.sorted.f.rg.bam.targeted.bam
 	echo "GRIDSS complete"
 
+
 **Text file: Cod_ID_Variables_2-3.txt**
 Pop1_16220
 Pop1_16224
+
+
+# Another example from KL
+
+repo https://github.com/ModelValidationProgram/MVP-NonClinalAF/tree/main/src
+
+I create a text file with all the parameters 0b-final_params-20220428.txt. I created this file with an R script 0a-setUpSims.Rmd
+
+I split the parameters up into files of 1000 rows, each file becomes an array https://github.com/ModelValidationProgram/MVP-NonClinalAF/blob/main/src/0b-final_params-fastruns-20220428-b.txt
+
+Here is an array script that runs the first 950 simulations, on 70 CPUs at a time https://github.com/ModelValidationProgram/MVP-NonClinalAF/blob/main/src/d-run_nonAF_sims_0Slim-fastruns-20220428-b.sh
+
+```
+#SBATCH --partition=lotterhos
+#SBATCH --mem=5G
+#SBATCH --nodes=1
+#SBATCH --array=2-952%70
+```
+This runs 950 simulations, 70 at at time, on individual CPUs in the Lotterhos node. It works because the lotterhos nodes are available for us, it might not work on a `short` partition where you have to wait for a node.
+
+Each simluation reads from the parameter file - in the code below `${SLURM_ARRAY_TASK_ID}` corresponds to the row and `$1` corresponds to the column.
+
+```
+# Extracting individual variables
+# If you update or change your parameters see
+# https://github.com/ModelValidationProgram/MVP-NonClinalAF/blob/alan/notebook/20210630_creatingSLiMBatchScriptVariables.md
+# for guide on replacing this block of code.
+level=`awk NR==${SLURM_ARRAY_TASK_ID} ${params} | awk '{print $1}'`
+reps=`awk NR==${SLURM_ARRAY_TASK_ID} ${params} | awk '{print $2}'`
+arch=`awk NR==${SLURM_ARRAY_TASK_ID} ${params} | awk '{print $3}'`
+```
+
+The values that are read in are then sent to slim:
+
+`slim -d MY_SEED1=${seed} -d MY_RESULTS_PATH1=\"${outpath}\" -d MIG_x1=${MIG_x} -d MIG_y1=${MIG_y} ...`
+
+It's not shown here but the seed is used to write the outputs from slim.
