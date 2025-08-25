@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.7.33">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2c18465d070c2de5310d73691ce58579.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f7364687eeb71d76157dfc5421afb7d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -848,6 +848,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#script-2-running-one-job-using-variables" id="toc-script-2-running-one-job-using-variables" class="nav-link" data-scroll-target="#script-2-running-one-job-using-variables"><strong>Script 2: Running one job using variables</strong></a></li>
   <li><a href="#script-3-running-more-than-one-job-using-a-text-file-with-the-variable-names" id="toc-script-3-running-more-than-one-job-using-a-text-file-with-the-variable-names" class="nav-link" data-scroll-target="#script-3-running-more-than-one-job-using-a-text-file-with-the-variable-names"><strong>Script 3: Running more than one job using a text file with the variable names</strong></a></li>
   </ul></li>
+  <li><a href="#another-example-from-kl" id="toc-another-example-from-kl" class="nav-link" data-scroll-target="#another-example-from-kl">Another example from KL</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_slurmArrays.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -1057,9 +1058,32 @@ singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss_extract_ove
 singularity run /home/curtis.lei/Containers/gridss_2.13.2.sif gridss -r ${REFERENCE}.fna -o /home/curtis.lei/gridss/gridssDelly.${Cod_ID}.vcf ${Cod_ID}.sorted.f.rg.bam.targeted.bam
 echo "GRIDSS complete"</code></pre>
 <p><strong>Text file: Cod_ID_Variables_2-3.txt</strong> Pop1_16220 Pop1_16224</p>
-
-
 </section>
+</section>
+<section id="another-example-from-kl" class="level1">
+<h1>Another example from KL</h1>
+<p>repo https://github.com/ModelValidationProgram/MVP-NonClinalAF/tree/main/src</p>
+<p>I create a text file with all the parameters 0b-final_params-20220428.txt. I created this file with an R script 0a-setUpSims.Rmd</p>
+<p>I split the parameters up into files of 1000 rows, each file becomes an array https://github.com/ModelValidationProgram/MVP-NonClinalAF/blob/main/src/0b-final_params-fastruns-20220428-b.txt</p>
+<p>Here is an array script that runs the first 950 simulations, on 70 CPUs at a time https://github.com/ModelValidationProgram/MVP-NonClinalAF/blob/main/src/d-run_nonAF_sims_0Slim-fastruns-20220428-b.sh</p>
+<pre><code>#SBATCH --partition=lotterhos
+#SBATCH --mem=5G
+#SBATCH --nodes=1
+#SBATCH --array=2-952%70</code></pre>
+<p>This runs 950 simulations, 70 at at time, on individual CPUs in the Lotterhos node. It works because the lotterhos nodes are available for us, it might not work on a <code>short</code> partition where you have to wait for a node.</p>
+<p>Each simluation reads from the parameter file - in the code below <code>${SLURM_ARRAY_TASK_ID}</code> corresponds to the row and <code>$1</code> corresponds to the column.</p>
+<pre><code># Extracting individual variables
+# If you update or change your parameters see
+# https://github.com/ModelValidationProgram/MVP-NonClinalAF/blob/alan/notebook/20210630_creatingSLiMBatchScriptVariables.md
+# for guide on replacing this block of code.
+level=`awk NR==${SLURM_ARRAY_TASK_ID} ${params} | awk '{print $1}'`
+reps=`awk NR==${SLURM_ARRAY_TASK_ID} ${params} | awk '{print $2}'`
+arch=`awk NR==${SLURM_ARRAY_TASK_ID} ${params} | awk '{print $3}'`</code></pre>
+<p>The values that are read in are then sent to slim:</p>
+<p><code>slim -d MY_SEED1=${seed} -d MY_RESULTS_PATH1=\"${outpath}\" -d MIG_x1=${MIG_x} -d MIG_y1=${MIG_y} ...</code></p>
+<p>It’s not shown here but the seed is used to write the outputs from slim.</p>
+
+
 </section>
 
 </main> <!-- /main -->
