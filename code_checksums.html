@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -69,14 +69,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="./code_bioinformatics.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f7364687eeb71d76157dfc5421afb7d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7ce46e092fd8e9b6f7e1c1a6b3565b5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -115,6 +116,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Lotterhos Lab Protocols</span>
     </a>
@@ -159,7 +162,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./img/Lotterhos_logo2.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./img/Lotterhos_logo2.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./img/Lotterhos_logo2.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -737,7 +741,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./discovery_1-gettingstarted.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Connecting to the Discovery Cluster</span></a>
+ <span class="menu-text">Connecting to the Explorer Cluster</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -907,18 +911,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="unnumbered anchored" data-anchor-id="step-1-make-a-list-of-md5sums-of-your-files"><strong>Step 1: Make a list of md5sums of your files</strong></h3>
 <p>If md5 sums provided by the sequencing facility in a file: <code>md5_sum.txt</code> (on mac is md5, on unix md5sum)</p>
 <p>If not do:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">md5sum</span> <span class="er">(</span><span class="ex">list</span> files<span class="kw">)</span> <span class="op">&gt;</span> md5sum_original.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">md5sum</span> <span class="er">(</span><span class="ex">list</span> files<span class="kw">)</span> <span class="op">&gt;</span> md5sum_original.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="step-2-transfer-files-to-new-location-including-the-md5sum_original.txt" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="step-2-transfer-files-to-new-location-including-the-md5sum_original.txt"><strong>Step 2: Transfer files to new location (including the md5sum_original.txt)</strong></h3>
 <p>After transferring files, change directory to that location (which could be on another computer/server).</p>
 <p>Then, create an md5sum of the transferred files:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">md5sum</span> <span class="er">(</span><span class="ex">list</span> files in new location<span class="kw">)</span> <span class="op">&gt;</span> md5sum_new.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">md5sum</span> <span class="er">(</span><span class="ex">list</span> files in new location<span class="kw">)</span> <span class="op">&gt;</span> md5sum_new.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="step-3-compare-md5sum-from-before-the-transfer-to-md5sum-after-the-transfer"><strong>Step 3: Compare md5sum from before the transfer to md5sum after the transfer</strong></h3>
 <p>Compare sorted files FILE1 and FILE2 line by line:</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">comm</span> <span class="at">-3</span> md5sum_original.txt md5sum_new.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">comm</span> <span class="at">-3</span> md5sum_original.txt md5sum_new.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>With no options, produce three-column output. Column one contains lines unique to FILE1, column two contains lines unique to FILE2, and column three contains lines common to both files. -1 suppress lines unique to FILE1 -2 suppress lines unique to FILE2 -3 suppress lines that appear in both files</p>
 <p>If the last command produces no output, the two files are identical.</p>
 </section>
@@ -933,19 +937,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-with-filename-file">
 <pre><strong>get_hashes.sh</strong></pre>
 </div>
-<div class="sourceCode" id="cb4" data-filename="get_hashes.sh"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">md5sum</span> file1 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" data-filename="get_hashes.sh"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">md5sum</span> file1 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
 <span id="cb4-2"><a href="#cb4-2"></a><span class="fu">md5sum</span> file2 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="fu">md5sum</span> file3 <span class="op">&gt;&gt;</span> md5sum_original.txt</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="fu">md5sum</span> file3 <span class="op">&gt;&gt;</span> md5sum_original.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Note that the commands use <code>&gt;&gt;</code>, this will append the output to the file <code>md5sum_original.txt</code>, as opposed to using <code>&gt;</code> which would overwrite the file every command/line.</p>
 <p>Then you can use GNU parallel and choose the number of CPUs you would like to use. For instance to use 36 CPUs:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> get_hashes.sh <span class="kw">|</span> <span class="ex">parallel</span> <span class="at">-j</span> 36 <span class="at">--progress</span> <span class="at">--eta</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> get_hashes.sh <span class="kw">|</span> <span class="ex">parallel</span> <span class="at">-j</span> 36 <span class="at">--progress</span> <span class="at">--eta</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Note: creating the file <code>get_hashes.sh</code> is probably quicker if you use R (or another language) to create it by looping through your files, instead of writing each command/line by hand (including copying/pasting/editing). Here is an example in python:</p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>create_get_hashes_sh_file.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb6" data-filename="create_get_hashes_sh_file.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># get_files is a generic script that will return a list of the files for which you want hashes</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" data-filename="create_get_hashes_sh_file.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># get_files is a generic script that will return a list of the files for which you want hashes</span></span>
 <span id="cb6-2"><a href="#cb6-2"></a>files <span class="op">=</span> get_files()</span>
 <span id="cb6-3"><a href="#cb6-3"></a></span>
 <span id="cb6-4"><a href="#cb6-4"></a><span class="co"># make a list of commands</span></span>
@@ -958,7 +962,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb6-11"><a href="#cb6-11"></a></span>
 <span id="cb6-12"><a href="#cb6-12"></a><span class="co"># write commands to hash_file</span></span>
 <span id="cb6-13"><a href="#cb6-13"></a><span class="cf">with</span> <span class="bu">open</span>(hash_file, <span class="st">'w'</span>) <span class="im">as</span> o:</span>
-<span id="cb6-14"><a href="#cb6-14"></a>    o.write(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(commands))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-14"><a href="#cb6-14"></a>    o.write(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(commands))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="step-2" class="level3">
@@ -1026,13 +1030,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./code_imputation.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f7364687eeb71d76157dfc5421afb7d4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7ce46e092fd8e9b6f7e1c1a6b3565b5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,6 +81,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Lotterhos Lab Protocols</span>
     </a>
@@ -109,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Discovery</a></li><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Connecting to the Discovery Cluster</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Discovery</a></li><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Connecting to the Explorer Cluster</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -124,7 +127,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./img/Lotterhos_logo2.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./img/Lotterhos_logo2.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./img/Lotterhos_logo2.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -702,7 +706,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./discovery_1-gettingstarted.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Connecting to the Discovery Cluster</span></a>
+ <span class="menu-text">Connecting to the Explorer Cluster</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -835,7 +839,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#connecting-to-the-discovery-cluster" id="toc-connecting-to-the-discovery-cluster" class="nav-link active" data-scroll-target="#connecting-to-the-discovery-cluster">Connecting to the Discovery Cluster</a>
+  <li><a href="#connecting-to-the-explorer-cluster" id="toc-connecting-to-the-explorer-cluster" class="nav-link active" data-scroll-target="#connecting-to-the-explorer-cluster">Connecting to the Explorer Cluster</a>
   <ul class="collapse">
   <li><a href="#get-off-the-login-node" id="toc-get-off-the-login-node" class="nav-link" data-scroll-target="#get-off-the-login-node"><strong>GET OFF THE LOGIN NODE!</strong></a></li>
   <li><a href="#overview-presentation" id="toc-overview-presentation" class="nav-link" data-scroll-target="#overview-presentation"><strong>Overview presentation</strong></a></li>
@@ -846,13 +850,13 @@ ul.task-list li input[type="checkbox"] {
 <div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_1-gettingstarted.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Discovery</a></li><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Connecting to the Discovery Cluster</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Discovery</a></li><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Connecting to the Explorer Cluster</a></li></ol></nav></header>
 
 
 
 
-<section id="connecting-to-the-discovery-cluster" class="level1">
-<h1>Connecting to the Discovery Cluster</h1>
+<section id="connecting-to-the-explorer-cluster" class="level1">
+<h1>Connecting to the Explorer Cluster</h1>
 <p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_1-gettingstarted.qmd">Edit this page</a></p>
 <hr>
 <p>Our lab’s nodes have been transferred from Discovery to Explorer. This means that the following instructions are still relevant at large, but the details are slightly different. Checkout NURC’s announcement about the transition <a href="https://rc-docs.northeastern.edu/en/explorer-main/best-practices/transition.html">here</a>. Two main updates are</p>
@@ -860,6 +864,8 @@ ul.task-list li input[type="checkbox"] {
 <li>ssh to Explorer not Discovery</li>
 <li>our lab storage <code>/projects/lotterhos</code> instead of <code>/work/lotterhos</code>.</li>
 </ol>
+<p>We’re pleased to inform you that you can now directly add users to your group without needing to contact support. Simply add the user to your research group (/projects/), and they will automatically receive access to the Explorer cluster - no additional steps required. This way you have complete control over managing your team members and can grant access instantly whenever needed.</p>
+<p>For detailed instructions on how to add users to your group, please refer to our documentation at: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/index.html</p>
 <p>Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://rc.northeastern.edu/support/training/</p>
 <ul>
 <li><p>Discovery account. Apply by opening a Service-Now ticket with an access request at https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket</p></li>
@@ -960,13 +966,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
