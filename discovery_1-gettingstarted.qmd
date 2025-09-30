@@ -1,4 +1,4 @@
-# Connecting to the Discovery Cluster
+# Connecting to the Explorer Cluster
 
 [Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_1-gettingstarted.qmd)
 
@@ -11,6 +11,10 @@ Two main updates are
 1) ssh to Explorer not Discovery 
 2) our lab storage `/projects/lotterhos` instead of `/work/lotterhos`.
 
+We're pleased to inform you that you can now directly add users to your group without needing to contact support. Simply add the user to your research group (/projects/), and they will automatically receive access to the Explorer cluster - no additional steps required. This way you have complete control over managing your team members and can grant access instantly whenever needed.
+ 
+For detailed instructions on how to add users to your group, please refer to our documentation at: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/index.html
+ 
 Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://rc.northeastern.edu/support/training/
 
 -   Discovery account. Apply by opening a Service-Now ticket with an access request at https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket
