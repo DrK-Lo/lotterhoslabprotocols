@@ -63,12 +63,12 @@ Here is a presentation from Research Computing on terminology and optimizing wor
 
 # login to explorer terminal or Cluster -> explorer Shell Access on the OOD.
 # get on a compute node
-srun --pty bash
+`srun --pty bash`
 # run the project command to add new members
-project lotterhos add members eaton.a
+`project lotterhos add members eaton.a`
 
 # other options for the project command:
-project lotterhos view members
+`project lotterhos view members`
 
 and more information here: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/commands.html
 
