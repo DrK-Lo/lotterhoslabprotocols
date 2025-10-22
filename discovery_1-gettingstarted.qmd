@@ -59,6 +59,19 @@ Here is a presentation from Research Computing on terminology and optimizing wor
 
 [link to recording](https://northeastern.zoom.us/rec/share/6Dk1hHTMZkHi5xzATYImct7cEF93266l7zqqURsNu89qNSWIKCicqzfaw1VRMgbq.RBN-9ikQWzw6UEfc) Passcode: 0u?9rW&%
 
+## Adding new members
+
+# login to explorer terminal or Cluster -> explorer Shell Access on the OOD.
+# get on a compute node
+srun --pty bash
+# run the project command to add new members
+project lotterhos add members eaton.a
+
+# other options for the project command:
+project lotterhos view members
+
+and more information here: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/commands.html
+
 
 ## **Using Lotterhos nodes on Discovery** {.unnumbered}
 
