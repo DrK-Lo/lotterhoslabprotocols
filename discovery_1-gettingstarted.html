@@ -844,6 +844,12 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#get-off-the-login-node" id="toc-get-off-the-login-node" class="nav-link" data-scroll-target="#get-off-the-login-node"><strong>GET OFF THE LOGIN NODE!</strong></a></li>
   <li><a href="#overview-presentation" id="toc-overview-presentation" class="nav-link" data-scroll-target="#overview-presentation"><strong>Overview presentation</strong></a></li>
   <li><a href="#brandons-recordings-on-how-to-set-up-rsa-keys-and-run-jupyter-notebooks" id="toc-brandons-recordings-on-how-to-set-up-rsa-keys-and-run-jupyter-notebooks" class="nav-link" data-scroll-target="#brandons-recordings-on-how-to-set-up-rsa-keys-and-run-jupyter-notebooks">Brandon’s recordings on how to set up RSA keys and run Jupyter Notebooks</a></li>
+  <li><a href="#adding-new-members" id="toc-adding-new-members" class="nav-link" data-scroll-target="#adding-new-members">Adding new members</a></li>
+  </ul></li>
+  <li><a href="#login-to-explorer-terminal-or-cluster---explorer-shell-access-on-the-ood." id="toc-login-to-explorer-terminal-or-cluster---explorer-shell-access-on-the-ood." class="nav-link" data-scroll-target="#login-to-explorer-terminal-or-cluster---explorer-shell-access-on-the-ood.">login to explorer terminal or Cluster -&gt; explorer Shell Access on the OOD.</a></li>
+  <li><a href="#get-on-a-compute-node" id="toc-get-on-a-compute-node" class="nav-link" data-scroll-target="#get-on-a-compute-node">get on a compute node</a></li>
+  <li><a href="#other-options-for-the-project-command" id="toc-other-options-for-the-project-command" class="nav-link" data-scroll-target="#other-options-for-the-project-command">other options for the project command:</a>
+  <ul class="collapse">
   <li><a href="#using-lotterhos-nodes-on-discovery" id="toc-using-lotterhos-nodes-on-discovery" class="nav-link" data-scroll-target="#using-lotterhos-nodes-on-discovery"><strong>Using Lotterhos nodes on Discovery</strong></a></li>
   </ul></li>
   </ul>
@@ -900,6 +906,21 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="brandons-recordings-on-how-to-set-up-rsa-keys-and-run-jupyter-notebooks">Brandon’s recordings on how to set up RSA keys and run Jupyter Notebooks</h2>
 <p><a href="https://northeastern.zoom.us/rec/share/6Dk1hHTMZkHi5xzATYImct7cEF93266l7zqqURsNu89qNSWIKCicqzfaw1VRMgbq.RBN-9ikQWzw6UEfc">link to recording</a> Passcode: 0u?9rW&amp;%</p>
 </section>
+<section id="adding-new-members" class="level2">
+<h2 class="anchored" data-anchor-id="adding-new-members">Adding new members</h2>
+</section>
+</section>
+<section id="login-to-explorer-terminal-or-cluster---explorer-shell-access-on-the-ood." class="level1">
+<h1>login to explorer terminal or Cluster -&gt; explorer Shell Access on the OOD.</h1>
+</section>
+<section id="get-on-a-compute-node" class="level1">
+<h1>get on a compute node</h1>
+<p>srun –pty bash # run the project command to add new members project lotterhos add members eaton.a</p>
+</section>
+<section id="other-options-for-the-project-command" class="level1">
+<h1>other options for the project command:</h1>
+<p>project lotterhos view members</p>
+<p>and more information here: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/commands.html</p>
 <section id="using-lotterhos-nodes-on-discovery" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="using-lotterhos-nodes-on-discovery"><strong>Using Lotterhos nodes on Discovery</strong></h2>
 <p>There is a lotterhos unix group, which you need to request Dr.&nbsp;L to add you to. It takes a day for the change to propagate so you should be able to see you are part of the ‘lotterhos’ group when typing <code>groups $USER</code> in the terminal. Once you confirm you are part of the unix group and have access to the nodes, you can submit regular jobs using the <code>--partition lotterhos</code></p>
