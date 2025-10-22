@@ -112,7 +112,7 @@ website:
           - code_annotation.qmd
           - code_mixedmodels.qmd
           - code_imputation.qmd
-      - section: "Discovery"
+      - section: "Explorer"
         contents:
           - discovery_1-gettingstarted.qmd
           - discovery_1b_Software.qmd
