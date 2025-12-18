@@ -12,7 +12,7 @@ This page will be a good start to getting yourself settled in the lab. If you ha
 
 ## Onboarding Checklist
 - [ ] Dr. Lotterhos will add you to our Lab Slack Channel
-- [ ] Dr. Lotterhos will add you to the pop gen fika listserv
+- [ ] Add yourself to the Pop Gen Fika Listserv: Join LIstserv	https://listserv.neu.edu/cgi-bin/wa?A0=MSCPOPGEN
 - [ ] Complete MSC Onboarding - lab intake form and read handbook
 - [ ] Provide Dr. L with an email you prefer to access Google Drive from. She will give you editing access to:
     - [ ] the lab webpage, where you can add yourself to the [People](https://sites.google.com/site/katielotterhos/people) page
