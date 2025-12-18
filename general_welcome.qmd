@@ -25,7 +25,7 @@ This page will be a good start to getting yourself settled in the lab. If you ha
     - [ ] Outside of Github documentation, [this article](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) is helpful
     - [ ] [This video tutorial](https://www.youtube.com/watch?v=RGOj5yH7evk) is a good walkthrough of getting set up and using Git commands 
     - [ ] [This video tutorial](https://www.youtube.com/watch?v=8Dd7KRpKeaE) gives an introduction to GitHub and GitHub desktop. It uses VS Code but can be similarly followed in RStudio.
-- [ ] If you will be using the Explorer/Discovery Cluster for computing, submit a request for an account. [Apply by opening a Service-Now ticket with an access request](https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket)
+- [ ] If you will be using the Explorer/Discovery Cluster for computing, submit a request for an account. Apply by following the links for "Research Computing Access Request" at https://rc.northeastern.edu/service-catalog/
 - [ ] If you are a graduate student, make sure to get your hands on the latest version of the Graduate Handbook
 - [ ] If you will be working in the Molecular Lab or doing Fieldwork, you will need to take some Environmental Health and Safety Trainings. See [this page for the required trainings](https://drk-lo.github.io/lotterhoslabprotocols/general_GettingStarted.html#required-trainings-to-work-in-molecular-lab)
 - [ ] Read all the pages in these protocols
