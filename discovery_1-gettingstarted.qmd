@@ -11,9 +11,24 @@ Two main updates are
 1) ssh to Explorer not Discovery 
 2) our lab storage `/projects/lotterhos` instead of `/work/lotterhos`.
 
-We're pleased to inform you that you can now directly add users to your group without needing to contact support. Simply add the user to your research group (/projects/), and they will automatically receive access to the Explorer cluster - no additional steps required. This way you have complete control over managing your team members and can grant access instantly whenever needed.
- 
-For detailed instructions on how to add users to your group, please refer to our documentation at: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/index.html
+
+We are pleased to share that PIs can now directly manage access for their research group members on Explorer. By adding a user to your project directory in /projects/, they will automatically gain access to the Explorer platform — no further action is needed.
+
+This change provides you with greater flexibility and control over managing your team, enabling you to grant access to new members efficiently as needed.
+
+To add members to your project, you must be on a node in the short partition. You can start an interactive session there with:
+
+srun -p short --constraint=ib --pty bash
+
+The command to add members is:
+
+project <project_name> add members <username1,username2,...>
+
+For detailed instructions on how to add users to the group, please refer to our documentation at:
+
+https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/index.html
+
+Please let me know if you have any questions.
  
 Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://rc.northeastern.edu/support/training/
 
