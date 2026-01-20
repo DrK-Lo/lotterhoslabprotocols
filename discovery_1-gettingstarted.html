@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-7ce46e092fd8e9b6f7e1c1a6b3565b5d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -866,8 +866,15 @@ ul.task-list li input[type="checkbox"] {
 <li>ssh to Explorer not Discovery</li>
 <li>our lab storage <code>/projects/lotterhos</code> instead of <code>/work/lotterhos</code>.</li>
 </ol>
-<p>We’re pleased to inform you that you can now directly add users to your group without needing to contact support. Simply add the user to your research group (/projects/), and they will automatically receive access to the Explorer cluster - no additional steps required. This way you have complete control over managing your team members and can grant access instantly whenever needed.</p>
-<p>For detailed instructions on how to add users to your group, please refer to our documentation at: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/index.html</p>
+<p>We are pleased to share that PIs can now directly manage access for their research group members on Explorer. By adding a user to your project directory in /projects/, they will automatically gain access to the Explorer platform — no further action is needed.</p>
+<p>This change provides you with greater flexibility and control over managing your team, enabling you to grant access to new members efficiently as needed.</p>
+<p>To add members to your project, you must be on a node in the short partition. You can start an interactive session there with:</p>
+<p>srun -p short –constraint=ib –pty bash</p>
+<p>The command to add members is:</p>
+<p>project <project_name> add members &lt;username1,username2,…&gt;</project_name></p>
+<p>For detailed instructions on how to add users to the group, please refer to our documentation at:</p>
+<p>https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/index.html</p>
+<p>Please let me know if you have any questions.</p>
 <p>Intro to Discovery (how to set up and run SLURM jobs ) tutorial video: https://rc.northeastern.edu/support/training/</p>
 <ul>
 <li><p>Discovery account. Apply by opening a Service-Now ticket with an access request at https://rc-docs.northeastern.edu/en/latest/welcome/gettinghelp.html#submit-a-ticket</p></li>
