@@ -18,7 +18,7 @@ See [this link](https://docs.google.com/spreadsheets/d/1nHdGgG5RP_mz7KuAI_e7l-nR
 
 - Make sure if you are printing barcodes that they are at the far right side of the label, so when they are wrapped around they are flat for reading into a phone
 - Example image of tube without barcodes below:
-
+![](img/tubelabel.jpeg)
 
 # Tips for printing:
 - take out all the paper from the printer
