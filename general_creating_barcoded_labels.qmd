@@ -17,13 +17,13 @@ See [this link](https://docs.google.com/spreadsheets/d/1nHdGgG5RP_mz7KuAI_e7l-nR
 - make sure the label is at least 1.5 inches long, so it can wrap all the way around and then the two sticky ends can sandwich together. Most labels do not stick when they are overlapped, but if you sandwich the sticky ends, they will stick on really well.
 
 - Make sure if you are printing barcodes that they are at the far right side of the label, so when they are wrapped around they are flat for reading into a phone
-
-ADD IMAGE
+- Example image of tube without barcodes below:
 
 
 # Tips for printing:
 - take out all the paper from the printer
-- For the MSC color printer (HP M553), the label side should be face up. For the MSC B&W printer (HP laser jet 600), the label side should be face down.
+- For the MSC color printer (HP M553), the label side should be face up. For the MSC B&W printer (HP laser jet 600), the label side should be face down. The B&W printer should be your first option since the labels are less likely to be stuck if you load several at once.
+
 - **copier technique** If you run into issues with the printer (e.g. label paper gets stuck or smearing when printing), try printing to paper and then using the copier to print onto the label paper. Put the paper template in the copier. Then put the label paper on the feed on top of the copier with the label side face up. Copy.
 
 # Tips for slicing
