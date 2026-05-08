@@ -8,7 +8,7 @@ Our lab's nodes have been transferred from Discovery to Explorer. This means tha
 Checkout NURC's announcement about the transition [here](https://rc-docs.northeastern.edu/en/explorer-main/best-practices/transition.html).
 Two main updates are 
 
-1) ssh to Explorer not Discovery 
+1) ssh to Explorer not Discovery `ssh username@explorer.northeastern.edu`
 2) our lab storage `/projects/lotterhos` instead of `/work/lotterhos`.
 
 
