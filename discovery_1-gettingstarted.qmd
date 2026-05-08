@@ -1,7 +1,5 @@
 # Connecting to the Explorer Cluster
 
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_1-gettingstarted.qmd)
-
 ------------------------------------------------------------------------
 
 Our lab's nodes have been transferred from Discovery to Explorer. This means that the following instructions are still relevant at large, but the details are slightly different.
