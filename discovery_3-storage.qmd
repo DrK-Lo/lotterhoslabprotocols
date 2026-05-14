@@ -1,6 +1,4 @@
-# Lotterhos Lab vs. Personal Storage on Discovery and GitHub
-
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_3-storage.qmd)
+# Lotterhos Lab vs. Personal Storage on Explorer; Syncing to Github
 
 ------------------------------------------------------------------------
 
@@ -20,7 +18,7 @@
 
 In Github Settings, go down to "Developer settings" and create a personal access token:
 
-![image](img/discovery_PAH.png)
+![image](img/Explorer_PAH.png)
 
 Make sure it is "Classic" and then "configure SSO".
 
@@ -28,15 +26,15 @@ More information here:
 
 [Authorizing personal access token](https://docs.github.com/en/enterprise-cloud@latest/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on)
 
-Then in the command line in Discovery use your token when it asks for a password.
+Then in the command line in Explorer use your token when it asks for a password.
 
-It is good practice to create a repo on Github and then clone it to Discovery to start a project. You can follow instructions in Buffalo's Bioinformatics book to work with git on linux.
+It is good practice to create a repo on Github and then clone it to Explorer to start a project. You can follow instructions in Buffalo's Bioinformatics book to work with git on linux.
 
-In addition, you may want to collaborate on Discovery through your git repo.
+In addition, you may want to collaborate on Explorer through your git repo.
 
 You may also need to set up ssh keys:
 
-example: When person A started working on his git branch in Discovery, he cloned that branch to Discovery (e.g in the folder and repo /work/lotterhos/MVP-NonClinalAF). To give person B access,
+example: When person A started working on his git branch in Explorer, he cloned that branch to Explorer (e.g in the folder and repo /work/lotterhos/MVP-NonClinalAF). To give person B access,
 
     1. Person-B Go to the terminal and copy your public key file content.
     cat ~/.ssh/id_rsa.pub
@@ -46,7 +44,7 @@ example: When person A started working on his git branch in Discovery, he cloned
     4. Click New SSH key or Add SSH key.
     5. Paste your key into the "Key" field.
     6. Click Add SSH key.
-    7. Test the connection by running the following command in the terminal on person B Discovery:
+    7. Test the connection by running the following command in the terminal on person B Explorer:
     ssh -T git@github.com 
 
 ### Giving someone access to a folder and all containing folders
@@ -59,7 +57,7 @@ Example for user `rumberger.c` in folder `MVP_Genotypes_DataMerge`:
 
 `setfacl -R -m u:rumberger.c:rwx MVP_Genotypes_DataMerge`
 
-### **Your home directory on Discovery\*\*.** {.unnumbered}
+### **Your home directory on Explorer\*\*.** {.unnumbered}
 
 -   Path: `/~/` or `/home/username`
 
@@ -109,7 +107,9 @@ Sometimes I have still had trouble making the code work on existing directories,
 -   Path: `/lotterhosarchive/`
 
 -   Access through GLOBUS endpoint that Katie can Share with you
-- We have 25 TB here, about 5-10 are in use.
+- We have 25 TB here, about 5-10 are in use as of summer 2026.
+- Make sure before transferring a folder here that you tarball it:
+`tar -czvf directoryName.tar.gz /path/to/directoryName`
 
 In the folder there is a file called `collection-space-usage.txt`. You can click on "Open" and view the file in another window. 
 
@@ -128,7 +128,7 @@ In the folder there is a file called `collection-space-usage.txt`. You can click
 
 -   Because accessing this server is done through a computer, it makes transferring files specific to the computer that the server is mapped to. Typically, you will ask Katie to share the Globus endpoint for this server that is set up through the lab iMac. As long as the server is mapped to the computer (typically lab iMac) and that connection is not interrupted, you should have no problems.
 
--   From a laptop or over wifi, transfers of large files are very slow. This is why we map to the server through the iMac. The point of all the steps we outline below is so we can use Globus to transfer files from the smb drive to Discovery.
+-   From a laptop or over wifi, transfers of large files are very slow. This is why we map to the server through the iMac. The point of all the steps we outline below is so we can use Globus to transfer files from the smb drive to Explorer.
 
 -   To connect to the smb server, follow these directions to map to the server on a computer this document
 
