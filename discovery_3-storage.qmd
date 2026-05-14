@@ -63,9 +63,9 @@ Example for user `rumberger.c` in folder `MVP_Genotypes_DataMerge`:
 
 -   Path: `/~/` or `/home/username`
 
--   Note that only you have access to these files.
+-   Note that only you have access to these files. Store things here that are not relevant to lab research.
 
-### **Your scratch directory on Discovery\*\*. Use this for intermediate outputs that are not backed up.** {.unnumbered}
+### **Your scratch directory on Explorer\*\*. Use this for intermediate outputs that are not backed up.** {.unnumbered}
 
 -   Path: `/scratch/username`
 
