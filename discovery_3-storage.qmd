@@ -70,10 +70,11 @@ Example for user `rumberger.c` in folder `MVP_Genotypes_DataMerge`:
 -   Path: `/scratch/username`
 
 -   Note that only you have access to these files.
+- This is where you should store outputs for workflows that generate a large number of files. Please only save the files you need in the /projects/lotterhos
 
-### **Lotterhos shared storage on Discovery** {.unnumbered}
+### **Lotterhos shared storage on Explorer** {.unnumbered}
 
--   /work/lotterhos/
+-   /projects/lotterhos/
 
 -   Katie will create a folder for each lab project in this directory. For each folder, Katie will submit a ticket to research computing to ask them to create a group for the project with members who will have access to that folder.
 
@@ -112,6 +113,8 @@ Sometimes I have still had trouble making the code work on existing directories,
 
 In the folder there is a file called `collection-space-usage.txt`. You can click on "Open" and view the file in another window. 
 
+![](img/storage-NESE.jpg)
+![](img/storage-NESE-space.jpg)
 
 # Outdated storage [ignore from here down; maintain for historical purposes]
 
