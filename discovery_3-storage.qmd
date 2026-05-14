@@ -108,10 +108,12 @@ Sometimes I have still had trouble making the code work on existing directories,
 -   Path: `/lotterhosarchive/`
 
 -   Access through GLOBUS endpoint that Katie can Share with you
+- We have 25 TB here, about 5-10 are in use.
 
-# Outdated storage
+In the folder there is a file called `collection-space-usage.txt`. You can click on "Open" and view the file in another window. 
 
-### **Active Lotterhos Lab storage: more information\*\* (? TB for lab).** {.unnumbered}
+
+# Outdated storage [ignore from here down; maintain for historical purposes]
 
 -   smb://nunet.neu.edu/rc-shares/lotterhos/
 
