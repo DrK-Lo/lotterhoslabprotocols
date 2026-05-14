@@ -846,8 +846,8 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#giving-someone-access-to-a-folder-and-all-containing-folders" id="toc-giving-someone-access-to-a-folder-and-all-containing-folders" class="nav-link" data-scroll-target="#giving-someone-access-to-a-folder-and-all-containing-folders">Giving someone access to a folder and all containing folders</a></li>
   <li><a href="#your-home-directory-on-discovery." id="toc-your-home-directory-on-discovery." class="nav-link" data-scroll-target="#your-home-directory-on-discovery."><strong>Your home directory on Discovery**.</strong></a></li>
-  <li><a href="#your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up." id="toc-your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up." class="nav-link" data-scroll-target="#your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up."><strong>Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up.</strong></a></li>
-  <li><a href="#lotterhos-shared-storage-on-discovery" id="toc-lotterhos-shared-storage-on-discovery" class="nav-link" data-scroll-target="#lotterhos-shared-storage-on-discovery"><strong>Lotterhos shared storage on Discovery</strong></a></li>
+  <li><a href="#your-scratch-directory-on-explorer.-use-this-for-intermediate-outputs-that-are-not-backed-up." id="toc-your-scratch-directory-on-explorer.-use-this-for-intermediate-outputs-that-are-not-backed-up." class="nav-link" data-scroll-target="#your-scratch-directory-on-explorer.-use-this-for-intermediate-outputs-that-are-not-backed-up."><strong>Your scratch directory on Explorer**. Use this for intermediate outputs that are not backed up.</strong></a></li>
+  <li><a href="#lotterhos-shared-storage-on-explorer" id="toc-lotterhos-shared-storage-on-explorer" class="nav-link" data-scroll-target="#lotterhos-shared-storage-on-explorer"><strong>Lotterhos shared storage on Explorer</strong></a></li>
   <li><a href="#archival-lotterhos-lab-storage-25-tb-for-lab.-northeastern-nese-collection." id="toc-archival-lotterhos-lab-storage-25-tb-for-lab.-northeastern-nese-collection." class="nav-link" data-scroll-target="#archival-lotterhos-lab-storage-25-tb-for-lab.-northeastern-nese-collection."><strong>Archival Lotterhos Lab storage** (25 TB for lab). Northeastern NESE collection.</strong></a></li>
   </ul></li>
   </ul></li>
@@ -913,20 +913,21 @@ ssh -T git@github.com </code></pre>
 <h3 class="unnumbered anchored" data-anchor-id="your-home-directory-on-discovery."><strong>Your home directory on Discovery**.</strong></h3>
 <ul>
 <li><p>Path: <code>/~/</code> or <code>/home/username</code></p></li>
-<li><p>Note that only you have access to these files.</p></li>
+<li><p>Note that only you have access to these files. Store things here that are not relevant to lab research.</p></li>
 </ul>
 </section>
-<section id="your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up." class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="your-scratch-directory-on-discovery.-use-this-for-intermediate-outputs-that-are-not-backed-up."><strong>Your scratch directory on Discovery**. Use this for intermediate outputs that are not backed up.</strong></h3>
+<section id="your-scratch-directory-on-explorer.-use-this-for-intermediate-outputs-that-are-not-backed-up." class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="your-scratch-directory-on-explorer.-use-this-for-intermediate-outputs-that-are-not-backed-up."><strong>Your scratch directory on Explorer**. Use this for intermediate outputs that are not backed up.</strong></h3>
 <ul>
 <li><p>Path: <code>/scratch/username</code></p></li>
 <li><p>Note that only you have access to these files.</p></li>
+<li><p>This is where you should store outputs for workflows that generate a large number of files. Please only save the files you need in the /projects/lotterhos</p></li>
 </ul>
 </section>
-<section id="lotterhos-shared-storage-on-discovery" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="lotterhos-shared-storage-on-discovery"><strong>Lotterhos shared storage on Discovery</strong></h3>
+<section id="lotterhos-shared-storage-on-explorer" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="lotterhos-shared-storage-on-explorer"><strong>Lotterhos shared storage on Explorer</strong></h3>
 <ul>
-<li><p>/work/lotterhos/</p></li>
+<li><p>/projects/lotterhos/</p></li>
 <li><p>Katie will create a folder for each lab project in this directory. For each folder, Katie will submit a ticket to research computing to ask them to create a group for the project with members who will have access to that folder.</p></li>
 </ul>
 <p>Example:</p>
@@ -956,6 +957,7 @@ ls -la 2020_NOAA_BlackSeaBass_ddRADb # check permissions</code></pre>
 <li><p>We have 25 TB here, about 5-10 are in use.</p></li>
 </ul>
 <p>In the folder there is a file called <code>collection-space-usage.txt</code>. You can click on “Open” and view the file in another window.</p>
+<p><img src="img/storage-NESE.jpg" class="img-fluid"> <img src="img/storage-NESE-space.jpg" class="img-fluid"></p>
 </section>
 </section>
 </section>
