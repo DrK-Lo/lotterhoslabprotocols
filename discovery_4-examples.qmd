@@ -1,7 +1,29 @@
-# Example Scripts
+# Example Scripts and Monitoring
 
-[Edit this page](https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_4-examples.qmd)
+Here is an example node that uses the lotterhos partition to tarball a directory:
+```
+#!/bin/bash
+#SBATCH --job-name=tarball-directory
+#SBATCH --mem=50Gb
+#SBATCH --mail-user=k.lotterhos@@northeastern.edu
+#SBATCH --mail-type=ALL
+#SBATCH --partition=lotterhos
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+#SBATCH --output=/projects/lotterhos/tarballDir.out
+#SBATCH --error=/projects/lotterhos/2018OALarvae_DNAm/tarballDir.err
 
-------------------------------------------------------------------------
+tar -czvf 2018OAAdult_DNAm.tar.gz 2018OAAdult_DNAm
+```
 
-This protocols page does not exist yet.
+The script is saved as `tarballDir.sh`
+
+Call the script by getting off the login node `srun -p lotterhos -N 1 --pty /bin/bash` and then running `sbatch tarballDir.sh`
+
+Note the job ID
+
+monitor the partition with `sinfo -p <partition_name>`
+
+monitor your jobs with `squeue -u <username>`
+
+cancel the job with `scancel <job_id>`
