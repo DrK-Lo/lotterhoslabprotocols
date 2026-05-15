@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Explorer</a></li><li class="breadcrumb-item"><a href="./discovery_4-examples.html">Example Scripts</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Explorer</a></li><li class="breadcrumb-item"><a href="./discovery_4-examples.html">Example Scripts and Monitoring</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -736,7 +736,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./discovery_4-examples.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Example Scripts</span></a>
+ <span class="menu-text">Example Scripts and Monitoring</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -839,21 +839,37 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#example-scripts" id="toc-example-scripts" class="nav-link active" data-scroll-target="#example-scripts">Example Scripts</a></li>
+  <li><a href="#example-scripts-and-monitoring" id="toc-example-scripts-and-monitoring" class="nav-link active" data-scroll-target="#example-scripts-and-monitoring">Example Scripts and Monitoring</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_4-examples.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Explorer</a></li><li class="breadcrumb-item"><a href="./discovery_4-examples.html">Example Scripts</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./discovery_1-gettingstarted.html">Explorer</a></li><li class="breadcrumb-item"><a href="./discovery_4-examples.html">Example Scripts and Monitoring</a></li></ol></nav></header>
 
 
 
 
-<section id="example-scripts" class="level1">
-<h1>Example Scripts</h1>
-<p><a href="https://github.com/DrK-Lo/lotterhoslabprotocols/edit/main/discovery_4-examples.qmd">Edit this page</a></p>
-<hr>
-<p>This protocols page does not exist yet.</p>
+<section id="example-scripts-and-monitoring" class="level1">
+<h1>Example Scripts and Monitoring</h1>
+<p>Here is an example node that uses the lotterhos partition to tarball a directory:</p>
+<pre><code>#!/bin/bash
+#SBATCH --job-name=tarball-directory
+#SBATCH --mem=50Gb
+#SBATCH --mail-user=k.lotterhos@@northeastern.edu
+#SBATCH --mail-type=ALL
+#SBATCH --partition=lotterhos
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+#SBATCH --output=/projects/lotterhos/tarballDir.out
+#SBATCH --error=/projects/lotterhos/2018OALarvae_DNAm/tarballDir.err
+
+tar -czvf 2018OAAdult_DNAm.tar.gz 2018OAAdult_DNAm</code></pre>
+<p>The script is saved as <code>tarballDir.sh</code></p>
+<p>Call the script by getting off the login node <code>srun -p lotterhos -N 1 --pty /bin/bash</code> and then running <code>sbatch tarballDir.sh</code></p>
+<p>Note the job ID</p>
+<p>monitor the partition with <code>sinfo -p &lt;partition_name&gt;</code></p>
+<p>monitor your jobs with <code>squeue -u &lt;username&gt;</code></p>
+<p>cancel the job with <code>scancel &lt;job_id&gt;</code></p>
 
 
 </section>

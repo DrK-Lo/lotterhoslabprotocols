@@ -4347,13 +4347,13 @@
   {
     "objectID": "discovery_4-examples.html",
     "href": "discovery_4-examples.html",
-    "title": "Example Scripts",
+    "title": "Example Scripts and Monitoring",
     "section": "",
-    "text": "Example Scripts\nEdit this page\n\nThis protocols page does not exist yet.",
+    "text": "Example Scripts and Monitoring\nHere is an example node that uses the lotterhos partition to tarball a directory:\n#!/bin/bash\n#SBATCH --job-name=tarball-directory\n#SBATCH --mem=50Gb\n#SBATCH --mail-user=k.lotterhos@@northeastern.edu\n#SBATCH --mail-type=ALL\n#SBATCH --partition=lotterhos\n#SBATCH --nodes=1\n#SBATCH --cpus-per-task=12\n#SBATCH --output=/projects/lotterhos/tarballDir.out\n#SBATCH --error=/projects/lotterhos/2018OALarvae_DNAm/tarballDir.err\n\ntar -czvf 2018OAAdult_DNAm.tar.gz 2018OAAdult_DNAm\nThe script is saved as tarballDir.sh\nCall the script by getting off the login node srun -p lotterhos -N 1 --pty /bin/bash and then running sbatch tarballDir.sh\nNote the job ID\nmonitor the partition with sinfo -p &lt;partition_name&gt;\nmonitor your jobs with squeue -u &lt;username&gt;\ncancel the job with scancel &lt;job_id&gt;",
     "crumbs": [
       "Home",
       "Explorer",
-      "Example Scripts"
+      "Example Scripts and Monitoring"
     ]
   },
   {
