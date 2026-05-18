@@ -2,15 +2,15 @@
 
 ------------------------------------------------------------------------
 
--   We have **active** storage (10 TB) that should be used for 'active' projects, and **archival** storage for storing raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr. Lotterhos to make sure only relevant files are being archived.
+-   We have **active** storage (35 TB) that should be used for 'active' projects, and **archival** storage for storing raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr. Lotterhos to make sure only relevant files are being archived.
 
 -   In addition each user has a home directory and a scratch directory.
 
 ## Storage unix tricks
 
-`df -h /work/lotterhos` #total space useage for lotterhos
+`df -h /projects/lotterhos` #total space useage for lotterhos. We have 36 TB of available storage and this will show you what is available.
 
-`pwd | du -h --max-depth=1` get disk use for folders in the current directory
+`pwd | du -h --max-depth=1` get disk use for folders in the current directory. If you want to sort the output by size, add the pipe `| sort -rh`
 
 `ls -lah` view owners of files and file sizes (the total size of the folders is not displayed)
 
