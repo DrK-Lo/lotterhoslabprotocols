@@ -865,13 +865,13 @@ ul.task-list li input[type="checkbox"] {
 <h1>Lotterhos Lab vs.&nbsp;Personal Storage on Explorer; Syncing to Github</h1>
 <hr>
 <ul>
-<li><p>We have <strong>active</strong> storage (10 TB) that should be used for ‘active’ projects, and <strong>archival</strong> storage for storing raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr.&nbsp;Lotterhos to make sure only relevant files are being archived.</p></li>
+<li><p>We have <strong>active</strong> storage (35 TB) that should be used for ‘active’ projects, and <strong>archival</strong> storage for storing raw files and outputs from projects. Please be smart about how you use archival storage and work with Dr.&nbsp;Lotterhos to make sure only relevant files are being archived.</p></li>
 <li><p>In addition each user has a home directory and a scratch directory.</p></li>
 </ul>
 <section id="storage-unix-tricks" class="level2">
 <h2 class="anchored" data-anchor-id="storage-unix-tricks">Storage unix tricks</h2>
-<p><code>df -h /work/lotterhos</code> #total space useage for lotterhos</p>
-<p><code>pwd | du -h --max-depth=1</code> get disk use for folders in the current directory</p>
+<p><code>df -h /projects/lotterhos</code> #total space useage for lotterhos. We have 36 TB of available storage and this will show you what is available.</p>
+<p><code>pwd | du -h --max-depth=1</code> get disk use for folders in the current directory. If you want to sort the output by size, add the pipe <code>| sort -rh</code></p>
 <p><code>ls -lah</code> view owners of files and file sizes (the total size of the folders is not displayed)</p>
 </section>
 <section id="working-with-github" class="level2 unnumbered">
