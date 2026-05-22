@@ -113,8 +113,10 @@ Sometimes I have still had trouble making the code work on existing directories,
 
 In the folder there is a file called `collection-space-usage.txt`. You can click on "Open" and view the file in another window. 
 
-![](img/storage-NESE.jpg)
-![](img/storage-NESE-space.jpg)
+![](img/storage-NESE.png)
+![](img/storage-NESE-space.png)
+
+Use Globus to do the transfer (see the Globus page)
 
 # Outdated storage [ignore from here down; maintain for historical purposes]
 
