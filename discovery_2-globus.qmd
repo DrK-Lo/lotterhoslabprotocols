@@ -12,7 +12,7 @@
 
     -   It automatically checks that your files were not corrupted during the transfer
 
-    -   Globus is already integrated with Discovery and our lab files.
+    -   Globus is already integrated with Explorer and our lab files.
 
     -   It makes transferring files among your laptop, your collaborator(s), and Discovery easy.
 
@@ -20,15 +20,15 @@
 
     -   A **Globus Collection** is a folder on a computer that contains a collection of files. You may create several endpoints within a collection to share with specific people.
 
-## **Getting started with Globus on Discovery** {.unnumbered}
+## **Getting started with Globus on Explorer** {.unnumbered}
 
 -   Go to [globus.org](globus.org)
 
 -   Click on "Login", from the dropdown list choose "Northeastern University", login with your NU credentials
 
--   Click on "File Manager" and the Search Icon. In the Search Box type "Northeastern". Choose "northeastern#discovery". This is your home directory on Discovery. Click on the Bookmark Icon to add this to your bookmarks.
+-   Click on "File Manager" and the Search Icon. In the Search Box type "Northeastern". Choose "northeastern#discovery". This is your home directory on Explorer. Click on the Bookmark Icon to add this to your bookmarks.
 
--   Dr. Lotterhos will share through Globus the specific folders that you will have access to on the Discovery Lab Storage
+-   Dr. Lotterhos will share through Globus the specific folders that you will have access to on the Explorer Lab Storage
 
 ## **Getting started with Globus on your laptop** {.unnumbered}
 
@@ -47,6 +47,10 @@
 -   can view other's scratch directories and copy files, but not edit
 
 -   other users can view /research/lotterhos and edit/delete files
+
+Here is an example of a transfer between the Lotterhos Archive on NESE and the `/projects/lotterhos` on the Explorer Cluster (although it says `/work/lotterhos` on Discovery, it has been remapped).
+
+![](img/globus.png)
 
 ## **Sharing endpoints** {.unnumbered}
 
