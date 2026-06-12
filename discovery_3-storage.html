@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -41,10 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-b4053f44a9844110384dba2fb4cdf31e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6a358ec7f71e7b72aeeebd1cb1aadac4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -871,7 +871,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="storage-unix-tricks" class="level2">
 <h2 class="anchored" data-anchor-id="storage-unix-tricks">Storage unix tricks</h2>
 <p><code>df -h /projects/lotterhos</code> #total space useage for lotterhos. We have 36 TB of available storage and this will show you what is available.</p>
-<p><code>pwd | du -h --max-depth=1</code> get disk use for folders in the current directory. If you want to sort the output by size, add the pipe <code>| sort -rh</code></p>
+<p><code>pwd | du -h --max-depth=1</code> get disk use for folders in the current directory. If you want to sort the output by size, add the pipe <code>| sort -rh</code>. This can take a while if folders have several TB, so if that is the case do this: - You can also run a bash script to estimate disk usage stored in <code>/projects/lotterhos/0diskUsage.sh</code> by running <code>sbatch 0diskUsage.sh</code>. After this runs, make sure to add the date to the <code>.out</code> file for comparison</p>
 <p><code>ls -lah</code> view owners of files and file sizes (the total size of the folders is not displayed)</p>
 </section>
 <section id="working-with-github" class="level2 unnumbered">
