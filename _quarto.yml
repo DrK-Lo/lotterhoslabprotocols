@@ -60,6 +60,7 @@ website:
           - profdev.qmd
           - profdev_ReducingCognitiveLoad.qmd
           - profdev_How-to-publish-a-paper.qmd
+          - profdev_writingchecklist.md
           - profdev_design.qmd
           - profdev_courses.qmd
           - profdev_ColdBrew.qmd
