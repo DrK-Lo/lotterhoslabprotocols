@@ -8,7 +8,7 @@
 - [ ] Where do you emphasize what is novel about the approach? Try to emphasize novelty throughout the manuscript.
 - [ ] Avoid restating the results. Is there more than one sentence in this paragraph that is restating the results? If so, try to reduce it. A good way to stop yourself from repeating the results too much is to only allow one sentence per paragraph that restates the results
 - [ ] Try to avoid only citing literature on the study species.
-- [ ] If there is a sentence that does not have a citation, consider removing it
-- [ ] Is there a sentence for a broad, sweeping generalization? Make sure to cite large scale reviews or metaanalyses to support it. Citing a few empirical examples is also good, but make sure to .
-- [ ] Do you have a section on limitations and future directions? If not, consider adding it.
+- [ ] Avoid conjecture. If there is a sentence that does not have a citation, consider removing it.
+- [ ] Is there a sentence for a broad, sweeping generalization? Make sure to cite large scale reviews or metaanalyses to support it. Citing a few empirical examples is also good, but make sure that the citations align with the statement.
+- [ ] Do you have a section on limitations and future directions? If not, consider adding it. The structure can flexible, sometimes have limitations in each paragraph can also work.
 - [ ] Do you have a section on conclusions? If not, consider adding it.
