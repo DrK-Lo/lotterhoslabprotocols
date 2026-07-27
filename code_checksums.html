@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -76,10 +79,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6a358ec7f71e7b72aeeebd1cb1aadac4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3d715c5553fc7860771cb02643c21830.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -937,9 +940,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-with-filename-file">
 <pre><strong>get_hashes.sh</strong></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" data-filename="get_hashes.sh"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="fu">md5sum</span> file1 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="fu">md5sum</span> file2 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
-<span id="cb4-3"><a href="#cb4-3"></a><span class="fu">md5sum</span> file3 <span class="op">&gt;&gt;</span> md5sum_original.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" data-filename="get_hashes.sh"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-label="1"></a><span class="fu">md5sum</span> file1 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
+<span id="cb4-2"><a href="#cb4-2" aria-label="2"></a><span class="fu">md5sum</span> file2 <span class="op">&gt;&gt;</span> md5sum_original.txt</span>
+<span id="cb4-3"><a href="#cb4-3" aria-label="3"></a><span class="fu">md5sum</span> file3 <span class="op">&gt;&gt;</span> md5sum_original.txt</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Note that the commands use <code>&gt;&gt;</code>, this will append the output to the file <code>md5sum_original.txt</code>, as opposed to using <code>&gt;</code> which would overwrite the file every command/line.</p>
 <p>Then you can use GNU parallel and choose the number of CPUs you would like to use. For instance to use 36 CPUs:</p>
@@ -949,20 +952,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="code-with-filename-file">
 <pre><strong>create_get_hashes_sh_file.py</strong></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" data-filename="create_get_hashes_sh_file.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># get_files is a generic script that will return a list of the files for which you want hashes</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a>files <span class="op">=</span> get_files()</span>
-<span id="cb6-3"><a href="#cb6-3"></a></span>
-<span id="cb6-4"><a href="#cb6-4"></a><span class="co"># make a list of commands</span></span>
-<span id="cb6-5"><a href="#cb6-5"></a>commands <span class="op">=</span> []</span>
-<span id="cb6-6"><a href="#cb6-6"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
-<span id="cb6-7"><a href="#cb6-7"></a>    commands.append(<span class="ss">f'md5sum </span><span class="sc">{</span><span class="bu">file</span><span class="sc">}</span><span class="ss"> &gt;&gt; /path/to/md5sum_original.txt'</span>)</span>
-<span id="cb6-8"><a href="#cb6-8"></a>    </span>
-<span id="cb6-9"><a href="#cb6-9"></a><span class="co"># identify where you want commands to go</span></span>
-<span id="cb6-10"><a href="#cb6-10"></a>hash_file <span class="op">=</span> <span class="st">'/path/to/get_hashes.sh'</span></span>
-<span id="cb6-11"><a href="#cb6-11"></a></span>
-<span id="cb6-12"><a href="#cb6-12"></a><span class="co"># write commands to hash_file</span></span>
-<span id="cb6-13"><a href="#cb6-13"></a><span class="cf">with</span> <span class="bu">open</span>(hash_file, <span class="st">'w'</span>) <span class="im">as</span> o:</span>
-<span id="cb6-14"><a href="#cb6-14"></a>    o.write(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(commands))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" data-filename="create_get_hashes_sh_file.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-label="1"></a><span class="co"># get_files is a generic script that will return a list of the files for which you want hashes</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-label="2"></a>files <span class="op">=</span> get_files()</span>
+<span id="cb6-3"><a href="#cb6-3" aria-label="3"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-label="4"></a><span class="co"># make a list of commands</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-label="5"></a>commands <span class="op">=</span> []</span>
+<span id="cb6-6"><a href="#cb6-6" aria-label="6"></a><span class="cf">for</span> <span class="bu">file</span> <span class="kw">in</span> files:</span>
+<span id="cb6-7"><a href="#cb6-7" aria-label="7"></a>    commands.append(<span class="ss">f'md5sum </span><span class="sc">{</span><span class="bu">file</span><span class="sc">}</span><span class="ss"> &gt;&gt; /path/to/md5sum_original.txt'</span>)</span>
+<span id="cb6-8"><a href="#cb6-8" aria-label="8"></a>    </span>
+<span id="cb6-9"><a href="#cb6-9" aria-label="9"></a><span class="co"># identify where you want commands to go</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-label="10"></a>hash_file <span class="op">=</span> <span class="st">'/path/to/get_hashes.sh'</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-label="11"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-label="12"></a><span class="co"># write commands to hash_file</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-label="13"></a><span class="cf">with</span> <span class="bu">open</span>(hash_file, <span class="st">'w'</span>) <span class="im">as</span> o:</span>
+<span id="cb6-14"><a href="#cb6-14" aria-label="14"></a>    o.write(<span class="st">'</span><span class="ch">\n</span><span class="st">'</span>.join(commands))</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="step-2" class="level3">
