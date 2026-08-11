@@ -932,6 +932,8 @@ ul.task-list li input[type="checkbox"] {
 <h1>other options for the project command:</h1>
 <p><code>project lotterhos view members</code></p>
 <p>and more information here: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/commands.html</p>
+<p>To give a user access to a specific folder:</p>
+<p><code>setfacl -m u:username:rwx filename</code>, e.g. <code>setfacl -m u:prasad.meg:rwx CMEG-EAI-RNAandStructure-OysterSNParray</code></p>
 <section id="using-lotterhos-nodes-on-discovery" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="using-lotterhos-nodes-on-discovery"><strong>Using Lotterhos nodes on Discovery</strong></h2>
 <p>There is a lotterhos unix group, which you need to request Dr.&nbsp;L to add you to. It takes a day for the change to propagate so you should be able to see you are part of the ‘lotterhos’ group when typing <code>groups $USER</code> in the terminal. Once you confirm you are part of the unix group and have access to the nodes, you can submit regular jobs using the <code>--partition lotterhos</code></p>
