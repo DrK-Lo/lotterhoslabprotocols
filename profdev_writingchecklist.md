@@ -26,6 +26,7 @@
 - [ ] Are your results technically accurate but hard for readers to follow (e.g. a list of numbers, repetition)? If so, try to write in a way that conveys the message you want the reader to take home, rather than just report what you found. Bottom line up front.
 - [ ] Do you remind readers what study question is being addressed before you report the results? If not, make sure to remind them.
 - [ ] Are your figures color-blind friendly? If not, consider ways to modify them to make them so.
+- [ ] For scatterplots with trendlines: (i) do you show the confidence intervals? if not, add them. (ii) Do you use solid lines for significant slopes and dotted lines for non-significant slopes? Make sure to do so.
 
 ## Discussion
 - [ ] Restate thesis/question at beginning of discussion. Summarize the results without being too repetitive of the technical results, but you don't have to interpret them yet. It's OK to repeat things from the intro.
