@@ -7,11 +7,25 @@
   - [ ] Discussion - How do they start the discussion? How do they structure it? What kinds of studies do they compare and contrast to? How repetitive are they of the results? Do they cite figures again?
 
 ## Introduction
+- [ ] does your introduction start with the study species or study system in the first paragraph? If so, work on making the first paragraph broader about the concepts that many scientists will be interested in
+- [ ] where is the knowledge gap and novelty of the study explained? Try to put the bottom line up front, in the first 1-2 paragraphs
+- [ ] Does your first 1-2 paragraphs follow the baby-werewolf-silver bullet framework?
+- [ ] Do any paragraphs start on a negative note (e.g. species being threatened or declining?). If so, try to start on a positive note, e.g. the benefits of having the species in the ecosystem.
+- [ ] Do you have a conceptual figure that summarizes the patterns predicted by major hypotheses or questions? If not, consider adding one.
+- [ ] If you use jargon, do you introduce the term? If not, make sure to explain terms
 
 ## Methods
+- [ ] Do you explain why you choose the analysis that you did? e.g. to address X or answer question Y, we did Z. We chose Z because ABCD.
+- [ ] Do you need a conceptual figure to explain particularly complicated designs or pipelines?
+- [ ] When you explain models, do you specifically list the explanatory variables and response variables? E.g. "We modeled the response variable Y as a function of the explanatory variables A and Y with an ANCOVA."
+- [ ] when you explain a statistical model, do you list the assumptions and how you checked them? If not, make sure to do so.
+- [ ] Do you have a lot of models or different subsets of data that go into different analyses? If so, consider adding a table and giving each model a name that you can refer to.
 
 ## Results
-- [ ] Be prepared to go through 100 different versions of your figures. It's not just Katie (pers. comm. MLA).
+- [ ] Be prepared to go through 100 different versions of your figures. It's not just Katie who will make you do this (pers. comm. MLA).
+- [ ] Are your results technically accurate but hard for readers to follow (e.g. a list of numbers, repetition)? If so, try to write in a way that conveys the message you want the reader to take home, rather than just report what you found. Bottom line up front.
+- [ ] Do you remind readers what study question is being addressed before you report the results? If not, make sure to remind them.
+- [ ] 
 
 ## Discussion
 - [ ] Restate thesis/question at beginning of discussion. Summarize the results without being too repetitive of the technical results, but you don't have to interpret them yet. It's OK to repeat things from the intro.
