@@ -84,6 +84,11 @@ Here is a presentation from Research Computing on terminology and optimizing wor
 
 and more information here: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/commands.html
 
+To give a user access to a specific folder:
+
+`setfacl -m u:username:rwx filename`, e.g.
+`setfacl -m u:prasad.meg:rwx CMEG-EAI-RNAandStructure-OysterSNParray`
+
 
 ## **Using Lotterhos nodes on Discovery** {.unnumbered}
 
