@@ -8,6 +8,7 @@ Two main updates are
 
 1) ssh to Explorer not Discovery `ssh username@explorer.northeastern.edu`
 2) our lab storage `/projects/lotterhos` instead of `/work/lotterhos`.
+There is also 1TB storage for CMEG projects at `/projects/cmeg`
 
 
 We are pleased to share that PIs can now directly manage access for their research group members on Explorer. By adding a user to your project directory in /projects/, they will automatically gain access to the Explorer platform — no further action is needed.
