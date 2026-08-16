@@ -1,6 +1,10 @@
 
 # Writing Checklist
 
+In addition to the checklist below, read John Drake's
+[How to write a paper in 15 steps (short version).pdf](https://github.com/user-attachments/files/31115818/How.to.write.a.paper.in.15.steps.short.version.pdf)
+
+
 ## General
 - [ ] It can be helpful to find papers that you like or are similar, especially in a target journal, and find super clear and model your formatting/language after those papers.
   - [ ] Intro - Where do they state the knowledge gap? How is the intro organized? How soon do they mention the study species? How do they emphasize what is novel about their approach?
@@ -13,6 +17,7 @@
 - [ ] Do any paragraphs start on a negative note (e.g. species being threatened or declining?). If so, try to start on a positive note, e.g. the benefits of having the species in the ecosystem.
 - [ ] Do you have a conceptual figure that summarizes the patterns predicted by major hypotheses or questions? If not, consider adding one.
 - [ ] If you use jargon, do you introduce the term? If not, make sure to explain terms
+- [ ] Does each paragraph start with a topic sentence and end with a transition? Does every sentence in the paragraph relate to the topic?
 
 ## Methods
 - [ ] Do you explain why you choose the analysis that you did? e.g. to address X or answer question Y, we did Z. We chose Z because ABCD.
