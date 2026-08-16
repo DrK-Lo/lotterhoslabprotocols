@@ -46,4 +46,5 @@ In addition to the checklist below, read John Drake's
 - [ ] Do you have a section on limitations and/or future directions? If not, consider adding it. The structure can flexible, sometimes having limitations/future in each paragraph or subsection can also work.
 - [ ] Do you have a section on conclusions? If not, consider adding it.
 - [ ] Avoid directives. E.g. "we must do x", "we need to", etc.
+- [ ] Does each paragraph start with a topic sentence and end with a transition? Does every sentence in the paragraph relate to the topic?
       
