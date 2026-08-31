@@ -70,7 +70,6 @@ https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/index.html
 - run the project command to add new members
 `project lotterhos add members eaton.a`
 
-# other options for the project command:
 `project lotterhos view members`
 
 and more information here: https://rc-docs.northeastern.edu/en/explorer-main/managingprojects/commands.html
