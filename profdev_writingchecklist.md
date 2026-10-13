@@ -18,15 +18,18 @@ In addition to the checklist below, read John Drake's
 - [ ] Do you have a conceptual figure that summarizes the patterns predicted by major hypotheses or questions? If not, consider adding one.
 - [ ] If you use jargon, do you introduce the term? If not, make sure to explain terms
 - [ ] Does each paragraph start with a topic sentence and end with a transition? Does every sentence in the paragraph relate to the topic?
+- [ ] Do you have a list of study questions at the end of the introduction? If not, consider adding them.
 
 ## Methods
 - [ ] Do you explain why you choose the analysis that you did? e.g. to address X or answer question Y, we did Z. We chose Z because ABCD.
+    - [ ] Here is an example of a manuscript that lists the study questions at the end of the intro, connects the method to each study question, and connects the results to each study question. https://onlinelibrary.wiley.com/doi/10.1111/1755-0998.14008 
 - [ ] Do you need a conceptual figure to explain particularly complicated designs or pipelines?
 - [ ] When you explain models, do you specifically list the explanatory variables and response variables? E.g. "We modeled the response variable Y as a function of the explanatory variables A and Y with an ANCOVA."
 - [ ] when you explain a statistical model, do you list the assumptions and how you checked them? If not, make sure to do so.
 - [ ] Do you have a lot of models or different subsets of data that go into different analyses? If so, consider adding a table and giving each model a name that you can refer to.
 
-## Results
+## Results and Figures
+- [ ] Do the figures tell the story of your paper without the main text? If not, consider how to put your figures together so that they tell a story. Consider a conceptual figure that explains the sampling or experimental design. Make sure it shows the full replication.
 - [ ] Be prepared to go through 100 different versions of your figures. It's not just Katie who will make you do this (pers. comm. MLA).
 - [ ] Are your results technically accurate but hard for readers to follow (e.g. a list of numbers, repetition)? If so, try to write in a way that conveys the message you want the reader to take home, rather than just report what you found. Bottom line up front.
 - [ ] Do you remind readers what study question is being addressed before you report the results? If not, make sure to remind them.
